@@ -51,7 +51,8 @@ const JPO_KBO = (() => {
 
   function formatMoney(amount) {
     if (amount == null) return "—";
-    return "NT$" + Math.round(amount).toLocaleString("zh-TW");
+    const rounded = Math.round(amount) || 0; // 把 -0 正規化成 0,避免顯示「NT$-0」
+    return "NT$" + rounded.toLocaleString("zh-TW");
   }
 
   function formatDateTime(iso) {

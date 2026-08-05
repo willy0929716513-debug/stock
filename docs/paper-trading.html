@@ -32,7 +32,7 @@
       <select id="symbol-select" required></select>
     </label>
     <label>參考價格
-      <input type="number" id="price-input" step="0.01" min="0" required>
+      <input type="number" id="price-input" step="any" min="0" required>
     </label>
     <label>股數
       <input type="number" id="qty-input" step="1" min="1" value="10" required>
@@ -142,7 +142,17 @@
       : `<tr><td colspan="6" class="empty-state">尚無交易紀錄</td></tr>`;
   }
 
-  document.getElementById("trade-form").addEventListener("submit", (e) => {
+  const tradeForm = document.getElementById("trade-form");
+  tradeForm.addEventListener(
+    "invalid",
+    (e) => {
+      // 瀏覽器原生表單驗證失敗時預設是靜默不送出表單,這裡把訊息顯示出來避免使用者以為按鈕沒反應。
+      document.getElementById("trade-message").textContent = "下單失敗:" + (e.target.validationMessage || "輸入內容不正確");
+    },
+    { capture: true }
+  );
+
+  tradeForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const side = e.submitter?.dataset.side || "buy";
     const symbol = symbolSelect.value;
