@@ -1,0 +1,142 @@
+<title>今日建議 - JPO-KBO 量化訊號儀表板</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>今日建議</h1>
+  <p class="subtitle">多策略 + 多代理決策引擎的訊號彙整,以台股為主,輔以美股/ETF/黃金/原油/外匯/加密貨幣。</p>
+
+  <div class="disclaimer">
+    ⚠️ 本頁僅為量化訊號參考,不構成投資建議。訊號由歷史價格與技術指標計算,不保證未來表現,請自行評估風險。
+  </div>
+
+  <div class="grid" id="summary-stats"></div>
+
+  <h2>市場狀態</h2>
+  <div class="card" id="market-status">載入中…</div>
+
+  <h2>訊號清單</h2>
+  <div class="category-filters" id="category-filters"></div>
+  <div class="table-wrap">
+    <table id="signals-table">
+      <thead>
+        <tr>
+          <th>標的</th>
+          <th>分類</th>
+          <th>價格</th>
+          <th>漲跌幅</th>
+          <th>訊號</th>
+          <th>信心值</th>
+          <th>停損 / 停利</th>
+        </tr>
+      </thead>
+      <tbody id="signals-body">
+        <tr><td colspan="7" class="empty-state">載入中…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="subtitle" id="generated-at"></p>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 資料每 ~5 分鐘由 GitHub Actions 自動更新 &middot; 僅供參考,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+(async () => {
+  let data;
+  try {
+    data = await JPO_KBO.loadSignals();
+  } catch (err) {
+    document.getElementById("signals-body").innerHTML =
+      `<tr><td colspan="7" class="empty-state">資料尚未產生,請稍後再試(${JPO_KBO.escapeHTML(err.message)})</td></tr>`;
+    document.getElementById("market-status").textContent = "資料尚未產生";
+    return;
+  }
+
+  const signals = data.signals || [];
+  const buyCount = signals.filter((s) => s.signal === "buy").length;
+  const sellCount = signals.filter((s) => s.signal === "sell").length;
+  const holdCount = signals.filter((s) => s.signal === "hold").length;
+
+  document.getElementById("summary-stats").innerHTML = `
+    <div class="stat"><div class="label">追蹤標的</div><div class="value">${signals.length}</div></div>
+    <div class="stat"><div class="label">買進訊號</div><div class="value" style="color:var(--buy)">${buyCount}</div></div>
+    <div class="stat"><div class="label">賣出訊號</div><div class="value" style="color:var(--sell)">${sellCount}</div></div>
+    <div class="stat"><div class="label">觀望</div><div class="value">${holdCount}</div></div>
+  `;
+
+  const marketOpen = data.tw_market_open_today;
+  document.getElementById("market-status").innerHTML = `
+    台股今日狀態:${marketOpen ? "🟢 交易日" : "🔴 非交易日(週末或休市)"}
+    ${data.macro && data.macro.length ? "<br>總經指標:" + data.macro.map(m => `${JPO_KBO.escapeHTML(m.name)}=${m.value}`).join("、") : ""}
+  `;
+
+  const categories = ["all", ...new Set(signals.map((s) => s.category))];
+  const filterEl = document.getElementById("category-filters");
+  filterEl.innerHTML = categories.map((c, i) =>
+    `<button data-cat="${c}" class="${i === 0 ? "active" : ""}">${c === "all" ? "全部" : JPO_KBO.categoryLabel(c)}</button>`
+  ).join("");
+
+  function render(category) {
+    const rows = signals
+      .filter((s) => category === "all" || s.category === category)
+      .sort((a, b) => {
+        const rank = { buy: 0, sell: 0, hold: 1 };
+        if (rank[a.signal] !== rank[b.signal]) return rank[a.signal] - rank[b.signal];
+        return b.confidence - a.confidence;
+      });
+
+    if (rows.length === 0) {
+      document.getElementById("signals-body").innerHTML = `<tr><td colspan="7" class="empty-state">此分類目前沒有資料</td></tr>`;
+      return;
+    }
+
+    document.getElementById("signals-body").innerHTML = rows.map((s) => {
+      const risk = s.risk_levels
+        ? `${JPO_KBO.formatPrice(s.risk_levels.stop_loss)} / ${JPO_KBO.formatPrice(s.risk_levels.take_profit)}`
+        : "—";
+      const rationale = (s.opinions || [])
+        .filter((o) => o.rationale)
+        .map((o) => `<li>[${JPO_KBO.escapeHTML(o.agent)}] ${JPO_KBO.escapeHTML(o.rationale)}</li>`)
+        .join("");
+      return `
+        <tr>
+          <td><strong>${JPO_KBO.escapeHTML(s.symbol)}</strong><br><span style="color:var(--text-dim);font-size:0.8rem">${JPO_KBO.escapeHTML(s.name)}</span></td>
+          <td>${JPO_KBO.categoryLabel(s.category)}</td>
+          <td>${JPO_KBO.formatPrice(s.price)}</td>
+          <td class="${JPO_KBO.pctClass(s.change_pct)}">${JPO_KBO.formatPct(s.change_pct)}</td>
+          <td>${JPO_KBO.signalBadge(s.signal)}</td>
+          <td>${(s.confidence * 100).toFixed(0)}%<details><summary style="cursor:pointer;color:var(--text-dim);font-size:0.75rem">理由</summary><ul class="rationale-list">${rationale || "<li>無明確理由</li>"}</ul></details></td>
+          <td>${risk}</td>
+        </tr>
+      `;
+    }).join("");
+  }
+
+  filterEl.addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    filterEl.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+    e.target.classList.add("active");
+    render(e.target.dataset.cat);
+  });
+
+  render("all");
+  document.getElementById("generated-at").textContent = `資料更新時間:${JPO_KBO.formatDateTime(data.generated_at)}`;
+})();
+</script>

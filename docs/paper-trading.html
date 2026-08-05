@@ -1,0 +1,176 @@
+<title>瀏覽器模擬交易 - JPO-KBO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>瀏覽器模擬交易練習帳戶</h1>
+  <p class="subtitle">純前端 localStorage 儲存,起始資金 NT$10,000,000,可跨日持倉,只存在你目前這個瀏覽器裡。</p>
+
+  <div class="disclaimer">
+    ⚠️ 資料只存在瀏覽器 localStorage,換裝置、清除瀏覽紀錄、換瀏覽器都會遺失,不會同步到伺服器。<br>
+    這是「練習帳戶」,規則刻意與伺服器端 24 小時自動跟單帳戶不同(可跨日持倉、手動下單、資金規模大很多)。
+  </div>
+
+  <div class="grid" id="account-stats"></div>
+
+  <h2>下單</h2>
+  <form class="trade-form" id="trade-form">
+    <label>標的
+      <select id="symbol-select" required></select>
+    </label>
+    <label>參考價格
+      <input type="number" id="price-input" step="0.01" min="0" required>
+    </label>
+    <label>股數
+      <input type="number" id="qty-input" step="1" min="1" value="10" required>
+    </label>
+    <button type="submit" class="btn" data-side="buy" id="buy-btn">買進</button>
+    <button type="submit" class="btn danger" data-side="sell" id="sell-btn">賣出</button>
+  </form>
+  <p id="trade-message" class="subtitle"></p>
+
+  <h2>持股明細</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>標的</th><th>股數</th><th>平均成本</th><th>現價</th><th>市值</th><th>未實現損益</th></tr></thead>
+      <tbody id="holdings-body"><tr><td colspan="6" class="empty-state">尚無持股</td></tr></tbody>
+    </table>
+  </div>
+
+  <h2>交易紀錄</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>時間</th><th>標的</th><th>方向</th><th>股數</th><th>價格</th><th>金額</th></tr></thead>
+      <tbody id="tx-body"><tr><td colspan="6" class="empty-state">尚無交易紀錄</td></tr></tbody>
+    </table>
+  </div>
+
+  <button class="btn secondary" id="reset-btn" style="margin-top:1rem">重設帳戶(清空重來)</button>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 模擬交易資料僅存在你的瀏覽器 &middot; 僅供練習,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="assets/paper.js"></script>
+<script>
+(async () => {
+  let priceBySymbol = {};
+  let nameBySymbol = {};
+  try {
+    const data = await JPO_KBO.loadSignals();
+    (data.signals || []).forEach((s) => {
+      priceBySymbol[s.symbol] = s.price;
+      nameBySymbol[s.symbol] = s.name;
+    });
+  } catch {
+    // 沒有報價資料時仍允許使用者手動輸入價格下單
+  }
+
+  const symbolSelect = document.getElementById("symbol-select");
+  const symbols = Object.keys(priceBySymbol).sort();
+  symbolSelect.innerHTML = symbols.length
+    ? symbols.map((s) => `<option value="${s}">${s} ${JPO_KBO.escapeHTML(nameBySymbol[s])}</option>`).join("")
+    : `<option value="">目前沒有可用標的,請稍後再試</option>`;
+
+  const priceInput = document.getElementById("price-input");
+  function syncPrice() {
+    const price = priceBySymbol[symbolSelect.value];
+    if (price != null) priceInput.value = price;
+  }
+  symbolSelect.addEventListener("change", syncPrice);
+  syncPrice();
+
+  let account = PAPER_TRADING.loadAccount();
+
+  function render() {
+    const totalValue = PAPER_TRADING.portfolioValue(account, priceBySymbol);
+    const returnPct = ((totalValue - PAPER_TRADING.INITIAL_CASH) / PAPER_TRADING.INITIAL_CASH) * 100;
+
+    document.getElementById("account-stats").innerHTML = `
+      <div class="stat"><div class="label">現金</div><div class="value">${JPO_KBO.formatMoney(account.cash)}</div></div>
+      <div class="stat"><div class="label">總資產</div><div class="value">${JPO_KBO.formatMoney(totalValue)}</div></div>
+      <div class="stat"><div class="label">總報酬率</div><div class="value ${JPO_KBO.pctClass(returnPct)}">${JPO_KBO.formatPct(returnPct)}</div></div>
+      <div class="stat"><div class="label">持股檔數</div><div class="value">${Object.keys(account.holdings).length}</div></div>
+    `;
+
+    const holdings = Object.entries(account.holdings);
+    document.getElementById("holdings-body").innerHTML = holdings.length
+      ? holdings.map(([symbol, h]) => {
+          const price = priceBySymbol[symbol] ?? h.avg_cost;
+          const marketValue = price * h.qty;
+          const unrealized = (price - h.avg_cost) * h.qty;
+          return `
+            <tr>
+              <td><strong>${symbol}</strong><br><span style="color:var(--text-dim);font-size:0.8rem">${JPO_KBO.escapeHTML(h.name)}</span></td>
+              <td>${h.qty}</td>
+              <td>${JPO_KBO.formatPrice(h.avg_cost)}</td>
+              <td>${JPO_KBO.formatPrice(price)}</td>
+              <td>${JPO_KBO.formatMoney(marketValue)}</td>
+              <td class="${JPO_KBO.pctClass(unrealized)}">${JPO_KBO.formatMoney(unrealized)}</td>
+            </tr>
+          `;
+        }).join("")
+      : `<tr><td colspan="6" class="empty-state">尚無持股</td></tr>`;
+
+    const txs = [...account.transactions].reverse().slice(0, 50);
+    document.getElementById("tx-body").innerHTML = txs.length
+      ? txs.map((t) => `
+          <tr>
+            <td>${JPO_KBO.formatDateTime(t.at)}</td>
+            <td>${t.symbol}</td>
+            <td>${JPO_KBO.signalBadge(t.side === "buy" ? "buy" : "sell")}</td>
+            <td>${t.qty}</td>
+            <td>${JPO_KBO.formatPrice(t.price)}</td>
+            <td>${JPO_KBO.formatMoney(t.amount)}</td>
+          </tr>
+        `).join("")
+      : `<tr><td colspan="6" class="empty-state">尚無交易紀錄</td></tr>`;
+  }
+
+  document.getElementById("trade-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const side = e.submitter?.dataset.side || "buy";
+    const symbol = symbolSelect.value;
+    const price = parseFloat(priceInput.value);
+    const qty = parseInt(document.getElementById("qty-input").value, 10);
+    const msgEl = document.getElementById("trade-message");
+
+    if (!symbol) { msgEl.textContent = "請先選擇標的"; return; }
+
+    try {
+      if (side === "buy") {
+        account = PAPER_TRADING.buy(account, symbol, nameBySymbol[symbol] || symbol, qty, price);
+      } else {
+        account = PAPER_TRADING.sell(account, symbol, nameBySymbol[symbol] || symbol, qty, price);
+      }
+      msgEl.textContent = `已${side === "buy" ? "買進" : "賣出"} ${symbol} x ${qty}`;
+      render();
+    } catch (err) {
+      msgEl.textContent = "下單失敗:" + err.message;
+    }
+  });
+
+  document.getElementById("reset-btn").addEventListener("click", () => {
+    if (!confirm("確定要清空模擬帳戶、重新開始嗎?此動作無法復原。")) return;
+    account = PAPER_TRADING.resetAccount();
+    render();
+  });
+
+  render();
+})();
+</script>

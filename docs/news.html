@@ -1,0 +1,66 @@
+<title>新聞熱門股 - JPO-KBO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>📰 新聞熱門股</h1>
+  <p class="subtitle">依追蹤清單中各標的的最新新聞數量排序,新聞多代表市場關注度較高(不代表利多或利空)。</p>
+
+  <div class="disclaimer">
+    ⚠️ 新聞多寡只反映「討論熱度」,不代表方向性看法,請自行判讀新聞內容的正負面意義。
+  </div>
+
+  <div id="news-list"></div>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 資料每 ~5 分鐘由 GitHub Actions 自動更新 &middot; 僅供參考,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+(async () => {
+  let data;
+  try {
+    data = await JPO_KBO.loadSignals();
+  } catch (err) {
+    document.getElementById("news-list").innerHTML = `<div class="empty-state">資料尚未產生,請稍後再試</div>`;
+    return;
+  }
+
+  const signals = (data.signals || []).filter((s) => (s.news || []).length > 0);
+  signals.sort((a, b) => (b.news || []).length - (a.news || []).length);
+
+  if (signals.length === 0) {
+    document.getElementById("news-list").innerHTML = `<div class="empty-state">目前沒有抓到任何標的的新聞</div>`;
+    return;
+  }
+
+  document.getElementById("news-list").innerHTML = signals.map((s) => `
+    <div class="card">
+      <h2 style="margin-top:0">${JPO_KBO.escapeHTML(s.symbol)} ${JPO_KBO.escapeHTML(s.name)}
+        <span style="font-size:0.75rem;color:var(--text-dim);font-weight:400">(${s.news.length} 則新聞 · ${JPO_KBO.categoryLabel(s.category)})</span>
+      </h2>
+      ${s.news.map((n) => `
+        <div class="news-item">
+          <a href="${JPO_KBO.escapeHTML(n.link || "#")}" target="_blank" rel="noopener">${JPO_KBO.escapeHTML(n.title)}</a>
+          <div class="meta">${JPO_KBO.escapeHTML(n.publisher || "未知來源")}</div>
+        </div>
+      `).join("")}
+    </div>
+  `).join("");
+})();
+</script>

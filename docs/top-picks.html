@@ -1,0 +1,93 @@
+<title>最強推薦 - JPO-KBO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>🚀 最強推薦</h1>
+  <p class="subtitle">技術面訊號信心值最高的標的,以及 AI 前瞻潛力股分析。</p>
+
+  <div class="disclaimer">
+    ⚠️ 訊號信心值代表「多策略/多代理一致程度」,不是勝率或報酬率保證。<br>
+    🔮 AI 前瞻潛力股功能仍在除錯階段(Gemini API 回應格式偶爾解析失敗),下方若為空白是正常現象,不代表系統故障。
+  </div>
+
+  <h2>技術面高信心標的</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>標的</th><th>分類</th><th>價格</th><th>漲跌幅</th><th>訊號</th><th>信心值</th></tr>
+      </thead>
+      <tbody id="top-signals-body">
+        <tr><td colspan="6" class="empty-state">載入中…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>🔮 AI 前瞻潛力股</h2>
+  <div id="potential-picks"></div>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 資料每 ~5 分鐘由 GitHub Actions 自動更新 &middot; 僅供參考,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+(async () => {
+  let data;
+  try {
+    data = await JPO_KBO.loadSignals();
+  } catch (err) {
+    document.getElementById("top-signals-body").innerHTML = `<tr><td colspan="6" class="empty-state">資料尚未產生,請稍後再試</td></tr>`;
+    document.getElementById("potential-picks").innerHTML = `<div class="empty-state">資料尚未產生</div>`;
+    return;
+  }
+
+  const topSignals = (data.signals || [])
+    .filter((s) => s.signal !== "hold")
+    .sort((a, b) => b.confidence - a.confidence)
+    .slice(0, 10);
+
+  if (topSignals.length === 0) {
+    document.getElementById("top-signals-body").innerHTML = `<tr><td colspan="6" class="empty-state">目前沒有高信心的買進/賣出訊號</td></tr>`;
+  } else {
+    document.getElementById("top-signals-body").innerHTML = topSignals.map((s) => `
+      <tr>
+        <td><strong>${JPO_KBO.escapeHTML(s.symbol)}</strong><br><span style="color:var(--text-dim);font-size:0.8rem">${JPO_KBO.escapeHTML(s.name)}</span></td>
+        <td>${JPO_KBO.categoryLabel(s.category)}</td>
+        <td>${JPO_KBO.formatPrice(s.price)}</td>
+        <td class="${JPO_KBO.pctClass(s.change_pct)}">${JPO_KBO.formatPct(s.change_pct)}</td>
+        <td>${JPO_KBO.signalBadge(s.signal)}</td>
+        <td>${(s.confidence * 100).toFixed(0)}%</td>
+      </tr>
+    `).join("");
+  }
+
+  const picks = data.potential_picks || [];
+  if (picks.length === 0) {
+    document.getElementById("potential-picks").innerHTML =
+      `<div class="empty-state">目前沒有 AI 潛力股分析結果(可能是額度用盡、API 回應格式問題,或單純沒有符合條件的標的)</div>`;
+  } else {
+    document.getElementById("potential-picks").innerHTML = picks.map((p) => `
+      <div class="card">
+        <strong>${JPO_KBO.escapeHTML(p.symbol)}</strong>
+        <span style="color:var(--text-dim);font-size:0.8rem"> · 受惠於:${JPO_KBO.escapeHTML(p.beneficiary_of)}</span>
+        <p style="margin:0.5rem 0 0">${JPO_KBO.escapeHTML(p.reason)}</p>
+      </div>
+    `).join("");
+  }
+})();
+</script>
