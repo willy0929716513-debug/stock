@@ -85,3 +85,40 @@ def test_picks_highest_confidence_signal_when_multiple_candidates():
     state = run_step(state, signals, MORNING_UTC)
 
     assert state.position.symbol == "2330.TW"
+
+
+def test_non_tw_symbol_can_open_position_after_tw_market_close():
+    # 台股收盤後,美股/加密貨幣等非台股標的仍然可以開倉——
+    # 這是稽核真實 production 資料後發現的問題:原本的規則不分資產類別,
+    # 導致帳戶從上線以來因為每次執行都落在台灣晚上時段而完全沒進場過。
+    state = AutoTraderState()
+    signals = [{"symbol": "BTC-USD", "price": 100.0, "signal": "buy", "confidence": 0.5}]
+
+    state = run_step(state, signals, AFTER_CLOSE_UTC)
+
+    assert state.position is not None
+    assert state.position.symbol == "BTC-USD"
+
+
+def test_tw_stock_excluded_from_candidates_after_close_but_others_still_considered():
+    state = AutoTraderState()
+    signals = [
+        {"symbol": "2330.TW", "price": 1000.0, "signal": "buy", "confidence": 0.9},  # 信心值最高但已收盤
+        {"symbol": "AAPL", "price": 200.0, "signal": "buy", "confidence": 0.3},
+    ]
+
+    state = run_step(state, signals, AFTER_CLOSE_UTC)
+
+    assert state.position is not None
+    assert state.position.symbol == "AAPL"
+
+
+def test_non_tw_position_not_force_closed_after_tw_market_close():
+    state = AutoTraderState()
+    state = run_step(state, [{"symbol": "BTC-USD", "price": 100.0, "signal": "buy", "confidence": 0.5}], MORNING_UTC)
+    assert state.position is not None
+
+    state = run_step(state, [{"symbol": "BTC-USD", "price": 60500.0, "signal": "buy", "confidence": 0.5}], AFTER_CLOSE_UTC)
+
+    assert state.position is not None
+    assert state.position.symbol == "BTC-USD"

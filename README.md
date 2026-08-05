@@ -70,7 +70,10 @@ tests/                          # pytest 回歸測試
 
 1. **24 小時伺服器端自動跟單**(`src/pipeline/auto_trader.py`)
    - 起始資金 NT$10,000
-   - **當沖**:每天收盤前(台北時間 13:30)強制平倉,不留倉過夜
+   - **當沖(只套用在台股標的)**:台股收盤前(台北時間 13:30)強制平倉、收盤後不開新倉,
+     不留倉過夜。美股/ETF/商品期貨/外匯/加密貨幣**沒有**這個時間限制,隨時可以進出——
+     這是 2026-08-05 稽核真實 production log 後發現並修正的:原本規則不分資產類別,
+     導致帳戶從上線以來每次執行都落在台北時間傍晚/晚上(收盤後),一次都沒能進場過。
    - **Whipsaw 防護**:訊號需連續 2 次反轉才會真的平倉,單次反轉只累計次數、不平倉。
      這是為了避免單次雜訊來回抽單造成的手續費/滑價虧損。
    - 狀態存在 `docs/data/auto_trader_state.json`,由 GitHub Actions 定期更新並寫回 repo。
@@ -132,7 +135,7 @@ tests/                          # pytest 回歸測試
 
 ```bash
 pip install -r requirements.txt
-python -m pytest tests/ -v          # 跑回歸測試(40 個測試,不需要網路或 API key)
+python -m pytest tests/ -v          # 跑回歸測試(43 個測試,不需要網路或 API key)
 python -m src.pipeline.daily_run    # 手動跑一次 pipeline(需要網路)
 python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 signals_latest.json)
 ```

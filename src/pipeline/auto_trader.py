@@ -2,7 +2,13 @@
 
 策略特性(刻意與瀏覽器練習帳戶不同,見 docs/assets/paper.js):
 - 起始資金 NT$10,000
-- 當沖:收盤前強制平倉,不留倉過夜
+- 當沖:**只有台股標的**收盤前強制平倉,不留倉過夜。美股/ETF/商品期貨/外匯/
+  加密貨幣沒有這個時間限制,隨時可以進出——這是因為 2026-08-05 稽核真實
+  production 資料時發現,上線以來每一次執行(不管是排程還是手動觸發)全部
+  落在台北時間傍晚/晚上(收盤後),導致帳戶從上線到現在一次都沒能進場。
+  原本的規則不分資產類別,一律套用台股收盤時間,等於直接把美股/外匯/
+  加密貨幣的候選訊號也一起鎖死了,不符合「24小時」的設計初衷,所以改成
+  只對台股標的套用當沖規則。
 - Whipsaw 防護:訊號需「連續 2 次」出現反向,才會真的平倉。
   這是稽核實際自動跟單交易紀錄後找到的真因 —
   單次訊號反轉常常只是雜訊來回抽動(whipsaw),連續兩次反向出現時
@@ -17,11 +23,13 @@ from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
+from src.watchlist import symbol_category
+
 logger = logging.getLogger(__name__)
 
 TAIPEI_TZ = timezone(timedelta(hours=8))
 INITIAL_CASH = 10_000.0
-MARKET_CLOSE_TIME = time(13, 30)  # TWSE 收盤時間
+MARKET_CLOSE_TIME = time(13, 30)  # TWSE 收盤時間,只套用在台股標的上
 REVERSAL_CONFIRMATIONS_REQUIRED = 2
 
 STATE_PATH = Path("docs/data/auto_trader_state.json")
@@ -77,6 +85,10 @@ def is_past_market_close(now: datetime) -> bool:
     return local.time() >= MARKET_CLOSE_TIME
 
 
+def _is_tw_stock(symbol: str) -> bool:
+    return symbol_category(symbol) == "tw_stock"
+
+
 def _find_signal(signals: list[dict], symbol: str) -> Optional[dict]:
     for s in signals:
         if s["symbol"] == symbol:
@@ -84,8 +96,14 @@ def _find_signal(signals: list[dict], symbol: str) -> Optional[dict]:
     return None
 
 
-def _pick_best_signal(signals: list[dict]) -> Optional[dict]:
-    candidates = [s for s in signals if s.get("signal") in ("buy", "sell") and s.get("price")]
+def _pick_best_signal(signals: list[dict], now: datetime) -> Optional[dict]:
+    market_closed = is_past_market_close(now)
+    candidates = [
+        s for s in signals
+        if s.get("signal") in ("buy", "sell")
+        and s.get("price")
+        and not (market_closed and _is_tw_stock(s["symbol"]))  # 收盤後台股不開新倉,其他資產不受限
+    ]
     if not candidates:
         return None
     return max(candidates, key=lambda s: s["confidence"])
@@ -113,18 +131,19 @@ def _close_position(state: AutoTraderState, exit_price: float, now: datetime, re
 
 
 def run_step(state: AutoTraderState, signals: list[dict], now: datetime) -> AutoTraderState:
-    """依最新訊號更新自動跟單狀態(單一持倉,當沖規則)。
+    """依最新訊號更新自動跟單狀態(單一持倉,台股當沖規則)。
 
     決策順序:
-    1. 若已收盤且仍有持倉 -> 強制平倉(當沖規則)
+    1. 若持倉是台股標的、且已收盤 -> 強制平倉(當沖規則)。非台股標的沒有這條規則。
     2. 若有持倉且新訊號與持倉方向相反 -> 累計反轉次數,達到門檻才平倉
     3. 若有持倉且新訊號與持倉方向相同或為 hold -> 重置反轉次數,續抱
-    4. 若無持倉、未收盤,選信心最高的 buy/sell 訊號開倉
+    4. 若無持倉,選信心最高的 buy/sell 訊號開倉——已收盤的台股標的不列入候選,
+       但美股/ETF/商品期貨/外匯/加密貨幣不受收盤時間限制,隨時可以開倉
     """
     if state.position is not None:
         current = _find_signal(signals, state.position.symbol)
 
-        if is_past_market_close(now):
+        if _is_tw_stock(state.position.symbol) and is_past_market_close(now):
             exit_price = current["price"] if current else state.position.entry_price
             _close_position(state, exit_price, now, "當沖收盤強制平倉")
             return state
@@ -141,10 +160,7 @@ def run_step(state: AutoTraderState, signals: list[dict], now: datetime) -> Auto
             state.position.reversal_count = 0
         return state
 
-    if is_past_market_close(now):
-        return state
-
-    best = _pick_best_signal(signals)
+    best = _pick_best_signal(signals, now)
     if best is None:
         return state
 
