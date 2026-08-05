@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:23:05.095111+00:00",
+  "generated_at": "2026-08-05T20:46:36.705778+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Taiwan Semiconductor Manufacturing (TSM) Eyes Faster 3 Nanometer Output, Is The Stock Expensive?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-eyes-181131277.html"
+        },
+        {
           "title": "Sony's TSMC Sensor Venture Could Reshape Its Imaging Growth Story",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/sonys-tsmc-sensor-venture-could-140000817.html"
@@ -107,11 +112,6 @@
           "title": "Is TSMC (TSM) a Buy as Wall Street Analysts Look Optimistic?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-buy-wall-street-133004191.html"
-        },
-        {
-          "title": "Pinnacle West Capital Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/pinnacle-west-capital-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4018,9 +4018,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 309.12,
-      "change_pct": -0.08,
-      "volume": 21597367,
+      "price": 311.0,
+      "change_pct": 0.52,
+      "volume": 44330978,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4040,25 +4040,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.12%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "AI CapEx fears: Is big tech overspending?",
+          "title": "Price hikes on consumer electronics could be here to stay. Here's why.",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
+          "link": "https://finance.yahoo.com/video/price-hikes-consumer-electronics-could-195601126.html"
         },
         {
-          "title": "Amazon says it will share $600 million in Trump tariff refunds with some of its customers — will you get a payout?",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/economy/policy/articles/amazon-says-share-600-million-161500550.html"
+          "title": "Spain's 'Warren Buffett' Bets Against the Crowd--and It's Paying Off",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spains-warren-buffett-bets-against-192624264.html"
         },
         {
-          "title": "SpaceX’s $1T Goal and 3 More Shockers From Musk on the Earnings Call",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/spacex-stock-elon-musk-earnings-ai-89d68b40?siteid=yhoof2&yptr=yahoo"
+          "title": "Apple's Search for Cheaper Memory Just Hit a Wall",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apples-search-cheaper-memory-just-183310958.html"
         }
       ]
     },
@@ -4066,17 +4066,17 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 489.05,
-      "change_pct": -0.76,
-      "volume": 15034781,
+      "price": 487.46,
+      "change_pct": -1.09,
+      "volume": 30476807,
       "signal": "sell",
-      "confidence": 0.25,
+      "confidence": 0.24,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.41,
-          "rationale": "rsi:sell(RSI=78.0 進入超買區)"
+          "confidence": 0.4,
+          "rationale": "rsi:sell(RSI=77.2 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4088,14 +4088,68 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.62%)"
+          "rationale": "波動度正常(ATR/價格=3.66%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 489.05,
-        "stop_loss": 515.633,
-        "take_profit": 444.745,
-        "atr": 17.722,
+        "entry_price": 487.46,
+        "stop_loss": 514.2071,
+        "take_profit": 442.8814,
+        "atr": 17.8314,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Microsoft Copilot EVP on AI growth and adoption",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/microsoft-copilot-evp-ai-growth-201300563.html"
+        },
+        {
+          "title": "Tech stocks today: SpaceX, AMD top quarterly results, but fail to impress Wall Street. Shares sink",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-amd-top-quarterly-results-but-fail-to-impress-wall-street-shares-sink-140419479.html"
+        },
+        {
+          "title": "AI CapEx fears: Is big tech overspending?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "us_stock",
+      "price": 219.22,
+      "change_pct": 3.43,
+      "volume": 154681869,
+      "signal": "buy",
+      "confidence": 0.34,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.57,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.65%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 219.22,
+        "stop_loss": 207.2082,
+        "take_profit": 239.2396,
+        "atr": 8.0079,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4105,57 +4159,9 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-amd-top-quarterly-results-but-fail-to-impress-wall-street-shares-sink-140419479.html"
         },
         {
-          "title": "AI CapEx fears: Is big tech overspending?",
+          "title": "AMD sinks on revenue forecasts as competition with Nvidia grows more apparent",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
-        },
-        {
-          "title": "What’s the ‘Ceiling’ on How Much Microsoft, Amazon, and Google Can Spend on AI?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/videos/whats-the-ceiling-on-how-much-microsoft-amazon-and-google-can-spend-on-ai/"
-        }
-      ]
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA",
-      "category": "us_stock",
-      "price": 220.3099,
-      "change_pct": 3.95,
-      "volume": 83851917,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.07,
-          "rationale": "moving_average_cross:buy(5日均線上穿20日均線); bollinger_band:sell(價格 220.31 觸及上軌 219.85)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.63%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": [
-        {
-          "title": "Tech stocks today: SpaceX, AMD top quarterly results, but fail to impress Wall Street. Shares sink",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-amd-top-quarterly-results-but-fail-to-impress-wall-street-shares-sink-140419479.html"
-        },
-        {
-          "title": "SpaceX stock declines post-earnings. Are investors worried about AI spending?",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
+          "link": "https://finance.yahoo.com/video/amd-sinks-revenue-forecasts-competition-134557567.html"
         },
         {
           "title": "'This was not an exceptional result': Strategist talks AMD earnings & 'shocking' capex",
@@ -4168,9 +4174,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 323.2701,
-      "change_pct": -1.25,
-      "volume": 13432022,
+      "price": 321.55,
+      "change_pct": -1.77,
+      "volume": 27506311,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4178,7 +4184,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.42,
-          "rationale": "rsi:buy(RSI=26.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4190,31 +4196,31 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.83%)"
+          "rationale": "波動度正常(ATR/價格=4.85%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 323.2701,
-        "stop_loss": 299.8723,
-        "take_profit": 362.2665,
-        "atr": 15.5986,
+        "entry_price": 321.55,
+        "stop_loss": 298.1361,
+        "take_profit": 360.5732,
+        "atr": 15.6093,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Uber stock drops as bookings guidance disappoints; CEO bets on robotaxi push to grow overall business",
+          "title": "SpaceX stock hits new all-time low as AI capex jumps in Q2",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/stocks/article/uber-stock-drops-as-bookings-guidance-disappoints-ceo-bets-on-robotaxi-push-to-grow-overall-business-150729446.html"
+          "link": "https://finance.yahoo.com/technology/article/spacex-stock-hits-new-all-time-low-as-ai-capex-jumps-in-q2-132323178.html"
         },
         {
-          "title": "Base Power CEO on $1B funding, AI's soaring energy demand, and taking on Tesla",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/power-ceo-1b-funding-ais-142200900.html"
+          "title": "SpaceX And Tesla Earnings Have A Similar Theme: Capex Spending",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/spacex-earnings-tesla-elon-musk-tech-space/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "SpaceX’s $1T Goal and 3 More Shockers From Musk on the Earnings Call",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/spacex-stock-elon-musk-earnings-ai-89d68b40?siteid=yhoof2&yptr=yahoo"
+          "title": "Musk Says These Tesla Products Will 'Dramatically' Increase Starlink Demand",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/tesla-spacex-starlink-elon-musk-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4222,9 +4228,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 363.985,
-      "change_pct": -3.62,
-      "volume": 22834233,
+      "price": 362.43,
+      "change_pct": -4.03,
+      "volume": 46331184,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4244,25 +4250,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.90%)"
+          "rationale": "波動度正常(ATR/價格=3.92%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Uber stock drops as bookings guidance disappoints; CEO bets on robotaxi push to grow overall business",
+          "title": "Tech stocks today: SpaceX, AMD top quarterly results, but fail to impress Wall Street. Shares sink",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/stocks/article/uber-stock-drops-as-bookings-guidance-disappoints-ceo-bets-on-robotaxi-push-to-grow-overall-business-150729446.html"
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-amd-top-quarterly-results-but-fail-to-impress-wall-street-shares-sink-140419479.html"
+        },
+        {
+          "title": "This SpaceX number is spooking already skittish investors",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html"
         },
         {
           "title": "AI CapEx fears: Is big tech overspending?",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
-        },
-        {
-          "title": "What’s the ‘Ceiling’ on How Much Microsoft, Amazon, and Google Can Spend on AI?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/videos/whats-the-ceiling-on-how-much-microsoft-amazon-and-google-can-spend-on-ai/"
         }
       ]
     },
@@ -4270,9 +4276,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.67,
-      "change_pct": 0.04,
-      "volume": 21428366,
+      "price": 769.79,
+      "change_pct": -0.2,
+      "volume": 43789419,
       "signal": "sell",
       "confidence": 0.35,
       "opinions": [
@@ -4280,7 +4286,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.59,
-          "rationale": "bollinger_band:sell(價格 771.67 觸及上軌 769.41)"
+          "rationale": "bollinger_band:sell(價格 769.79 觸及上軌 768.89)"
         },
         {
           "agent": "macro",
@@ -4296,10 +4302,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 771.67,
-        "stop_loss": 786.1182,
-        "take_profit": 747.5896,
-        "atr": 9.6321,
+        "entry_price": 769.79,
+        "stop_loss": 784.281,
+        "take_profit": 745.6382,
+        "atr": 9.6607,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4324,16 +4330,16 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.73,
-      "change_pct": -0.29,
-      "volume": 19590245,
+      "price": 717.3,
+      "change_pct": -0.9,
+      "volume": 30756730,
       "signal": "buy",
-      "confidence": 0.37,
+      "confidence": 0.38,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.62,
+          "confidence": 0.64,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -4346,31 +4352,31 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.14%)"
+          "rationale": "波動度正常(ATR/價格=2.18%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 721.73,
-        "stop_loss": 698.5443,
-        "take_profit": 760.3728,
-        "atr": 15.4571,
+        "entry_price": 717.3,
+        "stop_loss": 693.8389,
+        "take_profit": 756.4018,
+        "atr": 15.6407,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+          "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/economy/policy/articles/feds-schmid-delivers-blunt-warning-192244449.html"
+        },
+        {
+          "title": "Alphabet Is Still Up 16% in 2026. What Will It Take to Get GOOGL Stock Above $400?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/05/alphabet-is-still-up-16-in-2026-what-will-it-take-to-get-googl-stock-above-400/"
+        },
+        {
+          "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html"
-        },
-        {
-          "title": "This $39.77 Billion Leveraged ETF Jumped 10.09% Tuesday, But Volatility Decay Cost Holders Millions",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/04/this-39-77-billion-leveraged-etf-jumped-10-09-tuesday-but-volatility-decay-cost-holders-millions/"
-        },
-        {
-          "title": "Covered-Call Trap: Why JEPQ’s Income Distributions Are Taxed Like a Paycheck, Not Dividends",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/04/covered-call-trap-why-jepqs-income-distributions-are-taxed-like-a-paycheck-not-dividends/"
+          "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-us-equities-171710006.html"
         }
       ]
     },
@@ -4378,9 +4384,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4292.7998,
-      "change_pct": 4.82,
-      "volume": 173784,
+      "price": 4308.8999,
+      "change_pct": 5.21,
+      "volume": 202557,
       "signal": "sell",
       "confidence": 0.47,
       "opinions": [
@@ -4388,7 +4394,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.79,
-          "rationale": "rsi:sell(RSI=71.2 進入超買區); bollinger_band:sell(價格 4292.80 觸及上軌 4204.82)"
+          "rationale": "rsi:sell(RSI=71.8 進入超買區); bollinger_band:sell(價格 4308.90 觸及上軌 4211.29)"
         },
         {
           "agent": "macro",
@@ -4404,10 +4410,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4292.7998,
-        "stop_loss": 4396.6855,
-        "take_profit": 4119.657,
-        "atr": 69.2571,
+        "entry_price": 4308.8999,
+        "stop_loss": 4413.0749,
+        "take_profit": 4135.2749,
+        "atr": 69.45,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4422,9 +4428,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
         },
         {
-          "title": "NUGT and AGQ Jump Big as Gold and Silver Rally",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/05/nugt-and-agq-jump-big-as-gold-and-silver-rally/"
+          "title": "TSX Closer: The Index Tops 36,000 for the First Time as Metals Rally Offsets Energy Weakness",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-tops-36-202911459.html"
         }
       ]
     },
@@ -4432,9 +4438,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 75.57,
-      "change_pct": -0.26,
-      "volume": 174754,
+      "price": 74.95,
+      "change_pct": -1.08,
+      "volume": 233759,
       "signal": "sell",
       "confidence": 0.37,
       "opinions": [
@@ -4453,32 +4459,32 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.37,
-          "rationale": "波動度過高(ATR/價格=6.84%),建議降低部位或觀望"
+          "confidence": 0.38,
+          "rationale": "波動度過高(ATR/價格=6.89%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 75.57,
-        "stop_loss": 83.3196,
-        "take_profit": 62.6539,
+        "entry_price": 74.95,
+        "stop_loss": 82.6996,
+        "take_profit": 62.0339,
         "atr": 5.1664,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Luxury boat demand stays afloat, resilient in spite of rising oil prices",
+          "title": "How oil prices caused Hawaiian Tropic parent company's earnings results to fall short",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/luxury-boat-demand-stays-afloat-213000172.html"
+          "link": "https://finance.yahoo.com/video/oil-prices-caused-hawaiian-tropic-202055723.html"
         },
         {
-          "title": "Stock Market Today: Dow Charges Higher In Mixed Trade; Disney Clears Key Level (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-data-amd-stock-spacex-earnings/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Top Midday Stories: SpaceX Shares Fall After Inaugural Results; AMD Drops Despite Strong Q2 EPS, Revenue",
+          "title": "TSX Closer: The Index Tops 36,000 for the First Time as Metals Rally Offsets Energy Weakness",
           "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-spacex-shares-155758915.html"
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-tops-36-202911459.html"
+        },
+        {
+          "title": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-inch-113116518.html"
         }
       ]
     },
@@ -4486,8 +4492,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.295,
-      "change_pct": -0.31,
+      "price": 32.265,
+      "change_pct": -0.4,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4534,17 +4540,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.617,
-      "change_pct": 0.06,
+      "price": 157.759,
+      "change_pct": 0.15,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.47,
+      "confidence": 0.46,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.78,
-          "rationale": "rsi:buy(RSI=25.0 進入超賣區); bollinger_band:buy(價格 157.62 觸及下軌 157.82)"
+          "confidence": 0.77,
+          "rationale": "rsi:buy(RSI=26.2 進入超賣區); bollinger_band:buy(價格 157.76 觸及下軌 157.85)"
         },
         {
           "agent": "macro",
@@ -4560,9 +4566,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.617,
-        "stop_loss": 155.2601,
-        "take_profit": 161.5452,
+        "entry_price": 157.759,
+        "stop_loss": 155.4021,
+        "take_profit": 161.6872,
         "atr": 1.5713,
         "risk_reward_ratio": 1.67
       },
@@ -4588,9 +4594,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64646.9102,
-      "change_pct": 0.92,
-      "volume": 22857484288,
+      "price": 64899.4609,
+      "change_pct": 1.32,
+      "volume": 23439591424,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4610,25 +4616,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.27%)"
+          "rationale": "波動度正常(ATR/價格=2.29%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Crypto's next big move: The catalysts investors should be watching",
+          "title": "Bitcoin faces its toughest month: Can it rally in August?",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/cryptos-next-big-move-catalysts-152400344.html"
+          "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
         },
         {
-          "title": "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-5-2026-crypto-prices-rise-as-investors-watch-hormuz-negotiations-and-jobs-report-closely-124640660.html"
+          "title": "Block Earnings Top Views. Guidance Underwhelms. Shares Fall.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/block-stock-square-xyz-block-earnings-q22026/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "CLSK Stock In Focus After CleanSpark Signs $6.6B AI Data Center Lease In First HPC Deal Ahead Of Earnings Report",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/clsk-stock-in-focus-after-clean-spark-signs-6-6-b-ai-data-center-lease-in-first-hpc-deal-ahead-of-earnings-report/cZo4HuYRJI6"
+          "title": "Sector Update: Financial Stocks Advance Late Afternoon",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-afternoon-195238828.html"
         }
       ]
     },
@@ -4636,9 +4642,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1887.88,
-      "change_pct": 1.04,
-      "volume": 8138501632,
+      "price": 1920.49,
+      "change_pct": 2.79,
+      "volume": 9586199552,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4658,25 +4664,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.08%)"
+          "rationale": "波動度正常(ATR/價格=3.18%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Bitcoin faces its toughest month: Can it rally in August?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
+        },
         {
           "title": "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-5-2026-crypto-prices-rise-as-investors-watch-hormuz-negotiations-and-jobs-report-closely-124640660.html"
         },
         {
-          "title": "XRP Price to $4.90? Bullish Calls Grow as Holders Can Now Borrow RLUSD Against FXRP",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/xrp-price-grow-holders-fxrp-collateral-borrow-rlusd-ethereum/"
-        },
-        {
-          "title": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked"
+          "title": "Why Hasn’t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/05/why-hasnt-xrp-hit-new-highs-like-bitcoin-and-ethereum-despite-ripple-becoming-a-top-financial-institution/"
         }
       ]
     }
