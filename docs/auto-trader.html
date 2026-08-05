@@ -1,0 +1,106 @@
+<title>24小時自動跟單 - JPO-KBO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>24 小時自動跟單模擬帳戶</h1>
+  <p class="subtitle">伺服器端全自動模擬帳戶,起始資金 NT$10,000,由 GitHub Actions 每 ~5 分鐘依訊號自動進出。</p>
+
+  <div class="disclaimer">
+    ⚠️ 這是「模擬」帳戶,沒有真實下單,純粹用來驗證訊號策略的實際表現。<br>
+    規則刻意設計如下(與下方瀏覽器練習帳戶不同):<br>
+    · <strong>當沖</strong>:每天收盤前強制平倉,不留倉過夜<br>
+    · <strong>Whipsaw 防護</strong>:訊號需連續 2 次反轉才會真的平倉,避免單次雜訊來回抽單造成手續費/滑價虧損
+    (此機制是稽核實際交易紀錄後找到的真因才加上的)
+  </div>
+
+  <div class="grid" id="account-stats"></div>
+
+  <h2>目前持倉</h2>
+  <div class="card" id="current-position">載入中…</div>
+
+  <h2>交易紀錄</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>標的</th><th>方向</th><th>進場價</th><th>出場價</th><th>股數</th><th>損益</th><th>平倉原因</th><th>時間</th></tr>
+      </thead>
+      <tbody id="trade-history-body">
+        <tr><td colspan="8" class="empty-state">載入中…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 資料每 ~5 分鐘由 GitHub Actions 自動更新 &middot; 僅供參考,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+(async () => {
+  let state;
+  try {
+    state = await JPO_KBO.loadAutoTraderState();
+  } catch (err) {
+    document.getElementById("account-stats").innerHTML = `<div class="empty-state">尚無自動跟單資料(帳戶尚未開始交易或資料尚未產生)</div>`;
+    document.getElementById("current-position").textContent = "無資料";
+    document.getElementById("trade-history-body").innerHTML = `<tr><td colspan="8" class="empty-state">尚無交易紀錄</td></tr>`;
+    return;
+  }
+
+  const INITIAL_CASH = 10000;
+  const history = state.trade_history || [];
+  const realizedPnl = history.reduce((sum, t) => sum + (t.pnl || 0), 0);
+  const totalReturn = ((state.cash - INITIAL_CASH) / INITIAL_CASH) * 100;
+
+  document.getElementById("account-stats").innerHTML = `
+    <div class="stat"><div class="label">目前現金</div><div class="value">${JPO_KBO.formatMoney(state.cash)}</div></div>
+    <div class="stat"><div class="label">總報酬率</div><div class="value ${JPO_KBO.pctClass(totalReturn)}">${JPO_KBO.formatPct(totalReturn)}</div></div>
+    <div class="stat"><div class="label">已實現損益</div><div class="value ${JPO_KBO.pctClass(realizedPnl)}">${JPO_KBO.formatMoney(realizedPnl)}</div></div>
+    <div class="stat"><div class="label">交易次數</div><div class="value">${history.length}</div></div>
+  `;
+
+  if (state.position) {
+    const p = state.position;
+    document.getElementById("current-position").innerHTML = `
+      <strong>${JPO_KBO.escapeHTML(p.symbol)}</strong> ${JPO_KBO.signalBadge(p.direction)}<br>
+      進場價:${JPO_KBO.formatPrice(p.entry_price)} · 股數:${p.qty} · 開倉時間:${JPO_KBO.formatDateTime(p.opened_at)}<br>
+      反轉確認次數:${p.reversal_count} / 2
+    `;
+  } else {
+    document.getElementById("current-position").textContent = "目前無持倉,等待下一個訊號";
+  }
+
+  if (history.length === 0) {
+    document.getElementById("trade-history-body").innerHTML = `<tr><td colspan="8" class="empty-state">尚無交易紀錄</td></tr>`;
+  } else {
+    const rows = [...history].reverse();
+    document.getElementById("trade-history-body").innerHTML = rows.map((t) => `
+      <tr>
+        <td>${JPO_KBO.escapeHTML(t.symbol)}</td>
+        <td>${JPO_KBO.signalBadge(t.direction)}</td>
+        <td>${JPO_KBO.formatPrice(t.entry_price)}</td>
+        <td>${JPO_KBO.formatPrice(t.exit_price)}</td>
+        <td>${t.qty}</td>
+        <td class="${JPO_KBO.pctClass(t.pnl)}">${JPO_KBO.formatMoney(t.pnl)}</td>
+        <td>${JPO_KBO.escapeHTML(t.close_reason)}</td>
+        <td>${JPO_KBO.formatDateTime(t.closed_at)}</td>
+      </tr>
+    `).join("");
+  }
+})();
+</script>

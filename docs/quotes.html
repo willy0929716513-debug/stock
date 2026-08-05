@@ -1,0 +1,92 @@
+<title>即時報價 - JPO-KBO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+
+<header class="site-header">
+  <span class="brand">📈 JPO-KBO</span>
+  <nav class="main-nav">
+    <a href="index.html">今日建議</a>
+    <a href="news.html">📰 新聞熱門股</a>
+    <a href="top-picks.html">🚀 最強推薦</a>
+    <a href="auto-trader.html">24小時自動跟單</a>
+    <a href="paper-trading.html">瀏覽器模擬交易</a>
+    <a href="quotes.html">即時報價</a>
+  </nav>
+</header>
+
+<main>
+  <h1>即時報價</h1>
+  <p class="subtitle">追蹤清單所有標的的最新報價,每 ~5 分鐘由 GitHub Actions 更新一次(非真正的即時逐筆報價)。</p>
+
+  <div class="category-filters" id="category-filters"></div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>標的</th><th>名稱</th><th>分類</th><th>價格</th><th>漲跌幅</th><th>成交量</th></tr>
+      </thead>
+      <tbody id="quotes-body">
+        <tr><td colspan="6" class="empty-state">載入中…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="subtitle" id="generated-at"></p>
+  <button class="btn secondary" id="refresh-btn">重新整理</button>
+</main>
+
+<footer class="site-footer">
+  JPO-KBO 量化交易訊號儀表板 &middot; 資料每 ~5 分鐘由 GitHub Actions 自動更新 &middot; 僅供參考,不構成投資建議
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+async function load() {
+  let data;
+  try {
+    data = await JPO_KBO.loadSignals();
+  } catch (err) {
+    document.getElementById("quotes-body").innerHTML = `<tr><td colspan="6" class="empty-state">資料尚未產生,請稍後再試</td></tr>`;
+    return;
+  }
+
+  const signals = data.signals || [];
+  const categories = ["all", ...new Set(signals.map((s) => s.category))];
+  const filterEl = document.getElementById("category-filters");
+  filterEl.innerHTML = categories.map((c, i) =>
+    `<button data-cat="${c}" class="${i === 0 ? "active" : ""}">${c === "all" ? "全部" : JPO_KBO.categoryLabel(c)}</button>`
+  ).join("");
+
+  function render(category) {
+    const rows = signals
+      .filter((s) => category === "all" || s.category === category)
+      .sort((a, b) => a.symbol.localeCompare(b.symbol));
+
+    document.getElementById("quotes-body").innerHTML = rows.length
+      ? rows.map((s) => `
+          <tr>
+            <td><strong>${JPO_KBO.escapeHTML(s.symbol)}</strong></td>
+            <td>${JPO_KBO.escapeHTML(s.name)}</td>
+            <td>${JPO_KBO.categoryLabel(s.category)}</td>
+            <td>${JPO_KBO.formatPrice(s.price)}</td>
+            <td class="${JPO_KBO.pctClass(s.change_pct)}">${JPO_KBO.formatPct(s.change_pct)}</td>
+            <td>${s.volume != null ? s.volume.toLocaleString("zh-TW") : "—"}</td>
+          </tr>
+        `).join("")
+      : `<tr><td colspan="6" class="empty-state">此分類目前沒有資料</td></tr>`;
+  }
+
+  filterEl.addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    filterEl.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+    e.target.classList.add("active");
+    render(e.target.dataset.cat);
+  });
+
+  render("all");
+  document.getElementById("generated-at").textContent = `資料更新時間:${JPO_KBO.formatDateTime(data.generated_at)}`;
+}
+
+document.getElementById("refresh-btn").addEventListener("click", load);
+load();
+</script>
