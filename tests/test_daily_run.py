@@ -20,7 +20,7 @@ def _trending_df(n=40, seed=2):
 def test_build_signals_produces_expected_shape(monkeypatch):
     fake_df = _trending_df()
 
-    monkeypatch.setattr(daily_run, "fetch_history", lambda symbol, **kwargs: fake_df)
+    monkeypatch.setattr(daily_run, "fetch_history_batch", lambda symbols, **kwargs: {s: fake_df for s in symbols})
     monkeypatch.setattr(daily_run, "fetch_news", lambda symbol, **kwargs: [])
     monkeypatch.setattr(daily_run, "fetch_all_macro", lambda: [])
     monkeypatch.setattr(daily_run, "analyze_potential_stocks", lambda news_by_symbol: [])
@@ -43,7 +43,7 @@ def test_build_signals_produces_expected_shape(monkeypatch):
 
 
 def test_build_signals_skips_symbols_with_no_history(monkeypatch):
-    monkeypatch.setattr(daily_run, "fetch_history", lambda symbol, **kwargs: pd.DataFrame())
+    monkeypatch.setattr(daily_run, "fetch_history_batch", lambda symbols, **kwargs: {})
     monkeypatch.setattr(daily_run, "fetch_news", lambda symbol, **kwargs: [])
     monkeypatch.setattr(daily_run, "fetch_all_macro", lambda: [])
     monkeypatch.setattr(daily_run, "analyze_potential_stocks", lambda news_by_symbol: [])
@@ -57,7 +57,7 @@ def test_build_signals_skips_symbols_with_no_history(monkeypatch):
 def test_build_signals_continues_when_potential_stock_analysis_raises(monkeypatch):
     fake_df = _trending_df()
 
-    monkeypatch.setattr(daily_run, "fetch_history", lambda symbol, **kwargs: fake_df)
+    monkeypatch.setattr(daily_run, "fetch_history_batch", lambda symbols, **kwargs: {s: fake_df for s in symbols})
     monkeypatch.setattr(daily_run, "fetch_news", lambda symbol, **kwargs: [])
     monkeypatch.setattr(daily_run, "fetch_all_macro", lambda: [])
 

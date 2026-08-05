@@ -19,7 +19,7 @@ from src.agents.decision_engine import DecisionEngine
 from src.config import SIGNALS_LATEST_PATH
 from src.data.providers.fred_provider import fetch_all_macro
 from src.data.providers.llm_provider import analyze_potential_stocks
-from src.data.providers.market_data import fetch_history, fetch_news, fetch_quote
+from src.data.providers.market_data import fetch_history_batch, fetch_news, fetch_quote
 from src.data.providers.twse_calendar import is_trading_day
 from src.risk.stop_loss import compute_risk_levels
 from src.watchlist import all_symbols, symbol_category, symbol_name
@@ -36,12 +36,16 @@ def build_signals() -> dict:
     signals = []
     news_by_symbol: dict[str, list[str]] = {}
 
-    for symbol in all_symbols():
-        df = fetch_history(symbol)
+    symbols = all_symbols()
+    history_by_symbol = fetch_history_batch(symbols)
+    logger.info("fetched history for %d/%d symbols", len(history_by_symbol), len(symbols))
+
+    for symbol in symbols:
+        df = history_by_symbol.get(symbol)
         news = fetch_news(symbol)
         news_by_symbol[symbol] = [n.title for n in news]
 
-        if df.empty:
+        if df is None or df.empty:
             logger.warning("skipping %s: no history data available", symbol)
             continue
 

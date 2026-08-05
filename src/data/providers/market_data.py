@@ -44,6 +44,58 @@ def fetch_history(symbol: str, period: str = "6mo", interval: str = "1d") -> pd.
         return pd.DataFrame()
 
 
+def fetch_history_batch(symbols: list[str], period: str = "6mo", interval: str = "1d") -> dict[str, pd.DataFrame]:
+    """批次抓取多檔標的的歷史 K 線。
+
+    追蹤清單擴大到上百檔之後,如果每檔都各別打一次 API,每次 pipeline 執行
+    就是上百個 HTTP 請求,容易被 Yahoo Finance 限流(429)。改用 yfinance 的
+    批次下載一次抓多檔,大幅減少請求數。批次下載中缺漏或整批失敗的標的,
+    會退回逐檔呼叫 fetch_history() 重試一次,維持跟原本一樣「單一標的失敗
+    不影響其他標的」的保證。
+    """
+    results: dict[str, pd.DataFrame] = {}
+    if not symbols:
+        return results
+
+    try:
+        data = yf.download(
+            tickers=symbols,
+            period=period,
+            interval=interval,
+            group_by="ticker",
+            threads=True,
+            progress=False,
+            auto_adjust=True,
+        )
+    except Exception:
+        logger.exception("batch history download failed for %d symbols, falling back to per-symbol fetch", len(symbols))
+        data = None
+
+    if data is not None and not data.empty:
+        if isinstance(data.columns, pd.MultiIndex):
+            top_level = set(data.columns.get_level_values(0))
+            for symbol in symbols:
+                if symbol in top_level:
+                    df = data[symbol].dropna(how="all")
+                    if not df.empty:
+                        results[symbol] = df
+        elif len(symbols) == 1:
+            # yf.download 對單一標的可能回傳單層欄位(非 MultiIndex)
+            df = data.dropna(how="all")
+            if not df.empty:
+                results[symbols[0]] = df
+
+    missing = [s for s in symbols if s not in results]
+    for symbol in missing:
+        df = fetch_history(symbol, period=period, interval=interval)
+        if not df.empty:
+            results[symbol] = df
+        else:
+            logger.warning("no history data for %s (batch + per-symbol fallback both empty)", symbol)
+
+    return results
+
+
 def fetch_quote(symbol: str, history: Optional[pd.DataFrame] = None) -> Optional[Quote]:
     df = history if history is not None else fetch_history(symbol, period="5d", interval="1d")
     if df.empty:
