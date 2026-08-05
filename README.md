@@ -18,7 +18,7 @@ src/
   config.py                  # 環境變數與路徑設定
   watchlist.py                # 追蹤清單(台股/美股/ETF/商品/外匯/加密貨幣)
   data/providers/
-    market_data.py            # yfinance 報價 + 新聞
+    market_data.py            # yfinance 報價 + 新聞(含批次下載,降低大量標的的限流風險)
     twse_calendar.py          # 台股休市日偵測(手動維護清單,見下方「已知限制」)
     fred_provider.py          # FRED 總體經濟指標
     llm_provider.py           # Gemini AI 前瞻潛力股分析
@@ -78,7 +78,13 @@ tests/                          # pytest 回歸測試
 2. **瀏覽器端練習帳戶**(`docs/assets/paper.js`)
    - 起始資金 NT$10,000,000
    - 純前端 `localStorage`,不會同步到伺服器,換裝置/清瀏覽紀錄會遺失
-   - 可跨日持倉,由使用者自己手動下單(不是自動化)
+   - 可跨日持倉,預設由使用者自己手動下單,也可以在頁面上開啟「🤖 自動交易模式」
+     依訊號自動下單(買進訊號且信心值 ≥ 30%、尚未持有該標的時,動用目前現金 5%
+     開倉;賣出訊號且有持倉時全部出清),手動下單功能在自動模式開啟時仍然可用,
+     兩者不互斥。
+   - **誠實限制**:自動模式只會在「這個瀏覽器分頁保持開啟」時執行(靠 60 秒一次
+     的計時器重新檢查訊號),分頁關掉或裝置睡眠就不會有任何動作 —— 這**不是**
+     真正的 24 小時背景自動交易,只有上面第 1 點的伺服器端帳戶才是全天候的。
 
 ## 🔮 AI 前瞻潛力股(除錯中的功能)
 
@@ -108,8 +114,16 @@ tests/                          # pytest 回歸測試
   `willy0929716513-debug/JPO-KBO` 的存取權限。策略門檻、Agent 權重等參數是重新設計的
   簡化版本,還沒有經過原本專案的實際交易紀錄驗證,上線後應持續觀察並校正。
 - **本 sandbox 開發環境無法連上 Yahoo Finance**(proxy 阻擋),所以 `market_data.py` 的
-  實際抓取行為只驗證了「失敗時優雅降級」(回傳空 DataFrame、不 crash),沒有驗證過
-  真實資料格式。GitHub Actions runner 有正常網路,部署後請留意第一次執行的 log。
+  實際抓取行為只驗證了「失敗時優雅降級」(回傳空 DataFrame、不 crash)。已在合併後
+  的第一次真實 GitHub Actions 執行驗證過:23 檔標的全部成功抓到資料,pipeline 全程
+  約 8 秒。**擴充到 ~120 檔台股之後,還沒有跑過一次真實的大量標的請求**,理論上
+  `fetch_history_batch()` 的批次下載(`yf.download`)可以大幅降低請求數與限流風險,
+  但實際限流狀況要看合併後第一次真實執行的 Actions log 才能確認,不要用猜的。
+- **台股清單(`WATCHLIST["tw_stock"]`)是人工整理的,不是即時抓取的**,approximate
+  台灣50(0050)+中型100(0051)成分股,原因同樣是開發環境連不上 TWSE/Wikipedia
+  等外部網站查證即時成分股。這兩個指數約每年 6 月、12 月會定期審核調整,清單可能
+  已經過時,需要定期人工核對。若清單中有下市或改名的舊代號,pipeline 會在 log 印出
+  `no history data for X` 警告並跳過,不會讓整條 pipeline 掛掉。
 - `docs/data/signals_latest.json`、`docs/data/auto_trader_state.json` 由 GitHub Actions 自動寫入,
   本地開發不需要、也不應該手動 commit 這兩個檔案的內容變動。
 
@@ -117,7 +131,7 @@ tests/                          # pytest 回歸測試
 
 ```bash
 pip install -r requirements.txt
-python -m pytest tests/ -v          # 跑回歸測試(35 個測試,不需要網路或 API key)
+python -m pytest tests/ -v          # 跑回歸測試(40 個測試,不需要網路或 API key)
 python -m src.pipeline.daily_run    # 手動跑一次 pipeline(需要網路)
 python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 signals_latest.json)
 ```
@@ -135,5 +149,6 @@ python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 s
 
 ## 追蹤清單
 
-目前 `src/watchlist.py` 涵蓋台股 10 檔(含 0050)、美股 5 檔、2 檔 ETF、黃金/原油期貨、
-2 組外匯、2 種加密貨幣,可依需求增減。
+目前 `src/watchlist.py` 涵蓋台股 108 檔(approximate 台灣50+中型100 成分股,見上方
+「已知限制」的誠實說明)、美股 5 檔、2 檔 ETF、黃金/原油期貨、2 組外匯、2 種加密貨幣,
+共 121 檔標的,可依需求增減。

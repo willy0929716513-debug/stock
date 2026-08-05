@@ -1,10 +1,10 @@
-<title>瀏覽器模擬交易 - JPO-KBO</title>
+<title>瀏覽器模擬交易 - stock</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="assets/style.css">
 
 <header class="site-header">
-  <span class="brand">📈 JPO-KBO</span>
+  <span class="brand">📈 stock</span>
   <nav class="main-nav">
     <a href="index.html">今日建議</a>
     <a href="news.html">📰 新聞熱門股</a>
@@ -21,12 +21,22 @@
 
   <div class="disclaimer">
     ⚠️ 資料只存在瀏覽器 localStorage,換裝置、清除瀏覽紀錄、換瀏覽器都會遺失,不會同步到伺服器。<br>
-    這是「練習帳戶」,規則刻意與伺服器端 24 小時自動跟單帳戶不同(可跨日持倉、手動下單、資金規模大很多)。
+    這是「練習帳戶」,規則刻意與伺服器端 24 小時自動跟單帳戶不同(可跨日持倉、資金規模大很多)。<br>
+    🤖 <strong>自動模式的限制</strong>:自動模式只會在「這個瀏覽器分頁保持開啟」時執行,分頁關掉或電腦睡眠就不會有任何動作——
+    這不是真正的 24 小時背景自動交易。真正全天候自動化的是「24小時自動跟單」那個伺服器端帳戶。
+  </div>
+
+  <div class="card" style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
+    <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer">
+      <input type="checkbox" id="auto-mode-toggle">
+      <span>🤖 自動交易模式(依訊號自動下單,信心值需 ≥ 30%)</span>
+    </label>
+    <span id="auto-mode-status" style="color:var(--text-dim);font-size:0.85rem"></span>
   </div>
 
   <div class="grid" id="account-stats"></div>
 
-  <h2>下單</h2>
+  <h2>手動下單</h2>
   <form class="trade-form" id="trade-form">
     <label>標的
       <select id="symbol-select" required></select>
@@ -53,8 +63,8 @@
   <h2>交易紀錄</h2>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>時間</th><th>標的</th><th>方向</th><th>股數</th><th>價格</th><th>金額</th></tr></thead>
-      <tbody id="tx-body"><tr><td colspan="6" class="empty-state">尚無交易紀錄</td></tr></tbody>
+      <thead><tr><th>時間</th><th>標的</th><th>方向</th><th>來源</th><th>股數</th><th>價格</th><th>金額</th></tr></thead>
+      <tbody id="tx-body"><tr><td colspan="7" class="empty-state">尚無交易紀錄</td></tr></tbody>
     </table>
   </div>
 
@@ -62,7 +72,7 @@
 </main>
 
 <footer class="site-footer">
-  JPO-KBO 量化交易訊號儀表板 &middot; 模擬交易資料僅存在你的瀏覽器 &middot; 僅供練習,不構成投資建議
+  stock 量化交易訊號儀表板 &middot; 模擬交易資料僅存在你的瀏覽器 &middot; 僅供練習,不構成投資建議
 </footer>
 
 <script src="assets/common.js"></script>
@@ -71,15 +81,28 @@
 (async () => {
   let priceBySymbol = {};
   let nameBySymbol = {};
-  try {
-    const data = await JPO_KBO.loadSignals();
-    (data.signals || []).forEach((s) => {
-      priceBySymbol[s.symbol] = s.price;
-      nameBySymbol[s.symbol] = s.name;
-    });
-  } catch {
-    // 沒有報價資料時仍允許使用者手動輸入價格下單
+  let latestSignals = [];
+  let latestGeneratedAt = null;
+
+  async function refreshSignals() {
+    try {
+      const data = await JPO_KBO.loadSignals();
+      latestSignals = data.signals || [];
+      latestGeneratedAt = data.generated_at || null;
+      priceBySymbol = {};
+      nameBySymbol = {};
+      latestSignals.forEach((s) => {
+        priceBySymbol[s.symbol] = s.price;
+        nameBySymbol[s.symbol] = s.name;
+      });
+      return true;
+    } catch {
+      // 沒有報價資料時仍允許使用者手動輸入價格下單
+      return false;
+    }
   }
+
+  await refreshSignals();
 
   const symbolSelect = document.getElementById("symbol-select");
   const symbols = Object.keys(priceBySymbol).sort();
@@ -100,6 +123,11 @@
   function render() {
     const totalValue = PAPER_TRADING.portfolioValue(account, priceBySymbol);
     const returnPct = ((totalValue - PAPER_TRADING.INITIAL_CASH) / PAPER_TRADING.INITIAL_CASH) * 100;
+
+    document.getElementById("auto-mode-toggle").checked = !!account.autoMode;
+    document.getElementById("auto-mode-status").textContent = account.autoMode
+      ? "開啟中 · 只在此分頁開啟時運作"
+      : "關閉(目前為純手動練習帳戶)";
 
     document.getElementById("account-stats").innerHTML = `
       <div class="stat"><div class="label">現金</div><div class="value">${JPO_KBO.formatMoney(account.cash)}</div></div>
@@ -134,12 +162,24 @@
             <td>${JPO_KBO.formatDateTime(t.at)}</td>
             <td>${t.symbol}</td>
             <td>${JPO_KBO.signalBadge(t.side === "buy" ? "buy" : "sell")}</td>
+            <td>${t.auto ? "🤖 自動" : "手動"}</td>
             <td>${t.qty}</td>
             <td>${JPO_KBO.formatPrice(t.price)}</td>
             <td>${JPO_KBO.formatMoney(t.amount)}</td>
           </tr>
         `).join("")
-      : `<tr><td colspan="6" class="empty-state">尚無交易紀錄</td></tr>`;
+      : `<tr><td colspan="7" class="empty-state">尚無交易紀錄</td></tr>`;
+  }
+
+  function runAutoTradeIfEnabled() {
+    if (!account.autoMode || !latestGeneratedAt) return;
+    const { account: updated, executed } = PAPER_TRADING.autoTrade(account, latestSignals, latestGeneratedAt);
+    account = updated;
+    if (executed.length > 0) {
+      const desc = executed.map((e) => `${e.symbol} ${e.side === "buy" ? "買進" : "賣出"} x${e.qty}`).join("、");
+      document.getElementById("trade-message").textContent = `🤖 自動模式執行了 ${executed.length} 筆交易:${desc}`;
+    }
+    render();
   }
 
   const tradeForm = document.getElementById("trade-form");
@@ -181,6 +221,23 @@
     render();
   });
 
+  document.getElementById("auto-mode-toggle").addEventListener("change", (e) => {
+    account = PAPER_TRADING.setAutoMode(account, e.target.checked);
+    render();
+    if (e.target.checked) runAutoTradeIfEnabled();
+  });
+
   render();
+  runAutoTradeIfEnabled();
+
+  // 分頁保持開啟時,每 60 秒重新檢查一次訊號有沒有更新(pipeline 約每 5 分鐘才產生新資料,
+  // 所以這裡用 lastAutoProcessedAt 去重,避免同一批訊號被重複觸發交易)。
+  // 分頁關閉或背景休眠後這個計時器就不會再執行,這正是「自動模式僅限分頁開啟時運作」的原因。
+  setInterval(async () => {
+    const ok = await refreshSignals();
+    if (!ok) return;
+    render();
+    runAutoTradeIfEnabled();
+  }, 60_000);
 })();
 </script>
