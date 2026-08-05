@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:40:32.388434+00:00",
+  "generated_at": "2026-08-05T12:19:21.366992+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4333,14 +4333,14 @@
           "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
         },
         {
-          "title": "Canada's Shopify forecasts quarterly revenue above estimates",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/canadas-shopify-forecasts-quarterly-revenue-110923561.html"
+          "title": "Microsoft Extends Winning Streak Amid Earnings Surge; Is The Stock A Buy Now?",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/microsoft-msft-stock-earnings-buy-now-august-2026/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "History Says Software-as-a-Service (SaaS) Stocks Will Be the Ultimate AI Winners. 3 SaaS Stocks to Buy Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/05/history-says-software-as-a-service-saas-stocks-wil/"
+          "title": "Stocks mostly rise tracking earnings, US-Iran hopes",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html"
         }
       ]
     },
@@ -4392,9 +4392,9 @@
           "link": "https://finance.yahoo.com/video/not-exceptional-result-strategist-talks-205254303.html"
         },
         {
-          "title": "Is Now the Time for Investors to Pull Money Out of S&P 500 Index Funds?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/05/is-now-the-time-for-investors-to-pull-money-out-of/"
+          "title": "Amazon’s AWS CEO Just Sent Shivers Down the Spines of AI Bears. Supply is Mostly ‘Spoken For’ Through 2028.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/05/amazons-aws-ceo-just-sent-shivers-down-the-spines-of-ai-bears-supply-is-mostly-spoken-for-through-2028/"
         }
       ]
     },
@@ -4436,19 +4436,19 @@
       },
       "news": [
         {
-          "title": "SpaceX's stock drops on as AI capex costs jump in Q2",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/spacexs-stock-drops-on-as-ai-capex-costs-jump-in-q2-132323178.html"
-        },
-        {
           "title": "SpaceX profitability will come down to Starlink's success: Lee Munson",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/spacex-profitability-come-down-starlinks-150000084.html"
         },
         {
-          "title": "S&P 500, Dow futures inch up as Mideast hopes offset SpaceX, AMD drag",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-inch-113116518.html"
+          "title": "Tesla vs. Rocket Lab: Which Is the Better Innovation Stock to Own for the Next 10 Years?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/05/tesla-vs-rocket-lab-which-is-the-better-innovation/"
+        },
+        {
+          "title": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4612,17 +4612,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4235.6001,
-      "change_pct": 3.42,
-      "volume": 83259,
+      "price": 4257.0,
+      "change_pct": 3.95,
+      "volume": 95114,
       "signal": "sell",
-      "confidence": 0.37,
+      "confidence": 0.36,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.61,
-          "rationale": "bollinger_band:sell(價格 4235.60 觸及上軌 4183.19)"
+          "confidence": 0.6,
+          "rationale": "bollinger_band:sell(價格 4257.00 觸及上軌 4190.99)"
         },
         {
           "agent": "macro",
@@ -4634,17 +4634,22 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.49%)"
+          "rationale": "波動度正常(ATR/價格=1.52%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4235.6001,
-        "stop_loss": 4330.3679,
-        "take_profit": 4077.6537,
-        "atr": 63.1786,
+        "entry_price": 4257.0,
+        "stop_loss": 4353.7714,
+        "take_profit": 4095.7143,
+        "atr": 64.5143,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Gold prices today, Wednesday, August 5, 2026: Gold prices are holding, awaiting news on Hormuz deal",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
+        },
         {
           "title": "Gold prices today, Tuesday, August 4, 2026: Gold remains above $4,100 with Iran threats looming",
           "publisher": "Yahoo Personal Finance",
@@ -4654,11 +4659,6 @@
           "title": "Bitcoin’s Real Gold Standard Test is Just Starting in 2026",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/bitcoin-digital-gold-sanctions-test/"
-        },
-        {
-          "title": "Landowners Near Meta’s New Data Center Struck Gold. Retirees Renting on Social Security Could Be Priced Out.",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/social-security/2026/08/05/landowners-near-metas-new-data-center-struck-gold-retirees-renting-on-social-security-could-be-priced-out/"
         }
       ]
     },
@@ -4666,9 +4666,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.2,
-      "change_pct": 0.57,
-      "volume": 70754,
+      "price": 76.11,
+      "change_pct": 0.45,
+      "volume": 77079,
       "signal": "sell",
       "confidence": 0.38,
       "opinions": [
@@ -4688,13 +4688,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.36,
-          "rationale": "波動度過高(ATR/價格=6.78%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.79%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 76.2,
-        "stop_loss": 83.9496,
-        "take_profit": 63.2839,
+        "entry_price": 76.11,
+        "stop_loss": 83.8596,
+        "take_profit": 63.1939,
         "atr": 5.1664,
         "risk_reward_ratio": 1.67
       },
@@ -4710,9 +4710,9 @@
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Persian Gulf Outlook, Tech Strength Hoist Wall Street Pre-Bell; Asia Up, Europe Flat",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/articles/persian-gulf-outlook-tech-strength-110805752.html"
+          "title": "ONEOK Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/oneok-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4720,8 +4720,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.29,
-      "change_pct": -0.33,
+      "price": 32.284,
+      "change_pct": -0.35,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4768,8 +4768,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.561,
-      "change_pct": 0.02,
+      "price": 157.513,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.47,
@@ -4778,7 +4778,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.78,
-          "rationale": "rsi:buy(RSI=24.5 進入超賣區); bollinger_band:buy(價格 157.56 觸及下軌 157.80)"
+          "rationale": "rsi:buy(RSI=24.2 進入超賣區); bollinger_band:buy(價格 157.51 觸及下軌 157.79)"
         },
         {
           "agent": "macro",
@@ -4794,9 +4794,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.561,
-        "stop_loss": 155.2041,
-        "take_profit": 161.4892,
+        "entry_price": 157.513,
+        "stop_loss": 155.1561,
+        "take_profit": 161.4412,
         "atr": 1.5713,
         "risk_reward_ratio": 1.67
       },
@@ -4807,14 +4807,14 @@
           "link": "https://finance.yahoo.com/video/us-dollar-shaken-intervention-strengthen-153000392.html"
         },
         {
+          "title": "US dollar to retain strength, yen intervention no game changer: Reuters poll",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-retain-strength-yen-115205220.html"
+        },
+        {
           "title": "Nudge from Bessent firms case for BOJ rate hike in September",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/economy/policy/articles/nudge-bessent-firms-case-boj-094949082.html"
-        },
-        {
-          "title": "BOJ debated mounting price risks even upon hiking rates in June, minutes show",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/economy/policy/articles/boj-debated-mounting-price-risks-011356557.html"
         }
       ]
     },
@@ -4822,9 +4822,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64053.1992,
-      "change_pct": -0.0,
-      "volume": 23137722368,
+      "price": 64257.2109,
+      "change_pct": 0.31,
+      "volume": 22713090048,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4844,7 +4844,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.26%)"
+          "rationale": "波動度正常(ATR/價格=2.25%)"
         }
       ],
       "risk_levels": null,
@@ -4855,14 +4855,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-4-2026-investors-closely-monitoring-clarity-act-progress-131534156.html"
         },
         {
-          "title": "UNI Whale Accumulation Hits Fastest Pace in 5 Years on Binance",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/uni-whale-accumulation-five-year-high/"
+          "title": "Morning Minute: Jim Cramer Sells His Bitcoin Over Quantum Fears",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/374947/morning-minute-jim-cramer-sells-his-bitcoin-over-quantum-fears"
         },
         {
-          "title": "CLARITY Act Has Hours Left: Bitcoin Price Fall Predicted as Matt Hougan Warns of ‘Walking Dead’ Limbo",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/clarity-act-hours-left-bitcoin-price-fall-risk-matt-hougan-limbo/"
+          "title": "GPU Debt Mismatches Could Trigger the Crisis That Sends Bitcoin to $1 Million, Says Hayes",
+          "publisher": "Coinspeaker",
+          "link": "https://www.coinspeaker.com/ai-credit-crisis-bitcoin-hayes-prediction/"
         }
       ]
     },
@@ -4870,9 +4870,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1867.85,
-      "change_pct": -0.03,
-      "volume": 7943212032,
+      "price": 1874.17,
+      "change_pct": 0.31,
+      "volume": 7836068864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4892,7 +4892,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.08%)"
+          "rationale": "波動度正常(ATR/價格=3.07%)"
         }
       ],
       "risk_levels": null,
