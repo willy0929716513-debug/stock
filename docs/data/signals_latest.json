@@ -1,0 +1,1136 @@
+{
+  "generated_at": "2026-08-05T11:09:27.949042+00:00",
+  "tw_market_open_today": true,
+  "macro": [],
+  "signals": [
+    {
+      "symbol": "2330.TW",
+      "name": "台積電",
+      "category": "tw_stock",
+      "price": 2405.0,
+      "change_pct": 3.66,
+      "volume": 35214105,
+      "signal": "buy",
+      "confidence": 0.43,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.71,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.56%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 2405.0,
+        "stop_loss": 2276.4286,
+        "take_profit": 2619.2857,
+        "atr": 85.7143,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Bull of the Day: Amkor (AMKR)",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amkor-amkr-092000813.html"
+        },
+        {
+          "title": "Taiwan Semiconductor's AI Push Hits Surprising Milestone",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductors-ai-push-hits-202554417.html"
+        },
+        {
+          "title": "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-wants-20-custom-ai-182411966.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2317.TW",
+      "name": "鴻海",
+      "category": "tw_stock",
+      "price": 258.5,
+      "change_pct": 3.4,
+      "volume": 72402392,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=4.42%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "NVDA Stock Bucks Selloff Premarket On SpaceX Boost, Foxconn’s Sales Update",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-bucks-selloff-premarket-on-space-x-boost-foxconn-s-sales-update/cZo4Z8cRJII"
+        },
+        {
+          "title": "AI demand pushes Foxconn's monthly revenue to record in July",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/ai/articles/foxconns-monthly-revenue-hits-record-074534993.html"
+        },
+        {
+          "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2454.TW",
+      "name": "聯發科",
+      "category": "tw_stock",
+      "price": 4000.0,
+      "change_pct": 3.49,
+      "volume": 12418971,
+      "signal": "buy",
+      "confidence": 0.37,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.61,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.49,
+          "rationale": "波動度過高(ATR/價格=7.43%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 4000.0,
+        "stop_loss": 3554.2857,
+        "take_profit": 4742.8571,
+        "atr": 297.1429,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Intel's Packaging Progress Points to Google",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/intels-packaging-progress-points-google-195322309.html"
+        },
+        {
+          "title": "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-wants-20-custom-ai-182411966.html"
+        },
+        {
+          "title": "MediaTek Inc (TPE:2454) (Q2 2026) Earnings Call Highlights: AI ASIC Momentum Drives Record ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-inc-tpe-2454-q2-010316865.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2308.TW",
+      "name": "台達電",
+      "category": "tw_stock",
+      "price": 1650.0,
+      "change_pct": 1.85,
+      "volume": 13495992,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.59,
+          "rationale": "波動度過高(ATR/價格=7.94%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Asia’s Other AI Winners: The Thailand and Taiwan Funds Riding the Same Boom as Korea’s 105% Run",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/07/16/asias-other-ai-winners-the-thailand-and-taiwan-funds-riding-the-same-boom-as-koreas-105-run/"
+        },
+        {
+          "title": "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/07/07/musashi-seimitsu-might-be-the-missing-piece-in-power-distribution-for-datacenters/"
+        },
+        {
+          "title": "Chip Stocks Rebound Amid Dip Buying",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-060926/card/chip-stocks-rebound-amid-dip-buying-JeqOxhaeDRG3PCt6Nx6Y?siteid=yhoof2&yptr=yahoo"
+        }
+      ]
+    },
+    {
+      "symbol": "2412.TW",
+      "name": "中華電",
+      "category": "tw_stock",
+      "price": 137.0,
+      "change_pct": 0.37,
+      "volume": 11883955,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.69%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Chunghwa Telecom Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/chunghwa-telecom-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "title": "Chunghwa Telecom Co., Ltd (CHT) A Top Jim Simon’s Dividend Stock to Buy on Robust Demand for High-Quality Network Infrastructure",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/chunghwa-telecom-co-ltd-cht-133410110.html"
+        },
+        {
+          "title": "TIIAY or CHT: Which Is the Better Value Stock Right Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tiiay-cht-better-value-stock-154004673.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2882.TW",
+      "name": "國泰金",
+      "category": "tw_stock",
+      "price": 100.5,
+      "change_pct": 1.31,
+      "volume": 13738083,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.26%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Cathay Financial Holding Co Ltd (TPE:2882) Q1 2026 Earnings Call Highlights: Strong Start with ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathay-financial-holding-co-ltd-170038104.html"
+        },
+        {
+          "title": "Cheapest and priciest airlines for extra legroom revealed",
+          "publisher": "Yahoo Finance UK",
+          "link": "https://uk.finance.yahoo.com/news/airlines-extra-legroom-seat-flights-cost-cheapest-123120937.html"
+        },
+        {
+          "title": "Cathay Financial Holding Co Ltd (TPE:2882) Q3 2025 Earnings Call Highlights: Strong Performance ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/news/cathay-financial-holding-co-ltd-150031592.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2603.TW",
+      "name": "長榮",
+      "category": "tw_stock",
+      "price": 205.0,
+      "change_pct": -0.49,
+      "volume": 5459687,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.33%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "3008.TW",
+      "name": "大立光",
+      "category": "tw_stock",
+      "price": 4575.0,
+      "change_pct": 5.05,
+      "volume": 4733631,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.07,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線); bollinger_band:sell(價格 4575.00 觸及上軌 4474.53)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.19,
+          "rationale": "波動度過高(ATR/價格=5.94%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "2379.TW",
+      "name": "瑞昱",
+      "category": "tw_stock",
+      "price": 751.0,
+      "change_pct": 3.87,
+      "volume": 3789344,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.37%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "GMI Cloud Seeks $635 Million GPU-Backed AI Infrastructure Loan",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/gmi-cloud-seeks-635-million-123917053.html"
+        },
+        {
+          "title": "RealTek sees mixed demand trends as second-half visibility remains limited (RLTQY)",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/29305/realtek-sees-mixed-demand-trends-as-second-half-visibility-remains-limited-rltqy"
+        },
+        {
+          "title": "Nikki Haley Says If China Controls Taiwan, The Communist Party Gains Leverage Over World's Critical Supply Chain: 'Threat To Global Freedom'",
+          "publisher": "Benzinga",
+          "link": "https://www.yahoo.com/news/politics/articles/nikki-haley-says-china-controls-104637413.html"
+        }
+      ]
+    },
+    {
+      "symbol": "0050.TW",
+      "name": "元大台灣50",
+      "category": "tw_stock",
+      "price": 103.8,
+      "change_pct": 1.76,
+      "volume": 168559261,
+      "signal": "buy",
+      "confidence": 0.35,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.59,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.51%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 103.8,
+        "stop_loss": 98.3321,
+        "take_profit": 112.9132,
+        "atr": 3.6453,
+        "risk_reward_ratio": 1.67
+      },
+      "news": []
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "category": "us_stock",
+      "price": 309.38,
+      "change_pct": 1.96,
+      "volume": 67882600,
+      "signal": "sell",
+      "confidence": 0.37,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.61,
+          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.18%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 309.38,
+        "stop_loss": 324.1336,
+        "take_profit": 284.7907,
+        "atr": 9.8357,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "AI CapEx fears: Is big tech overspending?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
+        },
+        {
+          "title": "Apple's Quarterly iPhone Sales Were Even Better Than They Seem",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/05/apple-quarterly-iphone-sales-better-than-seem/"
+        },
+        {
+          "title": "Tech Melt-Up Drives $3.5 Trillion Nasdaq 100 Gain in Four Days",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tech-melt-drives-3-5-092612137.html"
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "category": "us_stock",
+      "price": 492.81,
+      "change_pct": 1.06,
+      "volume": 50258300,
+      "signal": "sell",
+      "confidence": 0.39,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.65,
+          "rationale": "rsi:sell(RSI=80.6 進入超買區); bollinger_band:sell(價格 492.81 觸及上軌 478.53)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.64%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 492.81,
+        "stop_loss": 519.7082,
+        "take_profit": 447.9796,
+        "atr": 17.9321,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "AI CapEx fears: Is big tech overspending?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
+        },
+        {
+          "title": "Social Buzz: Wallstreetbets Stocks Mixed Premarket Wednesday; SpaceX, Advanced Micro Devices to Decline",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mixed-103231312.html"
+        },
+        {
+          "title": "Kenya's stock exchange plans East Africa's first AI-focused ETF",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kenyas-stock-exchange-plans-east-102634788.html"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "us_stock",
+      "price": 211.94,
+      "change_pct": 2.56,
+      "volume": 133610200,
+      "signal": "buy",
+      "confidence": 0.36,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.6,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.66%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 211.94,
+        "stop_loss": 200.3171,
+        "take_profit": 231.3114,
+        "atr": 7.7486,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "SpaceX teams up with Nvidia: Musk says Vera Rubin is 'the best AI computer'",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/spacex-teams-nvidia-musk-says-221211771.html"
+        },
+        {
+          "title": "'This was not an exceptional result': Strategist talks AMD earnings & 'shocking' capex",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/not-exceptional-result-strategist-talks-205254303.html"
+        },
+        {
+          "title": "Analyst: If SpaceX Delivers Even a Quarter of Elon Musk’s Promised Compute, Nvidia Could Hit $1 Trillion in Revenue",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/05/analyst-if-spacex-delivers-even-a-quarter-of-elon-musks-promised-compute-nvidia-could-hit-1-trillion-in-revenue/"
+        }
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "category": "us_stock",
+      "price": 327.35,
+      "change_pct": 1.64,
+      "volume": 33196800,
+      "signal": "buy",
+      "confidence": 0.25,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.42,
+          "rationale": "rsi:buy(RSI=26.7 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=4.83%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 327.35,
+        "stop_loss": 303.6232,
+        "take_profit": 366.8946,
+        "atr": 15.8179,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "SpaceX's stock drops on as AI capex costs jump in Q2",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/spacexs-stock-drops-on-as-ai-capex-costs-jump-in-q2-132323178.html"
+        },
+        {
+          "title": "SpaceX profitability will come down to Starlink's success: Lee Munson",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/spacex-profitability-come-down-starlinks-150000084.html"
+        },
+        {
+          "title": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+        }
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "category": "us_stock",
+      "price": 377.65,
+      "change_pct": 1.11,
+      "volume": 35649100,
+      "signal": "buy",
+      "confidence": 0.35,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.59,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.67%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 377.65,
+        "stop_loss": 356.8536,
+        "take_profit": 412.3107,
+        "atr": 13.8643,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "AI CapEx fears: Is big tech overspending?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
+        },
+        {
+          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+        },
+        {
+          "title": "Bankers Are Betting on Supersize Bonuses This Year With Profits Surging",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/investing/bankers-are-betting-on-supersize-bonuses-this-year-with-profits-surging-91c9395d?siteid=yhoof2&yptr=yahoo"
+        }
+      ]
+    },
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 ETF",
+      "category": "etf",
+      "price": 771.33,
+      "change_pct": 1.8,
+      "volume": 69059900,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.07,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線); bollinger_band:sell(價格 771.33 觸及上軌 765.05)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.25%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "The Dow Just Gained 1000 Points for the 27th Day Ever. 25 of These Days Happened Under Donald Trump.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/04/the-dow-just-gained-1000-points-for-the-27th-day-ever-25-of-these-days-happened-under-donald-trump/"
+        },
+        {
+          "title": "US Stock Futures Flat After S&P500, Dow End At Record Highs On Strong Earnings, Easing Geopolitical Concerns — PLTR, AZN, CMG, MRNA In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-flat-after-s-and-p500-dow-end-at-record-highs/cZo5yAlRJ4k"
+        },
+        {
+          "title": "Corning Dropped 25% Over a Month: A Major U.S. Bank Expects 66% Gains Over The Near Term",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/04/corning-dropped-25-over-a-month-a-major-u-s-bank-expects-66-gains-over-the-near-term/"
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "category": "etf",
+      "price": 723.85,
+      "change_pct": 3.4,
+      "volume": 59441100,
+      "signal": "buy",
+      "confidence": 0.37,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.62,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.20%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 723.85,
+        "stop_loss": 700.0128,
+        "take_profit": 763.5785,
+        "atr": 15.8914,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "This $39.77 Billion Leveraged ETF Jumped 10.09% Tuesday, But Volatility Decay Cost Holders Millions",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/04/this-39-77-billion-leveraged-etf-jumped-10-09-tuesday-but-volatility-decay-cost-holders-millions/"
+        },
+        {
+          "title": "Covered-Call Trap: Why JEPQ’s Income Distributions Are Taxed Like a Paycheck, Not Dividends",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/04/covered-call-trap-why-jepqs-income-distributions-are-taxed-like-a-paycheck-not-dividends/"
+        },
+        {
+          "title": "A 'Market Wizard' Is Running One of the Worst ETFs of 2026",
+          "publisher": "etf.com",
+          "link": "http://www.etf.com/sections/features/market-wizard-running-one-worst-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
+        }
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "name": "黃金期貨",
+      "category": "commodity",
+      "price": 4220.2998,
+      "change_pct": 3.05,
+      "volume": 78071,
+      "signal": "sell",
+      "confidence": 0.37,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.61,
+          "rationale": "bollinger_band:sell(價格 4220.30 觸及上軌 4177.86)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.49%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 4220.2998,
+        "stop_loss": 4314.8641,
+        "take_profit": 4062.6927,
+        "atr": 63.0428,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Gold prices today, Tuesday, August 4, 2026: Gold remains above $4,100 with Iran threats looming",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-4-2026-gold-remains-above-4100-with-iran-threats-looming-122138936.html"
+        },
+        {
+          "title": "Bitcoin’s Real Gold Standard Test is Just Starting in 2026",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/bitcoin-digital-gold-sanctions-test/"
+        },
+        {
+          "title": "Landowners Near Meta’s New Data Center Struck Gold. Retirees Renting on Social Security Could Be Priced Out.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/personal-finance/social-security/2026/08/05/landowners-near-metas-new-data-center-struck-gold-retirees-renting-on-social-security-could-be-priced-out/"
+        }
+      ]
+    },
+    {
+      "symbol": "CL=F",
+      "name": "原油期貨",
+      "category": "commodity",
+      "price": 76.19,
+      "change_pct": 0.55,
+      "volume": 68002,
+      "signal": "sell",
+      "confidence": 0.38,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.63,
+          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.36,
+          "rationale": "波動度過高(ATR/價格=6.78%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 76.19,
+        "stop_loss": 83.9396,
+        "take_profit": 63.2739,
+        "atr": 5.1664,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Luxury boat demand stays afloat, resilient in spite of rising oil prices",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/luxury-boat-demand-stays-afloat-213000172.html"
+        },
+        {
+          "title": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Tech Rallies, Oil Outlooks Lift Asian Stock Markets",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-rallies-oil-outlooks-lift-104957346.html"
+        }
+      ]
+    },
+    {
+      "symbol": "TWD=X",
+      "name": "美元/新台幣",
+      "category": "forex",
+      "price": 32.327,
+      "change_pct": -0.21,
+      "volume": 0,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=0.58%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "TSMC Stock Jumps 7% as Microsoft Revives AI-Chip Trade",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/tsmc-stock-jumps-7-microsoft-195100756.html"
+        },
+        {
+          "title": "Airtac International Group (TPE:1590) Q2 2026 Earnings Call Highlights: Robust Growth and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/airtac-international-group-tpe-1590-150106649.html"
+        },
+        {
+          "title": "Goldman Is Bullish on Three Asian Currencies, All Three Are Down in 2026",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/goldman-asian-currencies-ai-bullish-calls/"
+        }
+      ]
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "美元/日圓",
+      "category": "forex",
+      "price": 157.658,
+      "change_pct": 0.08,
+      "volume": 0,
+      "signal": "buy",
+      "confidence": 0.46,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.77,
+          "rationale": "rsi:buy(RSI=25.4 進入超賣區); bollinger_band:buy(價格 157.66 觸及下軌 157.83)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.00%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 157.658,
+        "stop_loss": 155.3011,
+        "take_profit": 161.5862,
+        "atr": 1.5713,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "US dollar shaken after intervention to strengthen Japanese yen",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/us-dollar-shaken-intervention-strengthen-153000392.html"
+        },
+        {
+          "title": "Nudge from Bessent firms case for BOJ rate hike in September",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/policy/articles/nudge-bessent-firms-case-boj-094949082.html"
+        },
+        {
+          "title": "BOJ debated mounting price risks even upon hiking rates in June, minutes show",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/policy/articles/boj-debated-mounting-price-risks-011356557.html"
+        }
+      ]
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "比特幣",
+      "category": "crypto",
+      "price": 64052.6602,
+      "change_pct": -0.01,
+      "volume": 23096846336,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.26%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Tuesday, August 4, 2026: Investors closely monitoring Clarity Act progress",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-4-2026-investors-closely-monitoring-clarity-act-progress-131534156.html"
+        },
+        {
+          "title": "Peter Schiff says a ‘much bigger selloff’ in Bitcoin is coming. Here’s why — and how investors can prepare",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/peter-schiff-says-much-bigger-105000780.html"
+        },
+        {
+          "title": "Bitcoin’s Real Gold Standard Test is Just Starting in 2026",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/bitcoin-digital-gold-sanctions-test/"
+        }
+      ]
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "以太幣",
+      "category": "crypto",
+      "price": 1869.17,
+      "change_pct": 0.04,
+      "volume": 7828792320,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.08%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Tuesday, August 4, 2026: Investors closely monitoring Clarity Act progress",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-4-2026-investors-closely-monitoring-clarity-act-progress-131534156.html"
+        },
+        {
+          "title": "BlackRock To Triple ETHA’s Share Price With Reverse Split: Here’s What Investors Need To Know",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-blackrock-reverse-splitting-its-ethereum-etf/cZo4n9iRJI9"
+        },
+        {
+          "title": "Arthur Hayes Says AI Spending Boom Is ‘Lehman, Not Apple’ – Sees Bitcoin Eventually Hitting $1M",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/arthur-hayes-ai-credit-bubble-bitcoin-1-million-prediction/cZo4lQaRJId"
+        }
+      ]
+    }
+  ],
+  "potential_picks": []
+}
