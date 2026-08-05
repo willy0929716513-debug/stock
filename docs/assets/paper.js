@@ -11,6 +11,21 @@ const PAPER_TRADING = (() => {
   const INITIAL_CASH = 10_000_000;
   const AUTO_TRADE_MIN_CONFIDENCE = 0.3;
   const AUTO_TRADE_ALLOCATION_FRACTION = 0.05; // 自動買進時,每筆動用「目前現金」的比例
+  const TAIPEI_MARKET_CLOSE_HOUR = 13;
+  const TAIPEI_MARKET_CLOSE_MINUTE = 30; // TWSE 收盤時間,只套用在台股標的上,跟伺服器端 auto_trader.py 邏輯一致
+
+  function isPastTaipeiMarketClose(date = new Date()) {
+    // 用 Intl API 取台北時間,不依賴使用者瀏覽器/裝置的本地時區設定
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Taipei",
+      hour: "numeric",
+      minute: "numeric",
+      hour12: false,
+    }).formatToParts(date);
+    const hour = Number(parts.find((p) => p.type === "hour").value) % 24;
+    const minute = Number(parts.find((p) => p.type === "minute").value);
+    return hour > TAIPEI_MARKET_CLOSE_HOUR || (hour === TAIPEI_MARKET_CLOSE_HOUR && minute >= TAIPEI_MARKET_CLOSE_MINUTE);
+  }
 
   function freshAccount() {
     return { cash: INITIAL_CASH, holdings: {}, transactions: [], autoMode: false, lastAutoProcessedAt: null };
@@ -100,14 +115,22 @@ const PAPER_TRADING = (() => {
    * - 賣出訊號且信心值達門檻、目前有持倉 -> 全部出清
    * - 同一批訊號(用 pipeline 的 generatedAt 判斷)只處理一次,避免分頁沒關、
    *   同一批資料被重複觸發交易。
+   * - 台股標的(category === "tw_stock")在台股收盤後不下新單(買或賣都不執行),
+   *   跟伺服器端 24 小時自動跟單帳戶用同一套規則;美股/ETF/商品期貨/外匯/
+   *   加密貨幣不受這個時間限制。這是稽核伺服器端帳戶「上線以來因為規則沒分
+   *   資產類別而完全沒進場過」的真因之後,一併套用到這裡的修正。
+   *   跟伺服器端不同的是:這裡**不會**在收盤時強制平倉既有的台股持倉——
+   *   這個練習帳戶本來就設計成可以跨日持倉,只是「新單」要遵守收盤時間。
    */
   function autoTrade(account, signals, generatedAt) {
     if (!account.autoMode) return { account, executed: [] };
     if (generatedAt && account.lastAutoProcessedAt === generatedAt) return { account, executed: [] };
 
+    const marketClosed = isPastTaipeiMarketClose();
     const executed = [];
     for (const s of signals) {
       if (!s.price || s.price <= 0) continue;
+      if (s.category === "tw_stock" && marketClosed) continue;
 
       if (s.signal === "buy" && s.confidence >= AUTO_TRADE_MIN_CONFIDENCE) {
         if (account.holdings[s.symbol]) continue;
@@ -143,6 +166,7 @@ const PAPER_TRADING = (() => {
     INITIAL_CASH,
     AUTO_TRADE_MIN_CONFIDENCE,
     AUTO_TRADE_ALLOCATION_FRACTION,
+    isPastTaipeiMarketClose,
     loadAccount,
     saveAccount,
     resetAccount,
