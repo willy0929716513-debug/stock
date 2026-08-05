@@ -114,16 +114,17 @@ tests/                          # pytest 回歸測試
   `willy0929716513-debug/JPO-KBO` 的存取權限。策略門檻、Agent 權重等參數是重新設計的
   簡化版本,還沒有經過原本專案的實際交易紀錄驗證,上線後應持續觀察並校正。
 - **本 sandbox 開發環境無法連上 Yahoo Finance**(proxy 阻擋),所以 `market_data.py` 的
-  實際抓取行為只驗證了「失敗時優雅降級」(回傳空 DataFrame、不 crash)。已在合併後
-  的第一次真實 GitHub Actions 執行驗證過:23 檔標的全部成功抓到資料,pipeline 全程
-  約 8 秒。**擴充到 ~120 檔台股之後,還沒有跑過一次真實的大量標的請求**,理論上
-  `fetch_history_batch()` 的批次下載(`yf.download`)可以大幅降低請求數與限流風險,
-  但實際限流狀況要看合併後第一次真實執行的 Actions log 才能確認,不要用猜的。
+  實際抓取行為只能在 GitHub Actions 上驗證,不能在本機驗證。合併後已經驗證過:
+  23 檔標的時全部成功、pipeline 全程約 8 秒;擴充到 121 檔後 `fetch_history_batch()`
+  的批次下載也運作正常(全程約 20~25 秒),**沒有出現任何 429 限流訊息**,批次下載
+  這個設計目前看起來是有效的。
 - **台股清單(`WATCHLIST["tw_stock"]`)是人工整理的,不是即時抓取的**,approximate
   台灣50(0050)+中型100(0051)成分股,原因同樣是開發環境連不上 TWSE/Wikipedia
   等外部網站查證即時成分股。這兩個指數約每年 6 月、12 月會定期審核調整,清單可能
   已經過時,需要定期人工核對。若清單中有下市或改名的舊代號,pipeline 會在 log 印出
-  `no history data for X` 警告並跳過,不會讓整條 pipeline 掛掉。
+  `no history data for X` 警告並跳過,不會讓整條 pipeline 掛掉——2026-08-05 已經
+  依照連續兩次真實執行的 log 校正過一次,移除了 5 個持續回傳 404 的代號(詳見
+  `watchlist.py` 檔頭註解的完整記錄)。
 - `docs/data/signals_latest.json`、`docs/data/auto_trader_state.json` 由 GitHub Actions 自動寫入,
   本地開發不需要、也不應該手動 commit 這兩個檔案的內容變動。
 
@@ -149,6 +150,6 @@ python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 s
 
 ## 追蹤清單
 
-目前 `src/watchlist.py` 涵蓋台股 108 檔(approximate 台灣50+中型100 成分股,見上方
+目前 `src/watchlist.py` 涵蓋台股 103 檔(approximate 台灣50+中型100 成分股,見上方
 「已知限制」的誠實說明)、美股 5 檔、2 檔 ETF、黃金/原油期貨、2 組外匯、2 種加密貨幣,
-共 121 檔標的,可依需求增減。
+共 116 檔標的,可依需求增減。
