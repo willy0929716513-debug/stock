@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:19:21.366992+00:00",
+  "generated_at": "2026-08-05T13:14:18.902626+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -111,6 +111,11 @@
       },
       "news": [
         {
+          "title": "Pinnacle West Capital Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/pinnacle-west-capital-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Bull of the Day: Amkor (AMKR)",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bull-day-amkor-amkr-092000813.html"
@@ -119,11 +124,6 @@
           "title": "Pinnacle West Capital Corporation Q2 2026 Earnings Call Summary",
           "publisher": "Moby",
           "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-pinnacle-west-capital-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
-        },
-        {
-          "title": "Taiwan Semiconductor's AI Push Hits Surprising Milestone",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductors-ai-push-hits-202554417.html"
         }
       ]
     },
@@ -4333,14 +4333,14 @@
           "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
         },
         {
+          "title": "Who Might Buy Snap If Its Founders Ever Decide to Sell",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/05/who-might-buy-snap-if-its-founders-ever-decide-to-sell/"
+        },
+        {
           "title": "Microsoft Extends Winning Streak Amid Earnings Surge; Is The Stock A Buy Now?",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/research/microsoft-msft-stock-earnings-buy-now-august-2026/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Stocks mostly rise tracking earnings, US-Iran hopes",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/tech-back-fashion-asian-markets-030055893.html"
         }
       ]
     },
@@ -4382,19 +4382,19 @@
       },
       "news": [
         {
-          "title": "SpaceX teams up with Nvidia: Musk says Vera Rubin is 'the best AI computer'",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/spacex-teams-nvidia-musk-says-221211771.html"
+          "title": "Nvidia stock rises, as Musk says SpaceX will exclusively use company's chips",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-as-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "'This was not an exceptional result': Strategist talks AMD earnings & 'shocking' capex",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/not-exceptional-result-strategist-talks-205254303.html"
+          "title": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/marvell-sandisk-sk-hynix-lead-semiconductor-stock-rally-as-sp-500-trades-at-record-highs-172216048.html"
         },
         {
-          "title": "Amazon’s AWS CEO Just Sent Shivers Down the Spines of AI Bears. Supply is Mostly ‘Spoken For’ Through 2028.",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/05/amazons-aws-ceo-just-sent-shivers-down-the-spines-of-ai-bears-supply-is-mostly-spoken-for-through-2028/"
+          "title": "Why AMD is a Yahoo Finance AlphaSpace rockstar",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/why-amd-is-a-yahoo-finance-alphaspace-rockstar-131746048.html"
         }
       ]
     },
@@ -4441,14 +4441,14 @@
           "link": "https://finance.yahoo.com/video/spacex-profitability-come-down-starlinks-150000084.html"
         },
         {
-          "title": "Tesla vs. Rocket Lab: Which Is the Better Innovation Stock to Own for the Next 10 Years?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/05/tesla-vs-rocket-lab-which-is-the-better-innovation/"
+          "title": "Wall St set to open higher as Mideast hopes offset SpaceX, AMD drag",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-inch-113116518.html"
         },
         {
-          "title": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+          "title": "This Week In Electric Vehicles - Battery Market's Billion-Dollar Surge Powers Global Growth",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/energy/articles/week-electric-vehicles-battery-markets-123741846.html"
         }
       ]
     },
@@ -4490,19 +4490,19 @@
       },
       "news": [
         {
-          "title": "AI CapEx fears: Is big tech overspending?",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/ai-capex-fears-big-tech-100000522.html"
-        },
-        {
-          "title": "Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed.",
+          "title": "This SpaceX number is spooking already skittish investors",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-and-amd-post-quarterly-results-investors-werent-impressed-140419479.html"
+          "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html"
         },
         {
-          "title": "Got $500? 2 Magnificent AI Stocks to Buy Hand Over Fist Before the Anthropic IPO",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/05/magnificent-ai-stocks-buy-anthropic-ipo/"
+          "title": "DoorDash Gets FAA Green Light for Commercial Drone Deliveries",
+          "publisher": "Sourcing Journal",
+          "link": "https://wwd.com/sourcing-journal/logistics/doordash-air-drone-delivery-faa-approval-part-135-amazon-walmart-1239093781/"
+        },
+        {
+          "title": "Self-driving Ubers to pick up Londoners within weeks",
+          "publisher": "The Telegraph",
+          "link": "https://uk.finance.yahoo.com/news/self-driving-ubers-pick-londoners-125755466.html"
         }
       ]
     },
@@ -4538,6 +4538,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "What Happens When Stock Implied Volatility Outpaces the SPY",
+          "publisher": "Schaeffer's Investment Research",
+          "link": "https://finance.yahoo.com/markets/options/articles/happens-stock-implied-volatility-outpaces-124208065.html"
+        },
+        {
           "title": "The Dow Just Gained 1000 Points for the 27th Day Ever. 25 of These Days Happened Under Donald Trump.",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/04/the-dow-just-gained-1000-points-for-the-27th-day-ever-25-of-these-days-happened-under-donald-trump/"
@@ -4546,11 +4551,6 @@
           "title": "US Stock Futures Flat After S&P500, Dow End At Record Highs On Strong Earnings, Easing Geopolitical Concerns — PLTR, AZN, CMG, MRNA In Focus",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-flat-after-s-and-p500-dow-end-at-record-highs/cZo5yAlRJ4k"
-        },
-        {
-          "title": "Corning Dropped 25% Over a Month: A Major U.S. Bank Expects 66% Gains Over The Near Term",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/04/corning-dropped-25-over-a-month-a-major-u-s-bank-expects-66-gains-over-the-near-term/"
         }
       ]
     },
@@ -4592,6 +4592,11 @@
       },
       "news": [
         {
+          "title": "Stock Market Today: Dow Rises After Surprise Jobs Data; AMD, SpaceX Plunge On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-data-amd-stock-spacex-earnings/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "This $39.77 Billion Leveraged ETF Jumped 10.09% Tuesday, But Volatility Decay Cost Holders Millions",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/04/this-39-77-billion-leveraged-etf-jumped-10-09-tuesday-but-volatility-decay-cost-holders-millions/"
@@ -4600,11 +4605,6 @@
           "title": "Covered-Call Trap: Why JEPQ’s Income Distributions Are Taxed Like a Paycheck, Not Dividends",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/04/covered-call-trap-why-jepqs-income-distributions-are-taxed-like-a-paycheck-not-dividends/"
-        },
-        {
-          "title": "A 'Market Wizard' Is Running One of the Worst ETFs of 2026",
-          "publisher": "etf.com",
-          "link": "http://www.etf.com/sections/features/market-wizard-running-one-worst-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
         }
       ]
     },
@@ -4612,9 +4612,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4257.0,
-      "change_pct": 3.95,
-      "volume": 95114,
+      "price": 4254.7002,
+      "change_pct": 3.89,
+      "volume": 110969,
       "signal": "sell",
       "confidence": 0.36,
       "opinions": [
@@ -4622,7 +4622,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.6,
-          "rationale": "bollinger_band:sell(價格 4257.00 觸及上軌 4190.99)"
+          "rationale": "bollinger_band:sell(價格 4254.70 觸及上軌 4190.14)"
         },
         {
           "agent": "macro",
@@ -4634,14 +4634,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.52%)"
+          "rationale": "波動度正常(ATR/價格=1.54%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4257.0,
-        "stop_loss": 4353.7714,
-        "take_profit": 4095.7143,
-        "atr": 64.5143,
+        "entry_price": 4254.7002,
+        "stop_loss": 4353.0252,
+        "take_profit": 4090.8252,
+        "atr": 65.55,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4651,14 +4651,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
         },
         {
-          "title": "Gold prices today, Tuesday, August 4, 2026: Gold remains above $4,100 with Iran threats looming",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-4-2026-gold-remains-above-4100-with-iran-threats-looming-122138936.html"
-        },
-        {
           "title": "Bitcoin’s Real Gold Standard Test is Just Starting in 2026",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/bitcoin-digital-gold-sanctions-test/"
+        },
+        {
+          "title": "Landowners Near Meta’s New Data Center Struck Gold. Retirees Renting on Social Security Could Be Priced Out.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/personal-finance/social-security/2026/08/05/landowners-near-metas-new-data-center-struck-gold-retirees-renting-on-social-security-could-be-priced-out/"
         }
       ]
     },
@@ -4666,9 +4666,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.11,
-      "change_pct": 0.45,
-      "volume": 77079,
+      "price": 75.93,
+      "change_pct": 0.21,
+      "volume": 90675,
       "signal": "sell",
       "confidence": 0.38,
       "opinions": [
@@ -4688,13 +4688,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.36,
-          "rationale": "波動度過高(ATR/價格=6.79%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.80%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 76.11,
-        "stop_loss": 83.8596,
-        "take_profit": 63.1939,
+        "entry_price": 75.93,
+        "stop_loss": 83.6796,
+        "take_profit": 63.0139,
         "atr": 5.1664,
         "risk_reward_ratio": 1.67
       },
@@ -4705,14 +4705,14 @@
           "link": "https://finance.yahoo.com/video/luxury-boat-demand-stays-afloat-213000172.html"
         },
         {
-          "title": "Dow Jones Futures Rise; SpaceX, AMD Dive As Arista, Eli Lilly Jump With S&P 500 At Highs",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-spacex-amd-arista-eli-lily-earnings/?src=A00220&yptr=yahoo"
+          "title": "VRL Logistics Ltd (BOM:539118) (Q1 2027) Earnings Call Highlights: Record Profit and Strategic ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/vrl-logistics-ltd-bom-539118-130025035.html"
         },
         {
-          "title": "ONEOK Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/oneok-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "Update: Potential Strait of Hormuz Deal Buoys US Equity Futures Pre-Bell",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/potential-strait-hormuz-deal-buoys-124948656.html"
         }
       ]
     },
@@ -4720,8 +4720,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.284,
-      "change_pct": -0.35,
+      "price": 32.286,
+      "change_pct": -0.34,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4768,8 +4768,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.513,
-      "change_pct": -0.01,
+      "price": 157.555,
+      "change_pct": 0.02,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.47,
@@ -4778,7 +4778,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.78,
-          "rationale": "rsi:buy(RSI=24.2 進入超賣區); bollinger_band:buy(價格 157.51 觸及下軌 157.79)"
+          "rationale": "rsi:buy(RSI=24.5 進入超賣區); bollinger_band:buy(價格 157.55 觸及下軌 157.80)"
         },
         {
           "agent": "macro",
@@ -4794,9 +4794,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.513,
-        "stop_loss": 155.1561,
-        "take_profit": 161.4412,
+        "entry_price": 157.555,
+        "stop_loss": 155.1981,
+        "take_profit": 161.4832,
         "atr": 1.5713,
         "risk_reward_ratio": 1.67
       },
@@ -4807,14 +4807,14 @@
           "link": "https://finance.yahoo.com/video/us-dollar-shaken-intervention-strengthen-153000392.html"
         },
         {
+          "title": "Yen drifts after intervention whirlwind; Iran optimism dents dollar",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/yen-finds-footing-intervention-dollar-013635105.html"
+        },
+        {
           "title": "US dollar to retain strength, yen intervention no game changer: Reuters poll",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-retain-strength-yen-115205220.html"
-        },
-        {
-          "title": "Nudge from Bessent firms case for BOJ rate hike in September",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/economy/policy/articles/nudge-bessent-firms-case-boj-094949082.html"
         }
       ]
     },
@@ -4822,9 +4822,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64257.2109,
-      "change_pct": 0.31,
-      "volume": 22713090048,
+      "price": 64073.8711,
+      "change_pct": 0.03,
+      "volume": 23410948096,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4844,25 +4844,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.25%)"
+          "rationale": "波動度正常(ATR/價格=2.26%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-5-2026-crypto-prices-rise-as-investors-watch-hormuz-negotiations-and-jobs-report-closely-124640660.html"
+        },
         {
           "title": "Bitcoin and ethereum prices today, Tuesday, August 4, 2026: Investors closely monitoring Clarity Act progress",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-4-2026-investors-closely-monitoring-clarity-act-progress-131534156.html"
         },
         {
-          "title": "Morning Minute: Jim Cramer Sells His Bitcoin Over Quantum Fears",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/374947/morning-minute-jim-cramer-sells-his-bitcoin-over-quantum-fears"
-        },
-        {
-          "title": "GPU Debt Mismatches Could Trigger the Crisis That Sends Bitcoin to $1 Million, Says Hayes",
-          "publisher": "Coinspeaker",
-          "link": "https://www.coinspeaker.com/ai-credit-crisis-bitcoin-hayes-prediction/"
+          "title": "Stock Market Today: Dow Rises After Surprise Jobs Data; AMD, SpaceX Plunge On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-data-amd-stock-spacex-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4870,9 +4870,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.17,
-      "change_pct": 0.31,
-      "volume": 7836068864,
+      "price": 1867.1899,
+      "change_pct": -0.06,
+      "volume": 8059767808,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4892,25 +4892,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.07%)"
+          "rationale": "波動度正常(ATR/價格=3.10%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-5-2026-crypto-prices-rise-as-investors-watch-hormuz-negotiations-and-jobs-report-closely-124640660.html"
+        },
         {
           "title": "Bitcoin and ethereum prices today, Tuesday, August 4, 2026: Investors closely monitoring Clarity Act progress",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-4-2026-investors-closely-monitoring-clarity-act-progress-131534156.html"
         },
         {
-          "title": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked"
-        },
-        {
-          "title": "BlackRock To Triple ETHA’s Share Price With Reverse Split: Here’s What Investors Need To Know",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-blackrock-reverse-splitting-its-ethereum-etf/cZo4n9iRJI9"
+          "title": "XRP Price to $4.90? Bullish Calls Grow as Holders Can Now Borrow RLUSD Against FXRP",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/xrp-price-grow-holders-fxrp-collateral-borrow-rlusd-ethereum/"
         }
       ]
     }

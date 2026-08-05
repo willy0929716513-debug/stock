@@ -1,5 +1,12 @@
 {
   "cash": 10000.0,
-  "position": null,
+  "position": {
+    "symbol": "JPY=X",
+    "direction": "buy",
+    "entry_price": 157.555,
+    "qty": 63.0,
+    "opened_at": "2026-08-05T13:14:19.068748+00:00",
+    "reversal_count": 0
+  },
   "trade_history": []
 }
