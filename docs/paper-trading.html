@@ -63,8 +63,8 @@
   <h2>交易紀錄</h2>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>時間</th><th>標的</th><th>方向</th><th>來源</th><th>股數</th><th>價格</th><th>金額</th></tr></thead>
-      <tbody id="tx-body"><tr><td colspan="7" class="empty-state">尚無交易紀錄</td></tr></tbody>
+      <thead><tr><th>時間</th><th>標的</th><th>方向</th><th>來源</th><th>股數</th><th>價格</th><th>金額</th><th>損益</th></tr></thead>
+      <tbody id="tx-body"><tr><td colspan="8" class="empty-state">尚無交易紀錄</td></tr></tbody>
     </table>
   </div>
 
@@ -123,6 +123,9 @@
   function render() {
     const totalValue = PAPER_TRADING.portfolioValue(account, priceBySymbol);
     const returnPct = ((totalValue - PAPER_TRADING.INITIAL_CASH) / PAPER_TRADING.INITIAL_CASH) * 100;
+    const realizedPnl = account.transactions
+      .filter((t) => t.side === "sell")
+      .reduce((sum, t) => sum + (t.pnl || 0), 0);
 
     document.getElementById("auto-mode-toggle").checked = !!account.autoMode;
     document.getElementById("auto-mode-status").textContent = account.autoMode
@@ -133,6 +136,7 @@
       <div class="stat"><div class="label">現金</div><div class="value">${JPO_KBO.formatMoney(account.cash)}</div></div>
       <div class="stat"><div class="label">總資產</div><div class="value">${JPO_KBO.formatMoney(totalValue)}</div></div>
       <div class="stat"><div class="label">總報酬率</div><div class="value ${JPO_KBO.pctClass(returnPct)}">${JPO_KBO.formatPct(returnPct)}</div></div>
+      <div class="stat"><div class="label">已實現損益</div><div class="value ${JPO_KBO.pctClass(realizedPnl)}">${JPO_KBO.formatMoney(realizedPnl)}</div></div>
       <div class="stat"><div class="label">持股檔數</div><div class="value">${Object.keys(account.holdings).length}</div></div>
     `;
 
@@ -166,9 +170,10 @@
             <td>${t.qty}</td>
             <td>${JPO_KBO.formatPrice(t.price)}</td>
             <td>${JPO_KBO.formatMoney(t.amount)}</td>
+            <td class="${t.side === "sell" ? JPO_KBO.pctClass(t.pnl) : ""}">${t.side === "sell" ? JPO_KBO.formatMoney(t.pnl || 0) : "—"}</td>
           </tr>
         `).join("")
-      : `<tr><td colspan="7" class="empty-state">尚無交易紀錄</td></tr>`;
+      : `<tr><td colspan="8" class="empty-state">尚無交易紀錄</td></tr>`;
   }
 
   function runAutoTradeIfEnabled() {

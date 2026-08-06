@@ -84,6 +84,8 @@ const PAPER_TRADING = (() => {
     if (qty <= 0) throw new Error("股數必須大於 0");
 
     const proceeds = qty * price;
+    const costBasis = holding.avg_cost * qty;
+    const pnl = proceeds - costBasis;
     holding.qty -= qty;
     account.cash += proceeds;
     if (holding.qty <= 0) {
@@ -94,6 +96,7 @@ const PAPER_TRADING = (() => {
 
     account.transactions.push({
       symbol, name, side: "sell", qty, price, amount: proceeds, at: new Date().toISOString(), auto: !!options.auto,
+      cost_basis: costBasis, pnl,
     });
     saveAccount(account);
     return account;
