@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:49:52.571427+00:00",
+  "generated_at": "2026-08-06T15:55:15.766100+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4263,9 +4263,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 309.96,
-      "change_pct": -0.33,
-      "volume": 17625532,
+      "price": 309.87,
+      "change_pct": -0.36,
+      "volume": 17885264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4301,9 +4301,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "TSMC’s $64 Billion Investment Signals Mega-Growth: Why Pivoting Away From The Titan Makes Little Sense",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/tsmcs-64-billion-investment-signals-mega-growth-why-pivoting-away-from-the-titan-makes-little-sense/"
+          "title": "Top Midday Stories: Apollo Acquires EasyJet in Deal Valued at $7.68 Billion; Honeywell Aerospace Shares Fall Following Guidance Cut",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apollo-acquires-154510891.html"
         }
       ]
     },
@@ -4311,9 +4311,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 496.05,
-      "change_pct": 1.76,
-      "volume": 12705475,
+      "price": 495.01,
+      "change_pct": 1.55,
+      "volume": 12912833,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4321,7 +4321,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=82.0 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4333,13 +4333,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.59%)"
+          "rationale": "波動度正常(ATR/價格=3.60%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 496.05,
-        "stop_loss": 522.7789,
-        "take_profit": 451.5018,
+        "entry_price": 495.01,
+        "stop_loss": 521.7389,
+        "take_profit": 450.4618,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4355,9 +4355,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "Factbox-Tech companies tap debt, equity to fund AI and cloud expansion",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/factbox-tech-companies-tap-debt-225411778.html"
+          "title": "Top Midday Stories: Apollo Acquires EasyJet in Deal Valued at $7.68 Billion; Honeywell Aerospace Shares Fall Following Guidance Cut",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apollo-acquires-154510891.html"
         }
       ]
     },
@@ -4365,9 +4365,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 218.0201,
-      "change_pct": -0.55,
-      "volume": 54463473,
+      "price": 217.28,
+      "change_pct": -0.88,
+      "volume": 55636038,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4387,7 +4387,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.57%)"
+          "rationale": "波動度正常(ATR/價格=3.58%)"
         }
       ],
       "risk_levels": null,
@@ -4413,17 +4413,17 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 321.245,
-      "change_pct": -0.09,
-      "volume": 11764281,
+      "price": 319.74,
+      "change_pct": -0.56,
+      "volume": 12057913,
       "signal": "buy",
-      "confidence": 0.24,
+      "confidence": 0.25,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.4,
-          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
+          "confidence": 0.41,
+          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4435,13 +4435,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.72%)"
+          "rationale": "波動度正常(ATR/價格=4.74%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 321.245,
-        "stop_loss": 298.5125,
-        "take_profit": 359.1324,
+        "entry_price": 319.74,
+        "stop_loss": 297.0075,
+        "take_profit": 357.6274,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4467,9 +4467,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 360.19,
-      "change_pct": -0.62,
-      "volume": 9823142,
+      "price": 359.62,
+      "change_pct": -0.78,
+      "volume": 9972487,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4489,7 +4489,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.79%)"
+          "rationale": "波動度正常(ATR/價格=3.80%)"
         }
       ],
       "risk_levels": null,
@@ -4505,9 +4505,9 @@
           "link": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html"
         },
         {
-          "title": "Factbox-Tech companies tap debt, equity to fund AI and cloud expansion",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/factbox-tech-companies-tap-debt-225411778.html"
+          "title": "Top Midday Stories: Apollo Acquires EasyJet in Deal Valued at $7.68 Billion; Honeywell Aerospace Shares Fall Following Guidance Cut",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apollo-acquires-154510891.html"
         }
       ]
     },
@@ -4515,9 +4515,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 769.4234,
-      "change_pct": -0.05,
-      "volume": 11951879,
+      "price": 768.1675,
+      "change_pct": -0.21,
+      "volume": 12491066,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4563,9 +4563,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 717.26,
-      "change_pct": -0.01,
-      "volume": 16054676,
+      "price": 715.35,
+      "change_pct": -0.27,
+      "volume": 16541565,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4611,9 +4611,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4310.2002,
-      "change_pct": 1.52,
-      "volume": 128474,
+      "price": 4308.8999,
+      "change_pct": 1.49,
+      "volume": 129280,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4621,7 +4621,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.20 觸及上軌 4236.07)"
+          "rationale": "rsi:sell(RSI=70.7 進入超買區); bollinger_band:sell(價格 4308.90 觸及上軌 4235.61)"
         },
         {
           "agent": "macro",
@@ -4637,13 +4637,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4310.2002,
-        "stop_loss": 4414.2574,
-        "take_profit": 4136.7715,
+        "entry_price": 4308.8999,
+        "stop_loss": 4412.9571,
+        "take_profit": 4135.4713,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Stock market today: Dow slips, Nasdaq and S&P 500 waver as earnings roll on",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html"
+        },
         {
           "title": "Gold prices today, Thursday, August 6, 2026: Gold prices surge as Hormuz inches closer to reopening",
           "publisher": "Yahoo Personal Finance",
@@ -4653,11 +4658,6 @@
           "title": "The Best Rare Earth Stock to Buy and Hold for the Next Decade",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/the-best-rare-earth-stock-to-buy-and-hold-for-the/"
-        },
-        {
-          "title": "MercadoLibre (MELI) Crosses $10 Billion In Quarterly Revenue For The First Time",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-meli-crosses-10-billion-151325922.html"
         }
       ]
     },
@@ -4665,9 +4665,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.02,
-      "change_pct": 2.39,
-      "volume": 120228,
+      "price": 76.84,
+      "change_pct": 2.15,
+      "volume": 121518,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4686,26 +4686,26 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.31,
-          "rationale": "波動度過高(ATR/價格=6.57%),建議降低部位或觀望"
+          "confidence": 0.32,
+          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
+          "title": "Stock market today: Dow slips, Nasdaq and S&P 500 waver as earnings roll on",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html"
+        },
+        {
+          "title": "How oil prices caused Hawaiian Tropic parent company's earnings results to fall short",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/oil-prices-caused-hawaiian-tropic-202055723.html"
         },
         {
           "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/economy/policy/article/fed-governor-lisa-cook-i-am-prepared-to-act-on-interest-rates-if-inflation-remains-elevated-201309391.html"
-        },
-        {
-          "title": "Oil gains on supply concerns as Houthis attack Saudi deployments in Yemen",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/oil-prices-slip-iran-oman-010712479.html"
         }
       ]
     },
@@ -4713,8 +4713,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.261,
-      "change_pct": -0.41,
+      "price": 32.267,
+      "change_pct": -0.4,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4761,8 +4761,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.384,
-      "change_pct": 0.44,
+      "price": 158.454,
+      "change_pct": 0.48,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4771,7 +4771,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.47,
-          "rationale": "rsi:buy(RSI=28.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=29.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4787,9 +4787,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.384,
-        "stop_loss": 155.9731,
-        "take_profit": 162.4022,
+        "entry_price": 158.454,
+        "stop_loss": 156.0431,
+        "take_profit": 162.4722,
         "atr": 1.6073,
         "risk_reward_ratio": 1.67
       },
@@ -4815,63 +4815,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64778.2305,
-      "change_pct": 0.28,
-      "volume": 20643682304,
-      "signal": "buy",
-      "confidence": 0.44,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.73,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.20%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 64778.2305,
-        "stop_loss": 62635.7868,
-        "take_profit": 68348.9699,
-        "atr": 1428.2958,
-        "risk_reward_ratio": 1.67
-      },
-      "news": [
-        {
-          "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
-        },
-        {
-          "title": "Bitcoin faces its toughest month: Can it rally in August?",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
-        },
-        {
-          "title": "Russia Outpaces US in Crypto Regulation: What the New Law Mandates",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/russia-outpaces-us-crypto-regulation/"
-        }
-      ]
-    },
-    {
-      "symbol": "ETH-USD",
-      "name": "以太幣",
-      "category": "crypto",
-      "price": 1915.6899,
-      "change_pct": 0.48,
-      "volume": 9542800384,
+      "price": 64635.5312,
+      "change_pct": 0.06,
+      "volume": 20689387520,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4891,7 +4837,55 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.03%)"
+          "rationale": "波動度正常(ATR/價格=2.21%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
+        },
+        {
+          "title": "Bitcoin faces its toughest month: Can it rally in August?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
+        },
+        {
+          "title": "Crypto ETP investors sat out July's rally, Fineqia data shows",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096675/crypto-etp-investors-sat-out-july-s-rally-fineqia-data-shows-1096675.html"
+        }
+      ]
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "以太幣",
+      "category": "crypto",
+      "price": 1911.13,
+      "change_pct": 0.24,
+      "volume": 9583625216,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.04%)"
         }
       ],
       "risk_levels": null,
