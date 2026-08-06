@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:57:18.560469+00:00",
+  "generated_at": "2026-08-06T14:02:39.390731+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/power-ceo-1b-funding-ais-142200900.html"
         },
         {
-          "title": "Amazon vs. Alibaba: Two AI Giants Building Very Different Futures",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/amazon-vs-alibaba-two-ai-giants-building-different/"
+          "title": "Marvell Technology Is Down 10% This Month but Rising Quickly: A Wall Street Pro Sees Near 100% Returns Ahead",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/marvell-technology-is-down-10-this-month-but-rising-quickly-a-wall-street-pro-sees-near-100-returns-ahead/"
         }
       ]
     },
@@ -4604,14 +4604,14 @@
       },
       "news": [
         {
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
-        },
-        {
           "title": "Stock Market Today: Dow Up, Nasdaq Falls As AI Names Sandisk, Western Digital Sink After Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
         },
         {
           "title": "History Says Investing $400 per Month in This ETF Could Set You Up for Life. Here's How.",
@@ -4711,14 +4711,14 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
+          "title": "Stock Market Today: Dow Up, Nasdaq Falls As AI Names Sandisk, Western Digital Sink After Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Treasury Yields Edge Up Amid Rate-Rise Prospects, Middle East Progress",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/investing/jgbs-rise-tracking-gains-in-u-s-treasurys-297e6f42?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Update: US Equity Futures Mixed Pre-Bell as Iran, Oman Near Agreement on Strait of Hormuz Passage",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mixed-pre-125944159.html"
         }
       ]
     },
@@ -4774,8 +4774,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.842,
-      "change_pct": 0.1,
+      "price": 157.838,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4800,9 +4800,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.842,
-        "stop_loss": 155.4966,
-        "take_profit": 161.7509,
+        "entry_price": 157.838,
+        "stop_loss": 155.4926,
+        "take_profit": 161.7469,
         "atr": 1.5636,
         "risk_reward_ratio": 1.67
       },
