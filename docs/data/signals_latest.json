@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:59:44.423131+00:00",
+  "generated_at": "2026-08-06T17:05:07.718428+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4029,9 +4029,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.715,
-      "change_pct": 0.23,
-      "volume": 21273413,
+      "price": 311.5,
+      "change_pct": 0.16,
+      "volume": 21447779,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4077,9 +4077,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 495.18,
-      "change_pct": 1.58,
-      "volume": 14720948,
+      "price": 495.51,
+      "change_pct": 1.65,
+      "volume": 14919447,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4103,9 +4103,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 495.18,
-        "stop_loss": 521.9089,
-        "take_profit": 450.6318,
+        "entry_price": 495.51,
+        "stop_loss": 522.2389,
+        "take_profit": 450.9618,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4131,9 +4131,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.38,
+      "price": 219.365,
       "change_pct": 0.07,
-      "volume": 66495727,
+      "volume": 67398499,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4164,14 +4164,14 @@
           "link": "https://247wallst.com/investing/2026/08/06/at-last-one-big-layoff-not-caused-by-ai/"
         },
         {
+          "title": "Fox Corporation Q4 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-fox-corporation-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+        },
+        {
           "title": "SpaceX Stock: 3 Reasons I Am Not Buying the Dip",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/spacex-stock-3-reasons-i-am-not-buying-the-dip/"
-        },
-        {
-          "title": "SpaceX’s 10 GW Nvidia Vera Rubin Bet: The Compute Landlord Thesis Scales to $100 Billion",
-          "publisher": "Forkast News",
-          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-10-gw-nvidia-vera-164046815.html"
         }
       ]
     },
@@ -4179,9 +4179,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 318.97,
-      "change_pct": -0.8,
-      "volume": 14919819,
+      "price": 318.92,
+      "change_pct": -0.82,
+      "volume": 15137152,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4205,9 +4205,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 318.97,
-        "stop_loss": 296.2376,
-        "take_profit": 356.8574,
+        "entry_price": 318.92,
+        "stop_loss": 296.1876,
+        "take_profit": 356.8074,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4218,14 +4218,14 @@
           "link": "https://finance.yahoo.com/markets/article/fords-new-fathom-is-its-cheap-ev-pickup-starting-at-28350-130000587.html"
         },
         {
+          "title": "SpaceX's AI Spending Is Becoming a Bigger Tesla Business",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/spacexs-ai-spending-becoming-bigger-170008247.html"
+        },
+        {
           "title": "SpaceX Bought $295 Million Worth Of Tesla Megapacks In Q2",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/tesla-spacex-elon-musk-megapack-robotaxi-ai-artificial-intelligence/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Next AI Battleground: U.S., China Scramble To Lead In Humanoid Robots",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/humanoid-robots-usa-china-conflict-tesla-nvidia/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4233,9 +4233,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 358.355,
-      "change_pct": -1.12,
-      "volume": 12174400,
+      "price": 358.62,
+      "change_pct": -1.05,
+      "volume": 12368756,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4255,7 +4255,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.83%)"
+          "rationale": "波動度正常(ATR/價格=3.82%)"
         }
       ],
       "risk_levels": null,
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-lockup-ends-google-faces-ai-leadership-shakeup-140419479.html"
         },
         {
-          "title": "Google stock drops amid DeepMind leadership shake-up",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html"
-        },
-        {
           "title": "Google's AI Boom Is Creating a New Kind of Tension",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/googles-ai-boom-creating-kind-162333421.html"
+        },
+        {
+          "title": "Alphabet’s Jumbo Bond Sale Draws $115 Billion of Investor Demand",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-jumbo-bond-sale-draws-155806353.html"
         }
       ]
     },
@@ -4281,9 +4281,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 769.04,
-      "change_pct": -0.1,
-      "volume": 17449359,
+      "price": 768.78,
+      "change_pct": -0.13,
+      "volume": 17755531,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.20%)"
+          "rationale": "波動度正常(ATR/價格=1.21%)"
         }
       ],
       "risk_levels": null,
@@ -4329,9 +4329,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.05,
-      "change_pct": -0.17,
-      "volume": 20277572,
+      "price": 715.98,
+      "change_pct": -0.18,
+      "volume": 20572277,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4377,9 +4377,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4293.6001,
-      "change_pct": 1.13,
-      "volume": 144369,
+      "price": 4295.1001,
+      "change_pct": 1.16,
+      "volume": 145134,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4387,7 +4387,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.1 進入超買區); bollinger_band:sell(價格 4293.60 觸及上軌 4230.22)"
+          "rationale": "rsi:sell(RSI=70.2 進入超買區); bollinger_band:sell(價格 4295.10 觸及上軌 4230.74)"
         },
         {
           "agent": "macro",
@@ -4403,9 +4403,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4293.6001,
-        "stop_loss": 4397.6573,
-        "take_profit": 4120.1714,
+        "entry_price": 4295.1001,
+        "stop_loss": 4399.1573,
+        "take_profit": 4121.6714,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4431,9 +4431,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.89,
-      "change_pct": 3.55,
-      "volume": 152674,
+      "price": 78.01,
+      "change_pct": 3.71,
+      "volume": 154157,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4452,8 +4452,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
+          "confidence": 0.31,
+          "rationale": "波動度過高(ATR/價格=6.57%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4479,8 +4479,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.259,
-      "change_pct": -0.42,
+      "price": 32.249,
+      "change_pct": -0.45,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4527,8 +4527,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.511,
-      "change_pct": 0.52,
+      "price": 158.484,
+      "change_pct": 0.5,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4536,8 +4536,8 @@
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.46,
-          "rationale": "rsi:buy(RSI=29.7 進入超賣區)"
+          "confidence": 0.47,
+          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.511,
-        "stop_loss": 156.0902,
-        "take_profit": 162.5456,
+        "entry_price": 158.484,
+        "stop_loss": 156.0632,
+        "take_profit": 162.5186,
         "atr": 1.6139,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64685.0195,
-      "change_pct": 0.14,
-      "volume": 20487254016,
+      "price": 64758.2617,
+      "change_pct": 0.25,
+      "volume": 20485060608,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4607,9 +4607,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64685.0195,
-        "stop_loss": 62542.5759,
-        "take_profit": 68255.7589,
+        "entry_price": 64758.2617,
+        "stop_loss": 62615.8181,
+        "take_profit": 68329.0011,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4635,9 +4635,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.77,
-      "change_pct": 0.38,
-      "volume": 9379535872,
+      "price": 1914.88,
+      "change_pct": 0.44,
+      "volume": 9266833408,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
