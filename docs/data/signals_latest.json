@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:48:59.513764+00:00",
+  "generated_at": "2026-08-06T16:54:21.343157+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4029,9 +4029,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.38,
-      "change_pct": 0.12,
-      "volume": 20834442,
+      "price": 311.4501,
+      "change_pct": 0.14,
+      "volume": 21039519,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4077,9 +4077,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 494.51,
-      "change_pct": 1.45,
-      "volume": 14411281,
+      "price": 494.7,
+      "change_pct": 1.49,
+      "volume": 14545815,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4103,27 +4103,27 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 494.51,
-        "stop_loss": 521.2389,
-        "take_profit": 449.9618,
+        "entry_price": 494.7,
+        "stop_loss": 521.4289,
+        "take_profit": 450.1518,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Why this CIO sees the S&P 500 climbing above $8,000 by year-end",
+          "title": "Microsoft's AI growth has won back investors, for the time being",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
+        },
+        {
+          "title": "Price hikes on consumer electronics could be here to stay. Here's why.",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/why-cio-sees-p-500-203700974.html"
+          "link": "https://finance.yahoo.com/video/price-hikes-consumer-electronics-could-195601126.html"
         },
         {
           "title": "The companies emerging as new leaders in this renewed AI rally",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
-        },
-        {
-          "title": "Top Midday Stories: Apollo Acquires EasyJet in Deal Valued at $7.68 Billion; Honeywell Aerospace Shares Fall Following Guidance Cut",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-apollo-acquires-154510891.html"
         }
       ]
     },
@@ -4131,9 +4131,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 218.83,
-      "change_pct": -0.18,
-      "volume": 65765595,
+      "price": 219.205,
+      "change_pct": -0.01,
+      "volume": 65946336,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4153,25 +4153,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.56%)"
+          "rationale": "波動度正常(ATR/價格=3.55%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "SpaceX’s 10 GW Nvidia Vera Rubin Bet: The Compute Landlord Thesis Scales to $100 Billion",
+          "publisher": "Forkast News",
+          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-10-gw-nvidia-vera-164046815.html"
+        },
         {
           "title": "Marc Benioff Says Wall Street's Fears That AI Will Kill Salesforce Are \"Dead Wrong\" Even as CRM Stock Has Fallen Over 30% in 2026. Should Investors Bet on His Conviction?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/marc-benioff-says-wall-streets-fears-that-ai-will/"
         },
         {
-          "title": "Prediction: This Will be Shopify’s Price in 2027 And Barclays Agrees",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/prediction-this-will-be-shopifys-price-and-barclays-agrees/"
-        },
-        {
-          "title": "Here’s a Solid Backdoor Trade on the Memory Boom",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/heres-a-solid-backdoor-trade-on-the-memory-boom/"
+          "title": "Restaurant Brands Falls on Burger King’s Best Quarter in Years",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/news/news-restaurant-brands-falls-on-burger-kings-best-quarter-in-years?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4179,9 +4179,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 318.73,
-      "change_pct": -0.88,
-      "volume": 14536560,
+      "price": 318.89,
+      "change_pct": -0.83,
+      "volume": 14755877,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4189,7 +4189,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.41,
-          "rationale": "rsi:buy(RSI=27.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4205,9 +4205,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 318.73,
-        "stop_loss": 295.9976,
-        "take_profit": 356.6174,
+        "entry_price": 318.89,
+        "stop_loss": 296.1576,
+        "take_profit": 356.7774,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4233,9 +4233,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 358.055,
-      "change_pct": -1.21,
-      "volume": 11779239,
+      "price": 358.32,
+      "change_pct": -1.13,
+      "volume": 11973570,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4281,9 +4281,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.19,
-      "change_pct": -0.21,
-      "volume": 17055209,
+      "price": 768.52,
+      "change_pct": -0.16,
+      "volume": 17284910,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4329,9 +4329,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 714.67,
-      "change_pct": -0.37,
-      "volume": 19735526,
+      "price": 715.35,
+      "change_pct": -0.27,
+      "volume": 19953353,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4377,17 +4377,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4293.7002,
-      "change_pct": 1.13,
-      "volume": 143373,
+      "price": 4290.6001,
+      "change_pct": 1.06,
+      "volume": 143845,
       "signal": "sell",
-      "confidence": 0.46,
+      "confidence": 0.34,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.1 進入超買區); bollinger_band:sell(價格 4293.70 觸及上軌 4230.25)"
+          "confidence": 0.57,
+          "rationale": "bollinger_band:sell(價格 4290.60 觸及上軌 4229.18)"
         },
         {
           "agent": "macro",
@@ -4403,9 +4403,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4293.7002,
-        "stop_loss": 4397.7574,
-        "take_profit": 4120.2715,
+        "entry_price": 4290.6001,
+        "stop_loss": 4394.6573,
+        "take_profit": 4117.1714,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4431,9 +4431,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.74,
-      "change_pct": 3.35,
-      "volume": 149512,
+      "price": 77.95,
+      "change_pct": 3.63,
+      "volume": 150880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4453,7 +4453,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.59%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4479,8 +4479,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.262,
-      "change_pct": -0.41,
+      "price": 32.253,
+      "change_pct": -0.44,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4527,8 +4527,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.517,
-      "change_pct": 0.52,
+      "price": 158.489,
+      "change_pct": 0.51,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4536,8 +4536,8 @@
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.46,
-          "rationale": "rsi:buy(RSI=29.7 進入超賣區)"
+          "confidence": 0.47,
+          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.517,
-        "stop_loss": 156.0962,
-        "take_profit": 162.5516,
+        "entry_price": 158.489,
+        "stop_loss": 156.0682,
+        "take_profit": 162.5236,
         "atr": 1.6139,
         "risk_reward_ratio": 1.67
       },
@@ -4581,17 +4581,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64626.3594,
-      "change_pct": 0.04,
-      "volume": 20384636928,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 64677.6289,
+      "change_pct": 0.12,
+      "volume": 20441796608,
+      "signal": "buy",
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.73,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
           "agent": "macro",
@@ -4606,7 +4606,13 @@
           "rationale": "波動度正常(ATR/價格=2.21%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 64677.6289,
+        "stop_loss": 62535.1853,
+        "take_profit": 68248.3683,
+        "atr": 1428.2958,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4629,9 +4635,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.1,
-      "change_pct": 0.29,
-      "volume": 9331500032,
+      "price": 1913.3101,
+      "change_pct": 0.36,
+      "volume": 9374372864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4651,7 +4657,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.04%)"
+          "rationale": "波動度正常(ATR/價格=3.03%)"
         }
       ],
       "risk_levels": null,
