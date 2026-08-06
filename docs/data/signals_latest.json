@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T11:43:05.890009+00:00",
+  "generated_at": "2026-08-06T12:31:56.234389+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -111,19 +111,19 @@
       },
       "news": [
         {
+          "title": "Taiwan Semiconductor Manufacturing Company (TSM) Raised Its 2026 Outlook as AI Demand Accelerated",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-raised-2026-outlook-121421021.html"
+        },
+        {
+          "title": "Cathie Wood invests a combined $28.7 million in TSMC, SpaceX after trimming investments in Amazon, Alphabet and Shopify",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-combined-28-114500645.html"
+        },
+        {
           "title": "Taiwan Semiconductor Manufacturing (TSM) Eyes Faster 3 Nanometer Output, Is The Stock Expensive?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-eyes-181131277.html"
-        },
-        {
-          "title": "Sony's TSMC Sensor Venture Could Reshape Its Imaging Growth Story",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sonys-tsmc-sensor-venture-could-140000817.html"
-        },
-        {
-          "title": "Is TSMC (TSM) a Buy as Wall Street Analysts Look Optimistic?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-tsm-buy-wall-street-133004191.html"
         }
       ]
     },
@@ -4296,9 +4296,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "This Comment From Apple CEO Tim Cook Supports Buying the Dip in Micron Stock",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/prediction-this-comment-from-apple-ceo-tim-cook-su/"
+          "title": "S&P, Dow futures steady as MidEast deal in focus; chip, software stocks tumble",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-steady-094518940.html"
         }
       ]
     },
@@ -4350,9 +4350,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "Is Microsoft Still Undervalued After Its 25% Post-Earnings Rally?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/microsoft-undervalued-after-earnings-rally/"
+          "title": "The Hyperscaler Guarantee Keeps Me Buying Nvidia Before Aug. 26 Earnings",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/the-hyperscaler-guarantee-keeps-me-buying-nvidia-before-aug-26-earnings/"
         }
       ]
     },
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-google-spacex-skid-sandisk-western-digital-earnings/?src=A00220&yptr=yahoo"
+          "title": "Elon Musk's Tesla Suffered Its Worst Week Since 2022, Wiping Out $130 Billion of His Fortune. Is the Stock Still a Buy?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/elon-musk-tesla-worst-week-stock-buy/"
         }
       ]
     },
@@ -4448,19 +4448,19 @@
       },
       "news": [
         {
-          "title": "SpaceX stock hits new all-time low as AI capex jumps in Q2",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/spacex-stock-hits-new-all-time-low-as-ai-capex-jumps-in-q2-132323178.html"
+          "title": "Tesla is 'the best choice': Valvetronic Designs founder talks customized vs. everyday cars",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/tesla-best-choice-valvetronic-designs-120000265.html"
         },
         {
-          "title": "Pressured by Tesla, European regulators keep 'Full Self-Driving' safety data secret",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/pressured-tesla-european-regulators-keep-100413623.html"
+          "title": "Base Power CEO on $1B funding, AI's soaring energy demand, and taking on Tesla",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/power-ceo-1b-funding-ais-142200900.html"
         },
         {
-          "title": "Thinking of Buying Tesla Stock on the Dip? Here's One Green Flag and One Red Flag.",
+          "title": "Elon Musk's Tesla Suffered Its Worst Week Since 2022, Wiping Out $130 Billion of His Fortune. Is the Stock Still a Buy?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/thinking-of-buying-tesla-stock-on-the-dip-heres-on/"
+          "link": "https://www.fool.com/investing/2026/08/06/elon-musk-tesla-worst-week-stock-buy/"
         }
       ]
     },
@@ -4506,9 +4506,9 @@
           "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html"
         },
         {
-          "title": "S&P, Dow futures steady as MidEast deal in focus; chip, software stocks tumble",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-steady-094518940.html"
+          "title": "Google’s AI Architect Just Quit, Sparking Fears It Could Fall Behind in the AI Race",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/googles-ai-architect-just-quit-sparking-fears-it-could-fall-behind-in-the-ai-race/"
         }
       ]
     },
@@ -4604,6 +4604,11 @@
       },
       "news": [
         {
+          "title": "Stock Market Today: Dow Rises, Nasdaq Falls As AI Stocks Sandisk, Western Digital Plunge On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "History Says Investing $400 per Month in This ETF Could Set You Up for Life. Here's How.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/history-says-investing-this-etf-set-for-life-qqq/"
@@ -4612,11 +4617,6 @@
           "title": "Nasdaq, Dow Futures Mixed Ahead Of Jobless Claims: Why SPCX, SNDK, SOUN, IONQ, FIG Stocks Are In Focus",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-futures-falling-premarket-jobless-claims-spcx-sndk-soun-ionq-fig-stocks-in-focus/cZoJAYjRJ7T"
-        },
-        {
-          "title": "How ProShares Ultra QQQ Quietly Built $14.46 Billion in Assets Despite Warnings That Leveraged ETFs Destroy Long-Term Wealth",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/05/how-proshares-ultra-qqq-quietly-built-14-46-billion-in-assets-despite-warnings-that-leveraged-etfs-destroy-long-term-wealth/"
         }
       ]
     },
@@ -4663,9 +4663,9 @@
           "link": "https://finance.yahoo.com/markets/article/the-companies-defying-macro-uncertainty-and-raising-guidance-alphacheck-140605238.html"
         },
         {
-          "title": "Gold prices today, Wednesday, August 5, 2026: Gold prices are holding, awaiting news on Hormuz deal",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
+          "title": "Here Are Thursday’s Top Wall Street Analyst Research Calls: AppLovin, Charles River, Global Payments, HubSpot, Insulet Corporation, Roper Technologies, Sabra Health Care, Western Digital, Zillow Group, and More",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/here-are-thursdays-top-wall-street-analyst-research-calls-applovin-charles-river-global-payments-hubspot-insulet-corporation-roper-technologies-sabra-health-care-western-digital-zill/"
         },
         {
           "title": "Gold holds near seven-week peak as Hormuz hopes offset Fed tightening concerns",
@@ -4706,19 +4706,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "How oil prices caused Hawaiian Tropic parent company's earnings results to fall short",
+          "title": "Warner Bros. Discovery earnings, jobless claims: What to Watch",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/oil-prices-caused-hawaiian-tropic-202055723.html"
+          "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/economy/policy/article/fed-governor-lisa-cook-i-am-prepared-to-act-on-interest-rates-if-inflation-remains-elevated-201309391.html"
-        },
-        {
-          "title": "Dow Jones Futures Rise But Techs Fall As Sandisk, Western Digital, Datadog Lead Earnings Losers",
+          "title": "Stock Market Today: Dow Rises, Nasdaq Falls As AI Stocks Sandisk, Western Digital Plunge On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-google-spacex-skid-sandisk-western-digital-earnings/?src=A00220&yptr=yahoo"
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Lessons from the Iran war: China’s oil buffer and energy resilience, tested",
+          "publisher": "Offshore Technology",
+          "link": "https://www.offshore-technology.com/news/lessons-from-the-iran-war-chinas-oil-buffer-and-energy-resilience-tested-2/"
         }
       ]
     },
@@ -4867,14 +4867,14 @@
           "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
         },
         {
-          "title": "Bitcoin Enters Accumulation Zone as 41 of 45 On-Chain Indicators Hit Cycle Lows",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/bitcoin-accumulation-zone-onchain-indicators/"
+          "title": "Stock Market Today: Dow Rises, Nasdaq Falls As AI Stocks Sandisk, Western Digital Plunge On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Block shares ease despite stronger profit outlook and upbeat quarterly results",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33578/block-shares-ease-despite-stronger-profit-outlook-and-upbeat-quarterly-results"
+          "title": "Block Earnings Top Views. Is Square A Turnaround Or Growth Story?",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/block-stock-square-xyz-block-earnings-q22026/?src=A00220&yptr=yahoo"
         }
       ]
     },
