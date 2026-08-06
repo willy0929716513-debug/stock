@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:34:41.374190+00:00",
+  "generated_at": "2026-08-06T14:40:01.014583+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -701,6 +701,11 @@
       },
       "news": [
         {
+          "title": "MSI Q2 Earnings Top Estimates on Strong Demand, Record Backlog",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/msi-q2-earnings-top-estimates-132000998.html"
+        },
+        {
           "title": "Can Motorola's AI Expansion for Mission-Critical Response Aid Stock?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/technology/ai/articles/motorolas-ai-expansion-mission-critical-155000693.html"
@@ -709,11 +714,6 @@
           "title": "Is NVIDIA (NVDA) One of the Best NASDAQ Stocks to Buy and Hold for 3 Years?",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-one-best-nasdaq-172352123.html"
-        },
-        {
-          "title": "Analysis-Nvidia's AI PC push banks on unproven demand beyond niche users",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/sectors/technology/articles/analysis-nvidias-ai-pc-push-105240395.html"
         }
       ]
     },
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "SoundHound AI Rallies 12%, Unity Software Rises 11%, Datadog Sinks 15% as Traders Separate Software Winners From Losers",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/soundhound-ai-rallies-12-unity-software-rises-11-datadog-sinks-15-as-traders-separate-software-winners-from-losers/"
+          "title": "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/cathie-wood-goes-bargain-hunting-3-stocks-she-just/"
         }
       ]
     },
@@ -4706,19 +4706,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Warner Bros. Discovery earnings, jobless claims: What to Watch",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
+          "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
+        },
+        {
+          "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/economy/policy/article/fed-governor-lisa-cook-i-am-prepared-to-act-on-interest-rates-if-inflation-remains-elevated-201309391.html"
         },
         {
           "title": "Stocks tread water with earnings, tech in focus",
           "publisher": "AFP",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-mostly-down-tech-025427719.html"
-        },
-        {
-          "title": "ConocoPhillips beats second-quarter earnings as record Permian production supports results",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33642/conocophillips-beats-second-quarter-earnings-as-record-permian-production-supports-results"
         }
       ]
     },
