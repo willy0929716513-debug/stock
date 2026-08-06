@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T06:43:34.250885+00:00",
+  "generated_at": "2026-08-06T06:49:00.637842+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4624,9 +4624,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4315.2002,
-      "change_pct": 1.63,
-      "volume": 49891,
+      "price": 4312.2002,
+      "change_pct": 1.56,
+      "volume": 50170,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4634,7 +4634,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=71.0 進入超買區); bollinger_band:sell(價格 4315.20 觸及上軌 4237.87)"
+          "rationale": "rsi:sell(RSI=70.9 進入超買區); bollinger_band:sell(價格 4312.20 觸及上軌 4236.79)"
         },
         {
           "agent": "macro",
@@ -4650,9 +4650,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4315.2002,
-        "stop_loss": 4419.2574,
-        "take_profit": 4141.7715,
+        "entry_price": 4312.2002,
+        "stop_loss": 4416.2574,
+        "take_profit": 4138.7715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4668,9 +4668,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
         },
         {
-          "title": "Gold touches seven-week high on Strait of Hormuz reopening hopes",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/gold-touches-seven-week-high-005110591.html"
+          "title": "Thor Explorations hits high-grade gold below Segilola pit as underground study advances",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096634/thor-explorations-hits-high-grade-gold-below-segilola-pit-as-underground-study-advances-1096634.html"
         }
       ]
     },
@@ -4678,9 +4678,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 75.38,
-      "change_pct": 0.21,
-      "volume": 20225,
+      "price": 75.58,
+      "change_pct": 0.48,
+      "volume": 20684,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4700,7 +4700,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.60%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4726,8 +4726,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.242,
-      "change_pct": -0.47,
+      "price": 32.263,
+      "change_pct": -0.41,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4828,9 +4828,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64750.0586,
-      "change_pct": 1.08,
-      "volume": 22310950912,
+      "price": 64754.1016,
+      "change_pct": 1.09,
+      "volume": 22316713984,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4876,9 +4876,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1910.53,
-      "change_pct": 2.26,
-      "volume": 9951479808,
+      "price": 1911.02,
+      "change_pct": 2.28,
+      "volume": 9950080000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
