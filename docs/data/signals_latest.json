@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:16:03.305344+00:00",
+  "generated_at": "2026-08-06T10:21:30.076868+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -3927,7 +3927,13 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Porsche-Backed Princeton Spinout Cephia AI Scores $4M To Create Tiny Superhuman Sensors Like Mantis Shrimp Eyes",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/news/porsche-backed-princeton-spinout-cephia-000110954.html"
+        }
+      ]
     },
     {
       "symbol": "2542.TW",
@@ -4398,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "Larry Ellison Just Collected a $579 Million Dividend Check. Here’s What $100,000 of Oracle Stock Would Pay You.",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/larry-ellison-just-collected-a-579-million-dividend-check-heres-what-100000-of-oracle-stock-would-pay-you-2/"
+          "title": "Forget Meme Coins: Here's Why I'm Investing in Prediction Market Contracts Instead",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/forget-meme-coins-heres-why-im-investing-in-predic/"
         }
       ]
     },
