@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:13:20.519892+00:00",
+  "generated_at": "2026-08-06T14:18:40.658288+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4711,14 +4711,14 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
+          "title": "ConocoPhillips beats second-quarter earnings as record Permian production supports results",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33642/conocophillips-beats-second-quarter-earnings-as-record-permian-production-supports-results"
+        },
+        {
           "title": "Stock Market Today: Dow Up, Nasdaq Falls As AI Names Sandisk, Western Digital Sink After Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Treasury Yields Edge Up Amid Rate-Rise Prospects, Middle East Progress",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/investing/jgbs-rise-tracking-gains-in-u-s-treasurys-297e6f42?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4726,8 +4726,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.27,
-      "change_pct": -0.39,
+      "price": 32.25,
+      "change_pct": -0.45,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
