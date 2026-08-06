@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:44:29.716494+00:00",
+  "generated_at": "2026-08-06T15:49:52.571427+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4263,9 +4263,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 310.01,
-      "change_pct": -0.32,
-      "volume": 17275901,
+      "price": 309.96,
+      "change_pct": -0.33,
+      "volume": 17625532,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4285,7 +4285,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.15%)"
         }
       ],
       "risk_levels": null,
@@ -4313,7 +4313,7 @@
       "category": "us_stock",
       "price": 496.05,
       "change_pct": 1.76,
-      "volume": 12531997,
+      "volume": 12705475,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4365,9 +4365,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 217.735,
-      "change_pct": -0.68,
-      "volume": 53507771,
+      "price": 218.0201,
+      "change_pct": -0.55,
+      "volume": 54463473,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4387,7 +4387,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.58%)"
+          "rationale": "波動度正常(ATR/價格=3.57%)"
         }
       ],
       "risk_levels": null,
@@ -4403,9 +4403,9 @@
           "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "Nvidia’s Custom CPU Expansion Is the Next $200B Catalyst.",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/nvidias-custom-cpu-expansion-is-the-next-200b-catalyst/"
+          "title": "Why Did Western Digital Stock Crash After Earnings?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/why-did-western-digital-stock-crash-after-earnings/"
         }
       ]
     },
@@ -4413,17 +4413,17 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 320.765,
-      "change_pct": -0.24,
-      "volume": 11584670,
+      "price": 321.245,
+      "change_pct": -0.09,
+      "volume": 11764281,
       "signal": "buy",
-      "confidence": 0.25,
+      "confidence": 0.24,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.41,
-          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
+          "confidence": 0.4,
+          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4439,9 +4439,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 320.765,
-        "stop_loss": 298.0326,
-        "take_profit": 358.6524,
+        "entry_price": 321.245,
+        "stop_loss": 298.5125,
+        "take_profit": 359.1324,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4452,14 +4452,14 @@
           "link": "https://finance.yahoo.com/markets/article/fords-new-fathom-is-its-cheap-ev-pickup-starting-at-28350-130000587.html"
         },
         {
+          "title": "Why Tesla Stock Plunged 26% in July",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/why-tesla-stock-plunged-26-in-july/"
+        },
+        {
           "title": "Tesla and SpaceX will invest $16.8B to start building ‘Terafab’ chip factory in Texas",
           "publisher": "TechCrunch",
           "link": "https://finance.yahoo.com/technology/articles/tesla-spacex-invest-16-8b-152151414.html"
-        },
-        {
-          "title": "Is Michael Burry Wrong About Everything?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/is-michael-burry-wrong-about-everything/"
         }
       ]
     },
@@ -4467,9 +4467,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 359.9,
-      "change_pct": -0.7,
-      "volume": 9658658,
+      "price": 360.19,
+      "change_pct": -0.62,
+      "volume": 9823142,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4515,9 +4515,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.44,
-      "change_pct": -0.18,
-      "volume": 11561995,
+      "price": 769.4234,
+      "change_pct": -0.05,
+      "volume": 11951879,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4563,9 +4563,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.03,
-      "change_pct": -0.18,
-      "volume": 15733234,
+      "price": 717.26,
+      "change_pct": -0.01,
+      "volume": 16054676,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4611,9 +4611,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4310.2998,
+      "price": 4310.2002,
       "change_pct": 1.52,
-      "volume": 126879,
+      "volume": 128474,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4621,7 +4621,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.30 觸及上軌 4236.11)"
+          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.20 觸及上軌 4236.07)"
         },
         {
           "agent": "macro",
@@ -4637,9 +4637,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4310.2998,
-        "stop_loss": 4414.357,
-        "take_profit": 4136.8712,
+        "entry_price": 4310.2002,
+        "stop_loss": 4414.2574,
+        "take_profit": 4136.7715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4665,9 +4665,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.95,
-      "change_pct": 2.3,
-      "volume": 118801,
+      "price": 77.02,
+      "change_pct": 2.39,
+      "volume": 120228,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4713,8 +4713,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.254,
-      "change_pct": -0.44,
+      "price": 32.261,
+      "change_pct": -0.41,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4761,7 +4761,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.379,
+      "price": 158.384,
       "change_pct": 0.44,
       "volume": 0,
       "signal": "buy",
@@ -4787,9 +4787,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.379,
-        "stop_loss": 155.9681,
-        "take_profit": 162.3972,
+        "entry_price": 158.384,
+        "stop_loss": 155.9731,
+        "take_profit": 162.4022,
         "atr": 1.6073,
         "risk_reward_ratio": 1.67
       },
@@ -4815,9 +4815,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64703.1484,
-      "change_pct": 0.16,
-      "volume": 20719618048,
+      "price": 64778.2305,
+      "change_pct": 0.28,
+      "volume": 20643682304,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4837,13 +4837,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.21%)"
+          "rationale": "波動度正常(ATR/價格=2.20%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64703.1484,
-        "stop_loss": 62560.7048,
-        "take_profit": 68273.8878,
+        "entry_price": 64778.2305,
+        "stop_loss": 62635.7868,
+        "take_profit": 68348.9699,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4869,9 +4869,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.01,
-      "change_pct": 0.29,
-      "volume": 9611555840,
+      "price": 1915.6899,
+      "change_pct": 0.48,
+      "volume": 9542800384,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4891,7 +4891,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.04%)"
+          "rationale": "波動度正常(ATR/價格=3.03%)"
         }
       ],
       "risk_levels": null,
