@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:33:43.450433+00:00",
+  "generated_at": "2026-08-06T15:39:07.457234+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4263,9 +4263,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 310.065,
-      "change_pct": -0.3,
-      "volume": 16622671,
+      "price": 310.21,
+      "change_pct": -0.25,
+      "volume": 16943183,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4311,9 +4311,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 496.456,
-      "change_pct": 1.85,
-      "volume": 12178721,
+      "price": 496.19,
+      "change_pct": 1.79,
+      "volume": 12360037,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4337,9 +4337,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 496.456,
-        "stop_loss": 523.1849,
-        "take_profit": 451.9078,
+        "entry_price": 496.19,
+        "stop_loss": 522.9189,
+        "take_profit": 451.6418,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4355,9 +4355,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "Nextech3D.ai: 160 new contracts, 92% margins, biggest deal ever due August",
-          "publisher": "Proactive",
-          "link": "https://finance.yahoo.com/video/nextech3d-ai-160-contracts-92-145725645.html"
+          "title": "Alphabet Heads to Bond Market After Boosting AI Spending Forecast",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/alphabet-bond-offering-ai-capex-debt-af919d25?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4365,9 +4365,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 217.97,
-      "change_pct": -0.57,
-      "volume": 51292931,
+      "price": 217.56,
+      "change_pct": -0.76,
+      "volume": 52527800,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4387,7 +4387,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.56%)"
+          "rationale": "波動度正常(ATR/價格=3.58%)"
         }
       ],
       "risk_levels": null,
@@ -4403,9 +4403,9 @@
           "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "TSMC’s $64 Billion Investment Signals Mega-Growth: Why Pivoting Away From The Titan Makes Little Sense",
+          "title": "Nvidia’s Custom CPU Expansion Is the Next $200B Catalyst.",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/tsmcs-64-billion-investment-signals-mega-growth-why-pivoting-away-from-the-titan-makes-little-sense/"
+          "link": "https://247wallst.com/investing/2026/08/06/nvidias-custom-cpu-expansion-is-the-next-200b-catalyst/"
         }
       ]
     },
@@ -4413,9 +4413,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 320.96,
-      "change_pct": -0.18,
-      "volume": 11217208,
+      "price": 320.77,
+      "change_pct": -0.24,
+      "volume": 11418858,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4439,9 +4439,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 320.96,
-        "stop_loss": 298.2275,
-        "take_profit": 358.8474,
+        "entry_price": 320.77,
+        "stop_loss": 298.0375,
+        "take_profit": 358.6574,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4467,9 +4467,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 360.18,
-      "change_pct": -0.62,
-      "volume": 9240644,
+      "price": 359.775,
+      "change_pct": -0.73,
+      "volume": 9445633,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4489,7 +4489,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.79%)"
+          "rationale": "波動度正常(ATR/價格=3.80%)"
         }
       ],
       "risk_levels": null,
@@ -4505,9 +4505,9 @@
           "link": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html"
         },
         {
-          "title": "Alphabet Is Taking on More Debt to Finance Its AI Spending. Why That’s Not Necessarily Bad News",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/alphabet-is-taking-on-more-det-to-finance-its-ai-spending-why-thats-not-necessarily-bad-news/"
+          "title": "Factbox-Tech companies tap debt, equity to fund AI and cloud expansion",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/factbox-tech-companies-tap-debt-225411778.html"
         }
       ]
     },
@@ -4515,9 +4515,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.74,
-      "change_pct": -0.14,
-      "volume": 10683911,
+      "price": 768.58,
+      "change_pct": -0.16,
+      "volume": 11083445,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.19%)"
+          "rationale": "波動度正常(ATR/價格=1.20%)"
         }
       ],
       "risk_levels": null,
@@ -4563,9 +4563,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.64,
-      "change_pct": -0.09,
-      "volume": 15187242,
+      "price": 716.14,
+      "change_pct": -0.16,
+      "volume": 15482439,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4611,9 +4611,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4310.7002,
-      "change_pct": 1.53,
-      "volume": 125046,
+      "price": 4313.8999,
+      "change_pct": 1.6,
+      "volume": 126400,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4621,7 +4621,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.70 觸及上軌 4236.25)"
+          "rationale": "rsi:sell(RSI=70.9 進入超買區); bollinger_band:sell(價格 4313.90 觸及上軌 4237.40)"
         },
         {
           "agent": "macro",
@@ -4637,9 +4637,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4310.7002,
-        "stop_loss": 4414.7574,
-        "take_profit": 4137.2715,
+        "entry_price": 4313.8999,
+        "stop_loss": 4417.9571,
+        "take_profit": 4140.4713,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4650,14 +4650,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-august-6-2026-gold-prices-surge-as-hormuz-inches-closer-to-reopening-130743281.html"
         },
         {
+          "title": "The Best Rare Earth Stock to Buy and Hold for the Next Decade",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/the-best-rare-earth-stock-to-buy-and-hold-for-the/"
+        },
+        {
           "title": "MercadoLibre (MELI) Crosses $10 Billion In Quarterly Revenue For The First Time",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-meli-crosses-10-billion-151325922.html"
-        },
-        {
-          "title": "BNP Paribas Sees Gold Hitting $5,000 as Trump’s Pressure on the Fed Weakens the Dollar",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/06/bnp-paribas-sees-gold-hitting-5000-as-trumps-pressure-on-the-fed-weakens-the-dollar/"
         }
       ]
     },
@@ -4665,9 +4665,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.13,
-      "change_pct": 2.54,
-      "volume": 113744,
+      "price": 76.81,
+      "change_pct": 2.11,
+      "volume": 115607,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4686,8 +4686,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.31,
-          "rationale": "波動度過高(ATR/價格=6.56%),建議降低部位或觀望"
+          "confidence": 0.32,
+          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4713,8 +4713,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.251,
-      "change_pct": -0.44,
+      "price": 32.247,
+      "change_pct": -0.46,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4761,7 +4761,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.41,
+      "price": 158.412,
       "change_pct": 0.46,
       "volume": 0,
       "signal": "buy",
@@ -4787,9 +4787,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.41,
-        "stop_loss": 155.9991,
-        "take_profit": 162.4282,
+        "entry_price": 158.412,
+        "stop_loss": 156.0011,
+        "take_profit": 162.4302,
         "atr": 1.6073,
         "risk_reward_ratio": 1.67
       },
@@ -4815,9 +4815,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64744.5312,
-      "change_pct": 0.23,
-      "volume": 20771936256,
+      "price": 64731.3711,
+      "change_pct": 0.21,
+      "volume": 20660295680,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4841,9 +4841,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64744.5312,
-        "stop_loss": 62602.0876,
-        "take_profit": 68315.2706,
+        "entry_price": 64731.3711,
+        "stop_loss": 62588.9275,
+        "take_profit": 68302.1105,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4869,9 +4869,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.84,
+      "price": 1914.95,
       "change_pct": 0.44,
-      "volume": 9519973376,
+      "volume": 9547894784,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
