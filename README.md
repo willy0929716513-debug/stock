@@ -32,6 +32,7 @@ src/
   pipeline/
     daily_run.py               # 主要 pipeline 入口,產出 docs/data/signals_latest.json
     auto_trader.py              # 24 小時伺服器端自動跟單模擬帳戶
+    health_check.py             # 追蹤連續幾次沒抓到新資料,決定要不要停用排程
 
 docs/                          # GitHub Pages 前端(純靜態,無建置流程)
   index.html                   # 今日建議首頁
@@ -46,10 +47,11 @@ docs/                          # GitHub Pages 前端(純靜態,無建置流程)
   data/
     signals_latest.json         # pipeline 產出的公開資料(GitHub Actions 自動寫入)
     auto_trader_state.json      # 自動跟單帳戶狀態(GitHub Actions 自動寫入)
+    pipeline_health.json        # 排程健康狀態(連續失敗次數,GitHub Actions 自動寫入)
 
 tests/                          # pytest 回歸測試
 .github/workflows/
-  pipeline.yml                  # 每 ~5 分鐘執行 pipeline,把結果 commit 回 docs/data/
+  pipeline.yml                  # 排程執行 pipeline,把結果 commit 回 docs/data/(見下方排程說明)
   tests.yml                     # push / PR 時跑 pytest
 ```
 
@@ -114,6 +116,25 @@ tests/                          # pytest 回歸測試
 若 `GEMINI_API_KEY` 未設定或分析失敗,`potential_picks` 會是空陣列,前端會顯示提示文字,
 不會讓整個 pipeline 掛掉。
 
+## 排程頻率與自動暫停機制
+
+**誠實記錄一個實際踩到的問題**:一開始 `pipeline.yml` 排程設定 `*/5 * * * *`(每 5 分鐘),
+但稽核真實執行紀錄後發現,GitHub Actions 的排程在公開 repo / 免費方案上對這種高頻率排程
+並不可靠——實際觀察到的間隔是 **3~5 小時一次**,不是 5 分鐘,而且完全沒有任何錯誤訊息,
+是 GitHub 平台本身把過於頻繁的排程丟進低優先權佇列、大量跳過,沒有 SLA 保證。已經把
+cron 改成 `*/15 * * * *`,但這仍然是「盡量」,不是保證。
+
+另外加上一個獨立的保護機制(`src/pipeline/health_check.py`,有完整 pytest 測試):
+每次執行 pipeline 之後,判斷「這次算不算真的抓到新資料」——訊號數量是 0(整批抓取失敗)、
+或這次輸出跟上次 commit 完全一樣(可疑,真實市場報價幾乎不可能連續好幾次都毫無變動,
+比較可能是抓取邏輯悄悄回傳了舊/快取資料而不是報錯)。連續 **3 次**符合以上任一種情況,
+就會呼叫 GitHub API **自動停用**這個 workflow 的排程,並在 `docs/data/pipeline_health.json`
+留下記錄,避免系統已經壞掉了卻沒人發現、一直空轉。
+
+**如果排程被自動停用了,要怎麼恢復**:先看 `pipeline_health.json` 跟對應那幾次 Actions run
+的 log 找出真因(不要用猜的),修好之後到 repo 的 **Actions 分頁 → JPO-KBO Signal Pipeline →
+右上角 "..." → Enable workflow** 手動重新啟用,或用 `gh workflow enable pipeline.yml`。
+
 ## 已知限制(誠實記錄,不要刪掉)
 
 - **台股休市日清單是手動維護的**(`src/data/providers/twse_calendar.py`),需要每年依證交所公告更新;
@@ -140,7 +161,7 @@ tests/                          # pytest 回歸測試
 
 ```bash
 pip install -r requirements.txt
-python -m pytest tests/ -v          # 跑回歸測試(43 個測試,不需要網路或 API key)
+python -m pytest tests/ -v          # 跑回歸測試(53 個測試,不需要網路或 API key)
 python -m src.pipeline.daily_run    # 手動跑一次 pipeline(需要網路)
 python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 signals_latest.json)
 ```

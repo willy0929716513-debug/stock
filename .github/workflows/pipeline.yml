@@ -1,12 +1,17 @@
 name: JPO-KBO Signal Pipeline
 
+# 排程頻率的誠實說明:GitHub Actions 對高頻率排程(原本用 */5)在公開 repo /
+# 免費方案上不可靠,實際觀察到排程延遲到以「小時」計、遠超正常排程延遲範圍,
+# 詳見 README「已知限制」。改成 15 分鐘(使用者要求 15~30 分鐘取最短),
+# 仍然不保證 GitHub 一定準時觸發,只是比 5 分鐘更務實。
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write  # 連續 3 次沒抓到新資料時,需要呼叫 API 停用這個 workflow
 
 concurrency:
   group: jpo-kbo-pipeline
@@ -38,14 +43,53 @@ jobs:
         run: python -m src.pipeline.auto_trader
 
       - name: Commit and push updated data
+        id: commit
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add docs/data/signals_latest.json docs/data/auto_trader_state.json
-          if git diff --cached --quiet; then
-            echo "no data changes, skipping commit"
-            exit 0
+
+          DATA_CHANGED=1
+          git diff --cached --quiet && DATA_CHANGED=0
+          echo "data_changed=$DATA_CHANGED" >> "$GITHUB_OUTPUT"
+
+          SIGNAL_COUNT=$(python3 -c "import json; print(len(json.load(open('docs/data/signals_latest.json')).get('signals', [])))" 2>/dev/null || echo 0)
+          echo "signal_count=$SIGNAL_COUNT" >> "$GITHUB_OUTPUT"
+
+          if [ "$DATA_CHANGED" -eq 1 ]; then
+            git commit -m "chore: update signals data [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "no data changes to signals/auto-trader, skipping commit"
           fi
-          git commit -m "chore: update signals data [skip ci]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      # 連續多次「沒抓到新資料」(整批抓取失敗,或內容跟上次一模一樣)時,
+      # 代表系統可能已經悄悄壞掉了,由這裡累計次數並在達到門檻時停用排程,
+      # 而不是無限重試下去、卻沒人發現。判斷邏輯見 src/pipeline/health_check.py
+      # (有獨立的 pytest 回歸測試)。
+      - name: Update pipeline health status
+        id: health
+        run: |
+          NEW_COUNT=$(python -m src.pipeline.health_check "${{ steps.commit.outputs.signal_count }}" "${{ steps.commit.outputs.data_changed }}")
+          echo "consecutive_no_update=$NEW_COUNT" >> "$GITHUB_OUTPUT"
+
+          git add docs/data/pipeline_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update pipeline health status [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Pause schedule after 3 consecutive runs without new data
+        if: steps.health.outputs.consecutive_no_update >= 3
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::warning::連續 ${{ steps.health.outputs.consecutive_no_update }} 次沒有抓到新資料,停用這個 workflow 的排程。要恢復請到 Actions 分頁手動 Enable workflow,或執行 gh workflow enable pipeline.yml"
+          curl -s -X PUT \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pipeline.yml/disable"
