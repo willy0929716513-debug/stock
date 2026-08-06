@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T07:21:42.977396+00:00",
+  "generated_at": "2026-08-06T07:27:10.424505+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "Where Will SpaceX Stock Be in 1 Year?",
+          "title": "Rocket Lab Just Won $663 Million in Space Force Contracts. Only the Bigger One Waits for a Rocket That Has Never Flown.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/where-will-spacex-stock-be-in-1-year/"
+          "link": "https://www.fool.com/investing/2026/08/06/rocket-lab-just-won-663-million-in-space-force-con/"
         }
       ]
     },
@@ -4624,9 +4624,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4319.1001,
-      "change_pct": 1.73,
-      "volume": 52305,
+      "price": 4320.5,
+      "change_pct": 1.76,
+      "volume": 52804,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4634,7 +4634,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=71.2 進入超買區); bollinger_band:sell(價格 4319.10 觸及上軌 4239.28)"
+          "rationale": "rsi:sell(RSI=71.2 進入超買區); bollinger_band:sell(價格 4320.50 觸及上軌 4239.79)"
         },
         {
           "agent": "macro",
@@ -4650,9 +4650,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4319.1001,
-        "stop_loss": 4423.1573,
-        "take_profit": 4145.6714,
+        "entry_price": 4320.5,
+        "stop_loss": 4424.5572,
+        "take_profit": 4147.0714,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4678,9 +4678,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 75.39,
-      "change_pct": 0.23,
-      "volume": 23641,
+      "price": 75.23,
+      "change_pct": 0.01,
+      "volume": 23999,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4700,7 +4700,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.60%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.61%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4726,8 +4726,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.251,
-      "change_pct": -0.44,
+      "price": 32.256,
+      "change_pct": -0.43,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4774,7 +4774,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.761,
+      "price": 157.751,
       "change_pct": 0.04,
       "volume": 0,
       "signal": "buy",
@@ -4800,9 +4800,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.761,
-        "stop_loss": 155.4156,
-        "take_profit": 161.6699,
+        "entry_price": 157.751,
+        "stop_loss": 155.4057,
+        "take_profit": 161.6599,
         "atr": 1.5636,
         "risk_reward_ratio": 1.67
       },
@@ -4828,9 +4828,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64877.8516,
-      "change_pct": 0.43,
-      "volume": 22291892224,
+      "price": 64854.6211,
+      "change_pct": 0.4,
+      "volume": 22212347904,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4854,9 +4854,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64877.8516,
-        "stop_loss": 62767.9019,
-        "take_profit": 68394.4343,
+        "entry_price": 64854.6211,
+        "stop_loss": 62744.6715,
+        "take_profit": 68371.2038,
         "atr": 1406.6331,
         "risk_reward_ratio": 1.67
       },
@@ -4882,9 +4882,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1911.91,
-      "change_pct": 0.28,
-      "volume": 9630410752,
+      "price": 1910.99,
+      "change_pct": 0.23,
+      "volume": 9605531648,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
