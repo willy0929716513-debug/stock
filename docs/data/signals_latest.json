@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:43:37.235441+00:00",
+  "generated_at": "2026-08-06T16:48:59.513764+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4029,9 +4029,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.4,
-      "change_pct": 0.13,
-      "volume": 20620527,
+      "price": 311.38,
+      "change_pct": 0.12,
+      "volume": 20834442,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4077,9 +4077,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 493.86,
-      "change_pct": 1.31,
-      "volume": 14257421,
+      "price": 494.51,
+      "change_pct": 1.45,
+      "volume": 14411281,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4087,7 +4087,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=81.7 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4099,13 +4099,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.61%)"
+          "rationale": "波動度正常(ATR/價格=3.60%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 493.86,
-        "stop_loss": 520.5889,
-        "take_profit": 449.3118,
+        "entry_price": 494.51,
+        "stop_loss": 521.2389,
+        "take_profit": 449.9618,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4131,9 +4131,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.13,
-      "change_pct": -0.04,
-      "volume": 64967512,
+      "price": 218.83,
+      "change_pct": -0.18,
+      "volume": 65765595,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4153,25 +4153,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.55%)"
+          "rationale": "波動度正常(ATR/價格=3.56%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq slip as Treasury yields rise, earnings roll on",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html"
-        },
-        {
-          "title": "Nvidia stock rises after Musk says SpaceX will exclusively use company's chips",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
-        },
-        {
           "title": "Marc Benioff Says Wall Street's Fears That AI Will Kill Salesforce Are \"Dead Wrong\" Even as CRM Stock Has Fallen Over 30% in 2026. Should Investors Bet on His Conviction?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/marc-benioff-says-wall-streets-fears-that-ai-will/"
+        },
+        {
+          "title": "Prediction: This Will be Shopify’s Price in 2027 And Barclays Agrees",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/prediction-this-will-be-shopifys-price-and-barclays-agrees/"
+        },
+        {
+          "title": "Here’s a Solid Backdoor Trade on the Memory Boom",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/heres-a-solid-backdoor-trade-on-the-memory-boom/"
         }
       ]
     },
@@ -4179,9 +4179,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 319.04,
-      "change_pct": -0.78,
-      "volume": 14289077,
+      "price": 318.73,
+      "change_pct": -0.88,
+      "volume": 14536560,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4189,7 +4189,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.41,
-          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4205,9 +4205,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 319.04,
-        "stop_loss": 296.3076,
-        "take_profit": 356.9274,
+        "entry_price": 318.73,
+        "stop_loss": 295.9976,
+        "take_profit": 356.6174,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4233,9 +4233,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 358.675,
-      "change_pct": -1.04,
-      "volume": 11501493,
+      "price": 358.055,
+      "change_pct": -1.21,
+      "volume": 11779239,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4255,7 +4255,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.81%)"
+          "rationale": "波動度正常(ATR/價格=3.83%)"
         }
       ],
       "risk_levels": null,
@@ -4281,9 +4281,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.43,
-      "change_pct": -0.18,
-      "volume": 16841396,
+      "price": 768.19,
+      "change_pct": -0.21,
+      "volume": 17055209,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4329,9 +4329,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 714.99,
-      "change_pct": -0.32,
-      "volume": 19556901,
+      "price": 714.67,
+      "change_pct": -0.37,
+      "volume": 19735526,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4357,6 +4357,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Magnite Jumps 18%, AppLovin Crashes 20%, Trade Desk Slides 6% as Traders Separate Ad-Tech Winners From Losers",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/magnite-jumps-18-applovin-crashes-20-trade-desk-slides-6-as-traders-separate-ad-tech-winners-from-losers/"
+        },
+        {
           "title": "SoundHound AI Rallies 12%, Unity Software Rises 11%, Datadog Sinks 15% as Traders Separate Software Winners From Losers",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/06/soundhound-ai-rallies-12-unity-software-rises-11-datadog-sinks-15-as-traders-separate-software-winners-from-losers/"
@@ -4365,11 +4370,6 @@
           "title": "Pre-Market Flat on Consistently Low Jobless Claims",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pre-market-flat-consistently-low-142600404.html"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
         }
       ]
     },
@@ -4377,17 +4377,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4290.5,
-      "change_pct": 1.05,
-      "volume": 142683,
+      "price": 4293.7002,
+      "change_pct": 1.13,
+      "volume": 143373,
       "signal": "sell",
-      "confidence": 0.34,
+      "confidence": 0.46,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.57,
-          "rationale": "bollinger_band:sell(價格 4290.50 觸及上軌 4229.15)"
+          "confidence": 0.76,
+          "rationale": "rsi:sell(RSI=70.1 進入超買區); bollinger_band:sell(價格 4293.70 觸及上軌 4230.25)"
         },
         {
           "agent": "macro",
@@ -4403,9 +4403,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4290.5,
-        "stop_loss": 4394.5572,
-        "take_profit": 4117.0714,
+        "entry_price": 4293.7002,
+        "stop_loss": 4397.7574,
+        "take_profit": 4120.2715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4431,9 +4431,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.72,
-      "change_pct": 3.32,
-      "volume": 148353,
+      "price": 77.74,
+      "change_pct": 3.35,
+      "volume": 149512,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4453,7 +4453,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.60%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.59%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4527,7 +4527,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.508,
+      "price": 158.517,
       "change_pct": 0.52,
       "volume": 0,
       "signal": "buy",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.508,
-        "stop_loss": 156.0872,
-        "take_profit": 162.5426,
+        "entry_price": 158.517,
+        "stop_loss": 156.0962,
+        "take_profit": 162.5516,
         "atr": 1.6139,
         "risk_reward_ratio": 1.67
       },
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
+          "title": "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/u-japan-yen-move-puts-153400029.html"
+        },
+        {
           "title": "Bessent and Warsh Called ‘Double Whammy to Global Markets’ as 30-Year Treasury Yields Soar",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/06/bessent-and-warsh-called-double-whammy-to-global-markets-as-30-year-treasury-yields-soar/"
-        },
-        {
-          "title": "Dollar Could Retrace Recent Falls But Only in Near Term",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-wait-and-see-mood-on-possible-hormuz-reopening-7dcec3d2?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4581,17 +4581,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64690.4297,
-      "change_pct": 0.14,
-      "volume": 20444696576,
-      "signal": "buy",
-      "confidence": 0.44,
+      "price": 64626.3594,
+      "change_pct": 0.04,
+      "volume": 20384636928,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.73,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4606,13 +4606,7 @@
           "rationale": "波動度正常(ATR/價格=2.21%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 64690.4297,
-        "stop_loss": 62547.986,
-        "take_profit": 68261.1691,
-        "atr": 1428.2958,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4635,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.37,
-      "change_pct": 0.41,
-      "volume": 9355203584,
+      "price": 1912.1,
+      "change_pct": 0.29,
+      "volume": 9331500032,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4657,7 +4651,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.03%)"
+          "rationale": "波動度正常(ATR/價格=3.04%)"
         }
       ],
       "risk_levels": null,
