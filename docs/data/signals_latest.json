@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:54:21.343157+00:00",
+  "generated_at": "2026-08-06T16:59:44.423131+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4029,9 +4029,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.4501,
-      "change_pct": 0.14,
-      "volume": 21039519,
+      "price": 311.715,
+      "change_pct": 0.23,
+      "volume": 21273413,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4077,9 +4077,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 494.7,
-      "change_pct": 1.49,
-      "volume": 14545815,
+      "price": 495.18,
+      "change_pct": 1.58,
+      "volume": 14720948,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4087,7 +4087,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.9 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4103,9 +4103,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 494.7,
-        "stop_loss": 521.4289,
-        "take_profit": 450.1518,
+        "entry_price": 495.18,
+        "stop_loss": 521.9089,
+        "take_profit": 450.6318,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4131,9 +4131,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.205,
-      "change_pct": -0.01,
-      "volume": 65946336,
+      "price": 219.38,
+      "change_pct": 0.07,
+      "volume": 66495727,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4159,19 +4159,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "At Last, One Big Layoff Not Caused By AI",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/at-last-one-big-layoff-not-caused-by-ai/"
+        },
+        {
+          "title": "SpaceX Stock: 3 Reasons I Am Not Buying the Dip",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/spacex-stock-3-reasons-i-am-not-buying-the-dip/"
+        },
+        {
           "title": "SpaceX’s 10 GW Nvidia Vera Rubin Bet: The Compute Landlord Thesis Scales to $100 Billion",
           "publisher": "Forkast News",
           "link": "https://finance.yahoo.com/technology/ai/articles/spacex-10-gw-nvidia-vera-164046815.html"
-        },
-        {
-          "title": "Marc Benioff Says Wall Street's Fears That AI Will Kill Salesforce Are \"Dead Wrong\" Even as CRM Stock Has Fallen Over 30% in 2026. Should Investors Bet on His Conviction?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/marc-benioff-says-wall-streets-fears-that-ai-will/"
-        },
-        {
-          "title": "Restaurant Brands Falls on Burger King’s Best Quarter in Years",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/news/news-restaurant-brands-falls-on-burger-kings-best-quarter-in-years?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4179,9 +4179,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 318.89,
-      "change_pct": -0.83,
-      "volume": 14755877,
+      "price": 318.97,
+      "change_pct": -0.8,
+      "volume": 14919819,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4205,9 +4205,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 318.89,
-        "stop_loss": 296.1576,
-        "take_profit": 356.7774,
+        "entry_price": 318.97,
+        "stop_loss": 296.2376,
+        "take_profit": 356.8574,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4233,9 +4233,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 358.32,
-      "change_pct": -1.13,
-      "volume": 11973570,
+      "price": 358.355,
+      "change_pct": -1.12,
+      "volume": 12174400,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4281,9 +4281,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.52,
-      "change_pct": -0.16,
-      "volume": 17284910,
+      "price": 769.04,
+      "change_pct": -0.1,
+      "volume": 17449359,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.21%)"
+          "rationale": "波動度正常(ATR/價格=1.20%)"
         }
       ],
       "risk_levels": null,
@@ -4329,9 +4329,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 715.35,
-      "change_pct": -0.27,
-      "volume": 19953353,
+      "price": 716.05,
+      "change_pct": -0.17,
+      "volume": 20277572,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4377,17 +4377,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4290.6001,
-      "change_pct": 1.06,
-      "volume": 143845,
+      "price": 4293.6001,
+      "change_pct": 1.13,
+      "volume": 144369,
       "signal": "sell",
-      "confidence": 0.34,
+      "confidence": 0.46,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.57,
-          "rationale": "bollinger_band:sell(價格 4290.60 觸及上軌 4229.18)"
+          "confidence": 0.76,
+          "rationale": "rsi:sell(RSI=70.1 進入超買區); bollinger_band:sell(價格 4293.60 觸及上軌 4230.22)"
         },
         {
           "agent": "macro",
@@ -4403,9 +4403,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4290.6001,
-        "stop_loss": 4394.6573,
-        "take_profit": 4117.1714,
+        "entry_price": 4293.6001,
+        "stop_loss": 4397.6573,
+        "take_profit": 4120.1714,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4431,9 +4431,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.95,
-      "change_pct": 3.63,
-      "volume": 150880,
+      "price": 77.89,
+      "change_pct": 3.55,
+      "volume": 152674,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,8 +4479,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.253,
-      "change_pct": -0.44,
+      "price": 32.259,
+      "change_pct": -0.42,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4527,8 +4527,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.489,
-      "change_pct": 0.51,
+      "price": 158.511,
+      "change_pct": 0.52,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4536,8 +4536,8 @@
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.47,
-          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
+          "confidence": 0.46,
+          "rationale": "rsi:buy(RSI=29.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.489,
-        "stop_loss": 156.0682,
-        "take_profit": 162.5236,
+        "entry_price": 158.511,
+        "stop_loss": 156.0902,
+        "take_profit": 162.5456,
         "atr": 1.6139,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64677.6289,
-      "change_pct": 0.12,
-      "volume": 20441796608,
+      "price": 64685.0195,
+      "change_pct": 0.14,
+      "volume": 20487254016,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4607,9 +4607,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64677.6289,
-        "stop_loss": 62535.1853,
-        "take_profit": 68248.3683,
+        "entry_price": 64685.0195,
+        "stop_loss": 62542.5759,
+        "take_profit": 68255.7589,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4635,9 +4635,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.3101,
-      "change_pct": 0.36,
-      "volume": 9374372864,
+      "price": 1913.77,
+      "change_pct": 0.38,
+      "volume": 9379535872,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
