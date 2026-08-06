@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:28:20.771166+00:00",
+  "generated_at": "2026-08-06T15:33:43.450433+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4263,9 +4263,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 309.86,
-      "change_pct": -0.37,
-      "volume": 16035879,
+      "price": 310.065,
+      "change_pct": -0.3,
+      "volume": 16622671,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4285,7 +4285,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.15%)"
+          "rationale": "波動度正常(ATR/價格=3.14%)"
         }
       ],
       "risk_levels": null,
@@ -4311,9 +4311,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 495.89,
-      "change_pct": 1.73,
-      "volume": 11956069,
+      "price": 496.456,
+      "change_pct": 1.85,
+      "volume": 12178721,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4321,7 +4321,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=81.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=82.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4337,9 +4337,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 495.89,
-        "stop_loss": 522.6189,
-        "take_profit": 451.3418,
+        "entry_price": 496.456,
+        "stop_loss": 523.1849,
+        "take_profit": 451.9078,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4365,9 +4365,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 218.085,
-      "change_pct": -0.52,
-      "volume": 50385757,
+      "price": 217.97,
+      "change_pct": -0.57,
+      "volume": 51292931,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4413,17 +4413,17 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 321.4,
-      "change_pct": -0.05,
-      "volume": 10999641,
+      "price": 320.96,
+      "change_pct": -0.18,
+      "volume": 11217208,
       "signal": "buy",
-      "confidence": 0.24,
+      "confidence": 0.25,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.4,
-          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
+          "confidence": 0.41,
+          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4439,9 +4439,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 321.4,
-        "stop_loss": 298.6675,
-        "take_profit": 359.2874,
+        "entry_price": 320.96,
+        "stop_loss": 298.2275,
+        "take_profit": 358.8474,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4452,14 +4452,14 @@
           "link": "https://finance.yahoo.com/markets/article/fords-new-fathom-is-its-cheap-ev-pickup-starting-at-28350-130000587.html"
         },
         {
+          "title": "Tesla and SpaceX will invest $16.8B to start building ‘Terafab’ chip factory in Texas",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/technology/articles/tesla-spacex-invest-16-8b-152151414.html"
+        },
+        {
           "title": "Is Michael Burry Wrong About Everything?",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/06/is-michael-burry-wrong-about-everything/"
-        },
-        {
-          "title": "SpaceX, Tesla to Build Chip Plant in Texas to Meet Compute Demand",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/spacex-tesla-to-build-chip-plant-in-texas-to-meet-compute-demand-bcf070ce?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4467,9 +4467,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 360.11,
-      "change_pct": -0.64,
-      "volume": 9060807,
+      "price": 360.18,
+      "change_pct": -0.62,
+      "volume": 9240644,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4515,9 +4515,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.9,
-      "change_pct": -0.12,
-      "volume": 10390535,
+      "price": 768.74,
+      "change_pct": -0.14,
+      "volume": 10683911,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4563,9 +4563,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.81,
-      "change_pct": -0.07,
-      "volume": 14896051,
+      "price": 716.64,
+      "change_pct": -0.09,
+      "volume": 15187242,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4611,9 +4611,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4317.1001,
-      "change_pct": 1.68,
-      "volume": 123487,
+      "price": 4310.7002,
+      "change_pct": 1.53,
+      "volume": 125046,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4621,7 +4621,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=71.1 進入超買區); bollinger_band:sell(價格 4317.10 觸及上軌 4238.56)"
+          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.70 觸及上軌 4236.25)"
         },
         {
           "agent": "macro",
@@ -4637,9 +4637,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4317.1001,
-        "stop_loss": 4421.1573,
-        "take_profit": 4143.6714,
+        "entry_price": 4310.7002,
+        "stop_loss": 4414.7574,
+        "take_profit": 4137.2715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4665,9 +4665,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.01,
-      "change_pct": 2.38,
-      "volume": 111698,
+      "price": 77.13,
+      "change_pct": 2.54,
+      "volume": 113744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4713,8 +4713,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.249,
-      "change_pct": -0.45,
+      "price": 32.251,
+      "change_pct": -0.44,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4761,8 +4761,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.406,
-      "change_pct": 0.45,
+      "price": 158.41,
+      "change_pct": 0.46,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4787,9 +4787,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.406,
-        "stop_loss": 155.9951,
-        "take_profit": 162.4242,
+        "entry_price": 158.41,
+        "stop_loss": 155.9991,
+        "take_profit": 162.4282,
         "atr": 1.6073,
         "risk_reward_ratio": 1.67
       },
@@ -4815,9 +4815,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64713.6094,
-      "change_pct": 0.18,
-      "volume": 20846217216,
+      "price": 64744.5312,
+      "change_pct": 0.23,
+      "volume": 20771936256,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4841,9 +4841,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64713.6094,
-        "stop_loss": 62571.1657,
-        "take_profit": 68284.3488,
+        "entry_price": 64744.5312,
+        "stop_loss": 62602.0876,
+        "take_profit": 68315.2706,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4869,9 +4869,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.4,
-      "change_pct": 0.36,
-      "volume": 9499655168,
+      "price": 1914.84,
+      "change_pct": 0.44,
+      "volume": 9519973376,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
