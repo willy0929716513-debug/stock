@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T08:21:34.953379+00:00",
+  "generated_at": "2026-08-06T08:27:02.032480+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "SK Hynix Supplies More Than Half the World's HBM Memory. Its Stock Costs Under 4 Times Next Year's Earnings.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/sk-hynix-supplies-more-than-half-the-worlds-hbm-me/"
+          "title": "NVDA, PLTR, CAT Defy Michael Burry’s AI Bet — ‘Big Short’ Investor Warns Of Future ‘Ghost Towns’",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-pltr-cat-michael-burry-warns-future-ghost-towns/cZoJqv8RJe6"
         }
       ]
     },
@@ -4774,8 +4774,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.841,
-      "change_pct": 0.09,
+      "price": 157.842,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4800,9 +4800,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.841,
-        "stop_loss": 155.4956,
-        "take_profit": 161.7499,
+        "entry_price": 157.842,
+        "stop_loss": 155.4966,
+        "take_profit": 161.7509,
         "atr": 1.5636,
         "risk_reward_ratio": 1.67
       },
