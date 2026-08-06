@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:10:37.426009+00:00",
+  "generated_at": "2026-08-06T10:16:03.305344+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -3927,13 +3927,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Porsche-Backed Princeton Spinout Cephia AI Scores $4M To Create Tiny Superhuman Sensors Like Mantis Shrimp Eyes",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/news/porsche-backed-princeton-spinout-cephia-000110954.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2542.TW",
@@ -4404,9 +4398,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "Broadcom Is Down 20% From Its All-Time High. Here's Why It's a Screaming Bargain.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/broadcom-down-20-from-all-time-high-bargain/"
+          "title": "Larry Ellison Just Collected a $579 Million Dividend Check. Here’s What $100,000 of Oracle Stock Would Pay You.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/larry-ellison-just-collected-a-579-million-dividend-check-heres-what-100000-of-oracle-stock-would-pay-you-2/"
         }
       ]
     },
@@ -4453,14 +4447,14 @@
           "link": "https://finance.yahoo.com/technology/article/spacex-stock-hits-new-all-time-low-as-ai-capex-jumps-in-q2-132323178.html"
         },
         {
+          "title": "Pressured by Tesla, European regulators keep 'Full Self-Driving' safety data secret",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/pressured-tesla-european-regulators-keep-100413623.html"
+        },
+        {
           "title": "Thinking of Buying Tesla Stock on the Dip? Here's One Green Flag and One Red Flag.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/06/thinking-of-buying-tesla-stock-on-the-dip-heres-on/"
-        },
-        {
-          "title": "Waymo CEO takes a not-so-subtle shot at Tesla Robotaxi over Lidar",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/technology/waymo-ceo-tesla-robotaxis-need-lidar-to-work"
         }
       ]
     },
@@ -4506,9 +4500,9 @@
           "link": "https://finance.yahoo.com/markets/article/this-spacex-number-is-spooking-already-skittish-investors-130824734.html"
         },
         {
-          "title": "S&P 500, Dow futures steady as MidEast deal in focus; chips stumble",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-futures-steady-094518940.html"
+          "title": "Dow Futures Rise, Nasdaq Falls as Flight From Tech Gathers Pace Amid AI Fears",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080626/card/dow-futures-rise-nasdaq-falls-as-flight-from-tech-gathers-pace-amid-ai-fears-J7HLDW3NHxm0FxvXci52?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4668,9 +4662,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-5-2026-gold-prices-are-holding-awaiting-news-on-hormuz-deal-120800834.html"
         },
         {
-          "title": "Gold Above $4,300 After Rally as Middle East Talks Ease Rate-Hike Bets",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080626/card/gold-above-4-300-after-rally-as-middle-east-talks-ease-rate-hike-bets-2ogqesOUcrnKSDY4x4ML?siteid=yhoof2&yptr=yahoo"
+          "title": "Gold holds near seven-week peak as Hormuz hopes offset Fed tightening concerns",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33568/gold-holds-near-seven-week-peak-as-hormuz-hopes-offset-fed-tightening-concerns"
         }
       ]
     },
@@ -4808,6 +4802,11 @@
       },
       "news": [
         {
+          "title": "Freefalling yen sparks rare US intervention as Scott Bessent vows 'whatever it takes.' Will Americans pay the price?",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/freefalling-yen-sparks-rare-us-101000853.html"
+        },
+        {
           "title": "Yen and dollar drift as markets await Iran deal news, look towards payrolls",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/yen-dollar-drift-iran-deal-020117387.html"
@@ -4816,11 +4815,6 @@
           "title": "Dollar Lifted by U.S. Rate-Rise Bets",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-wait-and-see-mood-on-possible-hormuz-reopening-7dcec3d2?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "‘Sell America’ Debate Re-Emerges as US Policies Sow Some Doubts",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/economy/policy/articles/sell-america-debate-emerges-us-234222231.html"
         }
       ]
     },
