@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:39:07.457234+00:00",
+  "generated_at": "2026-08-06T15:44:29.716494+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4263,9 +4263,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 310.21,
-      "change_pct": -0.25,
-      "volume": 16943183,
+      "price": 310.01,
+      "change_pct": -0.32,
+      "volume": 17275901,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4311,9 +4311,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 496.19,
-      "change_pct": 1.79,
-      "volume": 12360037,
+      "price": 496.05,
+      "change_pct": 1.76,
+      "volume": 12531997,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4337,9 +4337,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 496.19,
-        "stop_loss": 522.9189,
-        "take_profit": 451.6418,
+        "entry_price": 496.05,
+        "stop_loss": 522.7789,
+        "take_profit": 451.5018,
         "atr": 17.8193,
         "risk_reward_ratio": 1.67
       },
@@ -4355,9 +4355,9 @@
           "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html"
         },
         {
-          "title": "Alphabet Heads to Bond Market After Boosting AI Spending Forecast",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/alphabet-bond-offering-ai-capex-debt-af919d25?siteid=yhoof2&yptr=yahoo"
+          "title": "Factbox-Tech companies tap debt, equity to fund AI and cloud expansion",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/factbox-tech-companies-tap-debt-225411778.html"
         }
       ]
     },
@@ -4365,9 +4365,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 217.56,
-      "change_pct": -0.76,
-      "volume": 52527800,
+      "price": 217.735,
+      "change_pct": -0.68,
+      "volume": 53507771,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4413,9 +4413,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 320.77,
+      "price": 320.765,
       "change_pct": -0.24,
-      "volume": 11418858,
+      "volume": 11584670,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4439,9 +4439,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 320.77,
-        "stop_loss": 298.0375,
-        "take_profit": 358.6574,
+        "entry_price": 320.765,
+        "stop_loss": 298.0326,
+        "take_profit": 358.6524,
         "atr": 15.155,
         "risk_reward_ratio": 1.67
       },
@@ -4467,9 +4467,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 359.775,
-      "change_pct": -0.73,
-      "volume": 9445633,
+      "price": 359.9,
+      "change_pct": -0.7,
+      "volume": 9658658,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4489,7 +4489,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.80%)"
+          "rationale": "波動度正常(ATR/價格=3.79%)"
         }
       ],
       "risk_levels": null,
@@ -4515,9 +4515,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 768.58,
-      "change_pct": -0.16,
-      "volume": 11083445,
+      "price": 768.44,
+      "change_pct": -0.18,
+      "volume": 11561995,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4548,14 +4548,14 @@
           "link": "https://247wallst.com/investing/2026/08/06/tesla-continues-to-crater-in-2026-why-one-of-wall-streets-most-controversial-pros-expects-100-gains/"
         },
         {
+          "title": "Pre-Market Flat on Consistently Low Jobless Claims",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pre-market-flat-consistently-low-142600404.html"
+        },
+        {
           "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
-        },
-        {
-          "title": "Nasdaq, Dow Futures Mixed Ahead Of Jobless Claims: Why SPCX, SNDK, SOUN, IONQ, FIG Stocks Are In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-futures-falling-premarket-jobless-claims-spcx-sndk-soun-ionq-fig-stocks-in-focus/cZoJAYjRJ7T"
         }
       ]
     },
@@ -4563,9 +4563,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.14,
-      "change_pct": -0.16,
-      "volume": 15482439,
+      "price": 716.03,
+      "change_pct": -0.18,
+      "volume": 15733234,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4601,9 +4601,9 @@
           "link": "https://247wallst.com/investing/2026/08/06/soundhound-ai-rallies-12-unity-software-rises-11-datadog-sinks-15-as-traders-separate-software-winners-from-losers/"
         },
         {
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
+          "title": "Pre-Market Flat on Consistently Low Jobless Claims",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pre-market-flat-consistently-low-142600404.html"
         }
       ]
     },
@@ -4611,9 +4611,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4313.8999,
-      "change_pct": 1.6,
-      "volume": 126400,
+      "price": 4310.2998,
+      "change_pct": 1.52,
+      "volume": 126879,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4621,7 +4621,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=70.9 進入超買區); bollinger_band:sell(價格 4313.90 觸及上軌 4237.40)"
+          "rationale": "rsi:sell(RSI=70.8 進入超買區); bollinger_band:sell(價格 4310.30 觸及上軌 4236.11)"
         },
         {
           "agent": "macro",
@@ -4637,9 +4637,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4313.8999,
-        "stop_loss": 4417.9571,
-        "take_profit": 4140.4713,
+        "entry_price": 4310.2998,
+        "stop_loss": 4414.357,
+        "take_profit": 4136.8712,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4665,9 +4665,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.81,
-      "change_pct": 2.11,
-      "volume": 115607,
+      "price": 76.95,
+      "change_pct": 2.3,
+      "volume": 118801,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4686,8 +4686,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.58%),建議降低部位或觀望"
+          "confidence": 0.31,
+          "rationale": "波動度過高(ATR/價格=6.57%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4713,8 +4713,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.247,
-      "change_pct": -0.46,
+      "price": 32.254,
+      "change_pct": -0.44,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4761,8 +4761,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.412,
-      "change_pct": 0.46,
+      "price": 158.379,
+      "change_pct": 0.44,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4771,7 +4771,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.47,
-          "rationale": "rsi:buy(RSI=28.9 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4787,9 +4787,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.412,
-        "stop_loss": 156.0011,
-        "take_profit": 162.4302,
+        "entry_price": 158.379,
+        "stop_loss": 155.9681,
+        "take_profit": 162.3972,
         "atr": 1.6073,
         "risk_reward_ratio": 1.67
       },
@@ -4815,9 +4815,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64731.3711,
-      "change_pct": 0.21,
-      "volume": 20660295680,
+      "price": 64703.1484,
+      "change_pct": 0.16,
+      "volume": 20719618048,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4841,9 +4841,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64731.3711,
-        "stop_loss": 62588.9275,
-        "take_profit": 68302.1105,
+        "entry_price": 64703.1484,
+        "stop_loss": 62560.7048,
+        "take_profit": 68273.8878,
         "atr": 1428.2958,
         "risk_reward_ratio": 1.67
       },
@@ -4859,9 +4859,9 @@
           "link": "https://finance.yahoo.com/video/bitcoin-faces-toughest-month-rally-194100310.html"
         },
         {
-          "title": "BlackRock’s Ethereum ETF To Undergo 1-For-3 Reverse Split",
-          "publisher": "CryptoProwl",
-          "link": "https://www.cryptoprowl.com/releases/blackrocks-ethereum-etf-to-undergo-1-for-3-reverse-split-6345"
+          "title": "Russia Outpaces US in Crypto Regulation: What the New Law Mandates",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/russia-outpaces-us-crypto-regulation/"
         }
       ]
     },
@@ -4869,9 +4869,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.95,
-      "change_pct": 0.44,
-      "volume": 9547894784,
+      "price": 1912.01,
+      "change_pct": 0.29,
+      "volume": 9611555840,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4891,7 +4891,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.03%)"
+          "rationale": "波動度正常(ATR/價格=3.04%)"
         }
       ],
       "risk_levels": null,
