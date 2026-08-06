@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T06:38:08.037541+00:00",
+  "generated_at": "2026-08-06T06:43:34.250885+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4624,9 +4624,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4316.0,
-      "change_pct": 1.65,
-      "volume": 49510,
+      "price": 4315.2002,
+      "change_pct": 1.63,
+      "volume": 49891,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4634,7 +4634,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=71.0 進入超買區); bollinger_band:sell(價格 4316.00 觸及上軌 4238.16)"
+          "rationale": "rsi:sell(RSI=71.0 進入超買區); bollinger_band:sell(價格 4315.20 觸及上軌 4237.87)"
         },
         {
           "agent": "macro",
@@ -4650,9 +4650,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4316.0,
-        "stop_loss": 4420.0572,
-        "take_profit": 4142.5714,
+        "entry_price": 4315.2002,
+        "stop_loss": 4419.2574,
+        "take_profit": 4141.7715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4678,9 +4678,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 75.24,
-      "change_pct": 0.03,
-      "volume": 19995,
+      "price": 75.38,
+      "change_pct": 0.21,
+      "volume": 20225,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4700,7 +4700,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.32,
-          "rationale": "波動度過高(ATR/價格=6.61%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.60%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4726,8 +4726,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.236,
-      "change_pct": -0.49,
+      "price": 32.242,
+      "change_pct": -0.47,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4774,8 +4774,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.812,
-      "change_pct": 0.08,
+      "price": 157.839,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4784,7 +4784,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=24.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=24.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4800,22 +4800,22 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.812,
-        "stop_loss": 155.4666,
-        "take_profit": 161.7209,
+        "entry_price": 157.839,
+        "stop_loss": 155.4936,
+        "take_profit": 161.7479,
         "atr": 1.5636,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Singapore Dollar Steady, Underpinned by Hopes for Strait of Hormuz’s Reopening",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-wait-and-see-mood-on-possible-hormuz-reopening-7dcec3d2?siteid=yhoof2&yptr=yahoo"
-        },
-        {
           "title": "Yen and dollar drift on Iran deal concerns, payroll jitters",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/yen-dollar-drift-iran-deal-020117387.html"
+        },
+        {
+          "title": "Singapore Dollar Steady, Underpinned by Hopes for Strait of Hormuz’s Reopening",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-wait-and-see-mood-on-possible-hormuz-reopening-7dcec3d2?siteid=yhoof2&yptr=yahoo"
         },
         {
           "title": "‘Sell America’ Debate Re-Emerges as US Policies Sow Some Doubts",
@@ -4828,9 +4828,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64757.0508,
-      "change_pct": 1.09,
-      "volume": 22398629888,
+      "price": 64750.0586,
+      "change_pct": 1.08,
+      "volume": 22310950912,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4876,9 +4876,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1910.62,
+      "price": 1910.53,
       "change_pct": 2.26,
-      "volume": 9944643584,
+      "volume": 9951479808,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
