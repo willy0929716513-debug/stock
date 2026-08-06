@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:32:21.668233+00:00",
+  "generated_at": "2026-08-06T10:37:47.420302+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4404,9 +4404,9 @@
           "link": "https://finance.yahoo.com/video/spacex-stock-declines-post-earnings-133053667.html"
         },
         {
-          "title": "Forget Meme Coins: Here's Why I'm Investing in Prediction Market Contracts Instead",
+          "title": "Prediction: Nvidia CEO Jensen Huang Will Shock Wall Street on Aug. 26",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/06/forget-meme-coins-heres-why-im-investing-in-predic/"
+          "link": "https://www.fool.com/investing/2026/08/06/prediction-nvidia-ceo-jensen-huang-will-shock-wall/"
         }
       ]
     },
@@ -4726,8 +4726,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.283,
-      "change_pct": -0.35,
+      "price": 32.27,
+      "change_pct": -0.39,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
