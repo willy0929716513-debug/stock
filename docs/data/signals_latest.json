@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:50:44.509636+00:00",
+  "generated_at": "2026-08-06T14:56:06.673702+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4258,9 +4258,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.79,
-      "change_pct": 0.58,
-      "volume": 12518951,
+      "price": 313.52,
+      "change_pct": 0.81,
+      "volume": 13027357,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4280,7 +4280,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.09%)"
+          "rationale": "波動度正常(ATR/價格=3.08%)"
         }
       ],
       "risk_levels": null,
@@ -4306,9 +4306,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 497.47,
-      "change_pct": 2.05,
-      "volume": 9283378,
+      "price": 497.62,
+      "change_pct": 2.08,
+      "volume": 9535841,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4332,9 +4332,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 497.47,
-        "stop_loss": 524.1464,
-        "take_profit": 453.0093,
+        "entry_price": 497.62,
+        "stop_loss": 524.2964,
+        "take_profit": 453.1593,
         "atr": 17.7843,
         "risk_reward_ratio": 1.67
       },
@@ -4360,9 +4360,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.52,
-      "change_pct": 0.14,
-      "volume": 40947802,
+      "price": 219.095,
+      "change_pct": -0.06,
+      "volume": 42123630,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4398,9 +4398,9 @@
           "link": "https://finance.yahoo.com/technology/article/nvidia-stock-rises-after-musk-says-spacex-will-exclusively-use-companys-chips-211803293.html"
         },
         {
-          "title": "Stock Market Today: Nasdaq Turns Up; These AI Plays Dismiss Sandisk, Western Digital Sell-Offs (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ai-stocks-sandisk-western-digital/?src=A00220&yptr=yahoo"
+          "title": "Why Honeywell Aerospace Stock Crashed After Earnings",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/06/why-honeywell-aerospace-stock-just-crashed/"
         }
       ]
     },
@@ -4408,9 +4408,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 319.49,
-      "change_pct": -0.64,
-      "volume": 8377284,
+      "price": 320.15,
+      "change_pct": -0.44,
+      "volume": 8645673,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4418,7 +4418,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.41,
-          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4430,13 +4430,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.72%)"
+          "rationale": "波動度正常(ATR/價格=4.71%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 319.49,
-        "stop_loss": 296.8486,
-        "take_profit": 357.2256,
+        "entry_price": 320.15,
+        "stop_loss": 297.5086,
+        "take_profit": 357.8856,
         "atr": 15.0942,
         "risk_reward_ratio": 1.67
       },
@@ -4462,9 +4462,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 359.88,
-      "change_pct": -0.7,
-      "volume": 7098003,
+      "price": 361.135,
+      "change_pct": -0.36,
+      "volume": 7400727,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4484,7 +4484,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.78%)"
+          "rationale": "波動度正常(ATR/價格=3.77%)"
         }
       ],
       "risk_levels": null,
@@ -4510,9 +4510,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 769.83,
-      "change_pct": 0.01,
-      "volume": 7285498,
+      "price": 770.419,
+      "change_pct": 0.08,
+      "volume": 7664976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4558,9 +4558,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 716.8,
-      "change_pct": -0.07,
-      "volume": 12363165,
+      "price": 717.38,
+      "change_pct": 0.01,
+      "volume": 12710906,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4606,9 +4606,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4330.1001,
-      "change_pct": 1.99,
-      "volume": 116267,
+      "price": 4332.2002,
+      "change_pct": 2.03,
+      "volume": 116747,
       "signal": "sell",
       "confidence": 0.46,
       "opinions": [
@@ -4616,7 +4616,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.76,
-          "rationale": "rsi:sell(RSI=71.6 進入超買區); bollinger_band:sell(價格 4330.10 觸及上軌 4243.32)"
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4332.20 觸及上軌 4244.10)"
         },
         {
           "agent": "macro",
@@ -4632,9 +4632,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4330.1001,
-        "stop_loss": 4434.1573,
-        "take_profit": 4156.6714,
+        "entry_price": 4332.2002,
+        "stop_loss": 4436.2574,
+        "take_profit": 4158.7715,
         "atr": 69.3715,
         "risk_reward_ratio": 1.67
       },
@@ -4660,9 +4660,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.49,
-      "change_pct": 1.69,
-      "volume": 97327,
+      "price": 76.48,
+      "change_pct": 1.68,
+      "volume": 98720,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4756,8 +4756,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.245,
-      "change_pct": 0.35,
+      "price": 158.235,
+      "change_pct": 0.34,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.28,
@@ -4782,10 +4782,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.245,
-        "stop_loss": 155.8546,
-        "take_profit": 162.2289,
-        "atr": 1.5936,
+        "entry_price": 158.235,
+        "stop_loss": 155.8434,
+        "take_profit": 162.2211,
+        "atr": 1.5944,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4795,14 +4795,14 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
+          "title": "Bessent and Warsh Called ‘Double Whammy to Global Markets’ as 30-Year Treasury Yields Soar",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/06/bessent-and-warsh-called-double-whammy-to-global-markets-as-30-year-treasury-yields-soar/"
+        },
+        {
           "title": "Dollar Looks Undervalued Against Most G-10 Peers",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-wait-and-see-mood-on-possible-hormuz-reopening-7dcec3d2?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Dollar ticks up as markets await Iran deal news, look towards payrolls",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/yen-dollar-drift-iran-deal-020117387.html"
         }
       ]
     },
@@ -4810,17 +4810,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64636.5508,
-      "change_pct": 0.06,
-      "volume": 21030641664,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 64649.3984,
+      "change_pct": 0.08,
+      "volume": 21096454144,
+      "signal": "buy",
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.73,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
           "agent": "macro",
@@ -4835,7 +4835,13 @@
           "rationale": "波動度正常(ATR/價格=2.21%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 64649.3984,
+        "stop_loss": 62506.9548,
+        "take_profit": 68220.1378,
+        "atr": 1428.2958,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4858,9 +4864,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1909.3,
-      "change_pct": 0.15,
-      "volume": 9558709248,
+      "price": 1911.14,
+      "change_pct": 0.24,
+      "volume": 9496560640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
