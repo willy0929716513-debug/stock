@@ -1,14 +1,15 @@
 name: JPO-KBO Signal Pipeline
 
-# 排程頻率的誠實說明:GitHub Actions 對高頻率排程(原本用 */5)在公開 repo /
-# 免費方案上不可靠,實際觀察到排程延遲到以「小時」計、遠超正常排程延遲範圍,
-# 詳見 README「已知限制」。使用者要求盡量壓短,已從 15 分鐘再調到 10 分鐘,
-# 但沒有證據證明 10 分鐘會比證實不可靠的 5 分鐘更穩——這是黑盒子,只能觀察。
-# 抓取本身涵蓋全部資產類別、24 小時都跑,不會因為台股收盤就縮小抓取範圍;
-# 只有「要不要下單」的決策(auto_trader.py / paper.js)才有分台股交易時間。
+# 排程架構說明(誠實記錄,不要用猜的改):實測發現 GitHub Actions 對高頻率
+# cron(試過 */5、*/10)在公開 repo / 免費方案上都不可靠,常被丟進低優先權
+# 佇列,延遲到以「小時」計,詳見 README「排程頻率與自動暫停機制」。
+# 改成不依賴 GitHub 每次都準時觸發:一次觸發後,同一個 job 內部用迴圈每 5
+# 分鐘自己檢查一次,直到接近 GitHub 單一 job 6 小時執行上限前主動結束,交給
+# 下一次觸發(用不易被節流的低頻率 cron,例如每小時)接手。concurrency 群組
+# 確保重疊觸發只會排隊等目前這輪跑完,不會重複執行、也不會浪費資源。
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 * * * *"  # 每小時觸發一次,純粹當「保底重啟」,實際更新頻率由內部迴圈的 5 分鐘控制
   workflow_dispatch: {}
 
 permissions:
@@ -22,6 +23,10 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    # GitHub-hosted runner 單一 job 硬性上限是 6 小時(360 分鐘)。內部迴圈
+    # 會在跑滿 340 分鐘時主動結束,這裡留 10 分鐘緩衝,避免真的被硬砍在
+    # commit/push 做到一半。
+    timeout-minutes: 350
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,63 +40,70 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run signal pipeline
+      - name: Run pipeline loop (每 5 分鐘一輪,最多跑 340 分鐘)
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -m src.pipeline.daily_run
-
-      - name: Run 24 小時自動跟單
-        run: python -m src.pipeline.auto_trader
-
-      - name: Commit and push updated data
-        id: commit
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add docs/data/signals_latest.json docs/data/auto_trader_state.json
+          END_TIME=$(( $(date +%s) + 340 * 60 ))
+          ITERATION=0
 
-          DATA_CHANGED=1
-          git diff --cached --quiet && DATA_CHANGED=0
-          echo "data_changed=$DATA_CHANGED" >> "$GITHUB_OUTPUT"
+          while [ "$(date +%s)" -lt "$END_TIME" ]; do
+            ITERATION=$((ITERATION + 1))
+            echo "=== iteration $ITERATION at $(date -u +%FT%TZ) ==="
 
-          SIGNAL_COUNT=$(python3 -c "import json; print(len(json.load(open('docs/data/signals_latest.json')).get('signals', [])))" 2>/dev/null || echo 0)
-          echo "signal_count=$SIGNAL_COUNT" >> "$GITHUB_OUTPUT"
+            python -m src.pipeline.daily_run
+            python -m src.pipeline.auto_trader
 
-          if [ "$DATA_CHANGED" -eq 1 ]; then
-            git commit -m "chore: update signals data [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          else
-            echo "no data changes to signals/auto-trader, skipping commit"
-          fi
+            git add docs/data/signals_latest.json docs/data/auto_trader_state.json
 
-      # 連續多次「沒抓到新資料」(整批抓取失敗,或內容跟上次一模一樣)時,
-      # 代表系統可能已經悄悄壞掉了,由這裡累計次數並在達到門檻時停用排程,
-      # 而不是無限重試下去、卻沒人發現。判斷邏輯見 src/pipeline/health_check.py
-      # (有獨立的 pytest 回歸測試)。
-      - name: Update pipeline health status
-        id: health
-        run: |
-          NEW_COUNT=$(python -m src.pipeline.health_check "${{ steps.commit.outputs.signal_count }}" "${{ steps.commit.outputs.data_changed }}")
-          echo "consecutive_no_update=$NEW_COUNT" >> "$GITHUB_OUTPUT"
+            DATA_CHANGED=1
+            git diff --cached --quiet && DATA_CHANGED=0
 
-          git add docs/data/pipeline_health.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: update pipeline health status [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+            SIGNAL_COUNT=$(python3 -c "import json; print(len(json.load(open('docs/data/signals_latest.json')).get('signals', [])))" 2>/dev/null || echo 0)
+            echo "data_changed=$DATA_CHANGED signal_count=$SIGNAL_COUNT"
 
-      - name: Pause schedule after 3 consecutive runs without new data
-        if: steps.health.outputs.consecutive_no_update >= 3
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          echo "::warning::連續 ${{ steps.health.outputs.consecutive_no_update }} 次沒有抓到新資料,停用這個 workflow 的排程。要恢復請到 Actions 分頁手動 Enable workflow,或執行 gh workflow enable pipeline.yml"
-          curl -s -X PUT \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pipeline.yml/disable"
+            if [ "$DATA_CHANGED" -eq 1 ]; then
+              git commit -m "chore: update signals data [skip ci]"
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+              git push origin "HEAD:${GITHUB_REF_NAME}"
+            else
+              echo "no data changes to signals/auto-trader, skipping commit"
+            fi
+
+            # 連續多次「沒抓到新資料」(整批抓取失敗,或內容跟上次一模一樣)
+            # 代表系統可能已經悄悄壞掉了,累計次數並在達到門檻時停用排程,
+            # 而不是無限重試下去、卻沒人發現。判斷邏輯見
+            # src/pipeline/health_check.py(有獨立的 pytest 回歸測試)。
+            NEW_COUNT=$(python -m src.pipeline.health_check "$SIGNAL_COUNT" "$DATA_CHANGED")
+            echo "consecutive_no_update=$NEW_COUNT"
+
+            git add docs/data/pipeline_health.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: update pipeline health status [skip ci]"
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+              git push origin "HEAD:${GITHUB_REF_NAME}"
+            fi
+
+            if [ "$NEW_COUNT" -ge 3 ]; then
+              echo "::warning::連續 $NEW_COUNT 次沒有抓到新資料,停用這個 workflow 的排程。要恢復請到 Actions 分頁手動 Enable workflow,或執行 gh workflow enable pipeline.yml"
+              curl -s -X PUT \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pipeline.yml/disable"
+              exit 0
+            fi
+
+            REMAINING=$(( END_TIME - $(date +%s) ))
+            if [ "$REMAINING" -le 300 ]; then
+              echo "接近本次 job 的時間上限,結束這一輪迴圈,交給下一次排程觸發接手"
+              break
+            fi
+
+            sleep 300
+          done
