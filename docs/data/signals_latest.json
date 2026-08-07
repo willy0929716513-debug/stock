@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T17:05:40.821603+00:00",
+  "generated_at": "2026-08-07T17:11:03.929261+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.468,
-      "change_pct": 0.02,
-      "volume": 15880823,
+      "price": 312.39,
+      "change_pct": -0.01,
+      "volume": 16056165,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 500.496,
+      "price": 500.51,
       "change_pct": 0.13,
-      "volume": 12947410,
+      "volume": 13176007,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4097,9 +4097,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 500.496,
-        "stop_loss": 526.7021,
-        "take_profit": 456.8192,
+        "entry_price": 500.51,
+        "stop_loss": 526.7161,
+        "take_profit": 456.8332,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.0,
-      "change_pct": 1.37,
-      "volume": 58556013,
+      "price": 222.18,
+      "change_pct": 1.46,
+      "volume": 59386558,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,7 +4147,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.53%)"
+          "rationale": "波動度正常(ATR/價格=3.52%)"
         }
       ],
       "risk_levels": null,
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
+          "title": "Global Partners LP Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-global-partners-lp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+        },
+        {
           "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
-        },
-        {
-          "title": "SpaceX Signed $14.1 Billion of Cloud Contracts in a Single Quarter. Its AI Segment Revenue Hit $2.56 Billion.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/spacex-signed-141-billion-of-cloud-contracts-in-a/"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.515,
-      "change_pct": 2.5,
-      "volume": 25339741,
+      "price": 327.4,
+      "change_pct": 2.46,
+      "volume": 25568281,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4199,9 +4199,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.515,
-        "stop_loss": 305.1018,
-        "take_profit": 364.8704,
+        "entry_price": 327.4,
+        "stop_loss": 304.9868,
+        "take_profit": 364.7553,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas",
+          "publisher": "USA TODAY",
+          "link": "https://www.usatoday.com/story/news/state/texas/2026/08/07/elon-musk-spacex-tesla-terafab-texas-16-billion-chip-factory-investment/91212702007/"
+        },
+        {
           "title": "Elon Musk Says AI Needs More Power Than the Grid Can Handle. Is He Right?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/elon-musk-says-ai-needs-more-power-than-the-grid-c/"
-        },
-        {
-          "title": "Tesla's Battery Business Is Growing Faster Than Its Cars— and a New Texas Factory for Megapack 3 Just Went Live",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/energy/articles/teslas-battery-business-growing-faster-150035680.html"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.91,
-      "change_pct": -0.79,
-      "volume": 10800116,
+      "price": 354.89,
+      "change_pct": -0.8,
+      "volume": 10916370,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4265,9 +4265,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Microsoft Is Winning the AI Cash Flow Test",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html"
+          "title": "Alphabet’s Cloud vs Meta’s Superintelligence: Who Wins Q2?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/alphabet-bets-cloud-and-gemini-against-metas-superintelligence-moonshot-and-wins-q2/"
         }
       ]
     },
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.16,
-      "change_pct": 0.47,
-      "volume": 20019855,
+      "price": 772.25,
+      "change_pct": 0.48,
+      "volume": 20199074,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 720.97,
-      "change_pct": 0.88,
-      "volume": 19124673,
+      "price": 721.235,
+      "change_pct": 0.92,
+      "volume": 19303875,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4393.7998,
-      "change_pct": 3.58,
-      "volume": 159915,
+      "price": 4388.2998,
+      "change_pct": 3.45,
+      "volume": 160746,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4393.80 觸及上軌 4288.20)"
+          "rationale": "rsi:sell(RSI=73.7 進入超買區); bollinger_band:sell(價格 4388.30 觸及上軌 4286.17)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4393.7998,
-        "stop_loss": 4511.2712,
-        "take_profit": 4198.0141,
+        "entry_price": 4388.2998,
+        "stop_loss": 4505.7712,
+        "take_profit": 4192.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4410,14 +4410,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
+          "title": "Stock Market Today: Nasdaq Pops As July Jobs Miss Dampens Rates View; Gold Stocks Shine (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "DUST Drops 13% as Gold Miners Rally Hard",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/07/dust-drops-13-as-gold-miners-rally-hard/"
-        },
-        {
-          "title": "Citadel’s Rubner says it’s time to start buying gold again",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/citadel-rubner-says-time-start-161835992.html"
         }
       ]
     },
@@ -4427,7 +4427,7 @@
       "category": "commodity",
       "price": 78.23,
       "change_pct": 1.22,
-      "volume": 136005,
+      "volume": 137273,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4473,7 +4473,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.237,
+      "price": 32.236,
       "change_pct": -0.09,
       "volume": 0,
       "signal": "hold",
@@ -4521,7 +4521,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.465,
+      "price": 157.452,
       "change_pct": -0.09,
       "volume": 0,
       "signal": "buy",
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.465,
-        "stop_loss": 154.885,
-        "take_profit": 161.765,
+        "entry_price": 157.452,
+        "stop_loss": 154.872,
+        "take_profit": 161.752,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64689.3984,
-      "change_pct": 0.66,
-      "volume": 21201373184,
+      "price": 64699.1406,
+      "change_pct": 0.68,
+      "volume": 21338351616,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64689.3984,
-        "stop_loss": 62638.7021,
-        "take_profit": 68107.2256,
+        "entry_price": 64699.1406,
+        "stop_loss": 62648.4443,
+        "take_profit": 68116.9678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1906.1899,
-      "change_pct": 0.22,
-      "volume": 8897763328,
+      "price": 1907.97,
+      "change_pct": 0.31,
+      "volume": 8933020672,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4651,7 +4651,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.98%)"
+          "rationale": "波動度正常(ATR/價格=2.97%)"
         }
       ],
       "risk_levels": null,
