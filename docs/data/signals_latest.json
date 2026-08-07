@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:30:10.871881+00:00",
+  "generated_at": "2026-08-07T06:35:31.822523+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4347.1001,
-      "change_pct": 2.48,
-      "volume": 29756,
+      "price": 4345.5,
+      "change_pct": 2.44,
+      "volume": 30686,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4347.10 觸及上軌 4271.43)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4345.50 觸及上軌 4270.88)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4347.1001,
-        "stop_loss": 4455.7537,
-        "take_profit": 4166.0108,
-        "atr": 72.4357,
+        "entry_price": 4345.5,
+        "stop_loss": 4454.175,
+        "take_profit": 4164.3749,
+        "atr": 72.45,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.91,
-      "change_pct": 0.8,
-      "volume": 17997,
+      "price": 77.66,
+      "change_pct": 0.48,
+      "volume": 18458,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.28%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Oil Prices Jump as Houthi Attacks Raise Saudi Supply Risks",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/energy/articles/oil-prices-jump-houthi-attacks-054020316.html"
+          "title": "Asian shares are mixed after US stocks fall back while oil rebounds",
+          "publisher": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-us-stocks-062902244.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.215,
-      "change_pct": -0.15,
+      "price": 32.213,
+      "change_pct": -0.16,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.303,
+      "price": 158.317,
       "change_pct": 0.45,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.303,
-        "stop_loss": 155.8246,
-        "take_profit": 162.4337,
+        "entry_price": 158.317,
+        "stop_loss": 155.8386,
+        "take_profit": 162.4477,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64361.9688,
-      "change_pct": -0.36,
-      "volume": 17852174336,
+      "price": 64288.4414,
+      "change_pct": -0.48,
+      "volume": 17819486208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4753,7 +4753,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.18%)"
+          "rationale": "波動度正常(ATR/價格=2.19%)"
         }
       ],
       "risk_levels": null,
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1903.77,
-      "change_pct": -0.14,
-      "volume": 7568261120,
+      "price": 1902.86,
+      "change_pct": -0.19,
+      "volume": 7552670720,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.00%)"
+          "rationale": "波動度正常(ATR/價格=3.01%)"
         }
       ],
       "risk_levels": null,
