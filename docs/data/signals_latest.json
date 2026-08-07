@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:44:53.809615+00:00",
+  "generated_at": "2026-08-07T14:50:18.719102+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 314.25,
-      "change_pct": 0.59,
-      "volume": 8392928,
+      "price": 314.045,
+      "change_pct": 0.52,
+      "volume": 8631592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.935,
-      "change_pct": 0.62,
-      "volume": 7030459,
+      "price": 503.39,
+      "change_pct": 0.71,
+      "volume": 7361573,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 502.935,
-        "stop_loss": 529.1411,
-        "take_profit": 459.2582,
+        "entry_price": 503.39,
+        "stop_loss": 529.5961,
+        "take_profit": 459.7132,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.82,
-      "change_pct": 1.75,
-      "volume": 28280427,
+      "price": 223.5491,
+      "change_pct": 2.08,
+      "volume": 29733212,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.48%)"
+          "rationale": "波動度正常(ATR/價格=3.47%)"
         }
       ],
       "risk_levels": null,
@@ -4319,9 +4319,9 @@
           "link": "https://www.fool.com/investing/2026/08/07/quantum-computing-stock-poised-drop-qubt/"
         },
         {
-          "title": "The Senate Just Delayed a Vote on the Clarity Act Until After Its August Recess -- The Odds of Passage Just Plummeted",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/the-senate-just-delayed-a-vote-on-the-clarity-act-until-after-its-august-recess-the-odds-of-passage-just-plummeted/"
+          "title": "Google’s $200 Billion Financing Web Gives It a 2.2-Point Borrowing Moat Over Nvidia-Backed Rivals",
+          "publisher": "Forkast News",
+          "link": "https://finance.yahoo.com/technology/ai/articles/google-200-billion-financing-gives-143509414.html"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 328.67,
-      "change_pct": 2.86,
-      "volume": 12387935,
+      "price": 329.82,
+      "change_pct": 3.22,
+      "volume": 13665294,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,14 +4351,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.45%)"
+          "rationale": "波動度正常(ATR/價格=4.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 328.67,
-        "stop_loss": 306.7122,
-        "take_profit": 365.2664,
-        "atr": 14.6386,
+        "entry_price": 329.82,
+        "stop_loss": 307.7261,
+        "take_profit": 366.6431,
+        "atr": 14.7292,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.915,
-      "change_pct": -0.79,
-      "volume": 5930676,
+      "price": 354.08,
+      "change_pct": -1.03,
+      "volume": 6399759,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.72%)"
+          "rationale": "波動度正常(ATR/價格=3.74%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.9475,
-      "change_pct": 0.44,
-      "volume": 9361424,
+      "price": 772.42,
+      "change_pct": 0.5,
+      "volume": 9692964,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 719.22,
-      "change_pct": 0.64,
-      "volume": 10217681,
+      "price": 720.01,
+      "change_pct": 0.75,
+      "volume": 10554970,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.3999,
-      "change_pct": 3.95,
-      "volume": 134746,
+      "price": 4404.1001,
+      "change_pct": 3.82,
+      "volume": 136030,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4409.40 觸及上軌 4294.05)"
+          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4404.10 觸及上軌 4292.05)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.3999,
-        "stop_loss": 4526.8713,
-        "take_profit": 4213.6142,
+        "entry_price": 4404.1001,
+        "stop_loss": 4521.5715,
+        "take_profit": 4208.3144,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4571,9 +4571,9 @@
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
-          "title": "Coeur Mining (CDE) Rides A Gold Rally, Is It Still A Bargain?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-cde-rides-gold-141835516.html"
+          "title": "US Economy Loses 23,000 Jobs, Gold Jumps 3%: What Do Prediction Markets Say About Rate Hikes?",
+          "publisher": "Benzinga Prediction Markets",
+          "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61042357/us-jobs-report-gold-fed-rate-hike?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.55,
-      "change_pct": 0.34,
-      "volume": 96927,
+      "price": 77.58,
+      "change_pct": 0.38,
+      "volume": 97927,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.38%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.37%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,7 +4629,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.232,
+      "price": 32.234,
       "change_pct": -0.1,
       "volume": 0,
       "signal": "hold",
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.859,
-      "change_pct": 0.16,
+      "price": 157.874,
+      "change_pct": 0.17,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=23.9 進入超賣區)"
+          "rationale": "rsi:buy(RSI=24.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.859,
-        "stop_loss": 155.279,
-        "take_profit": 162.159,
+        "entry_price": 157.874,
+        "stop_loss": 155.294,
+        "take_profit": 162.174,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65055.0312,
-      "change_pct": 1.23,
-      "volume": 21551894528,
+      "price": 65040.9805,
+      "change_pct": 1.21,
+      "volume": 21304606720,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65055.0312,
-        "stop_loss": 63004.335,
-        "take_profit": 68472.8584,
+        "entry_price": 65040.9805,
+        "stop_loss": 62990.2842,
+        "take_profit": 68458.8076,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "MSTR, CRCL, BMNR Stocks Rally After Bitcoin Reclaims $65K Despite CLARITY Delay",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mstr-crcl-bmnr-stocks-rally-after-bitcoin-reclaims-65-k-despite-clarity-delay/cZof4wsRJBz"
+        },
+        {
           "title": "Coldcard Hack Sparks 210,000 BTC Shift From Long-Term Wallets",
           "publisher": "CCN",
           "link": "https://www.ccn.com/news/crypto/coldcard-hack-210000-bitcoin-wallet-shift/"
-        },
-        {
-          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.4399,
+      "price": 1917.37,
       "change_pct": 0.81,
-      "volume": 9116626944,
+      "volume": 9044904960,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
