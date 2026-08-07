@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:56:18.776647+00:00",
+  "generated_at": "2026-08-07T13:01:44.858384+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4271,9 +4271,9 @@
           "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
         },
         {
-          "title": "Just How Wide Is the Risk Priced Into Adobe Stock?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610526/just-how-wide-is-the-risk-priced-into-adobe-stock/2026-08-07"
+          "title": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-fortude-revolutionizes-erp-124036380.html"
         }
       ]
     },
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Just How Wide Is the Risk Priced Into Adobe Stock?",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610526/just-how-wide-is-the-risk-priced-into-adobe-stock/2026-08-07"
+          "title": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-fortude-revolutionizes-erp-124036380.html"
         }
       ]
     },
@@ -4527,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4430.7002,
-      "change_pct": 4.45,
-      "volume": 93974,
+      "price": 4428.5,
+      "change_pct": 4.4,
+      "volume": 96007,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=75.0 進入超買區); bollinger_band:sell(價格 4430.70 觸及上軌 4302.21)"
+          "confidence": 0.72,
+          "rationale": "rsi:sell(RSI=74.9 進入超買區); bollinger_band:sell(價格 4428.50 觸及上軌 4301.36)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4430.7002,
-        "stop_loss": 4548.0752,
-        "take_profit": 4235.0752,
-        "atr": 78.25,
+        "entry_price": 4428.5,
+        "stop_loss": 4545.9714,
+        "take_profit": 4232.7143,
+        "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.7,
-      "change_pct": -0.76,
-      "volume": 67163,
+      "price": 76.81,
+      "change_pct": -0.62,
+      "volume": 67956,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq modestly gain after July jobs report surprises",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-jobs-report-100009572.html"
+        },
+        {
           "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
@@ -4617,11 +4622,6 @@
           "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Shockingly Weak Jobs Report Lowers Fed Rate Hike Odds; S&P 500 Futures Rally (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/jobs-report-july-unemployment-rate-federal-reserve-rate-hike-sp-500/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.194,
-      "change_pct": -0.22,
+      "price": 32.189,
+      "change_pct": -0.23,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.205,
-      "change_pct": -0.25,
+      "price": 157.343,
+      "change_pct": -0.16,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=20.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.205,
-        "stop_loss": 154.625,
-        "take_profit": 161.505,
+        "entry_price": 157.343,
+        "stop_loss": 154.763,
+        "take_profit": 161.643,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65293.9414,
-      "change_pct": 1.61,
-      "volume": 20162037760,
+      "price": 65185.3516,
+      "change_pct": 1.44,
+      "volume": 20351303680,
       "signal": "buy",
-      "confidence": 0.42,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.7,
+          "confidence": 0.71,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.09%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 65293.9414,
-        "stop_loss": 63247.6899,
-        "take_profit": 68704.3606,
-        "atr": 1364.1677,
+        "entry_price": 65185.3516,
+        "stop_loss": 63134.6553,
+        "take_profit": 68603.1787,
+        "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1933.9,
-      "change_pct": 1.67,
-      "volume": 8930816000,
+      "price": 1929.77,
+      "change_pct": 1.46,
+      "volume": 8967049216,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.93%)"
+          "rationale": "波動度正常(ATR/價格=2.94%)"
         }
       ],
       "risk_levels": null,
