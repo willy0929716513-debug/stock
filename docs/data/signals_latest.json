@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:38:35.832827+00:00",
+  "generated_at": "2026-08-07T16:43:59.393012+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.04,
-      "change_pct": -0.12,
-      "volume": 14959261,
+      "price": 312.12,
+      "change_pct": -0.09,
+      "volume": 15146191,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4056,14 +4056,14 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
+          "title": "Prediction: Can Apple Stock Reach $400 This Year?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/prediction-can-apple-stock-reach-400-this-year/"
+        },
+        {
           "title": "Apple (AAPL) Seeks Injunction In AI Trade Secret Lawsuit",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-seeks-injunction-ai-161633279.html"
-        },
-        {
-          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/"
         }
       ]
     },
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.84,
-      "change_pct": 0.6,
-      "volume": 11739562,
+      "price": 502.455,
+      "change_pct": 0.52,
+      "volume": 11862013,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4081,7 +4081,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.7 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4093,13 +4093,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.47%)"
+          "rationale": "波動度正常(ATR/價格=3.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 502.84,
-        "stop_loss": 529.0461,
-        "take_profit": 459.1632,
+        "entry_price": 502.455,
+        "stop_loss": 528.6611,
+        "take_profit": 458.7782,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.49,
-      "change_pct": 1.6,
-      "volume": 54765377,
+      "price": 222.39,
+      "change_pct": 1.55,
+      "volume": 55527798,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.25,
-      "change_pct": 3.04,
-      "volume": 23609809,
+      "price": 328.61,
+      "change_pct": 2.84,
+      "volume": 23911165,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4195,13 +4195,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.54%)"
+          "rationale": "波動度正常(ATR/價格=4.55%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 329.25,
-        "stop_loss": 306.8368,
-        "take_profit": 366.6053,
+        "entry_price": 328.61,
+        "stop_loss": 306.1968,
+        "take_profit": 365.9653,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.335,
-      "change_pct": -0.68,
-      "volume": 10346593,
+      "price": 355.39,
+      "change_pct": -0.66,
+      "volume": 10419058,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4265,9 +4265,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/"
+          "title": "Microsoft Is Winning the AI Cash Flow Test",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html"
         }
       ]
     },
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.89,
-      "change_pct": 0.43,
-      "volume": 18265539,
+      "price": 772.44,
+      "change_pct": 0.5,
+      "volume": 18631602,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 720.5201,
-      "change_pct": 0.82,
-      "volume": 17913099,
+      "price": 720.78,
+      "change_pct": 0.86,
+      "volume": 18163634,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4396.2998,
-      "change_pct": 3.64,
-      "volume": 156012,
+      "price": 4397.1001,
+      "change_pct": 3.66,
+      "volume": 156941,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=73.9 進入超買區); bollinger_band:sell(價格 4396.30 觸及上軌 4289.13)"
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4397.10 觸及上軌 4289.43)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4396.2998,
-        "stop_loss": 4513.7712,
-        "take_profit": 4200.5141,
+        "entry_price": 4397.1001,
+        "stop_loss": 4514.5715,
+        "take_profit": 4201.3144,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.38,
-      "change_pct": 1.41,
-      "volume": 131180,
+      "price": 78.41,
+      "change_pct": 1.45,
+      "volume": 132097,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4463,9 +4463,9 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "Plains All American Pipeline Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/plains-all-american-pipeline-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "Europe's STOXX 600 ends week at all-time high on earnings support, soft US jobs data",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
         }
       ]
     },
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.239,
-      "change_pct": -0.08,
+      "price": 32.237,
+      "change_pct": -0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.364,
-      "change_pct": -0.15,
+      "price": 157.378,
+      "change_pct": -0.14,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.364,
-        "stop_loss": 154.784,
-        "take_profit": 161.664,
+        "entry_price": 157.378,
+        "stop_loss": 154.798,
+        "take_profit": 161.678,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64878.2617,
-      "change_pct": 0.96,
-      "volume": 21250883584,
+      "price": 64904.5391,
+      "change_pct": 1.0,
+      "volume": 21361977344,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64878.2617,
-        "stop_loss": 62827.5654,
-        "take_profit": 68296.0889,
+        "entry_price": 64904.5391,
+        "stop_loss": 62853.8428,
+        "take_profit": 68322.3662,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.24,
-      "change_pct": 0.59,
-      "volume": 8958291968,
+      "price": 1914.51,
+      "change_pct": 0.65,
+      "volume": 8966047744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4651,7 +4651,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.97%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
