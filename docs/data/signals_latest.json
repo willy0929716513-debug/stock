@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:01:44.858384+00:00",
+  "generated_at": "2026-08-07T13:07:10.259014+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4428.5,
-      "change_pct": 4.4,
-      "volume": 96007,
+      "price": 4418.5,
+      "change_pct": 4.16,
+      "volume": 98443,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.9 進入超買區); bollinger_band:sell(價格 4428.50 觸及上軌 4301.36)"
+          "rationale": "rsi:sell(RSI=74.6 進入超買區); bollinger_band:sell(價格 4418.50 觸及上軌 4297.51)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4428.5,
-        "stop_loss": 4545.9714,
-        "take_profit": 4232.7143,
+        "entry_price": 4418.5,
+        "stop_loss": 4535.9714,
+        "take_profit": 4222.7143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.81,
-      "change_pct": -0.62,
-      "volume": 67956,
+      "price": 76.74,
+      "change_pct": -0.71,
+      "volume": 69189,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.189,
-      "change_pct": -0.23,
+      "price": 32.207,
+      "change_pct": -0.18,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.343,
-      "change_pct": -0.16,
+      "price": 157.41,
+      "change_pct": -0.12,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=21.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.343,
-        "stop_loss": 154.763,
-        "take_profit": 161.643,
+        "entry_price": 157.41,
+        "stop_loss": 154.83,
+        "take_profit": 161.71,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4721,7 +4721,7 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "Japan's yen surges after US jobs data, traders alert to intervention risk",
+          "title": "Japan's yen surges after US jobs data, traders wary of intervention risk",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/currencies/articles/japans-yen-surges-us-jobs-124632836.html"
         }
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65185.3516,
-      "change_pct": 1.44,
-      "volume": 20351303680,
+      "price": 65228.8906,
+      "change_pct": 1.5,
+      "volume": 20357261312,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65185.3516,
-        "stop_loss": 63134.6553,
-        "take_profit": 68603.1787,
+        "entry_price": 65228.8906,
+        "stop_loss": 63178.1943,
+        "take_profit": 68646.7178,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1929.77,
-      "change_pct": 1.46,
-      "volume": 8967049216,
+      "price": 1930.13,
+      "change_pct": 1.48,
+      "volume": 8854331392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
