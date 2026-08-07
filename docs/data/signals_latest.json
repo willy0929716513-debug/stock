@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:55:57.938594+00:00",
+  "generated_at": "2026-08-07T14:01:27.009289+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.91,
-      "change_pct": -0.16,
-      "volume": 4388103,
+      "price": 312.08,
+      "change_pct": -0.11,
+      "volume": 4771249,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4201,11 +4201,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.98%)"
+          "rationale": "波動度正常(ATR/價格=2.97%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "SpaceX upgraded, Trade Desk downgraded: Wall Street's top analyst calls",
+          "publisher": "The Fly",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiation-apple-downgrade-among-133025602.html"
+        },
         {
           "title": "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
           "publisher": "Investor's Business Daily",
@@ -4215,11 +4220,6 @@
           "title": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-storm-back-103001009.html"
-        },
-        {
-          "title": "'The market has voted': Michael Burry says Big Tech's AI spending is dragging down the S&P 500 — while Apple wins",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/market-voted-michael-burry-says-101000304.html"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 504.41,
-      "change_pct": 0.91,
-      "volume": 4134794,
+      "price": 502.47,
+      "change_pct": 0.52,
+      "volume": 4573626,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.7 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4249,13 +4249,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.46%)"
+          "rationale": "波動度正常(ATR/價格=3.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 504.41,
-        "stop_loss": 530.6161,
-        "take_profit": 460.7332,
+        "entry_price": 502.47,
+        "stop_loss": 528.6761,
+        "take_profit": 458.7932,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4271,9 +4271,9 @@
           "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
         },
         {
-          "title": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-fortude-revolutionizes-erp-124036380.html"
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.5594,
-      "change_pct": 1.63,
-      "volume": 13727880,
+      "price": 222.53,
+      "change_pct": 1.62,
+      "volume": 15601268,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Prediction: After a Blowout Quarter, Shopify Will End The Year at This Price",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/prediction-after-a-blowout-quarter-shopify-will-end-the-year-at-this-price/"
-        },
-        {
-          "title": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/not-micron-not-nvidia-this-artificial-intelligence/"
-        },
-        {
-          "title": "AMD Buys AI Chip Startup Taalas—Here's Why It Matters To NVDA Investors",
-          "publisher": "Benzinga Prediction Markets",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61038183/amd-taalas-ai-chip-acquisition?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 328.2001,
-      "change_pct": 2.71,
-      "volume": 5788562,
+      "price": 326.725,
+      "change_pct": 2.25,
+      "volume": 6696979,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.45%)"
+          "rationale": "波動度正常(ATR/價格=4.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 328.2001,
-        "stop_loss": 306.3022,
-        "take_profit": 364.6965,
+        "entry_price": 326.725,
+        "stop_loss": 304.8271,
+        "take_profit": 363.2214,
         "atr": 14.5986,
         "risk_reward_ratio": 1.67
       },
@@ -4368,14 +4368,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "Elon Musk Says SpaceX Will Consume Three Times More Terafab AI Compute Than Tesla",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-spacex-consume-124448057.html"
+        },
+        {
           "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "SPCX Stock Hasn’t Bottomed Out Yet, But It’s ‘A Really Great Time To Buy,’ Says This Asset Manager",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-hasn-t-bottomed-out-yet-but-it-s-a-really-great-time-to-buy-says-this-asset-manager/cZofTjDRJBS"
         }
       ]
     },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.59,
-      "change_pct": -0.32,
-      "volume": 3324039,
+      "price": 356.25,
+      "change_pct": -0.42,
+      "volume": 3626197,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4411,9 +4411,9 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
+          "title": "Tech stocks today: SpaceX lockup ends, Google faces AI leadership shakeup",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-lockup-ends-google-faces-ai-leadership-shakeup-140419479.html"
         },
         {
           "title": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.85,
-      "change_pct": 0.43,
-      "volume": 4802549,
+      "price": 771.4,
+      "change_pct": 0.37,
+      "volume": 5353123,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 720.86,
-      "change_pct": 0.87,
-      "volume": 5167269,
+      "price": 719.4401,
+      "change_pct": 0.67,
+      "volume": 5910613,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4501,11 +4501,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.06%)"
+          "rationale": "波動度正常(ATR/價格=2.07%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
         {
           "title": "Trade Desk Plunges 28% After Earnings Miss Triggers Downgrade Avalanche; Ad-Tech Peers AppLovin and Magnite Hold Firm",
           "publisher": "24/7 Wall St.",
@@ -4515,11 +4520,6 @@
           "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4419.2998,
-      "change_pct": 4.18,
-      "volume": 116228,
+      "price": 4415.8999,
+      "change_pct": 4.1,
+      "volume": 117995,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.7 進入超買區); bollinger_band:sell(價格 4419.30 觸及上軌 4297.82)"
+          "rationale": "rsi:sell(RSI=74.5 進入超買區); bollinger_band:sell(價格 4415.90 觸及上軌 4296.52)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4419.2998,
-        "stop_loss": 4536.7712,
-        "take_profit": 4223.5141,
+        "entry_price": 4415.8999,
+        "stop_loss": 4533.3713,
+        "take_profit": 4220.1142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.05,
-      "change_pct": -0.31,
-      "volume": 82075,
+      "price": 77.23,
+      "change_pct": -0.08,
+      "volume": 83483,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
+          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Oil India posts quarterly profit surge on crude price jump, higher production",
           "publisher": "Reuters",
           "link": "https://sg.finance.yahoo.com/news/oil-india-posts-quarterly-profit-134336958.html"
-        },
-        {
-          "title": "Shockingly Weak Jobs Report Is Fed 'Game Changer'; S&P 500 Rises (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/jobs-report-july-unemployment-rate-federal-reserve-rate-hike-sp-500/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.207,
-      "change_pct": -0.18,
+      "price": 32.225,
+      "change_pct": -0.12,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.643,
-      "change_pct": 0.03,
+      "price": 157.749,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=22.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=22.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.643,
-        "stop_loss": 155.063,
-        "take_profit": 161.943,
+        "entry_price": 157.749,
+        "stop_loss": 155.169,
+        "take_profit": 162.049,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65067.1406,
-      "change_pct": 1.25,
-      "volume": 20629078016,
+      "price": 64957.2812,
+      "change_pct": 1.08,
+      "volume": 20887449600,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.71,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65067.1406,
-        "stop_loss": 63016.4443,
-        "take_profit": 68484.9678,
+        "entry_price": 64957.2812,
+        "stop_loss": 62906.585,
+        "take_profit": 68375.1084,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Fallout From Coldcard Hack Worsens",
           "publisher": "CryptoProwl",
           "link": "https://www.cryptoprowl.com/releases/fallout-from-coldcard-hack-worsens-6354"
-        },
-        {
-          "title": "B. Riley raises CleanSpark target to $26 on AI data-center portfolio",
-          "publisher": "Blockspace",
-          "link": "https://blockspace.media/insight/cleanspark-clsk-price-target-raised-ai-data-centers/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1925.49,
-      "change_pct": 1.23,
-      "volume": 8905691136,
+      "price": 1920.48,
+      "change_pct": 0.97,
+      "volume": 8885266432,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
