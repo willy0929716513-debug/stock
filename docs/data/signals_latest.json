@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:21:50.161837+00:00",
+  "generated_at": "2026-08-07T09:27:12.082376+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -105,6 +105,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Lazard Fund Beating 93% of Peers Adds Samsung During Memory Rout",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lazard-fund-beating-93-peers-061437504.html"
+        },
+        {
           "title": "How Will Intel Really Be Able to Beat TSMC in The Next Year?",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/how-will-intel-really-be-able-to-beat-tsmc-in-the-next-year/"
@@ -113,11 +118,6 @@
           "title": "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-chipmakers-poised-gain-033220643.html"
-        },
-        {
-          "title": "Dow Jones Futures: Cloudflare Leads 5 Software Earnings Winners Late; Jobs Report On Tap",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-jobs-report-cloudflare-sezzle-earnings-movers/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4364.6001,
-      "change_pct": 2.89,
-      "volume": 50301,
+      "price": 4365.5,
+      "change_pct": 2.91,
+      "volume": 50660,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4364.60 觸及上軌 4277.58)"
+          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4365.50 觸及上軌 4277.90)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4364.6001,
-        "stop_loss": 4476.0287,
-        "take_profit": 4178.8858,
+        "entry_price": 4365.5,
+        "stop_loss": 4476.9286,
+        "take_profit": 4179.7857,
         "atr": 74.2857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.55,
-      "change_pct": 0.34,
-      "volume": 32590,
+      "price": 77.7,
+      "change_pct": 0.53,
+      "volume": 32947,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.257,
-      "change_pct": -0.02,
+      "price": 32.262,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.36,
-      "change_pct": 0.48,
+      "price": 158.369,
+      "change_pct": 0.49,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.9 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.36,
-        "stop_loss": 155.8816,
-        "take_profit": 162.4907,
+        "entry_price": 158.369,
+        "stop_loss": 155.8906,
+        "take_profit": 162.4997,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64713.6016,
-      "change_pct": 0.7,
-      "volume": 17871601664,
+      "price": 64781.9297,
+      "change_pct": 0.81,
+      "volume": 17897981952,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64713.6016,
-        "stop_loss": 62724.3626,
-        "take_profit": 68028.9999,
-        "atr": 1326.1593,
+        "entry_price": 64781.9297,
+        "stop_loss": 62790.9618,
+        "take_profit": 68100.2095,
+        "atr": 1327.3119,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1910.12,
-      "change_pct": 0.42,
-      "volume": 7573526016,
+      "price": 1909.6,
+      "change_pct": 0.4,
+      "volume": 7581096448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
