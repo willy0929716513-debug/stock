@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:29:13.084178+00:00",
+  "generated_at": "2026-08-07T07:34:34.262389+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "SpaceX Shares Fail to Launch Despite Soaring Revenue. Is the Stock a Buy on the Dip?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/spacex-shares-fail-to-launch-despite-soaring-reven/"
+        },
+        {
           "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster"
@@ -4317,11 +4322,6 @@
           "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html"
-        },
-        {
-          "title": "SharonAI Holdings Inc (SHAZ) (Q2 2026) Earnings Call Highlights: AI Capacity Surges to 212MW ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sharonai-holdings-inc-shaz-q2-050635678.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4350.2002,
-      "change_pct": 2.55,
-      "volume": 38295,
+      "price": 4347.6001,
+      "change_pct": 2.49,
+      "volume": 38626,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4350.20 觸及上軌 4272.51)"
+          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4347.60 觸及上軌 4271.61)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4350.2002,
-        "stop_loss": 4459.7109,
-        "take_profit": 4167.6823,
+        "entry_price": 4347.6001,
+        "stop_loss": 4457.1108,
+        "take_profit": 4165.0822,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.78,
-      "change_pct": 0.63,
-      "volume": 21934,
+      "price": 77.67,
+      "change_pct": 0.49,
+      "volume": 22259,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.29%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Amrize slides in extended trading on Q2 profit miss, EBITDA guide cut",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amrize-slides-extended-trading-q2-072235726.html"
+          "title": "Global equity funds draw inflows for 11th week as upbeat earnings lift sentiment",
+          "publisher": "Reuters",
+          "link": "https://ca.finance.yahoo.com/news/global-equity-funds-draw-inflows-072641363.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.28,
-      "change_pct": 0.05,
+      "price": 32.293,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.381,
-      "change_pct": 0.5,
+      "price": 158.407,
+      "change_pct": 0.51,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.381,
-        "stop_loss": 155.9026,
-        "take_profit": 162.5117,
+        "entry_price": 158.407,
+        "stop_loss": 155.9286,
+        "take_profit": 162.5377,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64364.6016,
-      "change_pct": 0.16,
-      "volume": 18086045696,
+      "price": 64329.6719,
+      "change_pct": 0.11,
+      "volume": 18108532736,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64364.6016,
-        "stop_loss": 62408.8828,
-        "take_profit": 67624.1328,
+        "entry_price": 64329.6719,
+        "stop_loss": 62373.9531,
+        "take_profit": 67589.2031,
         "atr": 1303.8125,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1904.4,
-      "change_pct": 0.12,
-      "volume": 7667961344,
+      "price": 1902.65,
+      "change_pct": 0.03,
+      "volume": 7715913728,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
