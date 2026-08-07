@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:19:53.102225+00:00",
+  "generated_at": "2026-08-07T22:25:24.247244+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "PPL Corporation Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ppl-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/more-than-half-of-cloudflares-network-traffic-is-n/"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64877.6406,
-      "change_pct": 0.96,
-      "volume": 22014793728,
+      "price": 64892.1094,
+      "change_pct": 0.98,
+      "volume": 22073640960,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64877.6406,
-        "stop_loss": 62826.9443,
-        "take_profit": 68295.4678,
+        "entry_price": 64892.1094,
+        "stop_loss": 62841.4131,
+        "take_profit": 68309.9365,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4769,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Trump’s Media Company Unwinds Crypto Deals",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/trump-s-media-company-unwinds-crypto-deals-Mv0Sz9El7NPnEHYh098k?siteid=yhoof2&yptr=yahoo"
+          "title": "Weekly Wrap: Bitcoin Hit By Coldcard Hack And Clarity Act Disappointment",
+          "publisher": "CryptoProwl",
+          "link": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-hit-by-coldcard-hack-and-clarity-act-disappointment-6364"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.02,
-      "change_pct": 0.63,
-      "volume": 9122810880,
+      "price": 1914.73,
+      "change_pct": 0.67,
+      "volume": 9123268608,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
