@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:54:04.415989+00:00",
+  "generated_at": "2026-08-07T11:35:10.519459+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -105,6 +105,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Dow Jones Futures Rise As Cloudflare Leads Big Software Winners; Jobs Report On Tap",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-jobs-report-cloudflare-sezzle-earnings-movers/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Lazard Fund Beating 93% of Peers Adds Samsung During Memory Rout",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/stocks/articles/lazard-fund-beating-93-peers-061437504.html"
@@ -113,11 +118,6 @@
           "title": "How Will Intel Really Be Able to Beat TSMC in The Next Year?",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/how-will-intel-really-be-able-to-beat-tsmc-in-the-next-year/"
-        },
-        {
-          "title": "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-chipmakers-poised-gain-033220643.html"
         }
       ]
     },
@@ -4207,19 +4207,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Snap’s 2 Big Problems That Scream ‘Stay Away From the Stock’",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/snap-stock-2-big-problems-41466ca4?siteid=yhoof2&yptr=yahoo"
+          "title": "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/etfs-and-funds/mutual-funds/best-mutual-funds-devour-apple-stock-marvell-santander-palo-alto-networks-and-more/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Apple’s Capex Strategy Worked But Other Pressures Are Mounting Now",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/apples-capex-strategy-worked-but-other-pressures-are-mounting-now/"
+          "title": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-storm-back-103001009.html"
         },
         {
-          "title": "MP Earnings Show Chinese Rare-Earth Monopoly Is Fading",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
+          "title": "'The market has voted': Michael Burry says Big Tech's AI spending is dragging down the S&P 500 — while Apple wins",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/market-voted-michael-burry-says-101000304.html"
         }
       ]
     },
@@ -4261,19 +4261,19 @@
       },
       "news": [
         {
-          "title": "Microsoft is starting to show its payoff on major AI plays",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/microsoft-starting-show-payoff-major-193732756.html"
+          "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-gave-investors-220-bill/"
+          "title": "Microsoft's AI growth has won back investors, for the time being",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
         },
         {
-          "title": "Microsoft makes a controversial decision that changes its AI story",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/technology/microsoft-makes-a-controversial-decision-that-changes-its-ai-story"
+          "title": "Microsoft opens fourth Azure data center region in India",
+          "publisher": "Quartz",
+          "link": "https://qz.com/microsoft-azure-data-center-india-hyderabad-080726"
         }
       ]
     },
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire Hathaway's $355 Billion Portfolio Invested in Just 5 Standout Stocks",
+          "title": "2 Space Stocks to Buy in August",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/warren-buffett-abel-has-63-brka-invest-in-5-stocks/"
+          "link": "https://www.fool.com/investing/2026/08/07/2-space-stocks-to-buy-in-august/"
         },
         {
-          "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
+          "title": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-gave-investors-220-bill/"
+          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-made-a-shocking-trillio/"
         },
         {
-          "title": "What Would Have to Go Wrong for Realty Income to Cut Its Dividend?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/what-would-have-to-go-wrong-for-realty-income-to-c/"
+          "title": "S&P 500, Dow Head for Best Weekly Performance Since April",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/s-p-500-dow-head-for-best-weekly-performance-since-april-JxD98WLs6WbTkPkpMLEV?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4373,9 +4373,9 @@
           "link": "https://finance.yahoo.com/video/tesla-best-choice-valvetronic-designs-120000265.html"
         },
         {
-          "title": "Elon Musk’s Terafab Will Be Earth’s Most Valuable Building, 50x the Size of the Pentagon",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/elon-musk-terafab-valuable-building/"
+          "title": "SPCX Stock Hasn’t Bottomed Out Yet, But It’s ‘A Really Great Time To Buy,’ Says This Asset Manager",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-hasn-t-bottomed-out-yet-but-it-s-a-really-great-time-to-buy-says-this-asset-manager/cZofTjDRJBS"
         }
       ]
     },
@@ -4411,19 +4411,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Tech stocks today: SpaceX lockup ends, Google faces AI leadership shakeup",
+          "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-spacex-lockup-ends-google-faces-ai-leadership-shakeup-140419479.html"
+          "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "What the bond market is signaling for SpaceX's hopes to ramp up debt sales",
+          "title": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/bond-market-signaling-spacexs-hopes-150000153.html"
+          "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Why Google's AI leadership shake-up isn't a good look",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/why-googles-ai-leadership-shake-141659549.html"
+          "title": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-storm-back-103001009.html"
         }
       ]
     },
@@ -4459,6 +4459,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/trump-calls-ai-bigger-than-oil-in-the-race-against-china-for-tech-crypto-dominance/cZofbMGRJBi"
+        },
+        {
           "title": "Chasing 17.24% Yield? XDTE Holders Are Getting Their Own Money Back—and Paying for It",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/06/chasing-17-24-yield-xdte-holders-are-getting-their-own-money-back-and-paying-for-it/"
@@ -4467,11 +4472,6 @@
           "title": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street’s Second Straight Day In The Red",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-slipping-overnight-wall-street-second-day-red/cZoOFqgRJJw"
-        },
-        {
-          "title": "A Market Drop at 67 Does Twice the Damage of One at 57. Here’s the Math, and the Buffer That Blunts It.",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/08/06/a-market-drop-at-67-does-twice-the-damage-of-one-at-57-heres-the-math-and-the-buffer-that-blunts-it-2/"
         }
       ]
     },
@@ -4507,19 +4507,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/trump-calls-ai-bigger-than-oil-in-the-race-against-china-for-tech-crypto-dominance/cZofbMGRJBi"
+        },
+        {
+          "title": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/tech-stocks-pressure-1-magnificent-etf-buy-the-dip/"
+        },
+        {
           "title": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street’s Second Straight Day In The Red",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-slipping-overnight-wall-street-second-day-red/cZoOFqgRJJw"
-        },
-        {
-          "title": "S&P 500 Gains as Iran-Oman Deal Eases Oil Fears",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/energy/articles/p-500-gains-iran-oman-212717705.html"
-        },
-        {
-          "title": "S&P 500, Dow, Nasdaq End Lower Amid Hormuz Uncertainty As Investors Await Jobs Data To Judge Fed Rate Course — SOUN, GOOGL, SPCX, NVDA In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-hormuz-uncertainty/cZoB9g9RJJo"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4375.7998,
-      "change_pct": 3.15,
-      "volume": 54034,
+      "price": 4383.7002,
+      "change_pct": 3.34,
+      "volume": 65849,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.2 進入超買區); bollinger_band:sell(價格 4375.80 觸及上軌 4281.60)"
+          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4383.70 觸及上軌 4284.48)"
         },
         {
           "agent": "macro",
@@ -4549,31 +4549,31 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
+          "rationale": "波動度正常(ATR/價格=1.71%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4375.7998,
-        "stop_loss": 4487.3248,
-        "take_profit": 4189.9248,
-        "atr": 74.35,
+        "entry_price": 4383.7002,
+        "stop_loss": 4496.1788,
+        "take_profit": 4196.2359,
+        "atr": 74.9857,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
+        },
         {
           "title": "Gold prices today, Thursday, August 6, 2026: Gold prices surge as Hormuz inches closer to reopening",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-august-6-2026-gold-prices-surge-as-hormuz-inches-closer-to-reopening-130743281.html"
         },
         {
-          "title": "Norsemont expands land position at Choquelimpie",
+          "title": "Phase one drilling begins at Decade’s Bonaparte copper-gold project",
           "publisher": "Mining Technology",
-          "link": "https://www.mining-technology.com/news/norsemont-expands-land-position-choquelimpie/"
-        },
-        {
-          "title": "Gold Headed for Largest Weekly Gain Since January",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080726/card/gold-headed-for-largest-weekly-gain-since-january-EzGfmUw5YyTrIGAqMvTW?siteid=yhoof2&yptr=yahoo"
+          "link": "https://www.mining-technology.com/news/phase-i-drilling-decades-bonaparte-project/"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.16,
-      "change_pct": -0.17,
-      "volume": 35976,
+      "price": 76.84,
+      "change_pct": -0.58,
+      "volume": 49150,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,26 +4602,26 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.36%),建議降低部位或觀望"
+          "confidence": 0.28,
+          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
+          "title": "Stock market today: Nasdaq futures rise, Dow and S&P 500 waver ahead of July jobs report",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-jobs-report-100009572.html"
         },
         {
-          "title": "Warner Bros. Discovery earnings, jobless claims: What to Watch",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
+          "title": "European stocks rise before US jobs report",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
         },
         {
-          "title": "European shares rise as earnings support sentiment ahead of key US jobs data",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
+          "title": "Jobs Report, Persian Gulf Views Lift Wall Street Pre-Bell; Asia Mixed, Europe Up",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/articles/jobs-report-persian-gulf-views-111452033.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.249,
-      "change_pct": -0.05,
+      "price": 32.256,
+      "change_pct": -0.03,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.344,
+      "price": 158.337,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,27 +4703,27 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.344,
-        "stop_loss": 155.8656,
-        "take_profit": 162.4747,
+        "entry_price": 158.337,
+        "stop_loss": 155.8586,
+        "take_profit": 162.4677,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
+        },
         {
           "title": "Latest Fed headlines: The implications of Trump & Kevin Warsh's phone correspondence",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "Why Is The Crypto Market Down Today?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
-        },
-        {
-          "title": "To Understand the Yen’s Plight, Look to the Bond Markets",
+          "title": "Yen’s Decline or Pressures on Treasuries Not Stopped by Record Currency Intervention",
           "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/yen-bonds-treasuries-4b5b9546?siteid=yhoof2&yptr=yahoo"
+          "link": "https://www.barrons.com/articles/yen-dollar-treasuries-currency-intervention-c0f442bb?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64792.7812,
-      "change_pct": 0.83,
-      "volume": 18333685760,
+      "price": 64975.8984,
+      "change_pct": 1.11,
+      "volume": 18873184256,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.06%)"
+          "rationale": "波動度正常(ATR/價格=2.08%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64792.7812,
-        "stop_loss": 62786.2383,
-        "take_profit": 68137.0195,
-        "atr": 1337.6953,
+        "entry_price": 64975.8984,
+        "stop_loss": 62945.6878,
+        "take_profit": 68359.5829,
+        "atr": 1353.4738,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
-          "title": "Polymarket traders see little chance of a Bitcoin breakout this month",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096715/polymarket-traders-see-little-chance-of-a-bitcoin-breakout-this-month-1096715.html"
+          "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
         },
         {
-          "title": "Bitcoin Bulls Go Missing as BTC Upside Volatility Sinks to All-Time Low: Glassnode",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/sponsored/bitcoin-options-upside-demand-all-time-low/"
+          "title": "Bitcoin Could Split in Two This Weekend: What Holders Need to Know",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/bip-110-mandatory-signaling-bitcoin-core-warning/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.8199,
-      "change_pct": 0.57,
-      "volume": 7924933120,
+      "price": 1914.49,
+      "change_pct": 0.65,
+      "volume": 8123052032,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
-          "title": "Tom Lee Sees S&P 500 at 8,000, Names Ethereum the Next Rally Leader",
+          "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
           "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/tom-lee-ethereum-magnificent-seven-rally/"
+          "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
         },
         {
-          "title": "Meme coin surges 77% on Robinhood listing",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/markets/meme-coin-surges-77-on-robinhood-listing"
+          "title": "In a Down Crypto Market, Does Investing in Prediction Markets Make Sense?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/in-a-down-crypto-market-does-investing-in-predicti/"
         }
       ]
     }
