@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:06:52.603583+00:00",
+  "generated_at": "2026-08-07T14:12:17.750195+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.26,
-      "change_pct": -0.05,
-      "volume": 5224569,
+      "price": 312.14,
+      "change_pct": -0.09,
+      "volume": 5629717,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "What we know about OpenAI's upcoming handheld device: Bloomberg",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
+        },
+        {
           "title": "SpaceX upgraded, Trade Desk downgraded: Wall Street's top analyst calls",
           "publisher": "The Fly",
           "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiation-apple-downgrade-among-133025602.html"
@@ -4215,11 +4220,6 @@
           "title": "Apple Stock Surged On An Upgrade Cycle Its Own Reports Flagged Early",
           "publisher": "Trefis",
           "link": "https://www.trefis.com/articles/610602/apple-stock-surged-on-an-upgrade-cycle-its-own-reports-flagged-early/2026-08-07"
-        },
-        {
-          "title": "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/etfs-and-funds/mutual-funds/best-mutual-funds-devour-apple-stock-marvell-santander-palo-alto-networks-and-more/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.155,
-      "change_pct": 0.46,
-      "volume": 4923378,
+      "price": 501.965,
+      "change_pct": 0.42,
+      "volume": 5259386,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 502.155,
-        "stop_loss": 528.3611,
-        "take_profit": 458.4782,
+        "entry_price": 501.965,
+        "stop_loss": 528.1711,
+        "take_profit": 458.2882,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4271,9 +4271,9 @@
           "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
         },
         {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
+          "title": "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/while-everyone-chases-nvidia-caterpillar-just-showed-where-ai-money-goes-next"
         }
       ]
     },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 221.97,
-      "change_pct": 1.36,
-      "volume": 17335224,
+      "price": 221.4699,
+      "change_pct": 1.13,
+      "volume": 18928252,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/while-everyone-chases-nvidia-caterpillar-just-showed-where-ai-money-goes-next"
+        },
+        {
           "title": "Why Amazon, Alphabet and Uber Keep Showing Up in the Same Billionaire Portfolios",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/why-amazon-alphabet-and-uber-keep-showing-up-in-the-same-billionaire-portfolios/"
         },
         {
-          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
           "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "NuScale Power Stock Could Triple by 2030. Here's Why.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/nuscale-power-stock-could-triple-by-2030-heres-why/"
+          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 324.68,
-      "change_pct": 1.61,
-      "volume": 7471386,
+      "price": 324.16,
+      "change_pct": 1.45,
+      "volume": 7870664,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4355,9 +4355,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 324.68,
-        "stop_loss": 302.7821,
-        "take_profit": 361.1764,
+        "entry_price": 324.16,
+        "stop_loss": 302.2621,
+        "take_profit": 360.6564,
         "atr": 14.5986,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.485,
-      "change_pct": -0.63,
-      "volume": 4012327,
+      "price": 356.095,
+      "change_pct": -0.46,
+      "volume": 4269482,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.71%)"
+          "rationale": "波動度正常(ATR/價格=3.70%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 770.71,
-      "change_pct": 0.28,
-      "volume": 5757479,
+      "price": 770.11,
+      "change_pct": 0.2,
+      "volume": 6129206,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 718.49,
-      "change_pct": 0.54,
-      "volume": 6358351,
+      "price": 717.36,
+      "change_pct": 0.38,
+      "volume": 6872171,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4412.3999,
-      "change_pct": 4.02,
-      "volume": 119607,
+      "price": 4404.7002,
+      "change_pct": 3.84,
+      "volume": 121940,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4412.40 觸及上軌 4295.19)"
+          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4404.70 觸及上軌 4292.28)"
         },
         {
           "agent": "macro",
@@ -4549,13 +4549,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.77%)"
+          "rationale": "波動度正常(ATR/價格=1.78%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4412.3999,
-        "stop_loss": 4529.8713,
-        "take_profit": 4216.6142,
+        "entry_price": 4404.7002,
+        "stop_loss": 4522.1716,
+        "take_profit": 4208.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.19,
-      "change_pct": -0.13,
-      "volume": 84553,
+      "price": 77.38,
+      "change_pct": 0.12,
+      "volume": 86160,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.41%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.39%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
+          "title": "Dollar drops, stocks climb after surprise US jobs miss",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
+        },
+        {
           "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Oil India posts quarterly profit surge on crude price jump, higher production",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/oil-india-posts-quarterly-profit-134336958.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.239,
-      "change_pct": -0.08,
+      "price": 32.242,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.762,
-      "change_pct": 0.1,
+      "price": 157.721,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=22.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.762,
-        "stop_loss": 155.182,
-        "take_profit": 162.062,
+        "entry_price": 157.721,
+        "stop_loss": 155.141,
+        "take_profit": 162.021,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64773.3281,
-      "change_pct": 0.8,
-      "volume": 20907995136,
+      "price": 64798.0,
+      "change_pct": 0.83,
+      "volume": 21140307968,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64773.3281,
-        "stop_loss": 62722.6318,
-        "take_profit": 68191.1553,
+        "entry_price": 64798.0,
+        "stop_loss": 62747.3037,
+        "take_profit": 68215.8271,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1910.6,
-      "change_pct": 0.45,
-      "volume": 8886689792,
+      "price": 1913.01,
+      "change_pct": 0.58,
+      "volume": 8986365952,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
