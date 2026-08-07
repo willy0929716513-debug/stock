@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:45:17.763904+00:00",
+  "generated_at": "2026-08-07T07:50:38.776100+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4373,9 +4373,9 @@
           "link": "https://finance.yahoo.com/video/tesla-best-choice-valvetronic-designs-120000265.html"
         },
         {
-          "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html"
+          "title": "Elon Musk’s Terafab Will Be Earth’s Most Valuable Building, 50x the Size of the Pentagon",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/elon-musk-terafab-valuable-building/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4346.5,
-      "change_pct": 2.46,
-      "volume": 39607,
+      "price": 4344.0,
+      "change_pct": 2.4,
+      "volume": 39976,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4346.50 觸及上軌 4271.23)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4344.00 觸及上軌 4270.36)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4346.5,
-        "stop_loss": 4456.0107,
-        "take_profit": 4163.9821,
+        "entry_price": 4344.0,
+        "stop_loss": 4453.5107,
+        "take_profit": 4161.4821,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.68,
-      "change_pct": 0.5,
-      "volume": 23129,
+      "price": 77.77,
+      "change_pct": 0.62,
+      "volume": 23551,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.29%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.285,
-      "change_pct": 0.06,
+      "price": 32.259,
+      "change_pct": -0.02,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.394,
-      "change_pct": 0.5,
+      "price": 158.41,
+      "change_pct": 0.51,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.394,
-        "stop_loss": 155.9156,
-        "take_profit": 162.5247,
+        "entry_price": 158.41,
+        "stop_loss": 155.9316,
+        "take_profit": 162.5407,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4716,14 +4716,14 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
+          "title": "To Understand the Yen’s Plight, Look to the Bond Markets",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/yen-bonds-treasuries-4b5b9546?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "BOJ's Masu among board members speaking before September policy meeting",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/economy/policy/articles/bojs-masu-among-board-members-055423095.html"
-        },
-        {
-          "title": "U.S. Dollar Quiet as Focus Shifts to Critical Jobs Report",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/currencies/nikkei-falls-0-7-dragged-by-chip-related-stocks-f3f924b2?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64319.1211,
+      "price": 64318.9688,
       "change_pct": 0.09,
-      "volume": 18020757504,
+      "volume": 18033631232,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1901.8199,
+      "price": 1901.86,
       "change_pct": -0.01,
-      "volume": 7712871936,
+      "volume": 7670440448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
