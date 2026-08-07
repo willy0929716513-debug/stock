@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:31:27.467748+00:00",
+  "generated_at": "2026-08-07T23:37:14.363715+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -97,7 +97,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
+        },
+        {
+          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
+        },
+        {
+          "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
+        }
+      ]
     },
     {
       "symbol": "2303.TW",
@@ -1624,18 +1640,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Tower Semiconductor signals optics-driven growth as restructuring boosts capacity outlook",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1089613/tower-semiconductor-signals-optics-driven-growth-as-restructuring-boosts-capacity-outlook-1089613.html"
-        },
-        {
-          "title": "Tower Semiconductor's New Strategy Indicates Upside From Optics, Wedbush Says",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tower-semiconductor-apos-strategy-indicates-150743205.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "3661.TW",
@@ -4544,14 +4549,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "Is ASA Gold And Precious Metals (ASA) Undervalued As Saba Pushes Its BDC Pivot?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/asa-gold-precious-metals-asa-231347012.html"
+        },
+        {
           "title": "Galiano Gold Inc (GAU) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/commodities/articles/galiano-gold-inc-gau-q2-230127689.html"
-        },
-        {
-          "title": "B2Gold Corp (BTG) (Q2 2026) Earnings Call Highlights: Fekola Regional Permit Secured, Guidance ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/b2gold-corp-btg-q2-2026-230115309.html"
         }
       ]
     },
@@ -4709,9 +4714,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64855.4492,
+      "price": 64856.1094,
       "change_pct": 0.92,
-      "volume": 22224338944,
+      "volume": 22208497664,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4735,9 +4740,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64855.4492,
-        "stop_loss": 62804.7529,
-        "take_profit": 68273.2764,
+        "entry_price": 64856.1094,
+        "stop_loss": 62805.4131,
+        "take_profit": 68273.9365,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4753,9 +4758,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Nvidia-backed company nearly doubles valuation in new funding round",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/markets/nvidia-backed-company-nearly-doubles-valuation-in-new-funding-round"
+          "title": "Michael Saylor Says Strategy Aims to Be the World's Biggest Company by Market Cap—Here's How Much Upside It Needs",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-says-strategy-aims-223033093.html"
         }
       ]
     },
@@ -4763,9 +4768,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.13,
-      "change_pct": 0.63,
-      "volume": 9080721408,
+      "price": 1914.15,
+      "change_pct": 0.64,
+      "volume": 9076080640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
