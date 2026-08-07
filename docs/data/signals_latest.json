@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:43:19.806059+00:00",
+  "generated_at": "2026-08-07T09:48:42.967551+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4363.3999,
-      "change_pct": 2.86,
-      "volume": 52195,
+      "price": 4366.1001,
+      "change_pct": 2.93,
+      "volume": 52664,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.8 進入超買區); bollinger_band:sell(價格 4363.40 觸及上軌 4277.15)"
+          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4366.10 觸及上軌 4278.11)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4363.3999,
-        "stop_loss": 4474.8285,
-        "take_profit": 4177.6856,
+        "entry_price": 4366.1001,
+        "stop_loss": 4477.5287,
+        "take_profit": 4180.3858,
         "atr": 74.2857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.49,
-      "change_pct": 0.26,
-      "volume": 34117,
+      "price": 77.35,
+      "change_pct": 0.08,
+      "volume": 34799,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.256,
-      "change_pct": -0.03,
+      "price": 32.239,
+      "change_pct": -0.08,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.339,
+      "price": 158.343,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.339,
-        "stop_loss": 155.8606,
-        "take_profit": 162.4697,
+        "entry_price": 158.343,
+        "stop_loss": 155.8646,
+        "take_profit": 162.4737,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4721,9 +4721,9 @@
           "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
         },
         {
-          "title": "Bank of Japan lines up another speaking event ahead of key September meeting",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/economy/policy/articles/bojs-masu-among-board-members-055423095.html"
+          "title": "To Understand the Yen’s Plight, Look to the Bond Markets",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/yen-bonds-treasuries-4b5b9546?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64847.1992,
-      "change_pct": 0.91,
-      "volume": 18135920640,
+      "price": 64830.8281,
+      "change_pct": 0.88,
+      "volume": 18254303232,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64847.1992,
-        "stop_loss": 62840.6562,
-        "take_profit": 68191.4375,
+        "entry_price": 64830.8281,
+        "stop_loss": 62824.2852,
+        "take_profit": 68175.0664,
         "atr": 1337.6953,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Bitcoin Bulls Go Missing as BTC Upside Volatility Sinks to All-Time Low: Glassnode",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/sponsored/bitcoin-options-upside-demand-all-time-low/"
+        },
+        {
           "title": "Why Is The Crypto Market Down Today?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
-        },
-        {
-          "title": "Bitcoin Falls Amid Iran War Uncertainty",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080726/card/bitcoin-falls-amid-iran-war-uncertainty-SerfbJZ7ZIscGVEDUgP3?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.3101,
-      "change_pct": 0.7,
-      "volume": 7942252544,
+      "price": 1913.51,
+      "change_pct": 0.6,
+      "volume": 7846126592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.89%)"
+          "rationale": "波動度正常(ATR/價格=2.90%)"
         }
       ],
       "risk_levels": null,
