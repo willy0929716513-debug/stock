@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:50:38.776100+00:00",
+  "generated_at": "2026-08-07T07:56:00.981615+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4344.0,
-      "change_pct": 2.4,
-      "volume": 39976,
+      "price": 4345.3999,
+      "change_pct": 2.44,
+      "volume": 40524,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4344.00 觸及上軌 4270.36)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4345.40 觸及上軌 4270.85)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4344.0,
-        "stop_loss": 4453.5107,
-        "take_profit": 4161.4821,
+        "entry_price": 4345.3999,
+        "stop_loss": 4454.9106,
+        "take_profit": 4162.882,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.77,
-      "change_pct": 0.62,
-      "volume": 23551,
+      "price": 77.86,
+      "change_pct": 0.74,
+      "volume": 23849,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.29%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.28%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Oil extends gains and stocks mostly down on fresh Hormuz worries",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
+          "title": "Healthcare leads European shares higher; Middle East in focus",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.259,
-      "change_pct": -0.02,
+      "price": 32.29,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.41,
-      "change_pct": 0.51,
+      "price": 158.446,
+      "change_pct": 0.54,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.3 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.41,
-        "stop_loss": 155.9316,
-        "take_profit": 162.5407,
+        "entry_price": 158.446,
+        "stop_loss": 155.9676,
+        "take_profit": 162.5767,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64318.9688,
-      "change_pct": 0.09,
-      "volume": 18033631232,
+      "price": 64302.8398,
+      "change_pct": 0.06,
+      "volume": 17841534976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1901.86,
+      "price": 1901.88,
       "change_pct": -0.01,
-      "volume": 7670440448,
+      "volume": 7640200192,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
