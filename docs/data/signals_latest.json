@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:11:35.522392+00:00",
+  "generated_at": "2026-08-07T16:16:58.974587+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.8277,
+      "price": 311.83,
       "change_pct": -0.19,
-      "volume": 13877304,
+      "volume": 14102638,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.43,
-      "change_pct": 0.71,
-      "volume": 10751296,
+      "price": 503.535,
+      "change_pct": 0.74,
+      "volume": 11164868,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4097,9 +4097,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.43,
-        "stop_loss": 529.6361,
-        "take_profit": 459.7532,
+        "entry_price": 503.535,
+        "stop_loss": 529.7411,
+        "take_profit": 459.8582,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.55,
-      "change_pct": 2.08,
-      "volume": 47925506,
+      "price": 223.476,
+      "change_pct": 2.05,
+      "volume": 49315968,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4153,6 +4153,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains. Here's Why That Matters for Investors",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/satya-nadella-said-microsofts-own-ai-chips-are-dri/"
+        },
+        {
           "title": "AMD Will Become a $1 Trillion Company By This Date",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/amd-will-become-a-1-trillion-company-by-this-date/"
@@ -4161,11 +4166,6 @@
           "title": "History Says This Is the Single Best Strategy for Investors if a Market Crash Is Imminent",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/history-says-single-best-strategy-for-market-crash/"
-        },
-        {
-          "title": "Inside the Math of Team RB's SpaceX Price Target",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/inside-the-math-of-team-rbs-spacex-price-target/"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.99,
-      "change_pct": 3.9,
-      "volume": 21398060,
+      "price": 331.49,
+      "change_pct": 3.74,
+      "volume": 21639635,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4195,13 +4195,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.50%)"
+          "rationale": "波動度正常(ATR/價格=4.51%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 331.99,
-        "stop_loss": 309.5768,
-        "take_profit": 369.3453,
+        "entry_price": 331.49,
+        "stop_loss": 309.0768,
+        "take_profit": 368.8453,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.57,
-      "change_pct": -0.61,
-      "volume": 9511398,
+      "price": 355.6248,
+      "change_pct": -0.59,
+      "volume": 9743887,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.24,
-      "change_pct": 0.61,
-      "volume": 15540440,
+      "price": 773.195,
+      "change_pct": 0.6,
+      "volume": 15825967,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.7,
-      "change_pct": 1.13,
-      "volume": 16284244,
+      "price": 722.57,
+      "change_pct": 1.11,
+      "volume": 16616369,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,17 +4371,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4400.2998,
-      "change_pct": 3.73,
-      "volume": 152109,
+      "price": 4404.3999,
+      "change_pct": 3.83,
+      "volume": 152916,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4400.30 觸及上軌 4290.63)"
+          "confidence": 0.72,
+          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4404.40 觸及上軌 4292.17)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4400.2998,
-        "stop_loss": 4517.7712,
-        "take_profit": 4204.5141,
+        "entry_price": 4404.3999,
+        "stop_loss": 4521.8713,
+        "take_profit": 4208.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4415,7 +4415,7 @@
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
-          "title": "Stock Market Today: Nasdaq Leads After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "title": "Stock Market Today: Nasdaq Rallies After Surprise July Jobs Reading; SpaceX Soars (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.39,
-      "change_pct": 1.42,
-      "volume": 123727,
+      "price": 78.29,
+      "change_pct": 1.29,
+      "volume": 124909,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4447,7 +4447,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.32%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4473,7 +4473,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.243,
+      "price": 32.241,
       "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.473,
-      "change_pct": -0.08,
+      "price": 157.441,
+      "change_pct": -0.1,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.31,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.473,
-        "stop_loss": 154.893,
-        "take_profit": 161.773,
+        "entry_price": 157.441,
+        "stop_loss": 154.861,
+        "take_profit": 161.741,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4560,14 +4560,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
+          "title": "US stocks, bonds rally after soft jobs report; yen bounces back",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/asian-shares-pause-us-jobs-021601155.html"
+        },
+        {
           "title": "Dollar falls against yen after weak US jobs data",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/dollar-drifts-higher-traders-eye-020453451.html"
-        },
-        {
-          "title": "Bitcoin Trailed a $2.7 Trillion Gold and Silver Rally: Is the Yen to Blame?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/bitcoin-lags-gold-silver-yen-squeeze/"
         }
       ]
     },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64970.5508,
-      "change_pct": 1.1,
-      "volume": 21268469760,
+      "price": 64996.1406,
+      "change_pct": 1.14,
+      "volume": 21260992512,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64970.5508,
-        "stop_loss": 62919.8545,
-        "take_profit": 68388.3779,
+        "entry_price": 64996.1406,
+        "stop_loss": 62945.4443,
+        "take_profit": 68413.9678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.77,
-      "change_pct": 0.98,
-      "volume": 8927169536,
+      "price": 1921.67,
+      "change_pct": 1.03,
+      "volume": 8938997760,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
