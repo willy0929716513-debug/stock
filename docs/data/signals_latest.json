@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:17:28.631745+00:00",
+  "generated_at": "2026-08-07T08:22:50.286089+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4352.2998,
-      "change_pct": 2.6,
-      "volume": 42165,
+      "price": 4355.5,
+      "change_pct": 2.68,
+      "volume": 42719,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4352.30 觸及上軌 4273.24)"
+          "rationale": "rsi:sell(RSI=72.5 進入超買區); bollinger_band:sell(價格 4355.50 觸及上軌 4274.36)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4352.2998,
-        "stop_loss": 4461.8105,
-        "take_profit": 4169.7819,
+        "entry_price": 4355.5,
+        "stop_loss": 4465.0107,
+        "take_profit": 4172.9821,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.57,
-      "change_pct": 0.36,
-      "volume": 25229,
+      "price": 77.58,
+      "change_pct": 0.38,
+      "volume": 25769,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Healthcare leads European shares higher; Middle East in focus",
+          "title": "Stocks, dollar stall ahead of US jobs data; oil gains as Gulf tensions flare",
           "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
+          "link": "https://finance.yahoo.com/news/asian-shares-pause-us-jobs-021601155.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.256,
-      "change_pct": -0.03,
+      "price": 32.28,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.466,
-      "change_pct": 0.55,
+      "price": 158.446,
+      "change_pct": 0.54,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.466,
-        "stop_loss": 155.9876,
-        "take_profit": 162.5967,
+        "entry_price": 158.446,
+        "stop_loss": 155.9676,
+        "take_profit": 162.5767,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64325.4492,
-      "change_pct": 0.1,
-      "volume": 17675069440,
+      "price": 64358.4414,
+      "change_pct": 0.15,
+      "volume": 17735489536,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64325.4492,
-        "stop_loss": 62369.7305,
-        "take_profit": 67584.9805,
+        "entry_price": 64358.4414,
+        "stop_loss": 62402.7227,
+        "take_profit": 67617.9727,
         "atr": 1303.8125,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1903.51,
-      "change_pct": 0.08,
-      "volume": 7547414016,
+      "price": 1904.3,
+      "change_pct": 0.12,
+      "volume": 7480318976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
