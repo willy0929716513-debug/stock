@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:44:26.447128+00:00",
+  "generated_at": "2026-08-07T15:49:52.906389+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.48,
-      "change_pct": 0.02,
-      "volume": 12211612,
+      "price": 312.2,
+      "change_pct": -0.07,
+      "volume": 12520554,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4201,7 +4201,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.99%)"
+          "rationale": "波動度正常(ATR/價格=3.00%)"
         }
       ],
       "risk_levels": null,
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
+          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/"
+        },
+        {
           "title": "Microsoft Stock's Peak Margin And Its Azure Bill Are The Same Story",
           "publisher": "Trefis",
           "link": "https://www.trefis.com/articles/610607/microsoft-stocks-peak-margin-and-its-azure-bill-are-the-same-story/2026-08-07"
-        },
-        {
-          "title": "MP Earnings Show Chinese Rare-Earth Monopoly Is Fading. The Stock Is Up.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.55,
-      "change_pct": 0.74,
-      "volume": 9929330,
+      "price": 503.06,
+      "change_pct": 0.64,
+      "volume": 10132436,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.55,
-        "stop_loss": 529.7561,
-        "take_profit": 459.8732,
+        "entry_price": 503.06,
+        "stop_loss": 529.2661,
+        "take_profit": 459.3832,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 224.31,
-      "change_pct": 2.43,
-      "volume": 42723237,
+      "price": 224.55,
+      "change_pct": 2.54,
+      "volume": 43504210,
       "signal": "sell",
       "confidence": 0.27,
       "opinions": [
@@ -4291,7 +4291,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.45,
-          "rationale": "bollinger_band:sell(價格 224.31 觸及上軌 224.14)"
+          "rationale": "bollinger_band:sell(價格 224.55 觸及上軌 224.21)"
         },
         {
           "agent": "macro",
@@ -4307,13 +4307,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 224.31,
-        "stop_loss": 236.055,
-        "take_profit": 204.735,
+        "entry_price": 224.55,
+        "stop_loss": 236.295,
+        "take_profit": 204.975,
         "atr": 7.83,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Why The Trade Desk Stock Plunged to a New 7-Year Low Today",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/why-the-trade-desk-stock-plunged-to-a-new-7-year-l/"
+        },
         {
           "title": "2 Stocks Positioned for the Rise as AI Self‑Healing Systems Move From Concept to Core Infrastructure",
           "publisher": "24/7 Wall St.",
@@ -4323,11 +4328,6 @@
           "title": "The U.S. Didn’t Buy a Drop of Saudi Oil in July — the First Time in 41 Years",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/the-u-s-didnt-buy-a-drop-of-saudi-oil-in-july-the-first-time-in-41-years/"
-        },
-        {
-          "title": "Price Prediction: Google Will Hit $400 on This Date",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/price-prediction-google-will-hit-400-on-this-date/"
         }
       ]
     },
@@ -4335,9 +4335,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.54,
-      "change_pct": 3.76,
-      "volume": 19764816,
+      "price": 331.5803,
+      "change_pct": 3.77,
+      "volume": 20146091,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4361,9 +4361,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 331.54,
-        "stop_loss": 309.1268,
-        "take_profit": 368.8953,
+        "entry_price": 331.5803,
+        "stop_loss": 309.1671,
+        "take_profit": 368.9356,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4389,9 +4389,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.905,
-      "change_pct": -0.24,
-      "volume": 8803718,
+      "price": 356.23,
+      "change_pct": -0.42,
+      "volume": 8976915,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4437,9 +4437,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.115,
-      "change_pct": 0.59,
-      "volume": 14141765,
+      "price": 773.455,
+      "change_pct": 0.64,
+      "volume": 14375592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4485,9 +4485,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.39,
-      "change_pct": 1.08,
-      "volume": 14630250,
+      "price": 722.7474,
+      "change_pct": 1.13,
+      "volume": 14939839,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4533,9 +4533,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4408.6001,
-      "change_pct": 3.93,
-      "volume": 147815,
+      "price": 4411.3999,
+      "change_pct": 3.99,
+      "volume": 148565,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4543,7 +4543,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4408.60 觸及上軌 4293.75)"
+          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4411.40 觸及上軌 4294.81)"
         },
         {
           "agent": "macro",
@@ -4559,9 +4559,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4408.6001,
-        "stop_loss": 4526.0715,
-        "take_profit": 4212.8144,
+        "entry_price": 4411.3999,
+        "stop_loss": 4528.8713,
+        "take_profit": 4215.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4587,9 +4587,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.16,
-      "change_pct": 1.13,
-      "volume": 117288,
+      "price": 78.03,
+      "change_pct": 0.96,
+      "volume": 118994,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4609,7 +4609,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.34%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4635,7 +4635,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.241,
+      "price": 32.243,
       "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
@@ -4683,8 +4683,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.533,
-      "change_pct": -0.04,
+      "price": 157.564,
+      "change_pct": -0.02,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4693,7 +4693,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4709,9 +4709,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.533,
-        "stop_loss": 154.953,
-        "take_profit": 161.833,
+        "entry_price": 157.564,
+        "stop_loss": 154.984,
+        "take_profit": 161.864,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4737,9 +4737,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64975.6094,
-      "change_pct": 1.11,
-      "volume": 21140168704,
+      "price": 64941.4688,
+      "change_pct": 1.06,
+      "volume": 21171892224,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4759,13 +4759,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.10%)"
+          "rationale": "波動度正常(ATR/價格=2.11%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64975.6094,
-        "stop_loss": 62924.9131,
-        "take_profit": 68393.4365,
+        "entry_price": 64941.4688,
+        "stop_loss": 62890.7725,
+        "take_profit": 68359.2959,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4791,9 +4791,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.79,
-      "change_pct": 0.88,
-      "volume": 8928510976,
+      "price": 1917.9301,
+      "change_pct": 0.83,
+      "volume": 8966134784,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
