@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:34:32.238810+00:00",
+  "generated_at": "2026-08-07T12:39:56.410669+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4507,7 +4507,7 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4371.7002,
-      "change_pct": 3.06,
-      "volume": 75209,
+      "price": 4372.8999,
+      "change_pct": 3.09,
+      "volume": 76464,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.1 進入超買區); bollinger_band:sell(價格 4371.70 觸及上軌 4280.12)"
+          "rationale": "rsi:sell(RSI=73.1 進入超買區); bollinger_band:sell(價格 4372.90 觸及上軌 4280.55)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4371.7002,
-        "stop_loss": 4484.3288,
-        "take_profit": 4183.9859,
+        "entry_price": 4372.8999,
+        "stop_loss": 4485.5285,
+        "take_profit": 4185.1856,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.2,
-      "change_pct": -0.12,
-      "volume": 58677,
+      "price": 77.24,
+      "change_pct": -0.06,
+      "volume": 60458,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4614,7 +4614,7 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
-          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
@@ -4629,7 +4629,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.195,
+      "price": 32.194,
       "change_pct": -0.22,
       "volume": 0,
       "signal": "hold",
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.474,
-      "change_pct": -0.08,
+      "price": 157.076,
+      "change_pct": -0.33,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.31,
+      "confidence": 0.3,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
+          "confidence": 0.5,
+          "rationale": "rsi:buy(RSI=20.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4699,14 +4699,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.06%)"
+          "rationale": "波動度正常(ATR/價格=1.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 157.474,
-        "stop_loss": 154.9751,
-        "take_profit": 161.6388,
-        "atr": 1.6659,
+        "entry_price": 157.076,
+        "stop_loss": 154.496,
+        "take_profit": 161.376,
+        "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65044.1602,
-      "change_pct": 1.22,
-      "volume": 19400714240,
+      "price": 65076.7305,
+      "change_pct": 1.27,
+      "volume": 19762565120,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65044.1602,
-        "stop_loss": 63006.0787,
-        "take_profit": 68440.9626,
+        "entry_price": 65076.7305,
+        "stop_loss": 63038.649,
+        "take_profit": 68473.5329,
         "atr": 1358.721,
         "risk_reward_ratio": 1.67
       },
@@ -4770,7 +4770,7 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
-          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1927.8,
-      "change_pct": 1.35,
-      "volume": 8552494592,
+      "price": 1926.76,
+      "change_pct": 1.3,
+      "volume": 8666507264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
