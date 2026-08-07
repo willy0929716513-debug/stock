@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:03:51.959032+00:00",
+  "generated_at": "2026-08-07T23:09:23.257130+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4303,9 +4303,9 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Nvidia ends week up more than 10% as AI chip fears ease",
+          "title": "Tech stocks today: Shares climb after rocky week",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-ends-week-up-more-than-10-as-ai-chip-fears-ease-205751147.html"
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
           "title": "Call options explained: From opening trade to expiration",
@@ -4362,14 +4362,14 @@
           "link": "https://www.fool.com/coverage/stock-market-today/2026/08/07/stock-market-today-aug-7-space-exploration-technologies-surges-on-q2-revenue-beat-lockup-relief-and-terafab-update/"
         },
         {
+          "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html"
+        },
+        {
           "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "2 Reasons Tesla Could Monopolize the U.S. Robotaxi Market",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/meet-the-quiet-monopoly-hiding-in-the-industrial-s/"
         }
       ]
     },
@@ -4415,9 +4415,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Oracle Surges: What's Driving the Sudden Rally",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/oracle-surges-whats-driving-the-sudden-rally/"
+          "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64851.7695,
+      "price": 64853.7695,
       "change_pct": 0.92,
-      "volume": 22120081408,
+      "volume": 22126286848,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64851.7695,
-        "stop_loss": 62801.0732,
-        "take_profit": 68269.5967,
+        "entry_price": 64853.7695,
+        "stop_loss": 62803.0732,
+        "take_profit": 68271.5967,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.2,
-      "change_pct": 0.64,
-      "volume": 9099023360,
+      "price": 1914.74,
+      "change_pct": 0.67,
+      "volume": 9098240000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
