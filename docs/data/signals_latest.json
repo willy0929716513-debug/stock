@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:08:10.829182+00:00",
+  "generated_at": "2026-08-07T21:13:43.998884+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4110,14 +4110,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
+          "title": "C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/better-buy/2026/08/07/c3-ai-vs-applied-digital-which-artificial-intelligence-stock-is-a-better-buy-in-2026/"
+        },
+        {
           "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-gpus-next-ai-190000472.html"
         }
       ]
     },
@@ -4163,9 +4163,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Gray Media, Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-gray-media-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "Dow Jones Futures: As Stock Market Ramps Up, Here's What To Do; Warren Buffett, Cisco, Lumentum Due",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4265,9 +4265,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Explainer-How could New Mexico's $567 million ruling change Meta?",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/explainer-could-mexicos-567-million-193540756.html"
+          "title": "Google Cloud’s Taiwan Launch Hints at Alphabet’s (GOOGL) Next Growth Phase",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/google-cloud-taiwan-launch-hints-205939823.html"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4401.0,
-      "change_pct": 3.75,
-      "volume": 182231,
+      "price": 4401.2998,
+      "change_pct": 3.76,
+      "volume": 182381,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.00 觸及上軌 4290.89)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.30 觸及上軌 4291.00)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4401.0,
-        "stop_loss": 4518.4714,
-        "take_profit": 4205.2143,
+        "entry_price": 4401.2998,
+        "stop_loss": 4518.7712,
+        "take_profit": 4205.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4427,7 +4427,7 @@
       "category": "commodity",
       "price": 77.08,
       "change_pct": -0.27,
-      "volume": 206202,
+      "volume": 206437,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64938.5781,
-      "change_pct": 1.05,
-      "volume": 21926309888,
+      "price": 64983.0195,
+      "change_pct": 1.12,
+      "volume": 21959524352,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4597,13 +4597,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64938.5781,
-        "stop_loss": 62887.8818,
-        "take_profit": 68356.4053,
+        "entry_price": 64983.0195,
+        "stop_loss": 62932.3232,
+        "take_profit": 68400.8467,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.35,
-      "change_pct": 0.59,
-      "volume": 9026670592,
+      "price": 1914.21,
+      "change_pct": 0.64,
+      "volume": 9023218688,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
