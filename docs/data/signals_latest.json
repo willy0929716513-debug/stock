@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:00:22.804609+00:00",
+  "generated_at": "2026-08-07T09:05:44.454880+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -201,6 +201,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Infineon and MediaTek partner on automotive AI systems",
+          "publisher": "Just Auto",
+          "link": "https://www.just-auto.com/news/infineon-mediatek-automotive-ai-systems/"
+        },
+        {
           "title": "Intel's Packaging Progress Points to Google",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/intels-packaging-progress-points-google-195322309.html"
@@ -209,11 +214,6 @@
           "title": "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-wants-20-custom-ai-182411966.html"
-        },
-        {
-          "title": "MediaTek Inc (TPE:2454) (Q2 2026) Earnings Call Highlights: AI ASIC Momentum Drives Record ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-inc-tpe-2454-q2-010316865.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4366.3999,
-      "change_pct": 2.93,
-      "volume": 48748,
+      "price": 4365.3999,
+      "change_pct": 2.91,
+      "volume": 49220,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4366.40 觸及上軌 4278.22)"
+          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4365.40 觸及上軌 4277.86)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4366.3999,
-        "stop_loss": 4477.8285,
-        "take_profit": 4180.6856,
+        "entry_price": 4365.3999,
+        "stop_loss": 4476.8285,
+        "take_profit": 4179.6856,
         "atr": 74.2857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.93,
-      "change_pct": 0.83,
-      "volume": 31041,
+      "price": 77.87,
+      "change_pct": 0.75,
+      "volume": 31307,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Oil extends gains and stocks mostly down on fresh Hormuz worries",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
+          "title": "Oil Prices Advance as Strait of Hormuz Uncertainty Returns to the Forefront",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33694/oil-prices-advance-as-strait-of-hormuz-uncertainty-returns-to-the-forefront"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.274,
-      "change_pct": 0.03,
+      "price": 32.271,
+      "change_pct": 0.02,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.373,
-      "change_pct": 0.49,
+      "price": 158.391,
+      "change_pct": 0.5,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.373,
-        "stop_loss": 155.8946,
-        "take_profit": 162.5037,
+        "entry_price": 158.391,
+        "stop_loss": 155.9126,
+        "take_profit": 162.5217,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64552.8906,
-      "change_pct": 0.45,
-      "volume": 17860679680,
+      "price": 64629.7305,
+      "change_pct": 0.57,
+      "volume": 17861234688,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64552.8906,
-        "stop_loss": 62578.4641,
-        "take_profit": 67843.6014,
-        "atr": 1316.2843,
+        "entry_price": 64629.7305,
+        "stop_loss": 62652.4266,
+        "take_profit": 67925.2369,
+        "atr": 1318.2026,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1909.27,
-      "change_pct": 0.38,
-      "volume": 7623596544,
+      "price": 1909.96,
+      "change_pct": 0.42,
+      "volume": 7622866432,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
