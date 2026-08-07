@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:12:17.750195+00:00",
+  "generated_at": "2026-08-07T14:17:43.117689+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.14,
-      "change_pct": -0.09,
-      "volume": 5629717,
+      "price": 312.42,
+      "change_pct": 0.0,
+      "volume": 6025538,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 501.965,
-      "change_pct": 0.42,
-      "volume": 5259386,
+      "price": 502.2001,
+      "change_pct": 0.47,
+      "volume": 5693176,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 501.965,
-        "stop_loss": 528.1711,
-        "take_profit": 458.2882,
+        "entry_price": 502.2001,
+        "stop_loss": 528.4062,
+        "take_profit": 458.5233,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 221.4699,
-      "change_pct": 1.13,
-      "volume": 18928252,
+      "price": 222.025,
+      "change_pct": 1.39,
+      "volume": 20457050,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/applied-optoelectronics-zooms-13-higher-on-pivotal-quarterly-print-coherent-advances-13-lumentum-adds-8/"
+        },
+        {
           "title": "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/investing/while-everyone-chases-nvidia-caterpillar-just-showed-where-ai-money-goes-next"
@@ -4317,11 +4322,6 @@
           "title": "Why Amazon, Alphabet and Uber Keep Showing Up in the Same Billionaire Portfolios",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/why-amazon-alphabet-and-uber-keep-showing-up-in-the-same-billionaire-portfolios/"
-        },
-        {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 324.16,
-      "change_pct": 1.45,
-      "volume": 7870664,
+      "price": 323.58,
+      "change_pct": 1.27,
+      "volume": 8413103,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.50%)"
+          "rationale": "波動度正常(ATR/價格=4.51%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 324.16,
-        "stop_loss": 302.2621,
-        "take_profit": 360.6564,
+        "entry_price": 323.58,
+        "stop_loss": 301.6821,
+        "take_profit": 360.0764,
         "atr": 14.5986,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.095,
-      "change_pct": -0.46,
-      "volume": 4269482,
+      "price": 355.94,
+      "change_pct": -0.51,
+      "volume": 4521509,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Why Amazon, Alphabet and Uber Keep Showing Up in the Same Billionaire Portfolios",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/why-amazon-alphabet-and-uber-keep-showing-up-in-the-same-billionaire-portfolios/"
+          "title": "What the bond market is signaling for SpaceX's hopes to ramp up debt sales",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/bond-market-signaling-spacexs-hopes-150000153.html"
         }
       ]
     },
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 770.11,
-      "change_pct": 0.2,
-      "volume": 6129206,
+      "price": 770.6501,
+      "change_pct": 0.27,
+      "volume": 6903705,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 717.36,
-      "change_pct": 0.38,
-      "volume": 6872171,
+      "price": 718.58,
+      "change_pct": 0.55,
+      "volume": 7613092,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4404.7002,
-      "change_pct": 3.84,
-      "volume": 121940,
+      "price": 4391.3999,
+      "change_pct": 3.52,
+      "volume": 125542,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4404.70 觸及上軌 4292.28)"
+          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4391.40 觸及上軌 4287.31)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4404.7002,
-        "stop_loss": 4522.1716,
-        "take_profit": 4208.9145,
+        "entry_price": 4391.3999,
+        "stop_loss": 4508.8713,
+        "take_profit": 4195.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.38,
-      "change_pct": 0.12,
-      "volume": 86160,
+      "price": 77.8,
+      "change_pct": 0.66,
+      "volume": 88601,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.39%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.36%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.242,
-      "change_pct": -0.07,
+      "price": 32.228,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.721,
+      "price": 157.724,
       "change_pct": 0.08,
       "volume": 0,
       "signal": "buy",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.721,
-        "stop_loss": 155.141,
-        "take_profit": 162.021,
+        "entry_price": 157.724,
+        "stop_loss": 155.144,
+        "take_profit": 162.024,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64798.0,
-      "change_pct": 0.83,
-      "volume": 21140307968,
+      "price": 64848.5312,
+      "change_pct": 0.91,
+      "volume": 21049034752,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64798.0,
-        "stop_loss": 62747.3037,
-        "take_profit": 68215.8271,
+        "entry_price": 64848.5312,
+        "stop_loss": 62797.835,
+        "take_profit": 68266.3584,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.01,
-      "change_pct": 0.58,
-      "volume": 8986365952,
+      "price": 1913.65,
+      "change_pct": 0.61,
+      "volume": 8944009216,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.97%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
