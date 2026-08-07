@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:39:02.916716+00:00",
+  "generated_at": "2026-08-07T15:44:26.447128+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.58,
-      "change_pct": 0.05,
-      "volume": 11935230,
+      "price": 312.48,
+      "change_pct": 0.02,
+      "volume": 12211612,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.0,
-      "change_pct": 0.63,
-      "volume": 9741670,
+      "price": 503.55,
+      "change_pct": 0.74,
+      "volume": 9929330,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.0,
-        "stop_loss": 529.2061,
-        "take_profit": 459.3232,
+        "entry_price": 503.55,
+        "stop_loss": 529.7561,
+        "take_profit": 459.8732,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 224.415,
-      "change_pct": 2.48,
-      "volume": 41911790,
+      "price": 224.31,
+      "change_pct": 2.43,
+      "volume": 42723237,
       "signal": "sell",
       "confidence": 0.27,
       "opinions": [
@@ -4291,7 +4291,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.45,
-          "rationale": "bollinger_band:sell(價格 224.41 觸及上軌 224.17)"
+          "rationale": "bollinger_band:sell(價格 224.31 觸及上軌 224.14)"
         },
         {
           "agent": "macro",
@@ -4307,9 +4307,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 224.415,
-        "stop_loss": 236.16,
-        "take_profit": 204.84,
+        "entry_price": 224.31,
+        "stop_loss": 236.055,
+        "take_profit": 204.735,
         "atr": 7.83,
         "risk_reward_ratio": 1.67
       },
@@ -4335,9 +4335,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 332.09,
-      "change_pct": 3.93,
-      "volume": 19363897,
+      "price": 331.54,
+      "change_pct": 3.76,
+      "volume": 19764816,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4357,13 +4357,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.50%)"
+          "rationale": "波動度正常(ATR/價格=4.51%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 332.09,
-        "stop_loss": 309.6768,
-        "take_profit": 369.4453,
+        "entry_price": 331.54,
+        "stop_loss": 309.1268,
+        "take_profit": 368.8953,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4389,9 +4389,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 357.0,
-      "change_pct": -0.21,
-      "volume": 8688064,
+      "price": 356.905,
+      "change_pct": -0.24,
+      "volume": 8803718,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4437,9 +4437,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.44,
-      "change_pct": 0.63,
-      "volume": 13885705,
+      "price": 773.115,
+      "change_pct": 0.59,
+      "volume": 14141765,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4485,9 +4485,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.88,
-      "change_pct": 1.15,
-      "volume": 14350731,
+      "price": 722.39,
+      "change_pct": 1.08,
+      "volume": 14630250,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4533,9 +4533,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4412.7002,
-      "change_pct": 4.02,
-      "volume": 146689,
+      "price": 4408.6001,
+      "change_pct": 3.93,
+      "volume": 147815,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4543,7 +4543,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4412.70 觸及上軌 4295.30)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4408.60 觸及上軌 4293.75)"
         },
         {
           "agent": "macro",
@@ -4555,13 +4555,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.77%)"
+          "rationale": "波動度正常(ATR/價格=1.78%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4412.7002,
-        "stop_loss": 4530.1716,
-        "take_profit": 4216.9145,
+        "entry_price": 4408.6001,
+        "stop_loss": 4526.0715,
+        "take_profit": 4212.8144,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4587,9 +4587,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.2,
-      "change_pct": 1.18,
-      "volume": 114952,
+      "price": 78.16,
+      "change_pct": 1.13,
+      "volume": 117288,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4608,8 +4608,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.32%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4635,8 +4635,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.246,
-      "change_pct": -0.06,
+      "price": 32.241,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4683,8 +4683,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.561,
-      "change_pct": -0.02,
+      "price": 157.533,
+      "change_pct": -0.04,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4693,7 +4693,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4709,9 +4709,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.561,
-        "stop_loss": 154.981,
-        "take_profit": 161.861,
+        "entry_price": 157.533,
+        "stop_loss": 154.953,
+        "take_profit": 161.833,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4737,9 +4737,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64939.1797,
-      "change_pct": 1.05,
-      "volume": 21160069120,
+      "price": 64975.6094,
+      "change_pct": 1.11,
+      "volume": 21140168704,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4759,13 +4759,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64939.1797,
-        "stop_loss": 62888.4834,
-        "take_profit": 68357.0068,
+        "entry_price": 64975.6094,
+        "stop_loss": 62924.9131,
+        "take_profit": 68393.4365,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4776,14 +4776,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc"
+        },
+        {
           "title": "Clarity Act Hopes Dive As Senate Delays Vote Until After Summer Recess",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/clarity-act-senate-vote-recess-deadline-cryptocurrency-market-structure-bitcoin/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "July Jobs Report Sends Fed Expectations Into Chaos, Can Crypto Capitalize?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/july-jobs-report-fed-crypto/"
         }
       ]
     },
@@ -4791,9 +4791,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.76,
-      "change_pct": 0.72,
-      "volume": 8965249024,
+      "price": 1918.79,
+      "change_pct": 0.88,
+      "volume": 8928510976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
