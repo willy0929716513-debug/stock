@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:06:10.149458+00:00",
+  "generated_at": "2026-08-07T16:11:35.522392+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.23,
-      "change_pct": -0.06,
-      "volume": 13541547,
+      "price": 311.8277,
+      "change_pct": -0.19,
+      "volume": 13877304,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.19,
-      "change_pct": 0.67,
-      "volume": 10610300,
+      "price": 503.43,
+      "change_pct": 0.71,
+      "volume": 10751296,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4097,9 +4097,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.19,
-        "stop_loss": 529.3961,
-        "take_profit": 459.5132,
+        "entry_price": 503.43,
+        "stop_loss": 529.6361,
+        "take_profit": 459.7532,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.365,
-      "change_pct": 2.0,
-      "volume": 46966975,
+      "price": 223.55,
+      "change_pct": 2.08,
+      "volume": 47925506,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,7 +4147,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.51%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
       "risk_levels": null,
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.51,
-      "change_pct": 3.75,
-      "volume": 21148483,
+      "price": 331.99,
+      "change_pct": 3.9,
+      "volume": 21398060,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4195,13 +4195,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.51%)"
+          "rationale": "波動度正常(ATR/價格=4.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 331.51,
-        "stop_loss": 309.0968,
-        "take_profit": 368.8654,
+        "entry_price": 331.99,
+        "stop_loss": 309.5768,
+        "take_profit": 369.3453,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "Tesla's Battery Business Is Growing Faster Than Its Cars— and a New Texas Factory for Megapack 3 Just Went Live",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/energy/articles/teslas-battery-business-growing-faster-150035680.html"
+        },
+        {
           "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "SpaceX’s Terafab will rely on natural gas power plants, not Tesla solar panels",
-          "publisher": "TechCrunch",
-          "link": "https://finance.yahoo.com/energy/articles/spacex-terafab-rely-natural-gas-140731384.html"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.61,
-      "change_pct": -0.6,
-      "volume": 9419208,
+      "price": 355.57,
+      "change_pct": -0.61,
+      "volume": 9511398,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.23,
+      "price": 773.24,
       "change_pct": 0.61,
-      "volume": 15328767,
+      "volume": 15540440,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.56,
-      "change_pct": 1.11,
-      "volume": 16030337,
+      "price": 722.7,
+      "change_pct": 1.13,
+      "volume": 16284244,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.1001,
-      "change_pct": 3.77,
-      "volume": 151307,
+      "price": 4400.2998,
+      "change_pct": 3.73,
+      "volume": 152109,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4402.10 觸及上軌 4291.30)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4400.30 觸及上軌 4290.63)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.1001,
-        "stop_loss": 4519.5715,
-        "take_profit": 4206.3144,
+        "entry_price": 4400.2998,
+        "stop_loss": 4517.7712,
+        "take_profit": 4204.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.33,
-      "change_pct": 1.35,
-      "volume": 122195,
+      "price": 78.39,
+      "change_pct": 1.42,
+      "volume": 123727,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4463,9 +4463,9 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "The U.S. Didn’t Buy a Drop of Saudi Oil in July — the First Time in 41 Years",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/the-u-s-didnt-buy-a-drop-of-saudi-oil-in-july-the-first-time-in-41-years/"
+          "title": "Plains All American Pipeline Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/plains-all-american-pipeline-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4473,7 +4473,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.242,
+      "price": 32.243,
       "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.441,
-      "change_pct": -0.1,
+      "price": 157.473,
+      "change_pct": -0.08,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.31,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.441,
-        "stop_loss": 154.861,
-        "take_profit": 161.741,
+        "entry_price": 157.473,
+        "stop_loss": 154.893,
+        "take_profit": 161.773,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64917.4688,
-      "change_pct": 1.02,
-      "volume": 21120360448,
+      "price": 64970.5508,
+      "change_pct": 1.1,
+      "volume": 21268469760,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4597,13 +4597,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64917.4688,
-        "stop_loss": 62866.7725,
-        "take_profit": 68335.2959,
+        "entry_price": 64970.5508,
+        "stop_loss": 62919.8545,
+        "take_profit": 68388.3779,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Bitcoin Still in Death Cross as Jobs Miss Cuts Rate-Hike Odds",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/375118/bitcoin-price-death-cross-jobs-miss-rate-hike-odds"
+        },
+        {
           "title": "A Coldcard Hacker Just Moved $1.94 Million in Stolen Bitcoin for the First Time, Is a Cash-Out Coming?",
           "publisher": "Cryptonews",
           "link": "https://cryptonews.com/news/coldcard-hack-bitcoin-transfer/"
-        },
-        {
-          "title": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc"
         }
       ]
     },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.2,
-      "change_pct": 0.9,
-      "volume": 8900235264,
+      "price": 1920.77,
+      "change_pct": 0.98,
+      "volume": 8927169536,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4651,7 +4651,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.96%)"
+          "rationale": "波動度正常(ATR/價格=2.95%)"
         }
       ],
       "risk_levels": null,
