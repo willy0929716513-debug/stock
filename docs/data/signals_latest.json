@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:34:14.647686+00:00",
+  "generated_at": "2026-08-07T13:39:40.800067+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.24,
-      "change_pct": 0.27,
-      "volume": 1845526,
+      "price": 312.315,
+      "change_pct": -0.03,
+      "volume": 2429440,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4201,7 +4201,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.95%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 504.74,
-      "change_pct": 0.98,
-      "volume": 1844341,
+      "price": 503.07,
+      "change_pct": 0.64,
+      "volume": 2452378,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=82.0 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4249,14 +4249,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.46%)"
+          "rationale": "波動度正常(ATR/價格=3.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 504.74,
-        "stop_loss": 530.9214,
-        "take_profit": 461.1043,
-        "atr": 17.4543,
+        "entry_price": 503.07,
+        "stop_loss": 529.2536,
+        "take_profit": 459.4307,
+        "atr": 17.4557,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.49,
-      "change_pct": 1.6,
-      "volume": 6195463,
+      "price": 221.84,
+      "change_pct": 1.3,
+      "volume": 8611528,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,25 +4303,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.45%)"
+          "rationale": "波動度正常(ATR/價格=3.48%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
+          "title": "Prediction: After a Blowout Quarter, Shopify Will End The Year at This Price",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/prediction-after-a-blowout-quarter-shopify-will-end-the-year-at-this-price/"
+        },
+        {
+          "title": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/not-micron-not-nvidia-this-artificial-intelligence/"
+        },
+        {
           "title": "AMD Buys AI Chip Startup Taalas—Here's Why It Matters To NVDA Investors",
           "publisher": "Benzinga Prediction Markets",
           "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61038183/amd-taalas-ai-chip-acquisition?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
-        },
-        {
-          "title": "Tom Lee Thinks 2027 Will Be “One of the Best Years” for Stocks—Why He’s Got a Strong Case",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/tom-lee-thinks-2027-will-be-one-of-the-best-years-for-stocks-why-hes-got-a-strong-case/"
-        },
-        {
-          "title": "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/5-safest-dividend-etfs-retirees-can-buy-in-august-and-hold-forever/"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 322.05,
-      "change_pct": 0.79,
-      "volume": 1651633,
+      "price": 323.61,
+      "change_pct": 1.28,
+      "volume": 2377216,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.43%)"
+          "rationale": "波動度正常(ATR/價格=4.41%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 322.05,
-        "stop_loss": 300.6353,
-        "take_profit": 357.7411,
+        "entry_price": 323.61,
+        "stop_loss": 302.1953,
+        "take_profit": 359.3011,
         "atr": 14.2764,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 357.675,
-      "change_pct": -0.02,
-      "volume": 1197336,
+      "price": 356.19,
+      "change_pct": -0.44,
+      "volume": 1709696,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.66%)"
+          "rationale": "波動度正常(ATR/價格=3.68%)"
         }
       ],
       "risk_levels": null,
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-fortude-revolutionizes-erp-124036380.html"
+          "title": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/not-micron-not-nvidia-this-artificial-intelligence/"
         }
       ]
     },
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.38,
-      "change_pct": 0.37,
-      "volume": 2723773,
+      "price": 771.305,
+      "change_pct": 0.36,
+      "volume": 3315328,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.3337,
-      "change_pct": 1.08,
-      "volume": 2937938,
+      "price": 721.34,
+      "change_pct": 0.94,
+      "volume": 3587987,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4507,19 +4507,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Trade Desk Plunges 28% After Earnings Miss Triggers Downgrade Avalanche; Ad-Tech Peers AppLovin and Magnite Hold Firm",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/trade-desk-plunges-28-after-earnings-miss-triggers-downgrade-avalanche-ad-tech-peers-applovin-and-magnite-hold-firm/"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html"
+        },
+        {
           "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/trump-calls-ai-bigger-than-oil-in-the-race-against-china-for-tech-crypto-dominance/cZofbMGRJBi"
-        },
-        {
-          "title": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/tech-stocks-pressure-1-magnificent-etf-buy-the-dip/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.6001,
-      "change_pct": 3.95,
-      "volume": 107568,
+      "price": 4417.2998,
+      "change_pct": 4.13,
+      "volume": 109222,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4409.60 觸及上軌 4294.13)"
+          "rationale": "rsi:sell(RSI=74.6 進入超買區); bollinger_band:sell(價格 4417.30 觸及上軌 4297.06)"
         },
         {
           "agent": "macro",
@@ -4549,13 +4549,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.78%)"
+          "rationale": "波動度正常(ATR/價格=1.77%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.6001,
-        "stop_loss": 4527.0715,
-        "take_profit": 4213.8144,
+        "entry_price": 4417.2998,
+        "stop_loss": 4534.7712,
+        "take_profit": 4221.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4569,6 +4569,11 @@
           "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
+        },
+        {
+          "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-rising-5-123943338.html"
         }
       ]
     },
@@ -4576,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.06,
-      "change_pct": -0.3,
-      "volume": 77421,
+      "price": 77.0,
+      "change_pct": -0.38,
+      "volume": 78658,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4604,14 +4609,14 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq rise after July jobs report surprises to the downside",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html"
-        },
-        {
           "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
+        },
+        {
+          "title": "Sector Update: Energy Stocks Decline Premarket Friday",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132559908.html"
         },
         {
           "title": "ADNOC L&S buys 11 vessels in $1.3bn fleet expansion",
@@ -4624,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.204,
-      "change_pct": -0.19,
+      "price": 32.196,
+      "change_pct": -0.21,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4672,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.585,
-      "change_pct": -0.01,
+      "price": 157.519,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4682,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4698,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.585,
-        "stop_loss": 155.005,
-        "take_profit": 161.885,
+        "entry_price": 157.519,
+        "stop_loss": 154.939,
+        "take_profit": 161.819,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4726,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65258.4805,
-      "change_pct": 1.55,
-      "volume": 20386537472,
+      "price": 65174.4805,
+      "change_pct": 1.42,
+      "volume": 20276500480,
       "signal": "buy",
-      "confidence": 0.42,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.7,
+          "confidence": 0.71,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4748,13 +4753,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.09%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 65258.4805,
-        "stop_loss": 63207.7842,
-        "take_profit": 68676.3076,
+        "entry_price": 65174.4805,
+        "stop_loss": 63123.7842,
+        "take_profit": 68592.3076,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4780,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1929.9,
-      "change_pct": 1.46,
-      "volume": 8946001920,
+      "price": 1929.28,
+      "change_pct": 1.43,
+      "volume": 8933190656,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
