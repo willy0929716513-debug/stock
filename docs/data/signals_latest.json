@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:45:57.719655+00:00",
+  "generated_at": "2026-08-07T11:51:20.869388+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4383.2998,
+      "price": 4383.1001,
       "change_pct": 3.33,
-      "volume": 67200,
+      "volume": 67828,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4383.30 觸及上軌 4284.33)"
+          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4383.10 觸及上軌 4284.26)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4383.2998,
-        "stop_loss": 4495.9284,
-        "take_profit": 4195.5855,
+        "entry_price": 4383.1001,
+        "stop_loss": 4495.7287,
+        "take_profit": 4195.3858,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.72,
-      "change_pct": -0.74,
-      "volume": 50297,
+      "price": 76.64,
+      "change_pct": -0.84,
+      "volume": 51146,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.45%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-jobs-report-100009572.html"
         },
         {
+          "title": "Persian Gulf, Earnings Undergird European Bourses Midday",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/persian-gulf-earnings-undergird-european-114121589.html"
+        },
+        {
           "title": "European stocks rise before US jobs report",
           "publisher": "AFP",
           "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
-        },
-        {
-          "title": "Jobs Report, Persian Gulf Views Lift Wall Street Pre-Bell; Asia Mixed, Europe Up",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/articles/jobs-report-persian-gulf-views-111452033.html"
         }
       ]
     },
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.325,
+      "price": 158.319,
       "change_pct": 0.46,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.325,
-        "stop_loss": 155.8466,
-        "take_profit": 162.4557,
+        "entry_price": 158.319,
+        "stop_loss": 155.8406,
+        "take_profit": 162.4497,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64982.6094,
-      "change_pct": 1.12,
-      "volume": 18975524864,
+      "price": 64995.1094,
+      "change_pct": 1.14,
+      "volume": 18863015936,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64982.6094,
-        "stop_loss": 62952.3987,
-        "take_profit": 68366.2938,
+        "entry_price": 64995.1094,
+        "stop_loss": 62964.8987,
+        "take_profit": 68378.7938,
         "atr": 1353.4738,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.91,
-      "change_pct": 0.68,
-      "volume": 8184344064,
+      "price": 1915.2,
+      "change_pct": 0.69,
+      "volume": 8183243776,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
