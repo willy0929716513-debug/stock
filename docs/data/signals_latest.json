@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:50:53.641171+00:00",
+  "generated_at": "2026-08-07T12:56:18.776647+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Archer Aviation Stock Fell Below $5. Time to Buy?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/will-buying-archer-aviation-stock-below-5-make-you/"
+        },
+        {
+          "title": "20 Years on Wall Street Taught Me to Buy and Hold 5 High-Yield Energy Giants",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/20-years-on-wall-street-taught-me-to-buy-and-hold-5-high-yield-energy-giants/"
+        },
+        {
           "title": "Why The iShares Semiconductor ETF (SOXX) Plunged 21% in July",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/why-the-ishares-semiconductor-etf-soxx-plunged-21/"
-        },
-        {
-          "title": "Is XRP a Millionaire-Maker Cryptocurrency?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/is-xrp-a-millionaire-maker-cryptocurrency/"
-        },
-        {
-          "title": "The Overlooked Chip Stock Poised to Lead the AI Memory Boom",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/overlooked-chip-stock-lead-ai-memory-simo/"
         }
       ]
     },
@@ -4527,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4424.7002,
-      "change_pct": 4.31,
-      "volume": 90552,
+      "price": 4430.7002,
+      "change_pct": 4.45,
+      "volume": 93974,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.8 進入超買區); bollinger_band:sell(價格 4424.70 觸及上軌 4299.89)"
+          "confidence": 0.71,
+          "rationale": "rsi:sell(RSI=75.0 進入超買區); bollinger_band:sell(價格 4430.70 觸及上軌 4302.21)"
         },
         {
           "agent": "macro",
@@ -4549,14 +4549,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.76%)"
+          "rationale": "波動度正常(ATR/價格=1.77%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4424.7002,
-        "stop_loss": 4541.6038,
-        "take_profit": 4229.8609,
-        "atr": 77.9357,
+        "entry_price": 4430.7002,
+        "stop_loss": 4548.0752,
+        "take_profit": 4235.0752,
+        "atr": 78.25,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.82,
-      "change_pct": -0.61,
-      "volume": 65175,
+      "price": 76.7,
+      "change_pct": -0.76,
+      "volume": 67163,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.44%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Posthaste: Alberta leads the rest of Canada in creating jobs, just not for the reason you think",
-          "publisher": "Financial Post",
-          "link": "https://financialpost.com/news/alberta-leads-canadas-job-creation-whats-powering-growth-surprise"
+          "title": "Shockingly Weak Jobs Report Lowers Fed Rate Hike Odds; S&P 500 Futures Rally (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/jobs-report-july-unemployment-rate-federal-reserve-rate-hike-sp-500/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4677,16 +4677,16 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.196,
-      "change_pct": -0.26,
+      "price": 157.205,
+      "change_pct": -0.25,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.31,
+      "confidence": 0.3,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.51,
+          "confidence": 0.5,
           "rationale": "rsi:buy(RSI=20.6 進入超賣區)"
         },
         {
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.196,
-        "stop_loss": 154.616,
-        "take_profit": 161.496,
+        "entry_price": 157.205,
+        "stop_loss": 154.625,
+        "take_profit": 161.505,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4721,9 +4721,9 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-rising-5-123943338.html"
+          "title": "Japan's yen surges after US jobs data, traders alert to intervention risk",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/japans-yen-surges-us-jobs-124632836.html"
         }
       ]
     },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65232.8203,
-      "change_pct": 1.51,
-      "volume": 19935375360,
+      "price": 65293.9414,
+      "change_pct": 1.61,
+      "volume": 20162037760,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.42,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.71,
+          "confidence": 0.7,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.08%)"
+          "rationale": "波動度正常(ATR/價格=2.09%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 65232.8203,
-        "stop_loss": 63194.7388,
-        "take_profit": 68629.6228,
-        "atr": 1358.721,
+        "entry_price": 65293.9414,
+        "stop_loss": 63247.6899,
+        "take_profit": 68704.3606,
+        "atr": 1364.1677,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1930.8199,
-      "change_pct": 1.51,
-      "volume": 8942766080,
+      "price": 1933.9,
+      "change_pct": 1.67,
+      "volume": 8930816000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
