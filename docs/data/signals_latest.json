@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:39:29.940940+00:00",
+  "generated_at": "2026-08-07T14:44:53.809615+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 314.21,
-      "change_pct": 0.58,
-      "volume": 8109306,
+      "price": 314.25,
+      "change_pct": 0.59,
+      "volume": 8392928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.0,
-      "change_pct": 0.63,
-      "volume": 6724858,
+      "price": 502.935,
+      "change_pct": 0.62,
+      "volume": 7030459,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.0,
-        "stop_loss": 529.2061,
-        "take_profit": 459.3232,
+        "entry_price": 502.935,
+        "stop_loss": 529.1411,
+        "take_profit": 459.2582,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.9,
-      "change_pct": 1.79,
-      "volume": 27158856,
+      "price": 222.82,
+      "change_pct": 1.75,
+      "volume": 28280427,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "What Prediction Markets Say About 3 Struggling Brands Fighting to Survive",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/what-prediction-markets-say-about-3-struggling-brands-fighting-to-survive/"
+        },
+        {
+          "title": "1 Quantum Computing Stock Poised to Drop After Aug. 10",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/quantum-computing-stock-poised-drop-qubt/"
+        },
+        {
           "title": "The Senate Just Delayed a Vote on the Clarity Act Until After Its August Recess -- The Odds of Passage Just Plummeted",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/the-senate-just-delayed-a-vote-on-the-clarity-act-until-after-its-august-recess-the-odds-of-passage-just-plummeted/"
-        },
-        {
-          "title": "Top Rare-Earths Stocks Poised to Ride the U.S. Reshoring Wave",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/top-rare-earths-stock-poised-to-ride-the-us-reshor/"
-        },
-        {
-          "title": "Want 20% Income Without the Weekly Gimmicks? This Fund Targets Exactly That for 0.49%, and the IRS Mostly Waits",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/want-20-income-without-the-weekly-gimmicks-this-fund-targets-exactly-that-for-0-49-and-the-irs-mostly-waits/"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.85,
-      "change_pct": 2.6,
-      "volume": 11665681,
+      "price": 328.67,
+      "change_pct": 2.86,
+      "volume": 12387935,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4355,10 +4355,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.85,
-        "stop_loss": 305.9521,
-        "take_profit": 364.3464,
-        "atr": 14.5986,
+        "entry_price": 328.67,
+        "stop_loss": 306.7122,
+        "take_profit": 365.2664,
+        "atr": 14.6386,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.635,
-      "change_pct": -0.87,
-      "volume": 5638953,
+      "price": 354.915,
+      "change_pct": -0.79,
+      "volume": 5930676,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.71%)"
+          "rationale": "波動度正常(ATR/價格=3.72%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.02,
-      "change_pct": 0.45,
-      "volume": 8934665,
+      "price": 771.9475,
+      "change_pct": 0.44,
+      "volume": 9361424,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 719.51,
-      "change_pct": 0.68,
-      "volume": 9831731,
+      "price": 719.22,
+      "change_pct": 0.64,
+      "volume": 10217681,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.7002,
+      "price": 4409.3999,
       "change_pct": 3.95,
-      "volume": 133577,
+      "volume": 134746,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4409.70 觸及上軌 4294.17)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4409.40 觸及上軌 4294.05)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.7002,
-        "stop_loss": 4527.1716,
-        "take_profit": 4213.9145,
+        "entry_price": 4409.3999,
+        "stop_loss": 4526.8713,
+        "take_profit": 4213.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.64,
-      "change_pct": 0.45,
-      "volume": 96115,
+      "price": 77.55,
+      "change_pct": 0.34,
+      "volume": 96927,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,12 +4602,17 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.37%),建議降低部位或觀望"
+          "confidence": 0.28,
+          "rationale": "波動度過高(ATR/價格=6.38%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "SpaceX's influence ripples across markets: AlphaCheck",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
+        },
         {
           "title": "Plains All American Tops Q2 Expectations as Higher Volumes Support Results",
           "publisher": "InvestorsHub",
@@ -4617,11 +4622,6 @@
           "title": "Dollar drops, stocks climb after surprise US jobs miss",
           "publisher": "AFP",
           "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
-        },
-        {
-          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.221,
-      "change_pct": -0.14,
+      "price": 32.232,
+      "change_pct": -0.1,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.775,
-      "change_pct": 0.11,
+      "price": 157.859,
+      "change_pct": 0.16,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.29,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.1 進入超賣區)"
+          "confidence": 0.49,
+          "rationale": "rsi:buy(RSI=23.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.775,
-        "stop_loss": 155.195,
-        "take_profit": 162.075,
+        "entry_price": 157.859,
+        "stop_loss": 155.279,
+        "take_profit": 162.159,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65182.1914,
-      "change_pct": 1.43,
-      "volume": 21316757504,
+      "price": 65055.0312,
+      "change_pct": 1.23,
+      "volume": 21551894528,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65182.1914,
-        "stop_loss": 63131.4951,
-        "take_profit": 68600.0186,
+        "entry_price": 65055.0312,
+        "stop_loss": 63004.335,
+        "take_profit": 68472.8584,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.09,
-      "change_pct": 1.11,
-      "volume": 8980867072,
+      "price": 1917.4399,
+      "change_pct": 0.81,
+      "volume": 9116626944,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.95%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
