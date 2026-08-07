@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:25:56.885144+00:00",
+  "generated_at": "2026-08-07T23:31:27.467748+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -97,23 +97,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
-        },
-        {
-          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
-        },
-        {
-          "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2303.TW",
@@ -4313,9 +4297,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Why Figs Stock Popped Today",
+          "title": "Why Corsair Gaming Stock Skyrocketed by 35% Today",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-figs-stock-is-up-today/"
+          "link": "https://www.fool.com/investing/2026/08/07/why-corsair-gaming-stock-skyrocketed-by-35-today/"
         }
       ]
     },
@@ -4725,9 +4709,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64851.5391,
+      "price": 64855.4492,
       "change_pct": 0.92,
-      "volume": 22252449792,
+      "volume": 22224338944,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4735,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64851.5391,
-        "stop_loss": 62800.8428,
-        "take_profit": 68269.3662,
+        "entry_price": 64855.4492,
+        "stop_loss": 62804.7529,
+        "take_profit": 68273.2764,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4763,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.27,
-      "change_pct": 0.64,
-      "volume": 9102499840,
+      "price": 1914.13,
+      "change_pct": 0.63,
+      "volume": 9080721408,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
