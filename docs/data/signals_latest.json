@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:06:36.337245+00:00",
+  "generated_at": "2026-08-07T15:12:01.339354+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.8801,
-      "change_pct": 0.47,
-      "volume": 10030857,
+      "price": 313.95,
+      "change_pct": 0.49,
+      "volume": 10229908,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.6265,
-      "change_pct": 0.55,
-      "volume": 8389755,
+      "price": 502.68,
+      "change_pct": 0.56,
+      "volume": 8591926,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 502.6265,
-        "stop_loss": 528.8326,
-        "take_profit": 458.9497,
+        "entry_price": 502.68,
+        "stop_loss": 528.8861,
+        "take_profit": 459.0032,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.61,
-      "change_pct": 2.11,
-      "volume": 33745638,
+      "price": 223.767,
+      "change_pct": 2.18,
+      "volume": 35355955,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Can't Classify It? Maybe It's a Rule Breaker Stock",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/cant-classify-it-maybe-its-a-rule-breaker-stock/"
+        },
+        {
+          "title": "Why Twilio Stock Rocketed Higher Today",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/why-twilio-stock-rocketed-higher-today/"
+        },
+        {
           "title": "Atlassian Soars 34%, Twilio Leaps 27%, Cloudflare Advances 9% in Software Stock Surge",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/atlassian-soars-34-twilio-leaps-27-cloudflare-advances-9-in-software-stock-surge/"
-        },
-        {
-          "title": "Why Sweetgreen Stock Tumbled Today",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-sweetgreen-stock-tumbled-today/"
-        },
-        {
-          "title": "New Fed Chair Kevin Warsh Promised a Policy \"Regime Change\" to Defeat Inflation When He Took Over in May 2026. Has He Delivered?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/new-fed-chair-kevin-warsh-promised-a-policy-regime/"
         }
       ]
     },
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 330.955,
-      "change_pct": 3.58,
-      "volume": 15724768,
+      "price": 330.39,
+      "change_pct": 3.4,
+      "volume": 16148458,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.46%)"
+          "rationale": "波動度正常(ATR/價格=4.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 330.955,
-        "stop_loss": 308.7957,
-        "take_profit": 367.8872,
+        "entry_price": 330.39,
+        "stop_loss": 308.2307,
+        "take_profit": 367.3222,
         "atr": 14.7729,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.23,
-      "change_pct": -0.42,
-      "volume": 7439617,
+      "price": 357.13,
+      "change_pct": -0.17,
+      "volume": 7760377,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.71%)"
+          "rationale": "波動度正常(ATR/價格=3.70%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.865,
-      "change_pct": 0.56,
-      "volume": 10524270,
+      "price": 773.22,
+      "change_pct": 0.61,
+      "volume": 11719151,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.18,
-      "change_pct": 0.91,
-      "volume": 11639976,
+      "price": 721.475,
+      "change_pct": 0.96,
+      "volume": 11954796,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.2998,
-      "change_pct": 3.87,
-      "volume": 139317,
+      "price": 4405.7998,
+      "change_pct": 3.86,
+      "volume": 140799,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4406.30 觸及上軌 4292.88)"
+          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4405.80 觸及上軌 4292.69)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.2998,
-        "stop_loss": 4523.7712,
-        "take_profit": 4210.5141,
+        "entry_price": 4405.7998,
+        "stop_loss": 4523.2712,
+        "take_profit": 4210.0141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.86,
-      "change_pct": 0.74,
-      "volume": 101354,
+      "price": 78.11,
+      "change_pct": 1.06,
+      "volume": 103664,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.35%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.948,
-      "change_pct": 0.22,
+      "price": 157.852,
+      "change_pct": 0.16,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=24.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=23.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.948,
-        "stop_loss": 155.368,
-        "take_profit": 162.248,
+        "entry_price": 157.852,
+        "stop_loss": 155.272,
+        "take_profit": 162.152,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64888.9688,
-      "change_pct": 0.98,
-      "volume": 21393033216,
+      "price": 64916.6406,
+      "change_pct": 1.02,
+      "volume": 21408919552,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64888.9688,
-        "stop_loss": 62838.2725,
-        "take_profit": 68306.7959,
+        "entry_price": 64916.6406,
+        "stop_loss": 62865.9443,
+        "take_profit": 68334.4678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.9,
-      "change_pct": 0.57,
-      "volume": 9023800320,
+      "price": 1914.4,
+      "change_pct": 0.65,
+      "volume": 9076183040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.97%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
