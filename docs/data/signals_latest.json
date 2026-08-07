@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:29:08.164211+00:00",
+  "generated_at": "2026-08-07T12:34:32.238810+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4376.2002,
-      "change_pct": 3.16,
-      "volume": 74147,
+      "price": 4371.7002,
+      "change_pct": 3.06,
+      "volume": 75209,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.3 進入超買區); bollinger_band:sell(價格 4376.20 觸及上軌 4281.75)"
+          "rationale": "rsi:sell(RSI=73.1 進入超買區); bollinger_band:sell(價格 4371.70 觸及上軌 4280.12)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4376.2002,
-        "stop_loss": 4488.8288,
-        "take_profit": 4188.4859,
+        "entry_price": 4371.7002,
+        "stop_loss": 4484.3288,
+        "take_profit": 4183.9859,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.03,
-      "change_pct": -0.34,
-      "volume": 57958,
+      "price": 77.2,
+      "change_pct": -0.12,
+      "volume": 58677,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Nasdaq set to lead US markets higher as payrolls data looms",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096724/nasdaq-set-to-lead-us-markets-higher-as-payrolls-data-looms-1096724.html"
+          "title": "Posthaste: Alberta leads the rest of Canada in creating jobs, just not for the reason you think",
+          "publisher": "Financial Post",
+          "link": "https://financialpost.com/news/alberta-leads-canadas-job-creation-whats-powering-growth-surprise"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.247,
-      "change_pct": -0.06,
+      "price": 32.195,
+      "change_pct": -0.22,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.351,
-      "change_pct": 0.48,
+      "price": 157.474,
+      "change_pct": -0.08,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.29,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.9 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4699,14 +4699,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.04%)"
+          "rationale": "波動度正常(ATR/價格=1.06%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 158.351,
-        "stop_loss": 155.8726,
-        "take_profit": 162.4817,
-        "atr": 1.6523,
+        "entry_price": 157.474,
+        "stop_loss": 154.9751,
+        "take_profit": 161.6388,
+        "atr": 1.6659,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4721,9 +4721,9 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "US Dollar Mixed Early Friday Ahead of July Employment Data",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-friday-115845692.html"
+          "title": "’Sell America’ trade returns as Fed, yen risks mount",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/sell-america-trade-returns-fed-121434593.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65071.1797,
-      "change_pct": 1.26,
-      "volume": 19306004480,
+      "price": 65044.1602,
+      "change_pct": 1.22,
+      "volume": 19400714240,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65071.1797,
-        "stop_loss": 63033.0982,
-        "take_profit": 68467.9821,
+        "entry_price": 65044.1602,
+        "stop_loss": 63006.0787,
+        "take_profit": 68440.9626,
         "atr": 1358.721,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1929.7,
-      "change_pct": 1.45,
-      "volume": 8600201216,
+      "price": 1927.8,
+      "change_pct": 1.35,
+      "volume": 8552494592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.93%)"
+          "rationale": "波動度正常(ATR/價格=2.94%)"
         }
       ],
       "risk_levels": null,
