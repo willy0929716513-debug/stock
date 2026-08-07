@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:35:48.747929+00:00",
+  "generated_at": "2026-08-07T21:41:20.189496+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Oklo Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-oklo-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "Why Redwire Stock Keeps Gaining",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/why-redwire-stock-keeps-gaining/"
         }
       ]
     },
@@ -4415,9 +4415,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Google Cloud’s Taiwan Launch Hints at Alphabet’s (GOOGL) Next Growth Phase",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/google-cloud-taiwan-launch-hints-205939823.html"
+          "title": "Oracle Surges: What's Driving the Sudden Rally",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/oracle-surges-whats-driving-the-sudden-rally/"
         }
       ]
     },
@@ -4608,14 +4608,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
+          "title": "360 Energy Pulse: What mattered this week in energy",
+          "publisher": "Oil and Gas 360",
+          "link": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html"
+        },
+        {
           "title": "Plains All American Pipeline, L.P. Q2 2026 Earnings Call Summary",
           "publisher": "Moby",
           "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-plains-all-american-pipeline-lp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
-        },
-        {
-          "title": "Plains All American Pipeline LP (PAA) (Q2 2026) Earnings Call Highlights: Strong Crude ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/energy/articles/plains-american-pipeline-lp-paa-210537087.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64982.4609,
-      "change_pct": 1.12,
-      "volume": 21963282432,
+      "price": 64993.3789,
+      "change_pct": 1.14,
+      "volume": 21817804800,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64982.4609,
-        "stop_loss": 62931.7646,
-        "take_profit": 68400.2881,
+        "entry_price": 64993.3789,
+        "stop_loss": 62942.6826,
+        "take_profit": 68411.2061,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.9399,
-      "change_pct": 0.62,
-      "volume": 9020902400,
+      "price": 1913.3199,
+      "change_pct": 0.59,
+      "volume": 8957275136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
