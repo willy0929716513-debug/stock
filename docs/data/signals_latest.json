@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:32:34.532706+00:00",
+  "generated_at": "2026-08-07T09:37:57.386508+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/video/microsoft-starting-show-payoff-major-193732756.html"
         },
         {
+          "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-gave-investors-220-bill/"
+        },
+        {
           "title": "Microsoft makes a controversial decision that changes its AI story",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/technology/microsoft-makes-a-controversial-decision-that-changes-its-ai-story"
-        },
-        {
-          "title": "Michael Burry Shares 'Three Great Charts' That Show Big AI Capex Could Unwind As Badly As Housing Did In 2008",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-shares-three-great-charts-that-show-big-ai-capex-could-unwind-as-badly-as-housing-did-in-2008/cZoOuRRRJBb"
         }
       ]
     },
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire Hathaway's $355 Billion Portfolio Invested in Just 5 Standout Stocks",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/warren-buffett-abel-has-63-brka-invest-in-5-stocks/"
+        },
+        {
+          "title": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-gave-investors-220-bill/"
+        },
+        {
           "title": "What Would Have to Go Wrong for Realty Income to Cut Its Dividend?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/what-would-have-to-go-wrong-for-realty-income-to-c/"
-        },
-        {
-          "title": "Here's the 1 Habit That Has Helped Ordinary Investors Build Extraordinary Wealth in the Stock Market",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/1-habit-investors-extraordinary-wealth-stocks/"
-        },
-        {
-          "title": "Cisco Raised Its AI Order Target to $9 Billion. Here's What Investors Need to Know.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/cisco-raised-its-ai-order-target-to-9-billion-here/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4368.2998,
-      "change_pct": 2.98,
-      "volume": 51062,
+      "price": 4367.2998,
+      "change_pct": 2.95,
+      "volume": 51519,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.0 進入超買區); bollinger_band:sell(價格 4368.30 觸及上軌 4278.90)"
+          "rationale": "rsi:sell(RSI=73.0 進入超買區); bollinger_band:sell(價格 4367.30 觸及上軌 4278.54)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4368.2998,
-        "stop_loss": 4479.7284,
-        "take_profit": 4182.5855,
+        "entry_price": 4367.2998,
+        "stop_loss": 4478.7284,
+        "take_profit": 4181.5855,
         "atr": 74.2857,
         "risk_reward_ratio": 1.67
       },
@@ -4571,9 +4571,9 @@
           "link": "https://www.mining-technology.com/news/norsemont-expands-land-position-choquelimpie/"
         },
         {
-          "title": "State Bank of India beats profit view on healthy loan growth, shares rise",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/state-bank-india-beats-profit-082404373.html"
+          "title": "Gold Headed for Largest Weekly Gain Since January",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080726/card/gold-headed-for-largest-weekly-gain-since-january-EzGfmUw5YyTrIGAqMvTW?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.55,
-      "change_pct": 0.34,
-      "volume": 33271,
+      "price": 77.58,
+      "change_pct": 0.38,
+      "volume": 33523,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.242,
-      "change_pct": -0.07,
+      "price": 32.26,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.344,
+      "price": 158.338,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.344,
-        "stop_loss": 155.8656,
-        "take_profit": 162.4747,
+        "entry_price": 158.338,
+        "stop_loss": 155.8596,
+        "take_profit": 162.4687,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4716,14 +4716,14 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
+          "title": "Why Is The Crypto Market Down Today?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
+        },
+        {
           "title": "Bank of Japan lines up another speaking event ahead of key September meeting",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/economy/policy/articles/bojs-masu-among-board-members-055423095.html"
-        },
-        {
-          "title": "To Understand the Yen’s Plight, Look to the Bond Markets",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/yen-bonds-treasuries-4b5b9546?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64828.1484,
-      "change_pct": 0.88,
-      "volume": 17949024256,
+      "price": 64911.3516,
+      "change_pct": 1.01,
+      "volume": 17990019072,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.05%)"
+          "rationale": "波動度正常(ATR/價格=2.06%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64828.1484,
-        "stop_loss": 62831.2617,
-        "take_profit": 68156.293,
-        "atr": 1331.2578,
+        "entry_price": 64911.3516,
+        "stop_loss": 62904.9174,
+        "take_profit": 68255.4085,
+        "atr": 1337.6228,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
-          "title": "MARA and CleanSpark Post $851 Million in Combined Quarterly Losses",
+          "title": "Why Is The Crypto Market Down Today?",
           "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/mara-cleanspark-ai-quarterly-losses/"
+          "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
         },
         {
-          "title": "MARA Holdings Inc (MARA) (Q2 2026) Earnings Call Highlights: Strategic Expansion and Bitcoin ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/mara-holdings-inc-mara-q2-050428345.html"
+          "title": "Bitcoin Falls Amid Iran War Uncertainty",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-080726/card/bitcoin-falls-amid-iran-war-uncertainty-SerfbJZ7ZIscGVEDUgP3?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.0,
-      "change_pct": 0.58,
-      "volume": 7642075648,
+      "price": 1915.89,
+      "change_pct": 0.73,
+      "volume": 7724491264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.88%)"
+          "rationale": "波動度正常(ATR/價格=2.89%)"
         }
       ],
       "risk_levels": null,
