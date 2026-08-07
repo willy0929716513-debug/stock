@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:12:53.500893+00:00",
+  "generated_at": "2026-08-07T20:18:28.043893+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4127,7 +4127,7 @@
       "category": "us_stock",
       "price": 223.96,
       "change_pct": 2.27,
-      "volume": 99209542,
+      "volume": 104730601,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "The Trade Desk Rebuilt Its C-Suite in Two Months. Its First Guidance Since Points to a 12% Revenue Decline.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/the-trade-desk-rebuilt-its-c-suite-in-two-months-i/"
+          "title": "Nvidia’s (NVDA) Alpamayo Launch and the Robotaxi Bet",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-alpamayo-launch-robotaxi-200324206.html"
         },
         {
-          "title": "Why QuantumScape Stock Collapsed 31% in July",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-quantumscape-stock-collapsed-31-in-july/"
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4175,7 +4175,7 @@
       "category": "us_stock",
       "price": 328.58,
       "change_pct": 2.83,
-      "volume": 38030709,
+      "volume": 38718147,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4229,7 +4229,7 @@
       "category": "us_stock",
       "price": 354.3,
       "change_pct": -0.96,
-      "volume": 19056513,
+      "volume": 19686615,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4277,7 +4277,7 @@
       "category": "etf",
       "price": 773.22,
       "change_pct": 0.61,
-      "volume": 36846747,
+      "volume": 42309743,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
         },
         {
-          "title": "Want $2,000 a Month From SPYI? Here’s the Exact Investment It Takes, and the Catch at That Size",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/07/want-2000-a-month-from-spyi-heres-the-exact-investment-it-takes-and-the-catch-at-that-size/"
+          "title": "Stocks Rally on Earnings and Fed-Friendly US Payroll Report",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/3720310/stocks-rally-on-earnings-and-fed-friendly-us-payroll-report"
         }
       ]
     },
@@ -4371,17 +4371,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4403.8999,
-      "change_pct": 3.82,
-      "volume": 179933,
+      "price": 4402.3999,
+      "change_pct": 3.78,
+      "volume": 180057,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4403.90 觸及上軌 4291.98)"
+          "confidence": 0.71,
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4402.40 觸及上軌 4291.41)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4403.8999,
-        "stop_loss": 4521.3713,
-        "take_profit": 4208.1142,
+        "entry_price": 4402.3999,
+        "stop_loss": 4519.8713,
+        "take_profit": 4206.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.0,
-      "change_pct": -0.38,
-      "volume": 203256,
+      "price": 76.98,
+      "change_pct": -0.4,
+      "volume": 203969,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4458,14 +4458,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
+          "title": "Brent climbs $1 on uncertainty over end to Iran war",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
+        },
+        {
           "title": "Sector Update: Energy Stocks Fall Late Afternoon",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-afternoon-195812887.html"
-        },
-        {
-          "title": "Oil gains on pending Iran-Oman deal over Hormuz",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
         }
       ]
     },
@@ -4521,17 +4521,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.658,
-      "change_pct": 0.04,
+      "price": 157.744,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=22.1 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=22.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.658,
-        "stop_loss": 155.078,
-        "take_profit": 161.958,
+        "entry_price": 157.744,
+        "stop_loss": 155.164,
+        "take_profit": 162.044,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64955.3398,
-      "change_pct": 1.08,
-      "volume": 21759324160,
+      "price": 64930.5703,
+      "change_pct": 1.04,
+      "volume": 21780895744,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.73,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4597,13 +4597,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.10%)"
+          "rationale": "波動度正常(ATR/價格=2.11%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64955.3398,
-        "stop_loss": 62904.6436,
-        "take_profit": 68373.167,
+        "entry_price": 64930.5703,
+        "stop_loss": 62879.874,
+        "take_profit": 68348.3975,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.39,
-      "change_pct": 0.81,
-      "volume": 9009100800,
+      "price": 1916.51,
+      "change_pct": 0.76,
+      "volume": 9009659904,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
