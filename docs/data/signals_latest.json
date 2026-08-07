@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:17:25.831114+00:00",
+  "generated_at": "2026-08-07T15:22:49.712779+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -683,6 +683,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Motorola Solutions Stock Up 23.5% in 3 Months, Can Gains Continue?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-stock-23-5-140400314.html"
+        },
+        {
           "title": "MSI Q2 Earnings Top Estimates on Strong Demand, Record Backlog",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/msi-q2-earnings-top-estimates-132000998.html"
@@ -691,11 +696,6 @@
           "title": "Can Motorola's AI Expansion for Mission-Critical Response Aid Stock?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/technology/ai/articles/motorolas-ai-expansion-mission-critical-155000693.html"
-        },
-        {
-          "title": "Is NVIDIA (NVDA) One of the Best NASDAQ Stocks to Buy and Hold for 3 Years?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-one-best-nasdaq-172352123.html"
         }
       ]
     },
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.74,
-      "change_pct": 0.43,
-      "volume": 10461128,
+      "price": 313.13,
+      "change_pct": 0.23,
+      "volume": 10999524,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4201,7 +4201,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.98%)"
+          "rationale": "波動度正常(ATR/價格=2.99%)"
         }
       ],
       "risk_levels": null,
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.16,
-      "change_pct": 0.66,
-      "volume": 8852934,
+      "price": 502.66,
+      "change_pct": 0.56,
+      "volume": 9013216,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.7 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4249,13 +4249,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.47%)"
+          "rationale": "波動度正常(ATR/價格=3.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 503.16,
-        "stop_loss": 529.3661,
-        "take_profit": 459.4832,
+        "entry_price": 502.66,
+        "stop_loss": 528.8661,
+        "take_profit": 458.9832,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,17 +4281,17 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.895,
-      "change_pct": 2.24,
-      "volume": 36289314,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 224.11,
+      "change_pct": 2.34,
+      "volume": 38082251,
+      "signal": "sell",
+      "confidence": 0.27,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.45,
+          "rationale": "bollinger_band:sell(價格 224.11 觸及上軌 224.09)"
         },
         {
           "agent": "macro",
@@ -4306,7 +4306,13 @@
           "rationale": "波動度正常(ATR/價格=3.47%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 224.11,
+        "stop_loss": 235.7854,
+        "take_profit": 204.6511,
+        "atr": 7.7836,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Can't Classify It? Maybe It's a Rule Breaker Stock",
@@ -4329,9 +4335,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 330.065,
-      "change_pct": 3.3,
-      "volume": 16639440,
+      "price": 331.39,
+      "change_pct": 3.71,
+      "volume": 17134518,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,14 +4357,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.48%)"
+          "rationale": "波動度正常(ATR/價格=4.46%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 330.065,
-        "stop_loss": 307.9057,
-        "take_profit": 366.9972,
-        "atr": 14.7729,
+        "entry_price": 331.39,
+        "stop_loss": 309.2264,
+        "take_profit": 368.3293,
+        "atr": 14.7757,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4383,9 +4389,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 357.36,
-      "change_pct": -0.11,
-      "volume": 8033540,
+      "price": 356.435,
+      "change_pct": -0.37,
+      "volume": 8220086,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4411,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.70%)"
+          "rationale": "波動度正常(ATR/價格=3.71%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4437,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.03,
-      "change_pct": 0.58,
-      "volume": 12003272,
+      "price": 773.268,
+      "change_pct": 0.61,
+      "volume": 12297723,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4485,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.18,
-      "change_pct": 0.91,
-      "volume": 12389393,
+      "price": 721.61,
+      "change_pct": 0.97,
+      "volume": 12733582,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4533,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.7002,
-      "change_pct": 3.91,
-      "volume": 142125,
+      "price": 4410.7002,
+      "change_pct": 3.98,
+      "volume": 143844,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4543,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4407.70 觸及上軌 4293.41)"
+          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4410.70 觸及上軌 4294.54)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4559,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.7002,
-        "stop_loss": 4525.1716,
-        "take_profit": 4211.9145,
+        "entry_price": 4410.7002,
+        "stop_loss": 4528.1716,
+        "take_profit": 4214.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4587,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.42,
-      "change_pct": 1.46,
-      "volume": 107104,
+      "price": 78.23,
+      "change_pct": 1.22,
+      "volume": 109025,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,11 +4609,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.32%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise after July jobs report surprises to the downside",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html"
+        },
         {
           "title": "SpaceX's influence ripples across markets: AlphaCheck",
           "publisher": "Yahoo Finance",
@@ -4617,11 +4628,6 @@
           "title": "Stock Market Today: Nasdaq Leads After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Plains All American Tops Q2 Expectations as Higher Volumes Support Results",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33759/plains-all-american-tops-q2-expectations-as-higher-volumes-support-results"
         }
       ]
     },
@@ -4629,8 +4635,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.24,
-      "change_pct": -0.08,
+      "price": 32.236,
+      "change_pct": -0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4683,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.756,
-      "change_pct": 0.1,
+      "price": 157.733,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=22.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4709,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.756,
-        "stop_loss": 155.176,
-        "take_profit": 162.056,
+        "entry_price": 157.733,
+        "stop_loss": 155.153,
+        "take_profit": 162.033,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,16 +4737,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64923.2812,
-      "change_pct": 1.03,
-      "volume": 21427222528,
+      "price": 64953.8594,
+      "change_pct": 1.08,
+      "volume": 21339998208,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4753,13 +4759,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64923.2812,
-        "stop_loss": 62872.585,
-        "take_profit": 68341.1084,
+        "entry_price": 64953.8594,
+        "stop_loss": 62903.1631,
+        "take_profit": 68371.6865,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4776,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Clarity Act Hopes Dive As Senate Delays Vote Until After Summer Recess",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/clarity-act-senate-vote-recess-deadline-cryptocurrency-market-structure-bitcoin/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "July Jobs Report Sends Fed Expectations Into Chaos, Can Crypto Capitalize?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/july-jobs-report-fed-crypto/"
-        },
-        {
-          "title": "MSTR, CRCL, BMNR Stocks Rally After Bitcoin Reclaims $65K Despite CLARITY Delay",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/mstr-crcl-bmnr-stocks-rally-after-bitcoin-reclaims-65-k-despite-clarity-delay/cZof4wsRJBz"
         }
       ]
     },
@@ -4785,9 +4791,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.51,
-      "change_pct": 0.65,
-      "volume": 9058096128,
+      "price": 1915.28,
+      "change_pct": 0.7,
+      "volume": 9078359040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
