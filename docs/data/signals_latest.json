@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:46:04.422873+00:00",
+  "generated_at": "2026-08-07T20:51:35.191510+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4061,9 +4061,9 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
-          "title": "Why Apple’s 10% Drop Fails to Tell the Whole Story",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-apple-10-drop-fails-203810284.html"
+          "title": "Apple and OpenAI escalate legal battle over devices",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/technology/ai/articles/apple-openai-escalate-legal-battle-203900524.html"
         }
       ]
     },
@@ -4255,9 +4255,9 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "OpenAI developing $300+ AI speaker to challenge Amazon Alexa",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/openai-developing-300-ai-speaker-202000842.html"
+          "title": "Tech stocks today: Shares climb after rocky week",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
           "title": "Explainer-How could New Mexico's $567 million ruling change Meta?",
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4399.5,
-      "change_pct": 3.71,
-      "volume": 181606,
+      "price": 4401.2998,
+      "change_pct": 3.76,
+      "volume": 181762,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4399.50 觸及上軌 4290.33)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.30 觸及上軌 4291.00)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4399.5,
-        "stop_loss": 4516.9714,
-        "take_profit": 4203.7143,
+        "entry_price": 4401.2998,
+        "stop_loss": 4518.7712,
+        "take_profit": 4205.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.16,
-      "change_pct": -0.17,
-      "volume": 205084,
+      "price": 77.12,
+      "change_pct": -0.22,
+      "volume": 205213,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.244,
-      "change_pct": -0.06,
+      "price": 32.241,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.786,
-      "change_pct": 0.12,
+      "price": 157.754,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.786,
-        "stop_loss": 155.206,
-        "take_profit": 162.086,
+        "entry_price": 157.754,
+        "stop_loss": 155.174,
+        "take_profit": 162.054,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64917.4609,
-      "change_pct": 1.02,
-      "volume": 21958842368,
+      "price": 64931.9297,
+      "change_pct": 1.04,
+      "volume": 21872816128,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64917.4609,
-        "stop_loss": 62866.7646,
-        "take_profit": 68335.2881,
+        "entry_price": 64931.9297,
+        "stop_loss": 62881.2334,
+        "take_profit": 68349.7568,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.28,
+      "price": 1914.26,
       "change_pct": 0.64,
-      "volume": 8997556224,
+      "volume": 8994195456,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
