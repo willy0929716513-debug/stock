@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:30:21.055680+00:00",
+  "generated_at": "2026-08-07T21:35:48.747929+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -147,6 +147,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "This Beaten-Down Chip Stock Could Be One of the AI Sector's Biggest Comebacks",
+          "publisher": "Barchart",
+          "link": "https://www.barchart.com/story/news/3721937/this-beaten-down-chip-stock-could-be-one-of-the-ai-sector-s-biggest-comebacks"
+        },
+        {
           "title": "UMC or LSCC: Which Is the Better Value Stock Right Now?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/umc-lscc-better-value-stock-154003011.html"
@@ -155,11 +160,6 @@
           "title": "United Microelectronics Q2 Earnings Call Highlights AI Expansion Plans",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/technology/ai/articles/united-microelectronics-q2-earnings-call-174100073.html"
-        },
-        {
-          "title": "United Microelectronics Q2 Earnings Beat Estimates, Revenues Rise Y/Y",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/united-microelectronics-q2-earnings-beat-155100335.html"
         }
       ]
     },
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Telephone and Data Systems, Inc. Q2 2026 Earnings Call Summary",
+          "title": "Oklo Inc. Q2 2026 Earnings Call Summary",
           "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-telephone-and-data-systems-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-oklo-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4357,11 +4357,6 @@
       },
       "news": [
         {
-          "title": "Why Rivian's R2 EV could be its new star vehicle",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
-        },
-        {
           "title": "2 Reasons Tesla Could Monopolize the U.S. Robotaxi Market",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/meet-the-quiet-monopoly-hiding-in-the-industrial-s/"
@@ -4370,6 +4365,11 @@
           "title": "Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-nearly-4-192926948.html"
+        },
+        {
+          "title": "Tesla Jumps as Rate Fears Ease",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-jumps-rate-fears-ease-191404427.html"
         }
       ]
     },
@@ -4560,14 +4560,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "Skeena Resources (TSX:SKE) Following Recent Volatility Is Eskay Creek Upside Already Priced In",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/skeena-resources-tsx-ske-following-211253825.html"
+        },
+        {
           "title": "Torex Gold Resources Inc (TORXF) (Q2 2026) Earnings Call Highlights: Strong Production and ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/torex-gold-resources-inc-torxf-210144481.html"
-        },
-        {
-          "title": "TSX Closer: Index Extends Rally to Fresh Record High Above 36,000 on Strong Jobs Report",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-extends-rally-205725158.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64963.1406,
-      "change_pct": 1.09,
-      "volume": 21926596608,
+      "price": 64982.4609,
+      "change_pct": 1.12,
+      "volume": 21963282432,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64963.1406,
-        "stop_loss": 62912.4443,
-        "take_profit": 68380.9678,
+        "entry_price": 64982.4609,
+        "stop_loss": 62931.7646,
+        "take_profit": 68400.2881,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.6899,
-      "change_pct": 0.56,
-      "volume": 9010989056,
+      "price": 1913.9399,
+      "change_pct": 0.62,
+      "volume": 9020902400,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.97%)"
+          "rationale": "波動度正常(ATR/價格=2.96%)"
         }
       ],
       "risk_levels": null,
