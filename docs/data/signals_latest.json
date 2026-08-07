@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:12:55.769459+00:00",
+  "generated_at": "2026-08-07T12:18:20.670831+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The Overlooked Chip Stock Poised to Lead the AI Memory Boom",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/overlooked-chip-stock-lead-ai-memory-simo/"
+        },
+        {
           "title": "SharonAI Holdings, Inc. Class A Common Stock Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/sharonai-holdings-inc-class-a-common-stock-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
@@ -4317,11 +4322,6 @@
           "title": "Exxon's Profit Fell Short. Its Dividend Didn't.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/exxons-profit-fell-short-its-dividend-didnt/"
-        },
-        {
-          "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-amd-advances-ai-113923975.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4382.5,
-      "change_pct": 3.31,
-      "volume": 70632,
+      "price": 4375.3999,
+      "change_pct": 3.14,
+      "volume": 72005,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4382.50 觸及上軌 4284.04)"
+          "rationale": "rsi:sell(RSI=73.2 進入超買區); bollinger_band:sell(價格 4375.40 觸及上軌 4281.46)"
         },
         {
           "agent": "macro",
@@ -4549,13 +4549,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.71%)"
+          "rationale": "波動度正常(ATR/價格=1.72%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4382.5,
-        "stop_loss": 4495.1286,
-        "take_profit": 4194.7857,
+        "entry_price": 4375.3999,
+        "stop_loss": 4488.0285,
+        "take_profit": 4187.6856,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.71,
-      "change_pct": -0.75,
-      "volume": 53149,
+      "price": 76.73,
+      "change_pct": -0.72,
+      "volume": 53720,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4609,14 +4609,14 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock market today: S&P 500 and Nasdaq futures rise, Dow wavers ahead of July jobs report",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-jobs-report-100009572.html"
-        },
-        {
           "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
+        },
+        {
+          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         },
         {
           "title": "Nasdaq set to lead US markets higher as payrolls data looms",
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.245,
-      "change_pct": -0.06,
+      "price": 32.249,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.308,
-      "change_pct": 0.45,
+      "price": 158.359,
+      "change_pct": 0.48,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.308,
-        "stop_loss": 155.8296,
-        "take_profit": 162.4387,
+        "entry_price": 158.359,
+        "stop_loss": 155.8806,
+        "take_profit": 162.4897,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4721,9 +4721,9 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "Yen’s Decline or Pressures on Treasuries Not Stopped by Record Currency Intervention",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/yen-dollar-treasuries-currency-intervention-c0f442bb?siteid=yhoof2&yptr=yahoo"
+          "title": "US Dollar Mixed Early Friday Ahead of July Employment Data",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-friday-115845692.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65177.9414,
-      "change_pct": 1.43,
-      "volume": 18908884992,
+      "price": 65140.8906,
+      "change_pct": 1.37,
+      "volume": 19062876160,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.08%)"
+          "rationale": "波動度正常(ATR/價格=2.09%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 65177.9414,
-        "stop_loss": 63147.7307,
-        "take_profit": 68561.6258,
-        "atr": 1353.4738,
+        "entry_price": 65140.8906,
+        "stop_loss": 63102.8092,
+        "take_profit": 68537.6931,
+        "atr": 1358.721,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1933.4,
-      "change_pct": 1.65,
-      "volume": 8291917824,
+      "price": 1929.3101,
+      "change_pct": 1.43,
+      "volume": 8313940992,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.92%)"
+          "rationale": "波動度正常(ATR/價格=2.93%)"
         }
       ],
       "risk_levels": null,
