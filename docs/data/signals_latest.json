@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:48:15.987267+00:00",
+  "generated_at": "2026-08-07T23:53:45.990515+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4260,14 +4260,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
+          "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html"
+        },
+        {
           "title": "Michael Kratsios Says Some Companies Blame AI for Layoffs Because 'It Plays Better in the Press'",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/technology/ai/articles/michael-kratsios-says-companies-blame-213030325.html"
-        },
-        {
-          "title": "C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/better-buy/2026/08/07/c3-ai-vs-applied-digital-which-artificial-intelligence-stock-is-a-better-buy-in-2026/"
         }
       ]
     },
@@ -4415,9 +4415,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html"
+          "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64872.4883,
-      "change_pct": 0.95,
-      "volume": 22188396544,
+      "price": 64882.5,
+      "change_pct": 0.97,
+      "volume": 22216155136,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64872.4883,
-        "stop_loss": 62821.792,
-        "take_profit": 68290.3154,
+        "entry_price": 64882.5,
+        "stop_loss": 62831.8037,
+        "take_profit": 68300.3271,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4769,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Michael Saylor Says Strategy Aims to Be the World's Biggest Company by Market Cap—Here's How Much Upside It Needs",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-says-strategy-aims-223033093.html"
+          "title": "Bitcoin price today: August 7, 2026",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/investing/bitcoin-price-today-august-7-2026"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.6,
-      "change_pct": 0.66,
-      "volume": 9103878144,
+      "price": 1913.86,
+      "change_pct": 0.62,
+      "volume": 9102395392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
