@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:07:10.259014+00:00",
+  "generated_at": "2026-08-07T13:12:35.476490+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Tom Lee Thinks 2027 Will Be “One of the Best Years” for Stocks—Why He’s Got a Strong Case",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/tom-lee-thinks-2027-will-be-one-of-the-best-years-for-stocks-why-hes-got-a-strong-case/"
+        },
+        {
+          "title": "Wall Street Cheers Disney’s Report. Here’s Our New Price Target",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/wall-street-cheers-disneys-report-heres-our-new-price-target/"
+        },
+        {
           "title": "Archer Aviation Stock Fell Below $5. Time to Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/will-buying-archer-aviation-stock-below-5-make-you/"
-        },
-        {
-          "title": "20 Years on Wall Street Taught Me to Buy and Hold 5 High-Yield Energy Giants",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/20-years-on-wall-street-taught-me-to-buy-and-hold-5-high-yield-energy-giants/"
-        },
-        {
-          "title": "Why The iShares Semiconductor ETF (SOXX) Plunged 21% in July",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-the-ishares-semiconductor-etf-soxx-plunged-21/"
         }
       ]
     },
@@ -4368,14 +4368,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "SPCX Stock Hasn’t Bottomed Out Yet, But It’s ‘A Really Great Time To Buy,’ Says This Asset Manager",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-hasn-t-bottomed-out-yet-but-it-s-a-really-great-time-to-buy-says-this-asset-manager/cZofTjDRJBS"
-        },
-        {
-          "title": "Electric Vehicles Today - LiDAR Market Growth Driven By Automated Driving Systems",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/articles/electric-vehicles-today-lidar-market-103943402.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4418.5,
-      "change_pct": 4.16,
-      "volume": 98443,
+      "price": 4415.2998,
+      "change_pct": 4.09,
+      "volume": 101051,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.6 進入超買區); bollinger_band:sell(價格 4418.50 觸及上軌 4297.51)"
+          "rationale": "rsi:sell(RSI=74.5 進入超買區); bollinger_band:sell(價格 4415.30 觸及上軌 4296.29)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4418.5,
-        "stop_loss": 4535.9714,
-        "take_profit": 4222.7143,
+        "entry_price": 4415.2998,
+        "stop_loss": 4532.7712,
+        "take_profit": 4219.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
+          "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
+        },
+        {
           "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-rising-5-123943338.html"
-        },
-        {
-          "title": "Phase one drilling begins at Decade’s Bonaparte copper-gold project",
-          "publisher": "Mining Technology",
-          "link": "https://www.mining-technology.com/news/phase-i-drilling-decades-bonaparte-project/"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.74,
-      "change_pct": -0.71,
-      "volume": 69189,
+      "price": 76.62,
+      "change_pct": -0.87,
+      "volume": 71676,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.44%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.45%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.207,
-      "change_pct": -0.18,
+      "price": 32.187,
+      "change_pct": -0.24,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.41,
-      "change_pct": -0.12,
+      "price": 157.366,
+      "change_pct": -0.15,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.31,
+      "confidence": 0.3,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.1 進入超賣區)"
+          "confidence": 0.5,
+          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.41,
-        "stop_loss": 154.83,
-        "take_profit": 161.71,
+        "entry_price": 157.366,
+        "stop_loss": 154.786,
+        "take_profit": 161.666,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65228.8906,
-      "change_pct": 1.5,
-      "volume": 20357261312,
+      "price": 65163.6406,
+      "change_pct": 1.4,
+      "volume": 20365928448,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65228.8906,
-        "stop_loss": 63178.1943,
-        "take_profit": 68646.7178,
+        "entry_price": 65163.6406,
+        "stop_loss": 63112.9443,
+        "take_profit": 68581.4678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Clarity Act Won’t Receive U.S. Senate Vote Before Summer Recess",
+          "publisher": "CryptoProwl",
+          "link": "https://www.cryptoprowl.com/releases/clarity-act-wont-receive-us-senate-vote-before-summer-recess-6353"
+        },
+        {
           "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Bitcoin Price to $33,000? CLARITY Act's September Delay Sparks Crash Warning",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/bitcoin-price-33000-clarity-act-september-delay-sparks-crash-warning/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1930.13,
-      "change_pct": 1.48,
-      "volume": 8854331392,
+      "price": 1926.9399,
+      "change_pct": 1.31,
+      "volume": 8879353856,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
