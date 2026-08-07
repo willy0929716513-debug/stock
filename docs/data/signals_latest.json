@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:39:56.410669+00:00",
+  "generated_at": "2026-08-07T12:45:27.422095+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Why The iShares Semiconductor ETF (SOXX) Plunged 21% in July",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/why-the-ishares-semiconductor-etf-soxx-plunged-21/"
+        },
+        {
+          "title": "Is XRP a Millionaire-Maker Cryptocurrency?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/is-xrp-a-millionaire-maker-cryptocurrency/"
+        },
+        {
           "title": "The Overlooked Chip Stock Poised to Lead the AI Memory Boom",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/overlooked-chip-stock-lead-ai-memory-simo/"
-        },
-        {
-          "title": "SharonAI Holdings, Inc. Class A Common Stock Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/sharonai-holdings-inc-class-a-common-stock-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Exxon's Profit Fell Short. Its Dividend Didn't.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/exxons-profit-fell-short-its-dividend-didnt/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4372.8999,
-      "change_pct": 3.09,
-      "volume": 76464,
+      "price": 4417.6001,
+      "change_pct": 4.14,
+      "volume": 85949,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.1 進入超買區); bollinger_band:sell(價格 4372.90 觸及上軌 4280.55)"
+          "rationale": "rsi:sell(RSI=74.6 進入超買區); bollinger_band:sell(價格 4417.60 觸及上軌 4297.17)"
         },
         {
           "agent": "macro",
@@ -4549,14 +4549,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.72%)"
+          "rationale": "波動度正常(ATR/價格=1.76%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4372.8999,
-        "stop_loss": 4485.5285,
-        "take_profit": 4185.1856,
-        "atr": 75.0857,
+        "entry_price": 4417.6001,
+        "stop_loss": 4534.2679,
+        "take_profit": 4223.1537,
+        "atr": 77.7786,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-ahead-of-july-jobs-report-122102132.html"
         },
         {
+          "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-rising-5-123943338.html"
+        },
+        {
           "title": "Phase one drilling begins at Decade’s Bonaparte copper-gold project",
           "publisher": "Mining Technology",
           "link": "https://www.mining-technology.com/news/phase-i-drilling-decades-bonaparte-project/"
-        },
-        {
-          "title": "RBC downgrades Endeavour Mining as gold miner's re-rating leaves little room left",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096719/rbc-downgrades-endeavour-mining-as-gold-miner-s-re-rating-leaves-little-room-left-1096719.html"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.24,
-      "change_pct": -0.06,
-      "volume": 60458,
+      "price": 76.97,
+      "change_pct": -0.41,
+      "volume": 64026,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.076,
-      "change_pct": -0.33,
+      "price": 157.281,
+      "change_pct": -0.2,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=20.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=20.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4699,13 +4699,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.10%)"
+          "rationale": "波動度正常(ATR/價格=1.09%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 157.076,
-        "stop_loss": 154.496,
-        "take_profit": 161.376,
+        "entry_price": 157.281,
+        "stop_loss": 154.701,
+        "take_profit": 161.581,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4721,9 +4721,9 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
-          "title": "’Sell America’ trade returns as Fed, yen risks mount",
+          "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
           "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/sell-america-trade-returns-fed-121434593.html"
+          "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-sees-gold-rising-5-123943338.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65076.7305,
-      "change_pct": 1.27,
-      "volume": 19762565120,
+      "price": 65134.6094,
+      "change_pct": 1.36,
+      "volume": 19947945984,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65076.7305,
-        "stop_loss": 63038.649,
-        "take_profit": 68473.5329,
+        "entry_price": 65134.6094,
+        "stop_loss": 63096.5279,
+        "take_profit": 68531.4118,
         "atr": 1358.721,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1926.76,
-      "change_pct": 1.3,
-      "volume": 8666507264,
+      "price": 1928.3101,
+      "change_pct": 1.38,
+      "volume": 8939298816,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
