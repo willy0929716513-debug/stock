@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:36:26.966082+00:00",
+  "generated_at": "2026-08-07T22:41:54.120689+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4260,14 +4260,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
+          "title": "Michael Kratsios Says Some Companies Blame AI for Layoffs Because 'It Plays Better in the Press'",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/technology/ai/articles/michael-kratsios-says-companies-blame-213030325.html"
+        },
+        {
           "title": "C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/better-buy/2026/08/07/c3-ai-vs-applied-digital-which-artificial-intelligence-stock-is-a-better-buy-in-2026/"
-        },
-        {
-          "title": "META Stock Returns To Familiar Ground",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610552/meta-stock-returns-to-familiar-ground/2026-08-07"
         }
       ]
     },
@@ -4608,14 +4608,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
+          "title": "Stock market hits records as Fed removes key safety net",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/stock-market-hits-records-as-fed-reduces-forward-guidance"
+        },
+        {
           "title": "360 Energy Pulse: What mattered this week in energy",
           "publisher": "Oil and Gas 360",
           "link": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html"
-        },
-        {
-          "title": "Energy & Utilities Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-87e455a8?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64835.3203,
-      "change_pct": 0.89,
-      "volume": 22051465216,
+      "price": 64840.1406,
+      "change_pct": 0.9,
+      "volume": 22075688960,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64835.3203,
-        "stop_loss": 62784.624,
-        "take_profit": 68253.1475,
+        "entry_price": 64840.1406,
+        "stop_loss": 62789.4443,
+        "take_profit": 68257.9678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4781,7 +4781,7 @@
       "category": "crypto",
       "price": 1913.45,
       "change_pct": 0.6,
-      "volume": 9152450560,
+      "volume": 9131452416,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
