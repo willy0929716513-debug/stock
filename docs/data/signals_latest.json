@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:57:07.269927+00:00",
+  "generated_at": "2026-08-07T21:02:38.533356+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4025,7 +4025,7 @@
       "category": "us_stock",
       "price": 313.33,
       "change_pct": 0.29,
-      "volume": 32845464,
+      "volume": 34331108,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4153,19 +4153,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Tech stocks today: Shares climb after rocky week",
+          "title": "Nvidia ends week up more than 10% as AI chip fears ease",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
+          "link": "https://finance.yahoo.com/technology/article/nvidia-ends-week-up-more-than-10-as-ai-chip-fears-ease-205751147.html"
         },
         {
-          "title": "Arko Corp. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-arko-corp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "Call options explained: From opening trade to expiration",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "ACM Research, Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-acm-research-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "S&P 500 Posts Weekly Gain as Tech Giants Surge",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-gain-205341016.html"
         }
       ]
     },
@@ -4175,7 +4175,7 @@
       "category": "us_stock",
       "price": 328.58,
       "change_pct": 2.83,
-      "volume": 38718147,
+      "volume": 38841743,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4229,7 +4229,7 @@
       "category": "us_stock",
       "price": 354.3,
       "change_pct": -0.96,
-      "volume": 19686615,
+      "volume": 19720908,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4277,7 +4277,7 @@
       "category": "etf",
       "price": 773.26,
       "change_pct": 0.61,
-      "volume": 42309743,
+      "volume": 42664673,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4400.5,
-      "change_pct": 3.74,
-      "volume": 181872,
+      "price": 4399.3999,
+      "change_pct": 3.71,
+      "volume": 182081,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4400.50 觸及上軌 4290.70)"
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4399.40 觸及上軌 4290.29)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4400.5,
-        "stop_loss": 4517.9714,
-        "take_profit": 4204.7143,
+        "entry_price": 4399.3999,
+        "stop_loss": 4516.8713,
+        "take_profit": 4203.6142,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4410,14 +4410,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "TSX Closer: Index Extends Rally to Fresh Record High Above 36,000 on Strong Jobs Report",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-extends-rally-205725158.html"
+        },
+        {
           "title": "Stock Market Today: Nasdaq Leaps As Fed Rate-Hike Odds Sink; Biotech Jumps 20%, Sezzle Fizzles Out",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Alkane Resources (ASX:ALK) Is Up 15.4% After Expanding High-Grade Swedish Gold Resources - What's Changed",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/alkane-resources-asx-alk-15-181145951.html"
         }
       ]
     },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.26,
-      "change_pct": -0.04,
-      "volume": 205339,
+      "price": 77.15,
+      "change_pct": -0.18,
+      "volume": 205768,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4447,7 +4447,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.41%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4458,14 +4458,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
+          "title": "TSX Closer: Index Extends Rally to Fresh Record High Above 36,000 on Strong Jobs Report",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-extends-rally-205725158.html"
+        },
+        {
           "title": "Inflation data to test record-setting US stocks, Fed rate views",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/inflation-data-test-record-setting-100226016.html"
-        },
-        {
-          "title": "US Equity Indexes Rise This Week as Technology Mega-Caps Advance, Hormuz Reopening Deal in Works",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202151681.html"
         }
       ]
     },
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.808,
-      "change_pct": 0.13,
+      "price": 157.745,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=22.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.808,
-        "stop_loss": 155.228,
-        "take_profit": 162.108,
+        "entry_price": 157.745,
+        "stop_loss": 155.165,
+        "take_profit": 162.045,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64930.6406,
+      "price": 64932.9688,
       "change_pct": 1.04,
-      "volume": 21877551104,
+      "volume": 21986459648,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64930.6406,
-        "stop_loss": 62879.9443,
-        "take_profit": 68348.4678,
+        "entry_price": 64932.9688,
+        "stop_loss": 62882.2725,
+        "take_profit": 68350.7959,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.66,
-      "change_pct": 0.61,
-      "volume": 9018736640,
+      "price": 1913.8101,
+      "change_pct": 0.62,
+      "volume": 9014940672,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
