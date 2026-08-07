@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:18:28.043893+00:00",
+  "generated_at": "2026-08-07T20:24:04.847167+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
+          "title": "Why Fermi Stock Collapased 37.9% in July",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/why-fermi-stock-collapased-379-in-july/"
+        },
+        {
           "title": "Nvidia’s (NVDA) Alpamayo Launch and the Robotaxi Bet",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-alpamayo-launch-robotaxi-200324206.html"
-        },
-        {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4308,14 +4308,14 @@
           "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
         },
         {
+          "title": "These New Drugs Could Fuel Fresh Highs for Biotech and Pharma Stocks",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/biotech-stocks-to-buy-new-drugs-1b626dfc?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
-        },
-        {
-          "title": "Stocks Rally on Earnings and Fed-Friendly US Payroll Report",
-          "publisher": "Barchart",
-          "link": "https://www.barchart.com/story/news/3720310/stocks-rally-on-earnings-and-fed-friendly-us-payroll-report"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.3999,
-      "change_pct": 3.78,
-      "volume": 180057,
+      "price": 4400.7998,
+      "change_pct": 3.74,
+      "volume": 180549,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4402.40 觸及上軌 4291.41)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4400.80 觸及上軌 4290.81)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.3999,
-        "stop_loss": 4519.8713,
-        "take_profit": 4206.6142,
+        "entry_price": 4400.7998,
+        "stop_loss": 4518.2712,
+        "take_profit": 4205.0141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.98,
-      "change_pct": -0.4,
-      "volume": 203969,
+      "price": 77.02,
+      "change_pct": -0.35,
+      "volume": 204277,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.744,
-      "change_pct": 0.09,
+      "price": 157.725,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.31,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=22.9 進入超賣區)"
+          "rationale": "rsi:buy(RSI=22.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.744,
-        "stop_loss": 155.164,
-        "take_profit": 162.044,
+        "entry_price": 157.725,
+        "stop_loss": 155.145,
+        "take_profit": 162.025,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64930.5703,
-      "change_pct": 1.04,
-      "volume": 21780895744,
+      "price": 64935.5586,
+      "change_pct": 1.05,
+      "volume": 21728090112,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64930.5703,
-        "stop_loss": 62879.874,
-        "take_profit": 68348.3975,
+        "entry_price": 64935.5586,
+        "stop_loss": 62884.8623,
+        "take_profit": 68353.3857,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.51,
-      "change_pct": 0.76,
-      "volume": 9009659904,
+      "price": 1915.88,
+      "change_pct": 0.73,
+      "volume": 8989271040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
