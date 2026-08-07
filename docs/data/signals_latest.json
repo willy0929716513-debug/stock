@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:51:35.191510+00:00",
+  "generated_at": "2026-08-07T20:57:07.269927+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4105,19 +4105,19 @@
       },
       "news": [
         {
-          "title": "Atlassian stock soars 34% after earnings boost: AlphaSpace chart analysis",
+          "title": "AI theme has 'a long way to run': Strategist",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/atlassian-stock-soars-34-earnings-145957235.html"
-        },
-        {
-          "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
+          "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
           "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
+        },
+        {
+          "title": "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-gpus-next-ai-190000472.html"
         }
       ]
     },
@@ -4153,19 +4153,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Call options explained: From opening trade to expiration",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
+          "title": "Tech stocks today: Shares climb after rocky week",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
-          "title": "Nvidia, Blackstone Double Down on AI Infrastructure",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-blackstone-double-down-ai-203902787.html"
+          "title": "Arko Corp. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-arko-corp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         },
         {
-          "title": "GE Vernova Holds an $176 Billion Backlog, Yet Wall Street Is Selling: What Investors Should Know.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/ge-vernova-holds-an-176-billion-backlog/"
+          "title": "ACM Research, Inc. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-acm-research-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4260,14 +4260,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
+        },
+        {
           "title": "Explainer-How could New Mexico's $567 million ruling change Meta?",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/explainer-could-mexicos-567-million-193540756.html"
-        },
-        {
-          "title": "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-gpus-next-ai-190000472.html"
         }
       ]
     },
@@ -4308,14 +4308,14 @@
           "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
         },
         {
+          "title": "The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/economy/articles/economy-lost-jobs-wall-street-194002543.html"
+        },
+        {
           "title": "These New Drugs Could Fuel Fresh Highs for Biotech and Pharma Stocks",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/biotech-stocks-to-buy-new-drugs-1b626dfc?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4401.2998,
-      "change_pct": 3.76,
-      "volume": 181762,
+      "price": 4400.5,
+      "change_pct": 3.74,
+      "volume": 181872,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.30 觸及上軌 4291.00)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4400.50 觸及上軌 4290.70)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4401.2998,
-        "stop_loss": 4518.7712,
-        "take_profit": 4205.5141,
+        "entry_price": 4400.5,
+        "stop_loss": 4517.9714,
+        "take_profit": 4204.7143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.12,
-      "change_pct": -0.22,
-      "volume": 205213,
+      "price": 77.26,
+      "change_pct": -0.04,
+      "volume": 205339,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4447,7 +4447,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.41%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.241,
-      "change_pct": -0.07,
+      "price": 32.235,
+      "change_pct": -0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.754,
-      "change_pct": 0.1,
+      "price": 157.808,
+      "change_pct": 0.13,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=23.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.754,
-        "stop_loss": 155.174,
-        "take_profit": 162.054,
+        "entry_price": 157.808,
+        "stop_loss": 155.228,
+        "take_profit": 162.108,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64931.9297,
+      "price": 64930.6406,
       "change_pct": 1.04,
-      "volume": 21872816128,
+      "volume": 21877551104,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64931.9297,
-        "stop_loss": 62881.2334,
-        "take_profit": 68349.7568,
+        "entry_price": 64930.6406,
+        "stop_loss": 62879.9443,
+        "take_profit": 68348.4678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.26,
-      "change_pct": 0.64,
-      "volume": 8994195456,
+      "price": 1913.66,
+      "change_pct": 0.61,
+      "volume": 9018736640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
