@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:48:42.967551+00:00",
+  "generated_at": "2026-08-07T09:54:04.415989+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4366.1001,
-      "change_pct": 2.93,
-      "volume": 52664,
+      "price": 4375.7998,
+      "change_pct": 3.15,
+      "volume": 54034,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4366.10 觸及上軌 4278.11)"
+          "rationale": "rsi:sell(RSI=73.2 進入超買區); bollinger_band:sell(價格 4375.80 觸及上軌 4281.60)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4366.1001,
-        "stop_loss": 4477.5287,
-        "take_profit": 4180.3858,
-        "atr": 74.2857,
+        "entry_price": 4375.7998,
+        "stop_loss": 4487.3248,
+        "take_profit": 4189.9248,
+        "atr": 74.35,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.35,
-      "change_pct": 0.08,
-      "volume": 34799,
+      "price": 77.16,
+      "change_pct": -0.17,
+      "volume": 35976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.36%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.239,
-      "change_pct": -0.08,
+      "price": 32.249,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.343,
+      "price": 158.344,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.343,
-        "stop_loss": 155.8646,
-        "take_profit": 162.4737,
+        "entry_price": 158.344,
+        "stop_loss": 155.8656,
+        "take_profit": 162.4747,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64830.8281,
-      "change_pct": 0.88,
-      "volume": 18254303232,
+      "price": 64792.7812,
+      "change_pct": 0.83,
+      "volume": 18333685760,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64830.8281,
-        "stop_loss": 62824.2852,
-        "take_profit": 68175.0664,
+        "entry_price": 64792.7812,
+        "stop_loss": 62786.2383,
+        "take_profit": 68137.0195,
         "atr": 1337.6953,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Polymarket traders see little chance of a Bitcoin breakout this month",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096715/polymarket-traders-see-little-chance-of-a-bitcoin-breakout-this-month-1096715.html"
+        },
+        {
           "title": "Bitcoin Bulls Go Missing as BTC Upside Volatility Sinks to All-Time Low: Glassnode",
           "publisher": "CCN",
           "link": "https://www.ccn.com/news/sponsored/bitcoin-options-upside-demand-all-time-low/"
-        },
-        {
-          "title": "Why Is The Crypto Market Down Today?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/why-is-the-crypto-market-down-today/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.51,
-      "change_pct": 0.6,
-      "volume": 7846126592,
+      "price": 1912.8199,
+      "change_pct": 0.57,
+      "volume": 7924933120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
