@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:03:22.277626+00:00",
+  "generated_at": "2026-08-07T22:08:53.826888+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4211,9 +4211,9 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
-          "title": "Apple and OpenAI escalate legal battle over devices",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-openai-escalate-legal-battle-203900524.html"
+          "title": "MP Earnings Show Chinese Rare-Earth Monopoly Is Fading. The Stock Is Up.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4357,6 +4357,11 @@
       },
       "news": [
         {
+          "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "2 Reasons Tesla Could Monopolize the U.S. Robotaxi Market",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/meet-the-quiet-monopoly-hiding-in-the-industrial-s/"
@@ -4365,11 +4370,6 @@
           "title": "Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-nearly-4-192926948.html"
-        },
-        {
-          "title": "Tesla Jumps as Rate Fears Ease",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-jumps-rate-fears-ease-191404427.html"
         }
       ]
     },
@@ -4560,14 +4560,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "Gold Went Flat in 2026. This Award-Winning Fund Still Milks 13% Income Out of It",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/gold-went-flat-in-2026-this-award-winning-fund-still-milks-13-income-out-of-it/"
+        },
+        {
           "title": "SLV vs GDX: Is a Silver ETF a Better Buy Than a Gold Miner Fund in 2026?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/etfs/2026/08/07/slv-vs-gdx-is-a-silver-etf-a-better-buy-than-a-gold-miner-fund-in-2026/"
-        },
-        {
-          "title": "Stock Market Today, Aug. 7: Markets Rally on Jobs Shock and Atlassian Surges 35%",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/07/stock-market-today-aug-7-markets-rally-on-jobs-shock-and-atlassian-surges-35/"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64883.3984,
-      "change_pct": 0.97,
-      "volume": 21966303232,
+      "price": 64893.6602,
+      "change_pct": 0.98,
+      "volume": 21985077248,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64883.3984,
-        "stop_loss": 62832.7021,
-        "take_profit": 68301.2256,
+        "entry_price": 64893.6602,
+        "stop_loss": 62842.9639,
+        "take_profit": 68311.4873,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.2,
-      "change_pct": 0.64,
-      "volume": 9128152064,
+      "price": 1915.02,
+      "change_pct": 0.68,
+      "volume": 9138684928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
