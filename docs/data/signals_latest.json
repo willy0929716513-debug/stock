@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:28:50.308082+00:00",
+  "generated_at": "2026-08-07T19:34:21.693917+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.37,
-      "change_pct": 0.31,
-      "volume": 21587995,
+      "price": 313.0501,
+      "change_pct": 0.2,
+      "volume": 22114214,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4045,7 +4045,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.98%)"
+          "rationale": "波動度正常(ATR/價格=2.99%)"
         }
       ],
       "risk_levels": null,
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 501.25,
-      "change_pct": 0.28,
-      "volume": 17328212,
+      "price": 501.526,
+      "change_pct": 0.33,
+      "volume": 17513020,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4097,9 +4097,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 501.25,
-        "stop_loss": 527.4979,
-        "take_profit": 457.5036,
+        "entry_price": 501.526,
+        "stop_loss": 527.7739,
+        "take_profit": 457.7796,
         "atr": 17.4986,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.9,
-      "change_pct": 1.79,
-      "volume": 75673164,
+      "price": 222.555,
+      "change_pct": 1.63,
+      "volume": 76858927,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,7 +4147,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.51%)"
+          "rationale": "波動度正常(ATR/價格=3.52%)"
         }
       ],
       "risk_levels": null,
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 328.675,
-      "change_pct": 2.86,
-      "volume": 31769917,
+      "price": 327.825,
+      "change_pct": 2.6,
+      "volume": 32112646,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4195,13 +4195,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.55%)"
+          "rationale": "波動度正常(ATR/價格=4.56%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 328.675,
-        "stop_loss": 306.2618,
-        "take_profit": 366.0303,
+        "entry_price": 327.825,
+        "stop_loss": 305.4118,
+        "take_profit": 365.1804,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-nearly-4-192926948.html"
+        },
+        {
           "title": "Tesla Jumps as Rate Fears Ease",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-jumps-rate-fears-ease-191404427.html"
-        },
-        {
-          "title": "SpaceX’s Texas Terafab Could Become World’s Largest Building",
-          "publisher": "CRE Daily",
-          "link": "https://www.credaily.com/briefs/spacexs-texas-terafab-could-become-worlds-largest-building/"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.9058,
-      "change_pct": -0.8,
-      "volume": 13884078,
+      "price": 354.86,
+      "change_pct": -0.81,
+      "volume": 14074174,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.97,
-      "change_pct": 0.57,
-      "volume": 28508019,
+      "price": 772.875,
+      "change_pct": 0.56,
+      "volume": 29077749,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.185,
-      "change_pct": 1.05,
-      "volume": 25084037,
+      "price": 721.85,
+      "change_pct": 1.01,
+      "volume": 25408854,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.1001,
-      "change_pct": 3.89,
-      "volume": 176600,
+      "price": 4409.0,
+      "change_pct": 3.94,
+      "volume": 177034,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4407.10 觸及上軌 4293.18)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4409.00 觸及上軌 4293.90)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.1001,
-        "stop_loss": 4524.5715,
-        "take_profit": 4211.3144,
+        "entry_price": 4409.0,
+        "stop_loss": 4526.4714,
+        "take_profit": 4213.2143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.29,
-      "change_pct": 0.0,
-      "volume": 195246,
+      "price": 77.04,
+      "change_pct": -0.32,
+      "volume": 196657,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4447,11 +4447,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.40%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise after July jobs report surprises to the downside",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html"
+        },
         {
           "title": "SpaceX's influence ripples across markets: AlphaCheck",
           "publisher": "Yahoo Finance",
@@ -4461,11 +4466,6 @@
           "title": "Oil gains on pending Iran-Oman deal over Hormuz",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
-        },
-        {
-          "title": "Major U.S. Stock Indexes Gain on Jobs Data",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/oil-ticks-higher-u-s-futures-steady-ahead-of-jobs-report-67178ce5"
         }
       ]
     },
@@ -4473,7 +4473,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.25,
+      "price": 32.249,
       "change_pct": -0.05,
       "volume": 0,
       "signal": "hold",
@@ -4521,17 +4521,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.515,
-      "change_pct": -0.05,
+      "price": 157.465,
+      "change_pct": -0.09,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.4 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.515,
-        "stop_loss": 154.935,
-        "take_profit": 161.815,
+        "entry_price": 157.465,
+        "stop_loss": 154.885,
+        "take_profit": 161.765,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64936.2188,
-      "change_pct": 1.05,
-      "volume": 21491232768,
+      "price": 64926.2383,
+      "change_pct": 1.03,
+      "volume": 21591754752,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.73,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64936.2188,
-        "stop_loss": 62885.5225,
-        "take_profit": 68354.0459,
+        "entry_price": 64926.2383,
+        "stop_loss": 62875.542,
+        "take_profit": 68344.0654,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.9399,
-      "change_pct": 0.78,
-      "volume": 8923128832,
+      "price": 1917.0,
+      "change_pct": 0.79,
+      "volume": 8935504896,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4667,9 +4667,9 @@
           "link": "https://beincrypto.com/grayscale-ethereum-etf-staking-amendment/"
         },
         {
-          "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet"
+          "title": "Ethereum Price Prediction: Break Above $1,950 Could Unleash Strong Rally for ETH",
+          "publisher": "FX Empire",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-prediction-break-above-141959416.html"
         }
       ]
     }
