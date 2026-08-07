@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:02:38.533356+00:00",
+  "generated_at": "2026-08-07T21:08:10.829182+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4163,9 +4163,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "S&P 500 Posts Weekly Gain as Tech Giants Surge",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-weekly-gain-205341016.html"
+          "title": "Gray Media, Inc. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-gray-media-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4399.3999,
-      "change_pct": 3.71,
-      "volume": 182081,
+      "price": 4401.0,
+      "change_pct": 3.75,
+      "volume": 182231,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4399.40 觸及上軌 4290.29)"
+          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.00 觸及上軌 4290.89)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4399.3999,
-        "stop_loss": 4516.8713,
-        "take_profit": 4203.6142,
+        "entry_price": 4401.0,
+        "stop_loss": 4518.4714,
+        "take_profit": 4205.2143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4410,14 +4410,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "Torex Gold Resources Inc (TORXF) (Q2 2026) Earnings Call Highlights: Strong Production and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/torex-gold-resources-inc-torxf-210144481.html"
+        },
+        {
           "title": "TSX Closer: Index Extends Rally to Fresh Record High Above 36,000 on Strong Jobs Report",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-extends-rally-205725158.html"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Leaps As Fed Rate-Hike Odds Sink; Biotech Jumps 20%, Sezzle Fizzles Out",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.15,
-      "change_pct": -0.18,
-      "volume": 205768,
+      "price": 77.08,
+      "change_pct": -0.27,
+      "volume": 206202,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4447,7 +4447,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.41%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4458,14 +4458,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "TSX Closer: Index Extends Rally to Fresh Record High Above 36,000 on Strong Jobs Report",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-extends-rally-205725158.html"
+          "title": "Plains All American Pipeline LP (PAA) (Q2 2026) Earnings Call Highlights: Strong Crude ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/energy/articles/plains-american-pipeline-lp-paa-210537087.html"
         },
         {
-          "title": "Inflation data to test record-setting US stocks, Fed rate views",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/inflation-data-test-record-setting-100226016.html"
+          "title": "Plains GP Holdings LP (PAGP) (Q2 2026) Earnings Call Highlights: Strong EBITDA and Strategic ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/plains-gp-holdings-lp-pagp-210429726.html"
         }
       ]
     },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64932.9688,
-      "change_pct": 1.04,
-      "volume": 21986459648,
+      "price": 64938.5781,
+      "change_pct": 1.05,
+      "volume": 21926309888,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64932.9688,
-        "stop_loss": 62882.2725,
-        "take_profit": 68350.7959,
+        "entry_price": 64938.5781,
+        "stop_loss": 62887.8818,
+        "take_profit": 68356.4053,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.8101,
-      "change_pct": 0.62,
-      "volume": 9014940672,
+      "price": 1913.35,
+      "change_pct": 0.59,
+      "volume": 9026670592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
