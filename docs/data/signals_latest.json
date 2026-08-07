@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:53:45.990515+00:00",
+  "generated_at": "2026-08-07T23:59:18.907104+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Why Corsair Gaming Stock Skyrocketed by 35% Today",
+          "title": "Why QuinStreet Stock Crushed it on Friday",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-corsair-gaming-stock-skyrocketed-by-35-today/"
+          "link": "https://www.fool.com/investing/2026/08/07/why-quinstreet-stock-crushed-it-on-friday/"
         }
       ]
     },
@@ -4415,9 +4415,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html"
+          "title": "Banks Lead a Bonus Boom",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/banks-lead-a-bonus-boom-36140195?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64882.5,
+      "price": 64886.8008,
       "change_pct": 0.97,
-      "volume": 22216155136,
+      "volume": 22127448064,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64882.5,
-        "stop_loss": 62831.8037,
-        "take_profit": 68300.3271,
+        "entry_price": 64886.8008,
+        "stop_loss": 62836.1045,
+        "take_profit": 68304.6279,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.86,
-      "change_pct": 0.62,
-      "volume": 9102395392,
+      "price": 1913.22,
+      "change_pct": 0.59,
+      "volume": 9088632832,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.96%)"
+          "rationale": "波動度正常(ATR/價格=2.97%)"
         }
       ],
       "risk_levels": null,
