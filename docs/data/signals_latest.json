@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:45:27.422095+00:00",
+  "generated_at": "2026-08-07T12:50:53.641171+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4271,9 +4271,9 @@
           "link": "https://finance.yahoo.com/technology/article/microsofts-ai-growth-has-won-back-investors-for-the-time-being-165202521.html"
         },
         {
-          "title": "Microsoft opens fourth Azure data center region in India",
-          "publisher": "Quartz",
-          "link": "https://qz.com/microsoft-azure-data-center-india-hyderabad-080726"
+          "title": "Just How Wide Is the Risk Priced Into Adobe Stock?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/articles/610526/just-how-wide-is-the-risk-priced-into-adobe-stock/2026-08-07"
         }
       ]
     },
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/ai-stocks-cybersecurity-artificial-intelligence-battlefield/?src=A00220&yptr=yahoo"
+          "title": "Just How Wide Is the Risk Priced Into Adobe Stock?",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/articles/610526/just-how-wide-is-the-risk-priced-into-adobe-stock/2026-08-07"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4417.6001,
-      "change_pct": 4.14,
-      "volume": 85949,
+      "price": 4424.7002,
+      "change_pct": 4.31,
+      "volume": 90552,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.6 進入超買區); bollinger_band:sell(價格 4417.60 觸及上軌 4297.17)"
+          "rationale": "rsi:sell(RSI=74.8 進入超買區); bollinger_band:sell(價格 4424.70 觸及上軌 4299.89)"
         },
         {
           "agent": "macro",
@@ -4553,17 +4553,17 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4417.6001,
-        "stop_loss": 4534.2679,
-        "take_profit": 4223.1537,
-        "atr": 77.7786,
+        "entry_price": 4424.7002,
+        "stop_loss": 4541.6038,
+        "take_profit": 4229.8609,
+        "atr": 77.9357,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Gold prices today, Friday, August 7, 2026: Gold prices continue to rise ahead of July jobs report",
+          "title": "Gold prices today, Friday, August 7, 2026: Gold prices continue to rise even after July jobs report misses",
           "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-ahead-of-july-jobs-report-122102132.html"
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
           "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.97,
-      "change_pct": -0.41,
-      "volume": 64026,
+      "price": 76.82,
+      "change_pct": -0.61,
+      "volume": 65175,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
+          "confidence": 0.29,
+          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.281,
-      "change_pct": -0.2,
+      "price": 157.196,
+      "change_pct": -0.26,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=20.8 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=20.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.281,
-        "stop_loss": 154.701,
-        "take_profit": 161.581,
+        "entry_price": 157.196,
+        "stop_loss": 154.616,
+        "take_profit": 161.496,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65134.6094,
-      "change_pct": 1.36,
-      "volume": 19947945984,
+      "price": 65232.8203,
+      "change_pct": 1.51,
+      "volume": 19935375360,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4753,13 +4753,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.09%)"
+          "rationale": "波動度正常(ATR/價格=2.08%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 65134.6094,
-        "stop_loss": 63096.5279,
-        "take_profit": 68531.4118,
+        "entry_price": 65232.8203,
+        "stop_loss": 63194.7388,
+        "take_profit": 68629.6228,
         "atr": 1358.721,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1928.3101,
-      "change_pct": 1.38,
-      "volume": 8939298816,
+      "price": 1930.8199,
+      "change_pct": 1.51,
+      "volume": 8942766080,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.94%)"
+          "rationale": "波動度正常(ATR/價格=2.93%)"
         }
       ],
       "risk_levels": null,
