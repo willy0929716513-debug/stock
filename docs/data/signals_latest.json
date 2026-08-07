@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:22:50.286089+00:00",
+  "generated_at": "2026-08-07T08:28:12.453007+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Mark Zuckerberg's Net Worth Swung by Double-Digit Billions Twice This Summer as Meta's AI Spending Divides Wall Street. Here's What the Volatility Signals for Investors.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/mark-zuckerberg-net-worth-volatility-meta-ai/"
+        },
+        {
           "title": "Ooredoo invests $800m in Indonesian AI neocloud platform Zankore",
           "publisher": "Verdict",
           "link": "https://www.verdict.co.uk/ooredoo-invests-800m-zankore/"
@@ -4317,11 +4322,6 @@
           "title": "SpaceX Shares Fail to Launch Despite Soaring Revenue. Is the Stock a Buy on the Dip?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/spacex-shares-fail-to-launch-despite-soaring-reven/"
-        },
-        {
-          "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4355.5,
-      "change_pct": 2.68,
-      "volume": 42719,
+      "price": 4357.0,
+      "change_pct": 2.71,
+      "volume": 43496,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.5 進入超買區); bollinger_band:sell(價格 4355.50 觸及上軌 4274.36)"
+          "rationale": "rsi:sell(RSI=72.6 進入超買區); bollinger_band:sell(價格 4357.00 觸及上軌 4274.89)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4355.5,
-        "stop_loss": 4465.0107,
-        "take_profit": 4172.9821,
-        "atr": 73.0071,
+        "entry_price": 4357.0,
+        "stop_loss": 4466.725,
+        "take_profit": 4174.125,
+        "atr": 73.15,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-august-6-2026-gold-prices-surge-as-hormuz-inches-closer-to-reopening-130743281.html"
         },
         {
+          "title": "State Bank of India beats profit view on healthy loan growth, shares rise",
+          "publisher": "Reuters",
+          "link": "https://sg.finance.yahoo.com/news/state-bank-india-beats-profit-082404373.html"
+        },
+        {
           "title": "Is McEwen (MUX) Undervalued Following Its 2026 Production Guidance Update?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/mcewen-mux-undervalued-following-2026-071136890.html"
-        },
-        {
-          "title": "Newmont (NEM) Stock Stays Reasonable Following Its 183% Three Year Run",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-stock-stays-reasonable-051420877.html"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.58,
-      "change_pct": 0.38,
-      "volume": 25769,
+      "price": 77.76,
+      "change_pct": 0.61,
+      "volume": 26706,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.29%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Stocks, dollar stall ahead of US jobs data; oil gains as Gulf tensions flare",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/asian-shares-pause-us-jobs-021601155.html"
+          "title": "Oil extends gains and stocks mostly down on fresh Hormuz worries",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.28,
-      "change_pct": 0.05,
+      "price": 32.272,
+      "change_pct": 0.02,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.446,
-      "change_pct": 0.54,
+      "price": 158.439,
+      "change_pct": 0.53,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.446,
-        "stop_loss": 155.9676,
-        "take_profit": 162.5767,
+        "entry_price": 158.439,
+        "stop_loss": 155.9606,
+        "take_profit": 162.5697,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64358.4414,
-      "change_pct": 0.15,
-      "volume": 17735489536,
+      "price": 64383.5898,
+      "change_pct": 0.19,
+      "volume": 17662402560,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64358.4414,
-        "stop_loss": 62402.7227,
-        "take_profit": 67617.9727,
+        "entry_price": 64383.5898,
+        "stop_loss": 62427.8711,
+        "take_profit": 67643.1211,
         "atr": 1303.8125,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1904.3,
+      "price": 1904.27,
       "change_pct": 0.12,
-      "volume": 7480318976,
+      "volume": 7494838784,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
