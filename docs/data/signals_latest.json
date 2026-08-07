@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T18:39:11.566662+00:00",
+  "generated_at": "2026-08-07T18:44:45.435682+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
+        },
+        {
           "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
@@ -107,11 +112,6 @@
           "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
-        },
-        {
-          "title": "Could Taiwan Semiconductor Manufacturing (TSM) Be the Most Critical Bottleneck in the AI Chip Boom?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/could-taiwan-semiconductor-manufacturing-tsm-152156862.html"
         }
       ]
     },
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.87,
-      "change_pct": -0.17,
-      "volume": 19447270,
+      "price": 311.92,
+      "change_pct": -0.16,
+      "volume": 19657371,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 499.275,
-      "change_pct": -0.12,
-      "volume": 15540225,
+      "price": 499.205,
+      "change_pct": -0.13,
+      "volume": 15689983,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4093,13 +4093,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.50%)"
+          "rationale": "波動度正常(ATR/價格=3.51%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 499.275,
-        "stop_loss": 525.5228,
-        "take_profit": 455.5286,
+        "entry_price": 499.205,
+        "stop_loss": 525.4528,
+        "take_profit": 455.4586,
         "atr": 17.4986,
         "risk_reward_ratio": 1.67
       },
@@ -4115,9 +4115,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
+          "title": "Jim Cramer Was “Blown Away” By Microsoft Corporation (NASDAQ:MSFT)’s Financials",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-blown-away-microsoft-183838604.html"
         }
       ]
     },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 221.97,
+      "price": 221.9701,
       "change_pct": 1.36,
-      "volume": 68770311,
+      "volume": 69153466,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.0,
-      "change_pct": 2.34,
-      "volume": 29549657,
+      "price": 327.1,
+      "change_pct": 2.37,
+      "volume": 29710407,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4199,9 +4199,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.0,
-        "stop_loss": 304.5868,
-        "take_profit": 364.3553,
+        "entry_price": 327.1,
+        "stop_loss": 304.6868,
+        "take_profit": 364.4553,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.135,
+      "price": 354.15,
       "change_pct": -1.01,
-      "volume": 12529732,
+      "volume": 12653714,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4265,9 +4265,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Alphabet (GOOGL) Lines Up $25 Billion Bond Offering For AI Expansion",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-lines-25-billion-181151026.html"
+          "title": "Jim Cramer Reveals How Alphabet Inc (NASDAQ:GOOGL) Can Reverse Recent Weakness",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-alphabet-inc-183314728.html"
         }
       ]
     },
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.3285,
-      "change_pct": 0.36,
-      "volume": 24086415,
+      "price": 771.1301,
+      "change_pct": 0.33,
+      "volume": 24579388,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 719.75,
-      "change_pct": 0.71,
-      "volume": 21940354,
+      "price": 719.55,
+      "change_pct": 0.69,
+      "volume": 22172245,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,17 +4371,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4392.2002,
-      "change_pct": 3.54,
-      "volume": 173091,
+      "price": 4397.7002,
+      "change_pct": 3.67,
+      "volume": 173426,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4392.20 觸及上軌 4287.61)"
+          "confidence": 0.71,
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4397.70 觸及上軌 4289.66)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4392.2002,
-        "stop_loss": 4509.6716,
-        "take_profit": 4196.4145,
+        "entry_price": 4397.7002,
+        "stop_loss": 4515.1716,
+        "take_profit": 4201.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.24,
-      "change_pct": 1.23,
-      "volume": 175169,
+      "price": 78.13,
+      "change_pct": 1.09,
+      "volume": 187426,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4446,8 +4446,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.32%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.243,
-      "change_pct": -0.07,
+      "price": 32.245,
+      "change_pct": -0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.568,
-      "change_pct": -0.02,
+      "price": 157.556,
+      "change_pct": -0.03,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.568,
-        "stop_loss": 154.988,
-        "take_profit": 161.868,
+        "entry_price": 157.556,
+        "stop_loss": 154.976,
+        "take_profit": 161.856,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64725.0781,
-      "change_pct": 0.72,
-      "volume": 21694758912,
+      "price": 64697.8281,
+      "change_pct": 0.68,
+      "volume": 21520795648,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64725.0781,
-        "stop_loss": 62674.3818,
-        "take_profit": 68142.9053,
+        "entry_price": 64697.8281,
+        "stop_loss": 62647.1318,
+        "take_profit": 68115.6553,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1909.76,
-      "change_pct": 0.4,
-      "volume": 9075881984,
+      "price": 1907.3101,
+      "change_pct": 0.28,
+      "volume": 9020191744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
