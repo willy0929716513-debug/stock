@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:03:21.631030+00:00",
+  "generated_at": "2026-08-07T06:08:43.591477+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster"
+        },
+        {
           "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html"
@@ -4317,11 +4322,6 @@
           "title": "SharonAI Holdings Inc (SHAZ) (Q2 2026) Earnings Call Highlights: AI Capacity Surges to 212MW ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/sharonai-holdings-inc-shaz-q2-050635678.html"
-        },
-        {
-          "title": "SoFi and Visa Earnings Point to Consumer Confidence",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/sofi-and-visa-earnings-point-to-consumer-confidence/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4334.6001,
-      "change_pct": 2.18,
-      "volume": 25511,
+      "price": 4339.1001,
+      "change_pct": 2.29,
+      "volume": 26542,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=71.8 進入超買區); bollinger_band:sell(價格 4334.60 觸及上軌 4267.16)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4339.10 觸及上軌 4268.69)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4334.6001,
-        "stop_loss": 4442.0537,
-        "take_profit": 4155.5108,
-        "atr": 71.6357,
+        "entry_price": 4339.1001,
+        "stop_loss": 4446.6823,
+        "take_profit": 4159.7965,
+        "atr": 71.7214,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.15,
-      "change_pct": 1.11,
-      "volume": 16343,
+      "price": 78.06,
+      "change_pct": 1.0,
+      "volume": 16592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.25,
-          "rationale": "波動度過高(ATR/價格=6.26%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.27%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.23,
-      "change_pct": -0.11,
+      "price": 32.231,
+      "change_pct": -0.1,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.306,
-      "change_pct": 0.45,
+      "price": 158.346,
+      "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.306,
-        "stop_loss": 155.8276,
-        "take_profit": 162.4367,
+        "entry_price": 158.346,
+        "stop_loss": 155.8676,
+        "take_profit": 162.4767,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64260.6719,
-      "change_pct": -0.52,
-      "volume": 17802864640,
+      "price": 64298.8281,
+      "change_pct": -0.46,
+      "volume": 17813743616,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1898.7,
-      "change_pct": -0.41,
-      "volume": 7577807872,
+      "price": 1900.2,
+      "change_pct": -0.33,
+      "volume": 7538321920,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
