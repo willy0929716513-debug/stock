@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:58:00.047134+00:00",
+  "generated_at": "2026-08-07T06:03:21.631030+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Snap’s 2 Big Problems That Scream ‘Stay Away From the Stock’",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/snap-stock-2-big-problems-41466ca4?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Apple’s Capex Strategy Worked But Other Pressures Are Mounting Now",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/apples-capex-strategy-worked-but-other-pressures-are-mounting-now/"
@@ -4215,11 +4220,6 @@
           "title": "MP Earnings Show Chinese Rare-Earth Monopoly Is Fading",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610341/2-9-billion-in-payouts-a-lagging-stock-the-snap-trade-off/2026-08-06"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4333.7002,
-      "change_pct": 2.16,
-      "volume": 25036,
+      "price": 4334.6001,
+      "change_pct": 2.18,
+      "volume": 25511,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4333.70 觸及上軌 4266.85)"
+          "rationale": "rsi:sell(RSI=71.8 進入超買區); bollinger_band:sell(價格 4334.60 觸及上軌 4267.16)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4333.7002,
-        "stop_loss": 4440.9181,
-        "take_profit": 4155.0037,
-        "atr": 71.4786,
+        "entry_price": 4334.6001,
+        "stop_loss": 4442.0537,
+        "take_profit": 4155.5108,
+        "atr": 71.6357,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.31,
-      "change_pct": 1.32,
-      "volume": 16154,
+      "price": 78.15,
+      "change_pct": 1.11,
+      "volume": 16343,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.25,
-          "rationale": "波動度過高(ATR/價格=6.25%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.26%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.218,
-      "change_pct": -0.15,
+      "price": 32.23,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.333,
-      "change_pct": 0.47,
+      "price": 158.306,
+      "change_pct": 0.45,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.333,
-        "stop_loss": 155.8546,
-        "take_profit": 162.4637,
+        "entry_price": 158.306,
+        "stop_loss": 155.8276,
+        "take_profit": 162.4367,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4716,14 +4716,14 @@
           "link": "https://finance.yahoo.com/video/latest-fed-headlines-implications-trump-140620050.html"
         },
         {
+          "title": "BOJ's Masu among board members speaking before September policy meeting",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/policy/articles/bojs-masu-among-board-members-055423095.html"
+        },
+        {
           "title": "U.S. Dollar Quiet as Focus Shifts to Critical Jobs Report",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/currencies/nikkei-falls-0-7-dragged-by-chip-related-stocks-f3f924b2?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "US Sold Euros to Save the Yen, Europe Found Out After",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/us-sold-euros-prop-up-yen/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64309.3086,
-      "change_pct": -0.45,
-      "volume": 17794770944,
+      "price": 64260.6719,
+      "change_pct": -0.52,
+      "volume": 17802864640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4764,14 +4764,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "MARA and CleanSpark Post $851 Million in Combined Quarterly Losses",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/mara-cleanspark-ai-quarterly-losses/"
+        },
+        {
           "title": "MARA Holdings Inc (MARA) (Q2 2026) Earnings Call Highlights: Strategic Expansion and Bitcoin ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/crypto/articles/mara-holdings-inc-mara-q2-050428345.html"
-        },
-        {
-          "title": "Marathon Digital Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/marathon-digital-q2-earnings-call-highlights-2026-08-06/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1900.3101,
-      "change_pct": -0.33,
-      "volume": 7556893184,
+      "price": 1898.7,
+      "change_pct": -0.41,
+      "volume": 7577807872,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
