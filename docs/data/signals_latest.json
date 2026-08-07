@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:12:35.476490+00:00",
+  "generated_at": "2026-08-07T13:17:59.308047+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4415.2998,
-      "change_pct": 4.09,
-      "volume": 101051,
+      "price": 4409.6001,
+      "change_pct": 3.95,
+      "volume": 103098,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.5 進入超買區); bollinger_band:sell(價格 4415.30 觸及上軌 4296.29)"
+          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4409.60 觸及上軌 4294.13)"
         },
         {
           "agent": "macro",
@@ -4549,13 +4549,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.77%)"
+          "rationale": "波動度正常(ATR/價格=1.78%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4415.2998,
-        "stop_loss": 4532.7712,
-        "take_profit": 4219.5141,
+        "entry_price": 4409.6001,
+        "stop_loss": 4527.0715,
+        "take_profit": 4213.8144,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.62,
-      "change_pct": -0.87,
-      "volume": 71676,
+      "price": 76.67,
+      "change_pct": -0.8,
+      "volume": 73498,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
-          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+          "title": "Oil prices drop as investors weigh potential Hormuz deal between Iran and Gulf states",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.187,
-      "change_pct": -0.24,
+      "price": 32.191,
+      "change_pct": -0.23,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.366,
-      "change_pct": -0.15,
+      "price": 157.325,
+      "change_pct": -0.17,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=20.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.366,
-        "stop_loss": 154.786,
-        "take_profit": 161.666,
+        "entry_price": 157.325,
+        "stop_loss": 154.745,
+        "take_profit": 161.625,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65163.6406,
-      "change_pct": 1.4,
-      "volume": 20365928448,
+      "price": 65187.6602,
+      "change_pct": 1.44,
+      "volume": 20400267264,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,13 +4757,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65163.6406,
-        "stop_loss": 63112.9443,
-        "take_profit": 68581.4678,
+        "entry_price": 65187.6602,
+        "stop_loss": 63136.9639,
+        "take_profit": 68605.4873,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
+        },
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
           "publisher": "Yahoo Personal Finance",
@@ -4773,11 +4778,6 @@
           "title": "Clarity Act Won’t Receive U.S. Senate Vote Before Summer Recess",
           "publisher": "CryptoProwl",
           "link": "https://www.cryptoprowl.com/releases/clarity-act-wont-receive-us-senate-vote-before-summer-recess-6353"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises On Surprise Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1926.9399,
-      "change_pct": 1.31,
-      "volume": 8879353856,
+      "price": 1927.79,
+      "change_pct": 1.35,
+      "volume": 8985635840,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,6 +4813,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
+        },
+        {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
@@ -4821,11 +4826,6 @@
           "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
           "publisher": "decrypt",
           "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet"
-        },
-        {
-          "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
         }
       ]
     }
