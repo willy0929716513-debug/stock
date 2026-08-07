@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:39:55.657877+00:00",
+  "generated_at": "2026-08-07T07:45:17.763904+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4345.5,
-      "change_pct": 2.44,
-      "volume": 39281,
+      "price": 4346.5,
+      "change_pct": 2.46,
+      "volume": 39607,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4345.50 觸及上軌 4270.88)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4346.50 觸及上軌 4271.23)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4345.5,
-        "stop_loss": 4455.0107,
-        "take_profit": 4162.9821,
+        "entry_price": 4346.5,
+        "stop_loss": 4456.0107,
+        "take_profit": 4163.9821,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.58,
-      "change_pct": 0.38,
-      "volume": 22494,
+      "price": 77.68,
+      "change_pct": 0.5,
+      "volume": 23129,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Global equity funds draw inflows for 11th week as upbeat earnings lift sentiment",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/global-equity-funds-draw-inflows-072641363.html"
+          "title": "Oil extends gains and stocks mostly down on fresh Hormuz worries",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.261,
-      "change_pct": -0.01,
+      "price": 32.285,
+      "change_pct": 0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.382,
+      "price": 158.394,
       "change_pct": 0.5,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.382,
-        "stop_loss": 155.9036,
-        "take_profit": 162.5127,
+        "entry_price": 158.394,
+        "stop_loss": 155.9156,
+        "take_profit": 162.5247,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,17 +4731,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64332.9492,
-      "change_pct": 0.11,
-      "volume": 18116349952,
-      "signal": "buy",
-      "confidence": 0.44,
+      "price": 64319.1211,
+      "change_pct": 0.09,
+      "volume": 18020757504,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.73,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4756,13 +4756,7 @@
           "rationale": "波動度正常(ATR/價格=2.03%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 64332.9492,
-        "stop_loss": 62377.2305,
-        "take_profit": 67592.4805,
-        "atr": 1303.8125,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4785,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1902.34,
-      "change_pct": 0.01,
-      "volume": 7678257152,
+      "price": 1901.8199,
+      "change_pct": -0.01,
+      "volume": 7712871936,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
