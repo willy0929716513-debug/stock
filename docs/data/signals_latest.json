@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:17:59.308047+00:00",
+  "generated_at": "2026-08-07T13:23:22.962375+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://247wallst.com/investing/2026/08/07/tom-lee-thinks-2027-will-be-one-of-the-best-years-for-stocks-why-hes-got-a-strong-case/"
         },
         {
+          "title": "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/5-safest-dividend-etfs-retirees-can-buy-in-august-and-hold-forever/"
+        },
+        {
           "title": "Wall Street Cheers Disney’s Report. Here’s Our New Price Target",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/wall-street-cheers-disneys-report-heres-our-new-price-target/"
-        },
-        {
-          "title": "Archer Aviation Stock Fell Below $5. Time to Buy?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/will-buying-archer-aviation-stock-below-5-make-you/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.6001,
+      "price": 4409.5,
       "change_pct": 3.95,
-      "volume": 103098,
+      "volume": 104869,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4409.60 觸及上軌 4294.13)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4409.50 觸及上軌 4294.09)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.6001,
-        "stop_loss": 4527.0715,
-        "take_profit": 4213.8144,
+        "entry_price": 4409.5,
+        "stop_loss": 4526.9714,
+        "take_profit": 4213.7143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.67,
-      "change_pct": -0.8,
-      "volume": 73498,
+      "price": 76.97,
+      "change_pct": -0.41,
+      "volume": 75055,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.45%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,7 +4629,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.191,
+      "price": 32.19,
       "change_pct": -0.23,
       "volume": 0,
       "signal": "hold",
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.325,
-      "change_pct": -0.17,
+      "price": 157.363,
+      "change_pct": -0.15,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=20.9 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.325,
-        "stop_loss": 154.745,
-        "take_profit": 161.625,
+        "entry_price": 157.363,
+        "stop_loss": 154.783,
+        "take_profit": 161.663,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65187.6602,
-      "change_pct": 1.44,
-      "volume": 20400267264,
+      "price": 65192.5781,
+      "change_pct": 1.45,
+      "volume": 20394504192,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65187.6602,
-        "stop_loss": 63136.9639,
-        "take_profit": 68605.4873,
+        "entry_price": 65192.5781,
+        "stop_loss": 63141.8818,
+        "take_profit": 68610.4053,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1927.79,
-      "change_pct": 1.35,
-      "volume": 8985635840,
+      "price": 1929.01,
+      "change_pct": 1.42,
+      "volume": 8985379840,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
