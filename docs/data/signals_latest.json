@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:23:22.962375+00:00",
+  "generated_at": "2026-08-07T13:28:47.514805+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "AMD Buys AI Chip Startup Taalas—Here's Why It Matters To NVDA Investors",
+          "publisher": "Benzinga Prediction Markets",
+          "link": "https://www.benzinga.com/markets/prediction-markets/26/08/61038183/amd-taalas-ai-chip-acquisition?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
+        },
+        {
           "title": "Tom Lee Thinks 2027 Will Be “One of the Best Years” for Stocks—Why He’s Got a Strong Case",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/tom-lee-thinks-2027-will-be-one-of-the-best-years-for-stocks-why-hes-got-a-strong-case/"
@@ -4317,11 +4322,6 @@
           "title": "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/5-safest-dividend-etfs-retirees-can-buy-in-august-and-hold-forever/"
-        },
-        {
-          "title": "Wall Street Cheers Disney’s Report. Here’s Our New Price Target",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/wall-street-cheers-disneys-report-heres-our-new-price-target/"
         }
       ]
     },
@@ -4527,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.5,
-      "change_pct": 3.95,
-      "volume": 104869,
+      "price": 4400.0,
+      "change_pct": 3.72,
+      "volume": 106213,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4409.50 觸及上軌 4294.09)"
+          "confidence": 0.71,
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4400.00 觸及上軌 4290.51)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.5,
-        "stop_loss": 4526.9714,
-        "take_profit": 4213.7143,
+        "entry_price": 4400.0,
+        "stop_loss": 4517.4714,
+        "take_profit": 4204.2143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.97,
-      "change_pct": -0.41,
-      "volume": 75055,
+      "price": 76.73,
+      "change_pct": -0.72,
+      "volume": 76334,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.45%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
-          "title": "Oil prices drop as investors weigh potential Hormuz deal between Iran and Gulf states",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
+          "title": "ADNOC L&S buys 11 vessels in $1.3bn fleet expansion",
+          "publisher": "Offshore Technology",
+          "link": "https://www.offshore-technology.com/news/adnoc-ls-1-3bn-fleet-expansion/"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.19,
-      "change_pct": -0.23,
+      "price": 32.186,
+      "change_pct": -0.24,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.363,
-      "change_pct": -0.15,
+      "price": 157.399,
+      "change_pct": -0.13,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.363,
-        "stop_loss": 154.783,
-        "take_profit": 161.663,
+        "entry_price": 157.399,
+        "stop_loss": 154.819,
+        "take_profit": 161.699,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65192.5781,
-      "change_pct": 1.45,
-      "volume": 20394504192,
+      "price": 65114.0195,
+      "change_pct": 1.33,
+      "volume": 20322893824,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65192.5781,
-        "stop_loss": 63141.8818,
-        "take_profit": 68610.4053,
+        "entry_price": 65114.0195,
+        "stop_loss": 63063.3232,
+        "take_profit": 68531.8467,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1929.01,
-      "change_pct": 1.42,
-      "volume": 8985379840,
+      "price": 1925.65,
+      "change_pct": 1.24,
+      "volume": 8977153024,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.94%)"
+          "rationale": "波動度正常(ATR/價格=2.95%)"
         }
       ],
       "risk_levels": null,
