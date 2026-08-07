@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:12:06.861800+00:00",
+  "generated_at": "2026-08-07T08:17:28.631745+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Ooredoo invests $800m in Indonesian AI neocloud platform Zankore",
+          "publisher": "Verdict",
+          "link": "https://www.verdict.co.uk/ooredoo-invests-800m-zankore/"
+        },
+        {
           "title": "SpaceX Shares Fail to Launch Despite Soaring Revenue. Is the Stock a Buy on the Dip?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/spacex-shares-fail-to-launch-despite-soaring-reven/"
@@ -4317,11 +4322,6 @@
           "title": "Samsung’s new memory chip could make Nvidia’s AI chips faster",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/technology/samsung-new-memory-chip-ai-faster"
-        },
-        {
-          "title": "SpaceX (SPCX) Unveils Orbital AI Network And $16.8 Billion Chip Factory Plans",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/spacex-spcx-unveils-orbital-ai-051429949.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4351.0,
-      "change_pct": 2.57,
-      "volume": 41660,
+      "price": 4352.2998,
+      "change_pct": 2.6,
+      "volume": 42165,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4351.00 觸及上軌 4272.79)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4352.30 觸及上軌 4273.24)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4351.0,
-        "stop_loss": 4460.5107,
-        "take_profit": 4168.4821,
+        "entry_price": 4352.2998,
+        "stop_loss": 4461.8105,
+        "take_profit": 4169.7819,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.7,
-      "change_pct": 0.53,
-      "volume": 24733,
+      "price": 77.57,
+      "change_pct": 0.36,
+      "volume": 25229,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.278,
-      "change_pct": 0.04,
+      "price": 32.256,
+      "change_pct": -0.03,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.446,
-      "change_pct": 0.54,
+      "price": 158.466,
+      "change_pct": 0.55,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.446,
-        "stop_loss": 155.9676,
-        "take_profit": 162.5767,
+        "entry_price": 158.466,
+        "stop_loss": 155.9876,
+        "take_profit": 162.5967,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,17 +4731,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64293.1992,
-      "change_pct": 0.05,
-      "volume": 17788510208,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 64325.4492,
+      "change_pct": 0.1,
+      "volume": 17675069440,
+      "signal": "buy",
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.73,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
           "agent": "macro",
@@ -4756,7 +4756,13 @@
           "rationale": "波動度正常(ATR/價格=2.03%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 64325.4492,
+        "stop_loss": 62369.7305,
+        "take_profit": 67584.9805,
+        "atr": 1303.8125,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4779,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1902.34,
-      "change_pct": 0.01,
-      "volume": 7574512640,
+      "price": 1903.51,
+      "change_pct": 0.08,
+      "volume": 7547414016,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
