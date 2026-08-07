@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:14:22.668537+00:00",
+  "generated_at": "2026-08-07T22:19:53.102225+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Construction Partners, Inc. Q3 2026 Earnings Call Summary",
+          "title": "PPL Corporation Q2 2026 Earnings Call Summary",
           "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-construction-partners-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-ppl-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64891.9414,
-      "change_pct": 0.98,
-      "volume": 21939968000,
+      "price": 64877.6406,
+      "change_pct": 0.96,
+      "volume": 22014793728,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64891.9414,
-        "stop_loss": 62841.2451,
-        "take_profit": 68309.7686,
+        "entry_price": 64877.6406,
+        "stop_loss": 62826.9443,
+        "take_profit": 68295.4678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.5699,
-      "change_pct": 0.66,
-      "volume": 9099844608,
+      "price": 1914.02,
+      "change_pct": 0.63,
+      "volume": 9122810880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
