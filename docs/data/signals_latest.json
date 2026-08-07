@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:07:32.465717+00:00",
+  "generated_at": "2026-08-07T12:12:55.769459+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "SharonAI Holdings, Inc. Class A Common Stock Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/sharonai-holdings-inc-class-a-common-stock-q2-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Exxon's Profit Fell Short. Its Dividend Didn't.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/exxons-profit-fell-short-its-dividend-didnt/"
@@ -4317,11 +4322,6 @@
           "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-amd-advances-ai-113923975.html"
-        },
-        {
-          "title": "2 Space Stocks to Buy in August",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/2-space-stocks-to-buy-in-august/"
         }
       ]
     },
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-stocks-storm-back-103001009.html"
+          "title": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/ai-stocks-cybersecurity-artificial-intelligence-battlefield/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4459,6 +4459,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "How A Top T. Rowe Price Manager Literally Scoops Up Melting Stocks",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/etfs-and-funds/mutual-funds/mutual-fund-manager-scoops-up-beaten-down-stocks/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/trump-calls-ai-bigger-than-oil-in-the-race-against-china-for-tech-crypto-dominance/cZofbMGRJBi"
@@ -4467,11 +4472,6 @@
           "title": "Chasing 17.24% Yield? XDTE Holders Are Getting Their Own Money Back—and Paying for It",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/06/chasing-17-24-yield-xdte-holders-are-getting-their-own-money-back-and-paying-for-it/"
-        },
-        {
-          "title": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street’s Second Straight Day In The Red",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-slipping-overnight-wall-street-second-day-red/cZoOFqgRJJw"
         }
       ]
     },
@@ -4507,6 +4507,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/trump-calls-ai-bigger-than-oil-in-the-race-against-china-for-tech-crypto-dominance/cZofbMGRJBi"
@@ -4515,11 +4520,6 @@
           "title": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/tech-stocks-pressure-1-magnificent-etf-buy-the-dip/"
-        },
-        {
-          "title": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street’s Second Straight Day In The Red",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sp500-dow-futures-slipping-overnight-wall-street-second-day-red/cZoOFqgRJJw"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4386.3999,
-      "change_pct": 3.4,
-      "volume": 69705,
+      "price": 4382.5,
+      "change_pct": 3.31,
+      "volume": 70632,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.6 進入超買區); bollinger_band:sell(價格 4386.40 觸及上軌 4285.47)"
+          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4382.50 觸及上軌 4284.04)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4386.3999,
-        "stop_loss": 4499.0285,
-        "take_profit": 4198.6856,
+        "entry_price": 4382.5,
+        "stop_loss": 4495.1286,
+        "take_profit": 4194.7857,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.74,
-      "change_pct": -0.71,
-      "volume": 52643,
+      "price": 76.71,
+      "change_pct": -0.75,
+      "volume": 53149,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.249,
-      "change_pct": -0.05,
+      "price": 32.245,
+      "change_pct": -0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.326,
-      "change_pct": 0.46,
+      "price": 158.308,
+      "change_pct": 0.45,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.326,
-        "stop_loss": 155.8476,
-        "take_profit": 162.4567,
+        "entry_price": 158.308,
+        "stop_loss": 155.8296,
+        "take_profit": 162.4387,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64998.0,
-      "change_pct": 1.15,
-      "volume": 18949894144,
+      "price": 65177.9414,
+      "change_pct": 1.43,
+      "volume": 18908884992,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.71,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64998.0,
-        "stop_loss": 62967.7893,
-        "take_profit": 68381.6844,
+        "entry_price": 65177.9414,
+        "stop_loss": 63147.7307,
+        "take_profit": 68561.6258,
         "atr": 1353.4738,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Stock Market Today: Dow Rises Ahead Of Pivotal Jobs Report; AI Stock Cloudflare Soars On Earnings (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Bitcoin Price to $33,000? CLARITY Act's September Delay Sparks Crash Warning",
           "publisher": "CCN",
           "link": "https://www.ccn.com/news/crypto/bitcoin-price-33000-clarity-act-september-delay-sparks-crash-warning/"
-        },
-        {
-          "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.3101,
-      "change_pct": 0.91,
-      "volume": 8214861312,
+      "price": 1933.4,
+      "change_pct": 1.65,
+      "volume": 8291917824,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.90%)"
+          "rationale": "波動度正常(ATR/價格=2.92%)"
         }
       ],
       "risk_levels": null,
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet"
+        },
+        {
           "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
-        },
-        {
-          "title": "In a Down Crypto Market, Does Investing in Prediction Markets Make Sense?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/in-a-down-crypto-market-does-investing-in-predicti/"
         }
       ]
     }
