@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:54:45.632656+00:00",
+  "generated_at": "2026-08-07T17:00:11.858776+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
+        },
+        {
           "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
@@ -107,11 +112,6 @@
           "title": "Could Taiwan Semiconductor Manufacturing (TSM) Be the Most Critical Bottleneck in the AI Chip Boom?",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/could-taiwan-semiconductor-manufacturing-tsm-152156862.html"
-        },
-        {
-          "title": "Semiconductor Sales Continue to Grow on AI Optimism: 4 Stocks to Grab",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/semiconductor-sales-continue-grow-ai-133600129.html"
         }
       ]
     },
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.19,
-      "change_pct": -0.07,
-      "volume": 15572066,
+      "price": 312.225,
+      "change_pct": -0.06,
+      "volume": 15703750,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,17 +4071,17 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.825,
-      "change_pct": 0.59,
-      "volume": 12188057,
+      "price": 501.11,
+      "change_pct": 0.25,
+      "volume": 12695448,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
+          "confidence": 0.43,
+          "rationale": "rsi:sell(RSI=81.6 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4093,13 +4093,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.47%)"
+          "rationale": "波動度正常(ATR/價格=3.49%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 502.825,
-        "stop_loss": 529.0311,
-        "take_profit": 459.1482,
+        "entry_price": 501.11,
+        "stop_loss": 527.3161,
+        "take_profit": 457.4332,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.26,
-      "change_pct": 1.49,
-      "volume": 56973764,
+      "price": 222.04,
+      "change_pct": 1.39,
+      "volume": 57565224,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,25 +4147,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.52%)"
+          "rationale": "波動度正常(ATR/價格=3.53%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Nvidia Stock Jumps After AMD Acquires AI Startup Taalas",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-jumps-amd-acquires-164513864.html"
+          "title": "Call options explained: From opening trade to expiration",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "AMD Is Buying Its Way Deeper Into AI Inference",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/amd-buying-way-deeper-ai-164255362.html"
-        },
-        {
-          "title": "Why Fluor Stock Is Skyrocketing Today",
+          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-fluor-stock-is-skyrocketing-today/"
+          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
+        },
+        {
+          "title": "SpaceX Signed $14.1 Billion of Cloud Contracts in a Single Quarter. Its AI Segment Revenue Hit $2.56 Billion.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/spacex-signed-141-billion-of-cloud-contracts-in-a/"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 328.0275,
-      "change_pct": 2.66,
-      "volume": 24443371,
+      "price": 327.97,
+      "change_pct": 2.64,
+      "volume": 24704190,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4199,9 +4199,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 328.0275,
-        "stop_loss": 305.6143,
-        "take_profit": 365.3828,
+        "entry_price": 327.97,
+        "stop_loss": 305.5568,
+        "take_profit": 365.3253,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.2651,
-      "change_pct": -0.69,
-      "volume": 10600729,
+      "price": 355.32,
+      "change_pct": -0.68,
+      "volume": 10666674,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.24,
-      "change_pct": 0.48,
-      "volume": 19148706,
+      "price": 772.05,
+      "change_pct": 0.45,
+      "volume": 19767770,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 720.95,
-      "change_pct": 0.88,
-      "volume": 18711708,
+      "price": 720.81,
+      "change_pct": 0.86,
+      "volume": 18861242,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4373,7 +4373,7 @@
       "category": "commodity",
       "price": 4397.6001,
       "change_pct": 3.67,
-      "volume": 158261,
+      "volume": 159104,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4410,14 +4410,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
+          "title": "DUST Drops 13% as Gold Miners Rally Hard",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/07/dust-drops-13-as-gold-miners-rally-hard/"
+        },
+        {
           "title": "Citadel’s Rubner says it’s time to start buying gold again",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/commodities/articles/citadel-rubner-says-time-start-161835992.html"
-        },
-        {
-          "title": "CME Group (CME) Stock Looks Stretched As Its 56% Five Year Run Continues",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cme-group-cme-stock-looks-161833812.html"
         }
       ]
     },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.19,
-      "change_pct": 1.16,
-      "volume": 134066,
+      "price": 78.24,
+      "change_pct": 1.23,
+      "volume": 135029,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4446,8 +4446,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
+          "confidence": 0.26,
+          "rationale": "波動度過高(ATR/價格=6.32%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.238,
-      "change_pct": -0.08,
+      "price": 32.236,
+      "change_pct": -0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.416,
-      "change_pct": -0.12,
+      "price": 157.446,
+      "change_pct": -0.1,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.31,
@@ -4531,7 +4531,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=21.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.416,
-        "stop_loss": 154.836,
-        "take_profit": 161.716,
+        "entry_price": 157.446,
+        "stop_loss": 154.866,
+        "take_profit": 161.746,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64838.4414,
-      "change_pct": 0.9,
-      "volume": 21340487680,
+      "price": 64759.0391,
+      "change_pct": 0.77,
+      "volume": 21238124544,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64838.4414,
-        "stop_loss": 62787.7451,
-        "take_profit": 68256.2686,
+        "entry_price": 64759.0391,
+        "stop_loss": 62708.3428,
+        "take_profit": 68176.8662,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.0,
-      "change_pct": 0.52,
-      "volume": 8960589824,
+      "price": 1908.79,
+      "change_pct": 0.35,
+      "volume": 8856384512,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
