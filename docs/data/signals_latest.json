@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:23:51.012595+00:00",
+  "generated_at": "2026-08-07T07:29:13.084178+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4349.1001,
-      "change_pct": 2.52,
-      "volume": 37869,
+      "price": 4350.2002,
+      "change_pct": 2.55,
+      "volume": 38295,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4349.10 觸及上軌 4272.13)"
+          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4350.20 觸及上軌 4272.51)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4349.1001,
-        "stop_loss": 4458.6108,
-        "take_profit": 4166.5822,
+        "entry_price": 4350.2002,
+        "stop_loss": 4459.7109,
+        "take_profit": 4167.6823,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-august-6-2026-gold-prices-surge-as-hormuz-inches-closer-to-reopening-130743281.html"
         },
         {
+          "title": "Is McEwen (MUX) Undervalued Following Its 2026 Production Guidance Update?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mcewen-mux-undervalued-following-2026-071136890.html"
+        },
+        {
           "title": "Newmont (NEM) Stock Stays Reasonable Following Its 183% Three Year Run",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-nem-stock-stays-reasonable-051420877.html"
-        },
-        {
-          "title": "Gold ETFs Add $3 Billion in July Reversing Two-Month Outflow Streak",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/gold-etf-inflows-july-2026-rebound/"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.74,
-      "change_pct": 0.58,
-      "volume": 21585,
+      "price": 77.78,
+      "change_pct": 0.63,
+      "volume": 21934,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Oil rises on concerns over Strait of Hormuz reopening plans",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/energy/articles/oil-rises-concerns-over-strait-004641480.html"
+          "title": "Amrize slides in extended trading on Q2 profit miss, EBITDA guide cut",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amrize-slides-extended-trading-q2-072235726.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.274,
-      "change_pct": 0.03,
+      "price": 32.28,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.372,
-      "change_pct": 0.49,
+      "price": 158.381,
+      "change_pct": 0.5,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.372,
-        "stop_loss": 155.8936,
-        "take_profit": 162.5027,
+        "entry_price": 158.381,
+        "stop_loss": 155.9026,
+        "take_profit": 162.5117,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,17 +4731,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64316.8789,
-      "change_pct": 0.09,
-      "volume": 17985921024,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 64364.6016,
+      "change_pct": 0.16,
+      "volume": 18086045696,
+      "signal": "buy",
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.73,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
           "agent": "macro",
@@ -4756,7 +4756,13 @@
           "rationale": "波動度正常(ATR/價格=2.03%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 64364.6016,
+        "stop_loss": 62408.8828,
+        "take_profit": 67624.1328,
+        "atr": 1303.8125,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
@@ -4779,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1904.0,
-      "change_pct": 0.1,
-      "volume": 7595902976,
+      "price": 1904.4,
+      "change_pct": 0.12,
+      "volume": 7667961344,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
