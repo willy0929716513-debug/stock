@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:40:53.659831+00:00",
+  "generated_at": "2026-08-07T06:46:16.409670+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4340.1001,
-      "change_pct": 2.31,
-      "volume": 31501,
+      "price": 4345.3999,
+      "change_pct": 2.44,
+      "volume": 32195,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4340.10 觸及上軌 4269.03)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4345.40 觸及上軌 4270.85)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4340.1001,
-        "stop_loss": 4448.7751,
-        "take_profit": 4158.975,
+        "entry_price": 4345.3999,
+        "stop_loss": 4454.0749,
+        "take_profit": 4164.2749,
         "atr": 72.45,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.58,
-      "change_pct": 0.38,
-      "volume": 18904,
+      "price": 77.88,
+      "change_pct": 0.76,
+      "volume": 19499,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.28%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.315,
-      "change_pct": 0.16,
+      "price": 32.325,
+      "change_pct": 0.19,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.34,
+      "price": 158.337,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.34,
-        "stop_loss": 155.8616,
-        "take_profit": 162.4707,
+        "entry_price": 158.337,
+        "stop_loss": 155.8586,
+        "take_profit": 162.4677,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64307.3906,
-      "change_pct": -0.45,
-      "volume": 17908207616,
+      "price": 64301.1992,
+      "change_pct": -0.46,
+      "volume": 18037796864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1903.46,
+      "price": 1903.55,
       "change_pct": -0.16,
-      "volume": 7611060736,
+      "volume": 7669765120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.01%)"
+          "rationale": "波動度正常(ATR/價格=3.00%)"
         }
       ],
       "risk_levels": null,
