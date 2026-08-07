@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:28:12.453007+00:00",
+  "generated_at": "2026-08-07T08:33:33.638102+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4357.0,
-      "change_pct": 2.71,
-      "volume": 43496,
+      "price": 4354.0,
+      "change_pct": 2.64,
+      "volume": 44013,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.6 進入超買區); bollinger_band:sell(價格 4357.00 觸及上軌 4274.89)"
+          "rationale": "rsi:sell(RSI=72.5 進入超買區); bollinger_band:sell(價格 4354.00 觸及上軌 4273.84)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4357.0,
-        "stop_loss": 4466.725,
-        "take_profit": 4174.125,
+        "entry_price": 4354.0,
+        "stop_loss": 4463.725,
+        "take_profit": 4171.125,
         "atr": 73.15,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.76,
-      "change_pct": 0.61,
-      "volume": 26706,
+      "price": 77.9,
+      "change_pct": 0.79,
+      "volume": 27279,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.29%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.28%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.272,
-      "change_pct": 0.02,
+      "price": 32.26,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.439,
-      "change_pct": 0.53,
+      "price": 158.446,
+      "change_pct": 0.54,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.6 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.439,
-        "stop_loss": 155.9606,
-        "take_profit": 162.5697,
+        "entry_price": 158.446,
+        "stop_loss": 155.9676,
+        "take_profit": 162.5767,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64383.5898,
-      "change_pct": 0.19,
-      "volume": 17662402560,
+      "price": 64422.0391,
+      "change_pct": 0.25,
+      "volume": 17694357504,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4753,13 +4753,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.03%)"
+          "rationale": "波動度正常(ATR/價格=2.02%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64383.5898,
-        "stop_loss": 62427.8711,
-        "take_profit": 67643.1211,
+        "entry_price": 64422.0391,
+        "stop_loss": 62466.3203,
+        "take_profit": 67681.5703,
         "atr": 1303.8125,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1904.27,
-      "change_pct": 0.12,
-      "volume": 7494838784,
+      "price": 1904.99,
+      "change_pct": 0.15,
+      "volume": 7529809408,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
