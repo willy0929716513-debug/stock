@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:12:01.339354+00:00",
+  "generated_at": "2026-08-07T15:17:25.831114+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.95,
-      "change_pct": 0.49,
-      "volume": 10229908,
+      "price": 313.74,
+      "change_pct": 0.43,
+      "volume": 10461128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4217,9 +4217,9 @@
           "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Apple Stock Surged On An Upgrade Cycle Its Own Reports Flagged Early",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610602/apple-stock-surged-on-an-upgrade-cycle-its-own-reports-flagged-early/2026-08-07"
+          "title": "Warren Buffett Said If He Was a ‘Handy’ Investor, He’d Buy Fixer-Uppers With a 30-Year Mortgage and Rent Them Out — ‘It’s a Way…to Short the Dollar’",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/real-estate/articles/warren-buffett-said-handy-investor-140023983.html"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 502.68,
-      "change_pct": 0.56,
-      "volume": 8591926,
+      "price": 503.16,
+      "change_pct": 0.66,
+      "volume": 8852934,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.7 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4249,13 +4249,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.48%)"
+          "rationale": "波動度正常(ATR/價格=3.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 502.68,
-        "stop_loss": 528.8861,
-        "take_profit": 459.0032,
+        "entry_price": 503.16,
+        "stop_loss": 529.3661,
+        "take_profit": 459.4832,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.767,
-      "change_pct": 2.18,
-      "volume": 35355955,
+      "price": 223.895,
+      "change_pct": 2.24,
+      "volume": 36289314,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 330.39,
-      "change_pct": 3.4,
-      "volume": 16148458,
+      "price": 330.065,
+      "change_pct": 3.3,
+      "volume": 16639440,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.47%)"
+          "rationale": "波動度正常(ATR/價格=4.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 330.39,
-        "stop_loss": 308.2307,
-        "take_profit": 367.3222,
+        "entry_price": 330.065,
+        "stop_loss": 307.9057,
+        "take_profit": 366.9972,
         "atr": 14.7729,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 357.13,
-      "change_pct": -0.17,
-      "volume": 7760377,
+      "price": 357.36,
+      "change_pct": -0.11,
+      "volume": 8033540,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4421,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Alphabet Is Borrowing $25 Billion to Keep the AI Buildout Going",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-borrowing-25-billion-keep-145110629.html"
+          "title": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/articles/610606/oracle-stock-fell-while-its-operating-margin-climbed-for-a-third-straight-year/2026-08-07"
         }
       ]
     },
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.22,
-      "change_pct": 0.61,
-      "volume": 11719151,
+      "price": 773.03,
+      "change_pct": 0.58,
+      "volume": 12003272,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.475,
-      "change_pct": 0.96,
-      "volume": 11954796,
+      "price": 721.18,
+      "change_pct": 0.91,
+      "volume": 12389393,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4405.7998,
-      "change_pct": 3.86,
-      "volume": 140799,
+      "price": 4407.7002,
+      "change_pct": 3.91,
+      "volume": 142125,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4405.80 觸及上軌 4292.69)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4407.70 觸及上軌 4293.41)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4405.7998,
-        "stop_loss": 4523.2712,
-        "take_profit": 4210.0141,
+        "entry_price": 4407.7002,
+        "stop_loss": 4525.1716,
+        "take_profit": 4211.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.11,
-      "change_pct": 1.06,
-      "volume": 103664,
+      "price": 78.42,
+      "change_pct": 1.46,
+      "volume": 107104,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
+          "confidence": 0.26,
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4677,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.852,
-      "change_pct": 0.16,
+      "price": 157.756,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.29,
+      "confidence": 0.3,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=23.8 進入超賣區)"
+          "confidence": 0.5,
+          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.852,
-        "stop_loss": 155.272,
-        "take_profit": 162.152,
+        "entry_price": 157.756,
+        "stop_loss": 155.176,
+        "take_profit": 162.056,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64916.6406,
-      "change_pct": 1.02,
-      "volume": 21408919552,
+      "price": 64923.2812,
+      "change_pct": 1.03,
+      "volume": 21427222528,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64916.6406,
-        "stop_loss": 62865.9443,
-        "take_profit": 68334.4678,
+        "entry_price": 64923.2812,
+        "stop_loss": 62872.585,
+        "take_profit": 68341.1084,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.4,
+      "price": 1914.51,
       "change_pct": 0.65,
-      "volume": 9076183040,
+      "volume": 9058096128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
