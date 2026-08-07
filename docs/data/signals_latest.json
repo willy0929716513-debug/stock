@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:52:18.519423+00:00",
+  "generated_at": "2026-08-07T21:57:49.199823+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4560,14 +4560,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
-          "title": "Basic Materials Roundup: Market Talk",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-aba4c272?siteid=yhoof2&yptr=yahoo"
+          "title": "SLV vs GDX: Is a Silver ETF a Better Buy Than a Gold Miner Fund in 2026?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/etfs/2026/08/07/slv-vs-gdx-is-a-silver-etf-a-better-buy-than-a-gold-miner-fund-in-2026/"
         },
         {
-          "title": "Skeena Resources (TSX:SKE) Following Recent Volatility Is Eskay Creek Upside Already Priced In",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/skeena-resources-tsx-ske-following-211253825.html"
+          "title": "Stock Market Today, Aug. 7: Markets Rally on Jobs Shock and Atlassian Surges 35%",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/07/stock-market-today-aug-7-markets-rally-on-jobs-shock-and-atlassian-surges-35/"
         }
       ]
     },
@@ -4725,16 +4725,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64931.9414,
-      "change_pct": 1.04,
-      "volume": 21861994496,
+      "price": 64906.5898,
+      "change_pct": 1.0,
+      "volume": 21930428416,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.73,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64931.9414,
-        "stop_loss": 62881.2451,
-        "take_profit": 68349.7686,
+        "entry_price": 64906.5898,
+        "stop_loss": 62855.8936,
+        "take_profit": 68324.417,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.5,
-      "change_pct": 0.76,
-      "volume": 8995004416,
+      "price": 1915.83,
+      "change_pct": 0.72,
+      "volume": 9023489024,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
