@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:35:10.519459+00:00",
+  "generated_at": "2026-08-07T11:40:34.901317+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://www.fool.com/investing/2026/08/07/2-space-stocks-to-buy-in-august/"
         },
         {
-          "title": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/amazon-ceo-andy-jassy-just-made-a-shocking-trillio/"
+          "title": "Honeywell Aerospace Tumbles on Disappointing Debut Report, but Bull Case Remains Intact",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/honeywell-aerospace-tumbles-on-disappointing-debut-report-but-bull-case-remains-intact/"
         },
         {
-          "title": "S&P 500, Dow Head for Best Weekly Performance Since April",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/s-p-500-dow-head-for-best-weekly-performance-since-april-JxD98WLs6WbTkPkpMLEV?siteid=yhoof2&yptr=yahoo"
+          "title": "The S&P 500 Index Just Did Something for Only the 3rd Time in the Past 30 Years. Here's What History Says Comes Next.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/the-sp-500-index-just-did-something-for-only-the-3/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4383.7002,
-      "change_pct": 3.34,
-      "volume": 65849,
+      "price": 4384.7002,
+      "change_pct": 3.36,
+      "volume": 66576,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4383.70 觸及上軌 4284.48)"
+          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4384.70 觸及上軌 4284.85)"
         },
         {
           "agent": "macro",
@@ -4553,10 +4553,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4383.7002,
-        "stop_loss": 4496.1788,
-        "take_profit": 4196.2359,
-        "atr": 74.9857,
+        "entry_price": 4384.7002,
+        "stop_loss": 4497.2859,
+        "take_profit": 4197.0573,
+        "atr": 75.0572,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.84,
-      "change_pct": -0.58,
-      "volume": 49150,
+      "price": 76.76,
+      "change_pct": -0.69,
+      "volume": 49737,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
+          "confidence": 0.29,
+          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.256,
-      "change_pct": -0.03,
+      "price": 32.261,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,7 +4677,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.337,
+      "price": 158.342,
       "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.337,
-        "stop_loss": 155.8586,
-        "take_profit": 162.4677,
+        "entry_price": 158.342,
+        "stop_loss": 155.8636,
+        "take_profit": 162.4727,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64975.8984,
-      "change_pct": 1.11,
-      "volume": 18873184256,
+      "price": 65033.2891,
+      "change_pct": 1.2,
+      "volume": 18836484096,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64975.8984,
-        "stop_loss": 62945.6878,
-        "take_profit": 68359.5829,
+        "entry_price": 65033.2891,
+        "stop_loss": 63003.0784,
+        "take_profit": 68416.9735,
         "atr": 1353.4738,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.49,
-      "change_pct": 0.65,
-      "volume": 8123052032,
+      "price": 1916.3,
+      "change_pct": 0.75,
+      "volume": 8129113600,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
