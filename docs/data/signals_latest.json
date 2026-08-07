@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:56:44.023395+00:00",
+  "generated_at": "2026-08-07T12:02:08.113359+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Exxon's Profit Fell Short. Its Dividend Didn't.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/exxons-profit-fell-short-its-dividend-didnt/"
+        },
+        {
           "title": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/ai-chips-amd-advances-ai-113923975.html"
@@ -4317,11 +4322,6 @@
           "title": "2 Space Stocks to Buy in August",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/2-space-stocks-to-buy-in-august/"
-        },
-        {
-          "title": "Honeywell Aerospace Tumbles on Disappointing Debut Report, but Bull Case Remains Intact",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/honeywell-aerospace-tumbles-on-disappointing-debut-report-but-bull-case-remains-intact/"
         }
       ]
     },
@@ -4368,14 +4368,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
-          "title": "Tesla is 'the best choice': Valvetronic Designs founder talks customized vs. everyday cars",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/tesla-best-choice-valvetronic-designs-120000265.html"
-        },
-        {
           "title": "SPCX Stock Hasn’t Bottomed Out Yet, But It’s ‘A Really Great Time To Buy,’ Says This Asset Manager",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-hasn-t-bottomed-out-yet-but-it-s-a-really-great-time-to-buy-says-this-asset-manager/cZofTjDRJBS"
+        },
+        {
+          "title": "Electric Vehicles Today - LiDAR Market Growth Driven By Automated Driving Systems",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/articles/electric-vehicles-today-lidar-market-103943402.html"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4382.7998,
-      "change_pct": 3.32,
-      "volume": 68203,
+      "price": 4383.7002,
+      "change_pct": 3.34,
+      "volume": 68755,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4382.80 觸及上軌 4284.15)"
+          "rationale": "rsi:sell(RSI=73.5 進入超買區); bollinger_band:sell(價格 4383.70 觸及上軌 4284.48)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4382.7998,
-        "stop_loss": 4495.4284,
-        "take_profit": 4195.0855,
+        "entry_price": 4383.7002,
+        "stop_loss": 4496.3288,
+        "take_profit": 4195.9859,
         "atr": 75.0857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.65,
-      "change_pct": -0.83,
-      "volume": 51454,
+      "price": 76.6,
+      "change_pct": -0.89,
+      "volume": 52112,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-jobs-report-100009572.html"
         },
         {
-          "title": "Persian Gulf, Earnings Undergird European Bourses Midday",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/persian-gulf-earnings-undergird-european-114121589.html"
+          "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
-          "title": "European stocks rise before US jobs report",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
+          "title": "US Equity Futures Rise Pre-Bell as Traders Await Jobs Report, Monitor Middle East Developments",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-115512326.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.254,
-      "change_pct": -0.03,
+      "price": 32.245,
+      "change_pct": -0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.32,
-      "change_pct": 0.46,
+      "price": 158.336,
+      "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=27.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.32,
-        "stop_loss": 155.8416,
-        "take_profit": 162.4507,
+        "entry_price": 158.336,
+        "stop_loss": 155.8576,
+        "take_profit": 162.4667,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64972.3086,
-      "change_pct": 1.11,
-      "volume": 18890711040,
+      "price": 64998.1602,
+      "change_pct": 1.15,
+      "volume": 18950014976,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64972.3086,
-        "stop_loss": 62942.0979,
-        "take_profit": 68355.993,
+        "entry_price": 64998.1602,
+        "stop_loss": 62967.9495,
+        "take_profit": 68381.8446,
         "atr": 1353.4738,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-6-2026-prices-firm-as-hormuz-negotiations-continue-and-adp-jobs-report-misses-134510256.html"
         },
         {
+          "title": "Bitcoin Price to $33,000? CLARITY Act's September Delay Sparks Crash Warning",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/bitcoin-price-33000-clarity-act-september-delay-sparks-crash-warning/"
+        },
+        {
           "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
-        },
-        {
-          "title": "Bitcoin Could Split in Two This Weekend: What Holders Need to Know",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/bip-110-mandatory-signaling-bitcoin-core-warning/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.53,
-      "change_pct": 0.66,
-      "volume": 8216965120,
+      "price": 1916.34,
+      "change_pct": 0.75,
+      "volume": 8230565888,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
