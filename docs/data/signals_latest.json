@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:34:02.079027+00:00",
+  "generated_at": "2026-08-07T14:39:29.940940+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 314.355,
-      "change_pct": 0.62,
-      "volume": 7716257,
+      "price": 314.21,
+      "change_pct": 0.58,
+      "volume": 8109306,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.7501,
-      "change_pct": 0.78,
-      "volume": 6441234,
+      "price": 503.0,
+      "change_pct": 0.63,
+      "volume": 6724858,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.7501,
-        "stop_loss": 529.9562,
-        "take_profit": 460.0733,
+        "entry_price": 503.0,
+        "stop_loss": 529.2061,
+        "take_profit": 459.3232,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.11,
-      "change_pct": 1.88,
-      "volume": 25775860,
+      "price": 222.9,
+      "change_pct": 1.79,
+      "volume": 27158856,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.47%)"
+          "rationale": "波動度正常(ATR/價格=3.48%)"
         }
       ],
       "risk_levels": null,
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.84,
+      "price": 327.85,
       "change_pct": 2.6,
-      "volume": 10700331,
+      "volume": 11665681,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4355,9 +4355,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.84,
-        "stop_loss": 305.9421,
-        "take_profit": 364.3364,
+        "entry_price": 327.85,
+        "stop_loss": 305.9521,
+        "take_profit": 364.3464,
         "atr": 14.5986,
         "risk_reward_ratio": 1.67
       },
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.585,
-      "change_pct": -0.61,
-      "volume": 5328591,
+      "price": 354.635,
+      "change_pct": -0.87,
+      "volume": 5638953,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.70%)"
+          "rationale": "波動度正常(ATR/價格=3.71%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.64,
-      "change_pct": 0.53,
-      "volume": 8569469,
+      "price": 772.02,
+      "change_pct": 0.45,
+      "volume": 8934665,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4469,9 +4469,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html"
         },
         {
-          "title": "How A Top T. Rowe Price Manager Literally Scoops Up Melting Stocks",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/etfs-and-funds/mutual-funds/mutual-fund-manager-scoops-up-beaten-down-stocks/?src=A00220&yptr=yahoo"
+          "title": "The Bulls Have Been Rewarded This Week",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/the-bulls-have-been-rewarded-this-week-pZn61Y4dwBxYT5VT1UsU?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 720.68,
-      "change_pct": 0.84,
-      "volume": 9414083,
+      "price": 719.51,
+      "change_pct": 0.68,
+      "volume": 9831731,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4501,7 +4501,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.06%)"
+          "rationale": "波動度正常(ATR/價格=2.07%)"
         }
       ],
       "risk_levels": null,
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4408.5,
-      "change_pct": 3.93,
-      "volume": 132084,
+      "price": 4409.7002,
+      "change_pct": 3.95,
+      "volume": 133577,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4408.50 觸及上軌 4293.71)"
+          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4409.70 觸及上軌 4294.17)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4408.5,
-        "stop_loss": 4525.9714,
-        "take_profit": 4212.7143,
+        "entry_price": 4409.7002,
+        "stop_loss": 4527.1716,
+        "take_profit": 4213.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.52,
-      "change_pct": 0.3,
-      "volume": 94490,
+      "price": 77.64,
+      "change_pct": 0.45,
+      "volume": 96115,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,17 +4602,12 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.38%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.37%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
-        {
-          "title": "Small caps are quietly outperforming the S&P 500 and 'Magnificent 7' this year: AlphaCheck",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
-        },
         {
           "title": "Plains All American Tops Q2 Expectations as Higher Volumes Support Results",
           "publisher": "InvestorsHub",
@@ -4622,6 +4617,11 @@
           "title": "Dollar drops, stocks climb after surprise US jobs miss",
           "publisher": "AFP",
           "link": "https://finance.yahoo.com/energy/articles/oil-extends-gains-stocks-fall-024841858.html"
+        },
+        {
+          "title": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.226,
-      "change_pct": -0.12,
+      "price": 32.221,
+      "change_pct": -0.14,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.755,
-      "change_pct": 0.1,
+      "price": 157.775,
+      "change_pct": 0.11,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=23.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=23.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.755,
-        "stop_loss": 155.175,
-        "take_profit": 162.055,
+        "entry_price": 157.775,
+        "stop_loss": 155.195,
+        "take_profit": 162.075,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4716,14 +4716,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
+          "title": "Dollar falls against yen after weak US jobs data",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/dollar-drifts-higher-traders-eye-020453451.html"
+        },
+        {
           "title": "Bitcoin Trailed a $2.7 Trillion Gold and Silver Rally: Is the Yen to Blame?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/bitcoin-lags-gold-silver-yen-squeeze/"
-        },
-        {
-          "title": "Japan's yen surges after US jobs data, traders wary of intervention risk",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/japans-yen-surges-us-jobs-124632836.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65098.0703,
-      "change_pct": 1.3,
-      "volume": 21287841792,
+      "price": 65182.1914,
+      "change_pct": 1.43,
+      "volume": 21316757504,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65098.0703,
-        "stop_loss": 63047.374,
-        "take_profit": 68515.8975,
+        "entry_price": 65182.1914,
+        "stop_loss": 63131.4951,
+        "take_profit": 68600.0186,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.25,
-      "change_pct": 1.01,
-      "volume": 8991846400,
+      "price": 1923.09,
+      "change_pct": 1.11,
+      "volume": 8980867072,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
