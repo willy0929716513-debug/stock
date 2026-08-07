@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:27:12.082376+00:00",
+  "generated_at": "2026-08-07T09:32:34.532706+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4365.5,
-      "change_pct": 2.91,
-      "volume": 50660,
+      "price": 4368.2998,
+      "change_pct": 2.98,
+      "volume": 51062,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.9 進入超買區); bollinger_band:sell(價格 4365.50 觸及上軌 4277.90)"
+          "rationale": "rsi:sell(RSI=73.0 進入超買區); bollinger_band:sell(價格 4368.30 觸及上軌 4278.90)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4365.5,
-        "stop_loss": 4476.9286,
-        "take_profit": 4179.7857,
+        "entry_price": 4368.2998,
+        "stop_loss": 4479.7284,
+        "take_profit": 4182.5855,
         "atr": 74.2857,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.7,
-      "change_pct": 0.53,
-      "volume": 32947,
+      "price": 77.55,
+      "change_pct": 0.34,
+      "volume": 33271,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4619,9 +4619,9 @@
           "link": "https://finance.yahoo.com/video/warner-bros-discovery-earnings-jobless-120000617.html"
         },
         {
-          "title": "Oil Prices Advance as Strait of Hormuz Uncertainty Returns to the Forefront",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33694/oil-prices-advance-as-strait-of-hormuz-uncertainty-returns-to-the-forefront"
+          "title": "European shares rise as earnings support sentiment ahead of key US jobs data",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.262,
-      "change_pct": -0.01,
+      "price": 32.242,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.369,
-      "change_pct": 0.49,
+      "price": 158.344,
+      "change_pct": 0.47,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.369,
-        "stop_loss": 155.8906,
-        "take_profit": 162.4997,
+        "entry_price": 158.344,
+        "stop_loss": 155.8656,
+        "take_profit": 162.4747,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64781.9297,
-      "change_pct": 0.81,
-      "volume": 17897981952,
+      "price": 64828.1484,
+      "change_pct": 0.88,
+      "volume": 17949024256,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64781.9297,
-        "stop_loss": 62790.9618,
-        "take_profit": 68100.2095,
-        "atr": 1327.3119,
+        "entry_price": 64828.1484,
+        "stop_loss": 62831.2617,
+        "take_profit": 68156.293,
+        "atr": 1331.2578,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1909.6,
-      "change_pct": 0.4,
-      "volume": 7581096448,
+      "price": 1913.0,
+      "change_pct": 0.58,
+      "volume": 7642075648,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.89%)"
+          "rationale": "波動度正常(ATR/價格=2.88%)"
         }
       ],
       "risk_levels": null,
