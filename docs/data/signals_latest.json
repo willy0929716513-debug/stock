@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T17:11:03.929261+00:00",
+  "generated_at": "2026-08-07T18:33:41.418672+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.39,
-      "change_pct": -0.01,
-      "volume": 16056165,
+      "price": 311.81,
+      "change_pct": -0.19,
+      "volume": 19265205,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4045,7 +4045,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.99%)"
+          "rationale": "波動度正常(ATR/價格=3.00%)"
         }
       ],
       "risk_levels": null,
@@ -4056,14 +4056,14 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
+          "title": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
+          "publisher": "Quartz",
+          "link": "https://qz.com/berkshire-hathaway-greg-abel-portfolio-concentration-five-stocks-080726"
+        },
+        {
           "title": "Prediction: Can Apple Stock Reach $400 This Year?",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/prediction-can-apple-stock-reach-400-this-year/"
-        },
-        {
-          "title": "Apple (AAPL) Seeks Injunction In AI Trade Secret Lawsuit",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-seeks-injunction-ai-161633279.html"
         }
       ]
     },
@@ -4071,17 +4071,17 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 500.51,
-      "change_pct": 0.13,
-      "volume": 13176007,
+      "price": 499.5499,
+      "change_pct": -0.06,
+      "volume": 15422308,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=81.5 進入超買區)"
+          "confidence": 0.44,
+          "rationale": "rsi:sell(RSI=81.2 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4093,14 +4093,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.49%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 500.51,
-        "stop_loss": 526.7161,
-        "take_profit": 456.8332,
-        "atr": 17.4707,
+        "entry_price": 499.5499,
+        "stop_loss": 525.7978,
+        "take_profit": 455.8035,
+        "atr": 17.4986,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4115,9 +4115,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Microsoft Is Winning the AI Cash Flow Test",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html"
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.18,
-      "change_pct": 1.46,
-      "volume": 59386558,
+      "price": 222.01,
+      "change_pct": 1.38,
+      "volume": 67976094,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,7 +4147,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.52%)"
+          "rationale": "波動度正常(ATR/價格=3.53%)"
         }
       ],
       "risk_levels": null,
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Global Partners LP Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-global-partners-lp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "Jim Cramer Shares Reasons Behind Why NVIDIA Corporation (NASDAQ:NVDA)’s Shares Are Finally Rising",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-reasons-behind-182404118.html"
         },
         {
-          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
+          "title": "Could 1 Tiny Biotech Topple Vertex Pharmaceuticals' Cystic Fibrosis Empire?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
+          "link": "https://www.fool.com/investing/2026/08/07/could-1-tiny-biotech-topple-vertex-pharmaceuticals/"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.4,
-      "change_pct": 2.46,
-      "volume": 25568281,
+      "price": 327.11,
+      "change_pct": 2.37,
+      "volume": 29327679,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4195,13 +4195,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.56%)"
+          "rationale": "波動度正常(ATR/價格=4.57%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 327.4,
-        "stop_loss": 304.9868,
-        "take_profit": 364.7553,
+        "entry_price": 327.11,
+        "stop_loss": 304.6968,
+        "take_profit": 364.4653,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/why-rivians-r2-ev-could-213212115.html"
         },
         {
+          "title": "SpaceX’s Texas Terafab Could Become World’s Largest Building",
+          "publisher": "CRE Daily",
+          "link": "https://www.credaily.com/briefs/spacexs-texas-terafab-could-become-worlds-largest-building/"
+        },
+        {
           "title": "Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas",
           "publisher": "USA TODAY",
           "link": "https://www.usatoday.com/story/news/state/texas/2026/08/07/elon-musk-spacex-tesla-terafab-texas-16-billion-chip-factory-investment/91212702007/"
-        },
-        {
-          "title": "Elon Musk Says AI Needs More Power Than the Grid Can Handle. Is He Right?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/elon-musk-says-ai-needs-more-power-than-the-grid-c/"
         }
       ]
     },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.89,
-      "change_pct": -0.8,
-      "volume": 10916370,
+      "price": 354.245,
+      "change_pct": -0.98,
+      "volume": 12442194,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4265,9 +4265,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Alphabet’s Cloud vs Meta’s Superintelligence: Who Wins Q2?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/alphabet-bets-cloud-and-gemini-against-metas-superintelligence-moonshot-and-wins-q2/"
+          "title": "Whatnot raises $545M Series G at $20 billion valuation",
+          "publisher": "Quartz",
+          "link": "https://qz.com/whatnot-series-g-funding-live-shopping-valuation-080726"
         }
       ]
     },
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.25,
-      "change_pct": 0.48,
-      "volume": 20199074,
+      "price": 771.54,
+      "change_pct": 0.39,
+      "volume": 23875367,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.235,
-      "change_pct": 0.92,
-      "volume": 19303875,
+      "price": 720.14,
+      "change_pct": 0.77,
+      "volume": 21710470,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4351,19 +4351,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Atlassian Soars 34%, Twilio Leaps 27%, Cloudflare Advances 9% in Software Stock Surge",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/atlassian-soars-34-twilio-leaps-27-cloudflare-advances-9-in-software-stock-surge/"
+          "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-172415907.html"
         },
         {
-          "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
+          "title": "S&P 500 Hits Record Highs — But BofA Warns Bullish Sentiment Has Gone Too Far",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-hits-record-highs/cZofOeORJ9L"
+        },
+        {
+          "title": "A Guide to Nasdaq ETF Investing",
           "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
-        },
-        {
-          "title": "Trade Desk Plunges 28% After Earnings Miss Triggers Downgrade Avalanche; Ad-Tech Peers AppLovin and Magnite Hold Firm",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/trade-desk-plunges-28-after-earnings-miss-triggers-downgrade-avalanche-ad-tech-peers-applovin-and-magnite-hold-firm/"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/guide-nasdaq-etf-investing-170000804.html"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4388.2998,
-      "change_pct": 3.45,
-      "volume": 160746,
+      "price": 4393.1001,
+      "change_pct": 3.56,
+      "volume": 172687,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=73.7 進入超買區); bollinger_band:sell(價格 4388.30 觸及上軌 4286.17)"
+          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4393.10 觸及上軌 4287.94)"
         },
         {
           "agent": "macro",
@@ -4397,27 +4397,27 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4388.2998,
-        "stop_loss": 4505.7712,
-        "take_profit": 4192.5141,
+        "entry_price": 4393.1001,
+        "stop_loss": 4510.5715,
+        "take_profit": 4197.3144,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
+        },
         {
           "title": "Gold prices today, Friday, August 7, 2026: Gold prices continue to rise even after July jobs report misses",
           "publisher": "Yahoo Personal Finance",
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
-          "title": "Stock Market Today: Nasdaq Pops As July Jobs Miss Dampens Rates View; Gold Stocks Shine (Live Coverage)",
+          "title": "Stock Market Today: Nasdaq Jumps As Fed Rate-Hike Odds Slide; Atlassian Spikes After Earnings (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "DUST Drops 13% as Gold Miners Rally Hard",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/07/dust-drops-13-as-gold-miners-rally-hard/"
         }
       ]
     },
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.23,
-      "change_pct": 1.22,
-      "volume": 137273,
+      "price": 78.28,
+      "change_pct": 1.28,
+      "volume": 163935,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4458,14 +4458,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "Stocks Rise After Cooler-Than-Expected July Jobs Data",
+          "title": "Comex Gold Ends the Week 7.20% Higher at $4340.70",
           "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/oil-ticks-higher-u-s-futures-steady-ahead-of-jobs-report-67178ce5"
+          "link": "https://www.wsj.com/finance/commodities-futures/gold-rises-focus-on-middle-east-progress-u-s-jobs-data-d4aef937?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Europe's STOXX 600 ends week at all-time high on earnings support, soft US jobs data",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/healthcare/articles/healthcare-leads-european-shares-higher-074404181.html"
+          "title": "Sector Update: Energy Stocks Decline Friday Afternoon",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-friday-174624121.html"
         }
       ]
     },
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.236,
-      "change_pct": -0.09,
+      "price": 32.244,
+      "change_pct": -0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,17 +4521,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.452,
-      "change_pct": -0.09,
+      "price": 157.562,
+      "change_pct": -0.02,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.31,
+      "confidence": 0.3,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=21.2 進入超賣區)"
+          "confidence": 0.5,
+          "rationale": "rsi:buy(RSI=21.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.452,
-        "stop_loss": 154.872,
-        "take_profit": 161.752,
+        "entry_price": 157.562,
+        "stop_loss": 154.982,
+        "take_profit": 161.862,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64699.1406,
-      "change_pct": 0.68,
-      "volume": 21338351616,
+      "price": 64774.7617,
+      "change_pct": 0.8,
+      "volume": 21671245824,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64699.1406,
-        "stop_loss": 62648.4443,
-        "take_profit": 68116.9678,
+        "entry_price": 64774.7617,
+        "stop_loss": 62724.0654,
+        "take_profit": 68192.5889,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Bitcoin Still in Death Cross as Jobs Miss Cuts Rate-Hike Odds",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375118/bitcoin-price-death-cross-jobs-miss-rate-hike-odds"
+          "title": "Trump makes bold claim on U.S. dollar",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/trump-makes-bold-claim-on-u-s-dollar"
         },
         {
-          "title": "Senate Delays Clarity Act Vote. Crypto’s Priority Is Now a Hail Mary.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/clarity-act-senate-vote-crypto-81afd430?siteid=yhoof2&yptr=yahoo"
+          "title": "Sector Update: Financial Stocks Softer in Afternoon Trading",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-175230398.html"
         }
       ]
     },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1907.97,
-      "change_pct": 0.31,
-      "volume": 8933020672,
+      "price": 1911.9301,
+      "change_pct": 0.52,
+      "volume": 9021702144,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
