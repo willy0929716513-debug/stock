@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:50:32.984840+00:00",
+  "generated_at": "2026-08-07T13:55:57.938594+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.315,
-      "change_pct": -0.35,
-      "volume": 3986821,
+      "price": 311.91,
+      "change_pct": -0.16,
+      "volume": 4388103,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 504.8969,
-      "change_pct": 1.01,
-      "volume": 3723517,
+      "price": 504.41,
+      "change_pct": 0.91,
+      "volume": 4134794,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4237,7 +4237,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=82.0 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.9 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4253,10 +4253,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 504.8969,
-        "stop_loss": 531.0998,
-        "take_profit": 461.2255,
-        "atr": 17.4686,
+        "entry_price": 504.41,
+        "stop_loss": 530.6161,
+        "take_profit": 460.7332,
+        "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4281,9 +4281,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.2399,
-      "change_pct": 1.48,
-      "volume": 11785987,
+      "price": 222.5594,
+      "change_pct": 1.63,
+      "volume": 13727880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4329,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.448,
-      "change_pct": 2.48,
-      "volume": 4846090,
+      "price": 328.2001,
+      "change_pct": 2.71,
+      "volume": 5788562,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4351,14 +4351,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.43%)"
+          "rationale": "波動度正常(ATR/價格=4.45%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 327.448,
-        "stop_loss": 305.6916,
-        "take_profit": 363.7087,
-        "atr": 14.5043,
+        "entry_price": 328.2001,
+        "stop_loss": 306.3022,
+        "take_profit": 364.6965,
+        "atr": 14.5986,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4383,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.44,
-      "change_pct": -0.65,
-      "volume": 2902197,
+      "price": 356.59,
+      "change_pct": -0.32,
+      "volume": 3324039,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4405,7 +4405,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.70%)"
+          "rationale": "波動度正常(ATR/價格=3.69%)"
         }
       ],
       "risk_levels": null,
@@ -4431,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.64,
-      "change_pct": 0.4,
-      "volume": 4385712,
+      "price": 771.85,
+      "change_pct": 0.43,
+      "volume": 4802549,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4479,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.36,
-      "change_pct": 0.94,
-      "volume": 4647210,
+      "price": 720.86,
+      "change_pct": 0.87,
+      "volume": 5167269,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4424.6001,
-      "change_pct": 4.3,
-      "volume": 114058,
+      "price": 4419.2998,
+      "change_pct": 4.18,
+      "volume": 116228,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.8 進入超買區); bollinger_band:sell(價格 4424.60 觸及上軌 4299.86)"
+          "rationale": "rsi:sell(RSI=74.7 進入超買區); bollinger_band:sell(價格 4419.30 觸及上軌 4297.82)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4424.6001,
-        "stop_loss": 4542.0715,
-        "take_profit": 4228.8144,
+        "entry_price": 4419.2998,
+        "stop_loss": 4536.7712,
+        "take_profit": 4223.5141,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.0,
-      "change_pct": -0.38,
-      "volume": 81198,
+      "price": 77.05,
+      "change_pct": -0.31,
+      "volume": 82075,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/article/small-caps-are-quietly-outperforming-the-sp-500-and-magnificent-7-this-year-alphacheck-143906754.html"
         },
         {
+          "title": "Oil India posts quarterly profit surge on crude price jump, higher production",
+          "publisher": "Reuters",
+          "link": "https://sg.finance.yahoo.com/news/oil-india-posts-quarterly-profit-134336958.html"
+        },
+        {
           "title": "Shockingly Weak Jobs Report Is Fed 'Game Changer'; S&P 500 Rises (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/jobs-report-july-unemployment-rate-federal-reserve-rate-hike-sp-500/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Sector Update: Energy Stocks Decline Premarket Friday",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132559908.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.2,
-      "change_pct": -0.2,
+      "price": 32.207,
+      "change_pct": -0.18,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.608,
-      "change_pct": 0.01,
+      "price": 157.643,
+      "change_pct": 0.03,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=22.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.608,
-        "stop_loss": 155.028,
-        "take_profit": 161.908,
+        "entry_price": 157.643,
+        "stop_loss": 155.063,
+        "take_profit": 161.943,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65149.9492,
-      "change_pct": 1.38,
-      "volume": 20695435264,
+      "price": 65067.1406,
+      "change_pct": 1.25,
+      "volume": 20629078016,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65149.9492,
-        "stop_loss": 63099.2529,
-        "take_profit": 68567.7764,
+        "entry_price": 65067.1406,
+        "stop_loss": 63016.4443,
+        "take_profit": 68484.9678,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4775,9 +4775,9 @@
           "link": "https://www.cryptoprowl.com/releases/fallout-from-coldcard-hack-worsens-6354"
         },
         {
-          "title": "Clarity Act Won’t Receive U.S. Senate Vote Before Summer Recess",
-          "publisher": "CryptoProwl",
-          "link": "https://www.cryptoprowl.com/releases/clarity-act-wont-receive-us-senate-vote-before-summer-recess-6353"
+          "title": "B. Riley raises CleanSpark target to $26 on AI data-center portfolio",
+          "publisher": "Blockspace",
+          "link": "https://blockspace.media/insight/cleanspark-clsk-price-target-raised-ai-data-centers/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1927.79,
-      "change_pct": 1.35,
-      "volume": 8993310720,
+      "price": 1925.49,
+      "change_pct": 1.23,
+      "volume": 8905691136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.94%)"
+          "rationale": "波動度正常(ATR/價格=2.95%)"
         }
       ],
       "risk_levels": null,
