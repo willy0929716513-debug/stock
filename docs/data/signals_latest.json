@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:45:21.408144+00:00",
+  "generated_at": "2026-08-07T19:50:47.870387+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.25,
-      "change_pct": 0.27,
-      "volume": 22857584,
+      "price": 313.11,
+      "change_pct": 0.22,
+      "volume": 23177747,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4071,9 +4071,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 501.39,
-      "change_pct": 0.31,
-      "volume": 17872213,
+      "price": 500.49,
+      "change_pct": 0.13,
+      "volume": 18420427,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4081,7 +4081,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=81.6 進入超買區)"
+          "rationale": "rsi:sell(RSI=81.5 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4093,13 +4093,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.49%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 501.39,
-        "stop_loss": 527.6379,
-        "take_profit": 457.6436,
+        "entry_price": 500.49,
+        "stop_loss": 526.7378,
+        "take_profit": 456.7436,
         "atr": 17.4986,
         "risk_reward_ratio": 1.67
       },
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.975,
-      "change_pct": 1.82,
-      "volume": 78966615,
+      "price": 222.88,
+      "change_pct": 1.78,
+      "volume": 80043394,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
+          "title": "Michael Burry Sounds Alarm on Major AI Stocks",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sounds-alarm-major-194738677.html"
+        },
+        {
           "title": "3 High-Yield Dividend Stocks Worth Buying Now",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/3-high-yield-dividend-stocks-worth-buying-now/"
-        },
-        {
-          "title": "Nvidia Stock Rises 2.2% as SpaceX Commits to Its Chips",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-rises-2-2-192151950.html"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.08,
-      "change_pct": 2.36,
-      "volume": 32807812,
+      "price": 327.22,
+      "change_pct": 2.41,
+      "volume": 33119272,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4199,9 +4199,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.08,
-        "stop_loss": 304.6668,
-        "take_profit": 364.4353,
+        "entry_price": 327.22,
+        "stop_loss": 304.8068,
+        "take_profit": 364.5753,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.74,
-      "change_pct": -0.84,
-      "volume": 14539019,
+      "price": 355.2,
+      "change_pct": -0.71,
+      "volume": 14925879,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4249,7 +4249,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.73%)"
+          "rationale": "波動度正常(ATR/價格=3.72%)"
         }
       ],
       "risk_levels": null,
@@ -4267,7 +4267,7 @@
         {
           "title": "Explainer-How could New Mexico's $567 million ruling change Meta?",
           "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/media-advertising/articles/explainer-could-mexicos-567-million-193540333.html"
+          "link": "https://ca.finance.yahoo.com/news/explainer-could-mexicos-567-million-193540756.html"
         }
       ]
     },
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 772.575,
-      "change_pct": 0.52,
-      "volume": 30150408,
+      "price": 772.88,
+      "change_pct": 0.56,
+      "volume": 31035338,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4303,6 +4303,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The 20 Most Actively Traded ETFs",
+          "publisher": "etf.com",
+          "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
+        },
+        {
           "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
@@ -4311,11 +4316,6 @@
           "title": "Want $2,000 a Month From SPYI? Here’s the Exact Investment It Takes, and the Catch at That Size",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/07/want-2000-a-month-from-spyi-heres-the-exact-investment-it-takes-and-the-catch-at-that-size/"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html"
         }
       ]
     },
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.66,
-      "change_pct": 0.98,
-      "volume": 26045628,
+      "price": 722.1899,
+      "change_pct": 1.06,
+      "volume": 26438099,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4351,6 +4351,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The 20 Most Actively Traded ETFs",
+          "publisher": "etf.com",
+          "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
+        },
+        {
           "title": "A Guide to Nasdaq ETF Investing",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/guide-nasdaq-etf-investing-175900121.html"
@@ -4359,11 +4364,6 @@
           "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-172415907.html"
-        },
-        {
-          "title": "S&P 500 Hits Record Highs — But BofA Warns Bullish Sentiment Has Gone Too Far",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-hits-record-highs/cZofOeORJ9L"
         }
       ]
     },
@@ -4371,9 +4371,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.0,
-      "change_pct": 3.87,
-      "volume": 177635,
+      "price": 4405.7002,
+      "change_pct": 3.86,
+      "volume": 178014,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4381,7 +4381,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4406.00 觸及上軌 4292.77)"
+          "rationale": "rsi:sell(RSI=74.2 進入超買區); bollinger_band:sell(價格 4405.70 觸及上軌 4292.65)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.0,
-        "stop_loss": 4523.4714,
-        "take_profit": 4210.2143,
+        "entry_price": 4405.7002,
+        "stop_loss": 4523.1716,
+        "take_profit": 4209.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4415,7 +4415,7 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html"
         },
         {
-          "title": "Stock Market Today: Nasdaq Jumps As Fed Rate-Hike Odds Slide; Atlassian Spikes After Earnings (Live Coverage)",
+          "title": "Stock Market Today: Nasdaq Pops As Fed Rate-Hike Odds Fall; Sezzle Loses Its Sizzle (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-jobs-report-cloudflare-stock/?src=A00220&yptr=yahoo"
         }
@@ -4425,9 +4425,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 76.94,
-      "change_pct": -0.45,
-      "volume": 199465,
+      "price": 77.0,
+      "change_pct": -0.38,
+      "volume": 200490,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4446,8 +4446,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.29,
-          "rationale": "波動度過高(ATR/價格=6.43%),建議降低部位或觀望"
+          "confidence": 0.28,
+          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.248,
-      "change_pct": -0.05,
+      "price": 32.243,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.5,
-      "change_pct": -0.06,
+      "price": 157.486,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.31,
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.5,
-        "stop_loss": 154.92,
-        "take_profit": 161.8,
+        "entry_price": 157.486,
+        "stop_loss": 154.906,
+        "take_profit": 161.786,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64930.3086,
-      "change_pct": 1.04,
-      "volume": 21589219328,
+      "price": 64936.1094,
+      "change_pct": 1.05,
+      "volume": 21708908544,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
+          "confidence": 0.72,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4601,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64930.3086,
-        "stop_loss": 62879.6123,
-        "take_profit": 68348.1357,
+        "entry_price": 64936.1094,
+        "stop_loss": 62885.4131,
+        "take_profit": 68353.9365,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.8101,
-      "change_pct": 0.83,
-      "volume": 9029574656,
+      "price": 1918.3199,
+      "change_pct": 0.85,
+      "volume": 9022580736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
