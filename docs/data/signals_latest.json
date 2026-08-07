@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:49:52.906389+00:00",
+  "generated_at": "2026-08-07T15:55:19.980803+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4179,9 +4179,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 312.2,
-      "change_pct": -0.07,
-      "volume": 12520554,
+      "price": 312.28,
+      "change_pct": -0.04,
+      "volume": 13043856,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4201,7 +4201,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.00%)"
+          "rationale": "波動度正常(ATR/價格=2.99%)"
         }
       ],
       "risk_levels": null,
@@ -4227,9 +4227,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 503.06,
-      "change_pct": 0.64,
-      "volume": 10132436,
+      "price": 503.54,
+      "change_pct": 0.74,
+      "volume": 10308988,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4253,9 +4253,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 503.06,
-        "stop_loss": 529.2661,
-        "take_profit": 459.3832,
+        "entry_price": 503.54,
+        "stop_loss": 529.7461,
+        "take_profit": 459.8632,
         "atr": 17.4707,
         "risk_reward_ratio": 1.67
       },
@@ -4281,17 +4281,17 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 224.55,
-      "change_pct": 2.54,
-      "volume": 43504210,
-      "signal": "sell",
-      "confidence": 0.27,
+      "price": 223.96,
+      "change_pct": 2.27,
+      "volume": 44648139,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.45,
-          "rationale": "bollinger_band:sell(價格 224.55 觸及上軌 224.21)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4303,31 +4303,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.49%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 224.55,
-        "stop_loss": 236.295,
-        "take_profit": 204.975,
-        "atr": 7.83,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
+        {
+          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/"
+        },
+        {
+          "title": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-stocks-rise-154537150.html"
+        },
         {
           "title": "Why The Trade Desk Stock Plunged to a New 7-Year Low Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/why-the-trade-desk-stock-plunged-to-a-new-7-year-l/"
-        },
-        {
-          "title": "2 Stocks Positioned for the Rise as AI Self‑Healing Systems Move From Concept to Core Infrastructure",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/2-stocks-positioned-for-the-rise-as-ai-self%e2%80%91healing-systems-move-from-concept-to-core-infrastructure/"
-        },
-        {
-          "title": "The U.S. Didn’t Buy a Drop of Saudi Oil in July — the First Time in 41 Years",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/the-u-s-didnt-buy-a-drop-of-saudi-oil-in-july-the-first-time-in-41-years/"
         }
       ]
     },
@@ -4335,9 +4329,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.5803,
-      "change_pct": 3.77,
-      "volume": 20146091,
+      "price": 331.795,
+      "change_pct": 3.84,
+      "volume": 20532174,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4357,13 +4351,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.51%)"
+          "rationale": "波動度正常(ATR/價格=4.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 331.5803,
-        "stop_loss": 309.1671,
-        "take_profit": 368.9356,
+        "entry_price": 331.795,
+        "stop_loss": 309.3818,
+        "take_profit": 369.1504,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4389,9 +4383,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.23,
-      "change_pct": -0.42,
-      "volume": 8976915,
+      "price": 356.37,
+      "change_pct": -0.39,
+      "volume": 9169712,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4427,9 +4421,9 @@
           "link": "https://finance.yahoo.com/video/alphabets-25b-debt-sale-underscores-191800525.html"
         },
         {
-          "title": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/news/alphabet-taps-bond-market-again-153030870.html"
+          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/07/meet-the-low-cost-vanguard-etf-that-just-gained-11/"
         }
       ]
     },
@@ -4437,9 +4431,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.455,
-      "change_pct": 0.64,
-      "volume": 14375592,
+      "price": 773.29,
+      "change_pct": 0.62,
+      "volume": 14628651,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4485,9 +4479,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.7474,
-      "change_pct": 1.13,
-      "volume": 14939839,
+      "price": 722.5599,
+      "change_pct": 1.11,
+      "volume": 15512922,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4513,6 +4507,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "SpaceX Rises 11%, Intuitive Machines Gains 9%, Rocket Lab Jumps 8% as Wall Street Gives the All-Clear on Space Stocks",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/07/spacex-rises-11-intuitive-machines-gains-9-rocket-lab-jumps-8-as-wall-street-gives-the-all-clear-on-space-stocks/"
+        },
+        {
           "title": "Atlassian Soars 34%, Twilio Leaps 27%, Cloudflare Advances 9% in Software Stock Surge",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/07/atlassian-soars-34-twilio-leaps-27-cloudflare-advances-9-in-software-stock-surge/"
@@ -4521,11 +4520,6 @@
           "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html"
-        },
-        {
-          "title": "Trade Desk Plunges 28% After Earnings Miss Triggers Downgrade Avalanche; Ad-Tech Peers AppLovin and Magnite Hold Firm",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/07/trade-desk-plunges-28-after-earnings-miss-triggers-downgrade-avalanche-ad-tech-peers-applovin-and-magnite-hold-firm/"
         }
       ]
     },
@@ -4533,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4411.3999,
-      "change_pct": 3.99,
-      "volume": 148565,
+      "price": 4408.5,
+      "change_pct": 3.93,
+      "volume": 149056,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4543,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4411.40 觸及上軌 4294.81)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4408.50 觸及上軌 4293.71)"
         },
         {
           "agent": "macro",
@@ -4559,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4411.3999,
-        "stop_loss": 4528.8713,
-        "take_profit": 4215.6142,
+        "entry_price": 4408.5,
+        "stop_loss": 4525.9714,
+        "take_profit": 4212.7143,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4587,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.03,
-      "change_pct": 0.96,
-      "volume": 118994,
+      "price": 78.09,
+      "change_pct": 1.04,
+      "volume": 119862,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4609,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.27,
-          "rationale": "波動度過高(ATR/價格=6.34%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4635,7 +4629,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.243,
+      "price": 32.242,
       "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
@@ -4683,17 +4677,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.564,
-      "change_pct": -0.02,
+      "price": 157.492,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.3,
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "rsi:buy(RSI=21.5 進入超賣區)"
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=21.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4709,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.564,
-        "stop_loss": 154.984,
-        "take_profit": 161.864,
+        "entry_price": 157.492,
+        "stop_loss": 154.912,
+        "take_profit": 161.792,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4737,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64941.4688,
-      "change_pct": 1.06,
-      "volume": 21171892224,
+      "price": 64885.6992,
+      "change_pct": 0.97,
+      "volume": 21258164224,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.73,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4763,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64941.4688,
-        "stop_loss": 62890.7725,
-        "take_profit": 68359.2959,
+        "entry_price": 64885.6992,
+        "stop_loss": 62835.0029,
+        "take_profit": 68303.5264,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4791,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.9301,
-      "change_pct": 0.83,
-      "volume": 8966134784,
+      "price": 1917.0,
+      "change_pct": 0.79,
+      "volume": 8998206464,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4824,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "161,000 Idle ETH May Soon Be Staked: What Grayscale Just Changed",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/grayscale-ethereum-etf-staking-amendment/"
+        },
+        {
           "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
           "publisher": "decrypt",
           "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet"
-        },
-        {
-          "title": "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/xrp-etf-inflows-drop-whales-accumulation-analysis/"
         }
       ]
     }
