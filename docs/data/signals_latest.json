@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:13:43.998884+00:00",
+  "generated_at": "2026-08-07T21:19:12.064438+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4115,9 +4115,9 @@
           "link": "https://www.fool.com/coverage/better-buy/2026/08/07/c3-ai-vs-applied-digital-which-artificial-intelligence-stock-is-a-better-buy-in-2026/"
         },
         {
-          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/ibd-stock-analysis/dell-stock-rises-ai-collaboration-with-nvidia-microsoft-amd/?src=A00220&yptr=yahoo"
+          "title": "META Stock Returns To Familiar Ground",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/articles/610552/meta-stock-returns-to-familiar-ground/2026-08-07"
         }
       ]
     },
@@ -4575,16 +4575,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64983.0195,
-      "change_pct": 1.12,
-      "volume": 21959524352,
+      "price": 64921.0898,
+      "change_pct": 1.03,
+      "volume": 21947107328,
       "signal": "buy",
-      "confidence": 0.43,
+      "confidence": 0.44,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.72,
+          "confidence": 0.73,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -4597,13 +4597,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.10%)"
+          "rationale": "波動度正常(ATR/價格=2.11%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64983.0195,
-        "stop_loss": 62932.3232,
-        "take_profit": 68400.8467,
+        "entry_price": 64921.0898,
+        "stop_loss": 62870.3936,
+        "take_profit": 68338.917,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.21,
-      "change_pct": 0.64,
-      "volume": 9023218688,
+      "price": 1912.87,
+      "change_pct": 0.57,
+      "volume": 9030757376,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4651,7 +4651,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.96%)"
+          "rationale": "波動度正常(ATR/價格=2.97%)"
         }
       ],
       "risk_levels": null,
