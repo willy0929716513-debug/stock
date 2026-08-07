@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:57:49.199823+00:00",
+  "generated_at": "2026-08-07T22:03:22.277626+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4313,9 +4313,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Why Redwire Stock Keeps Gaining",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-redwire-stock-keeps-gaining/"
+          "title": "Construction Partners, Inc. Q3 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-construction-partners-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
         }
       ]
     },
@@ -4453,6 +4453,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+        },
+        {
           "title": "The 20 Most Actively Traded ETFs",
           "publisher": "etf.com",
           "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
@@ -4461,11 +4466,6 @@
           "title": "The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/economy/articles/economy-lost-jobs-wall-street-194002543.html"
-        },
-        {
-          "title": "Stocks Supported as Fed Rate Hike Fears Ease",
-          "publisher": "Barchart",
-          "link": "https://www.barchart.com/story/news/3722068/stocks-supported-as-fed-rate-hike-fears-ease"
         }
       ]
     },
@@ -4501,6 +4501,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+        },
+        {
           "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
@@ -4509,11 +4514,6 @@
           "title": "The 20 Most Actively Traded ETFs",
           "publisher": "etf.com",
           "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
-        },
-        {
-          "title": "A Guide to Nasdaq ETF Investing",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/guide-nasdaq-etf-investing-175900121.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64906.5898,
-      "change_pct": 1.0,
-      "volume": 21930428416,
+      "price": 64883.3984,
+      "change_pct": 0.97,
+      "volume": 21966303232,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64906.5898,
-        "stop_loss": 62855.8936,
-        "take_profit": 68324.417,
+        "entry_price": 64883.3984,
+        "stop_loss": 62832.7021,
+        "take_profit": 68301.2256,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.83,
-      "change_pct": 0.72,
-      "volume": 9023489024,
+      "price": 1914.2,
+      "change_pct": 0.64,
+      "volume": 9128152064,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
