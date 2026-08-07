@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T18:50:17.787646+00:00",
+  "generated_at": "2026-08-07T18:55:49.415532+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4023,9 +4023,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 311.935,
-      "change_pct": -0.15,
-      "volume": 19821432,
+      "price": 312.135,
+      "change_pct": -0.09,
+      "volume": 19983503,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4073,7 +4073,7 @@
       "category": "us_stock",
       "price": 499.455,
       "change_pct": -0.08,
-      "volume": 15851170,
+      "volume": 15994830,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4125,9 +4125,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 222.13,
-      "change_pct": 1.43,
-      "volume": 69652571,
+      "price": 222.25,
+      "change_pct": 1.49,
+      "volume": 70305342,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4158,14 +4158,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
+          "title": "AI Stock Jumps After Unusual Nvidia Hedge Fund Deal",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-jumps-unusual-nvidia-184956126.html"
+        },
+        {
           "title": "Why Kevin Warsh's Job Just Got a Lot Harder. And What It Means for the Stock Market.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/why-kevin-warsh-job-got-harder-means-stock-market/"
-        },
-        {
-          "title": "Why Wix.com Stock Rebounded 21.3% in July",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-wixcom-stock-rebounded-213-in-july/"
         }
       ]
     },
@@ -4173,9 +4173,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 327.3277,
-      "change_pct": 2.44,
-      "volume": 30116279,
+      "price": 327.42,
+      "change_pct": 2.47,
+      "volume": 30106868,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4199,9 +4199,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 327.3277,
-        "stop_loss": 304.9145,
-        "take_profit": 364.683,
+        "entry_price": 327.42,
+        "stop_loss": 305.0068,
+        "take_profit": 364.7754,
         "atr": 14.9421,
         "risk_reward_ratio": 1.67
       },
@@ -4227,9 +4227,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.15,
-      "change_pct": -1.01,
-      "volume": 12828699,
+      "price": 354.09,
+      "change_pct": -1.02,
+      "volume": 12906337,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,9 +4275,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 771.24,
-      "change_pct": 0.35,
-      "volume": 24846653,
+      "price": 771.29,
+      "change_pct": 0.36,
+      "volume": 25312809,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4323,9 +4323,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 719.7812,
-      "change_pct": 0.72,
-      "volume": 22546540,
+      "price": 719.71,
+      "change_pct": 0.71,
+      "volume": 22701083,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4371,17 +4371,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4397.7002,
-      "change_pct": 3.67,
-      "volume": 173766,
+      "price": 4394.7002,
+      "change_pct": 3.6,
+      "volume": 174195,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4397.70 觸及上軌 4289.66)"
+          "confidence": 0.72,
+          "rationale": "rsi:sell(RSI=73.9 進入超買區); bollinger_band:sell(價格 4394.70 觸及上軌 4288.54)"
         },
         {
           "agent": "macro",
@@ -4397,9 +4397,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4397.7002,
-        "stop_loss": 4515.1716,
-        "take_profit": 4201.9145,
+        "entry_price": 4394.7002,
+        "stop_loss": 4512.1716,
+        "take_profit": 4198.9145,
         "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
@@ -4427,7 +4427,7 @@
       "category": "commodity",
       "price": 78.2,
       "change_pct": 1.18,
-      "volume": 187955,
+      "volume": 188484,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4463,9 +4463,9 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "Comex Gold Ends the Week 7.20% Higher at $4340.70",
+          "title": "Major U.S. Stock Indexes Gain on Jobs Data",
           "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/commodities-futures/gold-rises-focus-on-middle-east-progress-u-s-jobs-data-d4aef937?siteid=yhoof2&yptr=yahoo"
+          "link": "https://www.wsj.com/finance/stocks/oil-ticks-higher-u-s-futures-steady-ahead-of-jobs-report-67178ce5"
         }
       ]
     },
@@ -4473,8 +4473,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.246,
-      "change_pct": -0.06,
+      "price": 32.241,
+      "change_pct": -0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4521,8 +4521,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.515,
-      "change_pct": -0.05,
+      "price": 157.532,
+      "change_pct": -0.04,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.3,
@@ -4547,9 +4547,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.515,
-        "stop_loss": 154.935,
-        "take_profit": 161.815,
+        "entry_price": 157.532,
+        "stop_loss": 154.952,
+        "take_profit": 161.832,
         "atr": 1.72,
         "risk_reward_ratio": 1.67
       },
@@ -4575,9 +4575,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64660.4219,
-      "change_pct": 0.62,
-      "volume": 21560367104,
+      "price": 64629.7188,
+      "change_pct": 0.57,
+      "volume": 21557004288,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4597,13 +4597,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.12%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64660.4219,
-        "stop_loss": 62609.7256,
-        "take_profit": 68078.249,
+        "entry_price": 64629.7188,
+        "stop_loss": 62579.0225,
+        "take_profit": 68047.5459,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4614,14 +4614,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Analyst outlines 2 market scenarios after July jobs data",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/analyst-outlines-2-market-scenarios-after-july-jobs-data"
+        },
+        {
           "title": "Trump makes bold claim on U.S. dollar",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/markets/trump-makes-bold-claim-on-u-s-dollar"
-        },
-        {
-          "title": "Sector Update: Financial Stocks Softer in Afternoon Trading",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-afternoon-175230398.html"
         }
       ]
     },
@@ -4629,9 +4629,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1906.61,
-      "change_pct": 0.24,
-      "volume": 9007516672,
+      "price": 1905.8199,
+      "change_pct": 0.2,
+      "volume": 9004663808,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
