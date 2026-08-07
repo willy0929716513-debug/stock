@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T21:41:20.189496+00:00",
+  "generated_at": "2026-08-07T21:46:50.971449+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4560,14 +4560,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
+          "title": "Basic Materials Roundup: Market Talk",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/business/basic-materials-roundup-market-talk-aba4c272?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Skeena Resources (TSX:SKE) Following Recent Volatility Is Eskay Creek Upside Already Priced In",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/skeena-resources-tsx-ske-following-211253825.html"
-        },
-        {
-          "title": "Torex Gold Resources Inc (TORXF) (Q2 2026) Earnings Call Highlights: Strong Production and ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/torex-gold-resources-inc-torxf-210144481.html"
         }
       ]
     },
@@ -4613,9 +4613,9 @@
           "link": "https://finance.yahoo.com/energy/articles/360-energy-pulse-mattered-week-213043744.html"
         },
         {
-          "title": "Plains All American Pipeline, L.P. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-plains-all-american-pipeline-lp-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss"
+          "title": "Energy & Utilities Roundup: Market Talk",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-87e455a8?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4715,9 +4715,9 @@
           "link": "https://finance.yahoo.com/news/dollar-drifts-higher-traders-eye-020453451.html"
         },
         {
-          "title": "US stocks, bonds rally after soft jobs report; yen bounces back",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/asian-shares-pause-us-jobs-021601155.html"
+          "title": "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+          "publisher": "FX Empire",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-non-farm-163958695.html"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64993.3789,
+      "price": 64997.0898,
       "change_pct": 1.14,
-      "volume": 21817804800,
+      "volume": 21962891264,
       "signal": "buy",
       "confidence": 0.43,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64993.3789,
-        "stop_loss": 62942.6826,
-        "take_profit": 68411.2061,
+        "entry_price": 64997.0898,
+        "stop_loss": 62946.3936,
+        "take_profit": 68414.917,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4769,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Sector Update: Financial Stocks Decline Late Afternoon",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195923184.html"
+          "title": "Trump’s Media Company Unwinds Crypto Deals",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/trump-s-media-company-unwinds-crypto-deals-Mv0Sz9El7NPnEHYh098k?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.3199,
-      "change_pct": 0.59,
-      "volume": 8957275136,
+      "price": 1917.13,
+      "change_pct": 0.79,
+      "volume": 9091682304,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
