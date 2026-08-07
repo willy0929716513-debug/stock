@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:34:34.262389+00:00",
+  "generated_at": "2026-08-07T07:39:55.657877+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4347.6001,
-      "change_pct": 2.49,
-      "volume": 38626,
+      "price": 4345.5,
+      "change_pct": 2.44,
+      "volume": 39281,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4347.60 觸及上軌 4271.61)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4345.50 觸及上軌 4270.88)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4347.6001,
-        "stop_loss": 4457.1108,
-        "take_profit": 4165.0822,
+        "entry_price": 4345.5,
+        "stop_loss": 4455.0107,
+        "take_profit": 4162.9821,
         "atr": 73.0071,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.67,
-      "change_pct": 0.49,
-      "volume": 22259,
+      "price": 77.58,
+      "change_pct": 0.38,
+      "volume": 22494,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.26,
-          "rationale": "波動度過高(ATR/價格=6.30%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4621,7 +4621,7 @@
         {
           "title": "Global equity funds draw inflows for 11th week as upbeat earnings lift sentiment",
           "publisher": "Reuters",
-          "link": "https://ca.finance.yahoo.com/news/global-equity-funds-draw-inflows-072641363.html"
+          "link": "https://finance.yahoo.com/news/global-equity-funds-draw-inflows-072641363.html"
         }
       ]
     },
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.293,
-      "change_pct": 0.09,
+      "price": 32.261,
+      "change_pct": -0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.407,
-      "change_pct": 0.51,
+      "price": 158.382,
+      "change_pct": 0.5,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=28.3 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.407,
-        "stop_loss": 155.9286,
-        "take_profit": 162.5377,
+        "entry_price": 158.382,
+        "stop_loss": 155.9036,
+        "take_profit": 162.5127,
         "atr": 1.6523,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64329.6719,
+      "price": 64332.9492,
       "change_pct": 0.11,
-      "volume": 18108532736,
+      "volume": 18116349952,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64329.6719,
-        "stop_loss": 62373.9531,
-        "take_profit": 67589.2031,
+        "entry_price": 64332.9492,
+        "stop_loss": 62377.2305,
+        "take_profit": 67592.4805,
         "atr": 1303.8125,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1902.65,
-      "change_pct": 0.03,
-      "volume": 7715913728,
+      "price": 1902.34,
+      "change_pct": 0.01,
+      "volume": 7678257152,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
