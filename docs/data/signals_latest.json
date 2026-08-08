@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:09:57.525643+00:00",
+  "generated_at": "2026-08-08T08:15:17.658874+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64925.3711,
-      "change_pct": 0.07,
-      "volume": 21168250880,
+      "price": 64934.3789,
+      "change_pct": 0.08,
+      "volume": 21134135296,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64925.3711,
-        "stop_loss": 62914.899,
-        "take_profit": 68276.1579,
+        "entry_price": 64934.3789,
+        "stop_loss": 62923.9068,
+        "take_profit": 68285.1657,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.88,
-      "change_pct": 0.03,
-      "volume": 8204710912,
+      "price": 1914.7,
+      "change_pct": 0.07,
+      "volume": 8186115584,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4807,13 +4807,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.91%)"
+          "rationale": "波動度正常(ATR/價格=2.90%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 1913.88,
-        "stop_loss": 1830.4602,
-        "take_profit": 2052.9131,
+        "entry_price": 1914.7,
+        "stop_loss": 1831.2801,
+        "take_profit": 2053.733,
         "atr": 55.6132,
         "risk_reward_ratio": 1.67
       },
