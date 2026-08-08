@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:29:23.615252+00:00",
+  "generated_at": "2026-08-08T10:34:45.663637+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
+          "title": "History Says the Investors Who Stay the Course During Bear Markets Have Always Come Out Ahead. Here's the Proof.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/micron-vs-sandisk-which-is-the-better-ai-memory-st/"
+          "link": "https://www.fool.com/investing/2026/08/08/history-says-the-investors-who-stay-the-course-dur/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64978.4414,
+      "price": 64980.0508,
       "change_pct": 0.15,
-      "volume": 19794841600,
+      "volume": 19668080640,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64978.4414,
-        "stop_loss": 62967.9693,
-        "take_profit": 68329.2282,
+        "entry_price": 64980.0508,
+        "stop_loss": 62969.5787,
+        "take_profit": 68330.8376,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.1,
-      "change_pct": 0.41,
-      "volume": 7142736896,
+      "price": 1920.0601,
+      "change_pct": 0.35,
+      "volume": 7107734528,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4807,14 +4807,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.90%)"
+          "rationale": "波動度正常(ATR/價格=2.91%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.1,
-        "stop_loss": 1837.3887,
-        "take_profit": 2060.6187,
-        "atr": 55.8075,
+        "entry_price": 1920.0601,
+        "stop_loss": 1836.281,
+        "take_profit": 2059.6918,
+        "atr": 55.8527,
         "risk_reward_ratio": 1.67
       },
       "news": [
