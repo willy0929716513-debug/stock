@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:42:15.529527+00:00",
+  "generated_at": "2026-08-08T14:47:44.918648+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "eBay Slid This Past Month: Why a Leading Analyst Expects 32% Growth Ahead Anyway",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/08/ebay-slid-this-past-month-why-a-leading-analyst-expects-32-growth-ahead-anyway/"
+          "title": "Firebird opens region’s largest AI Factory in Armenia, backed by Nvidia chipsets",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/firebird-opens-region-largest-ai-143555418.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65073.7305,
-      "change_pct": 0.3,
-      "volume": 14787775488,
+      "price": 65086.1406,
+      "change_pct": 0.32,
+      "volume": 14620818432,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65073.7305,
-        "stop_loss": 63050.3263,
-        "take_profit": 68446.0707,
-        "atr": 1348.9361,
+        "entry_price": 65086.1406,
+        "stop_loss": 63063.7736,
+        "take_profit": 68456.7524,
+        "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.62,
-      "change_pct": 0.44,
-      "volume": 5018543616,
+      "price": 1922.1899,
+      "change_pct": 0.47,
+      "volume": 4962509312,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4811,10 +4811,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.62,
-        "stop_loss": 1837.5678,
-        "take_profit": 2061.7071,
-        "atr": 56.0348,
+        "entry_price": 1922.1899,
+        "stop_loss": 1838.084,
+        "take_profit": 2062.3665,
+        "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
       "news": [
