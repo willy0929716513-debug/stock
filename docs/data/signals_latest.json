@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:03:24.991229+00:00",
+  "generated_at": "2026-08-08T09:08:45.845871+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4217,9 +4217,9 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
-          "title": "Apple (AAPL) Q3 2026 Earnings Call Transcript",
+          "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/apple-aapl-q3-2026-earnings-call-transcript/"
+          "link": "https://www.fool.com/investing/2026/08/08/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "An Inflation Quadruple Whammy, Headlined by Trumpflation, Threatens to Crush the Stock Market",
+          "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/inflation-quadruple-whammy-trumpflation-wall-st/"
+          "link": "https://www.fool.com/investing/2026/08/08/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64956.9609,
-      "change_pct": 0.12,
-      "volume": 20741169152,
+      "price": 64954.5195,
+      "change_pct": 0.11,
+      "volume": 20605165568,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64956.9609,
-        "stop_loss": 62946.4888,
-        "take_profit": 68307.7478,
+        "entry_price": 64954.5195,
+        "stop_loss": 62944.0474,
+        "take_profit": 68305.3064,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.6801,
-      "change_pct": 0.13,
-      "volume": 7845529600,
+      "price": 1916.0,
+      "change_pct": 0.14,
+      "volume": 7848110592,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.6801,
-        "stop_loss": 1832.2602,
-        "take_profit": 2054.7131,
+        "entry_price": 1916.0,
+        "stop_loss": 1832.5802,
+        "take_profit": 2055.0331,
         "atr": 55.6132,
         "risk_reward_ratio": 1.67
       },
