@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:31:14.906578+00:00",
+  "generated_at": "2026-08-08T14:36:45.367588+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/does-broadcom-avgo-now-lead-141116363.html"
+          "title": "Everyone's Chasing AI Data Center Stocks. This 5%-Yielding Dividend Stock Already Owns a Piece of the Boom.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/everyones-chasing-ai-data-center-stocks-this-5-yie/"
         }
       ]
     },
@@ -4363,19 +4363,19 @@
       },
       "news": [
         {
+          "title": "Rivian's make-or-break R2 midsize EV delivers: Road test",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/rivians-make-or-break-r2-midsize-ev-delivers-road-test-143152026.html"
+        },
+        {
           "title": "Tesla UK sales drop as craze for Chinese rivals surges",
           "publisher": "The Telegraph",
-          "link": "https://uk.finance.yahoo.com/news/tesla-uk-sales-drop-craze-132334701.html"
+          "link": "https://www.telegraph.co.uk/business/2026/08/08/tesla-uk-sales-drop-as-craze-for-chinese-rivals-surges/"
         },
         {
           "title": "Prediction for Tesla Stock in 3 Years: The Bear Case",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/prediction-for-tesla-stock-in-3-years-the-bear-cas/"
-        },
-        {
-          "title": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/does-intel-intc-gain-texas-021111723.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65094.8281,
-      "change_pct": 0.33,
-      "volume": 14871077888,
+      "price": 65128.8516,
+      "change_pct": 0.38,
+      "volume": 14835467264,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65094.8281,
-        "stop_loss": 63077.0511,
-        "take_profit": 68457.7899,
-        "atr": 1345.1847,
+        "entry_price": 65128.8516,
+        "stop_loss": 63107.4701,
+        "take_profit": 68497.8206,
+        "atr": 1347.5876,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.54,
-      "change_pct": 0.48,
-      "volume": 5030772736,
+      "price": 1923.97,
+      "change_pct": 0.56,
+      "volume": 5016546816,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4811,10 +4811,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1922.54,
-        "stop_loss": 1838.6543,
-        "take_profit": 2062.3495,
-        "atr": 55.9238,
+        "entry_price": 1923.97,
+        "stop_loss": 1839.8784,
+        "take_profit": 2064.1225,
+        "atr": 56.061,
         "risk_reward_ratio": 1.67
       },
       "news": [
