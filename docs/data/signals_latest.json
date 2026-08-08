@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:58:45.407531+00:00",
+  "generated_at": "2026-08-08T15:04:14.081171+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
-          "title": "Atlassian stock soars 34% after earnings boost: AlphaSpace chart analysis",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/atlassian-stock-soars-34-earnings-145957235.html"
-        },
-        {
           "title": "How Chevron became the AI darling of Big Oil",
           "publisher": "Fortune",
           "link": "https://finance.yahoo.com/technology/ai/articles/chevron-became-ai-darling-big-071100687.html"
+        },
+        {
+          "title": "7 Reasons Pershing Square (PS) Looks Pricey After Ackman Spotlighted AI Holdings",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/7-reasons-pershing-square-ps-031928456.html"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Firebird opens region’s largest AI Factory in Armenia, backed by Nvidia chipsets",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/firebird-opens-region-largest-ai-143555418.html"
+          "title": "Is AMD Stock a Buy on the Dip as AI Revenue Surges?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/is-amd-stock-a-buy-on-the-dip-as-ai-revenue-surges/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65100.4609,
-      "change_pct": 0.34,
-      "volume": 14470816768,
+      "price": 65078.6992,
+      "change_pct": 0.31,
+      "volume": 14347339776,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65100.4609,
-        "stop_loss": 63078.0939,
-        "take_profit": 68471.0727,
+        "entry_price": 65078.6992,
+        "stop_loss": 63056.3322,
+        "take_profit": 68449.311,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.15,
-      "change_pct": 0.52,
-      "volume": 4902967808,
+      "price": 1922.25,
+      "change_pct": 0.47,
+      "volume": 4877785088,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1923.15,
-        "stop_loss": 1839.0441,
-        "take_profit": 2063.3266,
+        "entry_price": 1922.25,
+        "stop_loss": 1838.144,
+        "take_profit": 2062.4266,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
