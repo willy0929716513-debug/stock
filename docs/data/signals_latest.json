@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:20:19.727944+00:00",
+  "generated_at": "2026-08-08T22:25:40.634015+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -103,23 +103,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
-        },
-        {
-          "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
-        },
-        {
-          "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2303.TW",
@@ -4319,9 +4303,9 @@
           "link": "https://www.fool.com/investing/2026/08/08/only-2-of-these-5-nuclear-stocks-sell-fuel-today-h/"
         },
         {
-          "title": "When Leverage Goes Wrong on Wall Street",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/when-leverage-goes-wrong-on-wall-street/"
+          "title": "AMD just made bold move to challenge Nvidia",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/stocks/amd-acquires-taalas-ai-inference-chips-nvidia-amd"
         }
       ]
     },
@@ -4731,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64949.0586,
+      "price": 64953.1992,
       "change_pct": 0.11,
-      "volume": 12382930944,
+      "volume": 12361253888,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4741,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64949.0586,
-        "stop_loss": 62926.6915,
-        "take_profit": 68319.6703,
+        "entry_price": 64953.1992,
+        "stop_loss": 62930.8322,
+        "take_profit": 68323.811,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4769,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.66,
-      "change_pct": 0.28,
-      "volume": 3720871680,
+      "price": 1919.11,
+      "change_pct": 0.3,
+      "volume": 3715968768,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4795,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1918.66,
-        "stop_loss": 1834.5363,
-        "take_profit": 2058.8663,
+        "entry_price": 1919.11,
+        "stop_loss": 1834.9862,
+        "take_profit": 2059.3162,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
