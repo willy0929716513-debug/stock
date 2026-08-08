@@ -1,8 +1,78 @@
 {
-  "generated_at": "2026-08-08T00:10:23.554490+00:00",
+  "generated_at": "2026-08-08T07:37:52.618886+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
+    {
+      "symbol": "0050.TW",
+      "name": "元大台灣50",
+      "category": "tw_stock",
+      "price": 102.85,
+      "change_pct": -0.44,
+      "volume": 64762811,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.28%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "0051.TW",
+      "name": "元大中型100",
+      "category": "tw_stock",
+      "price": 139.7,
+      "change_pct": -1.06,
+      "volume": 50671,
+      "signal": "buy",
+      "confidence": 0.4,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.67,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.17%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 139.7,
+        "stop_loss": 133.0571,
+        "take_profit": 150.7714,
+        "atr": 4.4286,
+        "risk_reward_ratio": 1.67
+      },
+      "news": []
+    },
     {
       "symbol": "2330.TW",
       "name": "台積電",
@@ -4111,7 +4181,7 @@
       "category": "us_stock",
       "price": 313.33,
       "change_pct": 0.29,
-      "volume": 34331108,
+      "volume": 34407100,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4147,9 +4217,9 @@
           "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
         },
         {
-          "title": "MP Earnings Show Chinese Rare-Earth Monopoly Is Fading. The Stock Is Up.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/mp-materials-earnings-stock-price-269904ba?siteid=yhoof2&yptr=yahoo"
+          "title": "Apple (AAPL) Q3 2026 Earnings Call Transcript",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/apple-aapl-q3-2026-earnings-call-transcript/"
         }
       ]
     },
@@ -4159,7 +4229,7 @@
       "category": "us_stock",
       "price": 499.99,
       "change_pct": 0.03,
-      "volume": 24137816,
+      "volume": 28818000,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4196,14 +4266,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
-          "title": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/"
+          "title": "7 Reasons Pershing Square (PS) Looks Pricey After Ackman Spotlighted AI Holdings",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/7-reasons-pershing-square-ps-031928456.html"
         },
         {
-          "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html"
+          "title": "How a 52-Year-Old Can Turn $425,000 Into a Monthly Paycheck Machine by 62",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/personal-finance/2026/08/07/how-a-52-year-old-can-turn-425000-into-a-monthly-paycheck-machine-by-62-2/"
         }
       ]
     },
@@ -4213,7 +4283,7 @@
       "category": "us_stock",
       "price": 223.96,
       "change_pct": 2.27,
-      "volume": 104730601,
+      "volume": 105473700,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4249,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Why QuinStreet Stock Crushed it on Friday",
+          "title": "CEO Elon Musk Says This Is the Most Underappreciated Part of SpaceX's Business",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/07/why-quinstreet-stock-crushed-it-on-friday/"
+          "link": "https://www.fool.com/investing/2026/08/08/ceo-elon-musk-says-this-is-the-most-underappreciat/"
         }
       ]
     },
@@ -4261,7 +4331,7 @@
       "category": "us_stock",
       "price": 328.58,
       "change_pct": 2.83,
-      "volume": 38841743,
+      "volume": 39370100,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -4293,19 +4363,19 @@
       },
       "news": [
         {
+          "title": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/does-intel-intc-gain-texas-021111723.html"
+        },
+        {
+          "title": "SpaceX and Tesla choose Texas for AI chip manufacturing plant that will be world's largest building",
+          "publisher": "Fox Business",
+          "link": "https://www.foxbusiness.com/technology/spacex-tesla-choose-texas-ai-chip-manufacturing-plant-worlds-largest-building"
+        },
+        {
           "title": "Stock Market Today, Aug. 7: Space Exploration Technologies Surges on Q2 Revenue Beat, Lockup Relief, and Terafab Update",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/stock-market-today/2026/08/07/stock-market-today-aug-7-space-exploration-technologies-surges-on-q2-revenue-beat-lockup-relief-and-terafab-update/"
-        },
-        {
-          "title": "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-uber-not-220033458.html"
-        },
-        {
-          "title": "Tesla Stock Rises to End Good Week. Thank the Usual Suspects.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/tesla-stock-rises-week-d1d90970?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4315,7 +4385,7 @@
       "category": "us_stock",
       "price": 354.3,
       "change_pct": -0.96,
-      "volume": 19720908,
+      "volume": 19805200,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4351,9 +4421,9 @@
           "link": "https://finance.yahoo.com/markets/article/big-tech-is-borrowing-its-way-through-the-ai-boom-chart-of-the-day-100000605.html"
         },
         {
-          "title": "Banks Lead a Bonus Boom",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/banks-lead-a-bonus-boom-36140195?siteid=yhoof2&yptr=yahoo"
+          "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/alphabet-just-posted-a-jaw-dropping-112-billion-pr/"
         }
       ]
     },
@@ -4363,7 +4433,7 @@
       "category": "etf",
       "price": 773.26,
       "change_pct": 0.61,
-      "volume": 42664673,
+      "volume": 43557000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4389,6 +4459,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "ISPY’s 0.56% Fee Hides a $38,000 Decade-Long Performance Gap Against SPY",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/07/ispys-0-56-fee-hides-a-38000-decade-long-performance-gap-against-spy/"
+        },
+        {
           "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
@@ -4397,11 +4472,6 @@
           "title": "The 20 Most Actively Traded ETFs",
           "publisher": "etf.com",
           "link": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
-        },
-        {
-          "title": "The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/economy/articles/economy-lost-jobs-wall-street-194002543.html"
         }
       ]
     },
@@ -4411,7 +4481,7 @@
       "category": "etf",
       "price": 723.03,
       "change_pct": 1.17,
-      "volume": 29234924,
+      "volume": 31024100,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4457,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4401.2998,
-      "change_pct": 3.76,
-      "volume": 182381,
+      "price": 4340.7002,
+      "change_pct": 2.33,
+      "volume": 3101,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.1 進入超買區); bollinger_band:sell(價格 4401.30 觸及上軌 4291.00)"
+          "confidence": 0.72,
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4340.70 觸及上軌 4269.23)"
         },
         {
           "agent": "macro",
@@ -4479,14 +4549,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.78%)"
+          "rationale": "波動度正常(ATR/價格=1.70%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4401.2998,
-        "stop_loss": 4518.7712,
-        "take_profit": 4205.5141,
-        "atr": 78.3143,
+        "entry_price": 4340.7002,
+        "stop_loss": 4451.6573,
+        "take_profit": 4155.7716,
+        "atr": 73.9714,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4496,14 +4566,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
-          "title": "Is ASA Gold And Precious Metals (ASA) Undervalued As Saba Pushes Its BDC Pivot?",
+          "title": "Elemental Royalty (TSX:ELE) After Karlawinda Reserve Boost Leaves Valuation Questions Open",
           "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asa-gold-precious-metals-asa-231347012.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/elemental-royalty-tsx-ele-karlawinda-071342696.html"
         },
         {
-          "title": "Galiano Gold Inc (GAU) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/galiano-gold-inc-gau-q2-230127689.html"
+          "title": "Ero Copper Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/ero-copper-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4511,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.08,
-      "change_pct": -0.27,
-      "volume": 206437,
+      "price": 78.18,
+      "change_pct": 1.15,
+      "volume": 246260,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4532,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.28,
-          "rationale": "波動度過高(ATR/價格=6.42%),建議降低部位或觀望"
+          "confidence": 0.27,
+          "rationale": "波動度過高(ATR/價格=6.33%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4544,14 +4614,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "Basin rig count up three as prices drop",
-          "publisher": "Odessa American, Texas",
-          "link": "https://www.oaoa.com/?p=368569"
+          "title": "Klesch becomes Germany’s second-largest oil refiner after BP deal",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/energy/articles/klesch-becomes-germany-second-largest-072146991.html"
         },
         {
-          "title": "ELAM: Let’s make deal – not",
-          "publisher": "Odessa American, Texas",
-          "link": "https://www.oaoa.com/?p=368558"
+          "title": "Northern Oil And Gas (NOG) Beat Q2 Estimates With Record Gas Production",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/northern-oil-gas-nog-beat-061259260.html"
         }
       ]
     },
@@ -4646,14 +4716,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
+          "title": "Why is the bearish yen sentiment still strong?",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/why-bearish-yen-sentiment-still-002839400.html"
+        },
+        {
           "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/dollar-drifts-higher-traders-eye-020453451.html"
-        },
-        {
-          "title": "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-          "publisher": "FX Empire",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-non-farm-163958695.html"
         }
       ]
     },
@@ -4661,17 +4731,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64872.3594,
-      "change_pct": 0.95,
-      "volume": 22132867072,
+      "price": 64950.0195,
+      "change_pct": 0.11,
+      "volume": 21307543552,
       "signal": "buy",
-      "confidence": 0.44,
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.73,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+          "confidence": 0.66,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4683,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.05%)"
+          "rationale": "波動度正常(ATR/價格=2.06%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64872.3594,
-        "stop_loss": 62878.9803,
-        "take_profit": 68194.6578,
-        "atr": 1328.9194,
+        "entry_price": 64950.0195,
+        "stop_loss": 62939.5474,
+        "take_profit": 68300.8064,
+        "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4705,9 +4775,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Ethereum price today: August 7, 2026",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
+          "title": "Meliuz SA (BSP:CASH3) (Q2 2026) Earnings Call Highlights: Record EBITDA and Strategic Bitcoin ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/meliuz-sa-bsp-cash3-q2-030451492.html"
         }
       ]
     },
@@ -4715,17 +4785,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.7,
-      "change_pct": 0.56,
-      "volume": 9073918976,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 1914.21,
+      "change_pct": 0.05,
+      "volume": 8265956352,
+      "signal": "buy",
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.66,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4737,10 +4807,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.86%)"
+          "rationale": "波動度正常(ATR/價格=2.91%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 1914.21,
+        "stop_loss": 1830.7901,
+        "take_profit": 2053.243,
+        "atr": 55.6132,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
@@ -4753,9 +4829,9 @@
           "link": "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
         },
         {
-          "title": "161,000 Idle ETH May Soon Be Staked: What Grayscale Just Changed",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/grayscale-ethereum-etf-staking-amendment/"
+          "title": "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
+          "publisher": "FX Empire",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-forecast-potential-35-200927525.html"
         }
       ]
     }
