@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:13:14.001287+00:00",
+  "generated_at": "2026-08-08T10:18:36.415184+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "The Best ETF for the Investor Who Wants to Beat the Market While Barely Lifting a Finger",
+          "title": "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/the-best-etf-for-the-investor-who-wants-to-beat-th/"
+          "link": "https://www.fool.com/investing/2026/08/08/micron-vs-sandisk-which-is-the-better-ai-memory-st/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64971.75,
-      "change_pct": 0.14,
-      "volume": 19803789312,
+      "price": 64960.0,
+      "change_pct": 0.12,
+      "volume": 19863453696,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64971.75,
-        "stop_loss": 62961.2779,
-        "take_profit": 68322.5368,
+        "entry_price": 64960.0,
+        "stop_loss": 62949.5279,
+        "take_profit": 68310.7868,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.39,
-      "change_pct": 0.32,
-      "volume": 7146641920,
+      "price": 1919.6,
+      "change_pct": 0.33,
+      "volume": 7142279168,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,10 +4811,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.39,
-        "stop_loss": 1835.8096,
-        "take_profit": 2058.6908,
-        "atr": 55.7203,
+        "entry_price": 1919.6,
+        "stop_loss": 1836.0063,
+        "take_profit": 2058.9227,
+        "atr": 55.7291,
         "risk_reward_ratio": 1.67
       },
       "news": [
