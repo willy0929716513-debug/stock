@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:31:39.087444+00:00",
+  "generated_at": "2026-08-08T15:37:10.091015+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4421,7 +4421,7 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaways-ceo-greg-abel-132932802.html"
         },
         {
-          "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend its Cash Pile",
+          "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend Its Cash Pile",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/stocks/berkshire-hathaway-earnings-q2-2026-brk-a-stock-e394a0e7?siteid=yhoof2&yptr=yahoo"
         }
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65042.0586,
-      "change_pct": 0.25,
-      "volume": 14180823040,
+      "price": 65032.4297,
+      "change_pct": 0.23,
+      "volume": 14092521472,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65042.0586,
-        "stop_loss": 63019.6915,
-        "take_profit": 68412.6703,
+        "entry_price": 65032.4297,
+        "stop_loss": 63010.0626,
+        "take_profit": 68403.0414,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.1,
-      "change_pct": 0.41,
-      "volume": 4849579008,
+      "price": 1920.66,
+      "change_pct": 0.39,
+      "volume": 4838274560,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.1,
-        "stop_loss": 1836.994,
-        "take_profit": 2061.2766,
+        "entry_price": 1920.66,
+        "stop_loss": 1836.5541,
+        "take_profit": 2060.8366,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
