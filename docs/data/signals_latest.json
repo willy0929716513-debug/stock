@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T00:04:48.280702+00:00",
+  "generated_at": "2026-08-08T00:10:23.554490+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4260,14 +4260,14 @@
           "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
         },
         {
+          "title": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/"
+        },
+        {
           "title": "Q2 Earnings: Robust Results and Positive Estimate Revisions Validate Market Fundamentals",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-robust-results-positive-224200445.html"
-        },
-        {
-          "title": "Michael Kratsios Says Some Companies Blame AI for Layoffs Because 'It Plays Better in the Press'",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/ai/articles/michael-kratsios-says-companies-blame-213030325.html"
         }
       ]
     },
@@ -4608,14 +4608,14 @@
           "link": "https://finance.yahoo.com/markets/article/spacexs-influence-ripples-across-markets-alphacheck-144205821.html"
         },
         {
-          "title": "Petroleo Brasileiro SA Petrobras (PBR) (Q2 2026) Earnings Call Highlights: Record Profit and ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/energy/articles/petroleo-brasileiro-sa-petrobras-pbr-230138168.html"
+          "title": "Basin rig count up three as prices drop",
+          "publisher": "Odessa American, Texas",
+          "link": "https://www.oaoa.com/?p=368569"
         },
         {
-          "title": "Kodiak Gas Services Inc (KGS) (Q2 2026) Earnings Call Highlights: Record EBITDA and Strategic ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/energy/articles/kodiak-gas-services-inc-kgs-230028140.html"
+          "title": "ELAM: Let’s make deal – not",
+          "publisher": "Odessa American, Texas",
+          "link": "https://www.oaoa.com/?p=368558"
         }
       ]
     },
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64877.3398,
-      "change_pct": 0.96,
-      "volume": 22156900352,
+      "price": 64872.3594,
+      "change_pct": 0.95,
+      "volume": 22132867072,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4747,14 +4747,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.11%)"
+          "rationale": "波動度正常(ATR/價格=2.05%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64877.3398,
-        "stop_loss": 62826.6436,
-        "take_profit": 68295.167,
-        "atr": 1367.1309,
+        "entry_price": 64872.3594,
+        "stop_loss": 62878.9803,
+        "take_profit": 68194.6578,
+        "atr": 1328.9194,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.16,
-      "change_pct": 0.53,
-      "volume": 9083065344,
+      "price": 1912.7,
+      "change_pct": 0.56,
+      "volume": 9073918976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.97%)"
+          "rationale": "波動度正常(ATR/價格=2.86%)"
         }
       ],
       "risk_levels": null,
