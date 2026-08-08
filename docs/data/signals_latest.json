@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:33:42.436549+00:00",
+  "generated_at": "2026-08-08T11:39:03.741318+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -397,23 +397,7 @@
         "atr": 45.8571,
         "risk_reward_ratio": 1.67
       },
-      "news": [
-        {
-          "title": "GMI Cloud Seeks $635 Million GPU-Backed AI Infrastructure Loan",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/gmi-cloud-seeks-635-million-123917053.html"
-        },
-        {
-          "title": "RealTek sees mixed demand trends as second-half visibility remains limited (RLTQY)",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/29305/realtek-sees-mixed-demand-trends-as-second-half-visibility-remains-limited-rltqy"
-        },
-        {
-          "title": "Nikki Haley Says If China Controls Taiwan, The Communist Party Gains Leverage Over World's Critical Supply Chain: 'Threat To Global Freedom'",
-          "publisher": "Benzinga",
-          "link": "https://www.yahoo.com/news/politics/articles/nikki-haley-says-china-controls-104637413.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "3034.TW",
@@ -4319,9 +4303,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "The Robotic Surgery Leader: Intuitive Surgical Slides Further But One Wall Street Bull Pegs Returns at 85%",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/08/the-robotic-surgery-leader-intuitive-surgical-slides-further-but-one-wall-street-bull-pegs-returns-at-85/"
+          "title": "Why Rescheduling Might Not Move Canopy Growth's Stock as Much as You Think",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/why-rescheduling-might-not-move-canopy-growths-sto/"
         }
       ]
     },
@@ -4731,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64939.4805,
-      "change_pct": 0.09,
-      "volume": 19078508544,
+      "price": 64930.9414,
+      "change_pct": 0.08,
+      "volume": 19086688256,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4741,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64939.4805,
-        "stop_loss": 62929.0084,
-        "take_profit": 68290.2673,
+        "entry_price": 64930.9414,
+        "stop_loss": 62920.4693,
+        "take_profit": 68281.7282,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4769,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.91,
-      "change_pct": 0.29,
-      "volume": 6936646656,
+      "price": 1918.4,
+      "change_pct": 0.27,
+      "volume": 6937568768,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4795,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1918.91,
-        "stop_loss": 1835.1279,
-        "take_profit": 2058.547,
+        "entry_price": 1918.4,
+        "stop_loss": 1834.6179,
+        "take_profit": 2058.037,
         "atr": 55.8548,
         "risk_reward_ratio": 1.67
       },
