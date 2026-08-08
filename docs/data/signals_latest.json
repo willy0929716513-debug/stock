@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:35:21.267802+00:00",
+  "generated_at": "2026-08-08T23:40:42.744796+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4711,6 +4711,11 @@
       },
       "news": [
         {
+          "title": "Strategist explains why U.S. yen support is built to fail",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/strategist-explains-why-u-yen-232655555.html"
+        },
+        {
           "title": "Why is the bearish yen sentiment still strong?",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/currencies/articles/why-bearish-yen-sentiment-still-002839400.html"
@@ -4719,11 +4724,6 @@
           "title": "The smart way to invest in gold right now as the dollar slips",
           "publisher": "MarketWatch",
           "link": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2"
-        },
-        {
-          "title": "Dollar drops as weak US jobs data pushes out Fed hike expectations",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/dollar-drifts-higher-traders-eye-020453451.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64897.5898,
-      "change_pct": 0.03,
-      "volume": 12324911104,
+      "price": 64912.25,
+      "change_pct": 0.05,
+      "volume": 12326197248,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64897.5898,
-        "stop_loss": 62875.2228,
-        "take_profit": 68268.2016,
+        "entry_price": 64912.25,
+        "stop_loss": 62889.883,
+        "take_profit": 68282.8617,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.26,
-      "change_pct": 0.16,
-      "volume": 3743533312,
+      "price": 1917.0,
+      "change_pct": 0.19,
+      "volume": 3754966272,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1916.26,
-        "stop_loss": 1832.1363,
-        "take_profit": 2056.4662,
+        "entry_price": 1917.0,
+        "stop_loss": 1832.8763,
+        "take_profit": 2057.2062,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
