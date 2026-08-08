@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:59:18.907104+00:00",
+  "generated_at": "2026-08-08T00:04:48.280702+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4725,9 +4725,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64886.8008,
-      "change_pct": 0.97,
-      "volume": 22127448064,
+      "price": 64877.3398,
+      "change_pct": 0.96,
+      "volume": 22156900352,
       "signal": "buy",
       "confidence": 0.44,
       "opinions": [
@@ -4751,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64886.8008,
-        "stop_loss": 62836.1045,
-        "take_profit": 68304.6279,
+        "entry_price": 64877.3398,
+        "stop_loss": 62826.6436,
+        "take_profit": 68295.167,
         "atr": 1367.1309,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4769,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Bitcoin price today: August 7, 2026",
+          "title": "Ethereum price today: August 7, 2026",
           "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/investing/bitcoin-price-today-august-7-2026"
+          "link": "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.22,
-      "change_pct": 0.59,
-      "volume": 9088632832,
+      "price": 1912.16,
+      "change_pct": 0.53,
+      "volume": 9083065344,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4812,14 +4812,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
+          "title": "Ethereum price today: August 7, 2026",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
+        },
+        {
           "title": "161,000 Idle ETH May Soon Be Staked: What Grayscale Just Changed",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/grayscale-ethereum-etf-staking-amendment/"
-        },
-        {
-          "title": "Ethereum Price Prediction: Break Above $1,950 Could Unleash Strong Rally for ETH",
-          "publisher": "FX Empire",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-prediction-break-above-141959416.html"
         }
       ]
     }
