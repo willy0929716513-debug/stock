@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:05:22.983251+00:00",
+  "generated_at": "2026-08-08T19:10:52.399346+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Matador Resources Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/matador-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Alvopetro highlights strong Brazil operations during second quarter – ICYMI",
           "publisher": "Proactive",
           "link": "https://www.proactiveinvestors.com/companies/news/1096760/alvopetro-highlights-strong-brazil-operations-during-second-quarter-icymi-1096760.html"
@@ -4617,11 +4622,6 @@
           "title": "Klesch becomes Germany’s second-largest oil refiner after BP deal",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/klesch-becomes-germany-second-largest-072146991.html"
-        },
-        {
-          "title": "Northern Oil And Gas (NOG) Beat Q2 Estimates With Record Gas Production",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/northern-oil-gas-nog-beat-061259260.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64990.6484,
-      "change_pct": 0.17,
-      "volume": 12698881024,
+      "price": 64979.2188,
+      "change_pct": 0.15,
+      "volume": 12632931328,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64990.6484,
-        "stop_loss": 62968.2814,
-        "take_profit": 68361.2602,
+        "entry_price": 64979.2188,
+        "stop_loss": 62956.8517,
+        "take_profit": 68349.8305,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.8,
-      "change_pct": 0.34,
-      "volume": 4256237056,
+      "price": 1919.89,
+      "change_pct": 0.35,
+      "volume": 4214420736,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.8,
-        "stop_loss": 1835.6763,
-        "take_profit": 2060.0063,
+        "entry_price": 1919.89,
+        "stop_loss": 1835.7663,
+        "take_profit": 2060.0962,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
