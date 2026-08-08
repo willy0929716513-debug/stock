@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:19:27.404248+00:00",
+  "generated_at": "2026-08-08T09:24:48.674419+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback?",
+          "title": "Amazon's Stock Just Soared 15%. Here's Why Now Is Just the Beginning.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/"
+          "link": "https://www.fool.com/investing/2026/08/08/amazons-stock-just-soared-15-heres-why-now-is-just/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64984.2383,
-      "change_pct": 0.16,
-      "volume": 20595707904,
+      "price": 64975.3906,
+      "change_pct": 0.15,
+      "volume": 20521164800,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64984.2383,
-        "stop_loss": 62973.7662,
-        "take_profit": 68335.0251,
+        "entry_price": 64975.3906,
+        "stop_loss": 62964.9185,
+        "take_profit": 68326.1775,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4775,9 +4775,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
         },
         {
-          "title": "Meliuz SA (BSP:CASH3) (Q2 2026) Earnings Call Highlights: Record EBITDA and Strategic Bitcoin ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/meliuz-sa-bsp-cash3-q2-030451492.html"
+          "title": "The White House Continues to Promote the Strategic Bitcoin Reserve. Here's What It Means for Bitcoin.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/the-white-house-continues-to-promote-the-strategic/"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.85,
-      "change_pct": 0.13,
-      "volume": 7780216320,
+      "price": 1915.1899,
+      "change_pct": 0.1,
+      "volume": 7748043264,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.85,
-        "stop_loss": 1832.4301,
-        "take_profit": 2054.883,
+        "entry_price": 1915.1899,
+        "stop_loss": 1831.7701,
+        "take_profit": 2054.223,
         "atr": 55.6132,
         "risk_reward_ratio": 1.67
       },
