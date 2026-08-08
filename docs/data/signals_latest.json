@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:58:51.859455+00:00",
+  "generated_at": "2026-08-08T22:04:14.041646+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -1329,7 +1329,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "How Wistron’s early Nvidia bet made it an unsung winner of the AI boom—and one of the biggest risers on this year’s Global 500",
+          "publisher": "Fortune",
+          "link": "https://finance.yahoo.com/technology/ai/articles/wistron-early-nvidia-bet-made-080000378.html"
+        },
+        {
+          "title": "Is NVIDIA (NVDA) One of the Best NASDAQ Stocks to Buy and Hold for 3 Years?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-one-best-nasdaq-172352123.html"
+        },
+        {
+          "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+          "publisher": "TechCrunch",
+          "link": "https://finance.yahoo.com/sectors/technology/articles/nvidia-chases-200b-cpu-market-213500224.html"
+        }
+      ]
     },
     {
       "symbol": "6285.TW",
@@ -4189,7 +4205,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/08/vgt-puts-39-cents-of-every-dollar-into-just-3-stocks-the-pairing-that-fixes-it-without-selling/"
+        },
+        {
+          "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/08/berkshire-hathaway-just-did-something-it-hasnt-done-in-more-than-3-years/"
+        },
+        {
+          "title": "Bank of America revamps Apple stock price target after earnings",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-apple-aapl-stock-price-target-after-earnings"
+        }
+      ]
     },
     {
       "symbol": "MSFT",
@@ -4336,14 +4368,14 @@
           "link": "https://finance.yahoo.com/markets/article/rivians-make-or-break-r2-midsize-ev-delivers-road-test-143152026.html"
         },
         {
+          "title": "When Leverage Goes Wrong on Wall Street",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/when-leverage-goes-wrong-on-wall-street/"
+        },
+        {
           "title": "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-telling-investors-accumulate-200218837.html"
-        },
-        {
-          "title": "Tesla UK sales drop as craze for Chinese rivals surges",
-          "publisher": "The Telegraph",
-          "link": "https://www.telegraph.co.uk/business/2026/08/08/tesla-uk-sales-drop-as-craze-for-chinese-rivals-surges/"
         }
       ]
     },
@@ -4699,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64960.4883,
-      "change_pct": 0.12,
-      "volume": 12398660608,
+      "price": 64974.0703,
+      "change_pct": 0.14,
+      "volume": 12395432960,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4725,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64960.4883,
-        "stop_loss": 62938.1212,
-        "take_profit": 68331.1,
+        "entry_price": 64974.0703,
+        "stop_loss": 62951.7033,
+        "take_profit": 68344.6821,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4753,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.1801,
+      "price": 1919.27,
       "change_pct": 0.31,
-      "volume": 3781349120,
+      "volume": 3772396544,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4779,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.1801,
-        "stop_loss": 1835.0563,
-        "take_profit": 2059.3863,
+        "entry_price": 1919.27,
+        "stop_loss": 1835.1463,
+        "take_profit": 2059.4763,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
