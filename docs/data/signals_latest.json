@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:21:19.348959+00:00",
+  "generated_at": "2026-08-08T21:26:41.627745+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4261,6 +4261,11 @@
       },
       "news": [
         {
+          "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html"
+        },
+        {
           "title": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/microsoft-shows-the-magnificent-seven-what-ai-investment-looks-like/"
@@ -4269,11 +4274,6 @@
           "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html"
-        },
-        {
-          "title": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html"
         }
       ]
     },
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html"
+        },
+        {
           "title": "Nvidia’s $3 Billion Bet on Lancium Signals the Compute Landlord Thesis Has Reached the Power Layer",
           "publisher": "Forkast News",
           "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-lancium-211209280.html"
-        },
-        {
-          "title": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/microsoft-shows-the-magnificent-seven-what-ai-investment-looks-like/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64993.4609,
-      "change_pct": 0.17,
-      "volume": 12285262848,
+      "price": 64994.5312,
+      "change_pct": 0.18,
+      "volume": 12328601600,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64993.4609,
-        "stop_loss": 62971.0939,
-        "take_profit": 68364.0727,
+        "entry_price": 64994.5312,
+        "stop_loss": 62972.1642,
+        "take_profit": 68365.143,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.4399,
-      "change_pct": 0.32,
-      "volume": 3878778624,
+      "price": 1919.61,
+      "change_pct": 0.33,
+      "volume": 3869258752,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.4399,
-        "stop_loss": 1835.3162,
-        "take_profit": 2059.6462,
+        "entry_price": 1919.61,
+        "stop_loss": 1835.4862,
+        "take_profit": 2059.8162,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
