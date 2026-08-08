@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:26:38.955690+00:00",
+  "generated_at": "2026-08-08T16:32:13.952285+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65028.6719,
-      "change_pct": 0.23,
-      "volume": 13608940544,
+      "price": 65012.1797,
+      "change_pct": 0.2,
+      "volume": 13586127872,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65028.6719,
-        "stop_loss": 63006.3048,
-        "take_profit": 68399.2836,
+        "entry_price": 65012.1797,
+        "stop_loss": 62989.8126,
+        "take_profit": 68382.7914,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4770,14 +4770,14 @@
           "link": "https://finance.yahoo.com/video/bitcoin-zeppelin-why-historian-says-211147648.html"
         },
         {
+          "title": "What Do MARA Holdings (MARA) Board Changes And Losses Mean For Its AI Pivot?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mara-holdings-mara-board-changes-161154038.html"
+        },
+        {
           "title": "Strategy (MSTR) Unveils $15 Billion Bitcoin Backed Preferred Stock Plan",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html"
-        },
-        {
-          "title": "Bitcoin rises toward $65,000 as fresh security risks hit infrastructure",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rises-toward-65-000-092116909.html"
         }
       ]
     },
@@ -4785,16 +4785,16 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.3101,
-      "change_pct": 0.42,
-      "volume": 4657915904,
+      "price": 1921.04,
+      "change_pct": 0.41,
+      "volume": 4653696512,
       "signal": "buy",
-      "confidence": 0.38,
+      "confidence": 0.39,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.64,
+          "confidence": 0.65,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.3101,
-        "stop_loss": 1837.2041,
-        "take_profit": 2061.4866,
+        "entry_price": 1921.04,
+        "stop_loss": 1836.9341,
+        "take_profit": 2061.2166,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
