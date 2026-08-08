@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T12:38:06.756125+00:00",
+  "generated_at": "2026-08-08T14:09:16.803649+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4212,9 +4212,9 @@
           "link": "https://finance.yahoo.com/video/openai-developing-300-ai-speaker-202000842.html"
         },
         {
-          "title": "What we know about OpenAI's upcoming handheld device: Bloomberg",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/know-openais-upcoming-handheld-device-140247594.html"
+          "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/ai/articles/apple-says-mac-users-china-123458419.html"
         },
         {
           "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback?",
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "Dow Jones Futures: What To Do As Stock Market Revs Up; Warren Buffett's Berkshire Beats Views",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
+          "title": "HubSpot Just Cut Its Own Customer-Growth Forecast to 5,000 a Quarter. What Is the Stock Worth in 3 Years?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/hubspot-just-cut-its-own-customer-growth-forecast/"
         }
       ]
     },
@@ -4363,6 +4363,11 @@
       },
       "news": [
         {
+          "title": "Tesla UK sales drop as craze for Chinese rivals surges",
+          "publisher": "The Telegraph",
+          "link": "https://uk.finance.yahoo.com/news/tesla-uk-sales-drop-craze-132334701.html"
+        },
+        {
           "title": "Prediction for Tesla Stock in 3 Years: The Bear Case",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/prediction-for-tesla-stock-in-3-years-the-bear-cas/"
@@ -4371,11 +4376,6 @@
           "title": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/does-intel-intc-gain-texas-021111723.html"
-        },
-        {
-          "title": "SpaceX and Tesla choose Texas for AI chip manufacturing plant that will be world's largest building",
-          "publisher": "Fox Business",
-          "link": "https://www.foxbusiness.com/technology/spacex-tesla-choose-texas-ai-chip-manufacturing-plant-worlds-largest-building"
         }
       ]
     },
@@ -4416,14 +4416,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
-          "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo"
+          "title": "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
+          "publisher": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaways-ceo-greg-abel-132932802.html"
         },
         {
-          "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/alphabet-just-posted-a-jaw-dropping-112-billion-pr/"
+          "title": "Berkshire Hathaway, Under a New CEO, Starts to Spend its Cash Pile",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/stocks/berkshire-hathaway-earnings-q2-2026-brk-a-stock-e394a0e7?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/video/gold-rallies-over-7-ubs-202522628.html"
         },
         {
-          "title": "Gold Royalty (GROY) Posts Record First Half Results, Is The Valuation Gap Too Wide?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gold-royalty-groy-posts-record-081433541.html"
+          "title": "Gold's rally 'has support', with prices set to rise toward $5,000 next year, UBS says",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/golds-rally-has-support-with-prices-set-to-rise-toward-5000-next-year-ubs-says-100000563.html"
         },
         {
-          "title": "Fortuna Mining Q2 Earnings Call Highlights",
+          "title": "Iamgold Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/fortuna-mining-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "link": "https://www.marketbeat.com/instant-alerts/iamgold-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64956.9219,
-      "change_pct": 0.12,
-      "volume": 18104064000,
+      "price": 64989.9102,
+      "change_pct": 0.17,
+      "volume": 15337690112,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64956.9219,
-        "stop_loss": 62946.4498,
-        "take_profit": 68307.7087,
+        "entry_price": 64989.9102,
+        "stop_loss": 62979.4381,
+        "take_profit": 68340.697,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4770,9 +4770,9 @@
           "link": "https://finance.yahoo.com/video/bitcoin-zeppelin-why-historian-says-211147648.html"
         },
         {
-          "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
+          "title": "Strategy (MSTR) Unveils $15 Billion Bitcoin Backed Preferred Stock Plan",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-unveils-15-billion-130721771.html"
         },
         {
           "title": "Bitcoin rises toward $65,000 as fresh security risks hit infrastructure",
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.9,
-      "change_pct": 0.29,
-      "volume": 6189299712,
+      "price": 1919.7,
+      "change_pct": 0.34,
+      "volume": 5259138048,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,18 +4811,13 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1918.9,
-        "stop_loss": 1835.1179,
-        "take_profit": 2058.537,
+        "entry_price": 1919.7,
+        "stop_loss": 1835.9178,
+        "take_profit": 2059.3369,
         "atr": 55.8548,
         "risk_reward_ratio": 1.67
       },
       "news": [
-        {
-          "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
-          "publisher": "Yahoo Personal Finance",
-          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
-        },
         {
           "title": "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock — 4 AI Models Predict the Winners and Losers",
           "publisher": "CCN",
@@ -4832,6 +4827,11 @@
           "title": "Ethereum price today: August 7, 2026",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
+        },
+        {
+          "title": "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
+          "publisher": "FX Empire",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-forecast-potential-35-200927525.html"
         }
       ]
     }
