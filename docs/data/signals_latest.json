@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:10:41.529643+00:00",
+  "generated_at": "2026-08-08T17:16:08.059213+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
-          "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/08/vgt-puts-39-cents-of-every-dollar-into-just-3-stocks-the-pairing-that-fixes-it-without-selling/"
+          "title": "Nebius Is Worth 55 Times Its Revenue. What Does That Price Assume?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/nebius-is-worth-55-times-its-revenue-what-does-tha/"
         },
         {
-          "title": "Why Cameco's Ugly Earnings Miss Might Be Good News in Disguise",
+          "title": "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/why-camecos-ugly-earnings-miss-might-be-good-news/"
+          "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-s-successor-greg-abel-just-ended-berkshire-hathaway-s-14-quarter-selling-streak-is-this-the-screaming-buy-signal-investors-have-been-waiting-for/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65060.8906,
-      "change_pct": 0.28,
-      "volume": 13224893440,
+      "price": 65079.2109,
+      "change_pct": 0.31,
+      "volume": 13203879936,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65060.8906,
-        "stop_loss": 63038.5236,
-        "take_profit": 68431.5024,
+        "entry_price": 65079.2109,
+        "stop_loss": 63056.8439,
+        "take_profit": 68449.8227,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.63,
-      "change_pct": 0.44,
-      "volume": 4475508736,
+      "price": 1922.11,
+      "change_pct": 0.46,
+      "volume": 4458270208,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.63,
-        "stop_loss": 1837.5241,
-        "take_profit": 2061.8066,
+        "entry_price": 1922.11,
+        "stop_loss": 1838.004,
+        "take_profit": 2062.2866,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
