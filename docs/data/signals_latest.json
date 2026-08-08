@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:02:26.853392+00:00",
+  "generated_at": "2026-08-08T10:07:52.566892+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4271,9 +4271,9 @@
           "link": "https://finance.yahoo.com/video/atlassian-stock-soars-34-earnings-145957235.html"
         },
         {
-          "title": "7 Reasons Pershing Square (PS) Looks Pricey After Ackman Spotlighted AI Holdings",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/7-reasons-pershing-square-ps-031928456.html"
+          "title": "How Chevron became the AI darling of Big Oil",
+          "publisher": "Fortune",
+          "link": "https://finance.yahoo.com/technology/ai/articles/chevron-became-ai-darling-big-071100687.html"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "$10,000 in Axon Stock a Decade Ago Would Be Worth About $329,000 Today. The Stock Is Down Over the Past Year.",
+          "title": "The Best ETF for the Investor Who Wants to Beat the Market While Barely Lifting a Finger",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/10000-in-axon-stock-a-decade-ago-would-be-worth-ab/"
+          "link": "https://www.fool.com/investing/2026/08/08/the-best-etf-for-the-investor-who-wants-to-beat-th/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64955.2812,
-      "change_pct": 0.12,
-      "volume": 19996241920,
+      "price": 64953.0117,
+      "change_pct": 0.11,
+      "volume": 19930060800,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64955.2812,
-        "stop_loss": 62944.8092,
-        "take_profit": 68306.0681,
+        "entry_price": 64953.0117,
+        "stop_loss": 62942.5396,
+        "take_profit": 68303.7985,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.03,
-      "change_pct": 0.25,
-      "volume": 7267196928,
+      "price": 1918.2,
+      "change_pct": 0.26,
+      "volume": 7181193216,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1918.03,
-        "stop_loss": 1834.4702,
-        "take_profit": 2057.2964,
+        "entry_price": 1918.2,
+        "stop_loss": 1834.6401,
+        "take_profit": 2057.4664,
         "atr": 55.7066,
         "risk_reward_ratio": 1.67
       },
