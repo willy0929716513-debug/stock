@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:42:01.503903+00:00",
+  "generated_at": "2026-08-08T08:47:22.189301+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "JPMorgan's $1.5 Trillion Initiative to Finance U.S. Shipbuilding and Defense Could Be a Tailwind for Industrial and Defense Stocks",
+          "title": "An Inflation Quadruple Whammy, Headlined by Trumpflation, Threatens to Crush the Stock Market",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/jpmorgans-15-trillion-initiative-to-finance-us-shi/"
+          "link": "https://www.fool.com/investing/2026/08/08/inflation-quadruple-whammy-trumpflation-wall-st/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64966.6484,
-      "change_pct": 0.13,
-      "volume": 20934586368,
+      "price": 64951.9414,
+      "change_pct": 0.11,
+      "volume": 20856203264,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64966.6484,
-        "stop_loss": 62956.1763,
-        "take_profit": 68317.4353,
+        "entry_price": 64951.9414,
+        "stop_loss": 62941.4693,
+        "take_profit": 68302.7282,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.12,
-      "change_pct": 0.15,
-      "volume": 8029153280,
+      "price": 1915.8,
+      "change_pct": 0.13,
+      "volume": 8065830400,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1916.12,
-        "stop_loss": 1832.7002,
-        "take_profit": 2055.1531,
+        "entry_price": 1915.8,
+        "stop_loss": 1832.3802,
+        "take_profit": 2054.8331,
         "atr": 55.6132,
         "risk_reward_ratio": 1.67
       },
