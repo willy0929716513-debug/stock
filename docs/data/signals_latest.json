@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:38:08.271944+00:00",
+  "generated_at": "2026-08-08T17:43:33.425191+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://247wallst.com/investing/2026/08/08/nvidia-micron-or-broadcom-what-would-raymond-dalio-do/"
         },
         {
-          "title": "My Top Dividend Stock to Buy in August (and It's Not Even Close)",
+          "title": "Why Doximity Stock Skyrocketed on Friday",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/my-top-dividend-stock-to-buy-in-august-and-its-not/"
+          "link": "https://www.fool.com/investing/2026/08/08/why-doximity-stock-skyrocketed-on-friday/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65097.7109,
-      "change_pct": 0.34,
-      "volume": 13078403072,
+      "price": 65078.1914,
+      "change_pct": 0.31,
+      "volume": 12968421376,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65097.7109,
-        "stop_loss": 63075.3439,
-        "take_profit": 68468.3227,
+        "entry_price": 65078.1914,
+        "stop_loss": 63055.8244,
+        "take_profit": 68448.8032,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.3199,
-      "change_pct": 0.58,
-      "volume": 4404595712,
+      "price": 1923.86,
+      "change_pct": 0.55,
+      "volume": 4356874752,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1924.3199,
-        "stop_loss": 1840.214,
-        "take_profit": 2064.4965,
+        "entry_price": 1923.86,
+        "stop_loss": 1839.754,
+        "take_profit": 2064.0366,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
