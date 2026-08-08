@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:08:35.901965+00:00",
+  "generated_at": "2026-08-08T23:13:57.258014+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,11 +4309,6 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Tech stocks today: Shares climb after rocky week",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
-        },
-        {
           "title": "Nvidia vs. Navitas Semiconductor: Here's What Their Revenue Trends Tell Investors About These Artificial Intelligence Companies",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/coverage/charts/2026/08/08/nvidia-vs-navitas-semiconductor-here-s-what-their-revenue-trends-tell-investors-about-these-artificial-intelligence-companies/"
@@ -4322,6 +4317,11 @@
           "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/why-the-market-continues-to-sleep-on-microns-growt/"
+        },
+        {
+          "title": "Warren Buffett Warned About the Dot-Com Bubble. Now, the Stock Market Is Flashing the Same Warning Signal.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-warned-about-the-dot-com-bubble-now/"
         }
       ]
     },
@@ -4411,11 +4411,6 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Tech stocks today: Shares climb after rocky week",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
-        },
-        {
           "title": "NiSource Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/nisource-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
@@ -4424,6 +4419,11 @@
           "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html"
+        },
+        {
+          "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64890.4414,
-      "change_pct": 0.02,
-      "volume": 12437760000,
+      "price": 64889.5391,
+      "change_pct": 0.01,
+      "volume": 12385476608,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64890.4414,
-        "stop_loss": 62868.0744,
-        "take_profit": 68261.0532,
+        "entry_price": 64889.5391,
+        "stop_loss": 62867.172,
+        "take_profit": 68260.1508,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.6,
-      "change_pct": 0.07,
-      "volume": 3727170304,
+      "price": 1914.15,
+      "change_pct": 0.05,
+      "volume": 3742016512,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1914.6,
-        "stop_loss": 1830.4762,
-        "take_profit": 2054.8062,
+        "entry_price": 1914.15,
+        "stop_loss": 1830.0263,
+        "take_profit": 2054.3563,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
