@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:10:06.563008+00:00",
+  "generated_at": "2026-08-08T16:15:36.868281+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4006,7 +4006,13 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Hanwha Ocean wins Yang Ming contract for dual-fuel LNG containers",
+          "publisher": "Ship Technology",
+          "link": "https://www.ship-technology.com/news/hanwha-ocean-yang-ming-container-ships/"
+        }
+      ]
     },
     {
       "symbol": "2615.TW",
@@ -4725,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65046.4883,
-      "change_pct": 0.26,
-      "volume": 13727045632,
+      "price": 65038.8711,
+      "change_pct": 0.24,
+      "volume": 13732591616,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4751,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65046.4883,
-        "stop_loss": 63024.1212,
-        "take_profit": 68417.1,
+        "entry_price": 65038.8711,
+        "stop_loss": 63016.504,
+        "take_profit": 68409.4828,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4779,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.15,
-      "change_pct": 0.46,
-      "volume": 4710742528,
+      "price": 1921.53,
+      "change_pct": 0.43,
+      "volume": 4723112448,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -4805,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1922.15,
-        "stop_loss": 1838.0441,
-        "take_profit": 2062.3266,
+        "entry_price": 1921.53,
+        "stop_loss": 1837.4241,
+        "take_profit": 2061.7066,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
