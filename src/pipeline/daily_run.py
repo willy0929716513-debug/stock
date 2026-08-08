@@ -111,7 +111,11 @@ def main() -> None:
     output = build_signals()
     output_path = Path(SIGNALS_LATEST_PATH)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    # allow_nan=False:寧可讓這次 pipeline 執行失敗、保留舊資料,也不要把 NaN
+    # 寫進公開的 JSON——NaN 不是合法 JSON,瀏覽器解析會直接拋例外讓全站掛掉
+    # (曾經發生過:0050.TW/0051.TW 的 price/change_pct 算出 NaN,寫進檔案後
+    # 使用者在 Safari 看到「The string did not match the expected pattern.」)。
+    output_path.write_text(json.dumps(output, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
     logger.info("wrote %d signals to %s", len(output["signals"]), output_path)
 
 

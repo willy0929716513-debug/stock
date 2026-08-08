@@ -100,6 +100,14 @@ def fetch_quote(symbol: str, history: Optional[pd.DataFrame] = None) -> Optional
     df = history if history is not None else fetch_history(symbol, period="5d", interval="1d")
     if df.empty:
         return None
+    # 批次下載偶爾會讓最新一列的 Close 是 NaN(例如當天資料尚未完整結算),
+    # 但其他欄位(Volume 等)仍有值,不會被上游的 dropna(how="all") 濾掉。
+    # 沒濾掉的話 price/change_pct 會算出 NaN,而 Python 的 json.dumps 預設會
+    # 把 NaN 原樣輸出成不合法的 JSON,導致整個 signals_latest.json 在瀏覽器
+    # 解析失敗、全站掛掉(單一標的的資料問題波及全部標的)。
+    df = df.dropna(subset=["Close"])
+    if df.empty:
+        return None
     last = df.iloc[-1]
     prev_close = df.iloc[-2]["Close"] if len(df) >= 2 else last["Close"]
     change_pct = ((last["Close"] - prev_close) / prev_close * 100) if prev_close else None

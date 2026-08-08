@@ -66,3 +66,25 @@ def test_fetch_history_batch_symbol_missing_everywhere_is_dropped(monkeypatch):
     result = market_data.fetch_history_batch(["AAA"])
 
     assert result == {}
+
+
+def test_fetch_quote_falls_back_to_last_row_with_valid_close():
+    df = _make_df(n=3, base=100.0)
+    df.loc[df.index[-1], "Close"] = float("nan")  # 最新一列 Close 是 NaN,其他欄位仍有值
+
+    quote = market_data.fetch_quote("AAA", history=df)
+
+    assert quote is not None
+    assert quote.price == 100.0
+    import math
+    assert not math.isnan(quote.price)
+    assert quote.change_pct is not None and not math.isnan(quote.change_pct)
+
+
+def test_fetch_quote_returns_none_when_all_close_values_are_nan():
+    df = _make_df(n=3, base=100.0)
+    df["Close"] = float("nan")
+
+    quote = market_data.fetch_quote("AAA", history=df)
+
+    assert quote is None
