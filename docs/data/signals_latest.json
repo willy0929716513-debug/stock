@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:43:48.249033+00:00",
+  "generated_at": "2026-08-08T20:01:00.203216+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
-          "title": "Nokia’s (NOK) AI Network Bet Gets A Taiwan Proving Ground",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nokia-nok-ai-network-bet-193932563.html"
+          "title": "Better GLP-1 Stock to Buy: Eli Lilly or Viking Therapeutics?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/better-glp-1-stock-to-buy-eli-lilly-or-viking-ther/"
         },
         {
-          "title": "Is Dutch Bros a Buy After Crashing 19% in 1 Day?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/is-dutch-bros-a-buy-after-crashing-19-in-1-day/"
+          "title": "AMD (AMD) Buys Taalas: Is AI Inference the Next Battleground With Nvidia?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64992.6602,
-      "change_pct": 0.17,
-      "volume": 12418666496,
+      "price": 65020.0703,
+      "change_pct": 0.22,
+      "volume": 12382664704,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64992.6602,
-        "stop_loss": 62970.2931,
-        "take_profit": 68363.2719,
+        "entry_price": 65020.0703,
+        "stop_loss": 62997.7033,
+        "take_profit": 68390.6821,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.0699,
-      "change_pct": 0.3,
-      "volume": 4073654528,
+      "price": 1918.71,
+      "change_pct": 0.28,
+      "volume": 4020065536,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.0699,
-        "stop_loss": 1834.9462,
-        "take_profit": 2059.2762,
+        "entry_price": 1918.71,
+        "stop_loss": 1834.5862,
+        "take_profit": 2058.9162,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
