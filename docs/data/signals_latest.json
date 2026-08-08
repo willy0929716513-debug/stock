@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T20:43:49.811821+00:00",
+  "generated_at": "2026-08-08T20:49:10.896175+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4261,11 +4261,6 @@
       },
       "news": [
         {
-          "title": "AI theme has 'a long way to run': Strategist",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
-        },
-        {
           "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html"
@@ -4274,6 +4269,11 @@
           "title": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html"
+        },
+        {
+          "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/08/vgt-puts-39-cents-of-every-dollar-into-just-3-stocks-the-pairing-that-fixes-it-without-selling/"
         }
       ]
     },
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Nvidia ends week up more than 10% as AI chip fears ease",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-ends-week-up-more-than-10-as-ai-chip-fears-ease-205751147.html"
+        },
+        {
           "title": "Where Will Dell Technologies Stock Be in 3 Years?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/where-will-dell-technologies-stock-be-in-3-years/"
-        },
-        {
-          "title": "Better GLP-1 Stock to Buy: Eli Lilly or Viking Therapeutics?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/better-glp-1-stock-to-buy-eli-lilly-or-viking-ther/"
         }
       ]
     },
@@ -4416,14 +4416,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
-          "title": "AI theme has 'a long way to run': Strategist",
-          "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/ai-theme-long-way-run-204908888.html"
-        },
-        {
           "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html"
+        },
+        {
+          "title": "Even Without Alphabet and Amazon, the S&P 500 Just Posted Its Biggest Earnings Beat Ever",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/08/even-without-alphabet-and-amazon-the-sp-500-just-posted-its-biggest-earnings-beat-ever/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65022.0781,
-      "change_pct": 0.22,
-      "volume": 12066503680,
+      "price": 65037.8203,
+      "change_pct": 0.24,
+      "volume": 12093465600,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65022.0781,
-        "stop_loss": 62999.7111,
-        "take_profit": 68392.6899,
+        "entry_price": 65037.8203,
+        "stop_loss": 63015.4533,
+        "take_profit": 68408.4321,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.66,
-      "change_pct": 0.33,
-      "volume": 3936277248,
+      "price": 1919.4399,
+      "change_pct": 0.32,
+      "volume": 3915349760,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1919.66,
-        "stop_loss": 1835.5363,
-        "take_profit": 2059.8663,
+        "entry_price": 1919.4399,
+        "stop_loss": 1835.3162,
+        "take_profit": 2059.6462,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
