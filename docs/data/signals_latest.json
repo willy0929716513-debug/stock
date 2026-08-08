@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:42:46.609519+00:00",
+  "generated_at": "2026-08-08T21:48:08.735108+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings Aug. 18. Is It the Smarter Dow Stock to Buy Over Walmart?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/home-depot-dividend-17-years-walmart/"
+        },
+        {
           "title": "Medtronic vs. Intuitive Surgical: Which MedTech Stock Is the Better Buy Right Now?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/medtronic-vs-intuitive-surgical-which-medtech-stoc/"
-        },
-        {
-          "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64987.9492,
-      "change_pct": 0.17,
-      "volume": 12345639936,
+      "price": 64983.3789,
+      "change_pct": 0.16,
+      "volume": 12360803328,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64987.9492,
-        "stop_loss": 62965.5822,
-        "take_profit": 68358.561,
+        "entry_price": 64983.3789,
+        "stop_loss": 62961.0119,
+        "take_profit": 68353.9907,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.1801,
-      "change_pct": 0.36,
-      "volume": 3862646272,
+      "price": 1919.91,
+      "change_pct": 0.35,
+      "volume": 3809460992,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1920.1801,
-        "stop_loss": 1836.0563,
-        "take_profit": 2060.3863,
+        "entry_price": 1919.91,
+        "stop_loss": 1835.7863,
+        "take_profit": 2060.1163,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
