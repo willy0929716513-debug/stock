@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:03:14.076613+00:00",
+  "generated_at": "2026-08-08T23:08:35.901965+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Nvidia vs. Navitas Semiconductor: Here's What Their Revenue Trends Tell Investors About These Artificial Intelligence Companies",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/charts/2026/08/08/nvidia-vs-navitas-semiconductor-here-s-what-their-revenue-trends-tell-investors-about-these-artificial-intelligence-companies/"
+        },
+        {
           "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/why-the-market-continues-to-sleep-on-microns-growt/"
-        },
-        {
-          "title": "Warren Buffett Warned About the Dot-Com Bubble. Now, the Stock Market Is Flashing the Same Warning Signal.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-warned-about-the-dot-com-bubble-now/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64894.4883,
+      "price": 64890.4414,
       "change_pct": 0.02,
-      "volume": 12458641408,
+      "volume": 12437760000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64894.4883,
-        "stop_loss": 62872.1212,
-        "take_profit": 68265.1,
+        "entry_price": 64890.4414,
+        "stop_loss": 62868.0744,
+        "take_profit": 68261.0532,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,16 +4785,16 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.3,
-      "change_pct": 0.11,
-      "volume": 3729814016,
+      "price": 1914.6,
+      "change_pct": 0.07,
+      "volume": 3727170304,
       "signal": "buy",
-      "confidence": 0.39,
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.65,
+          "confidence": 0.66,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.3,
-        "stop_loss": 1831.1763,
-        "take_profit": 2055.5063,
+        "entry_price": 1914.6,
+        "stop_loss": 1830.4762,
+        "take_profit": 2054.8062,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
