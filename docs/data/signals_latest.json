@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:26:08.120218+00:00",
+  "generated_at": "2026-08-08T15:31:39.087444+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/openai-developing-300-ai-speaker-202000842.html"
         },
         {
+          "title": "Bank of America revamps Apple stock price target after earnings",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-apple-aapl-stock-price-target-after-earnings"
+        },
+        {
           "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-says-mac-users-china-123458419.html"
-        },
-        {
-          "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/call-options-165604768.html"
         },
         {
-          "title": "What Sent Sandisk Shares Tumbling Nearly 20% Last Month",
+          "title": "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move)",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/what-sent-sandisk-shares-tumbling-nearly-20-last/"
+          "link": "https://www.fool.com/investing/2026/08/08/prediction-this-will-be-the-cryptocurrency-xrps-pr/"
         }
       ]
     },
@@ -4731,16 +4731,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65058.3281,
-      "change_pct": 0.27,
-      "volume": 14176284672,
+      "price": 65042.0586,
+      "change_pct": 0.25,
+      "volume": 14180823040,
       "signal": "buy",
-      "confidence": 0.39,
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.65,
+          "confidence": 0.66,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 65058.3281,
-        "stop_loss": 63035.9611,
-        "take_profit": 68428.9399,
+        "entry_price": 65042.0586,
+        "stop_loss": 63019.6915,
+        "take_profit": 68412.6703,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,16 +4785,16 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.88,
-      "change_pct": 0.45,
-      "volume": 4832253952,
+      "price": 1921.1,
+      "change_pct": 0.41,
+      "volume": 4849579008,
       "signal": "buy",
-      "confidence": 0.38,
+      "confidence": 0.39,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.64,
+          "confidence": 0.65,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1921.88,
-        "stop_loss": 1837.7741,
-        "take_profit": 2062.0566,
+        "entry_price": 1921.1,
+        "stop_loss": 1836.994,
+        "take_profit": 2061.2766,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
