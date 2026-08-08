@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:37:44.057725+00:00",
+  "generated_at": "2026-08-08T16:43:12.340657+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4212,14 +4212,14 @@
           "link": "https://finance.yahoo.com/video/openai-developing-300-ai-speaker-202000842.html"
         },
         {
+          "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/08/berkshire-hathaway-just-did-something-it-hasnt-done-in-more-than-3-years/"
+        },
+        {
           "title": "Bank of America revamps Apple stock price target after earnings",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/investing/stocks/bank-of-america-apple-aapl-stock-price-target-after-earnings"
-        },
-        {
-          "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-says-mac-users-china-123458419.html"
         }
       ]
     },
@@ -4416,14 +4416,14 @@
           "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-after-rocky-week-140419479.html"
         },
         {
+          "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/08/berkshire-hathaway-just-did-something-it-hasnt-done-in-more-than-3-years/"
+        },
+        {
           "title": "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/alphabet-ceo-sundar-pichai-just-made-a-decision-th/"
-        },
-        {
-          "title": "Google shutting down a popular feature after 10 years",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/technology/google-assistant-shutdown-gemini-replacement"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64991.4414,
-      "change_pct": 0.17,
-      "volume": 13558283264,
+      "price": 65018.1211,
+      "change_pct": 0.21,
+      "volume": 13120163840,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64991.4414,
-        "stop_loss": 62969.0744,
-        "take_profit": 68362.0532,
+        "entry_price": 65018.1211,
+        "stop_loss": 62995.754,
+        "take_profit": 68388.7328,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.45,
-      "change_pct": 0.37,
-      "volume": 4630612480,
+      "price": 1920.76,
+      "change_pct": 0.39,
+      "volume": 4612310528,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1920.45,
-        "stop_loss": 1836.344,
-        "take_profit": 2060.6265,
+        "entry_price": 1920.76,
+        "stop_loss": 1836.6541,
+        "take_profit": 2060.9366,
         "atr": 56.0706,
         "risk_reward_ratio": 1.67
       },
