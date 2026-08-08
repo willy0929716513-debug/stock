@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:39:03.741318+00:00",
+  "generated_at": "2026-08-08T11:44:25.368818+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -397,7 +397,23 @@
         "atr": 45.8571,
         "risk_reward_ratio": 1.67
       },
-      "news": []
+      "news": [
+        {
+          "title": "GMI Cloud Seeks $635 Million GPU-Backed AI Infrastructure Loan",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/gmi-cloud-seeks-635-million-123917053.html"
+        },
+        {
+          "title": "RealTek sees mixed demand trends as second-half visibility remains limited (RLTQY)",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/29305/realtek-sees-mixed-demand-trends-as-second-half-visibility-remains-limited-rltqy"
+        },
+        {
+          "title": "Nikki Haley Says If China Controls Taiwan, The Communist Party Gains Leverage Over World's Critical Supply Chain: 'Threat To Global Freedom'",
+          "publisher": "Benzinga",
+          "link": "https://www.yahoo.com/news/politics/articles/nikki-haley-says-china-controls-104637413.html"
+        }
+      ]
     },
     {
       "symbol": "3034.TW",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64930.9414,
+      "price": 64929.0703,
       "change_pct": 0.08,
-      "volume": 19086688256,
+      "volume": 19011698688,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4741,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64930.9414,
-        "stop_loss": 62920.4693,
-        "take_profit": 68281.7282,
+        "entry_price": 64929.0703,
+        "stop_loss": 62918.5982,
+        "take_profit": 68279.8571,
         "atr": 1340.3147,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.4,
+      "price": 1918.46,
       "change_pct": 0.27,
-      "volume": 6937568768,
+      "volume": 6937346560,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4795,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1918.4,
-        "stop_loss": 1834.6179,
-        "take_profit": 2058.037,
+        "entry_price": 1918.46,
+        "stop_loss": 1834.6778,
+        "take_profit": 2058.0969,
         "atr": 55.8548,
         "risk_reward_ratio": 1.67
       },
