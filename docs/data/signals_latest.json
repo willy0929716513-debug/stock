@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T01:11:45.798153+00:00",
+  "generated_at": "2026-08-09T01:17:07.228957+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4609,19 +4609,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Permian Resources Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/permian-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "title": "Petroleo Brasileiro S.A.- Petrobras Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Pampa Energia Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/pampa-energia-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "U.S. Energy Helps Cushion Global Supply Shock From Hormuz",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/energy/articles/u-energy-helps-cushion-global-230000293.html"
-        },
-        {
-          "title": "Matador Resources Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/matador-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64925.1289,
+      "price": 64928.6484,
       "change_pct": 0.07,
-      "volume": 12234517504,
+      "volume": 12178205696,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64925.1289,
-        "stop_loss": 62931.7524,
-        "take_profit": 68247.4231,
-        "atr": 1328.9177,
+        "entry_price": 64928.6484,
+        "stop_loss": 62933.0705,
+        "take_profit": 68254.6117,
+        "atr": 1330.3853,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.26,
-      "change_pct": 0.21,
-      "volume": 3777437440,
+      "price": 1917.62,
+      "change_pct": 0.23,
+      "volume": 3742061824,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4807,14 +4807,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.89%)"
+          "rationale": "波動度正常(ATR/價格=2.90%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 1917.26,
-        "stop_loss": 1834.0271,
-        "take_profit": 2055.9815,
-        "atr": 55.4886,
+        "entry_price": 1917.62,
+        "stop_loss": 1834.3178,
+        "take_profit": 2056.457,
+        "atr": 55.5348,
         "risk_reward_ratio": 1.67
       },
       "news": [
