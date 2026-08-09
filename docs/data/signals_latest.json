@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:16:11.990070+00:00",
+  "generated_at": "2026-08-09T14:21:33.837515+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4505,7 +4505,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
+        },
+        {
+          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+        },
+        {
+          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
+        }
+      ]
     },
     {
       "symbol": "GC=F",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65166.5391,
+      "price": 65163.6094,
       "change_pct": 0.4,
-      "volume": 12536948736,
+      "volume": 12522839040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4763,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.51,
-      "change_pct": 0.42,
-      "volume": 4114632448,
+      "price": 1922.98,
+      "change_pct": 0.39,
+      "volume": 4107101184,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
