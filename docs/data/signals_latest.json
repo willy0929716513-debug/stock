@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:20:21.401541+00:00",
+  "generated_at": "2026-08-09T19:25:44.268955+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4271,9 +4271,9 @@
           "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
         },
         {
-          "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
+          "title": "Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/microsoft-sits-12-below-its-high-after-the-largest/"
+          "link": "https://www.fool.com/investing/2026/08/09/sundar-pichai-alphabet-grow-google-cloud-capex/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65169.9883,
-      "change_pct": 0.41,
-      "volume": 12216251392,
+      "price": 65167.4414,
+      "change_pct": 0.4,
+      "volume": 12210862080,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.61,
-      "change_pct": 0.27,
-      "volume": 3976908800,
+      "price": 1920.95,
+      "change_pct": 0.28,
+      "volume": 3968794880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
