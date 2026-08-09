@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:08:53.165431+00:00",
+  "generated_at": "2026-08-09T20:14:17.073563+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -247,7 +247,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Asia Pacific Share Sales Overcome Volatility to Shatter Records",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/asia-pacific-share-sales-overcome-040017919.html"
+        },
+        {
+          "title": "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-surges-82-6-143800073.html"
+        },
+        {
+          "title": "ASX Q2 Earnings Beat Estimates on AI-Driven LEAP, ATM Growth",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/technology/ai/articles/asx-q2-earnings-beat-estimates-181200620.html"
+        }
+      ]
     },
     {
       "symbol": "2408.TW",
@@ -4661,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.81,
-      "change_pct": -0.38,
+      "price": 157.819,
+      "change_pct": -0.37,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.81,
-        "stop_loss": 155.241,
-        "take_profit": 162.0916,
+        "entry_price": 157.819,
+        "stop_loss": 155.25,
+        "take_profit": 162.1006,
         "atr": 1.7126,
         "risk_reward_ratio": 1.67
       },
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65105.6992,
-      "change_pct": 0.31,
-      "volume": 12169838592,
+      "price": 65058.6406,
+      "change_pct": 0.24,
+      "volume": 12194775040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4741,15 +4757,31 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks"
+        },
+        {
+          "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/japan-bond-losses-america-debt-bitcoin/"
+        },
+        {
+          "title": "IREN (IREN) vs. CORZ and APLD: Can Its AI Cloud Buildout Turn Contracted Demand Into Profits?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-vs-corz-apld-182431338.html"
+        }
+      ]
     },
     {
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.3101,
-      "change_pct": 0.25,
-      "volume": 3956879872,
+      "price": 1918.51,
+      "change_pct": 0.16,
+      "volume": 3935243008,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
