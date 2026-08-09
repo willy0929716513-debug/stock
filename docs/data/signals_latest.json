@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:52:41.552976+00:00",
+  "generated_at": "2026-08-09T19:58:04.769381+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4317,11 +4317,6 @@
           "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
-        },
-        {
-          "title": "This Dividend Stock's Moat Is as Wide as It Gets. 3 Reasons to Buy and Hold Forever.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/this-dividend-stocks-moat-is-as-wide-as-it-gets-3/"
         }
       ]
     },
@@ -4731,9 +4726,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65146.5195,
-      "change_pct": 0.37,
-      "volume": 12196224000,
+      "price": 65148.7891,
+      "change_pct": 0.38,
+      "volume": 12207998976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4774,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.5,
-      "change_pct": 0.26,
-      "volume": 3970095104,
+      "price": 1920.7,
+      "change_pct": 0.27,
+      "volume": 3967594752,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
