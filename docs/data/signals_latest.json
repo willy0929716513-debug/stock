@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:07:30.702721+00:00",
+  "generated_at": "2026-08-09T00:12:51.484490+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Pampa Energia Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/pampa-energia-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "U.S. Energy Helps Cushion Global Supply Shock From Hormuz",
           "publisher": "Oilprice.com",
           "link": "https://finance.yahoo.com/energy/articles/u-energy-helps-cushion-global-230000293.html"
@@ -4617,11 +4622,6 @@
           "title": "Matador Resources Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/matador-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Alvopetro highlights strong Brazil operations during second quarter – ICYMI",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096760/alvopetro-highlights-strong-brazil-operations-during-second-quarter-icymi-1096760.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64902.3984,
-      "change_pct": 0.03,
-      "volume": 12351390720,
+      "price": 64911.3281,
+      "change_pct": 0.05,
+      "volume": 12326709248,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4753,14 +4753,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.08%)"
+          "rationale": "波動度正常(ATR/價格=2.04%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 64902.3984,
-        "stop_loss": 62880.0314,
-        "take_profit": 68273.0102,
-        "atr": 1348.2447,
+        "entry_price": 64911.3281,
+        "stop_loss": 62920.2049,
+        "take_profit": 68229.8668,
+        "atr": 1327.4155,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.01,
-      "change_pct": 0.09,
-      "volume": 3745865472,
+      "price": 1916.63,
+      "change_pct": 0.18,
+      "volume": 3771977728,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4807,14 +4807,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.93%)"
+          "rationale": "波動度正常(ATR/價格=2.89%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.01,
-        "stop_loss": 1830.8863,
-        "take_profit": 2055.2162,
-        "atr": 56.0825,
+        "entry_price": 1916.63,
+        "stop_loss": 1833.602,
+        "take_profit": 2055.01,
+        "atr": 55.352,
         "risk_reward_ratio": 1.67
       },
       "news": [
