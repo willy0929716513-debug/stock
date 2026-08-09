@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:22:59.420281+00:00",
+  "generated_at": "2026-08-09T22:28:20.696232+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4403.0,
+      "price": 4403.1001,
       "change_pct": 1.44,
-      "volume": 1251,
+      "volume": 1441,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.00 觸及上軌 4333.08)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.10 觸及上軌 4333.12)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4403.0,
-        "stop_loss": 4513.8928,
-        "take_profit": 4218.1786,
+        "entry_price": 4403.1001,
+        "stop_loss": 4513.9929,
+        "take_profit": 4218.2787,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.11,
-      "change_pct": 1.19,
-      "volume": 4544,
+      "price": 79.1,
+      "change_pct": 1.18,
+      "volume": 5177,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Stock Futures Little Changed to Begin Another Week of Iran Uncertainty",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/stock-futures-trading-sunday-0b7df51c?siteid=yhoof2&yptr=yahoo"
@@ -4617,11 +4622,6 @@
           "title": "Inflation Data, Super Micro, Cisco, Rocket Lab, Tapestry, and More to Watch This Week",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/inflation-data-super-micro-cisco-rocket-lab-tapestry-and-more-to-watch-this-week-14826711?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "W&T Offshore Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/wt-offshore-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.871,
-      "change_pct": -0.34,
+      "price": 157.881,
+      "change_pct": -0.33,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=26.8 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.871,
-        "stop_loss": 155.2861,
-        "take_profit": 162.1792,
+        "entry_price": 157.881,
+        "stop_loss": 155.2961,
+        "take_profit": 162.1892,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65246.5117,
-      "change_pct": 0.53,
-      "volume": 12684056576,
+      "price": 65188.8789,
+      "change_pct": 0.44,
+      "volume": 12683199488,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1930.83,
-      "change_pct": 0.8,
-      "volume": 4154165248,
+      "price": 1928.4,
+      "change_pct": 0.67,
+      "volume": 4119059712,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
