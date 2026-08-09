@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:31:08.889701+00:00",
+  "generated_at": "2026-08-09T19:36:31.367904+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1415,23 +1415,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "NVDA Stock Bucks Selloff Premarket On SpaceX Boost, Foxconn’s Sales Update",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-bucks-selloff-premarket-on-space-x-boost-foxconn-s-sales-update/cZo4Z8cRJII"
-        },
-        {
-          "title": "AI demand pushes Foxconn's monthly revenue to record in July",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/technology/ai/articles/foxconns-monthly-revenue-hits-record-074534993.html"
-        },
-        {
-          "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2354.TW",
@@ -4731,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65161.4688,
-      "change_pct": 0.4,
-      "volume": 12219209728,
+      "price": 65151.0,
+      "change_pct": 0.38,
+      "volume": 12221147136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4763,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.75,
-      "change_pct": 0.27,
-      "volume": 3970900224,
+      "price": 1921.04,
+      "change_pct": 0.29,
+      "volume": 3947302400,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
