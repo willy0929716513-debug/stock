@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:43:35.744109+00:00",
+  "generated_at": "2026-08-09T07:48:57.702841+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4527,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4340.7002,
-      "change_pct": 2.33,
-      "volume": 3101,
+      "price": 4399.7002,
+      "change_pct": 3.72,
+      "volume": 182381,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.72,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4340.70 觸及上軌 4269.23)"
+          "confidence": 0.71,
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4399.70 觸及上軌 4290.40)"
         },
         {
           "agent": "macro",
@@ -4549,14 +4549,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
+          "rationale": "波動度正常(ATR/價格=1.78%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4340.7002,
-        "stop_loss": 4451.6573,
-        "take_profit": 4155.7716,
-        "atr": 73.9714,
+        "entry_price": 4399.7002,
+        "stop_loss": 4517.1716,
+        "take_profit": 4203.9145,
+        "atr": 78.3143,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64777.5117,
-      "change_pct": -0.2,
-      "volume": 12256488448,
+      "price": 64770.0117,
+      "change_pct": -0.21,
+      "volume": 12226814976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.95,
-      "change_pct": 0.02,
-      "volume": 3856334592,
+      "price": 1916.26,
+      "change_pct": 0.04,
+      "volume": 3850314496,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
