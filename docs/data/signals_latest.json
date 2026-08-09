@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:02:09.500114+00:00",
+  "generated_at": "2026-08-09T00:07:30.702721+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64907.0898,
-      "change_pct": 0.04,
-      "volume": 12349481984,
+      "price": 64902.3984,
+      "change_pct": 0.03,
+      "volume": 12351390720,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64907.0898,
-        "stop_loss": 62884.7228,
-        "take_profit": 68277.7016,
+        "entry_price": 64902.3984,
+        "stop_loss": 62880.0314,
+        "take_profit": 68273.0102,
         "atr": 1348.2447,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.3101,
-      "change_pct": 0.11,
-      "volume": 3745832192,
+      "price": 1915.01,
+      "change_pct": 0.09,
+      "volume": 3745865472,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.3101,
-        "stop_loss": 1831.1863,
-        "take_profit": 2055.5163,
+        "entry_price": 1915.01,
+        "stop_loss": 1830.8863,
+        "take_profit": 2055.2162,
         "atr": 56.0825,
         "risk_reward_ratio": 1.67
       },
