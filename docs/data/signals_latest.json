@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:34:14.202079+00:00",
+  "generated_at": "2026-08-09T00:39:35.828920+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4411,6 +4411,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "What Does Oracle (ORCL) Gain From Bringing New AI Models Into Its Apps?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/does-oracle-orcl-gain-bringing-001941124.html"
+        },
+        {
           "title": "NiSource Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/nisource-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
@@ -4419,11 +4424,6 @@
           "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html"
-        },
-        {
-          "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html"
         }
       ]
     },
@@ -4505,7 +4505,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
+        },
+        {
+          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+        },
+        {
+          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
+        }
+      ]
     },
     {
       "symbol": "GC=F",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64914.1602,
-      "change_pct": 0.05,
-      "volume": 12341851136,
+      "price": 64937.1211,
+      "change_pct": 0.09,
+      "volume": 12334526464,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4741,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64914.1602,
-        "stop_loss": 62922.5293,
-        "take_profit": 68233.5449,
-        "atr": 1327.7539,
+        "entry_price": 64937.1211,
+        "stop_loss": 62944.7461,
+        "take_profit": 68257.7461,
+        "atr": 1328.25,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4769,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.9301,
-      "change_pct": 0.14,
-      "volume": 3785792256,
+      "price": 1916.86,
+      "change_pct": 0.19,
+      "volume": 3789113856,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4795,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.9301,
-        "stop_loss": 1832.7773,
-        "take_profit": 2054.518,
+        "entry_price": 1916.86,
+        "stop_loss": 1833.7072,
+        "take_profit": 2055.4479,
         "atr": 55.4352,
         "risk_reward_ratio": 1.67
       },
