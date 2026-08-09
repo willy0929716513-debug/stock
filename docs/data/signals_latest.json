@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:36:31.367904+00:00",
+  "generated_at": "2026-08-09T19:41:53.606625+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1415,7 +1415,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "NVDA Stock Bucks Selloff Premarket On SpaceX Boost, Foxconn’s Sales Update",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-bucks-selloff-premarket-on-space-x-boost-foxconn-s-sales-update/cZo4Z8cRJII"
+        },
+        {
+          "title": "AI demand pushes Foxconn's monthly revenue to record in July",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/ai/articles/foxconns-monthly-revenue-hits-record-074534993.html"
+        },
+        {
+          "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html"
+        }
+      ]
     },
     {
       "symbol": "2354.TW",
@@ -4303,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Here's Why Iren Has an Edge in the Neocloud Market, According to Meta's Mark Zuckerberg",
+          "title": "This Dividend Stock's Moat Is as Wide as It Gets. 3 Reasons to Buy and Hold Forever.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/heres-why-iren-has-an-edge-in-the-neocloud-market/"
+          "link": "https://www.fool.com/investing/2026/08/09/this-dividend-stocks-moat-is-as-wide-as-it-gets-3/"
         }
       ]
     },
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65151.0,
+      "price": 65150.0117,
       "change_pct": 0.38,
-      "volume": 12221147136,
+      "volume": 12264203264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4763,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.04,
+      "price": 1921.09,
       "change_pct": 0.29,
-      "volume": 3947302400,
+      "volume": 3952564480,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4785,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.64%)"
+          "rationale": "波動度正常(ATR/價格=2.63%)"
         }
       ],
       "risk_levels": null,
