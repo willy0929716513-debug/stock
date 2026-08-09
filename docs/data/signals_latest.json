@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:17:38.669110+00:00",
+  "generated_at": "2026-08-09T22:22:59.420281+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Canaccord Genuity Group Q1 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-q1-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "If You Had Bought $10,000 of Apple Stock When Steve Jobs Handpicked Tim Cook as the Next CEO, Here's How Much You'd Have Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/if-bought-apple-stock-when-steve-jobs-tim-cook/"
@@ -4215,11 +4220,6 @@
           "title": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/09/forget-vfiax-vanguard-sells-you-the-same-sp-500-fund-without-the-3000-toll-or-the-75-fee-fidelity-charges-to-buy-it/"
-        },
-        {
-          "title": "Turbulent Month Leaves Stock Funds Up 10.6% So Far in 2026",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/investing/stock-funds-increase-year-to-date-4085a35d?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4399.7002,
-      "change_pct": 1.36,
-      "volume": 1000,
+      "price": 4403.0,
+      "change_pct": 1.44,
+      "volume": 1251,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4399.70 觸及上軌 4332.01)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.00 觸及上軌 4333.08)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4399.7002,
-        "stop_loss": 4510.593,
-        "take_profit": 4214.8788,
+        "entry_price": 4403.0,
+        "stop_loss": 4513.8928,
+        "take_profit": 4218.1786,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.18,
-      "change_pct": 0.0,
-      "volume": 3464,
+      "price": 79.11,
+      "change_pct": 1.19,
+      "volume": 4544,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,14 +4602,14 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.04%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock Futures to Begin Another Week of Iran Uncertainty",
+          "title": "Stock Futures Little Changed to Begin Another Week of Iran Uncertainty",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/stock-futures-trading-sunday-0b7df51c?siteid=yhoof2&yptr=yahoo"
         },
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.838,
-      "change_pct": -0.36,
+      "price": 157.871,
+      "change_pct": -0.34,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.838,
-        "stop_loss": 155.2531,
-        "take_profit": 162.1462,
+        "entry_price": 157.871,
+        "stop_loss": 155.2861,
+        "take_profit": 162.1792,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65338.0,
-      "change_pct": 0.67,
-      "volume": 12390465536,
+      "price": 65246.5117,
+      "change_pct": 0.53,
+      "volume": 12684056576,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4753,7 +4753,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.98%)"
+          "rationale": "波動度正常(ATR/價格=2.00%)"
         }
       ],
       "risk_levels": null,
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1933.5,
-      "change_pct": 0.94,
-      "volume": 4032018176,
+      "price": 1930.83,
+      "change_pct": 0.8,
+      "volume": 4154165248,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.62%)"
+          "rationale": "波動度正常(ATR/價格=2.65%)"
         }
       ],
       "risk_levels": null,
