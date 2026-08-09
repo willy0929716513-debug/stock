@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:30:24.629381+00:00",
+  "generated_at": "2026-08-09T20:35:45.927253+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Why MercadoLibre Stock Jumped 11% in July",
+          "title": "Unpacking the Latest Pullback in Micron Stock",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/why-mercadolibre-stock-jumped-11-in-july/"
+          "link": "https://www.fool.com/investing/2026/08/09/unpacking-the-latest-pullback-in-micron-stock/"
         }
       ]
     },
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock Futures to Begin Another Week of Iran Uncertainty",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/stock-futures-trading-sunday-0b7df51c?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Inflation Data, Super Micro, Cisco, Rocket Lab, Tapestry, and More to Watch This Week",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/inflation-data-super-micro-cisco-rocket-lab-tapestry-and-more-to-watch-this-week-14826711?siteid=yhoof2&yptr=yahoo"
@@ -4617,11 +4622,6 @@
           "title": "W&T Offshore Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/wt-offshore-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "European Stock ETFs Post First Positive Month Since the Iran War Started",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/european-stock-etfs-july-inflows-return/"
         }
       ]
     },
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.819,
-      "change_pct": -0.37,
+      "price": 157.69,
+      "change_pct": -0.45,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=26.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,10 +4703,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.819,
-        "stop_loss": 155.25,
-        "take_profit": 162.1006,
-        "atr": 1.7126,
+        "entry_price": 157.69,
+        "stop_loss": 155.1168,
+        "take_profit": 161.9788,
+        "atr": 1.7155,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65080.3203,
-      "change_pct": 0.27,
-      "volume": 12373066752,
+      "price": 65117.2695,
+      "change_pct": 0.33,
+      "volume": 12415469568,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.21,
-      "change_pct": 0.19,
-      "volume": 4010760448,
+      "price": 1919.51,
+      "change_pct": 0.21,
+      "volume": 4015194880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
