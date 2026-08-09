@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:58:04.769381+00:00",
+  "generated_at": "2026-08-09T20:03:29.578861+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1415,23 +1415,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "NVDA Stock Bucks Selloff Premarket On SpaceX Boost, Foxconn’s Sales Update",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-bucks-selloff-premarket-on-space-x-boost-foxconn-s-sales-update/cZo4Z8cRJII"
-        },
-        {
-          "title": "AI demand pushes Foxconn's monthly revenue to record in July",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/technology/ai/articles/foxconns-monthly-revenue-hits-record-074534993.html"
-        },
-        {
-          "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2354.TW",
@@ -4317,6 +4301,11 @@
           "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
+        },
+        {
+          "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/a-10000-investment-in-taiwan-semiconductor-today/"
         }
       ]
     },
@@ -4726,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65148.7891,
-      "change_pct": 0.38,
-      "volume": 12207998976,
+      "price": 65131.0781,
+      "change_pct": 0.35,
+      "volume": 12175533056,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4774,9 +4763,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.7,
-      "change_pct": 0.27,
-      "volume": 3967594752,
+      "price": 1920.8199,
+      "change_pct": 0.28,
+      "volume": 3962772480,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
