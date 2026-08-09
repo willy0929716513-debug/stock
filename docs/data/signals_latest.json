@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:59:40.941540+00:00",
+  "generated_at": "2026-08-09T08:05:02.717213+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64773.7188,
-      "change_pct": -0.2,
-      "volume": 12278739968,
+      "price": 64844.9414,
+      "change_pct": -0.09,
+      "volume": 12304449536,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.25,
-      "change_pct": 0.09,
-      "volume": 3822394624,
+      "price": 1922.49,
+      "change_pct": 0.36,
+      "volume": 3852020224,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
