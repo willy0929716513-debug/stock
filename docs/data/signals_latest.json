@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:05:11.476377+00:00",
+  "generated_at": "2026-08-09T18:10:35.927540+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
+          "title": "Want to Become a Stock Market Millionaire? History Says This Investment Can Get You There.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/micron-has-surged-207-this-year-brace-for-a-steep/"
+          "link": "https://www.fool.com/investing/2026/08/09/want-to-become-a-stock-market-millionaire-history/"
         }
       ]
     },
@@ -4363,6 +4363,11 @@
       },
       "news": [
         {
+          "title": "Kevin O'Leary Sat Out SpaceX's IPO— Now He's Plotting His Entry as Elon Musk's Empire Takes Shape: 'As the Stock Settles... I'll Be Watching Closely...'",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kevin-oleary-sat-spacexs-ipo-170142786.html"
+        },
+        {
           "title": "Elon Musk's Boring Company Is Raising Money at a $20 Billion Valuation. Here's How His Empire Outside Tesla Is Growing.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/elon-musk-boring-company-raise-money-tesla/"
@@ -4371,11 +4376,6 @@
           "title": "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/elon-musk-owns-20-of-tesla-a-stake-worth-roughly-2/"
-        },
-        {
-          "title": "When Leverage Goes Wrong on Wall Street",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/when-leverage-goes-wrong-on-wall-street/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65155.0586,
+      "price": 65156.3711,
       "change_pct": 0.39,
-      "volume": 12473284608,
+      "volume": 12405441536,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4759,6 +4759,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Which Crypto Do AI Models Say to Buy Right Now: Bitcoin, Ethereum, or XRP?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/which-crypto-do-ai-models-say-to-buy-right-now-bitcoin-ethereum-or-xrp/"
+        },
+        {
           "title": "This 1 Number Says Michael Saylor’s Bitcoin Sales Are About to End",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/09/this-1-number-says-michael-saylors-bitcoin-sales-are-about-to-end/"
@@ -4767,11 +4772,6 @@
           "title": "After a $130 Million Hack of Coldcard, Money Is Flowing Into Bitcoin ETFs. Here's the Best Bitcoin ETF to Buy Right Now.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/130-million-hack-coldcard-money-flow-bitcoin-etf/"
-        },
-        {
-          "title": "Strategy (MSTR) vs BlackRock’s IBIT: Which Bitcoin Bet Has Held Up Better in 2026?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/strategy-mstr-vs-blackrocks-ibit-which-bitcoin-bet-has-held-up-better-in-2026/"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.36,
-      "change_pct": 0.36,
-      "volume": 4017507840,
+      "price": 1922.1801,
+      "change_pct": 0.35,
+      "volume": 3988472064,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
