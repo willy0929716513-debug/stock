@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:55:40.526883+00:00",
+  "generated_at": "2026-08-09T01:01:02.166382+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -1185,7 +1185,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Is NS Solutions Fairly Priced After Solid 6% Weekly Gain?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/ns-solutions-fairly-priced-solid-110837279.html"
+        },
+        {
+          "title": "Japan clears Taiwan's Yageo in Shibaura bid after lengthy security review",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/japan-clears-taiwans-yageo-shibaura-140742424.html"
+        },
+        {
+          "title": "Taiwan's Yageo raises offer price for Japan's Shibaura to 7,130 yen/share to further outbid rival",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/taiwans-yageo-raises-offer-price-031539232.html"
+        }
+      ]
     },
     {
       "symbol": "2345.TW",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64921.0117,
+      "price": 64916.9414,
       "change_pct": 0.06,
-      "volume": 12315766784,
+      "volume": 12299482112,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4741,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64921.0117,
-        "stop_loss": 62928.3329,
-        "take_profit": 68242.1431,
+        "entry_price": 64916.9414,
+        "stop_loss": 62924.2626,
+        "take_profit": 68238.0728,
         "atr": 1328.4526,
         "risk_reward_ratio": 1.67
       },
@@ -4769,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.41,
-      "change_pct": 0.11,
-      "volume": 3793325056,
+      "price": 1916.55,
+      "change_pct": 0.17,
+      "volume": 3781969664,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4795,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1915.41,
-        "stop_loss": 1832.2573,
-        "take_profit": 2053.998,
+        "entry_price": 1916.55,
+        "stop_loss": 1833.3973,
+        "take_profit": 2055.138,
         "atr": 55.4352,
         "risk_reward_ratio": 1.67
       },
