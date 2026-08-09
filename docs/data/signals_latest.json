@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:05:02.717213+00:00",
+  "generated_at": "2026-08-09T08:10:24.609847+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/"
+        },
+        {
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
@@ -4215,11 +4220,6 @@
           "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/08/vgt-puts-39-cents-of-every-dollar-into-just-3-stocks-the-pairing-that-fixes-it-without-selling/"
-        },
-        {
-          "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/08/berkshire-hathaway-just-did-something-it-hasnt-done-in-more-than-3-years/"
         }
       ]
     },
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/"
+        },
+        {
           "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/micron-stock-price-has-corrected-30-from-its-all-t/"
@@ -4317,11 +4322,6 @@
           "title": "Why the 20% Sell-Off in Dutch Bros Stock Is a Massive Opportunity",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/why-the-20-sell-off-in-dutch-bros-stock-is-a-massi/"
-        },
-        {
-          "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64844.9414,
-      "change_pct": -0.09,
-      "volume": 12304449536,
+      "price": 64866.7695,
+      "change_pct": -0.06,
+      "volume": 12079844352,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.49,
-      "change_pct": 0.36,
-      "volume": 3852020224,
+      "price": 1921.5,
+      "change_pct": 0.31,
+      "volume": 3874607360,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.61%)"
+          "rationale": "波動度正常(ATR/價格=2.62%)"
         }
       ],
       "risk_levels": null,
