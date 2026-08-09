@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:03:01.589801+00:00",
+  "generated_at": "2026-08-09T10:08:23.161880+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4614,7 +4614,7 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html"
         },
         {
-          "title": "Houthis claim drone attack on Saudi Aramco’s Jazan refinery",
+          "title": "Iran sets sweeping U.S. conditions for reopening Strait of Hormuz",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/fire-saudi-aramco-jazan-refinery-043350430.html"
         },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64845.0508,
+      "price": 64844.7617,
       "change_pct": -0.09,
-      "volume": 12316240896,
+      "volume": 12290924544,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.41,
-      "change_pct": 0.25,
-      "volume": 3909954048,
+      "price": 1919.99,
+      "change_pct": 0.23,
+      "volume": 3907114240,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
