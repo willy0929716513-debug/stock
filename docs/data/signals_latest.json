@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:50:02.481547+00:00",
+  "generated_at": "2026-08-09T12:55:26.148285+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -199,7 +199,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Infineon and MediaTek partner on automotive AI systems",
+          "publisher": "Just Auto",
+          "link": "https://www.just-auto.com/news/infineon-mediatek-automotive-ai-systems/"
+        },
+        {
+          "title": "Intel's Packaging Progress Points to Google",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/intels-packaging-progress-points-google-195322309.html"
+        },
+        {
+          "title": "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/mediatek-wants-20-custom-ai-182411966.html"
+        }
+      ]
     },
     {
       "symbol": "3711.TW",
@@ -4489,23 +4505,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
-        },
-        {
-          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
-        },
-        {
-          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "GC=F",
@@ -4567,7 +4567,7 @@
       "category": "commodity",
       "price": 78.18,
       "change_pct": 1.15,
-      "volume": 246260,
+      "volume": 206437,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4715,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64883.8906,
-      "change_pct": -0.03,
-      "volume": 12302978048,
+      "price": 64895.7383,
+      "change_pct": -0.01,
+      "volume": 12265499648,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4763,9 +4763,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.15,
-      "change_pct": 0.03,
-      "volume": 3935953152,
+      "price": 1916.3199,
+      "change_pct": 0.04,
+      "volume": 3937555200,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
