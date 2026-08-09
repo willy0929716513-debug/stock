@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:00:50.289516+00:00",
+  "generated_at": "2026-08-09T13:06:13.084500+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Turbulent Month Leaves Stock Funds Up 10.6% So Far in 2026",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/investing/stock-funds-increase-year-to-date-4085a35d?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/technology/articles/apple-tests-chinas-cxmt-memory-120655649.html"
@@ -4215,11 +4220,6 @@
           "title": "Apple Tests Chinese Memory Chips as Supply Squeeze Bites",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/tech/apple-tests-chinese-memory-chips-as-supply-squeeze-bites-d292bb97?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Apple CEO Tim Cook Predicts a \"100-Year\" Flood. Here Are 2 Stocks Primed to Cash In.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/apple-ceo-tim-cook-predicts-a-100-year-flood-here/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "3 Artificial Intelligence (AI) Stocks to Load Up On in August",
+          "title": "A Once-in-a-Generation Stock Market Warning Just Appeared. Investors Might Not Like What's Coming Next.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/3-artificial-intelligence-ai-stocks-to-load-up-on/"
+          "link": "https://www.fool.com/investing/2026/08/09/a-once-in-a-generation-stock-market-warning-just-a/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64911.8516,
-      "change_pct": 0.01,
-      "volume": 12274654208,
+      "price": 64965.4805,
+      "change_pct": 0.09,
+      "volume": 12247173120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,8 +4779,8 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.47,
-      "change_pct": 0.05,
+      "price": 1917.79,
+      "change_pct": 0.12,
       "volume": 3938684928,
       "signal": "hold",
       "confidence": 0.0,
