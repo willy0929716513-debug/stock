@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:42:36.057396+00:00",
+  "generated_at": "2026-08-09T08:47:58.874901+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Fed Chair Kevin Warsh May Have Driven a Dagger Through Wall Street's Heart With This Candid 12-Word Statement",
+          "title": "My 3 Favorite Value Stocks to Buy Right Now",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/fed-kevin-warsh-dagger-wall-st-12-word-statement/"
+          "link": "https://www.fool.com/investing/2026/08/09/my-3-favorite-value-stocks-to-buy-right-now/"
         },
         {
-          "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
+          "title": "If You'd Invested $1,000 in the Vanguard S&P 500 ETF 10 Years Ago, Here's What You'd Have Today",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/"
+          "link": "https://www.fool.com/investing/2026/08/09/you-invest-1000-vanguard-sp-500-etf-10-years-ago/"
         },
         {
-          "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
+          "title": "Stock Market Investors Just Got Bad News From the Federal Reserve",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/micron-stock-price-has-corrected-30-from-its-all-t/"
+          "link": "https://www.fool.com/investing/2026/08/09/stock-market-investors-bad-news-federal-reserve/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64771.4102,
-      "change_pct": -0.21,
-      "volume": 12555248640,
+      "price": 64753.5117,
+      "change_pct": -0.23,
+      "volume": 12550406144,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.16,
-      "change_pct": -0.07,
-      "volume": 3908448000,
+      "price": 1913.76,
+      "change_pct": -0.09,
+      "volume": 3929453312,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
