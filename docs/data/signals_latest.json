@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:10:24.609847+00:00",
+  "generated_at": "2026-08-09T08:15:46.765376+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4614,7 +4614,7 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html"
         },
         {
-          "title": "Fire at Saudi Aramco’s Jazan refinery extinguished, no injuries reported",
+          "title": "Houthis claim drone attack on Saudi Aramco’s Jazan refinery",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/fire-saudi-aramco-jazan-refinery-043350430.html"
         },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64866.7695,
-      "change_pct": -0.06,
-      "volume": 12079844352,
+      "price": 64869.9883,
+      "change_pct": -0.05,
+      "volume": 12415600640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.5,
-      "change_pct": 0.31,
-      "volume": 3874607360,
+      "price": 1921.16,
+      "change_pct": 0.29,
+      "volume": 3878516992,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.62%)"
+          "rationale": "波動度正常(ATR/價格=2.63%)"
         }
       ],
       "risk_levels": null,
