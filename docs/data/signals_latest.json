@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:05:54.001050+00:00",
+  "generated_at": "2026-08-09T23:11:15.144065+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/if-a-stock-market-crash-is-coming-history-says-thi/"
+          "title": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4400.8999,
+      "price": 4401.1001,
       "change_pct": 1.39,
-      "volume": 2204,
+      "volume": 2245,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4400.90 觸及上軌 4332.40)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4401.10 觸及上軌 4332.47)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4400.8999,
-        "stop_loss": 4511.7927,
-        "take_profit": 4216.0785,
+        "entry_price": 4401.1001,
+        "stop_loss": 4511.9929,
+        "take_profit": 4216.2787,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.78,
-      "change_pct": 0.77,
-      "volume": 7584,
+      "price": 78.82,
+      "change_pct": 0.82,
+      "volume": 7766,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.863,
-      "change_pct": -0.34,
+      "price": 157.881,
+      "change_pct": -0.33,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=26.8 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.863,
-        "stop_loss": 155.2781,
-        "take_profit": 162.1712,
+        "entry_price": 157.881,
+        "stop_loss": 155.2961,
+        "take_profit": 162.1892,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65056.4219,
-      "change_pct": 0.23,
-      "volume": 12946314240,
+      "price": 64982.6094,
+      "change_pct": 0.12,
+      "volume": 13004481536,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.89,
-      "change_pct": 0.18,
-      "volume": 4362412032,
+      "price": 1916.8199,
+      "change_pct": 0.07,
+      "volume": 4402060800,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.66%)"
+          "rationale": "波動度正常(ATR/價格=2.67%)"
         }
       ],
       "risk_levels": null,
