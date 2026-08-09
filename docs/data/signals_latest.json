@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:47:17.058147+00:00",
+  "generated_at": "2026-08-09T19:52:41.552976+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -105,6 +105,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/a-10000-investment-in-taiwan-semiconductor-today/"
+        },
+        {
           "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/"
@@ -113,11 +118,6 @@
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
-        },
-        {
-          "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
         }
       ]
     },
@@ -4411,6 +4411,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-breaks-14-quarter-selling-194000465.html"
+        },
+        {
           "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
@@ -4419,11 +4424,6 @@
           "title": "Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/sundar-pichai-alphabet-grow-google-cloud-capex/"
-        },
-        {
-          "title": "A $13.5 Billion Berkshire Hathaway Mystery: What Is Greg Abel Buying Beyond Alphabet?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/berkshire-hathaway-mystery-stock-buys/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65150.2695,
-      "change_pct": 0.38,
-      "volume": 12228574208,
+      "price": 65146.5195,
+      "change_pct": 0.37,
+      "volume": 12196224000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4757,15 +4757,31 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
+          "publisher": "decrypt",
+          "link": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks"
+        },
+        {
+          "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/japan-bond-losses-america-debt-bitcoin/"
+        },
+        {
+          "title": "IREN (IREN) vs. CORZ and APLD: Can Its AI Cloud Buildout Turn Contracted Demand Into Profits?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-vs-corz-apld-182431338.html"
+        }
+      ]
     },
     {
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.11,
-      "change_pct": 0.29,
-      "volume": 3968021248,
+      "price": 1920.5,
+      "change_pct": 0.26,
+      "volume": 3970095104,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4785,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.63%)"
+          "rationale": "波動度正常(ATR/價格=2.64%)"
         }
       ],
       "risk_levels": null,
