@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:31:52.401854+00:00",
+  "generated_at": "2026-08-09T08:37:13.863366+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Fed Chair Kevin Warsh May Have Driven a Dagger Through Wall Street's Heart With This Candid 12-Word Statement",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/fed-kevin-warsh-dagger-wall-st-12-word-statement/"
+        },
+        {
           "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/"
@@ -4317,11 +4322,6 @@
           "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/micron-stock-price-has-corrected-30-from-its-all-t/"
-        },
-        {
-          "title": "Why the 20% Sell-Off in Dutch Bros Stock Is a Massive Opportunity",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/why-the-20-sell-off-in-dutch-bros-stock-is-a-massi/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64837.8203,
+      "price": 64841.4414,
       "change_pct": -0.1,
-      "volume": 12510177280,
+      "volume": 12532512768,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.0,
-      "change_pct": 0.23,
-      "volume": 3896517376,
+      "price": 1919.61,
+      "change_pct": 0.21,
+      "volume": 3900103680,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
