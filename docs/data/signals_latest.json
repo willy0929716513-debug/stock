@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:48:57.702841+00:00",
+  "generated_at": "2026-08-09T07:54:19.497762+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/micron-stock-price-has-corrected-30-from-its-all-t/"
+        },
+        {
           "title": "Why the 20% Sell-Off in Dutch Bros Stock Is a Massive Opportunity",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/why-the-20-sell-off-in-dutch-bros-stock-is-a-massi/"
@@ -4317,11 +4322,6 @@
           "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/"
-        },
-        {
-          "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html"
         }
       ]
     },
@@ -4411,6 +4411,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html"
+        },
+        {
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
@@ -4419,11 +4424,6 @@
           "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/jeff-bezos-amazon-stock-billion-surged-still-buy/"
-        },
-        {
-          "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/"
         }
       ]
     },
@@ -4583,7 +4583,7 @@
       "category": "commodity",
       "price": 78.18,
       "change_pct": 1.15,
-      "volume": 246260,
+      "volume": 206437,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64770.0117,
+      "price": 64767.1406,
       "change_pct": -0.21,
-      "volume": 12226814976,
+      "volume": 12229188608,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.26,
+      "price": 1916.39,
       "change_pct": 0.04,
-      "volume": 3850314496,
+      "volume": 3834023168,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.62%)"
+          "rationale": "波動度正常(ATR/價格=2.61%)"
         }
       ],
       "risk_levels": null,
