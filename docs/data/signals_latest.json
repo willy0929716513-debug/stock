@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:37:42.300436+00:00",
+  "generated_at": "2026-08-09T14:43:04.162609+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Why Vertiv Is 1 of the Best-Kept Secrets of the AI Data Center Boom",
+          "title": "Warren Buffett Donated $6 Billion of Berkshire Stock to Family Foundations and Cut Off the Gates Foundation for the First Time in 20 Years. Does This Change the Investment Case for Berkshire?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/why-vertiv-best-secrets-ai-data-center-boom/"
+          "link": "https://www.fool.com/investing/2026/08/09/warren-buffett-donated-6-billion-of-berkshire-stoc/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65134.6719,
-      "change_pct": 0.35,
-      "volume": 12427821056,
+      "price": 65115.4492,
+      "change_pct": 0.32,
+      "volume": 12376723456,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.35,
+      "price": 1922.42,
       "change_pct": 0.36,
-      "volume": 4077952512,
+      "volume": 4038264832,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
