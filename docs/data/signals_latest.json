@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:22:09.287964+00:00",
+  "generated_at": "2026-08-09T07:27:30.271907+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4261,6 +4261,11 @@
       },
       "news": [
         {
+          "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html"
+        },
+        {
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
@@ -4269,11 +4274,6 @@
           "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/"
-        },
-        {
-          "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html"
         }
       ]
     },
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/"
+        },
+        {
+          "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html"
+        },
+        {
           "title": "1 Incredible Reason to Buy Home Depot Stock Before It Reports Earnings on Aug. 18",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/reason-buy-home-depot-stock-before-earnings/"
-        },
-        {
-          "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
-        },
-        {
-          "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/jeff-bezos-amazon-stock-billion-surged-still-buy/"
         }
       ]
     },
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beats-ease-concerns-over-070820398.html"
+        },
+        {
           "title": "Fire at Saudi Aramco’s Jazan refinery extinguished, no injuries reported",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/fire-saudi-aramco-jazan-refinery-043350430.html"
@@ -4617,11 +4622,6 @@
           "title": "Permian Resources Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/permian-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Petroleo Brasileiro S.A.- Petrobras Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64783.5312,
+      "price": 64783.7617,
       "change_pct": -0.19,
-      "volume": 12104256512,
+      "volume": 12139891712,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.89,
-      "change_pct": 0.02,
-      "volume": 3812139008,
+      "price": 1916.52,
+      "change_pct": 0.05,
+      "volume": 3835859456,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.62%)"
+          "rationale": "波動度正常(ATR/價格=2.61%)"
         }
       ],
       "risk_levels": null,
