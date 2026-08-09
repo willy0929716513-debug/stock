@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:03:29.578861+00:00",
+  "generated_at": "2026-08-09T20:08:53.165431+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -247,23 +247,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Asia Pacific Share Sales Overcome Volatility to Shatter Records",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asia-pacific-share-sales-overcome-040017919.html"
-        },
-        {
-          "title": "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-surges-82-6-143800073.html"
-        },
-        {
-          "title": "ASX Q2 Earnings Beat Estimates on AI-Driven LEAP, ATM Growth",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/asx-q2-earnings-beat-estimates-181200620.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2408.TW",
@@ -1415,7 +1399,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "NVDA Stock Bucks Selloff Premarket On SpaceX Boost, Foxconn’s Sales Update",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-bucks-selloff-premarket-on-space-x-boost-foxconn-s-sales-update/cZo4Z8cRJII"
+        },
+        {
+          "title": "AI demand pushes Foxconn's monthly revenue to record in July",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/ai/articles/foxconns-monthly-revenue-hits-record-074534993.html"
+        },
+        {
+          "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-partner-hon-hai-sales-073743931.html"
+        }
+      ]
     },
     {
       "symbol": "2354.TW",
@@ -4303,9 +4303,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
+          "title": "Why MercadoLibre Stock Jumped 11% in July",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/a-10000-investment-in-taiwan-semiconductor-today/"
+          "link": "https://www.fool.com/investing/2026/08/09/why-mercadolibre-stock-jumped-11-in-july/"
         }
       ]
     },
@@ -4661,8 +4661,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.784,
-      "change_pct": -0.39,
+      "price": 157.81,
+      "change_pct": -0.38,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4671,7 +4671,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=26.6 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.7 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4687,9 +4687,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.784,
-        "stop_loss": 155.215,
-        "take_profit": 162.0656,
+        "entry_price": 157.81,
+        "stop_loss": 155.241,
+        "take_profit": 162.0916,
         "atr": 1.7126,
         "risk_reward_ratio": 1.67
       },
@@ -4715,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65131.0781,
-      "change_pct": 0.35,
-      "volume": 12175533056,
+      "price": 65105.6992,
+      "change_pct": 0.31,
+      "volume": 12169838592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4741,31 +4741,15 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks"
-        },
-        {
-          "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/japan-bond-losses-america-debt-bitcoin/"
-        },
-        {
-          "title": "IREN (IREN) vs. CORZ and APLD: Can Its AI Cloud Buildout Turn Contracted Demand Into Profits?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-vs-corz-apld-182431338.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.8199,
-      "change_pct": 0.28,
-      "volume": 3962772480,
+      "price": 1920.3101,
+      "change_pct": 0.25,
+      "volume": 3956879872,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
