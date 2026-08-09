@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:41:07.617400+00:00",
+  "generated_at": "2026-08-09T20:46:29.155608+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Unpacking the Latest Pullback in Micron Stock",
+          "title": "Rocket Lab Reports Monday Night. Wall Street Wants $232 Million and 60% Growth.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/unpacking-the-latest-pullback-in-micron-stock/"
+          "link": "https://www.fool.com/investing/2026/08/09/rocket-lab-reports-monday-night-wall-street-wants/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65100.0117,
-      "change_pct": 0.3,
-      "volume": 12372383744,
+      "price": 65093.3594,
+      "change_pct": 0.29,
+      "volume": 12402562048,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.03,
-      "change_pct": 0.18,
-      "volume": 4012593408,
+      "price": 1919.1801,
+      "change_pct": 0.19,
+      "volume": 4010170624,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
