@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:26:45.159649+00:00",
+  "generated_at": "2026-08-09T18:32:06.710023+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "AppLovin Revenue Jumped 53%. So Why Did the Stock Just Plunge 20%?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/applovin-revenue-jump-why-stock-plunge/"
+          "title": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65156.3711,
-      "change_pct": 0.39,
-      "volume": 12355256320,
+      "price": 65174.0586,
+      "change_pct": 0.42,
+      "volume": 12331630592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4759,6 +4759,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "IREN (IREN) vs. CORZ and APLD: Can Its AI Cloud Buildout Turn Contracted Demand Into Profits?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-vs-corz-apld-182431338.html"
+        },
+        {
           "title": "Which Crypto Do AI Models Say to Buy Right Now: Bitcoin, Ethereum, or XRP?",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/which-crypto-do-ai-models-say-to-buy-right-now-bitcoin-ethereum-or-xrp/"
@@ -4767,11 +4772,6 @@
           "title": "This 1 Number Says Michael Saylor’s Bitcoin Sales Are About to End",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/09/this-1-number-says-michael-saylors-bitcoin-sales-are-about-to-end/"
-        },
-        {
-          "title": "After a $130 Million Hack of Coldcard, Money Is Flowing Into Bitcoin ETFs. Here's the Best Bitcoin ETF to Buy Right Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/130-million-hack-coldcard-money-flow-bitcoin-etf/"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.29,
-      "change_pct": 0.25,
-      "volume": 3984949760,
+      "price": 1920.97,
+      "change_pct": 0.28,
+      "volume": 3990260736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
