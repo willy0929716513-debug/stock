@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T15:58:09.491015+00:00",
-  "tw_market_open_today": false,
+  "generated_at": "2026-08-09T16:03:30.087969+00:00",
+  "tw_market_open_today": true,
   "macro": [],
   "signals": [
     {
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Here's How Many Shares of PepsiCo You'd Need for $20,000 in Yearly Dividends",
+          "title": "You Can Do Better Than Nike. Buy This High-Yield Dividend Stock Instead.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/heres-how-many-shares-of-pepsico-youd-need-for-200/"
+          "link": "https://www.fool.com/investing/2026/08/09/you-can-do-better-than-nike-buy-this-high-yield/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65183.8203,
-      "change_pct": 0.43,
-      "volume": 12513508352,
+      "price": 65162.8086,
+      "change_pct": 0.4,
+      "volume": 12477294592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.9399,
-      "change_pct": 0.49,
-      "volume": 4031424000,
+      "price": 1923.91,
+      "change_pct": 0.44,
+      "volume": 4030262016,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
