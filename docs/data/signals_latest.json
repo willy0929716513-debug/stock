@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:01:46.920234+00:00",
+  "generated_at": "2026-08-09T12:07:07.643734+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4314,14 +4314,14 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
+          "title": "Walmart (WMT) Stock Price Prediction: Where Our Price Target Sees the Stock Going Over the Next 12 Months",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/09/walmart-wmt-stock-price-prediction-where-our-price-target-sees-the-stock-going-over-the-next-12-months/"
+        },
+        {
           "title": "The Stock Market Is Sending a Chilling Warning, and History Isn't Reassuring",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/stock-market-send-warning-history-volatility/"
-        },
-        {
-          "title": "3 Reasons to Buy and Hold This Dividend King (and 1 Reason Not To)",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/3-reasons-to-buy-and-hold-this-dividend-king-and-o/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64888.8398,
-      "change_pct": -0.02,
-      "volume": 12469425152,
+      "price": 64872.5508,
+      "change_pct": -0.05,
+      "volume": 12449800192,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.11,
-      "change_pct": 0.08,
-      "volume": 3945547008,
+      "price": 1915.8101,
+      "change_pct": 0.01,
+      "volume": 3926804736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
