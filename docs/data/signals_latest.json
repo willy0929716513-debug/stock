@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:42:49.094189+00:00",
+  "generated_at": "2026-08-09T18:48:10.888378+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html"
+          "title": "Wall Street Punishes Sandisk's Outlook: What Investors Are Missing",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/wall-street-punish-sandisk-outlook-investor/"
         }
       ]
     },
@@ -4609,6 +4609,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Inflation Data, Super Micro, Cisco, Rocket Lab, Tapestry, and More to Watch This Week",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/inflation-data-super-micro-cisco-rocket-lab-tapestry-and-more-to-watch-this-week-14826711?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "W&T Offshore Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/wt-offshore-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
@@ -4617,11 +4622,6 @@
           "title": "European Stock ETFs Post First Positive Month Since the Iran War Started",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/european-stock-etfs-july-inflows-return/"
-        },
-        {
-          "title": "Why White House Sees Gasoline Prices Falling More",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/sunday0809/card/why-white-house-sees-gasoline-prices-falling-more-OlAkneP7WzkKlkwd2VMs?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65170.3789,
+      "price": 65169.0195,
       "change_pct": 0.41,
-      "volume": 12312174592,
+      "volume": 12280453120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1919.8101,
-      "change_pct": 0.22,
-      "volume": 3991937536,
+      "price": 1920.2,
+      "change_pct": 0.24,
+      "volume": 3974059776,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
