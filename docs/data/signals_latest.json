@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:55:26.148285+00:00",
+  "generated_at": "2026-08-09T13:00:50.289516+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4505,7 +4505,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
+        },
+        {
+          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+        },
+        {
+          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
+        }
+      ]
     },
     {
       "symbol": "GC=F",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64895.7383,
-      "change_pct": -0.01,
-      "volume": 12265499648,
+      "price": 64911.8516,
+      "change_pct": 0.01,
+      "volume": 12274654208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4743,6 +4759,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Strategy (MSTR) vs BlackRock’s IBIT: Which Bitcoin Bet Has Held Up Better in 2026?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/strategy-mstr-vs-blackrocks-ibit-which-bitcoin-bet-has-held-up-better-in-2026/"
+        },
+        {
           "title": "1 Popular Cryptocurrency Cathie Wood's Ark Invest Sees Surging 1,823%",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/1-popular-cryptocurrency-cathie-woods-ark-invest/"
@@ -4751,11 +4772,6 @@
           "title": "3 Crypto Earnings to Watch This Week After Q1 Losses",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/crypto-earnings-to-watch-in-august/"
-        },
-        {
-          "title": "Here's the 1 Crypto I'd Buy If I Could Pick Only One",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/heres-the-1-crypto-id-buy-if-i-could-pick-only-one/"
         }
       ]
     },
@@ -4763,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.3199,
-      "change_pct": 0.04,
-      "volume": 3937555200,
+      "price": 1916.47,
+      "change_pct": 0.05,
+      "volume": 3938684928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
