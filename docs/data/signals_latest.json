@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:14:58.446550+00:00",
+  "generated_at": "2026-08-09T19:20:21.401541+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
+          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
+        },
+        {
           "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/microsoft-sits-12-below-its-high-after-the-largest/"
-        },
-        {
-          "title": "How Much Do You Need Invested by 50 to Retire on Dividends at 60?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/08/09/how-much-do-you-need-invested-by-50-to-retire-on-dividends-at-60/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "If You Had Bought $10,000 of Apple Stock When Steve Jobs Handpicked Tim Cook as the Next CEO, Here's How Much You'd Have Today",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/if-bought-apple-stock-when-steve-jobs-tim-cook/"
+          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
         }
       ]
     },
@@ -4411,6 +4411,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
+        },
+        {
           "title": "A $13.5 Billion Berkshire Hathaway Mystery: What Is Greg Abel Buying Beyond Alphabet?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/berkshire-hathaway-mystery-stock-buys/"
@@ -4419,11 +4424,6 @@
           "title": "Warby Parker Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/warby-parker-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Why Shopify Stock Could Be the Biggest Winner in Agentic AI Commerce",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/why-shopify-stock-could-be-the-biggest-winner-in-a/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65152.3281,
-      "change_pct": 0.38,
-      "volume": 12209994752,
+      "price": 65169.9883,
+      "change_pct": 0.41,
+      "volume": 12216251392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1920.15,
-      "change_pct": 0.24,
-      "volume": 3979688704,
+      "price": 1920.61,
+      "change_pct": 0.27,
+      "volume": 3976908800,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
