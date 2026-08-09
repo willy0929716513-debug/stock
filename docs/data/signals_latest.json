@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:43:04.162609+00:00",
+  "generated_at": "2026-08-09T14:48:25.563434+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4711,6 +4711,11 @@
       },
       "news": [
         {
+          "title": "Behind Bessent Moves, Wall Street Sees Sign of Bond-Market Angst",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/economy/policy/articles/behind-bessent-moves-wall-street-133600816.html"
+        },
+        {
           "title": "How coordinated currency buying interventions work",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/currencies/articles/coordinated-currency-buying-interventions-035232703.html"
@@ -4719,11 +4724,6 @@
           "title": "Strategist explains why U.S. yen support is built to fail",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/currencies/articles/strategist-explains-why-u-yen-232655555.html"
-        },
-        {
-          "title": "Why is the bearish yen sentiment still strong?",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/why-bearish-yen-sentiment-still-002839400.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65115.4492,
-      "change_pct": 0.32,
-      "volume": 12376723456,
+      "price": 65122.8906,
+      "change_pct": 0.34,
+      "volume": 12387209216,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.42,
+      "price": 1922.39,
       "change_pct": 0.36,
-      "volume": 4038264832,
+      "volume": 4046189824,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
