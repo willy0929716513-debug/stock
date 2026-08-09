@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:58:44.119449+00:00",
+  "generated_at": "2026-08-09T09:04:05.560937+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/heres-how-many-shares-of-coca-cola-youd-need-for-3/"
+        },
+        {
           "title": "My 3 Favorite Value Stocks to Buy Right Now",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/my-3-favorite-value-stocks-to-buy-right-now/"
@@ -4317,11 +4322,6 @@
           "title": "If You'd Invested $1,000 in the Vanguard S&P 500 ETF 10 Years Ago, Here's What You'd Have Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/you-invest-1000-vanguard-sp-500-etf-10-years-ago/"
-        },
-        {
-          "title": "Stock Market Investors Just Got Bad News From the Federal Reserve",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/stock-market-investors-bad-news-federal-reserve/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64770.0703,
-      "change_pct": -0.21,
-      "volume": 12597505024,
+      "price": 64775.9492,
+      "change_pct": -0.2,
+      "volume": 12582216704,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.2,
-      "change_pct": -0.07,
-      "volume": 3922919936,
+      "price": 1915.22,
+      "change_pct": -0.02,
+      "volume": 3934742784,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.64%)"
+          "rationale": "波動度正常(ATR/價格=2.63%)"
         }
       ],
       "risk_levels": null,
