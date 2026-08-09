@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:07:55.923049+00:00",
+  "generated_at": "2026-08-09T17:13:17.352158+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Why Usana Health Sciences Stock Plummeted This Week",
+          "title": "Rivian Is Worth $23 Billion With the R2 Just Ramping. Where Will the Stock Be in 3 Years?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/why-usana-health-sciences-stock-plummeted-this-wee/"
+          "link": "https://www.fool.com/investing/2026/08/09/rivian-is-worth-23-billion-with-the-r2-just-rampin/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65175.0391,
-      "change_pct": 0.42,
-      "volume": 12548593664,
+      "price": 65170.8594,
+      "change_pct": 0.41,
+      "volume": 12544027648,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.24,
-      "change_pct": 0.4,
-      "volume": 4037293056,
+      "price": 1922.97,
+      "change_pct": 0.39,
+      "volume": 4039861248,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
