@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:39:35.828920+00:00",
+  "generated_at": "2026-08-09T00:44:57.371709+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Tron Just Added $2.2 Billion in Stablecoins in July. Does That Make It a Buy?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/tron-just-added-22-billion-in-stablecoins-in-july/"
+        },
+        {
+          "title": "Why Voyager Stock Skyrocketed This Week",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/why-voyager-stock-skyrocketed-this-week/"
+        },
+        {
           "title": "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-abel-366-billion-warning-to-wall-st/"
-        },
-        {
-          "title": "Nvidia vs. Navitas Semiconductor: Here's What Their Revenue Trends Tell Investors About These Artificial Intelligence Companies",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/charts/2026/08/08/nvidia-vs-navitas-semiconductor-here-s-what-their-revenue-trends-tell-investors-about-these-artificial-intelligence-companies/"
-        },
-        {
-          "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/why-the-market-continues-to-sleep-on-microns-growt/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64937.1211,
-      "change_pct": 0.09,
-      "volume": 12334526464,
+      "price": 64917.4297,
+      "change_pct": 0.06,
+      "volume": 12336746496,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64937.1211,
-        "stop_loss": 62944.7461,
-        "take_profit": 68257.7461,
-        "atr": 1328.25,
+        "entry_price": 64917.4297,
+        "stop_loss": 62924.0774,
+        "take_profit": 68239.6835,
+        "atr": 1328.9015,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.86,
-      "change_pct": 0.19,
-      "volume": 3789113856,
+      "price": 1916.62,
+      "change_pct": 0.17,
+      "volume": 3791914496,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1916.86,
-        "stop_loss": 1833.7072,
-        "take_profit": 2055.4479,
+        "entry_price": 1916.62,
+        "stop_loss": 1833.4672,
+        "take_profit": 2055.2079,
         "atr": 55.4352,
         "risk_reward_ratio": 1.67
       },
