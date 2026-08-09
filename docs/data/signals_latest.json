@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:05:19.791877+00:00",
+  "generated_at": "2026-08-09T14:10:42.626399+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "3 High-Yield Dividend Stocks to Load Up On Before 2026 Ends",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/3-high-yield-dividend-stocks-to-load-up-on-before/"
+          "title": "Coca-Cola (KO) Just Pulled Back. Here’s Why Retirees Are Buying the Dip in August",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/09/coca-cola-ko-just-pulled-back-heres-why-retirees-are-buying-the-dip-in-august/"
         }
       ]
     },
@@ -4366,16 +4366,6 @@
           "title": "Rivian's make-or-break R2 midsize EV delivers: Road test",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/rivians-make-or-break-r2-midsize-ev-delivers-road-test-143152026.html"
-        },
-        {
-          "title": "Elon Musk's Boring Company Is Raising Money at a $20 Billion Valuation. Here's How His Empire Outside Tesla Is Growing.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/elon-musk-boring-company-raise-money-tesla/"
-        },
-        {
-          "title": "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/elon-musk-owns-20-of-tesla-a-stake-worth-roughly-2/"
         }
       ]
     },
@@ -4731,9 +4721,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65158.8086,
-      "change_pct": 0.39,
-      "volume": 12277898240,
+      "price": 65182.2695,
+      "change_pct": 0.43,
+      "volume": 12556320768,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4769,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.0699,
-      "change_pct": 0.34,
-      "volume": 4076717824,
+      "price": 1923.13,
+      "change_pct": 0.4,
+      "volume": 4098382592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
