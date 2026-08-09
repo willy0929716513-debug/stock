@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:25:32.088637+00:00",
+  "generated_at": "2026-08-09T09:30:53.573628+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4261,6 +4261,11 @@
       },
       "news": [
         {
+          "title": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/this-trillion-dollar-ai-stock-offers-better-quant/"
+        },
+        {
           "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html"
@@ -4269,11 +4274,6 @@
           "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
-        },
-        {
-          "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/"
         }
       ]
     },
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/this-trillion-dollar-ai-stock-offers-better-quant/"
+        },
+        {
+          "title": "Down 29%, Is MercadoLibre Stock a Better Buy Than SpaceX and the \"Magnificent Seven\" Stocks in August?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/down-29-is-mercadolibre-stock-a-better-buy-than-sp/"
+        },
+        {
           "title": "All It Takes Is $10,000 in Each of These 3 Dividend Stocks for $1,700+ a Year in Passive Income",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/all-it-takes-is-10000-in-each-of-these-3-dividend/"
-        },
-        {
-          "title": "SpaceX Lost $2 Billion in the First Half of 2026. Micron Made $28 Billion in Profits in Its Latest Quarter. But the Better Stock Pick Isn't as Obvious as Those Numbers Suggest.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/spacex-lost-2-billion-in-the-first-half-of-2026-mi/"
-        },
-        {
-          "title": "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/heres-how-many-shares-of-coca-cola-youd-need-for-3/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64780.9805,
-      "change_pct": -0.19,
-      "volume": 12501381120,
+      "price": 64761.8086,
+      "change_pct": -0.22,
+      "volume": 12462618624,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1912.71,
-      "change_pct": -0.15,
-      "volume": 3942670336,
+      "price": 1912.79,
+      "change_pct": -0.14,
+      "volume": 3928332544,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,6 +4807,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Bitcoin slips below $65,000 as ETF inflows offset fork concerns",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-below-65-000-092148126.html"
+        },
+        {
           "title": "SharpLink CEO Warns Against New Ethereum Network Proposal EIP-8363",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/sharplink-ceo-warning-eip8363-ethereum-issuance-burn/"
@@ -4815,11 +4820,6 @@
           "title": "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
           "publisher": "decrypt",
           "link": "https://decrypt.co/375158/robinhood-crypto-two-wolves-robinhood-chain-rwa-meme-coins"
-        },
-        {
-          "title": "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock — 4 AI Models Predict the Winners and Losers",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/ai-bitcoin-ethereum-xrp-clarity-act-predictions/"
         }
       ]
     }
