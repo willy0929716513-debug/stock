@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:44:37.745043+00:00",
+  "generated_at": "2026-08-09T06:49:58.997589+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/jeff-bezos-amazon-stock-billion-surged-still-buy/"
+        },
+        {
           "title": "Humanoids are as much a compute story as a robotics one",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/humanoids-much-compute-story-robotics-063038029.html"
@@ -4317,11 +4322,6 @@
           "title": "Intel Foundry Lands a Major New Client Worth Watching",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/intel-foundry-lands-a-major-new-client-worth-watch/"
-        },
-        {
-          "title": "Dan Ives Says SpaceX Stock Is Worth This Much (Hint: Big Gains Ahead)",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/dan-ives-says-spacex-stock-is-worth-this-much-hint/"
         }
       ]
     },
@@ -4411,6 +4411,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/jeff-bezos-amazon-stock-billion-surged-still-buy/"
+        },
+        {
           "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/"
@@ -4419,11 +4424,6 @@
           "title": "Jensen Huang Says AI Will Kill Tasks, Not Jobs. Here's What That Means for Stocks Riding the AI Trade.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/jensen-huang-says-ai-will-kill-tasks-not-jobs-here/"
-        },
-        {
-          "title": "What Does Oracle (ORCL) Gain From Bringing New AI Models Into Its Apps?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/does-oracle-orcl-gain-bringing-001941124.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64806.0312,
-      "change_pct": -0.11,
-      "volume": 12052489216,
+      "price": 64800.3516,
+      "change_pct": -0.12,
+      "volume": 12015769600,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64806.0312,
-        "stop_loss": 62791.5438,
-        "take_profit": 68163.5103,
+        "entry_price": 64800.3516,
+        "stop_loss": 62785.8641,
+        "take_profit": 68157.8306,
         "atr": 1342.9916,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.48,
-      "change_pct": 0.17,
-      "volume": 3766139904,
+      "price": 1916.7,
+      "change_pct": 0.18,
+      "volume": 3751517184,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1916.48,
-        "stop_loss": 1832.9823,
-        "take_profit": 2055.6428,
+        "entry_price": 1916.7,
+        "stop_loss": 1833.2022,
+        "take_profit": 2055.8628,
         "atr": 55.6651,
         "risk_reward_ratio": 1.67
       },
