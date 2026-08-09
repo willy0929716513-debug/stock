@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:12:28.544470+00:00",
+  "generated_at": "2026-08-09T12:17:49.243876+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/articles/apple-tests-chinas-cxmt-memory-120655649.html"
+        },
+        {
           "title": "Apple Tests Chinese Memory Chips as Supply Squeeze Bites",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/tech/apple-tests-chinese-memory-chips-as-supply-squeeze-bites-d292bb97?siteid=yhoof2&yptr=yahoo"
@@ -4215,11 +4220,6 @@
           "title": "Apple CEO Tim Cook Predicts a \"100-Year\" Flood. Here Are 2 Stocks Primed to Cash In.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/apple-ceo-tim-cook-predicts-a-100-year-flood-here/"
-        },
-        {
-          "title": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/apple-added-about-15-trillion-in-market-value-in-a/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64885.8516,
-      "change_pct": -0.03,
-      "volume": 12439176192,
+      "price": 64891.7812,
+      "change_pct": -0.02,
+      "volume": 12401856512,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.24,
-      "change_pct": 0.04,
-      "volume": 3913042944,
+      "price": 1916.1801,
+      "change_pct": 0.03,
+      "volume": 3932479232,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
