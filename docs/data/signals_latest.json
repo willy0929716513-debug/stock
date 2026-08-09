@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:55:21.158992+00:00",
+  "generated_at": "2026-08-09T07:00:42.565174+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -105,6 +105,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
+        },
+        {
           "title": "Jim Cramer Called Linde plc (NASDAQ:LIN)’s Share Price Movement “Stupid”",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-called-linde-plc-183106534.html"
@@ -113,11 +118,6 @@
           "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/07/forget-tsmc-2-ai-semiconductor-equipment/"
-        },
-        {
-          "title": "BTQ and ITRI clear first milestone in quantum-security chip roadmap",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/innovation/btq-and-itri-clear-first-milestone-in-quantum-security-chip-roadmap"
         }
       ]
     },
@@ -4207,6 +4207,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
+        },
+        {
           "title": "VGT Puts 39 Cents of Every Dollar Into Just 3 Stocks. The Pairing That Fixes It Without Selling",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/etf/2026/08/08/vgt-puts-39-cents-of-every-dollar-into-just-3-stocks-the-pairing-that-fixes-it-without-selling/"
@@ -4215,11 +4220,6 @@
           "title": "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/08/berkshire-hathaway-just-did-something-it-hasnt-done-in-more-than-3-years/"
-        },
-        {
-          "title": "Bank of America revamps Apple stock price target after earnings",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-apple-aapl-stock-price-target-after-earnings"
         }
       ]
     },
@@ -4261,6 +4261,11 @@
       },
       "news": [
         {
+          "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
+        },
+        {
           "title": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/moonshot-ais-28-trillion-parameter-model-just-beca/"
@@ -4269,11 +4274,6 @@
           "title": "Doximity (DOCS) Is Up 31.0% After Raising Revenue Outlook On Clinical AI Adoption - Has The Bull Case Changed?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/healthcare/articles/doximity-docs-31-0-raising-211518315.html"
-        },
-        {
-          "title": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/microsoft-shows-the-magnificent-seven-what-ai-investment-looks-like/"
         }
       ]
     },
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/how-many-of-the-largest-companies-do-you-own-and-s/"
+        },
+        {
           "title": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/jeff-bezos-amazon-stock-billion-surged-still-buy/"
@@ -4317,11 +4322,6 @@
           "title": "Humanoids are as much a compute story as a robotics one",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/humanoids-much-compute-story-robotics-063038029.html"
-        },
-        {
-          "title": "Intel Foundry Lands a Major New Client Worth Watching",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/intel-foundry-lands-a-major-new-client-worth-watch/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64796.6406,
+      "price": 64792.9219,
       "change_pct": -0.13,
-      "volume": 11984169984,
+      "volume": 11973672960,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64796.6406,
-        "stop_loss": 62782.1532,
-        "take_profit": 68154.1197,
+        "entry_price": 64792.9219,
+        "stop_loss": 62778.4344,
+        "take_profit": 68150.4009,
         "atr": 1342.9916,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.0,
-      "change_pct": 0.19,
-      "volume": 3747451136,
+      "price": 1917.51,
+      "change_pct": 0.22,
+      "volume": 3758183936,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1917.0,
-        "stop_loss": 1833.5023,
-        "take_profit": 2056.1628,
+        "entry_price": 1917.51,
+        "stop_loss": 1834.0123,
+        "take_profit": 2056.6728,
         "atr": 55.6651,
         "risk_reward_ratio": 1.67
       },
