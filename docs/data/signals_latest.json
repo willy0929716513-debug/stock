@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:59:55.721134+00:00",
+  "generated_at": "2026-08-09T14:05:19.791877+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Johnson & Johnson Has Increased Its Dividend for 64 Consecutive Years. Here's How Much $10,000 Invested in the Dividend King Pays Annually.",
+          "title": "3 High-Yield Dividend Stocks to Load Up On Before 2026 Ends",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/johnson-johnson-increased-dividend-king-yield/"
+          "link": "https://www.fool.com/investing/2026/08/09/3-high-yield-dividend-stocks-to-load-up-on-before/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65172.0391,
-      "change_pct": 0.41,
-      "volume": 12559585280,
+      "price": 65158.8086,
+      "change_pct": 0.39,
+      "volume": 12277898240,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.8199,
-      "change_pct": 0.33,
-      "volume": 4096318720,
+      "price": 1922.0699,
+      "change_pct": 0.34,
+      "volume": 4076717824,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
