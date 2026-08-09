@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T01:06:24.960989+00:00",
+  "generated_at": "2026-08-09T01:11:45.798153+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64941.5117,
-      "change_pct": 0.09,
-      "volume": 12229213184,
+      "price": 64925.1289,
+      "change_pct": 0.07,
+      "volume": 12234517504,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,21 +4757,37 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64941.5117,
-        "stop_loss": 62946.5172,
-        "take_profit": 68266.5027,
-        "atr": 1329.9964,
+        "entry_price": 64925.1289,
+        "stop_loss": 62931.7524,
+        "take_profit": 68247.4231,
+        "atr": 1328.9177,
         "risk_reward_ratio": 1.67
       },
-      "news": []
+      "news": [
+        {
+          "title": "Bitcoin ETFs Are Having Their Best Week Since April. Did the Coldcard Hack Push $853M Into Bitcoin ETFs?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/08/bitcoin-etfs-are-having-their-best-week-since-april-did-the-coldcard-hack-push-853m-into-bitcoin-etfs/"
+        },
+        {
+          "title": "SharpLink CEO Warns Against New Ethereum Network Proposal EIP-8363",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/sharplink-ceo-warning-eip8363-ethereum-issuance-burn/"
+        },
+        {
+          "title": "Bitcoin Price Forecast: Key Resistance Breakout Possible as ETF Inflows Spike",
+          "publisher": "FX Empire",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-forecast-key-resistance-163002885.html"
+        }
+      ]
     },
     {
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.85,
-      "change_pct": 0.24,
-      "volume": 3785745152,
+      "price": 1917.26,
+      "change_pct": 0.21,
+      "volume": 3777437440,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -4791,14 +4807,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.90%)"
+          "rationale": "波動度正常(ATR/價格=2.89%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 1917.85,
-        "stop_loss": 1834.5539,
-        "take_profit": 2056.6767,
-        "atr": 55.5307,
+        "entry_price": 1917.26,
+        "stop_loss": 1834.0271,
+        "take_profit": 2055.9815,
+        "atr": 55.4886,
         "risk_reward_ratio": 1.67
       },
       "news": [
