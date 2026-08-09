@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:25:02.111578+00:00",
+  "generated_at": "2026-08-09T20:30:24.629381+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4125,7 +4125,23 @@
         }
       ],
       "risk_levels": null,
-      "news": []
+      "news": [
+        {
+          "title": "JBLU Adds Asia Access Through China Airlines Loyalty Tie-Up",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jblu-adds-asia-access-china-131500254.html"
+        },
+        {
+          "title": "Agoda and China Airlines launch StayMiles for global hotel bookings",
+          "publisher": "Hotel Management Network",
+          "link": "https://www.hotelmanagement-network.com/news/agoda-china-airlines-staymiles-bookings/"
+        },
+        {
+          "title": "There will soon be a new 16-hour flight to Asia from the US",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/travel/there-will-soon-be-a-new-16-hour-flight-to-asia-from-the-us"
+        }
+      ]
     },
     {
       "symbol": "2634.TW",
@@ -4715,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65073.2812,
-      "change_pct": 0.26,
-      "volume": 12223932416,
+      "price": 65080.3203,
+      "change_pct": 0.27,
+      "volume": 12373066752,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4763,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.88,
-      "change_pct": 0.17,
-      "volume": 4004878848,
+      "price": 1919.21,
+      "change_pct": 0.19,
+      "volume": 4010760448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
