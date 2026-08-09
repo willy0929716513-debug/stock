@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:41:35.690167+00:00",
+  "generated_at": "2026-08-09T09:46:56.816146+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,19 +4309,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "What Happens to a Bond ETF's Price When the Fed Cuts Rates -- Using the Actual Historical Data",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/what-happens-bond-price-fed-cuts-rates-history/"
+        },
+        {
+          "title": "This Is the 1 ETF Warren Buffett Recommends Most People Buy -- and History Says He's Always Been Right",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/this-is-the-1-etf-warren-buffett-recommends-most-p/"
+        },
+        {
           "title": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/this-trillion-dollar-ai-stock-offers-better-quant/"
-        },
-        {
-          "title": "Down 29%, Is MercadoLibre Stock a Better Buy Than SpaceX and the \"Magnificent Seven\" Stocks in August?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/down-29-is-mercadolibre-stock-a-better-buy-than-sp/"
-        },
-        {
-          "title": "All It Takes Is $10,000 in Each of These 3 Dividend Stocks for $1,700+ a Year in Passive Income",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/all-it-takes-is-10000-in-each-of-these-3-dividend/"
         }
       ]
     },
@@ -4583,7 +4583,7 @@
       "category": "commodity",
       "price": 78.18,
       "change_pct": 1.15,
-      "volume": 246260,
+      "volume": 206437,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64768.2305,
+      "price": 64767.6484,
       "change_pct": -0.21,
-      "volume": 12391962624,
+      "volume": 12347204608,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.23,
-      "change_pct": -0.02,
-      "volume": 3926527488,
+      "price": 1915.28,
+      "change_pct": -0.01,
+      "volume": 3915636224,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
