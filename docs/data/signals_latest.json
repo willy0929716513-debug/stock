@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:10:42.626399+00:00",
+  "generated_at": "2026-08-09T14:16:11.990070+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Coca-Cola (KO) Just Pulled Back. Here’s Why Retirees Are Buying the Dip in August",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/09/coca-cola-ko-just-pulled-back-heres-why-retirees-are-buying-the-dip-in-august/"
+          "title": "Can You Ace This Simple Investing Quiz? Test Your Stock Market Knowledge.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/can-you-ace-this-simple-investing-quiz-test-your/"
         }
       ]
     },
@@ -4366,6 +4366,16 @@
           "title": "Rivian's make-or-break R2 midsize EV delivers: Road test",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/rivians-make-or-break-r2-midsize-ev-delivers-road-test-143152026.html"
+        },
+        {
+          "title": "Elon Musk's Boring Company Is Raising Money at a $20 Billion Valuation. Here's How His Empire Outside Tesla Is Growing.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/elon-musk-boring-company-raise-money-tesla/"
+        },
+        {
+          "title": "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/elon-musk-owns-20-of-tesla-a-stake-worth-roughly-2/"
         }
       ]
     },
@@ -4495,23 +4505,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
-        },
-        {
-          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
-        },
-        {
-          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "GC=F",
@@ -4721,9 +4715,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65182.2695,
-      "change_pct": 0.43,
-      "volume": 12556320768,
+      "price": 65166.5391,
+      "change_pct": 0.4,
+      "volume": 12536948736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4769,9 +4763,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.13,
-      "change_pct": 0.4,
-      "volume": 4098382592,
+      "price": 1923.51,
+      "change_pct": 0.42,
+      "volume": 4114632448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
