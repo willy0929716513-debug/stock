@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:53:46.559509+00:00",
+  "generated_at": "2026-08-09T14:59:07.455797+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
+          "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/microsoft-sits-12-below-its-high-after-the-largest/"
+        },
+        {
           "title": "Texas Pacific Land Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/texas-pacific-land-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "How Much Do You Need Invested by 50 to Retire on Dividends at 60?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/personal-finance/2026/08/09/how-much-do-you-need-invested-by-50-to-retire-on-dividends-at-60/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Warren Buffett Donated $6 Billion of Berkshire Stock to Family Foundations and Cut Off the Gates Foundation for the First Time in 20 Years. Does This Change the Investment Case for Berkshire?",
+          "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/warren-buffett-donated-6-billion-of-berkshire-stoc/"
+          "link": "https://www.fool.com/investing/2026/08/09/microsoft-sits-12-below-its-high-after-the-largest/"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65139.9883,
-      "change_pct": 0.36,
-      "volume": 12384002048,
+      "price": 65242.5117,
+      "change_pct": 0.52,
+      "volume": 12368197632,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4753,7 +4753,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.99%)"
+          "rationale": "波動度正常(ATR/價格=1.98%)"
         }
       ],
       "risk_levels": null,
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.45,
-      "change_pct": 0.36,
-      "volume": 4039458304,
+      "price": 1924.27,
+      "change_pct": 0.46,
+      "volume": 4029884416,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
