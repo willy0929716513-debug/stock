@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:08:50.968464+00:00",
+  "generated_at": "2026-08-09T16:14:12.172603+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4317,6 +4317,11 @@
           "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
+        },
+        {
+          "title": "You Can Do Better Than Nike. Buy This High-Yield Dividend Stock Instead.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/you-can-do-better-than-nike-buy-this-high-yield/"
         }
       ]
     },
@@ -4726,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65211.1797,
-      "change_pct": 0.47,
-      "volume": 12485578752,
+      "price": 65182.5,
+      "change_pct": 0.43,
+      "volume": 12476808192,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4774,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.71,
-      "change_pct": 0.48,
-      "volume": 4036692480,
+      "price": 1923.4399,
+      "change_pct": 0.41,
+      "volume": 4025136896,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
