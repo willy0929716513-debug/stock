@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:44:26.816801+00:00",
+  "generated_at": "2026-08-09T22:49:48.306848+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.3999,
-      "change_pct": 1.42,
-      "volume": 1905,
+      "price": 4399.7998,
+      "change_pct": 1.36,
+      "volume": 2010,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.40 觸及上軌 4332.89)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4399.80 觸及上軌 4332.05)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.3999,
-        "stop_loss": 4513.2927,
-        "take_profit": 4217.5785,
+        "entry_price": 4399.7998,
+        "stop_loss": 4510.6926,
+        "take_profit": 4214.9784,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.6,
-      "change_pct": 0.54,
-      "volume": 6332,
+      "price": 78.7,
+      "change_pct": 0.67,
+      "volume": 6779,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.917,
-      "change_pct": -0.31,
+      "price": 157.894,
+      "change_pct": -0.33,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=27.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.9 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.917,
-        "stop_loss": 155.3321,
-        "take_profit": 162.2252,
+        "entry_price": 157.894,
+        "stop_loss": 155.3091,
+        "take_profit": 162.2022,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64984.2617,
+      "price": 64979.5508,
       "change_pct": 0.12,
-      "volume": 12804790272,
+      "volume": 12888295424,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4759,6 +4759,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Trump Says 'Crypto Is a Big Deal, People Are Paying With Bitcoin'",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/trump-says-crypto-big-deal-213203439.html"
+        },
+        {
           "title": "Is IREN (IREN) Expensive On Its AI Cloud Pivot Or Still Worth A Look?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-expensive-ai-cloud-210908714.html"
@@ -4767,11 +4772,6 @@
           "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
           "publisher": "decrypt",
           "link": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks"
-        },
-        {
-          "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/japan-bond-losses-america-debt-bitcoin/"
         }
       ]
     },
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.62,
-      "change_pct": 0.11,
-      "volume": 4269355264,
+      "price": 1916.96,
+      "change_pct": 0.07,
+      "volume": 4263467264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
