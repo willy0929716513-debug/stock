@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:12:17.650960+00:00",
+  "generated_at": "2026-08-09T22:17:38.669110+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Berkshire's Operating Earnings Rose $1.8 Billion Last Quarter. A Currency Swing Was $1.2 Billion of It.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/berkshires-operating-earnings-rose-18-billion-last/"
+          "title": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4529,7 +4529,7 @@
       "category": "commodity",
       "price": 4399.7002,
       "change_pct": 1.36,
-      "volume": 418,
+      "volume": 1000,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4583,7 +4583,7 @@
       "category": "commodity",
       "price": 78.18,
       "change_pct": 0.0,
-      "volume": 1561,
+      "volume": 3464,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.863,
-      "change_pct": -0.34,
+      "price": 157.838,
+      "change_pct": -0.36,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.863,
-        "stop_loss": 155.2781,
-        "take_profit": 162.1712,
+        "entry_price": 157.838,
+        "stop_loss": 155.2531,
+        "take_profit": 162.1462,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65219.1914,
-      "change_pct": 0.48,
-      "volume": 12369901568,
+      "price": 65338.0,
+      "change_pct": 0.67,
+      "volume": 12390465536,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4753,7 +4753,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.99%)"
+          "rationale": "波動度正常(ATR/價格=1.98%)"
         }
       ],
       "risk_levels": null,
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.9301,
-      "change_pct": 0.49,
-      "volume": 4025963520,
+      "price": 1933.5,
+      "change_pct": 0.94,
+      "volume": 4032018176,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.63%)"
+          "rationale": "波動度正常(ATR/價格=2.62%)"
         }
       ],
       "risk_levels": null,
