@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T01:33:09.959227+00:00",
+  "generated_at": "2026-08-09T01:38:31.803879+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Palantir Is Worth $413 Billion. The $500 Billion Line Sits Almost Exactly at Its Record High.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/palantir-is-worth-413-billion-the-500-billion-line/"
+        },
+        {
           "title": "Tron Just Added $2.2 Billion in Stablecoins in July. Does That Make It a Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/tron-just-added-22-billion-in-stablecoins-in-july/"
@@ -4317,11 +4322,6 @@
           "title": "Why Voyager Stock Skyrocketed This Week",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/why-voyager-stock-skyrocketed-this-week/"
-        },
-        {
-          "title": "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/08/warren-buffett-abel-366-billion-warning-to-wall-st/"
         }
       ]
     },
@@ -4368,14 +4368,14 @@
           "link": "https://finance.yahoo.com/markets/article/rivians-make-or-break-r2-midsize-ev-delivers-road-test-143152026.html"
         },
         {
+          "title": "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/08/elon-musk-owns-20-of-tesla-a-stake-worth-roughly-2/"
+        },
+        {
           "title": "When Leverage Goes Wrong on Wall Street",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/08/when-leverage-goes-wrong-on-wall-street/"
-        },
-        {
-          "title": "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-telling-investors-accumulate-200218837.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64831.5508,
-      "change_pct": -0.07,
-      "volume": 12203285504,
+      "price": 64830.5781,
+      "change_pct": -0.08,
+      "volume": 12207872000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,10 +4757,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64831.5508,
-        "stop_loss": 62831.6934,
-        "take_profit": 68164.6465,
-        "atr": 1333.2383,
+        "entry_price": 64830.5781,
+        "stop_loss": 62828.048,
+        "take_profit": 68168.1283,
+        "atr": 1335.0201,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.39,
-      "change_pct": 0.06,
-      "volume": 3719695872,
+      "price": 1914.25,
+      "change_pct": 0.05,
+      "volume": 3716971264,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1914.39,
-        "stop_loss": 1831.0878,
-        "take_profit": 2053.2271,
+        "entry_price": 1914.25,
+        "stop_loss": 1830.9478,
+        "take_profit": 2053.087,
         "atr": 55.5348,
         "risk_reward_ratio": 1.67
       },
