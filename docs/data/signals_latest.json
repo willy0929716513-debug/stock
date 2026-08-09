@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:01:42.760063+00:00",
+  "generated_at": "2026-08-09T06:07:04.567757+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4609,11 +4609,6 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "SandRidge Energy Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/sandridge-energy-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
           "title": "Fire at Saudi Aramco’s Jazan refinery extinguished, no injuries reported",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/fire-saudi-aramco-jazan-refinery-043350430.html"
@@ -4622,6 +4617,11 @@
           "title": "Permian Resources Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/permian-resources-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "title": "Petroleo Brasileiro S.A.- Petrobras Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64747.6094,
-      "change_pct": -0.2,
-      "volume": 11988889600,
+      "price": 64746.4297,
+      "change_pct": -0.21,
+      "volume": 11971858432,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4757,9 +4757,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 64747.6094,
-        "stop_loss": 62733.1219,
-        "take_profit": 68105.0884,
+        "entry_price": 64746.4297,
+        "stop_loss": 62731.9422,
+        "take_profit": 68103.9088,
         "atr": 1342.9916,
         "risk_reward_ratio": 1.67
       },
@@ -4785,9 +4785,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.12,
-      "change_pct": -0.01,
-      "volume": 3685899008,
+      "price": 1913.9399,
+      "change_pct": 0.03,
+      "volume": 3700465408,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -4811,9 +4811,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1913.12,
-        "stop_loss": 1829.6223,
-        "take_profit": 2052.2828,
+        "entry_price": 1913.9399,
+        "stop_loss": 1830.4422,
+        "take_profit": 2053.1028,
         "atr": 55.6651,
         "risk_reward_ratio": 1.67
       },
