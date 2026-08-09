@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:41:53.606625+00:00",
+  "generated_at": "2026-08-09T19:47:17.058147+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65150.0117,
+      "price": 65150.2695,
       "change_pct": 0.38,
-      "volume": 12264203264,
+      "volume": 12228574208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4757,31 +4757,15 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/japan-bond-losses-america-debt-bitcoin/"
-        },
-        {
-          "title": "IREN (IREN) vs. CORZ and APLD: Can Its AI Cloud Buildout Turn Contracted Demand Into Profits?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-vs-corz-apld-182431338.html"
-        },
-        {
-          "title": "Which Crypto Do AI Models Say to Buy Right Now: Bitcoin, Ethereum, or XRP?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/which-crypto-do-ai-models-say-to-buy-right-now-bitcoin-ethereum-or-xrp/"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1921.09,
+      "price": 1921.11,
       "change_pct": 0.29,
-      "volume": 3952564480,
+      "volume": 3968021248,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
