@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:27:20.363774+00:00",
+  "generated_at": "2026-08-09T23:32:41.534273+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Sezzle Beat on Revenue and Raised Guidance. Its Stock Lost a Third of Its Value in a Day.",
+          "title": "Why QXO, Inc. Fell Over 20% in July",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/sezzle-beat-on-revenue-and-raised-guidance-its-sto/"
+          "link": "https://www.fool.com/investing/2026/08/09/why-qxo-inc-fell-over-20-in-july/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4405.7998,
-      "change_pct": 1.5,
-      "volume": 2629,
+      "price": 4406.3999,
+      "change_pct": 1.51,
+      "volume": 2746,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4405.80 觸及上軌 4334.00)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.40 觸及上軌 4334.19)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4405.7998,
-        "stop_loss": 4516.6926,
-        "take_profit": 4220.9784,
+        "entry_price": 4406.3999,
+        "stop_loss": 4517.2927,
+        "take_profit": 4221.5785,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.68,
-      "change_pct": 0.64,
-      "volume": 8279,
+      "price": 78.72,
+      "change_pct": 0.69,
+      "volume": 8336,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,12 +4602,17 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Why QXO, Inc. Fell Over 20% in July",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/why-qxo-inc-fell-over-20-in-july/"
+        },
         {
           "title": "Andy Burnham faces choice on drilling as North Sea consultation closes",
           "publisher": "PA Media: Money",
@@ -4617,11 +4622,6 @@
           "title": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Stock Futures Little Changed to Begin Another Week of Iran Uncertainty",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/stock-futures-trading-sunday-0b7df51c?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.829,
-      "change_pct": -0.37,
+      "price": 157.841,
+      "change_pct": -0.36,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4687,7 +4687,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=26.7 進入超賣區)"
+          "rationale": "rsi:buy(RSI=26.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.829,
-        "stop_loss": 155.2441,
-        "take_profit": 162.1372,
+        "entry_price": 157.841,
+        "stop_loss": 155.2561,
+        "take_profit": 162.1492,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64902.4102,
-      "change_pct": -0.0,
-      "volume": 13007497216,
+      "price": 64823.8984,
+      "change_pct": -0.12,
+      "volume": 13096248320,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.1801,
-      "change_pct": -0.02,
-      "volume": 4412857344,
+      "price": 1909.4,
+      "change_pct": -0.32,
+      "volume": 4497749504,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.67%)"
+          "rationale": "波動度正常(ATR/價格=2.68%)"
         }
       ],
       "risk_levels": null,
