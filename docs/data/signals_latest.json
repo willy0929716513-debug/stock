@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:38:14.573287+00:00",
+  "generated_at": "2026-08-09T07:43:35.744109+00:00",
   "tw_market_open_today": false,
   "macro": [],
   "signals": [
@@ -4309,6 +4309,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Why the 20% Sell-Off in Dutch Bros Stock Is a Massive Opportunity",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/why-the-20-sell-off-in-dutch-bros-stock-is-a-massi/"
+        },
+        {
           "title": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/cathie-woods-ark-piled-into-nvidia-and-taiwan-semi/"
@@ -4317,11 +4322,6 @@
           "title": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/healthcare/articles/geron-gern-14-7-issuing-071513251.html"
-        },
-        {
-          "title": "1 Incredible Reason to Buy Home Depot Stock Before It Reports Earnings on Aug. 18",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/reason-buy-home-depot-stock-before-earnings/"
         }
       ]
     },
@@ -4527,17 +4527,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4399.7002,
-      "change_pct": 3.72,
-      "volume": 182381,
+      "price": 4340.7002,
+      "change_pct": 2.33,
+      "volume": 3101,
       "signal": "sell",
       "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.71,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4399.70 觸及上軌 4290.40)"
+          "confidence": 0.72,
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4340.70 觸及上軌 4269.23)"
         },
         {
           "agent": "macro",
@@ -4549,17 +4549,22 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.78%)"
+          "rationale": "波動度正常(ATR/價格=1.70%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4399.7002,
-        "stop_loss": 4517.1716,
-        "take_profit": 4203.9145,
-        "atr": 78.3143,
+        "entry_price": 4340.7002,
+        "stop_loss": 4451.6573,
+        "take_profit": 4155.7716,
+        "atr": 73.9714,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "B2Gold (TSX:BTO) Could Be 30% Undervalued As Mali Permit Secures Growth",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/b2gold-tsx-bto-could-30-071736965.html"
+        },
         {
           "title": "Sprott Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
@@ -4569,11 +4574,6 @@
           "title": "Brightstar Resources (ASX:BTR) Heads To Diggers And Dealers, Is It Fully Priced?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/brightstar-resources-asx-btr-heads-042620443.html"
-        },
-        {
-          "title": "What Does Take Two Interactive Software (TTWO) Confirming GTA VI Mean Now?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/does-two-interactive-software-ttwo-020710440.html"
         }
       ]
     },
@@ -4583,7 +4583,7 @@
       "category": "commodity",
       "price": 78.18,
       "change_pct": 1.15,
-      "volume": 206437,
+      "volume": 246260,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64772.4102,
+      "price": 64777.5117,
       "change_pct": -0.2,
-      "volume": 12152948736,
+      "volume": 12256488448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.0,
+      "price": 1915.95,
       "change_pct": 0.02,
-      "volume": 3841888768,
+      "volume": 3856334592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
