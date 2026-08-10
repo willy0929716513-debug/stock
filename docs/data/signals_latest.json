@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:57:01.167843+00:00",
+  "generated_at": "2026-08-10T10:02:22.061929+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "I've Been Writing About Procter & Gamble Stock for Years. Here's Why My Conviction Has Never Been Higher.",
+          "title": "Disney's Valuation Is at Multiyear Lows, and Buybacks Are at a 9-Year High. Is Disney a No-Brainer Value Stock to Buy Now?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/ive-been-writing-about-proctor-stock-for-years-h/"
+          "link": "https://www.fool.com/investing/2026/08/10/is-disney-a-no-brainer-value-stock-to-buy-now/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4403.8999,
-      "change_pct": 1.46,
-      "volume": 44341,
+      "price": 4400.8999,
+      "change_pct": 1.39,
+      "volume": 44624,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.90 觸及上軌 4333.38)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4400.90 觸及上軌 4332.40)"
         },
         {
           "agent": "macro",
@@ -4615,13 +4615,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.69%)"
+          "rationale": "波動度正常(ATR/價格=1.70%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4403.8999,
-        "stop_loss": 4515.8642,
-        "take_profit": 4217.2928,
+        "entry_price": 4400.8999,
+        "stop_loss": 4512.8642,
+        "take_profit": 4214.2928,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
+          "title": "Vanguard reveals what could be coming for US stocks. Here’s why it’s raising alarm bells for retirees",
+          "publisher": "Moneywise",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/vanguard-reveals-could-coming-us-094500956.html"
+        },
+        {
           "title": "Gold holds close to seven-week peak as markets assess Iran risks and Fed outlook",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33806/gold-holds-close-to-seven-week-peak-as-markets-assess-iran-risks-and-fed-outlook"
-        },
-        {
-          "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-081026/card/gold-holds-above-4-400-ahead-of-u-s-inflation-data-4FtdN1zTz6R0xpsPJItE?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.03,
-      "change_pct": 1.09,
-      "volume": 44864,
+      "price": 78.98,
+      "change_pct": 1.02,
+      "volume": 45130,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.231,
-      "change_pct": 0.08,
+      "price": 32.222,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.848,
+      "price": 158.857,
       "change_pct": 0.28,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64927.5312,
-      "change_pct": 0.13,
-      "volume": 15202722816,
+      "price": 64945.0312,
+      "change_pct": 0.15,
+      "volume": 15269438464,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.4399,
-      "change_pct": 0.35,
-      "volume": 6114362368,
+      "price": 1916.1899,
+      "change_pct": 0.39,
+      "volume": 6139824128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
