@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:15:16.320906+00:00",
+  "generated_at": "2026-08-10T15:20:39.789598+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Sony and TSMC Plan a $6.3 Billion Chip Bet",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/articles/sony-tsmc-plan-6-3-151451344.html"
+        },
+        {
           "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
@@ -107,11 +112,6 @@
           "title": "Microsoft plans Maia 300 chip reveal in September -  Information",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html"
-        },
-        {
-          "title": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/nvidia-nvda-stock-earnings-august-2026/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.39,
-      "change_pct": -2.21,
-      "volume": 17219713,
+      "price": 306.6826,
+      "change_pct": -2.12,
+      "volume": 17463049,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4283,9 +4283,9 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
-          "title": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/apple-stock-downgraded-before-iphone-18-launch/?src=A00220&yptr=yahoo"
+          "title": "Socket Mobile Expands Industrial Mobility Distribution Through 3Eye Technologies Partnership",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33898/socket-mobile-expands-industrial-mobility-distribution-through-3eye-technologies-partnership"
         }
       ]
     },
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 508.8116,
-      "change_pct": 1.76,
-      "volume": 10913705,
+      "price": 508.101,
+      "change_pct": 1.62,
+      "volume": 11151833,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=84.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=84.7 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 508.8116,
-        "stop_loss": 535.8915,
-        "take_profit": 463.6784,
+        "entry_price": 508.101,
+        "stop_loss": 535.1809,
+        "take_profit": 462.9678,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.095,
+      "price": 219.11,
       "change_pct": -2.17,
-      "volume": 35377620,
+      "volume": 36425914,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
+          "title": "Super Micro Rises 4% Ahead of Earnings; HPE Gains 4%, Dell Climbs 3% as AI Server Stocks Advance",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/super-micro-rises-4-ahead-of-earnings-hpe-gains-4-dell-climbs-3-as-ai-server-stocks-advance/"
+        },
+        {
           "title": "Samsung's HBM4 Push Just Got Much Stronger",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/samsungs-hbm4-push-just-got-151018816.html"
-        },
-        {
-          "title": "Why Rigetti Stock Fell 22% in July",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-rigetti-stock-fell-22-in-july/"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.73,
-      "change_pct": 0.35,
-      "volume": 10468162,
+      "price": 330.0,
+      "change_pct": 0.43,
+      "volume": 10687111,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.35%)"
+          "rationale": "波動度正常(ATR/價格=4.34%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.21,
-      "change_pct": -0.03,
-      "volume": 7472030,
+      "price": 354.915,
+      "change_pct": 0.17,
+      "volume": 7630004,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.82,
-      "change_pct": 0.07,
-      "volume": 11766074,
+      "price": 774.035,
+      "change_pct": 0.1,
+      "volume": 12071118,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.085,
-      "change_pct": -0.13,
-      "volume": 10573851,
+      "price": 722.39,
+      "change_pct": -0.09,
+      "volume": 10733583,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.8999,
-      "change_pct": 1.53,
-      "volume": 80141,
+      "price": 4403.6001,
+      "change_pct": 1.45,
+      "volume": 81410,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.90 觸及上軌 4334.36)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.60 觸及上軌 4333.28)"
         },
         {
           "agent": "macro",
@@ -4609,13 +4609,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.69%)"
+          "rationale": "波動度正常(ATR/價格=1.70%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.8999,
-        "stop_loss": 4518.8642,
-        "take_profit": 4220.2928,
+        "entry_price": 4403.6001,
+        "stop_loss": 4515.5644,
+        "take_profit": 4216.993,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.92,
-      "change_pct": 3.5,
-      "volume": 120038,
+      "price": 80.93,
+      "change_pct": 3.52,
+      "volume": 121993,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.244,
-      "change_pct": 0.12,
+      "price": 32.226,
+      "change_pct": 0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.952,
-      "change_pct": 0.34,
+      "price": 158.876,
+      "change_pct": 0.29,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64498.0898,
-      "change_pct": -0.53,
-      "volume": 18223767552,
+      "price": 64463.6211,
+      "change_pct": -0.59,
+      "volume": 18277988352,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
+          "title": "Bitcoin Killed the BIP-110 Fork: Breakaway Coin by September 1?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/bip-110-fork-breakaway-coin-september/"
+        },
+        {
           "title": "Bitdeer shares edge higher despite Q2 earnings and revenue miss",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
-        },
-        {
-          "title": "Michael Saylor Reveals Why Strategy Sold Bitcoin Near $60K Despite Its Buy and Hold Strategy",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/michael-saylor-strategy-105m-bitcoin-sale-market-test/"
         }
       ]
     },
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.0,
-      "change_pct": -1.82,
-      "volume": 7479408640,
+      "price": 1875.8199,
+      "change_pct": -1.72,
+      "volume": 7596504064,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4855,7 +4855,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.55%)"
+          "rationale": "波動度正常(ATR/價格=2.59%)"
         }
       ],
       "risk_levels": null,
