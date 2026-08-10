@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:37:37.828657+00:00",
+  "generated_at": "2026-08-10T07:42:59.821898+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4413.5,
-      "change_pct": 1.68,
-      "volume": 33752,
+      "price": 4412.7002,
+      "change_pct": 1.66,
+      "volume": 34099,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4413.50 觸及上軌 4336.53)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4412.70 觸及上軌 4336.26)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4413.5,
-        "stop_loss": 4525.25,
-        "take_profit": 4227.25,
+        "entry_price": 4412.7002,
+        "stop_loss": 4524.4502,
+        "take_profit": 4226.4502,
         "atr": 74.5,
         "risk_reward_ratio": 1.67
       },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
+          "title": "Caledonia Mining maintains target guidance for Blanket gold",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096787/caledonia-mining-maintains-target-guidance-for-blanket-gold-1096787.html"
+        },
+        {
           "title": "What Is Behind Talamore Mining (TSXV:TALA) Stock's Latest Move?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/behind-talamore-mining-tsxv-tala-051152187.html"
-        },
-        {
-          "title": "Is Kimbell Royalty Partners (KRP) Undervalued After Record Results And A Higher Distribution?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/kimbell-royalty-partners-krp-undervalued-051128752.html"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.35,
-      "change_pct": 0.22,
-      "volume": 28443,
+      "price": 78.13,
+      "change_pct": -0.06,
+      "volume": 29250,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.14%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.16%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.215,
-      "change_pct": 0.03,
+      "price": 32.21,
+      "change_pct": 0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.497,
-      "change_pct": 0.06,
+      "price": 158.471,
+      "change_pct": 0.04,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4753,7 +4753,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=29.0 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.8 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4769,9 +4769,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.497,
-        "stop_loss": 155.8999,
-        "take_profit": 162.8256,
+        "entry_price": 158.471,
+        "stop_loss": 155.8738,
+        "take_profit": 162.7996,
         "atr": 1.7314,
         "risk_reward_ratio": 1.67
       },
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65290.3203,
-      "change_pct": 0.69,
-      "volume": 14679561216,
+      "price": 65271.5781,
+      "change_pct": 0.66,
+      "volume": 14800217088,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1927.98,
-      "change_pct": 1.01,
-      "volume": 5904633344,
+      "price": 1926.21,
+      "change_pct": 0.92,
+      "volume": 5956611584,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4867,7 +4867,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.41%)"
+          "rationale": "波動度正常(ATR/價格=2.42%)"
         }
       ],
       "risk_levels": null,
