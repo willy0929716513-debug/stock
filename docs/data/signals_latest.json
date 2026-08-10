@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:29:10.481362+00:00",
+  "generated_at": "2026-08-10T10:34:31.753854+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Sandisk Can Now Buy Back $15.5 Billion of Its Own Stock. That's 8.6% of the Company.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/sandisk-can-now-buy-back-155-billion-of-its-own-st/"
+          "title": "Chip Stocks Face a Long Climb Back to Their Peak Despite Recent Rally",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-10-2026/card/chip-stocks-face-a-long-climb-back-to-their-peak-despite-recent-rally-VMPs0LjGUDijwjmC7pbF?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4398.7998,
-      "change_pct": 1.34,
-      "volume": 45910,
+      "price": 4402.6001,
+      "change_pct": 1.43,
+      "volume": 46173,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4398.80 觸及上軌 4331.72)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.60 觸及上軌 4332.95)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4398.7998,
-        "stop_loss": 4510.7641,
-        "take_profit": 4212.1927,
+        "entry_price": 4402.6001,
+        "stop_loss": 4514.5644,
+        "take_profit": 4215.993,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.82,
-      "change_pct": 0.82,
-      "volume": 46546,
+      "price": 78.61,
+      "change_pct": 0.55,
+      "volume": 47373,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,11 +4669,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "S&P 500, Nasdaq futures tick higher with Hormuz outlook in focus",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html"
+        },
         {
           "title": "Commerzbank Says Oil Prices Up in Absence of Hormuz Deal, Treasury Yields Open Higher in Asia, US Equity Futures Gain",
           "publisher": "MT Newswires",
@@ -4683,11 +4688,6 @@
           "title": "The stock market bull case just got stronger",
           "publisher": "Financial Post",
           "link": "https://financialpost.com/investing/stock-market-bull-case-just-got-stronger"
-        },
-        {
-          "title": "European stocks steady as investors weigh Hormuz risks, data calendar",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-steady-investors-weigh-073154426.html"
         }
       ]
     },
@@ -4695,7 +4695,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.216,
+      "price": 32.218,
       "change_pct": 0.03,
       "volume": 0,
       "signal": "hold",
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.803,
-      "change_pct": 0.25,
+      "price": 158.788,
+      "change_pct": 0.24,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64965.6992,
-      "change_pct": 0.19,
-      "volume": 15348832256,
+      "price": 64973.8008,
+      "change_pct": 0.2,
+      "volume": 15410450432,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.8101,
-      "change_pct": 0.48,
-      "volume": 6153853440,
+      "price": 1916.72,
+      "change_pct": 0.42,
+      "volume": 6168496640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
