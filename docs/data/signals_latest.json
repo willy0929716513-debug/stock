@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:51:39.456752+00:00",
+  "generated_at": "2026-08-10T09:57:01.167843+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.5,
-      "change_pct": 1.42,
-      "volume": 44129,
+      "price": 4403.8999,
+      "change_pct": 1.46,
+      "volume": 44341,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.50 觸及上軌 4332.92)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4403.90 觸及上軌 4333.38)"
         },
         {
           "agent": "macro",
@@ -4615,13 +4615,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
+          "rationale": "波動度正常(ATR/價格=1.69%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.5,
-        "stop_loss": 4514.4643,
-        "take_profit": 4215.8929,
+        "entry_price": 4403.8999,
+        "stop_loss": 4515.8642,
+        "take_profit": 4217.2928,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.95,
-      "change_pct": 0.98,
-      "volume": 44494,
+      "price": 79.03,
+      "change_pct": 1.09,
+      "volume": 44864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.229,
-      "change_pct": 0.07,
+      "price": 32.231,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.812,
-      "change_pct": 0.25,
+      "price": 158.848,
+      "change_pct": 0.28,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4765,7 +4765,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.10%)"
+          "rationale": "波動度正常(ATR/價格=1.11%)"
         }
       ],
       "risk_levels": null,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64913.6602,
-      "change_pct": 0.11,
-      "volume": 15120910336,
+      "price": 64927.5312,
+      "change_pct": 0.13,
+      "volume": 15202722816,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4819,6 +4819,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Why Is The Crypto Market Up Today?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/why-is-the-crypto-market-up-today/"
+        },
+        {
           "title": "Bitcoin Stays Higher After Weak Jobs Data Dampen Rate-Rise Bets",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/livecoverage/stock-market-news-today-081026/card/bitcoin-stays-higher-after-weak-jobs-data-dampen-rate-rise-bets-fbqWBXgkBuiAoCf7TOFJ?siteid=yhoof2&yptr=yahoo"
@@ -4827,11 +4832,6 @@
           "title": "Trump Says 'Crypto Is a Big Deal, People Are Paying With Bitcoin'",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/crypto/articles/trump-says-crypto-big-deal-213203439.html"
-        },
-        {
-          "title": "Is IREN (IREN) Expensive On Its AI Cloud Pivot Or Still Worth A Look?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-expensive-ai-cloud-210908714.html"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.86,
-      "change_pct": 0.38,
-      "volume": 6109798912,
+      "price": 1915.4399,
+      "change_pct": 0.35,
+      "volume": 6114362368,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
