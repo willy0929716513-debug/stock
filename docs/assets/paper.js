@@ -65,10 +65,17 @@ const PAPER_TRADING = (() => {
     if (qty <= 0) throw new Error("股數必須大於 0");
     if (cost > account.cash) throw new Error("現金不足,無法買進");
 
-    const holding = account.holdings[symbol] || { name, qty: 0, avg_cost: 0 };
+    const holding = account.holdings[symbol] || { name, qty: 0, avg_cost: 0, stop_loss: null, take_profit: null };
     const totalCost = holding.avg_cost * holding.qty + cost;
     const totalQty = holding.qty + qty;
-    account.holdings[symbol] = { name, qty: totalQty, avg_cost: totalCost / totalQty };
+    account.holdings[symbol] = {
+      name, qty: totalQty, avg_cost: totalCost / totalQty,
+      // 只有自動模式依訊號買進時才會帶 stopLoss/takeProfit(來自 daily_run.py 算好
+      // 的 ATR 風控價位);手動下單沒有機器算出的風控價位,維持 null,交易紀錄
+      // 表格會顯示「未設定」,不是漏掉。
+      stop_loss: options.stopLoss ?? holding.stop_loss ?? null,
+      take_profit: options.takeProfit ?? holding.take_profit ?? null,
+    };
     account.cash -= cost;
 
     account.transactions.push({
@@ -96,7 +103,7 @@ const PAPER_TRADING = (() => {
 
     account.transactions.push({
       symbol, name, side: "sell", qty, price, amount: proceeds, at: new Date().toISOString(), auto: !!options.auto,
-      cost_basis: costBasis, pnl,
+      cost_basis: costBasis, pnl, reason: options.reason || null,
     });
     saveAccount(account);
     return account;
@@ -113,17 +120,22 @@ const PAPER_TRADING = (() => {
 
   /**
    * 依目前訊號自動下單:
+   * - 停損/停利檢查(最優先):任一持倉現價觸及開倉時記下的停損/停利價位就全部
+   *   出清,不管當下訊號是什麼——這是稽核 24 小時自動跟單帳戶後發現的真因後
+   *   補上的:原本兩個帳戶都完全沒有價格類出場機制,只能等訊號反轉,一筆部位
+   *   可能不管賺賠多少都卡著不動。
    * - 買進訊號且信心值達門檻、尚未持有該標的 -> 動用目前現金的一小部分開倉
-   *   (已持有的標的不會重複加碼,避免每次重新整理就一直買同一檔)
+   *   (已持有的標的不會重複加碼,避免每次重新整理就一直買同一檔),停損/停利
+   *   價位直接沿用該訊號當下算好的 ATR 風控價位(risk_levels)。
    * - 賣出訊號且信心值達門檻、目前有持倉 -> 全部出清
    * - 同一批訊號(用 pipeline 的 generatedAt 判斷)只處理一次,避免分頁沒關、
    *   同一批資料被重複觸發交易。
-   * - 台股標的(category === "tw_stock")在台股收盤後不下新單(買或賣都不執行),
-   *   跟伺服器端 24 小時自動跟單帳戶用同一套規則;美股/ETF/商品期貨/外匯/
-   *   加密貨幣不受這個時間限制。這是稽核伺服器端帳戶「上線以來因為規則沒分
-   *   資產類別而完全沒進場過」的真因之後,一併套用到這裡的修正。
+   * - 台股標的(category === "tw_stock")在台股收盤後不下新單、也不會被停損停利
+   *   出清(現實中收盤的交易所本來就下不了單),跟伺服器端 24 小時自動跟單帳戶
+   *   用同一套規則;美股/ETF/商品期貨/外匯/加密貨幣不受這個時間限制。
    *   跟伺服器端不同的是:這裡**不會**在收盤時強制平倉既有的台股持倉——
-   *   這個練習帳戶本來就設計成可以跨日持倉,只是「新單」要遵守收盤時間。
+   *   這個練習帳戶本來就設計成可以跨日持倉,只是「新單」跟停損停利出場要
+   *   遵守收盤時間。
    */
   function autoTrade(account, signals, generatedAt) {
     if (!account.autoMode) return { account, executed: [] };
@@ -131,6 +143,28 @@ const PAPER_TRADING = (() => {
 
     const marketClosed = isPastTaipeiMarketClose();
     const executed = [];
+    const signalBySymbol = {};
+    for (const s of signals) signalBySymbol[s.symbol] = s;
+
+    for (const [symbol, holding] of Object.entries(account.holdings)) {
+      const s = signalBySymbol[symbol];
+      if (!s || !s.price || s.price <= 0) continue;
+      if (s.category === "tw_stock" && marketClosed) continue;
+
+      const hitStop = holding.stop_loss != null && s.price <= holding.stop_loss;
+      const hitProfit = holding.take_profit != null && s.price >= holding.take_profit;
+      if (!hitStop && !hitProfit) continue;
+
+      const sellQty = holding.qty; // sell() 會就地修改 holding.qty,要在呼叫前先記下來
+      try {
+        const reason = hitStop ? "觸發停損" : "觸發停利";
+        sell(account, symbol, holding.name, sellQty, s.price, { auto: true, reason });
+        executed.push({ symbol, side: "sell", qty: sellQty, price: s.price, reason });
+      } catch {
+        // 略過
+      }
+    }
+
     for (const s of signals) {
       if (!s.price || s.price <= 0) continue;
       if (s.category === "tw_stock" && marketClosed) continue;
@@ -141,7 +175,10 @@ const PAPER_TRADING = (() => {
         const qty = Math.floor(budget / s.price);
         if (qty < 1) continue;
         try {
-          buy(account, s.symbol, s.name, qty, s.price, { auto: true });
+          const risk = s.risk_levels || {};
+          buy(account, s.symbol, s.name, qty, s.price, {
+            auto: true, stopLoss: risk.stop_loss ?? null, takeProfit: risk.take_profit ?? null,
+          });
           executed.push({ symbol: s.symbol, side: "buy", qty, price: s.price });
         } catch {
           // 現金不足等情況直接跳過該標的,不中斷其他標的的自動下單
@@ -149,9 +186,9 @@ const PAPER_TRADING = (() => {
       } else if (s.signal === "sell" && s.confidence >= AUTO_TRADE_MIN_CONFIDENCE) {
         const holding = account.holdings[s.symbol];
         if (!holding || holding.qty <= 0) continue;
-        const sellQty = holding.qty; // sell() 會就地修改 holding.qty,要在呼叫前先記下來
+        const sellQty = holding.qty;
         try {
-          sell(account, s.symbol, s.name, sellQty, s.price, { auto: true });
+          sell(account, s.symbol, s.name, sellQty, s.price, { auto: true, reason: "訊號" });
           executed.push({ symbol: s.symbol, side: "sell", qty: sellQty, price: s.price });
         } catch {
           // 略過

@@ -55,8 +55,8 @@
   <h2>持股明細</h2>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>標的</th><th>股數</th><th>平均成本</th><th>現價</th><th>市值</th><th>未實現損益</th></tr></thead>
-      <tbody id="holdings-body"><tr><td colspan="6" class="empty-state">尚無持股</td></tr></tbody>
+      <thead><tr><th>標的</th><th>股數</th><th>平均成本</th><th>現價</th><th>市值</th><th>未實現損益</th><th>停損 / 停利</th></tr></thead>
+      <tbody id="holdings-body"><tr><td colspan="7" class="empty-state">尚無持股</td></tr></tbody>
     </table>
   </div>
 
@@ -146,6 +146,9 @@
           const price = priceBySymbol[symbol] ?? h.avg_cost;
           const marketValue = price * h.qty;
           const unrealized = (price - h.avg_cost) * h.qty;
+          const risk = h.stop_loss != null || h.take_profit != null
+            ? `${h.stop_loss != null ? JPO_KBO.formatPrice(h.stop_loss) : "—"} / ${h.take_profit != null ? JPO_KBO.formatPrice(h.take_profit) : "—"}`
+            : "未設定(手動買進)";
           return `
             <tr>
               <td><strong>${symbol}</strong><br><span style="color:var(--text-dim);font-size:0.8rem">${JPO_KBO.escapeHTML(h.name)}</span></td>
@@ -154,10 +157,11 @@
               <td>${JPO_KBO.formatPrice(price)}</td>
               <td>${JPO_KBO.formatMoney(marketValue)}</td>
               <td class="${JPO_KBO.pctClass(unrealized)}">${JPO_KBO.formatMoney(unrealized)}</td>
+              <td>${risk}</td>
             </tr>
           `;
         }).join("")
-      : `<tr><td colspan="6" class="empty-state">尚無持股</td></tr>`;
+      : `<tr><td colspan="7" class="empty-state">尚無持股</td></tr>`;
 
     const txs = [...account.transactions].reverse().slice(0, 50);
     document.getElementById("tx-body").innerHTML = txs.length
@@ -166,7 +170,7 @@
             <td>${JPO_KBO.formatDateTime(t.at)}</td>
             <td>${t.symbol}</td>
             <td>${JPO_KBO.signalBadge(t.side === "buy" ? "buy" : "sell")}</td>
-            <td>${t.auto ? "🤖 自動" : "手動"}</td>
+            <td>${t.auto ? `🤖 自動${t.reason ? `(${JPO_KBO.escapeHTML(t.reason)})` : ""}` : "手動"}</td>
             <td>${t.qty}</td>
             <td>${JPO_KBO.formatPrice(t.price)}</td>
             <td>${JPO_KBO.formatMoney(t.amount)}</td>
