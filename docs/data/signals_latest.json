@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:22:32.453494+00:00",
+  "generated_at": "2026-08-10T06:27:53.815322+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Iran Tensions Highlight Defense Supply Gaps Poised to Lift 2 Stocks",
+          "title": "Prediction: Sandisk Will Reclaim Its All-Time High by the End of the Year",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/iran-tensions-highlight-defense-supply-gaps-poised/"
+          "link": "https://www.fool.com/investing/2026/08/10/prediction-sandisk-will-reclaim-its-all-time-high/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4408.2002,
-      "change_pct": 1.56,
-      "volume": 27689,
+      "price": 4406.7002,
+      "change_pct": 1.52,
+      "volume": 27967,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4408.20 觸及上軌 4334.78)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.70 觸及上軌 4334.29)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4408.2002,
-        "stop_loss": 4519.2002,
-        "take_profit": 4223.2002,
+        "entry_price": 4406.7002,
+        "stop_loss": 4517.7002,
+        "take_profit": 4221.7002,
         "atr": 74.0,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.12,
-      "change_pct": -0.08,
-      "volume": 23350,
+      "price": 78.19,
+      "change_pct": 0.01,
+      "volume": 23584,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.16%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.15%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.195,
-      "change_pct": -0.04,
+      "price": 32.19,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "sell",
       "confidence": 0.37,
@@ -4704,7 +4704,7 @@
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.62,
+          "confidence": 0.61,
           "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
@@ -4721,9 +4721,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.195,
-        "stop_loss": 32.4738,
-        "take_profit": 31.7304,
+        "entry_price": 32.19,
+        "stop_loss": 32.4688,
+        "take_profit": 31.7254,
         "atr": 0.1858,
         "risk_reward_ratio": 1.67
       },
@@ -4749,8 +4749,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.407,
-      "change_pct": -0.0,
+      "price": 158.432,
+      "change_pct": 0.01,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4759,7 +4759,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=28.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4775,9 +4775,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.407,
-        "stop_loss": 155.8169,
-        "take_profit": 162.7238,
+        "entry_price": 158.432,
+        "stop_loss": 155.8419,
+        "take_profit": 162.7488,
         "atr": 1.7267,
         "risk_reward_ratio": 1.67
       },
@@ -4803,9 +4803,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65138.2812,
-      "change_pct": 0.36,
-      "volume": 14624657408,
+      "price": 65108.6289,
+      "change_pct": 0.31,
+      "volume": 14662767616,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4851,9 +4851,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1925.5,
-      "change_pct": 0.52,
-      "volume": 5855500288,
+      "price": 1924.1801,
+      "change_pct": 0.45,
+      "volume": 5895201280,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
