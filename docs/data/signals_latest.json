@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:10:35.158814+00:00",
+  "generated_at": "2026-08-10T23:16:02.940006+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4595,7 +4595,7 @@
       "category": "commodity",
       "price": 4459.6001,
       "change_pct": 2.74,
-      "volume": 1812,
+      "volume": 2171,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4620,9 +4620,9 @@
       ],
       "risk_levels": {
         "entry_price": 4459.6001,
-        "stop_loss": 4575.7322,
-        "take_profit": 4266.0466,
-        "atr": 77.4214,
+        "stop_loss": 4575.8286,
+        "take_profit": 4265.8859,
+        "atr": 77.4857,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.13,
-      "change_pct": 5.05,
-      "volume": 1022,
+      "price": 82.05,
+      "change_pct": 4.95,
+      "volume": 1075,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4749,8 +4749,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.266,
-      "change_pct": 0.87,
+      "price": 159.256,
+      "change_pct": 0.86,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63925.3789,
+      "price": 63920.9805,
       "change_pct": -1.42,
-      "volume": 22569134080,
+      "volume": 22498717696,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.6,
-      "change_pct": -1.89,
-      "volume": 8943186944,
+      "price": 1872.8199,
+      "change_pct": -1.88,
+      "volume": 8956920832,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
