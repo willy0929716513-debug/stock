@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:59:05.436136+00:00",
+  "generated_at": "2026-08-10T15:04:30.071708+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.81,
+      "price": 306.805,
       "change_pct": -2.08,
-      "volume": 16234881,
+      "volume": 16575417,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4275,7 +4275,7 @@
         {
           "title": "Apple gets downgraded, Intel plans to raise $15B: AlphaSpace check",
           "publisher": "Yahoo Finance Video",
-          "link": "https://finance.yahoo.com/video/apple-gets-downgraded-intel-plans-to-raise-15b-alphaspace-check-145507775.html"
+          "link": "https://finance.yahoo.com/video/apple-gets-downgraded-intel-plans-145507775.html"
         },
         {
           "title": "Airbnb CEO: Why AI is the best thing to happen to us",
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 509.505,
-      "change_pct": 1.9,
-      "volume": 10204945,
+      "price": 509.04,
+      "change_pct": 1.81,
+      "volume": 10518499,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4315,13 +4315,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.54%)"
+          "rationale": "波動度正常(ATR/價格=3.55%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 509.505,
-        "stop_loss": 536.5849,
-        "take_profit": 464.3718,
+        "entry_price": 509.04,
+        "stop_loss": 536.1199,
+        "take_profit": 463.9068,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4337,9 +4337,9 @@
           "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "Synopsys (SNPS) Unleashes Agentic AI Chip Design Tools Backed by Microsoft, AMD",
+          "title": "Cathie Wood Ignores AI Panic — Buys More Nvidia, Sells This Gaming Stock Instead",
           "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/synopsys-snps-unleashes-agentic-ai-143945738.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ignores-ai-panic-145750434.html"
         }
       ]
     },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.88,
-      "change_pct": -1.82,
-      "volume": 31061385,
+      "price": 219.7724,
+      "change_pct": -1.87,
+      "volume": 32598114,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.53%)"
+          "rationale": "波動度正常(ATR/價格=3.55%)"
         }
       ],
       "risk_levels": null,
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/broadcoms-brilliant-positioning-is-why-i-am-loading-up-over-and-over/"
+          "title": "Cathie Wood Ignores AI Panic — Buys More Nvidia, Sells This Gaming Stock Instead",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ignores-ai-panic-145750434.html"
         },
         {
-          "title": "Stock Market Today: Dow Falls, SpaceX Reverses; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
+          "title": "Why Chevron Stock Popped on Monday",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/why-chevron-stock-popped-on-monday/"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.97,
-      "change_pct": 0.42,
-      "volume": 9622353,
+      "price": 329.02,
+      "change_pct": 0.13,
+      "volume": 10001136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.34%)"
+          "rationale": "波動度正常(ATR/價格=4.35%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 353.78,
-      "change_pct": -0.15,
-      "volume": 6778406,
+      "price": 354.45,
+      "change_pct": 0.04,
+      "volume": 7033130,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4465,7 +4465,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.73%)"
+          "rationale": "波動度正常(ATR/價格=3.72%)"
         }
       ],
       "risk_levels": null,
@@ -4481,9 +4481,9 @@
           "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
         },
         {
-          "title": "Warren Buffett Personally Initiated Berkshire's $30 Billion Alphabet Stake, a Sign He's Still Making Calls Despite Stepping Back as Chairman",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/warren-buffett-personally-initiated-berkshires-30/"
+          "title": "Cathie Wood Ignores AI Panic — Buys More Nvidia, Sells This Gaming Stock Instead",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ignores-ai-panic-145750434.html"
         }
       ]
     },
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.84,
+      "price": 773.9013,
       "change_pct": 0.08,
-      "volume": 10522269,
+      "volume": 11088221,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.1301,
-      "change_pct": -0.12,
-      "volume": 9790909,
+      "price": 722.5,
+      "change_pct": -0.07,
+      "volume": 10197840,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.1001,
-      "change_pct": 1.51,
-      "volume": 78194,
+      "price": 4402.8999,
+      "change_pct": 1.43,
+      "volume": 78930,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.10 觸及上軌 4334.09)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.90 觸及上軌 4333.05)"
         },
         {
           "agent": "macro",
@@ -4609,13 +4609,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.69%)"
+          "rationale": "波動度正常(ATR/價格=1.70%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.1001,
-        "stop_loss": 4518.0644,
-        "take_profit": 4219.493,
+        "entry_price": 4402.8999,
+        "stop_loss": 4514.8642,
+        "take_profit": 4216.2928,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.62,
-      "change_pct": 3.12,
-      "volume": 114347,
+      "price": 80.84,
+      "change_pct": 3.4,
+      "volume": 116276,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.252,
-      "change_pct": 0.14,
+      "price": 32.266,
+      "change_pct": 0.18,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.962,
-      "change_pct": 0.35,
+      "price": 158.951,
+      "change_pct": 0.34,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64565.9492,
-      "change_pct": -0.43,
-      "volume": 18079330304,
+      "price": 64617.0508,
+      "change_pct": -0.35,
+      "volume": 18215602176,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.89%)"
+          "rationale": "波動度正常(ATR/價格=1.88%)"
         }
       ],
       "risk_levels": null,
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1891.1,
-      "change_pct": -0.92,
-      "volume": 7274286592,
+      "price": 1889.51,
+      "change_pct": -1.0,
+      "volume": 7320515584,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4855,7 +4855,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.51%)"
+          "rationale": "波動度正常(ATR/價格=2.53%)"
         }
       ],
       "risk_levels": null,
