@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:26:02.930615+00:00",
+  "generated_at": "2026-08-10T15:31:26.798841+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.52,
-      "change_pct": -2.17,
-      "volume": 17647686,
+      "price": 306.44,
+      "change_pct": -2.2,
+      "volume": 17927228,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4283,9 +4283,9 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
-          "title": "Apple Investors Get Fresh iPhone Warning",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-investors-fresh-iphone-warning-151903712.html"
+          "title": "‘Massive Upgrade Cycle’ Coming – Ignore Memory Costs Panic and Buy Apple (AAPL)?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/massive-upgrade-cycle-coming-ignore-152241666.html"
         }
       ]
     },
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 509.265,
-      "change_pct": 1.86,
-      "volume": 11431455,
+      "price": 509.685,
+      "change_pct": 1.94,
+      "volume": 11655295,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=84.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=84.9 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 509.265,
-        "stop_loss": 536.3449,
-        "take_profit": 464.1318,
+        "entry_price": 509.685,
+        "stop_loss": 536.7649,
+        "take_profit": 464.5518,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.1699,
-      "change_pct": -2.14,
-      "volume": 37359886,
+      "price": 219.337,
+      "change_pct": -2.06,
+      "volume": 38372130,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.57%)"
+          "rationale": "波動度正常(ATR/價格=3.56%)"
         }
       ],
       "risk_levels": null,
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Super Micro Rises 4% Ahead of Earnings; HPE Gains 4%, Dell Climbs 3% as AI Server Stocks Advance",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/super-micro-rises-4-ahead-of-earnings-hpe-gains-4-dell-climbs-3-as-ai-server-stocks-advance/"
+          "title": "Why Plug Power Stock Slumped Another 24% in July",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/why-plug-power-stock-slumped-another-24-in-july/"
         },
         {
-          "title": "Samsung's HBM4 Push Just Got Much Stronger",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/articles/samsungs-hbm4-push-just-got-151018816.html"
+          "title": "1 Super Streaming Stock Down 37% You'll Regret Not Buying on the Dip, According to Wall Street",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/1-streaming-stock-down-37-regret-buying-dip-wall/"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.79,
-      "change_pct": 0.37,
-      "volume": 10968738,
+      "price": 329.35,
+      "change_pct": 0.23,
+      "volume": 11280299,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.34%)"
+          "rationale": "波動度正常(ATR/價格=4.35%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.29,
-      "change_pct": -0.0,
-      "volume": 7874036,
+      "price": 354.6,
+      "change_pct": 0.08,
+      "volume": 8157161,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.6578,
-      "change_pct": 0.05,
-      "volume": 12340969,
+      "price": 773.76,
+      "change_pct": 0.06,
+      "volume": 12556817,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.51,
-      "change_pct": -0.21,
-      "volume": 10937371,
+      "price": 721.57,
+      "change_pct": -0.2,
+      "volume": 11151310,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4408.8999,
-      "change_pct": 1.57,
-      "volume": 82186,
+      "price": 4411.1001,
+      "change_pct": 1.62,
+      "volume": 82862,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4408.90 觸及上軌 4335.01)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4411.10 觸及上軌 4335.73)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4408.8999,
-        "stop_loss": 4520.8642,
-        "take_profit": 4222.2928,
+        "entry_price": 4411.1001,
+        "stop_loss": 4523.0644,
+        "take_profit": 4224.493,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.86,
-      "change_pct": 3.43,
-      "volume": 123755,
+      "price": 80.83,
+      "change_pct": 3.39,
+      "volume": 125420,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.224,
-      "change_pct": 0.05,
+      "price": 32.234,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.908,
-      "change_pct": 0.32,
+      "price": 158.902,
+      "change_pct": 0.31,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64306.4297,
-      "change_pct": -0.83,
-      "volume": 18352615424,
+      "price": 64336.8086,
+      "change_pct": -0.78,
+      "volume": 18513313792,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.90%)"
+          "rationale": "波動度正常(ATR/價格=1.91%)"
         }
       ],
       "risk_levels": null,
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.6899,
-      "change_pct": -1.89,
-      "volume": 7726448640,
+      "price": 1875.79,
+      "change_pct": -1.72,
+      "volume": 7841924096,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
