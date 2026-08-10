@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:58:03.186442+00:00",
+  "generated_at": "2026-08-10T09:03:24.771545+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "The Nasdaq Composite Just Did Something That's Been Observed Only 18 Times Since Its Inception in 1971 -- and History Says Stocks Are About to Skyrocket",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/nasdaq-did-something-18-times-history-stocks-soar/"
+          "title": "Firmus raises $2bn to accelerate Project Southgate rollout",
+          "publisher": "Verdict",
+          "link": "https://www.verdict.co.uk/firmus-2bn-project-southgate-rollout/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.6001,
-      "change_pct": 1.54,
-      "volume": 38486,
+      "price": 4406.0,
+      "change_pct": 1.5,
+      "volume": 39149,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.60 觸及上軌 4334.58)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.00 觸及上軌 4334.06)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.6001,
-        "stop_loss": 4519.5644,
-        "take_profit": 4220.993,
+        "entry_price": 4406.0,
+        "stop_loss": 4517.9643,
+        "take_profit": 4219.3929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.0,
-      "change_pct": 1.05,
-      "volume": 38583,
+      "price": 79.19,
+      "change_pct": 1.29,
+      "volume": 39637,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.24,
-      "change_pct": 0.1,
+      "price": 32.227,
+      "change_pct": 0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.67,
-      "change_pct": 0.16,
+      "price": 158.697,
+      "change_pct": 0.18,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65206.5508,
-      "change_pct": 0.56,
-      "volume": 14877632512,
+      "price": 65137.1602,
+      "change_pct": 0.45,
+      "volume": 14862523392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,7 +4813,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.83%)"
+          "rationale": "波動度正常(ATR/價格=1.84%)"
         }
       ],
       "risk_levels": null,
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1925.5699,
-      "change_pct": 0.88,
-      "volume": 5988965376,
+      "price": 1923.72,
+      "change_pct": 0.79,
+      "volume": 5989284352,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
