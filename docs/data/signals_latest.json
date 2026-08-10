@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:38:49.652403+00:00",
+  "generated_at": "2026-08-10T14:42:53.365492+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,19 +99,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "TSMC July 2026 revenue jumps 44.7% on AI chip demand",
-          "publisher": "Quartz",
-          "link": "https://qz.com/tsmc-july-revenue-ai-chip-demand-081026"
+          "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Key Republican urges US to stop any advanced chips from reaching sanctioned Chinese firms",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/key-republican-urges-us-stop-100512891.html"
+          "title": "Microsoft plans Maia 300 chip reveal in September -  Information",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html"
         },
         {
-          "title": "Taiwan Semiconductor’s Blockbuster Run Rolls On: July Revenue Surges 45%",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-blockbuster-run-rolls-094304031.html"
+          "title": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/nvidia-nvda-stock-earnings-august-2026/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 313.33,
-      "change_pct": 0.29,
-      "volume": 34407100,
+      "price": 306.5775,
+      "change_pct": -2.16,
+      "volume": 15073404,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4267,7 +4267,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.98%)"
+          "rationale": "波動度正常(ATR/價格=3.08%)"
         }
       ],
       "risk_levels": null,
@@ -4278,14 +4278,14 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
-          "title": "US Treasury, IRS set out initial framework for Saver’s Match rollout",
-          "publisher": "The Accountant",
-          "link": "https://www.theaccountant-online.com/news/us-treasury-irs-set-out-initial-framework-for-savers-match-rollout/"
+          "title": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/technology/apple-stock-downgraded-before-iphone-18-launch/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33818/apple-reportedly-tests-cxmt-memory-chips-as-ai-demand-tightens-global-supply"
+          "title": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/research/nvidia-nvda-stock-earnings-august-2026/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4293,17 +4293,17 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 499.99,
-      "change_pct": 0.03,
-      "volume": 28818000,
+      "price": 511.15,
+      "change_pct": 2.23,
+      "volume": 8971391,
       "signal": "sell",
-      "confidence": 0.26,
+      "confidence": 0.28,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.44,
-          "rationale": "rsi:sell(RSI=81.4 進入超買區)"
+          "confidence": 0.46,
+          "rationale": "rsi:sell(RSI=85.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4315,31 +4315,31 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.50%)"
+          "rationale": "波動度正常(ATR/價格=3.53%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 499.99,
-        "stop_loss": 526.2378,
-        "take_profit": 456.2436,
-        "atr": 17.4986,
+        "entry_price": 511.15,
+        "stop_loss": 538.2299,
+        "take_profit": 466.0168,
+        "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-big-tech-earnings-were-the-wow-moment-for-ai-monetization-it-s-all-starting-to-come-together/cZojVIGRJa6"
+          "title": "Memory chip crunch could last 2 more years, JPMorgan says",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-strategists-raise-p-500-092820794.html"
+          "title": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "Why Is TSM Stock Rising Premarket?",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-premarket/cZojkOXRJaU"
+          "title": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33868/meta-shares-gain-as-muse-glimmer-launch-highlights-broader-ai-ambitions"
         }
       ]
     },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 223.96,
-      "change_pct": 2.27,
-      "volume": 105473700,
+      "price": 220.375,
+      "change_pct": -1.6,
+      "volume": 26957464,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,25 +4369,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.50%)"
+          "rationale": "波動度正常(ATR/價格=3.51%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "How AI agents can power the S&P 500 higher",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/how-ai-agents-can-power-the-sp-500-higher-123000201.html"
+          "title": "Memory chip crunch could last 2 more years, JPMorgan says",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/peter-becks-rocket-lab-fell-30-in-a-month-while-re/"
+          "title": "AI Needs More Than GPUs. These 3 Stocks Are Building Everything Around Them",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/ai-needs-more-than-gpus-these-3-stocks-are-building-everything-around-them/"
         },
         {
-          "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-micron-stock-plummeted-287-in-july-but-is-rebo/"
+          "title": "Down but Not Out: Analysts See 40% Upside in Netflix After the Slide",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/down-but-not-out-analysts-see-40-upside-in-netflix-after-the-slide/"
         }
       ]
     },
@@ -4395,17 +4395,17 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 328.58,
-      "change_pct": 2.83,
-      "volume": 39370100,
-      "signal": "buy",
-      "confidence": 0.3,
+      "price": 330.15,
+      "change_pct": 0.48,
+      "volume": 8692624,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4417,31 +4417,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.55%)"
+          "rationale": "波動度正常(ATR/價格=4.34%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 328.58,
-        "stop_loss": 306.1668,
-        "take_profit": 365.9353,
-        "atr": 14.9421,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
-          "title": "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/elon-musk-plans-to-spend-119-billion-to-construct-the-worlds-largest-building-just-outside-houston/"
-        },
-        {
-          "title": "Tesla Stock Is on a Roll as Retail Traders Buy In",
+          "title": "Tesla Stock Slips as Army of Fans Fails to Help It Claw Back Losses",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/tesla-stock-price-retail-traders-f41c836d?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Paul Graham Says His Wife’s First Tesla FSD Experience Was Like a ‘Religious Revelation’— and AI Chief Ashok Elluswamy Had One Request When He Heard It",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/ai/articles/paul-graham-says-wife-first-100112842.html"
+          "title": "SpaceX Stock Slips After Lock-Up Rally. When’s the Next Release, What to Expect.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/spacex-stock-price-shares-release-15ccc02c?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Tesla or SpaceX: Who Benefits More From Terafab and How",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/tesla-or-spacex-who-benefits-more-from-terafab-and-how/"
         }
       ]
     },
@@ -4449,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.3,
-      "change_pct": -0.96,
-      "volume": 19805200,
+      "price": 356.1,
+      "change_pct": 0.51,
+      "volume": 6142098,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4471,25 +4465,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.73%)"
+          "rationale": "波動度正常(ATR/價格=3.70%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
+          "title": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-strategists-raise-p-500-092820794.html"
+          "title": "JPMorgan’s S&P 500 8,000 target: Is the market getting too expensive?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
         },
         {
-          "title": "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/warren-buffett-alphabet-stock-might-buy-this-next/"
+          "title": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33868/meta-shares-gain-as-muse-glimmer-launch-highlights-broader-ai-ambitions"
         }
       ]
     },
@@ -4497,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.26,
-      "change_pct": 0.61,
-      "volume": 43557000,
+      "price": 774.47,
+      "change_pct": 0.16,
+      "volume": 8576131,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4519,25 +4513,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.18%)"
+          "rationale": "波動度正常(ATR/價格=1.14%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "VOO Is About to Become the First $1 Trillion ETF, and SPY Holders Are Paying 3x More for the Same Index",
+          "title": "DraftKings After Earnings: Buy, Hold, or Run?",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/08/voo-is-about-to-become-the-first-1-trillion-etf-and-spy-holders-are-paying-3x-more-for-the-same-index/"
+          "link": "https://247wallst.com/investing/2026/08/10/draftkings-after-earnings-buy-hold-or-run/"
         },
         {
-          "title": "ISPY’s 0.56% Fee Hides a $38,000 Decade-Long Performance Gap Against SPY",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/07/ispys-0-56-fee-hides-a-38000-decade-long-performance-gap-against-spy/"
+          "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html"
         },
         {
-          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+          "title": "3 Beaten-Down Healthcare Stocks to Buy in August",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/3-beaten-down-healthcare-stocks-to-buy-in-august/"
         }
       ]
     },
@@ -4545,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 723.03,
-      "change_pct": 1.17,
-      "volume": 31024100,
+      "price": 723.945,
+      "change_pct": 0.13,
+      "volume": 8574215,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4567,25 +4561,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.07%)"
+          "rationale": "波動度正常(ATR/價格=1.97%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
+          "title": "Archer Aviation Soars 20% on Boeing Deal to Acquire Wisk, Insitu, SkyGrid; Joby, EHang Stay Grounded",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/08/what-jepq-actually-paid-the-last-time-the-nasdaq-fell-10-a-stress-test-for-its-10-yield/"
+          "link": "https://247wallst.com/investing/2026/08/10/archer-aviation-soars-19-on-boeing-deal-to-acquire-wisk-insitu-skygrid-joby-ehang-stay-grounded/"
         },
         {
-          "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w"
+          "title": "Stock Market Today: Dow Falls As Oil Prices Climb; SpaceX Stock Extending Gains (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
         },
         {
-          "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/economy/articles/u-jobs-report-delivers-stark-203644145.html"
+          "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html"
         }
       ]
     },
@@ -4593,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4393.2002,
-      "change_pct": 1.21,
-      "volume": 50364,
+      "price": 4407.5,
+      "change_pct": 1.54,
+      "volume": 74716,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4393.20 觸及上軌 4329.92)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.50 觸及上軌 4334.55)"
         },
         {
           "agent": "macro",
@@ -4615,31 +4609,31 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
+          "rationale": "波動度正常(ATR/價格=1.69%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4393.2002,
-        "stop_loss": 4505.1645,
-        "take_profit": 4206.5931,
+        "entry_price": 4407.5,
+        "stop_loss": 4519.4643,
+        "take_profit": 4220.8929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
-          "title": "Dynacor Group Inc's Dividend Analysis",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dynacor-group-incs-dividend-analysis-111950771.html"
+          "title": "Gold prices today, Monday, August 10, 2026: Highest opening price since early June",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html"
         },
         {
-          "title": "Earnings Season, Persian Gulf Lull, Lift Wall Street Pre-Bell; Asia, Europe Up",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-season-persian-gulf-lull-111543856.html"
+          "title": "AEM Stock Pops 25% in a Month: What Should Investors Do Now?",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/aem-stock-pops-25-month-130600702.html"
         },
         {
-          "title": "Golden Rapture agrees deal for land south of Canada’s Goliath project",
-          "publisher": "Mining Technology",
-          "link": "https://www.mining-technology.com/news/golden-rapture-land-south-canadas-goliath/"
+          "title": "Barrick Gold Falls, Newmont Rises As Miners Agree On IPO",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/news/barrick-gold-stock-newmont-deal-clears-ipo-gold-price/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4647,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.08,
-      "change_pct": 1.15,
-      "volume": 55525,
+      "price": 80.41,
+      "change_pct": 2.85,
+      "volume": 110505,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,25 +4663,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures little changed in wait for key inflation data",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html"
-        },
-        {
-          "title": "S&P 500, Nasdaq futures inch up as markets monitor Hormuz situation",
+          "title": "Wall St ticks lower as markets monitor Hormuz situation; data awaited",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html"
         },
         {
-          "title": "S&P 500 hits record high as Iran nuclear deal stalls",
-          "publisher": "Quartz",
-          "link": "https://qz.com/sp500-record-high-iran-deal-stalled-081026"
+          "title": "U.S. Stocks Open Flat",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/stocks/oil-broadly-flat-u-s-futures-mostly-higher-ahead-of-key-u-s-cpi-data-db69b2c8?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Stock Market Today: Dow Falls As Oil Prices Climb; SpaceX Stock Extending Gains (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4695,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.224,
-      "change_pct": 0.05,
+      "price": 32.248,
+      "change_pct": 0.13,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.809,
-      "change_pct": 0.25,
+      "price": 158.92,
+      "change_pct": 0.32,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4771,6 +4765,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Dollar Strengthens Against Yen as Intervention Wears Out",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-may-be-buoyed-by-reduced-fed-rate-hike-prospects-ac0ca68d?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Japan's Growth Minister on Proactive Fiscal Policy, Yen",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/video/japans-growth-minister-proactive-fiscal-110544465.html"
@@ -4779,11 +4778,6 @@
           "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/japans-executives-call-fx-stability-010441771.html"
         }
       ]
     },
@@ -4791,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65025.1094,
-      "change_pct": 0.28,
-      "volume": 15479437312,
+      "price": 64786.4609,
+      "change_pct": -0.09,
+      "volume": 18002956288,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,25 +4807,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.84%)"
+          "rationale": "波動度正常(ATR/價格=1.88%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Bitcoin's $82K May Rally Setup Is Back, but One Key Ingredient Is Missing: Analyst",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/bitcoin-price-82k-record-23b-longs-derivatives-liquidation-risk/"
+          "title": "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
+          "title": "Bitdeer shares edge higher despite Q2 earnings and revenue miss",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
+        },
+        {
+          "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
           "publisher": "decrypt",
-          "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030"
-        },
-        {
-          "title": "Bitcoin BIP-110 Fork Falters as 99.85% of Hashpower Stays on Main Chain",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/bitcoin-bip-110-fork-hashpower-main-chain/"
+          "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m"
         }
       ]
     },
@@ -4839,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.48,
-      "change_pct": 0.46,
-      "volume": 6242443776,
+      "price": 1898.76,
+      "change_pct": -0.52,
+      "volume": 7248222720,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4861,25 +4855,25 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.43%)"
+          "rationale": "波動度正常(ATR/價格=2.50%)"
         }
       ],
       "risk_levels": null,
       "news": [
         {
-          "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
+          "title": "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+          "publisher": "Yahoo Personal Finance",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
+        },
+        {
+          "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
           "publisher": "decrypt",
-          "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030"
+          "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m"
         },
         {
-          "title": "Coinsbuy Faces Reported $7.9 Million Crypto Hack Amid Rising 2026 Attacks",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/coinsbuy-hack-crypto-august/"
-        },
-        {
-          "title": "Which Crypto Do AI Models Say to Buy Right Now: Bitcoin, Ethereum, or XRP?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/cryptocurrency/2026/08/09/which-crypto-do-ai-models-say-to-buy-right-now-bitcoin-ethereum-or-xrp/"
+          "title": "Ethereum and Solana Reassess Inflation Schedules as Security Costs Raise Supply Concerns",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/ethereum-solana-reassess-inflation-schedules/"
         }
       ]
     }
