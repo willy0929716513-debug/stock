@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:41:57.414826+00:00",
+  "generated_at": "2026-08-10T08:47:20.208216+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4477,6 +4477,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Berkshire Hathaway Digs Into Cash Pile",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-10-2026/card/berkshire-hathaway-digs-into-cash-pile-mc2rbqh1S6gSf7qTPjZP?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-cites-data-point-053551712.html"
@@ -4485,11 +4490,6 @@
           "title": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/apple-s-foldable-phone-whoop-like-band-cxmt-memory-tests-buzz-keep-traders-hooked/cZojgdmRJap"
-        },
-        {
-          "title": "Starlink 'Unbelievable Juggernaut Cash Machine,' Says VC David Friedberg; SpaceX CEO Elon Musk Responds With $1 Trillion+ Annual Revenue Projection",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/starlink-unbelievable-juggernaut-cash-machine-031007704.html"
         }
       ]
     },
@@ -4593,17 +4593,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4413.5,
-      "change_pct": 1.68,
-      "volume": 37271,
+      "price": 4409.1001,
+      "change_pct": 1.58,
+      "volume": 37747,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4413.50 觸及上軌 4336.53)"
+          "confidence": 0.67,
+          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4409.10 觸及上軌 4335.08)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4413.5,
-        "stop_loss": 4525.4643,
-        "take_profit": 4226.8929,
+        "entry_price": 4409.1001,
+        "stop_loss": 4521.0644,
+        "take_profit": 4222.493,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.68,
-      "change_pct": 0.64,
-      "volume": 35847,
+      "price": 78.66,
+      "change_pct": 0.61,
+      "volume": 36869,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4675,19 +4675,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Oil steady as Iran tempers hopes of swift Hormuz reopening",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-rises-uncertainty-over-reopening-005834869.html"
+        },
+        {
           "title": "Asian stocks track Wall St higher after US job losses ease rate fears",
           "publisher": "AFP",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-track-wall-st-030542135.html"
         },
         {
-          "title": "Oil Little Changed as Investors Await Hormuz Deal",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-growing-doubts-over-strait-of-hormuzs-reopening-6e42507b?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Dollar steadies after payrolls drop, inflation data eyed",
+          "title": "Global stocks tick up with oil steady on Hormuz plans",
           "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html"
+          "link": "https://finance.yahoo.com/news/asia-stocks-edge-higher-oil-002532883.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.235,
-      "change_pct": 0.09,
+      "price": 32.226,
+      "change_pct": 0.06,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.534,
-      "change_pct": 0.08,
+      "price": 158.554,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4753,7 +4753,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=29.3 進入超賣區)"
+          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4765,13 +4765,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.10%)"
+          "rationale": "波動度正常(ATR/價格=1.09%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 158.534,
-        "stop_loss": 155.9299,
-        "take_profit": 162.8742,
+        "entry_price": 158.554,
+        "stop_loss": 155.9499,
+        "take_profit": 162.8942,
         "atr": 1.7361,
         "risk_reward_ratio": 1.67
       },
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65155.4805,
+      "price": 65153.4102,
       "change_pct": 0.48,
-      "volume": 14974179328,
+      "volume": 14936583168,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1922.6801,
-      "change_pct": 0.73,
-      "volume": 6044977152,
+      "price": 1923.21,
+      "change_pct": 0.76,
+      "volume": 5969838592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
