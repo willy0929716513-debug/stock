@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T00:05:43.102091+00:00",
+  "generated_at": "2026-08-10T00:11:10.233047+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4266,14 +4266,14 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
+          "title": "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/meet-the-high-yield-dividend-stock-bill-ackman-has/"
+        },
+        {
           "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
-        },
-        {
-          "title": "Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/sundar-pichai-alphabet-grow-google-cloud-capex/"
         }
       ]
     },
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Dow Jones Futures Fall As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo"
+          "title": "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/meet-the-high-yield-dividend-stock-bill-ackman-has/"
         }
       ]
     },
@@ -4411,19 +4411,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/09/meet-the-high-yield-dividend-stock-bill-ackman-has/"
+        },
+        {
+          "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/09/alphabets-cloud-computing-business-just-posted-82/"
-        },
-        {
-          "title": "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-breaks-14-quarter-selling-194000465.html"
-        },
-        {
-          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/shopping/aiprotablet-10-inch-android-16-tablet-amazon"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4398.7002,
-      "change_pct": 1.34,
-      "volume": 3581,
+      "price": 4394.1001,
+      "change_pct": 1.23,
+      "volume": 3973,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4398.70 觸及上軌 4331.69)"
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4394.10 觸及上軌 4330.21)"
         },
         {
           "agent": "macro",
@@ -4553,9 +4553,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4398.7002,
-        "stop_loss": 4509.593,
-        "take_profit": 4213.8788,
+        "entry_price": 4394.1001,
+        "stop_loss": 4504.9929,
+        "take_profit": 4209.2787,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.82,
-      "change_pct": 0.82,
-      "volume": 9014,
+      "price": 78.73,
+      "change_pct": 0.7,
+      "volume": 9176,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.86,
-      "change_pct": -0.35,
+      "price": 157.874,
+      "change_pct": -0.34,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4703,13 +4703,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.86,
-        "stop_loss": 155.2751,
-        "take_profit": 162.1682,
+        "entry_price": 157.874,
+        "stop_loss": 155.2891,
+        "take_profit": 162.1822,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
+        },
         {
           "title": "$96 Billion Japan Bond Losses Put America Debt and Bitcoin on Alert",
           "publisher": "BeInCrypto",
@@ -4719,11 +4724,6 @@
           "title": "Behind Bessent Moves, Wall Street Sees Sign of Bond-Market Angst",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/economy/policy/articles/behind-bessent-moves-wall-street-133600816.html"
-        },
-        {
-          "title": "How coordinated currency buying interventions work",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/coordinated-currency-buying-interventions-035232703.html"
         }
       ]
     },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64848.0703,
-      "change_pct": -0.09,
-      "volume": 13194874880,
+      "price": 65065.4883,
+      "change_pct": 0.25,
+      "volume": 13226210304,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4753,7 +4753,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.01%)"
+          "rationale": "波動度正常(ATR/價格=1.94%)"
         }
       ],
       "risk_levels": null,
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1909.04,
-      "change_pct": -0.34,
-      "volume": 4630124032,
+      "price": 1917.9,
+      "change_pct": 0.12,
+      "volume": 4587371520,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4801,7 +4801,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.69%)"
+          "rationale": "波動度正常(ATR/價格=2.61%)"
         }
       ],
       "risk_levels": null,
