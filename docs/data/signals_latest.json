@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:05:06.107561+00:00",
+  "generated_at": "2026-08-10T23:10:35.158814+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4343,9 +4343,9 @@
           "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "CRM Stock Has Bounced From This Price Before. Now What?",
+          "title": "Amazon Stock And The Profit Signal Everyone Is Chasing",
           "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610733/crm-stock-has-bounced-from-this-price-before-now-what-2/2026-08-10"
+          "link": "https://www.trefis.com/articles/610743/amazon-stock-and-the-profit-signal-everyone-is-chasing/2026-08-10"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4459.0,
-      "change_pct": 2.73,
-      "volume": 1538,
+      "price": 4459.6001,
+      "change_pct": 2.74,
+      "volume": 1812,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4459.00 觸及上軌 4352.09)"
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4459.60 觸及上軌 4352.30)"
         },
         {
           "agent": "macro",
@@ -4615,14 +4615,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.73%)"
+          "rationale": "波動度正常(ATR/價格=1.74%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4459.0,
-        "stop_loss": 4575.025,
-        "take_profit": 4265.6251,
-        "atr": 77.35,
+        "entry_price": 4459.6001,
+        "stop_loss": 4575.7322,
+        "take_profit": 4266.0466,
+        "atr": 77.4214,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.14,
-      "change_pct": 5.07,
-      "volume": 1018,
+      "price": 82.13,
+      "change_pct": 5.05,
+      "volume": 1022,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4749,8 +4749,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.251,
-      "change_pct": 0.86,
+      "price": 159.266,
+      "change_pct": 0.87,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63937.0898,
-      "change_pct": -1.4,
-      "volume": 22705096704,
+      "price": 63925.3789,
+      "change_pct": -1.42,
+      "volume": 22569134080,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.98,
-      "change_pct": -1.87,
-      "volume": 8963471360,
+      "price": 1872.6,
+      "change_pct": -1.89,
+      "volume": 8943186944,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
