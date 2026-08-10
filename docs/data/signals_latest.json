@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:13:04.830259+00:00",
+  "generated_at": "2026-08-10T10:18:26.659033+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Disney's Valuation Is at Multiyear Lows, and Buybacks Are at a 9-Year High. Is Disney a No-Brainer Value Stock to Buy Now?",
+          "title": "Why Rocket Lab Stock Plummeted 36.1% Last Month But Is Soaring in August",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/is-disney-a-no-brainer-value-stock-to-buy-now/"
+          "link": "https://www.fool.com/investing/2026/08/10/why-rocket-lab-stock-plummeted-361-last-month-but/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4398.8999,
-      "change_pct": 1.34,
-      "volume": 45153,
+      "price": 4399.5,
+      "change_pct": 1.35,
+      "volume": 45516,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4398.90 觸及上軌 4331.76)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4399.50 觸及上軌 4331.95)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4398.8999,
-        "stop_loss": 4510.8642,
-        "take_profit": 4212.2928,
+        "entry_price": 4399.5,
+        "stop_loss": 4511.4643,
+        "take_profit": 4212.8929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.95,
-      "change_pct": 0.98,
-      "volume": 45530,
+      "price": 78.8,
+      "change_pct": 0.79,
+      "volume": 45973,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,11 +4669,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Commerzbank Says Oil Prices Up in Absence of Hormuz Deal, Treasury Yields Open Higher in Asia, US Equity Futures Gain",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/energy/articles/commerzbank-says-oil-prices-absence-101359439.html"
+        },
         {
           "title": "European stocks steady as investors weigh Hormuz risks, data calendar",
           "publisher": "Reuters",
@@ -4683,11 +4688,6 @@
           "title": "Oil prices hold steady as Iran conditions cloud Hormuz reopening prospects",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33808/oil-prices-hold-steady-as-iran-conditions-cloud-hormuz-reopening-prospects"
-        },
-        {
-          "title": "Analysis-FOMO fuels Wall Street's breakout rally as traders pile in",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/options/articles/analysis-fomo-fuels-wall-streets-090420422.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.222,
-      "change_pct": 0.05,
+      "price": 32.221,
+      "change_pct": 0.04,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.851,
+      "price": 158.853,
       "change_pct": 0.28,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64983.4297,
-      "change_pct": 0.21,
-      "volume": 15248471040,
+      "price": 64966.8281,
+      "change_pct": 0.19,
+      "volume": 15398753280,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.7,
+      "price": 1917.64,
       "change_pct": 0.47,
-      "volume": 6101772288,
+      "volume": 6163243008,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
