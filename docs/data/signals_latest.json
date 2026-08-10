@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:27:53.815322+00:00",
+  "generated_at": "2026-08-10T06:33:16.429161+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1003,23 +1003,7 @@
         }
       ],
       "risk_levels": null,
-      "news": [
-        {
-          "title": "Nvidia Partner Quanta Seeks Up to $2.2 Billion From Offering",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-partner-quanta-seeks-2-100050526.html"
-        },
-        {
-          "title": "UBS Raises its Price Target on Astera Labs, Inc. (ALAB)",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-raises-price-target-astera-185530451.html"
-        },
-        {
-          "title": "How Astera Labs (ALAB) Is Using Taiwan Expansion to Speed Rack-Scale AI Deployment",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/technology/ai/articles/astera-labs-alab-using-taiwan-143418833.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "2385.TW",
@@ -1341,23 +1325,7 @@
         "atr": 1.1036,
         "risk_reward_ratio": 1.67
       },
-      "news": [
-        {
-          "title": "Apple Tests Chinese Memory Chips as Supply Squeeze Bites",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/tech/apple-tests-chinese-memory-chips-as-supply-squeeze-bites-d292bb97?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "How Wistron’s early Nvidia bet made it an unsung winner of the AI boom—and one of the biggest risers on this year’s Global 500",
-          "publisher": "Fortune",
-          "link": "https://finance.yahoo.com/technology/ai/articles/wistron-early-nvidia-bet-made-080000378.html"
-        },
-        {
-          "title": "Is NVIDIA (NVDA) One of the Best NASDAQ Stocks to Buy and Hold for 3 Years?",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-one-best-nasdaq-172352123.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "6285.TW",
@@ -4593,9 +4561,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.7002,
-      "change_pct": 1.52,
-      "volume": 27967,
+      "price": 4404.0,
+      "change_pct": 1.46,
+      "volume": 28245,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4571,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.70 觸及上軌 4334.29)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4404.00 觸及上軌 4333.41)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4587,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.7002,
-        "stop_loss": 4517.7002,
-        "take_profit": 4221.7002,
+        "entry_price": 4404.0,
+        "stop_loss": 4515.0,
+        "take_profit": 4219.0,
         "atr": 74.0,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4615,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.19,
-      "change_pct": 0.01,
-      "volume": 23584,
+      "price": 77.99,
+      "change_pct": -0.24,
+      "volume": 23835,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,11 +4637,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.15%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.17%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
+          "publisher": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-gains-wall-062649152.html"
+        },
         {
           "title": "Iran Tensions Highlight Defense Supply Gaps Poised to Lift 2 Stocks",
           "publisher": "Motley Fool",
@@ -4683,11 +4656,6 @@
           "title": "Oil prices rise as traders assess US-Iran talks on Strait of Hormuz deal",
           "publisher": "Euronews",
           "link": "https://www.euronews.com/2026/08/10/oil-prices-rise-as-traders-assess-us-iran-talks-on-strait-of-hormuz-deal"
-        },
-        {
-          "title": "Oil Prices Rise as Iran Hardens Hormuz Demands",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/energy/articles/oil-prices-rise-iran-hardens-053000723.html"
         }
       ]
     },
@@ -4695,16 +4663,16 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.19,
-      "change_pct": -0.05,
+      "price": 32.17,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "sell",
-      "confidence": 0.37,
+      "confidence": 0.36,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.61,
+          "confidence": 0.6,
           "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
@@ -4721,10 +4689,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.19,
-        "stop_loss": 32.4688,
-        "take_profit": 31.7254,
-        "atr": 0.1858,
+        "entry_price": 32.17,
+        "stop_loss": 32.4503,
+        "take_profit": 31.7029,
+        "atr": 0.1868,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4749,8 +4717,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.432,
-      "change_pct": 0.01,
+      "price": 158.411,
+      "change_pct": 0.0,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4759,7 +4727,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=28.5 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.4 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4775,9 +4743,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.432,
-        "stop_loss": 155.8419,
-        "take_profit": 162.7488,
+        "entry_price": 158.411,
+        "stop_loss": 155.8209,
+        "take_profit": 162.7278,
         "atr": 1.7267,
         "risk_reward_ratio": 1.67
       },
@@ -4803,9 +4771,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65108.6289,
-      "change_pct": 0.31,
-      "volume": 14662767616,
+      "price": 65141.8906,
+      "change_pct": 0.37,
+      "volume": 14668153856,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4851,9 +4819,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.1801,
-      "change_pct": 0.45,
-      "volume": 5895201280,
+      "price": 1924.35,
+      "change_pct": 0.46,
+      "volume": 5916812288,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
