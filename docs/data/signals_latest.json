@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:26:49.850380+00:00",
+  "generated_at": "2026-08-10T22:32:18.699451+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4391,9 +4391,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Why Eli Lilly Topped the Market Today",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-eli-lilly-topped-the-market-today/"
+          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4451.5,
-      "change_pct": 2.55,
-      "volume": 416,
+      "price": 4452.0,
+      "change_pct": 2.56,
+      "volume": 449,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=73.7 進入超買區); bollinger_band:sell(價格 4451.50 觸及上軌 4349.45)"
+          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4452.00 觸及上軌 4349.63)"
         },
         {
           "agent": "macro",
@@ -4619,10 +4619,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4451.5,
-        "stop_loss": 4566.7642,
-        "take_profit": 4259.3929,
-        "atr": 76.8428,
+        "entry_price": 4452.0,
+        "stop_loss": 4567.275,
+        "take_profit": 4259.8751,
+        "atr": 76.85,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.18,
-      "change_pct": 5.12,
-      "volume": 472,
+      "price": 82.11,
+      "change_pct": 5.03,
+      "volume": 644,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4685,9 +4685,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/10/stock-market-today-aug-10-markets-slip-as-oil-gains-fuel-inflation-fears/"
+          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.29,
+      "price": 159.293,
       "change_pct": 0.56,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63949.2305,
-      "change_pct": -1.38,
-      "volume": 22974607360,
+      "price": 63909.1211,
+      "change_pct": -1.44,
+      "volume": 22937559040,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,7 +4813,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.98%)"
+          "rationale": "波動度正常(ATR/價格=1.99%)"
         }
       ],
       "risk_levels": null,
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.65,
-      "change_pct": -1.78,
-      "volume": 9069646848,
+      "price": 1873.88,
+      "change_pct": -1.82,
+      "volume": 9112208384,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
