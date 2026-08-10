@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:37:45.538264+00:00",
+  "generated_at": "2026-08-10T22:43:13.879806+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4343,9 +4343,9 @@
           "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "JPMorgan Stock Rises as Bank Lifts S&P Target to 8,000",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stock-rises-bank-lifts-200203724.html"
+          "title": "Microsoft Stock Runs One Of The Market's Biggest Cash-Return Machines",
+          "publisher": "Trefis",
+          "link": "https://www.trefis.com/articles/610719/microsoft-stock-runs-one-of-the-markets-biggest-cash-return-machines/2026-08-10"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4451.3999,
+      "price": 4451.5,
       "change_pct": 2.55,
-      "volume": 550,
+      "volume": 621,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=73.7 進入超買區); bollinger_band:sell(價格 4451.40 觸及上軌 4349.42)"
+          "rationale": "rsi:sell(RSI=73.7 進入超買區); bollinger_band:sell(價格 4451.50 觸及上軌 4349.45)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4451.3999,
-        "stop_loss": 4566.6963,
-        "take_profit": 4259.2392,
+        "entry_price": 4451.5,
+        "stop_loss": 4566.7964,
+        "take_profit": 4259.3393,
         "atr": 76.8643,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.14,
-      "change_pct": 5.07,
-      "volume": 788,
+      "price": 82.12,
+      "change_pct": 5.04,
+      "volume": 854,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,7 +4695,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.228,
+      "price": 32.229,
       "change_pct": 0.07,
       "volume": 0,
       "signal": "hold",
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.27,
-      "change_pct": 0.54,
+      "price": 159.249,
+      "change_pct": 0.53,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63903.5117,
-      "change_pct": -1.45,
-      "volume": 22882725888,
+      "price": 63916.9883,
+      "change_pct": -1.43,
+      "volume": 22840262656,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1871.85,
-      "change_pct": -1.93,
-      "volume": 9091196928,
+      "price": 1872.27,
+      "change_pct": -1.91,
+      "volume": 9038693376,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
