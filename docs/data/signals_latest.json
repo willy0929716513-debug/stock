@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:45:15.893940+00:00",
+  "generated_at": "2026-08-10T10:50:36.640990+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4429,6 +4429,11 @@
       },
       "news": [
         {
+          "title": "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/elon-musk-plans-to-spend-119-billion-to-construct-the-worlds-largest-building-just-outside-houston/"
+        },
+        {
           "title": "War Is Helping Chinese EVs Upend the Global Car Market",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/business/autos/war-is-helping-chinese-evs-upend-the-global-car-market-b1b7ea57?siteid=yhoof2&yptr=yahoo"
@@ -4437,11 +4442,6 @@
           "title": "If You'd Invested $10,000 in Tesla a Decade Ago, Here's How Much You'd Have Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/10/if-youd-invested-10000-in-tesla-a-decade-ago/"
-        },
-        {
-          "title": "Tesla (TSLA) Rumors Swirl Over China Split Ahead Of Possible Merger",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-rumors-swirl-over-070951483.html"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4400.7002,
-      "change_pct": 1.38,
-      "volume": 46630,
+      "price": 4398.0,
+      "change_pct": 1.32,
+      "volume": 46871,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4400.70 觸及上軌 4332.34)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4398.00 觸及上軌 4331.46)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4400.7002,
-        "stop_loss": 4512.6645,
-        "take_profit": 4214.0931,
+        "entry_price": 4398.0,
+        "stop_loss": 4509.9643,
+        "take_profit": 4211.3929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.92,
-      "change_pct": 0.95,
-      "volume": 48240,
+      "price": 79.35,
+      "change_pct": 1.5,
+      "volume": 49413,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.06%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.218,
-      "change_pct": 0.03,
+      "price": 32.223,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.775,
-      "change_pct": 0.23,
+      "price": 158.753,
+      "change_pct": 0.22,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64948.4883,
-      "change_pct": 0.16,
-      "volume": 15341038592,
+      "price": 64984.4492,
+      "change_pct": 0.22,
+      "volume": 15365014528,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4824,14 +4824,14 @@
           "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030"
         },
         {
+          "title": "Bitcoin Miners Demand Ousting of OCEAN Leadership After BIP-110 Fork Disaster",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/bitcoin-miners-demand-ocean-leadership-firing-bip-110/"
+        },
+        {
           "title": "Why Is The Crypto Market Up Today?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/why-is-the-crypto-market-up-today/"
-        },
-        {
-          "title": "Bitcoin Stays Higher After Weak Jobs Data Dampen Rate-Rise Bets",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-081026/card/bitcoin-stays-higher-after-weak-jobs-data-dampen-rate-rise-bets-fbqWBXgkBuiAoCf7TOFJ?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.9,
-      "change_pct": 0.38,
-      "volume": 6186943488,
+      "price": 1916.4,
+      "change_pct": 0.4,
+      "volume": 6207391744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
