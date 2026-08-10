@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:53:02.187991+00:00",
+  "generated_at": "2026-08-10T15:58:25.992812+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -109,9 +109,9 @@
           "link": "https://finance.yahoo.com/technology/articles/sony-tsmc-plan-6-3-151451344.html"
         },
         {
-          "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
+          "title": "5 Dividend Growth Stocks to Buy as US Rate Hike Concerns Ease",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-dividend-growth-stocks-buy-144300270.html"
         }
       ]
     },
@@ -147,6 +147,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The Zacks Analyst Blog Highlights Apple, United Microelectronics, NTT and UBS",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-apple-145200606.html"
+        },
+        {
           "title": "This Beaten-Down Chip Stock Could Be One of the AI Sector's Biggest Comebacks",
           "publisher": "Barchart",
           "link": "https://www.barchart.com/story/news/3721937/this-beaten-down-chip-stock-could-be-one-of-the-ai-sector-s-biggest-comebacks"
@@ -155,11 +160,6 @@
           "title": "UMC or LSCC: Which Is the Better Value Stock Right Now?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/umc-lscc-better-value-stock-154003011.html"
-        },
-        {
-          "title": "United Microelectronics Q2 Earnings Call Highlights AI Expansion Plans",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/united-microelectronics-q2-earnings-call-174100073.html"
         }
       ]
     },
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.85,
-      "change_pct": -2.07,
-      "volume": 18868401,
+      "price": 307.18,
+      "change_pct": -1.96,
+      "volume": 19154958,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4283,9 +4283,9 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
-          "title": "Apple Stock Falls 2.2% as Jefferies Turns Bearish",
+          "title": "Apple Stock Falls on Downgrade -- Jefferies Warns of Major iPhone Setback",
           "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-falls-2-2-154630911.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-falls-downgrade-jefferies-155212368.html"
         }
       ]
     },
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 510.09,
-      "change_pct": 2.02,
-      "volume": 12407241,
+      "price": 510.47,
+      "change_pct": 2.1,
+      "volume": 12563515,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 510.09,
-        "stop_loss": 537.1699,
-        "take_profit": 464.9568,
+        "entry_price": 510.47,
+        "stop_loss": 537.5499,
+        "take_profit": 465.3368,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.315,
-      "change_pct": -2.07,
-      "volume": 43296500,
+      "price": 219.6,
+      "change_pct": -1.95,
+      "volume": 44179038,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 330.46,
-      "change_pct": 0.57,
-      "volume": 12640196,
+      "price": 331.03,
+      "change_pct": 0.75,
+      "volume": 12920754,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.34%)"
+          "rationale": "波動度正常(ATR/價格=4.33%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 353.795,
-      "change_pct": -0.14,
-      "volume": 8912607,
+      "price": 354.19,
+      "change_pct": -0.03,
+      "volume": 9059841,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4465,7 +4465,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.73%)"
+          "rationale": "波動度正常(ATR/價格=3.72%)"
         }
       ],
       "risk_levels": null,
@@ -4481,9 +4481,9 @@
           "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
         },
         {
-          "title": "Why The Trade Desk Was Sliding Again Today",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-the-trade-desk-was-sliding-again-today/"
+          "title": "Analyst Warns Alphabet (GOOG) Faces Two Major AI Problems; SpaceX (SPCX) a Better AI Bet?",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/analyst-warns-alphabet-goog-faces-154504509.html"
         }
       ]
     },
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 774.09,
-      "change_pct": 0.11,
-      "volume": 13599523,
+      "price": 774.3,
+      "change_pct": 0.13,
+      "volume": 13840954,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.91,
-      "change_pct": -0.02,
-      "volume": 12035325,
+      "price": 723.49,
+      "change_pct": 0.06,
+      "volume": 12344631,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4410.1001,
-      "change_pct": 1.6,
-      "volume": 84779,
+      "price": 4411.7998,
+      "change_pct": 1.64,
+      "volume": 85540,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.3 進入超買區); bollinger_band:sell(價格 4410.10 觸及上軌 4335.41)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4411.80 觸及上軌 4335.96)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4410.1001,
-        "stop_loss": 4522.0644,
-        "take_profit": 4223.493,
+        "entry_price": 4411.7998,
+        "stop_loss": 4523.7641,
+        "take_profit": 4225.1927,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 81.25,
-      "change_pct": 3.93,
-      "volume": 134375,
+      "price": 81.35,
+      "change_pct": 4.05,
+      "volume": 135811,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4679,9 +4679,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "2 Energy Dividend Stocks to Buy -- and the Risk Behind Each Payout",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/2-energy-dividend-stocks-to-buy-and-the-risk-behin/"
+          "title": "Stocks mostly flat with focus on US inflation",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-track-wall-st-030542135.html"
         }
       ]
     },
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.232,
-      "change_pct": 0.08,
+      "price": 32.244,
+      "change_pct": 0.12,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.909,
-      "change_pct": 0.32,
+      "price": 158.93,
+      "change_pct": 0.33,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64226.3789,
-      "change_pct": -0.95,
-      "volume": 18999318528,
+      "price": 64220.1211,
+      "change_pct": -0.96,
+      "volume": 19089324032,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1878.41,
-      "change_pct": -1.59,
-      "volume": 8065330688,
+      "price": 1875.01,
+      "change_pct": -1.76,
+      "volume": 8119135744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4855,7 +4855,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.60%)"
+          "rationale": "波動度正常(ATR/價格=2.61%)"
         }
       ],
       "risk_levels": null,
