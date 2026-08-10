@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:34:31.753854+00:00",
+  "generated_at": "2026-08-10T10:39:53.888013+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4278,14 +4278,14 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
+          "title": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/33818/apple-reportedly-tests-cxmt-memory-chips-as-ai-demand-tightens-global-supply"
+        },
+        {
           "title": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/micron-stock-price-apple-memory-chips-china-cxmt-74e95bbb?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-mixed-hormuz-uncertainty-weighs-why-aapl-tsm-mu-spcx-asts-sls-stocks-are-in-focus/cZojj8RRJaw"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.6001,
-      "change_pct": 1.43,
-      "volume": 46173,
+      "price": 4402.2002,
+      "change_pct": 1.42,
+      "volume": 46327,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.60 觸及上軌 4332.95)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.20 觸及上軌 4332.82)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.6001,
-        "stop_loss": 4514.5644,
-        "take_profit": 4215.993,
+        "entry_price": 4402.2002,
+        "stop_loss": 4514.1645,
+        "take_profit": 4215.5931,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.61,
-      "change_pct": 0.55,
-      "volume": 47373,
+      "price": 78.8,
+      "change_pct": 0.79,
+      "volume": 47784,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.12%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.788,
+      "price": 158.795,
       "change_pct": 0.24,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64973.8008,
-      "change_pct": 0.2,
-      "volume": 15410450432,
+      "price": 64964.5508,
+      "change_pct": 0.18,
+      "volume": 15407210496,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.72,
-      "change_pct": 0.42,
-      "volume": 6168496640,
+      "price": 1915.26,
+      "change_pct": 0.34,
+      "volume": 6176086528,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
