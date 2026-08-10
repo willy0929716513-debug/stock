@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:33:27.713731+00:00",
+  "generated_at": "2026-08-10T11:38:49.652403+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4327,11 +4327,6 @@
       },
       "news": [
         {
-          "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
-        },
-        {
           "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-big-tech-earnings-were-the-wow-moment-for-ai-monetization-it-s-all-starting-to-come-together/cZojVIGRJa6"
@@ -4340,6 +4335,11 @@
           "title": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-strategists-raise-p-500-092820794.html"
+        },
+        {
+          "title": "Why Is TSM Stock Rising Premarket?",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-premarket/cZojkOXRJaU"
         }
       ]
     },
@@ -4380,9 +4380,9 @@
           "link": "https://finance.yahoo.com/markets/article/how-ai-agents-can-power-the-sp-500-higher-123000201.html"
         },
         {
-          "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
+          "title": "Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/peter-becks-rocket-lab-fell-30-in-a-month-while-re/"
         },
         {
           "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4391.6001,
-      "change_pct": 1.17,
-      "volume": 49966,
+      "price": 4393.2002,
+      "change_pct": 1.21,
+      "volume": 50364,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.6 進入超買區); bollinger_band:sell(價格 4391.60 觸及上軌 4329.41)"
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4393.20 觸及上軌 4329.92)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4391.6001,
-        "stop_loss": 4503.5644,
-        "take_profit": 4204.993,
+        "entry_price": 4393.2002,
+        "stop_loss": 4505.1645,
+        "take_profit": 4206.5931,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.17,
-      "change_pct": 1.27,
-      "volume": 55111,
+      "price": 79.08,
+      "change_pct": 1.15,
+      "volume": 55525,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4680,14 +4680,14 @@
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html"
         },
         {
+          "title": "S&P 500, Nasdaq futures inch up as markets monitor Hormuz situation",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html"
+        },
+        {
           "title": "S&P 500 hits record high as Iran nuclear deal stalls",
           "publisher": "Quartz",
           "link": "https://qz.com/sp500-record-high-iran-deal-stalled-081026"
-        },
-        {
-          "title": "Earnings Season, Persian Gulf Lull, Lift Wall Street Pre-Bell; Asia, Europe Up",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-season-persian-gulf-lull-111543856.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.23,
-      "change_pct": 0.07,
+      "price": 32.224,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.802,
+      "price": 158.809,
       "change_pct": 0.25,
       "volume": 0,
       "signal": "hold",
@@ -4771,6 +4771,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Japan's Growth Minister on Proactive Fiscal Policy, Yen",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/video/japans-growth-minister-proactive-fiscal-110544465.html"
+        },
+        {
           "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
@@ -4779,11 +4784,6 @@
           "title": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/currencies/articles/japans-executives-call-fx-stability-010441771.html"
-        },
-        {
-          "title": "BOJ's debate on faster hikes bolsters September rate move odds",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/economy/policy/articles/bojs-debate-faster-hikes-bolsters-025746387.html"
         }
       ]
     },
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65020.9805,
-      "change_pct": 0.27,
-      "volume": 15540987904,
+      "price": 65025.1094,
+      "change_pct": 0.28,
+      "volume": 15479437312,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1917.9,
-      "change_pct": 0.48,
-      "volume": 6244197376,
+      "price": 1917.48,
+      "change_pct": 0.46,
+      "volume": 6242443776,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
