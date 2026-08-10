@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:26:33.946032+00:00",
+  "generated_at": "2026-08-10T21:32:03.674696+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -104,14 +104,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/chip-equipment-stocks-rise-after-taiwan-semiconductor-revenue-surges-45-133813616.html"
         },
         {
+          "title": "Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/applied-materials-amat-gets-demand-210941837.html"
+        },
+        {
           "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "The ETFs Most Exposed to the 2026 Chip Supply Chain Crisis — Winners and Losers",
-          "publisher": "etf.com",
-          "link": "http://www.etf.com/sections/news/etfs-most-exposed-2026-chip-supply-chain-crisis-winners-and-losers?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
         }
       ]
     },
@@ -4391,9 +4391,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Nvidia Confirms Huge AI Funding Deal. These Financial Stocks Jump.",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/financial-stocks-jump-nvidia-ai-funding-deal/?src=A00220&yptr=yahoo"
+          "title": "Nvidia Makes Massive Move to Fund AI Buildout",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-massive-move-fund-212735051.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.235,
-      "change_pct": 0.09,
+      "price": 32.239,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.195,
-      "change_pct": 0.5,
+      "price": 159.225,
+      "change_pct": 0.52,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64019.4102,
-      "change_pct": -1.27,
-      "volume": 23592028160,
+      "price": 64058.6992,
+      "change_pct": -1.21,
+      "volume": 23557130240,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4829,9 +4829,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "XRP Price Prediction: What Will 1,000 XRP Be Worth in 2030?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/xrp-price-prediction-what-will-1000-xrp-be-worth-in-2030/"
+          "title": "Crypto investor found dead outside his apartment",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/crypto-investor-found-dead-outside-his-apartment"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.75,
-      "change_pct": -1.88,
-      "volume": 9183421440,
+      "price": 1875.08,
+      "change_pct": -1.76,
+      "volume": 9278951424,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
