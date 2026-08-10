@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:43:02.064884+00:00",
+  "generated_at": "2026-08-10T21:48:31.732286+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4439,9 +4439,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/tesla-in-the-spotlight-as-nfls-49ers-head-coach-says-autopilot-may-have-been-engaged-during-accident-160422251.html"
         },
         {
-          "title": "Retail traders just drew a line under Tesla’s sell-off",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/automotive/retail-traders-just-drew-a-line-under-teslas-sell-off"
+          "title": "The Robot ETF Actually Exists Now: Tesla, Hyundai, and the Companies Building the Joints",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/the-robot-etf-actually-exists-now-tesla-hyundai-and-the-companies-building-the-joints/"
         }
       ]
     },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html"
         },
         {
+          "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/10/stock-market-today-aug-10-markets-slip-as-oil-gains-fuel-inflation-fears/"
+        },
+        {
           "title": "Why Did a $330 Million Gold Token Suddenly Jump 110% on CoinGecko?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/kinesis-gold-kau-110-percent-coingecko-price-glitch/"
-        },
-        {
-          "title": "New York State Police warn of investment scam draining Americans' savings",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/markets/new-york-state-police-warn-of-investment-scam-draining-americans-savings"
         }
       ]
     },
@@ -4685,9 +4685,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
+          "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/10/stock-market-today-aug-10-markets-slip-as-oil-gains-fuel-inflation-fears/"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.235,
-      "change_pct": 0.09,
+      "price": 32.238,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.237,
+      "price": 159.228,
       "change_pct": 0.52,
       "volume": 0,
       "signal": "hold",
@@ -4776,14 +4776,14 @@
           "link": "https://finance.yahoo.com/markets/articles/trading-day-strait-talking-210110732.html"
         },
         {
+          "title": "Bessent’s Whatever-It-Takes Yen Pledge Masks Limited Firepower",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/bessent-whatever-takes-yen-pledge-202958898.html"
+        },
+        {
           "title": "Treasury Yields Rise as Middle East Tensions, Inflation Fears Increase",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/jgbs-edge-lower-amid-potentially-quicker-pace-of-boj-rate-hikes-d17b52c8?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Dollar gains, yen weakens as markets eye US CPI",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html"
         }
       ]
     },
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63975.2617,
-      "change_pct": -1.34,
-      "volume": 23458732032,
+      "price": 63919.1914,
+      "change_pct": -1.43,
+      "volume": 23366367232,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,7 +4813,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.98%)"
+          "rationale": "波動度正常(ATR/價格=1.99%)"
         }
       ],
       "risk_levels": null,
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.1899,
-      "change_pct": -1.81,
-      "volume": 9279668224,
+      "price": 1872.8,
+      "change_pct": -1.88,
+      "volume": 9263493120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
