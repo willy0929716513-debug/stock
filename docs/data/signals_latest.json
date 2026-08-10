@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:44:01.082614+00:00",
+  "generated_at": "2026-08-10T06:49:23.961592+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Tech giants TSMC and Sony to invest billions in advanced chip sensor plant",
+          "publisher": "Euronews",
+          "link": "https://www.euronews.com/2026/08/10/tech-giants-tsmc-and-sony-to-invest-billions-in-advanced-chip-sensor-plant"
+        },
+        {
           "title": "Emerging-Market Stocks, Currencies Gain After Soft US Jobs Data",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/currencies/articles/emerging-market-stocks-currencies-gain-042549202.html"
@@ -107,11 +112,6 @@
           "title": "Sony, TSMC to spend $6.3 billion to jointly make image sensors, Nikkei says",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/technology/articles/sony-tsmc-spend-6-3-031506727.html"
-        },
-        {
-          "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/a-10000-investment-in-taiwan-semiconductor-today/"
         }
       ]
     },
@@ -4477,6 +4477,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-cites-data-point-053551712.html"
+        },
+        {
           "title": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/apple-s-foldable-phone-whoop-like-band-cxmt-memory-tests-buzz-keep-traders-hooked/cZojgdmRJap"
@@ -4485,11 +4490,6 @@
           "title": "Starlink 'Unbelievable Juggernaut Cash Machine,' Says VC David Friedberg; SpaceX CEO Elon Musk Responds With $1 Trillion+ Annual Revenue Projection",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/stocks/articles/starlink-unbelievable-juggernaut-cash-machine-031007704.html"
-        },
-        {
-          "title": "Why Is Berkshire Hathaway (BRK.B) Deploying Cash More Aggressively Under Greg Abel?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-berkshire-hathaway-brk-b-011435429.html"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.5,
-      "change_pct": 1.54,
-      "volume": 28972,
+      "price": 4405.3999,
+      "change_pct": 1.49,
+      "volume": 29570,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.50 觸及上軌 4334.55)"
+          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4405.40 觸及上軌 4333.87)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.5,
-        "stop_loss": 4518.5,
-        "take_profit": 4222.5,
+        "entry_price": 4405.3999,
+        "stop_loss": 4516.3999,
+        "take_profit": 4220.3999,
         "atr": 74.0,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 77.97,
-      "change_pct": -0.27,
-      "volume": 24170,
+      "price": 77.87,
+      "change_pct": -0.4,
+      "volume": 24467,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.17%),建議降低部位或觀望"
+          "confidence": 0.24,
+          "rationale": "波動度過高(ATR/價格=6.18%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.176,
-      "change_pct": -0.1,
+      "price": 32.187,
+      "change_pct": -0.06,
       "volume": 0,
       "signal": "sell",
       "confidence": 0.37,
@@ -4721,9 +4721,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.176,
-        "stop_loss": 32.4563,
-        "take_profit": 31.7089,
+        "entry_price": 32.187,
+        "stop_loss": 32.4673,
+        "take_profit": 31.7199,
         "atr": 0.1868,
         "risk_reward_ratio": 1.67
       },
@@ -4749,8 +4749,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.411,
-      "change_pct": 0.0,
+      "price": 158.355,
+      "change_pct": -0.03,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4759,7 +4759,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=28.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4775,9 +4775,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.411,
-        "stop_loss": 155.8209,
-        "take_profit": 162.7278,
+        "entry_price": 158.355,
+        "stop_loss": 155.7649,
+        "take_profit": 162.6718,
         "atr": 1.7267,
         "risk_reward_ratio": 1.67
       },
@@ -4803,9 +4803,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65163.0312,
-      "change_pct": 0.4,
-      "volume": 14688225280,
+      "price": 65192.5703,
+      "change_pct": 0.44,
+      "volume": 14749436928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4851,9 +4851,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1924.5,
-      "change_pct": 0.47,
-      "volume": 5935598592,
+      "price": 1925.7,
+      "change_pct": 0.53,
+      "volume": 5956703744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
