@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:53:59.870943+00:00",
+  "generated_at": "2026-08-10T21:59:28.086791+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4391,9 +4391,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "CoreWeave Investors Face a Growing Problem",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-investors-face-growing-problem-213847404.html"
+          "title": "Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/airbnb-is-starting-to-think-like-amazons-jeff-bezo/"
         }
       ]
     },
@@ -4487,9 +4487,9 @@
           "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
         },
         {
-          "title": "BRKB Stock: Investors Are Starting To Look Past Warren Buffett",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/brkb-stock-rises-berkshire-hathaway-investors-looking-past-warren-buffett/?src=A00220&yptr=yahoo"
+          "title": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/10/same-100-stocks-different-price-why-qqq-costs-180-annually-while-qqqm-charges-150/"
         }
       ]
     },
@@ -4573,6 +4573,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/etf/2026/08/10/same-100-stocks-different-price-why-qqq-costs-180-annually-while-qqqm-charges-150/"
+        },
+        {
           "title": "Semiconductor ETFs See Profit-Taking as Investors Pile Into QQQ",
           "publisher": "etf.com",
           "link": "http://www.etf.com/sections/weekly-etf-flows/semiconductor-etfs-see-profit-taking-investors-pile-qqq?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss"
@@ -4581,11 +4586,6 @@
           "title": "Growth Is Flat in 2026. Vanguard’s Deep-Value Fund Is Up 22%, and Almost Nobody Owns It",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/10/growth-is-flat-in-2026-vanguards-deep-value-fund-is-up-22-and-almost-nobody-owns-it/"
-        },
-        {
-          "title": "Trade Desk (TTD) Stock Is Falling Today: What’s Behind the Drop, and Are Its Peers Moving Too?",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/trade-desk-ttd-stock-is-falling-today-whats-behind-the-drop-and-are-its-peers-moving-too/"
         }
       ]
     },
@@ -4717,7 +4717,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=0.58%)"
+          "rationale": "波動度正常(ATR/價格=0.56%)"
         }
       ],
       "risk_levels": null,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.221,
+      "price": 159.214,
       "change_pct": 0.51,
       "volume": 0,
       "signal": "hold",
@@ -4765,7 +4765,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.13%)"
+          "rationale": "波動度正常(ATR/價格=1.08%)"
         }
       ],
       "risk_levels": null,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63926.5586,
-      "change_pct": -1.42,
-      "volume": 23244707840,
+      "price": 63934.4102,
+      "change_pct": -1.4,
+      "volume": 23393927168,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4829,9 +4829,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "Crypto investor found dead outside his apartment",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/crypto/markets/crypto-investor-found-dead-outside-his-apartment"
+          "title": "Why Keel Infrastructure Stock Dived by Over 12% Today",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/why-keel-infrastructure-stock-dived-by-over-12-tod/"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.8199,
-      "change_pct": -1.88,
-      "volume": 9198589952,
+      "price": 1873.3,
+      "change_pct": -1.85,
+      "volume": 9268085760,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
