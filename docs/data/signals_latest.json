@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:03:24.771545+00:00",
+  "generated_at": "2026-08-10T09:08:47.181697+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4273,6 +4273,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/micron-stock-price-apple-memory-chips-china-cxmt-74e95bbb?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-mixed-hormuz-uncertainty-weighs-why-aapl-tsm-mu-spcx-asts-sls-stocks-are-in-focus/cZojj8RRJaw"
@@ -4281,11 +4286,6 @@
           "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/technology/articles/market-chatter-apple-testing-cxmt-081857078.html"
-        },
-        {
-          "title": "Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/ai/articles/apple-tests-chinas-cxmt-memory-071536599.html"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.0,
-      "change_pct": 1.5,
-      "volume": 39149,
+      "price": 4407.2998,
+      "change_pct": 1.53,
+      "volume": 40039,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.00 觸及上軌 4334.06)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.30 觸及上軌 4334.49)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.0,
-        "stop_loss": 4517.9643,
-        "take_profit": 4219.3929,
+        "entry_price": 4407.2998,
+        "stop_loss": 4519.2641,
+        "take_profit": 4220.6927,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
+          "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-081026/card/gold-holds-above-4-400-ahead-of-u-s-inflation-data-4FtdN1zTz6R0xpsPJItE?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "ImmuPharma, ValiRx, Tertiary Minerals, Caledonia Mining, Sintana Energy - Small Cap Snapshot",
           "publisher": "Proactive",
           "link": "https://finance.yahoo.com/video/immupharma-valirx-tertiary-minerals-caledonia-075214482.html"
-        },
-        {
-          "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/commodities-futures/gold-flat-focus-on-u-s-july-payrolls-7759613a?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.19,
-      "change_pct": 1.29,
-      "volume": 39637,
+      "price": 79.21,
+      "change_pct": 1.32,
+      "volume": 40504,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.227,
-      "change_pct": 0.06,
+      "price": 32.235,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.697,
+      "price": 158.696,
       "change_pct": 0.18,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65137.1602,
-      "change_pct": 0.45,
-      "volume": 14862523392,
+      "price": 65146.2812,
+      "change_pct": 0.46,
+      "volume": 14951934976,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4819,6 +4819,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Bitcoin Stays Higher After Weak Jobs Data Dampen Rate-Rise Bets",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-081026/card/bitcoin-stays-higher-after-weak-jobs-data-dampen-rate-rise-bets-fbqWBXgkBuiAoCf7TOFJ?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Trump Says 'Crypto Is a Big Deal, People Are Paying With Bitcoin'",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/crypto/articles/trump-says-crypto-big-deal-213203439.html"
@@ -4827,11 +4832,6 @@
           "title": "Is IREN (IREN) Expensive On Its AI Cloud Pivot Or Still Worth A Look?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-expensive-ai-cloud-210908714.html"
-        },
-        {
-          "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.72,
-      "change_pct": 0.79,
-      "volume": 5989284352,
+      "price": 1924.59,
+      "change_pct": 0.83,
+      "volume": 6040784384,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
