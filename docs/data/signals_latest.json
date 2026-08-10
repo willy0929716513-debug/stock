@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:17:10.269262+00:00",
+  "generated_at": "2026-08-10T06:22:32.453494+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4405.1001,
-      "change_pct": 1.48,
-      "volume": 27468,
+      "price": 4408.2002,
+      "change_pct": 1.56,
+      "volume": 27689,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4405.10 觸及上軌 4333.77)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4408.20 觸及上軌 4334.78)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4405.1001,
-        "stop_loss": 4516.1001,
-        "take_profit": 4220.1001,
+        "entry_price": 4408.2002,
+        "stop_loss": 4519.2002,
+        "take_profit": 4223.2002,
         "atr": 74.0,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.21,
-      "change_pct": 0.04,
-      "volume": 22960,
+      "price": 78.12,
+      "change_pct": -0.08,
+      "volume": 23350,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.15%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.16%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4685,9 +4685,9 @@
           "link": "https://www.euronews.com/2026/08/10/oil-prices-rise-as-traders-assess-us-iran-talks-on-strait-of-hormuz-deal"
         },
         {
-          "title": "Asia stocks firm; oil edges up on Gulf morass",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/asia-stocks-edge-higher-oil-002532883.html"
+          "title": "Oil Prices Rise as Iran Hardens Hormuz Demands",
+          "publisher": "Oilprice.com",
+          "link": "https://finance.yahoo.com/energy/articles/oil-prices-rise-iran-hardens-053000723.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.196,
-      "change_pct": -0.03,
+      "price": 32.195,
+      "change_pct": -0.04,
       "volume": 0,
       "signal": "sell",
       "confidence": 0.37,
@@ -4721,9 +4721,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.196,
-        "stop_loss": 32.4748,
-        "take_profit": 31.7314,
+        "entry_price": 32.195,
+        "stop_loss": 32.4738,
+        "take_profit": 31.7304,
         "atr": 0.1858,
         "risk_reward_ratio": 1.67
       },
@@ -4749,7 +4749,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.403,
+      "price": 158.407,
       "change_pct": -0.0,
       "volume": 0,
       "signal": "buy",
@@ -4775,9 +4775,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.403,
-        "stop_loss": 155.8129,
-        "take_profit": 162.7198,
+        "entry_price": 158.407,
+        "stop_loss": 155.8169,
+        "take_profit": 162.7238,
         "atr": 1.7267,
         "risk_reward_ratio": 1.67
       },
@@ -4803,9 +4803,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65140.8008,
+      "price": 65138.2812,
       "change_pct": 0.36,
-      "volume": 14583276544,
+      "volume": 14624657408,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4851,9 +4851,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1923.71,
-      "change_pct": 0.43,
-      "volume": 5841117184,
+      "price": 1925.5,
+      "change_pct": 0.52,
+      "volume": 5855500288,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4873,7 +4873,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.65%)"
+          "rationale": "波動度正常(ATR/價格=2.66%)"
         }
       ],
       "risk_levels": null,
