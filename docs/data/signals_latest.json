@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:46:17.987857+00:00",
+  "generated_at": "2026-08-10T09:51:39.456752+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
+          "title": "I've Been Writing About Procter & Gamble Stock for Years. Here's Why My Conviction Has Never Been Higher.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/warren-buffett-abel-buy-45-billion-favorite-stock/"
+          "link": "https://www.fool.com/investing/2026/08/10/ive-been-writing-about-proctor-stock-for-years-h/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.7002,
-      "change_pct": 1.43,
-      "volume": 43309,
+      "price": 4402.5,
+      "change_pct": 1.42,
+      "volume": 44129,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.70 觸及上軌 4332.99)"
+          "rationale": "rsi:sell(RSI=72.0 進入超買區); bollinger_band:sell(價格 4402.50 觸及上軌 4332.92)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.7002,
-        "stop_loss": 4514.6645,
-        "take_profit": 4216.0931,
+        "entry_price": 4402.5,
+        "stop_loss": 4514.4643,
+        "take_profit": 4215.8929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.86,
-      "change_pct": 0.87,
-      "volume": 44157,
+      "price": 78.95,
+      "change_pct": 0.98,
+      "volume": 44494,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.223,
-      "change_pct": 0.05,
+      "price": 32.229,
+      "change_pct": 0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.789,
-      "change_pct": 0.24,
+      "price": 158.812,
+      "change_pct": 0.25,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64975.0117,
-      "change_pct": 0.2,
-      "volume": 15068853248,
+      "price": 64913.6602,
+      "change_pct": 0.11,
+      "volume": 15120910336,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.11,
-      "change_pct": 0.39,
-      "volume": 6019263488,
+      "price": 1915.86,
+      "change_pct": 0.38,
+      "volume": 6109798912,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
