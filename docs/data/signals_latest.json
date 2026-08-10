@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:52:41.817383+00:00",
+  "generated_at": "2026-08-10T08:58:03.186442+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-mixed-hormuz-uncertainty-weighs-why-aapl-tsm-mu-spcx-asts-sls-stocks-are-in-focus/cZojj8RRJaw"
+        },
+        {
           "title": "Tech giants TSMC and Sony to invest billions in advanced chip sensor plant",
           "publisher": "Euronews",
           "link": "https://www.euronews.com/2026/08/10/tech-giants-tsmc-and-sony-to-invest-billions-in-advanced-chip-sensor-plant"
@@ -107,11 +112,6 @@
           "title": "Emerging-Market Stocks, Currencies Gain After Soft US Jobs Data",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/currencies/articles/emerging-market-stocks-currencies-gain-042549202.html"
-        },
-        {
-          "title": "Sony, TSMC to spend $6.3 billion to jointly make image sensors, Nikkei says",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/technology/articles/sony-tsmc-spend-6-3-031506727.html"
         }
       ]
     },
@@ -4273,6 +4273,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-dow-futures-mixed-hormuz-uncertainty-weighs-why-aapl-tsm-mu-spcx-asts-sls-stocks-are-in-focus/cZojj8RRJaw"
+        },
+        {
           "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/technology/articles/market-chatter-apple-testing-cxmt-081857078.html"
@@ -4281,11 +4286,6 @@
           "title": "Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-tests-chinas-cxmt-memory-071536599.html"
-        },
-        {
-          "title": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/apple-s-foldable-phone-whoop-like-band-cxmt-memory-tests-buzz-keep-traders-hooked/cZojgdmRJap"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4405.3999,
-      "change_pct": 1.49,
-      "volume": 38126,
+      "price": 4407.6001,
+      "change_pct": 1.54,
+      "volume": 38486,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4405.40 觸及上軌 4333.87)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.60 觸及上軌 4334.58)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4405.3999,
-        "stop_loss": 4517.3642,
-        "take_profit": 4218.7928,
+        "entry_price": 4407.6001,
+        "stop_loss": 4519.5644,
+        "take_profit": 4220.993,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.02,
-      "change_pct": 1.07,
-      "volume": 37755,
+      "price": 79.0,
+      "change_pct": 1.05,
+      "volume": 38583,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.225,
-      "change_pct": 0.06,
+      "price": 32.24,
+      "change_pct": 0.1,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,17 +4743,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.621,
-      "change_pct": 0.13,
+      "price": 158.67,
+      "change_pct": 0.16,
       "volume": 0,
-      "signal": "buy",
-      "confidence": 0.29,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=29.9 進入超賣區)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4768,13 +4768,7 @@
           "rationale": "波動度正常(ATR/價格=1.10%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 158.621,
-        "stop_loss": 156.011,
-        "take_profit": 162.971,
-        "atr": 1.74,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Dollar steadies after payrolls drop, inflation data eyed",
@@ -4797,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65204.9883,
+      "price": 65206.5508,
       "change_pct": 0.56,
-      "volume": 14881896448,
+      "volume": 14877632512,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1925.48,
+      "price": 1925.5699,
       "change_pct": 0.88,
-      "volume": 6007237120,
+      "volume": 5988965376,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
