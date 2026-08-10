@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:11:06.353156+00:00",
+  "generated_at": "2026-08-10T01:16:33.652517+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4319,9 +4319,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Mark Cuban Compared Nvidia to a Dot-Com-Era IPO Machine \"Funding Everyone and Anyone.\" Here's What That Means for AI Stocks.",
+          "title": "Exxon Handed Shareholders $9.4 Billion in One Quarter. Here's What It Earned to Cover It.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/mark-cuban-compared-nvidia-to-a-dot-com-era-ipo-ma/"
+          "link": "https://www.fool.com/investing/2026/08/09/exxon-handed-shareholders-94-billion-in-one-quarte/"
         }
       ]
     },
@@ -4527,9 +4527,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4390.7002,
-      "change_pct": 1.15,
-      "volume": 6264,
+      "price": 4382.2002,
+      "change_pct": 0.96,
+      "volume": 7765,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4537,7 +4537,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.6 進入超買區); bollinger_band:sell(價格 4390.70 觸及上軌 4329.13)"
+          "rationale": "rsi:sell(RSI=71.3 進入超買區); bollinger_band:sell(價格 4382.20 觸及上軌 4326.44)"
         },
         {
           "agent": "macro",
@@ -4549,13 +4549,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.68%)"
+          "rationale": "波動度正常(ATR/價格=1.69%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4390.7002,
-        "stop_loss": 4501.593,
-        "take_profit": 4205.8788,
+        "entry_price": 4382.2002,
+        "stop_loss": 4493.093,
+        "take_profit": 4197.3788,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4566,14 +4566,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
-          "title": "Gold Royalty Q2 Earnings Call Highlights",
+          "title": "OceanaGold Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/gold-royalty-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "link": "https://www.marketbeat.com/instant-alerts/oceanagold-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
         },
         {
-          "title": "Equinox Gold Q2 Earnings Call Highlights",
+          "title": "Lundin Mining Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/equinox-gold-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "link": "https://www.marketbeat.com/instant-alerts/lundin-mining-q2-earnings-call-highlights-2026-08-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4581,9 +4581,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.28,
-      "change_pct": 0.13,
-      "volume": 12281,
+      "price": 78.79,
+      "change_pct": 0.78,
+      "volume": 13097,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4602,8 +4602,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4629,8 +4629,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.252,
-      "change_pct": 0.14,
+      "price": 32.255,
+      "change_pct": 0.15,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4677,8 +4677,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.042,
-      "change_pct": -0.23,
+      "price": 158.029,
+      "change_pct": -0.24,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4703,9 +4703,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.042,
-        "stop_loss": 155.4571,
-        "take_profit": 162.3502,
+        "entry_price": 158.029,
+        "stop_loss": 155.4441,
+        "take_profit": 162.3372,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4731,9 +4731,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64975.0312,
-      "change_pct": 0.11,
-      "volume": 13726983168,
+      "price": 64984.4805,
+      "change_pct": 0.12,
+      "volume": 13736165376,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4779,9 +4779,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.62,
-      "change_pct": -0.1,
-      "volume": 4930447872,
+      "price": 1914.9,
+      "change_pct": -0.03,
+      "volume": 4966248960,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
