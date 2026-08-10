@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:05:29.006748+00:00",
+  "generated_at": "2026-08-10T07:10:50.163331+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4417.3999,
-      "change_pct": 1.77,
-      "volume": 30969,
+      "price": 4417.0,
+      "change_pct": 1.76,
+      "volume": 31401,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=72.6 進入超買區); bollinger_band:sell(價格 4417.40 觸及上軌 4337.82)"
+          "rationale": "rsi:sell(RSI=72.6 進入超買區); bollinger_band:sell(價格 4417.00 觸及上軌 4337.69)"
         },
         {
           "agent": "macro",
@@ -4615,14 +4615,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.68%)"
+          "rationale": "波動度正常(ATR/價格=1.69%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4417.3999,
-        "stop_loss": 4528.9892,
-        "take_profit": 4231.4178,
-        "atr": 74.3928,
+        "entry_price": 4417.0,
+        "stop_loss": 4528.75,
+        "take_profit": 4230.75,
+        "atr": 74.5,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.18,
-      "change_pct": 0.0,
-      "volume": 25299,
+      "price": 78.08,
+      "change_pct": -0.13,
+      "volume": 25874,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,11 +4669,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.15%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.16%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Oil steady as Iran tempers hopes for swift Hormuz reopening",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-rises-uncertainty-over-reopening-005834869.html"
+        },
         {
           "title": "BKV Q2 Deep Dive: Power, Upstream, and Carbon Capture Drive Integrated Growth",
           "publisher": "StockStory",
@@ -4683,11 +4688,6 @@
           "title": "Asian shares are mixed after gains on Wall Street, while oil prices climb",
           "publisher": "Associated Press",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-gains-wall-062649152.html"
-        },
-        {
-          "title": "Iran Tensions Highlight Defense Supply Gaps Poised to Lift 2 Stocks",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/iran-tensions-highlight-defense-supply-gaps-poised/"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.202,
-      "change_pct": -0.01,
+      "price": 32.215,
+      "change_pct": 0.03,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.44,
+      "price": 158.442,
       "change_pct": 0.02,
       "volume": 0,
       "signal": "buy",
@@ -4769,10 +4769,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.44,
-        "stop_loss": 155.8499,
-        "take_profit": 162.7568,
-        "atr": 1.7267,
+        "entry_price": 158.442,
+        "stop_loss": 155.8514,
+        "take_profit": 162.7597,
+        "atr": 1.7271,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65230.0117,
-      "change_pct": 0.59,
-      "volume": 14697325568,
+      "price": 65224.1406,
+      "change_pct": 0.58,
+      "volume": 14717496320,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1925.3199,
+      "price": 1925.3,
       "change_pct": 0.87,
-      "volume": 5931810304,
+      "volume": 5909835264,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
