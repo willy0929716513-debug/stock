@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:54:19.893379+00:00",
+  "generated_at": "2026-08-10T23:59:51.367727+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Prediction: $1,000 in Uranium Energy Corp Will Be Worth This Much in 5 Years",
+          "title": "Is Nvidia Stock Still a Good Buy at $220?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/prediction-1000-in-uranium-energy-corp-will-be-wor/"
+          "link": "https://www.fool.com/investing/2026/08/10/is-nvidia-stock-still-a-good-buy-at-220/"
         }
       ]
     },
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4458.5,
-      "change_pct": 2.71,
-      "volume": 3338,
+      "price": 4457.3999,
+      "change_pct": 2.69,
+      "volume": 3454,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4458.50 觸及上軌 4351.91)"
+          "rationale": "rsi:sell(RSI=73.9 進入超買區); bollinger_band:sell(價格 4457.40 觸及上軌 4351.52)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4458.5,
-        "stop_loss": 4574.7607,
-        "take_profit": 4264.7322,
+        "entry_price": 4457.3999,
+        "stop_loss": 4573.6606,
+        "take_profit": 4263.6321,
         "atr": 77.5071,
         "risk_reward_ratio": 1.67
       },
@@ -4643,7 +4643,7 @@
       "category": "commodity",
       "price": 82.12,
       "change_pct": 5.04,
-      "volume": 1522,
+      "volume": 1599,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.21,
-      "change_pct": 0.84,
+      "price": 159.146,
+      "change_pct": 0.79,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63920.0,
-      "change_pct": -1.43,
-      "volume": 22279798784,
+      "price": 63911.8711,
+      "change_pct": -1.44,
+      "volume": 22303039488,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.13,
-      "change_pct": -1.92,
-      "volume": 8810658816,
+      "price": 1871.22,
+      "change_pct": -1.96,
+      "volume": 8787003392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4872,14 +4872,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
+          "title": "Solana's stablecoin supply has grown 11x in three years",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/solanas-stablecoin-supply-has-grown-11x-in-three-years"
+        },
+        {
           "title": "Sharplink Inc (SBET) (Q2 2026) Earnings Call Highlights: Ethereum Treasury Strategy Drives ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/crypto/articles/sharplink-inc-sbet-q2-2026-210058805.html"
-        },
-        {
-          "title": "XRP Price Weakens as Crypto Market Awaits Clarity",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375214/xrp-price-weakens-crypto-market-awaits-clarity"
         }
       ]
     }
