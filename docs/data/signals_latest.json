@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:25:52.418084+00:00",
+  "generated_at": "2026-08-10T08:31:14.240185+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4273,6 +4273,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/technology/articles/market-chatter-apple-testing-cxmt-081857078.html"
+        },
+        {
           "title": "Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/technology/ai/articles/apple-tests-chinas-cxmt-memory-071536599.html"
@@ -4281,11 +4286,6 @@
           "title": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/apple-s-foldable-phone-whoop-like-band-cxmt-memory-tests-buzz-keep-traders-hooked/cZojgdmRJap"
-        },
-        {
-          "title": "Apple CEO Tim Cook Just Passed His Successor a Mess",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/09/apple-ceo-tim-cook-just-passed-his-successor-a-mes/"
         }
       ]
     },
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Why Is Disney So Much Cheaper Than Netflix? This Is the Only Answer I Can Think Of.",
+          "title": "1 Incredible Reason to Buy Walmart (WMT) Stock Before It Reports Earnings on Aug. 20 -- and 1 Reason Not To",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-is-disney-so-much-cheaper-than-netflix-this-is/"
+          "link": "https://www.fool.com/investing/2026/08/10/1-incredible-reason-to-buy-walmart-wmt-stock-befor/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4413.3999,
+      "price": 4413.2998,
       "change_pct": 1.67,
-      "volume": 36573,
+      "volume": 36685,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4413.40 觸及上軌 4336.49)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4413.30 觸及上軌 4336.46)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4413.3999,
-        "stop_loss": 4525.3642,
-        "take_profit": 4226.7928,
+        "entry_price": 4413.2998,
+        "stop_loss": 4525.2641,
+        "take_profit": 4226.6927,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.32,
-      "change_pct": 0.18,
-      "volume": 33117,
+      "price": 78.38,
+      "change_pct": 0.26,
+      "volume": 33835,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.213,
-      "change_pct": 0.02,
+      "price": 32.211,
+      "change_pct": 0.01,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.488,
+      "price": 158.494,
       "change_pct": 0.05,
       "volume": 0,
       "signal": "buy",
@@ -4752,7 +4752,7 @@
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.48,
+          "confidence": 0.49,
           "rationale": "rsi:buy(RSI=29.0 進入超賣區)"
         },
         {
@@ -4769,9 +4769,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.488,
-        "stop_loss": 155.8909,
-        "take_profit": 162.8166,
+        "entry_price": 158.494,
+        "stop_loss": 155.8969,
+        "take_profit": 162.8226,
         "atr": 1.7314,
         "risk_reward_ratio": 1.67
       },
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65258.7188,
-      "change_pct": 0.64,
-      "volume": 14926182400,
+      "price": 65247.0312,
+      "change_pct": 0.62,
+      "volume": 14968166400,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1927.53,
-      "change_pct": 0.99,
-      "volume": 6018235392,
+      "price": 1927.02,
+      "change_pct": 0.96,
+      "volume": 6015344128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
