@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:36:36.086706+00:00",
+  "generated_at": "2026-08-10T08:41:57.414826+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "1 Incredible Reason to Buy Walmart (WMT) Stock Before It Reports Earnings on Aug. 20 -- and 1 Reason Not To",
+          "title": "The Nasdaq Composite Just Did Something That's Been Observed Only 18 Times Since Its Inception in 1971 -- and History Says Stocks Are About to Skyrocket",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/1-incredible-reason-to-buy-walmart-wmt-stock-befor/"
+          "link": "https://www.fool.com/investing/2026/08/10/nasdaq-did-something-18-times-history-stocks-soar/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4412.2998,
-      "change_pct": 1.65,
-      "volume": 36894,
+      "price": 4413.5,
+      "change_pct": 1.68,
+      "volume": 37271,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4412.30 觸及上軌 4336.13)"
+          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4413.50 觸及上軌 4336.53)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4412.2998,
-        "stop_loss": 4524.2641,
-        "take_profit": 4225.6927,
+        "entry_price": 4413.5,
+        "stop_loss": 4525.4643,
+        "take_profit": 4226.8929,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4637,9 +4637,9 @@
           "link": "https://finance.yahoo.com/video/immupharma-valirx-tertiary-minerals-caledonia-075214482.html"
         },
         {
-          "title": "Caledonia Mining maintains target guidance for Blanket gold",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1096787/caledonia-mining-maintains-target-guidance-for-blanket-gold-1096787.html"
+          "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/commodities-futures/gold-flat-focus-on-u-s-july-payrolls-7759613a?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.47,
-      "change_pct": 0.37,
-      "volume": 34572,
+      "price": 78.68,
+      "change_pct": 0.64,
+      "volume": 35847,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.13%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4680,14 +4680,14 @@
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-track-wall-st-030542135.html"
         },
         {
+          "title": "Oil Little Changed as Investors Await Hormuz Deal",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-growing-doubts-over-strait-of-hormuzs-reopening-6e42507b?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Dollar steadies after payrolls drop, inflation data eyed",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html"
-        },
-        {
-          "title": "COP Q2 Deep Dive: Portfolio Shifts, Leadership Change and Global Growth Initiatives",
-          "publisher": "StockStory",
-          "link": "https://finance.yahoo.com/energy/articles/cop-q2-deep-dive-portfolio-074122384.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.218,
-      "change_pct": 0.03,
+      "price": 32.235,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.549,
-      "change_pct": 0.09,
+      "price": 158.534,
+      "change_pct": 0.08,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.29,
@@ -4753,7 +4753,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=29.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=29.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4765,13 +4765,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.09%)"
+          "rationale": "波動度正常(ATR/價格=1.10%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 158.549,
-        "stop_loss": 155.9449,
-        "take_profit": 162.8892,
+        "entry_price": 158.534,
+        "stop_loss": 155.9299,
+        "take_profit": 162.8742,
         "atr": 1.7361,
         "risk_reward_ratio": 1.67
       },
@@ -4797,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65229.0117,
-      "change_pct": 0.59,
-      "volume": 14853963776,
+      "price": 65155.4805,
+      "change_pct": 0.48,
+      "volume": 14974179328,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4819,7 +4819,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.83%)"
+          "rationale": "波動度正常(ATR/價格=1.84%)"
         }
       ],
       "risk_levels": null,
@@ -4845,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1926.6,
-      "change_pct": 0.94,
-      "volume": 5979008512,
+      "price": 1922.6801,
+      "change_pct": 0.73,
+      "volume": 6044977152,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
