@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:53:42.500235+00:00",
+  "generated_at": "2026-08-10T14:59:05.436136+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.57,
-      "change_pct": -2.16,
-      "volume": 15842832,
+      "price": 306.81,
+      "change_pct": -2.08,
+      "volume": 16234881,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4273,6 +4273,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Apple gets downgraded, Intel plans to raise $15B: AlphaSpace check",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/apple-gets-downgraded-intel-plans-to-raise-15b-alphaspace-check-145507775.html"
+        },
+        {
           "title": "Airbnb CEO: Why AI is the best thing to happen to us",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
@@ -4281,11 +4286,6 @@
           "title": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/technology/apple-stock-downgraded-before-iphone-18-launch/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/research/nvidia-nvda-stock-earnings-august-2026/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 510.26,
-      "change_pct": 2.05,
-      "volume": 9710220,
+      "price": 509.505,
+      "change_pct": 1.9,
+      "volume": 10204945,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=84.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=84.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 510.26,
-        "stop_loss": 537.3399,
-        "take_profit": 465.1268,
+        "entry_price": 509.505,
+        "stop_loss": 536.5849,
+        "take_profit": 464.3718,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 220.45,
-      "change_pct": -1.57,
-      "volume": 29263134,
+      "price": 219.88,
+      "change_pct": -1.82,
+      "volume": 31061385,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.51%)"
+          "rationale": "波動度正常(ATR/價格=3.53%)"
         }
       ],
       "risk_levels": null,
@@ -4385,9 +4385,9 @@
           "link": "https://247wallst.com/investing/2026/08/10/broadcoms-brilliant-positioning-is-why-i-am-loading-up-over-and-over/"
         },
         {
-          "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/semis-surge-michael-burrys-shorts-feel-the-pressure-but-dont-expect-him-to-run-for-cover-after-his-latest-1987-style-crash-warning/"
+          "title": "Stock Market Today: Dow Falls, SpaceX Reverses; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.11,
-      "change_pct": 0.77,
-      "volume": 9295728,
+      "price": 329.97,
+      "change_pct": 0.42,
+      "volume": 9622353,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.33%)"
+          "rationale": "波動度正常(ATR/價格=4.34%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.44,
-      "change_pct": 0.32,
-      "volume": 6478780,
+      "price": 353.78,
+      "change_pct": -0.15,
+      "volume": 6778406,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4465,7 +4465,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.71%)"
+          "rationale": "波動度正常(ATR/價格=3.73%)"
         }
       ],
       "risk_levels": null,
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 774.3192,
-      "change_pct": 0.14,
-      "volume": 9936354,
+      "price": 773.84,
+      "change_pct": 0.08,
+      "volume": 10522269,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 723.08,
-      "change_pct": 0.01,
-      "volume": 9287523,
+      "price": 722.1301,
+      "change_pct": -0.12,
+      "volume": 9790909,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4567,14 +4567,14 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock Market Today: Dow Falls, SpaceX Reverses; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Archer Aviation Soars 20% on Boeing Deal to Acquire Wisk, Insitu, SkyGrid; Joby, EHang Stay Grounded",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/10/archer-aviation-soars-19-on-boeing-deal-to-acquire-wisk-insitu-skygrid-joby-ehang-stay-grounded/"
-        },
-        {
-          "title": "Stock Market Today: Dow Falls As Oil Prices Climb; SpaceX Stock Extending Gains (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
         },
         {
           "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.7998,
-      "change_pct": 1.55,
-      "volume": 77217,
+      "price": 4406.1001,
+      "change_pct": 1.51,
+      "volume": 78194,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.80 觸及上軌 4334.65)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.10 觸及上軌 4334.09)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.7998,
-        "stop_loss": 4519.7641,
-        "take_profit": 4221.1927,
+        "entry_price": 4406.1001,
+        "stop_loss": 4518.0644,
+        "take_profit": 4219.493,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.54,
-      "change_pct": 3.02,
-      "volume": 113135,
+      "price": 80.62,
+      "change_pct": 3.12,
+      "volume": 114347,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4674,14 +4674,14 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "Wall St ticks lower as markets monitor Hormuz situation; data awaited",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html"
+          "title": "Why Chevron Stock Popped on Monday",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/why-chevron-stock-popped-on-monday/"
         },
         {
-          "title": "Bullish Oil Bets Shrink for a Second Week Running, COT Data Show",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/bullish-oil-bets-shrink-second-140000926.html"
+          "title": "Stock Market Today: Dow Falls, SpaceX Reverses; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.244,
-      "change_pct": 0.12,
+      "price": 32.252,
+      "change_pct": 0.14,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.916,
-      "change_pct": 0.32,
+      "price": 158.962,
+      "change_pct": 0.35,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64658.4883,
-      "change_pct": -0.29,
-      "volume": 18010077184,
+      "price": 64565.9492,
+      "change_pct": -0.43,
+      "volume": 18079330304,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.88%)"
+          "rationale": "波動度正常(ATR/價格=1.89%)"
         }
       ],
       "risk_levels": null,
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
+          "title": "Stock Market Today: Dow Falls, SpaceX Reverses; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Bitdeer shares edge higher despite Q2 earnings and revenue miss",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
-        },
-        {
-          "title": "Michael Saylor Reveals Why Strategy Sold Bitcoin Near $60K Despite Its Buy and Hold Strategy",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/michael-saylor-strategy-105m-bitcoin-sale-market-test/"
         }
       ]
     },
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1892.7,
-      "change_pct": -0.84,
-      "volume": 7236532736,
+      "price": 1891.1,
+      "change_pct": -0.92,
+      "volume": 7274286592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
