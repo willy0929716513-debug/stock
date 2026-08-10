@@ -28,10 +28,10 @@
   <div class="table-wrap">
     <table>
       <thead>
-        <tr><th>標的</th><th>分類</th><th>價格</th><th>漲跌幅</th><th>訊號</th><th>信心值</th></tr>
+        <tr><th>標的</th><th>分類</th><th>價格</th><th>漲跌幅</th><th>訊號</th><th>信心值</th><th>停損 / 停利</th></tr>
       </thead>
       <tbody id="top-signals-body">
-        <tr><td colspan="6" class="empty-state">載入中…</td></tr>
+        <tr><td colspan="7" class="empty-state">載入中…</td></tr>
       </tbody>
     </table>
   </div>
@@ -62,9 +62,13 @@
     .slice(0, 10);
 
   if (topSignals.length === 0) {
-    document.getElementById("top-signals-body").innerHTML = `<tr><td colspan="6" class="empty-state">目前沒有高信心的買進/賣出訊號</td></tr>`;
+    document.getElementById("top-signals-body").innerHTML = `<tr><td colspan="7" class="empty-state">目前沒有高信心的買進/賣出訊號</td></tr>`;
   } else {
-    document.getElementById("top-signals-body").innerHTML = topSignals.map((s) => `
+    document.getElementById("top-signals-body").innerHTML = topSignals.map((s) => {
+      const risk = s.risk_levels
+        ? `${JPO_KBO.formatPrice(s.risk_levels.stop_loss)} / ${JPO_KBO.formatPrice(s.risk_levels.take_profit)}`
+        : "—";
+      return `
       <tr>
         <td><strong>${JPO_KBO.escapeHTML(s.symbol)}</strong><br><span style="color:var(--text-dim);font-size:0.8rem">${JPO_KBO.escapeHTML(s.name)}</span></td>
         <td>${JPO_KBO.categoryLabel(s.category)}</td>
@@ -72,8 +76,10 @@
         <td class="${JPO_KBO.pctClass(s.change_pct)}">${JPO_KBO.formatPct(s.change_pct)}</td>
         <td>${JPO_KBO.signalBadge(s.signal)}</td>
         <td>${(s.confidence * 100).toFixed(0)}%</td>
+        <td>${risk}</td>
       </tr>
-    `).join("");
+    `;
+    }).join("");
   }
 
   const picks = data.potential_picks || [];
