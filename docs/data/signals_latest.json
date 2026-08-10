@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:31:26.798841+00:00",
+  "generated_at": "2026-08-10T15:36:50.686597+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Microsoft's Nvidia Alternative Is Getting Much Bigger",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsofts-nvidia-alternative-getting-much-153413889.html"
+        },
+        {
           "title": "Sony and TSMC Plan a $6.3 Billion Chip Bet",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/sony-tsmc-plan-6-3-151451344.html"
@@ -107,11 +112,6 @@
           "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Microsoft plans Maia 300 chip reveal in September -  Information",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html"
         }
       ]
     },
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.44,
-      "change_pct": -2.2,
-      "volume": 17927228,
+      "price": 306.34,
+      "change_pct": -2.23,
+      "volume": 18202973,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 509.685,
-      "change_pct": 1.94,
-      "volume": 11655295,
+      "price": 509.355,
+      "change_pct": 1.87,
+      "volume": 11853776,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=84.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=84.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 509.685,
-        "stop_loss": 536.7649,
-        "take_profit": 464.5518,
+        "entry_price": 509.355,
+        "stop_loss": 536.4349,
+        "take_profit": 464.2218,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4337,9 +4337,9 @@
           "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "Cathie Wood Ignores AI Panic — Buys More Nvidia, Sells This Gaming Stock Instead",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ignores-ai-panic-145750434.html"
+          "title": "Microsoft's Nvidia Alternative Is Getting Much Bigger",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsofts-nvidia-alternative-getting-much-153413889.html"
         }
       ]
     },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.337,
-      "change_pct": -2.06,
-      "volume": 38372130,
+      "price": 218.9721,
+      "change_pct": -2.23,
+      "volume": 39413263,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.56%)"
+          "rationale": "波動度正常(ATR/價格=3.57%)"
         }
       ],
       "risk_levels": null,
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Why Plug Power Stock Slumped Another 24% in July",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-plug-power-stock-slumped-another-24-in-july/"
+          "title": "Microsoft's Nvidia Alternative Is Getting Much Bigger",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsofts-nvidia-alternative-getting-much-153413889.html"
         },
         {
-          "title": "1 Super Streaming Stock Down 37% You'll Regret Not Buying on the Dip, According to Wall Street",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/1-streaming-stock-down-37-regret-buying-dip-wall/"
+          "title": "Samsung Just Raised Pressure on Micron",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/articles/samsung-just-raised-pressure-micron-153319405.html"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.35,
-      "change_pct": 0.23,
-      "volume": 11280299,
+      "price": 328.995,
+      "change_pct": 0.13,
+      "volume": 11639397,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.35%)"
+          "rationale": "波動度正常(ATR/價格=4.36%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 354.6,
-      "change_pct": 0.08,
-      "volume": 8157161,
+      "price": 354.39,
+      "change_pct": 0.03,
+      "volume": 8328668,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.76,
-      "change_pct": 0.06,
-      "volume": 12556817,
+      "price": 773.48,
+      "change_pct": 0.03,
+      "volume": 12872178,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 721.57,
-      "change_pct": -0.2,
-      "volume": 11151310,
+      "price": 721.31,
+      "change_pct": -0.24,
+      "volume": 11380548,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4561,7 +4561,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.97%)"
+          "rationale": "波動度正常(ATR/價格=1.98%)"
         }
       ],
       "risk_levels": null,
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4411.1001,
-      "change_pct": 1.62,
-      "volume": 82862,
+      "price": 4407.7002,
+      "change_pct": 1.54,
+      "volume": 83357,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.4 進入超買區); bollinger_band:sell(價格 4411.10 觸及上軌 4335.73)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.70 觸及上軌 4334.62)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4411.1001,
-        "stop_loss": 4523.0644,
-        "take_profit": 4224.493,
+        "entry_price": 4407.7002,
+        "stop_loss": 4519.6645,
+        "take_profit": 4221.0931,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.83,
-      "change_pct": 3.39,
-      "volume": 125420,
+      "price": 81.27,
+      "change_pct": 3.95,
+      "volume": 127972,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.234,
-      "change_pct": 0.08,
+      "price": 32.236,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.902,
-      "change_pct": 0.31,
+      "price": 158.92,
+      "change_pct": 0.32,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64336.8086,
-      "change_pct": -0.78,
-      "volume": 18513313792,
+      "price": 64269.7812,
+      "change_pct": -0.89,
+      "volume": 18657243136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
+          "title": "Exclusive: Marex plans to accept Bitcoin, Ethereum as initial margin this year",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/exclusive-marex-plans-accept-bitcoin-153057893.html"
+        },
+        {
           "title": "Bitcoin Killed the BIP-110 Fork: Breakaway Coin by September 1?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/bip-110-fork-breakaway-coin-september/"
-        },
-        {
-          "title": "Bitdeer shares edge higher despite Q2 earnings and revenue miss",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
         }
       ]
     },
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1875.79,
-      "change_pct": -1.72,
-      "volume": 7841924096,
+      "price": 1875.49,
+      "change_pct": -1.74,
+      "volume": 7925818880,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4866,14 +4866,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m"
+          "title": "Exclusive: Marex plans to accept Bitcoin, Ethereum as initial margin this year",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/exclusive-marex-plans-accept-bitcoin-153057893.html"
         },
         {
-          "title": "Ethereum and Solana Reassess Inflation Schedules as Security Costs Raise Supply Concerns",
-          "publisher": "CCN",
-          "link": "https://www.ccn.com/news/crypto/ethereum-solana-reassess-inflation-schedules/"
+          "title": "Bitmine Buys Another 7,391 Ethereum And Increases Staked Position",
+          "publisher": "CryptoProwl",
+          "link": "https://www.cryptoprowl.com/releases/bitmine-buys-another-7391-ethereum-and-increases-staked-position-6373"
         }
       ]
     }
