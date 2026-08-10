@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:48:19.349251+00:00",
+  "generated_at": "2026-08-10T14:53:42.500235+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.355,
-      "change_pct": -2.23,
-      "volume": 15447500,
+      "price": 306.57,
+      "change_pct": -2.16,
+      "volume": 15842832,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 509.88,
-      "change_pct": 1.98,
-      "volume": 9389180,
+      "price": 510.26,
+      "change_pct": 2.05,
+      "volume": 9710220,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 509.88,
-        "stop_loss": 536.9599,
-        "take_profit": 464.7468,
+        "entry_price": 510.26,
+        "stop_loss": 537.3399,
+        "take_profit": 465.1268,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 220.97,
-      "change_pct": -1.34,
-      "volume": 28029562,
+      "price": 220.45,
+      "change_pct": -1.57,
+      "volume": 29263134,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.50%)"
+          "rationale": "波動度正常(ATR/價格=3.51%)"
         }
       ],
       "risk_levels": null,
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "AI Needs More Than GPUs. These 3 Stocks Are Building Everything Around Them",
+          "title": "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/ai-needs-more-than-gpus-these-3-stocks-are-building-everything-around-them/"
+          "link": "https://247wallst.com/investing/2026/08/10/broadcoms-brilliant-positioning-is-why-i-am-loading-up-over-and-over/"
         },
         {
-          "title": "Down but Not Out: Analysts See 40% Upside in Netflix After the Slide",
+          "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/down-but-not-out-analysts-see-40-upside-in-netflix-after-the-slide/"
+          "link": "https://247wallst.com/investing/2026/08/10/semis-surge-michael-burrys-shorts-feel-the-pressure-but-dont-expect-him-to-run-for-cover-after-his-latest-1987-style-crash-warning/"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 331.15,
-      "change_pct": 0.78,
-      "volume": 9028901,
+      "price": 331.11,
+      "change_pct": 0.77,
+      "volume": 9295728,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4423,6 +4423,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Semis Surge, Michael Burry’s Shorts Feel the Pressure — But Don’t Expect Him to Run for Cover After His Latest “1987-Style” Crash Warning",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/semis-surge-michael-burrys-shorts-feel-the-pressure-but-dont-expect-him-to-run-for-cover-after-his-latest-1987-style-crash-warning/"
+        },
+        {
           "title": "Tesla Stock Slips as Army of Fans Fails to Help It Claw Back Losses",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/tesla-stock-price-retail-traders-f41c836d?siteid=yhoof2&yptr=yahoo"
@@ -4431,11 +4436,6 @@
           "title": "SpaceX Stock Slips After Lock-Up Rally. When’s the Next Release, What to Expect.",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/spacex-stock-price-shares-release-15ccc02c?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Tesla or SpaceX: Who Benefits More From Terafab and How",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/tesla-or-spacex-who-benefits-more-from-terafab-and-how/"
         }
       ]
     },
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 355.5739,
-      "change_pct": 0.36,
-      "volume": 6275164,
+      "price": 355.44,
+      "change_pct": 0.32,
+      "volume": 6478780,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 774.96,
-      "change_pct": 0.22,
-      "volume": 9502929,
+      "price": 774.3192,
+      "change_pct": 0.14,
+      "volume": 9936354,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 723.975,
-      "change_pct": 0.13,
-      "volume": 8846703,
+      "price": 723.08,
+      "change_pct": 0.01,
+      "volume": 9287523,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4406.7002,
-      "change_pct": 1.52,
-      "volume": 76358,
+      "price": 4407.7998,
+      "change_pct": 1.55,
+      "volume": 77217,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.70 觸及上軌 4334.29)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.80 觸及上軌 4334.65)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4406.7002,
-        "stop_loss": 4518.6645,
-        "take_profit": 4220.0931,
+        "entry_price": 4407.7998,
+        "stop_loss": 4519.7641,
+        "take_profit": 4221.1927,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4626,14 +4626,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html"
         },
         {
+          "title": "Barrick Mining shares slide on second quarter earnings miss",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1096808/barrick-mining-shares-slide-on-second-quarter-earnings-miss-1096808.html"
+        },
+        {
           "title": "AEM Stock Pops 25% in a Month: What Should Investors Do Now?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/aem-stock-pops-25-month-130600702.html"
-        },
-        {
-          "title": "Barrick Gold Falls, Newmont Rises As Miners Agree On IPO",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/barrick-gold-stock-newmont-deal-clears-ipo-gold-price/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4643,7 +4643,7 @@
       "category": "commodity",
       "price": 80.54,
       "change_pct": 3.02,
-      "volume": 112117,
+      "volume": 113135,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,19 +4669,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Retail investors end SpaceX buying spree as stock reclaims IPO price: AlphaCheck",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
+        },
+        {
           "title": "Wall St ticks lower as markets monitor Hormuz situation; data awaited",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-tick-101955732.html"
         },
         {
-          "title": "U.S. Stocks Open Flat",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/oil-broadly-flat-u-s-futures-mostly-higher-ahead-of-key-u-s-cpi-data-db69b2c8?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Stock Market Today: Dow Falls As Oil Prices Climb; SpaceX Stock Extending Gains (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
+          "title": "Bullish Oil Bets Shrink for a Second Week Running, COT Data Show",
+          "publisher": "Oilprice.com",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/bullish-oil-bets-shrink-second-140000926.html"
         }
       ]
     },
@@ -4689,7 +4689,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.246,
+      "price": 32.244,
       "change_pct": 0.12,
       "volume": 0,
       "signal": "hold",
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.881,
-      "change_pct": 0.3,
+      "price": 158.916,
+      "change_pct": 0.32,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64731.0312,
-      "change_pct": -0.18,
-      "volume": 18015070208,
+      "price": 64658.4883,
+      "change_pct": -0.29,
+      "volume": 18010077184,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1895.64,
-      "change_pct": -0.68,
-      "volume": 7176621568,
+      "price": 1892.7,
+      "change_pct": -0.84,
+      "volume": 7236532736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4855,7 +4855,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.50%)"
+          "rationale": "波動度正常(ATR/價格=2.51%)"
         }
       ],
       "risk_levels": null,
