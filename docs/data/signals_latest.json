@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:59:28.086791+00:00",
+  "generated_at": "2026-08-10T22:04:56.969121+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4477,19 +4477,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/technology/article/tech-stocks-still-have-plenty-of-believers-on-wall-street-inflow-data-shows-163544665.html"
+          "title": "The loneliness epidemic is growing — can FeedIRL help solve it?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/loneliness-epidemic-growing-feedirl-help-220000359.html"
+        },
+        {
+          "title": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
           "title": "JPMorgan’s S&P 500 8,000 target: Is the market getting too expensive?",
           "publisher": "Yahoo Finance Video",
           "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
-        },
-        {
-          "title": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/etf/2026/08/10/same-100-stocks-different-price-why-qqq-costs-180-annually-while-qqqm-charges-150/"
         }
       ]
     },
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.214,
-      "change_pct": 0.51,
+      "price": 159.258,
+      "change_pct": 0.54,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63934.4102,
+      "price": 63935.9688,
       "change_pct": -1.4,
-      "volume": 23393927168,
+      "volume": 23436980224,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1873.3,
+      "price": 1873.3101,
       "change_pct": -1.85,
-      "volume": 9268085760,
+      "volume": 9254951936,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
