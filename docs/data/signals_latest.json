@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:12:02.508325+00:00",
+  "generated_at": "2026-08-10T11:17:23.608226+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "25-Year-Old Lost $35 Billion of His Investors’ Money. 2 Weeks Later, Silicon Valley Insiders Are Lining Up to Give Him More Cash.",
+          "title": "Wall Street Says Hold but Hedge Funds Are Circling NSC’s $85 Billion Merger",
           "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/25-year-old-lost-35-billion-of-his-investors-money-2-weeks-later-silicon-valley-insiders-are-lining-up-to-give-him-more-cash/"
+          "link": "https://247wallst.com/investing/2026/08/10/wall-street-says-hold-but-hedge-funds-are-circling-nscs-85-billion-merger/"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4395.2998,
-      "change_pct": 1.26,
-      "volume": 48200,
+      "price": 4394.2002,
+      "change_pct": 1.23,
+      "volume": 48526,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.8 進入超買區); bollinger_band:sell(價格 4395.30 觸及上軌 4330.60)"
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4394.20 觸及上軌 4330.24)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4395.2998,
-        "stop_loss": 4507.2641,
-        "take_profit": 4208.6927,
+        "entry_price": 4394.2002,
+        "stop_loss": 4506.1645,
+        "take_profit": 4207.5931,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.49,
-      "change_pct": 1.68,
-      "volume": 52874,
+      "price": 79.42,
+      "change_pct": 1.59,
+      "volume": 53619,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.227,
-      "change_pct": 0.06,
+      "price": 32.236,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.815,
-      "change_pct": 0.26,
+      "price": 158.794,
+      "change_pct": 0.24,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64953.1797,
-      "change_pct": 0.17,
-      "volume": 15413248000,
+      "price": 64987.7812,
+      "change_pct": 0.22,
+      "volume": 15450952704,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.61,
-      "change_pct": 0.31,
-      "volume": 6203804160,
+      "price": 1915.8,
+      "change_pct": 0.37,
+      "volume": 6227020800,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
