@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:22:00.130756+00:00",
+  "generated_at": "2026-08-10T01:27:27.789632+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -7,9 +7,9 @@
       "symbol": "0050.TW",
       "name": "元大台灣50",
       "category": "tw_stock",
-      "price": 103.8,
-      "change_pct": 0.92,
-      "volume": 2744000,
+      "price": 103.9,
+      "change_pct": 1.02,
+      "volume": 9226000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -77,9 +77,9 @@
       "symbol": "2330.TW",
       "name": "台積電",
       "category": "tw_stock",
-      "price": 2385.0,
-      "change_pct": 0.63,
-      "volume": 1488000,
+      "price": 2395.0,
+      "change_pct": 1.05,
+      "volume": 2151000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -99,7 +99,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.95%)"
+          "rationale": "波動度正常(ATR/價格=2.94%)"
         }
       ],
       "risk_levels": null,
@@ -125,9 +125,9 @@
       "symbol": "2303.TW",
       "name": "聯電",
       "category": "tw_stock",
-      "price": 118.5,
-      "change_pct": 2.16,
-      "volume": 6102000,
+      "price": 119.0,
+      "change_pct": 2.59,
+      "volume": 14313000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -173,9 +173,9 @@
       "symbol": "2454.TW",
       "name": "聯發科",
       "category": "tw_stock",
-      "price": 3925.0,
-      "change_pct": 0.64,
-      "volume": 327000,
+      "price": 3945.0,
+      "change_pct": 1.15,
+      "volume": 624000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -221,16 +221,16 @@
       "symbol": "3711.TW",
       "name": "日月光投控",
       "category": "tw_stock",
-      "price": 606.0,
-      "change_pct": 3.59,
-      "volume": 1084000,
+      "price": 611.0,
+      "change_pct": 4.44,
+      "volume": 2969000,
       "signal": "buy",
-      "confidence": 0.39,
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.65,
+          "confidence": 0.66,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -243,14 +243,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.34,
-          "rationale": "波動度過高(ATR/價格=6.71%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.70%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 606.0,
-        "stop_loss": 544.9821,
-        "take_profit": 707.6964,
-        "atr": 40.6786,
+        "entry_price": 611.0,
+        "stop_loss": 549.5536,
+        "take_profit": 713.4107,
+        "atr": 40.9643,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -275,9 +275,9 @@
       "symbol": "2408.TW",
       "name": "南亞科",
       "category": "tw_stock",
-      "price": 489.5,
-      "change_pct": 7.11,
-      "volume": 10184000,
+      "price": 488.5,
+      "change_pct": 6.89,
+      "volume": 19262000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -296,8 +296,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.51,
-          "rationale": "波動度過高(ATR/價格=7.56%),建議降低部位或觀望"
+          "confidence": 0.52,
+          "rationale": "波動度過高(ATR/價格=7.62%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -323,9 +323,9 @@
       "symbol": "2337.TW",
       "name": "旺宏",
       "category": "tw_stock",
-      "price": 126.5,
-      "change_pct": 4.12,
-      "volume": 5479000,
+      "price": 124.5,
+      "change_pct": 2.47,
+      "volume": 13138000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -344,15 +344,15 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.58,
-          "rationale": "波動度過高(ATR/價格=7.90%),建議降低部位或觀望"
+          "confidence": 0.61,
+          "rationale": "波動度過高(ATR/價格=8.06%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 126.5,
-        "stop_loss": 111.5107,
-        "take_profit": 151.4821,
-        "atr": 9.9929,
+        "entry_price": 124.5,
+        "stop_loss": 109.4571,
+        "take_profit": 149.5714,
+        "atr": 10.0286,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -377,16 +377,16 @@
       "symbol": "2379.TW",
       "name": "瑞昱",
       "category": "tw_stock",
-      "price": 759.0,
-      "change_pct": 1.2,
-      "volume": 146000,
+      "price": 747.0,
+      "change_pct": -0.4,
+      "volume": 378000,
       "signal": "buy",
-      "confidence": 0.37,
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.62,
+          "confidence": 0.67,
           "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
@@ -398,15 +398,15 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.13,
-          "rationale": "波動度過高(ATR/價格=5.67%),建議降低部位或觀望"
+          "confidence": 0.16,
+          "rationale": "波動度過高(ATR/價格=5.79%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 759.0,
-        "stop_loss": 694.5,
-        "take_profit": 866.5,
-        "atr": 43.0,
+        "entry_price": 747.0,
+        "stop_loss": 682.0714,
+        "take_profit": 855.2143,
+        "atr": 43.2857,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -431,9 +431,9 @@
       "symbol": "3034.TW",
       "name": "聯詠",
       "category": "tw_stock",
-      "price": 557.0,
-      "change_pct": 2.77,
-      "volume": 326000,
+      "price": 550.0,
+      "change_pct": 1.48,
+      "volume": 539000,
       "signal": "sell",
       "confidence": 0.23,
       "opinions": [
@@ -441,7 +441,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.38,
-          "rationale": "rsi:sell(RSI=73.0 進入超買區)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區)"
         },
         {
           "agent": "macro",
@@ -453,13 +453,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.15%)"
+          "rationale": "波動度正常(ATR/價格=4.20%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 557.0,
-        "stop_loss": 591.6607,
-        "take_profit": 499.2321,
+        "entry_price": 550.0,
+        "stop_loss": 584.6607,
+        "take_profit": 492.2321,
         "atr": 23.1071,
         "risk_reward_ratio": 1.67
       },
@@ -469,9 +469,9 @@
       "symbol": "3231.TW",
       "name": "緯創",
       "category": "tw_stock",
-      "price": 187.0,
-      "change_pct": 1.91,
-      "volume": 2996000,
+      "price": 186.0,
+      "change_pct": 1.36,
+      "volume": 6896000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -490,8 +490,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.36,
-          "rationale": "波動度過高(ATR/價格=6.82%),建議降低部位或觀望"
+          "confidence": 0.38,
+          "rationale": "波動度過高(ATR/價格=6.89%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -519,7 +519,7 @@
       "category": "tw_stock",
       "price": 300.5,
       "change_pct": 0.84,
-      "volume": 404000,
+      "volume": 1003000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -539,7 +539,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.43%)"
+          "rationale": "波動度正常(ATR/價格=4.46%)"
         }
       ],
       "risk_levels": null,
@@ -565,9 +565,9 @@
       "symbol": "2357.TW",
       "name": "華碩",
       "category": "tw_stock",
-      "price": 818.0,
-      "change_pct": 0.12,
-      "volume": 99000,
+      "price": 816.0,
+      "change_pct": -0.12,
+      "volume": 235000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -587,7 +587,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.09%)"
+          "rationale": "波動度正常(ATR/價格=4.11%)"
         }
       ],
       "risk_levels": null,
@@ -613,9 +613,9 @@
       "symbol": "2376.TW",
       "name": "技嘉",
       "category": "tw_stock",
-      "price": 345.0,
-      "change_pct": 0.29,
-      "volume": 462000,
+      "price": 344.5,
+      "change_pct": 0.15,
+      "volume": 780000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -661,9 +661,9 @@
       "symbol": "2377.TW",
       "name": "微星",
       "category": "tw_stock",
-      "price": 155.0,
-      "change_pct": 1.31,
-      "volume": 530000,
+      "price": 154.5,
+      "change_pct": 0.98,
+      "volume": 1207000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -682,8 +682,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.03,
-          "rationale": "波動度過高(ATR/價格=5.16%),建議降低部位或觀望"
+          "confidence": 0.04,
+          "rationale": "波動度過高(ATR/價格=5.18%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -709,9 +709,9 @@
       "symbol": "3008.TW",
       "name": "大立光",
       "category": "tw_stock",
-      "price": 4510.0,
-      "change_pct": 2.85,
-      "volume": 95000,
+      "price": 4390.0,
+      "change_pct": 0.11,
+      "volume": 214000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -730,8 +730,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.18,
-          "rationale": "波動度過高(ATR/價格=5.88%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.04%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -741,9 +741,9 @@
       "symbol": "3406.TW",
       "name": "玉晶光",
       "category": "tw_stock",
-      "price": 546.0,
-      "change_pct": 0.0,
-      "volume": 105000,
+      "price": 530.0,
+      "change_pct": -2.93,
+      "volume": 477000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -752,38 +752,6 @@
           "signal": "hold",
           "confidence": 0.0,
           "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.96%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "2451.TW",
-      "name": "創見",
-      "category": "tw_stock",
-      "price": 299.0,
-      "change_pct": 0.67,
-      "volume": 384000,
-      "signal": "sell",
-      "confidence": 0.25,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.41,
-          "rationale": "rsi:sell(RSI=76.4 進入超買區)"
         },
         {
           "agent": "macro",
@@ -795,14 +763,46 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.07,
-          "rationale": "波動度過高(ATR/價格=5.36%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.37%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "2451.TW",
+      "name": "創見",
+      "category": "tw_stock",
+      "price": 296.0,
+      "change_pct": -0.34,
+      "volume": 1005000,
+      "signal": "sell",
+      "confidence": 0.25,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.41,
+          "rationale": "rsi:sell(RSI=75.4 進入超買區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.09,
+          "rationale": "波動度過高(ATR/價格=5.43%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 299.0,
-        "stop_loss": 323.0536,
-        "take_profit": 258.9107,
-        "atr": 16.0357,
+        "entry_price": 296.0,
+        "stop_loss": 320.1071,
+        "take_profit": 255.8214,
+        "atr": 16.0714,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -827,9 +827,9 @@
       "symbol": "8046.TW",
       "name": "南電",
       "category": "tw_stock",
-      "price": 1080.0,
-      "change_pct": -2.26,
-      "volume": 3923985,
+      "price": 1090.0,
+      "change_pct": 0.93,
+      "volume": 217000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -848,8 +848,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.94,
-          "rationale": "波動度過高(ATR/價格=9.68%),建議降低部位或觀望"
+          "confidence": 0.81,
+          "rationale": "波動度過高(ATR/價格=9.03%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -875,9 +875,9 @@
       "symbol": "3037.TW",
       "name": "欣興",
       "category": "tw_stock",
-      "price": 979.0,
-      "change_pct": 2.51,
-      "volume": 178000,
+      "price": 980.0,
+      "change_pct": 2.62,
+      "volume": 545000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -923,9 +923,9 @@
       "symbol": "2449.TW",
       "name": "京元電子",
       "category": "tw_stock",
-      "price": 238.5,
-      "change_pct": -1.45,
-      "volume": 3425000,
+      "price": 244.5,
+      "change_pct": 1.03,
+      "volume": 6238000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -944,8 +944,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.49,
-          "rationale": "波動度過高(ATR/價格=7.45%),建議降低部位或觀望"
+          "confidence": 0.47,
+          "rationale": "波動度過高(ATR/價格=7.35%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -971,9 +971,9 @@
       "symbol": "6669.TW",
       "name": "緯穎",
       "category": "tw_stock",
-      "price": 6150.0,
-      "change_pct": 0.82,
-      "volume": 96000,
+      "price": 6015.0,
+      "change_pct": -1.39,
+      "volume": 246000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -992,8 +992,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.23,
-          "rationale": "波動度過高(ATR/價格=6.17%),建議降低部位或觀望"
+          "confidence": 0.29,
+          "rationale": "波動度過高(ATR/價格=6.44%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1021,7 +1021,7 @@
       "category": "tw_stock",
       "price": 101.5,
       "change_pct": 0.0,
-      "volume": 111000,
+      "volume": 193000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1041,7 +1041,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.84%)"
+          "rationale": "波動度正常(ATR/價格=2.87%)"
         }
       ],
       "risk_levels": null,
@@ -1051,9 +1051,9 @@
       "symbol": "2360.TW",
       "name": "致茂",
       "category": "tw_stock",
-      "price": 2000.0,
-      "change_pct": -1.48,
-      "volume": 107000,
+      "price": 2025.0,
+      "change_pct": -0.25,
+      "volume": 199000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1072,8 +1072,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.65,
-          "rationale": "波動度過高(ATR/價格=8.23%),建議降低部位或觀望"
+          "confidence": 0.63,
+          "rationale": "波動度過高(ATR/價格=8.15%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1099,17 +1099,17 @@
       "symbol": "2301.TW",
       "name": "光寶科",
       "category": "tw_stock",
-      "price": 259.5,
-      "change_pct": 5.06,
-      "volume": 2479000,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 264.5,
+      "change_pct": 7.09,
+      "volume": 8058000,
+      "signal": "sell",
+      "confidence": 0.21,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.35,
+          "rationale": "rsi:sell(RSI=70.5 進入超買區)"
         },
         {
           "agent": "macro",
@@ -1121,10 +1121,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.39,
-          "rationale": "波動度過高(ATR/價格=6.94%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.97%),建議降低部位或觀望"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 264.5,
+        "stop_loss": 292.1429,
+        "take_profit": 218.4286,
+        "atr": 18.4286,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Lite-On Technology to establish $919M manufacturing campus in Texas",
@@ -1147,9 +1153,9 @@
       "symbol": "2327.TW",
       "name": "國巨",
       "category": "tw_stock",
-      "price": 564.0,
-      "change_pct": 4.44,
-      "volume": 2686000,
+      "price": 569.0,
+      "change_pct": 5.37,
+      "volume": 6869000,
       "signal": "buy",
       "confidence": 0.3,
       "opinions": [
@@ -1168,15 +1174,15 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.83,
-          "rationale": "波動度過高(ATR/價格=9.17%),建議降低部位或觀望"
+          "confidence": 0.84,
+          "rationale": "波動度過高(ATR/價格=9.18%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 564.0,
-        "stop_loss": 486.4286,
-        "take_profit": 693.2857,
-        "atr": 51.7143,
+        "entry_price": 569.0,
+        "stop_loss": 490.6786,
+        "take_profit": 699.5357,
+        "atr": 52.2143,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -1201,9 +1207,9 @@
       "symbol": "2345.TW",
       "name": "智邦",
       "category": "tw_stock",
-      "price": 2220.0,
-      "change_pct": 0.23,
-      "volume": 172000,
+      "price": 2235.0,
+      "change_pct": 0.9,
+      "volume": 274000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1222,8 +1228,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.43,
-          "rationale": "波動度過高(ATR/價格=7.15%),建議降低部位或觀望"
+          "confidence": 0.42,
+          "rationale": "波動度過高(ATR/價格=7.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1249,9 +1255,9 @@
       "symbol": "4938.TW",
       "name": "和碩",
       "category": "tw_stock",
-      "price": 88.0,
-      "change_pct": 1.03,
-      "volume": 113000,
+      "price": 87.5,
+      "change_pct": 0.46,
+      "volume": 337000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1271,7 +1277,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.86%)"
+          "rationale": "波動度正常(ATR/價格=3.89%)"
         }
       ],
       "risk_levels": null,
@@ -1297,16 +1303,16 @@
       "symbol": "2353.TW",
       "name": "宏碁",
       "category": "tw_stock",
-      "price": 30.3,
-      "change_pct": 0.17,
-      "volume": 948000,
+      "price": 30.1,
+      "change_pct": -0.5,
+      "volume": 1781000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.66,
+          "confidence": 0.67,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -1319,14 +1325,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.47%)"
+          "rationale": "波動度正常(ATR/價格=3.55%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 30.3,
-        "stop_loss": 28.725,
-        "take_profit": 32.925,
-        "atr": 1.05,
+        "entry_price": 30.1,
+        "stop_loss": 28.4982,
+        "take_profit": 32.7696,
+        "atr": 1.0679,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -1351,9 +1357,9 @@
       "symbol": "6285.TW",
       "name": "啟碁",
       "category": "tw_stock",
-      "price": 247.5,
-      "change_pct": 6.22,
-      "volume": 1126000,
+      "price": 249.0,
+      "change_pct": 6.87,
+      "volume": 1971000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1383,9 +1389,9 @@
       "symbol": "2317.TW",
       "name": "鴻海",
       "category": "tw_stock",
-      "price": 263.5,
-      "change_pct": 1.35,
-      "volume": 2635000,
+      "price": 262.5,
+      "change_pct": 0.96,
+      "volume": 4603000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1405,7 +1411,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.08%)"
+          "rationale": "波動度正常(ATR/價格=4.10%)"
         }
       ],
       "risk_levels": null,
@@ -1431,17 +1437,17 @@
       "symbol": "2354.TW",
       "name": "鴻準",
       "category": "tw_stock",
-      "price": 62.2,
-      "change_pct": 0.65,
-      "volume": 1667000,
+      "price": 63.0,
+      "change_pct": 1.94,
+      "volume": 5059000,
       "signal": "sell",
-      "confidence": 0.37,
+      "confidence": 0.38,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.62,
-          "rationale": "rsi:sell(RSI=70.3 進入超買區); bollinger_band:sell(價格 62.20 觸及上軌 61.56)"
+          "confidence": 0.63,
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 63.00 觸及上軌 61.80)"
         },
         {
           "agent": "macro",
@@ -1453,14 +1459,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.82%)"
+          "rationale": "波動度正常(ATR/價格=3.90%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 62.2,
-        "stop_loss": 65.7679,
-        "take_profit": 56.2536,
-        "atr": 2.3786,
+        "entry_price": 63.0,
+        "stop_loss": 66.6857,
+        "take_profit": 56.8571,
+        "atr": 2.4571,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -1485,9 +1491,9 @@
       "symbol": "2392.TW",
       "name": "正崴",
       "category": "tw_stock",
-      "price": 37.2,
-      "change_pct": 0.68,
-      "volume": 37000,
+      "price": 37.0,
+      "change_pct": 0.14,
+      "volume": 79000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1507,7 +1513,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.40%)"
+          "rationale": "波動度正常(ATR/價格=3.43%)"
         }
       ],
       "risk_levels": null,
@@ -1517,9 +1523,9 @@
       "symbol": "2308.TW",
       "name": "台達電",
       "category": "tw_stock",
-      "price": 1710.0,
-      "change_pct": 3.64,
-      "volume": 832000,
+      "price": 1755.0,
+      "change_pct": 6.36,
+      "volume": 2640000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1539,7 +1545,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.35,
-          "rationale": "波動度過高(ATR/價格=6.75%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.74%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1565,17 +1571,17 @@
       "symbol": "6414.TW",
       "name": "樺漢",
       "category": "tw_stock",
-      "price": 474.0,
-      "change_pct": 1.28,
-      "volume": 2277968,
-      "signal": "buy",
-      "confidence": 0.3,
+      "price": 473.5,
+      "change_pct": -0.11,
+      "volume": 506000,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.5,
-          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -1586,17 +1592,11 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.6,
-          "rationale": "波動度過高(ATR/價格=7.99%),建議降低部位或觀望"
+          "confidence": 0.51,
+          "rationale": "波動度過高(ATR/價格=7.56%),建議降低部位或觀望"
         }
       ],
-      "risk_levels": {
-        "entry_price": 474.0,
-        "stop_loss": 417.2143,
-        "take_profit": 568.6429,
-        "atr": 37.8571,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Asian Dividend Stocks To Enhance Your Portfolio",
@@ -1614,9 +1614,9 @@
       "symbol": "4919.TW",
       "name": "新唐",
       "category": "tw_stock",
-      "price": 123.5,
-      "change_pct": 2.92,
-      "volume": 238000,
+      "price": 124.0,
+      "change_pct": 3.33,
+      "volume": 639000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1636,7 +1636,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.54,
-          "rationale": "波動度過高(ATR/價格=7.69%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=7.72%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1657,9 +1657,9 @@
       "symbol": "3661.TW",
       "name": "世芯-KY",
       "category": "tw_stock",
-      "price": 3895.0,
-      "change_pct": 4.85,
-      "volume": 202000,
+      "price": 3820.0,
+      "change_pct": 2.83,
+      "volume": 413000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1678,8 +1678,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
+          "confidence": 0.26,
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1705,9 +1705,9 @@
       "symbol": "2439.TW",
       "name": "美律",
       "category": "tw_stock",
-      "price": 81.9,
-      "change_pct": 2.12,
-      "volume": 133000,
+      "price": 81.5,
+      "change_pct": 1.62,
+      "volume": 296000,
       "signal": "buy",
       "confidence": 0.38,
       "opinions": [
@@ -1727,14 +1727,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.28%)"
+          "rationale": "波動度正常(ATR/價格=2.32%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 81.9,
-        "stop_loss": 79.1036,
-        "take_profit": 86.5607,
-        "atr": 1.8643,
+        "entry_price": 81.5,
+        "stop_loss": 78.6607,
+        "take_profit": 86.2321,
+        "atr": 1.8929,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -1743,9 +1743,9 @@
       "symbol": "2492.TW",
       "name": "華新科",
       "category": "tw_stock",
-      "price": 257.5,
-      "change_pct": 2.59,
-      "volume": 1112000,
+      "price": 259.5,
+      "change_pct": 3.39,
+      "volume": 2882000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1765,7 +1765,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.74,
-          "rationale": "波動度過高(ATR/價格=8.72%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=8.71%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1781,16 +1781,16 @@
       "symbol": "6770.TW",
       "name": "力積電",
       "category": "tw_stock",
-      "price": 68.2,
-      "change_pct": 4.12,
-      "volume": 13370000,
+      "price": 67.4,
+      "change_pct": 2.9,
+      "volume": 27140000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.66,
+          "confidence": 0.67,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -1802,14 +1802,14 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.34,
-          "rationale": "波動度過高(ATR/價格=6.69%),建議降低部位或觀望"
+          "confidence": 0.35,
+          "rationale": "波動度過高(ATR/價格=6.77%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 68.2,
-        "stop_loss": 61.3589,
-        "take_profit": 79.6018,
+        "entry_price": 67.4,
+        "stop_loss": 60.5589,
+        "take_profit": 78.8018,
         "atr": 4.5607,
         "risk_reward_ratio": 1.67
       },
@@ -1835,9 +1835,9 @@
       "symbol": "3665.TW",
       "name": "貿聯-KY",
       "category": "tw_stock",
-      "price": 2135.0,
-      "change_pct": -2.95,
-      "volume": 155000,
+      "price": 2160.0,
+      "change_pct": -1.82,
+      "volume": 357000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1856,8 +1856,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.81,
-          "rationale": "波動度過高(ATR/價格=9.07%),建議降低部位或觀望"
+          "confidence": 0.8,
+          "rationale": "波動度過高(ATR/價格=9.01%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -1878,17 +1878,17 @@
       "symbol": "2059.TW",
       "name": "川湖",
       "category": "tw_stock",
-      "price": 11110.0,
-      "change_pct": 10.0,
-      "volume": 310213,
+      "price": 12220.0,
+      "change_pct": 9.99,
+      "volume": 422000,
       "signal": "sell",
-      "confidence": 0.38,
+      "confidence": 0.39,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.64,
-          "rationale": "rsi:sell(RSI=75.4 進入超買區); bollinger_band:sell(價格 11110.00 觸及上軌 10366.61)"
+          "confidence": 0.65,
+          "rationale": "rsi:sell(RSI=78.3 進入超買區); bollinger_band:sell(價格 12220.00 觸及上軌 11204.67)"
         },
         {
           "agent": "macro",
@@ -1899,15 +1899,15 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.17,
-          "rationale": "波動度過高(ATR/價格=5.83%),建議降低部位或觀望"
+          "confidence": 0.12,
+          "rationale": "波動度過高(ATR/價格=5.60%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 11110.0,
-        "stop_loss": 12081.7857,
-        "take_profit": 9490.3571,
-        "atr": 647.8571,
+        "entry_price": 12220.0,
+        "stop_loss": 13246.9643,
+        "take_profit": 10508.3929,
+        "atr": 684.6429,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -1922,9 +1922,9 @@
       "symbol": "2412.TW",
       "name": "中華電",
       "category": "tw_stock",
-      "price": 136.5,
-      "change_pct": -0.73,
-      "volume": 1529000,
+      "price": 136.0,
+      "change_pct": -1.09,
+      "volume": 3244000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1944,7 +1944,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.39%)"
+          "rationale": "波動度正常(ATR/價格=1.42%)"
         }
       ],
       "risk_levels": null,
@@ -1970,9 +1970,9 @@
       "symbol": "3045.TW",
       "name": "台灣大",
       "category": "tw_stock",
-      "price": 110.5,
-      "change_pct": -0.9,
-      "volume": 260000,
+      "price": 110.0,
+      "change_pct": -1.35,
+      "volume": 1076000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -1992,7 +1992,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.52%)"
+          "rationale": "波動度正常(ATR/價格=1.56%)"
         }
       ],
       "risk_levels": null,
@@ -2020,7 +2020,7 @@
       "category": "tw_stock",
       "price": 102.5,
       "change_pct": -0.49,
-      "volume": 127000,
+      "volume": 261000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2066,9 +2066,9 @@
       "symbol": "2881.TW",
       "name": "富邦金",
       "category": "tw_stock",
-      "price": 127.5,
-      "change_pct": 0.39,
-      "volume": 469000,
+      "price": 126.5,
+      "change_pct": -0.39,
+      "volume": 732000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2088,7 +2088,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.22%)"
+          "rationale": "波動度正常(ATR/價格=3.27%)"
         }
       ],
       "risk_levels": null,
@@ -2104,9 +2104,9 @@
       "symbol": "2882.TW",
       "name": "國泰金",
       "category": "tw_stock",
-      "price": 99.6,
-      "change_pct": 0.2,
-      "volume": 812000,
+      "price": 98.6,
+      "change_pct": -0.8,
+      "volume": 1932000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2126,7 +2126,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.22%)"
+          "rationale": "波動度正常(ATR/價格=3.30%)"
         }
       ],
       "risk_levels": null,
@@ -2152,17 +2152,17 @@
       "symbol": "2884.TW",
       "name": "玉山金",
       "category": "tw_stock",
-      "price": 37.8,
-      "change_pct": -0.92,
-      "volume": 1704000,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 37.5,
+      "change_pct": -1.7,
+      "volume": 3081000,
+      "signal": "sell",
+      "confidence": 0.34,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.56,
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉))"
         },
         {
           "agent": "macro",
@@ -2174,10 +2174,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.25%)"
+          "rationale": "波動度正常(ATR/價格=2.33%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 37.5,
+        "stop_loss": 38.8125,
+        "take_profit": 35.3125,
+        "atr": 0.875,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Yoshimura Food Holdings (TSE:2884) Margin Improvement Reinforces Bullish Narrative on Earnings Quality",
@@ -2190,17 +2196,17 @@
       "symbol": "2885.TW",
       "name": "元大金",
       "category": "tw_stock",
-      "price": 68.8,
-      "change_pct": 1.62,
-      "volume": 757000,
+      "price": 68.1,
+      "change_pct": 0.59,
+      "volume": 1252000,
       "signal": "sell",
-      "confidence": 0.23,
+      "confidence": 0.22,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.38,
-          "rationale": "rsi:sell(RSI=71.2 進入超買區)"
+          "confidence": 0.37,
+          "rationale": "rsi:sell(RSI=70.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -2212,14 +2218,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.49%)"
+          "rationale": "波動度正常(ATR/價格=3.53%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 68.8,
-        "stop_loss": 72.4,
-        "take_profit": 62.8,
-        "atr": 2.4,
+        "entry_price": 68.1,
+        "stop_loss": 71.7107,
+        "take_profit": 62.0821,
+        "atr": 2.4071,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -2228,9 +2234,9 @@
       "symbol": "2886.TW",
       "name": "兆豐金",
       "category": "tw_stock",
-      "price": 50.9,
-      "change_pct": 0.0,
-      "volume": 549000,
+      "price": 50.5,
+      "change_pct": -0.79,
+      "volume": 1154000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2250,7 +2256,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.90%)"
+          "rationale": "波動度正常(ATR/價格=2.97%)"
         }
       ],
       "risk_levels": null,
@@ -2260,9 +2266,9 @@
       "symbol": "2887.TW",
       "name": "台新金",
       "category": "tw_stock",
-      "price": 35.15,
-      "change_pct": 0.0,
-      "volume": 1214000,
+      "price": 34.85,
+      "change_pct": -0.85,
+      "volume": 3212000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2282,7 +2288,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.34%)"
+          "rationale": "波動度正常(ATR/價格=3.41%)"
         }
       ],
       "risk_levels": null,
@@ -2298,9 +2304,9 @@
       "symbol": "2889.TW",
       "name": "國票金",
       "category": "tw_stock",
-      "price": 15.3,
-      "change_pct": 0.0,
-      "volume": 153000,
+      "price": 15.25,
+      "change_pct": -0.33,
+      "volume": 896000,
       "signal": "buy",
       "confidence": 0.29,
       "opinions": [
@@ -2308,7 +2314,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.48,
-          "rationale": "rsi:buy(RSI=29.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -2320,14 +2326,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.49%)"
+          "rationale": "波動度正常(ATR/價格=1.55%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 15.3,
-        "stop_loss": 14.9571,
-        "take_profit": 15.8714,
-        "atr": 0.2286,
+        "entry_price": 15.25,
+        "stop_loss": 14.8964,
+        "take_profit": 15.8393,
+        "atr": 0.2357,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -2336,9 +2342,9 @@
       "symbol": "2890.TW",
       "name": "永豐金",
       "category": "tw_stock",
-      "price": 38.8,
-      "change_pct": -0.39,
-      "volume": 658000,
+      "price": 38.65,
+      "change_pct": -0.77,
+      "volume": 778000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2358,7 +2364,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.74%)"
+          "rationale": "波動度正常(ATR/價格=2.76%)"
         }
       ],
       "risk_levels": null,
@@ -2368,9 +2374,9 @@
       "symbol": "2891.TW",
       "name": "中信金",
       "category": "tw_stock",
-      "price": 65.4,
-      "change_pct": -0.3,
-      "volume": 833000,
+      "price": 65.0,
+      "change_pct": -0.91,
+      "volume": 2131000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2390,7 +2396,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.57%)"
+          "rationale": "波動度正常(ATR/價格=2.62%)"
         }
       ],
       "risk_levels": null,
@@ -2416,9 +2422,9 @@
       "symbol": "2892.TW",
       "name": "第一金",
       "category": "tw_stock",
-      "price": 35.45,
-      "change_pct": -0.28,
-      "volume": 1414000,
+      "price": 35.3,
+      "change_pct": -0.7,
+      "volume": 3180000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2438,7 +2444,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.51%)"
+          "rationale": "波動度正常(ATR/價格=2.55%)"
         }
       ],
       "risk_levels": null,
@@ -2454,17 +2460,17 @@
       "symbol": "2880.TW",
       "name": "華南金",
       "category": "tw_stock",
-      "price": 44.4,
-      "change_pct": 0.0,
-      "volume": 843000,
+      "price": 43.95,
+      "change_pct": -1.01,
+      "volume": 1625000,
       "signal": "sell",
-      "confidence": 0.26,
+      "confidence": 0.24,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.43,
-          "rationale": "rsi:sell(RSI=80.0 進入超買區)"
+          "confidence": 0.4,
+          "rationale": "rsi:sell(RSI=74.4 進入超買區)"
         },
         {
           "agent": "macro",
@@ -2476,14 +2482,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.48%)"
+          "rationale": "波動度正常(ATR/價格=3.55%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 44.4,
-        "stop_loss": 46.7196,
-        "take_profit": 40.5339,
-        "atr": 1.5464,
+        "entry_price": 43.95,
+        "stop_loss": 46.2911,
+        "take_profit": 40.0482,
+        "atr": 1.5607,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -2492,9 +2498,9 @@
       "symbol": "2883.TW",
       "name": "開發金",
       "category": "tw_stock",
-      "price": 30.75,
-      "change_pct": -0.32,
-      "volume": 1297000,
+      "price": 30.6,
+      "change_pct": -0.81,
+      "volume": 3135000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2514,7 +2520,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.21%)"
+          "rationale": "波動度正常(ATR/價格=3.26%)"
         }
       ],
       "risk_levels": null,
@@ -2524,9 +2530,9 @@
       "symbol": "5880.TW",
       "name": "合庫金",
       "category": "tw_stock",
-      "price": 26.3,
-      "change_pct": 0.38,
-      "volume": 818000,
+      "price": 26.15,
+      "change_pct": -0.19,
+      "volume": 2181000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2546,7 +2552,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.01%)"
+          "rationale": "波動度正常(ATR/價格=2.05%)"
         }
       ],
       "risk_levels": null,
@@ -2558,7 +2564,7 @@
       "category": "tw_stock",
       "price": 23.15,
       "change_pct": 0.0,
-      "volume": 2242000,
+      "volume": 2832000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2594,9 +2600,9 @@
       "symbol": "5876.TW",
       "name": "上海商銀",
       "category": "tw_stock",
-      "price": 43.4,
-      "change_pct": -0.12,
-      "volume": 357000,
+      "price": 43.3,
+      "change_pct": -0.35,
+      "volume": 874000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2616,7 +2622,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.28%)"
+          "rationale": "波動度正常(ATR/價格=2.30%)"
         }
       ],
       "risk_levels": null,
@@ -2626,9 +2632,9 @@
       "symbol": "2812.TW",
       "name": "台中銀",
       "category": "tw_stock",
-      "price": 18.6,
-      "change_pct": -0.27,
-      "volume": 758000,
+      "price": 18.5,
+      "change_pct": -0.8,
+      "volume": 2849000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2648,7 +2654,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.53%)"
+          "rationale": "波動度正常(ATR/價格=1.61%)"
         }
       ],
       "risk_levels": null,
@@ -2658,369 +2664,9 @@
       "symbol": "2834.TW",
       "name": "臺企銀",
       "category": "tw_stock",
-      "price": 16.55,
-      "change_pct": 0.3,
-      "volume": 675000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.59%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "5871.TW",
-      "name": "中租-KY",
-      "category": "tw_stock",
-      "price": 109.5,
-      "change_pct": 0.46,
-      "volume": 278000,
-      "signal": "buy",
-      "confidence": 0.31,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=29.8 進入超賣區)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.29%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 109.5,
-        "stop_loss": 105.7411,
-        "take_profit": 115.7648,
-        "atr": 2.5059,
-        "risk_reward_ratio": 1.67
-      },
-      "news": [
-        {
-          "title": "Jensen Huang pitches AI returns to family offices at Taipei event",
-          "publisher": "Quartz",
-          "link": "https://qz.com/jensen-huang-ai-returns-family-offices-taipei-060326"
-        },
-        {
-          "title": "Chailease Holding Co Ltd (TPE:5871) Q4 2025 Earnings Call Highlights: Navigating Challenges ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/news/chailease-holding-co-ltd-tpe-170042671.html"
-        },
-        {
-          "title": "Chailease Holding Co Ltd (TPE:5871) Q3 2025 Earnings Call Highlights: Navigating Challenges ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/news/chailease-holding-co-ltd-tpe-170054033.html"
-        }
-      ]
-    },
-    {
-      "symbol": "6005.TW",
-      "name": "群益證",
-      "category": "tw_stock",
-      "price": 33.9,
-      "change_pct": 0.15,
-      "volume": 681000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.39%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": [
-        {
-          "title": "Does Miura’s 3% Weekly Jump Signal Opportunity After Recent Sector Optimism?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/does-miura-3-weekly-jump-104416784.html"
-        }
-      ]
-    },
-    {
-      "symbol": "1301.TW",
-      "name": "台塑",
-      "category": "tw_stock",
-      "price": 56.5,
-      "change_pct": 1.25,
-      "volume": 958000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.09,
-          "rationale": "波動度過高(ATR/價格=5.44%),建議降低部位或觀望"
-        }
-      ],
-      "risk_levels": null,
-      "news": [
-        {
-          "title": "Kyokuyo (TSE:1301) Earnings Growth Stays Solid as Margins Hold at 2.2%, Testing Bull Case",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/kyokuyo-tse-1301-earnings-growth-142157828.html"
-        },
-        {
-          "title": "3 Global Dividend Stocks Yielding Over 3%",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/3-global-dividend-stocks-yielding-093237795.html"
-        }
-      ]
-    },
-    {
-      "symbol": "1303.TW",
-      "name": "南亞",
-      "category": "tw_stock",
-      "price": 190.5,
-      "change_pct": 1.33,
-      "volume": 6306000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.6,
-          "rationale": "波動度過高(ATR/價格=7.99%),建議降低部位或觀望"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "1326.TW",
-      "name": "台化",
-      "category": "tw_stock",
-      "price": 59.6,
-      "change_pct": 1.19,
-      "volume": 968000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.31,
-          "rationale": "波動度過高(ATR/價格=6.53%),建議降低部位或觀望"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "6505.TW",
-      "name": "台塑化",
-      "category": "tw_stock",
-      "price": 70.7,
-      "change_pct": -0.42,
-      "volume": 2137000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.61,
-          "rationale": "波動度過高(ATR/價格=8.07%),建議降低部位或觀望"
-        }
-      ],
-      "risk_levels": null,
-      "news": [
-        {
-          "title": "FPCC invokes force majeure on shipments amid Hormuz disruptions",
-          "publisher": "Offshore Technology",
-          "link": "https://www.offshore-technology.com/news/fpcc-force-majeure-shipments-hormuz-disruptions/"
-        },
-        {
-          "title": "Global Dividend Stocks To Consider In October 2025",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/global-dividend-stocks-consider-october-093205721.html"
-        },
-        {
-          "title": "Toyo Denki (TSE:6505) Earnings Surge 182%, Challenging Cautious Narratives on Sustainable Growth",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/toyo-denki-tse-6505-earnings-202112971.html"
-        }
-      ]
-    },
-    {
-      "symbol": "2002.TW",
-      "name": "中鋼",
-      "category": "tw_stock",
-      "price": 19.25,
-      "change_pct": 1.05,
-      "volume": 5726000,
-      "signal": "sell",
-      "confidence": 0.32,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.53,
-          "rationale": "rsi:sell(RSI=71.4 進入超買區)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 19.25,
-        "stop_loss": 19.7421,
-        "take_profit": 18.4298,
-        "atr": 0.3281,
-        "risk_reward_ratio": 1.67
-      },
-      "news": [
-        {
-          "title": "How the 4.9% Monthly Gain Impacts Nisshin Seifun Group’s Value in 2025",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/4-9-monthly-gain-impacts-112506176.html"
-        },
-        {
-          "title": "Is Nisshin Seifun Group (TSE:2002) Undervalued? A Fresh Look at Its Latest Valuation",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/news/nisshin-seifun-group-tse-2002-122810870.html"
-        }
-      ]
-    },
-    {
-      "symbol": "1101.TW",
-      "name": "台泥",
-      "category": "tw_stock",
-      "price": 24.4,
-      "change_pct": 0.21,
-      "volume": 326000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.22%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "1102.TW",
-      "name": "亞泥",
-      "category": "tw_stock",
-      "price": 32.9,
-      "change_pct": 0.15,
-      "volume": 97000,
+      "price": 16.4,
+      "change_pct": -0.61,
+      "volume": 4378000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3047,12 +2693,384 @@
       "news": []
     },
     {
+      "symbol": "5871.TW",
+      "name": "中租-KY",
+      "category": "tw_stock",
+      "price": 108.5,
+      "change_pct": -0.46,
+      "volume": 820000,
+      "signal": "buy",
+      "confidence": 0.3,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.5,
+          "rationale": "rsi:buy(RSI=26.3 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.38%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 108.5,
+        "stop_loss": 104.634,
+        "take_profit": 114.9434,
+        "atr": 2.5773,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "Jensen Huang pitches AI returns to family offices at Taipei event",
+          "publisher": "Quartz",
+          "link": "https://qz.com/jensen-huang-ai-returns-family-offices-taipei-060326"
+        },
+        {
+          "title": "Chailease Holding Co Ltd (TPE:5871) Q4 2025 Earnings Call Highlights: Navigating Challenges ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/news/chailease-holding-co-ltd-tpe-170042671.html"
+        },
+        {
+          "title": "Chailease Holding Co Ltd (TPE:5871) Q3 2025 Earnings Call Highlights: Navigating Challenges ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/news/chailease-holding-co-ltd-tpe-170054033.html"
+        }
+      ]
+    },
+    {
+      "symbol": "6005.TW",
+      "name": "群益證",
+      "category": "tw_stock",
+      "price": 33.35,
+      "change_pct": -1.48,
+      "volume": 1993000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=3.57%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Does Miura’s 3% Weekly Jump Signal Opportunity After Recent Sector Optimism?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/does-miura-3-weekly-jump-104416784.html"
+        }
+      ]
+    },
+    {
+      "symbol": "1301.TW",
+      "name": "台塑",
+      "category": "tw_stock",
+      "price": 55.8,
+      "change_pct": 0.0,
+      "volume": 2020000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.11,
+          "rationale": "波動度過高(ATR/價格=5.53%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Kyokuyo (TSE:1301) Earnings Growth Stays Solid as Margins Hold at 2.2%, Testing Bull Case",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/kyokuyo-tse-1301-earnings-growth-142157828.html"
+        },
+        {
+          "title": "3 Global Dividend Stocks Yielding Over 3%",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/3-global-dividend-stocks-yielding-093237795.html"
+        }
+      ]
+    },
+    {
+      "symbol": "1303.TW",
+      "name": "南亞",
+      "category": "tw_stock",
+      "price": 190.0,
+      "change_pct": 1.06,
+      "volume": 13755000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.61,
+          "rationale": "波動度過高(ATR/價格=8.06%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "1326.TW",
+      "name": "台化",
+      "category": "tw_stock",
+      "price": 58.8,
+      "change_pct": -0.17,
+      "volume": 2475000,
+      "signal": "buy",
+      "confidence": 0.23,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.39,
+          "rationale": "rsi:buy(RSI=29.8 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.34,
+          "rationale": "波動度過高(ATR/價格=6.69%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 58.8,
+        "stop_loss": 52.8964,
+        "take_profit": 68.6393,
+        "atr": 3.9357,
+        "risk_reward_ratio": 1.67
+      },
+      "news": []
+    },
+    {
+      "symbol": "6505.TW",
+      "name": "台塑化",
+      "category": "tw_stock",
+      "price": 68.3,
+      "change_pct": -3.8,
+      "volume": 5645000,
+      "signal": "buy",
+      "confidence": 0.23,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.38,
+          "rationale": "rsi:buy(RSI=29.9 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.71,
+          "rationale": "波動度過高(ATR/價格=8.53%),建議降低部位或觀望"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 68.3,
+        "stop_loss": 59.5571,
+        "take_profit": 82.8714,
+        "atr": 5.8286,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "FPCC invokes force majeure on shipments amid Hormuz disruptions",
+          "publisher": "Offshore Technology",
+          "link": "https://www.offshore-technology.com/news/fpcc-force-majeure-shipments-hormuz-disruptions/"
+        },
+        {
+          "title": "Global Dividend Stocks To Consider In October 2025",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/global-dividend-stocks-consider-october-093205721.html"
+        },
+        {
+          "title": "Toyo Denki (TSE:6505) Earnings Surge 182%, Challenging Cautious Narratives on Sustainable Growth",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/toyo-denki-tse-6505-earnings-202112971.html"
+        }
+      ]
+    },
+    {
+      "symbol": "2002.TW",
+      "name": "中鋼",
+      "category": "tw_stock",
+      "price": 19.2,
+      "change_pct": 0.79,
+      "volume": 8345000,
+      "signal": "sell",
+      "confidence": 0.32,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "sell",
+          "confidence": 0.53,
+          "rationale": "rsi:sell(RSI=70.3 進入超買區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.71%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 19.2,
+        "stop_loss": 19.6921,
+        "take_profit": 18.3798,
+        "atr": 0.3281,
+        "risk_reward_ratio": 1.67
+      },
+      "news": [
+        {
+          "title": "How the 4.9% Monthly Gain Impacts Nisshin Seifun Group’s Value in 2025",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/4-9-monthly-gain-impacts-112506176.html"
+        },
+        {
+          "title": "Is Nisshin Seifun Group (TSE:2002) Undervalued? A Fresh Look at Its Latest Valuation",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/news/nisshin-seifun-group-tse-2002-122810870.html"
+        }
+      ]
+    },
+    {
+      "symbol": "1101.TW",
+      "name": "台泥",
+      "category": "tw_stock",
+      "price": 24.3,
+      "change_pct": -0.21,
+      "volume": 1040000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.26%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "1102.TW",
+      "name": "亞泥",
+      "category": "tw_stock",
+      "price": 32.7,
+      "change_pct": -0.46,
+      "volume": 612000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.74%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
       "symbol": "1802.TW",
       "name": "台玻",
       "category": "tw_stock",
-      "price": 56.0,
-      "change_pct": 5.46,
-      "volume": 2029000,
+      "price": 55.4,
+      "change_pct": 4.33,
+      "volume": 4490000,
       "signal": "buy",
       "confidence": 0.4,
       "opinions": [
@@ -3071,15 +3089,15 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.31,
-          "rationale": "波動度過高(ATR/價格=6.56%),建議降低部位或觀望"
+          "confidence": 0.33,
+          "rationale": "波動度過高(ATR/價格=6.67%),建議降低部位或觀望"
         }
       ],
       "risk_levels": {
-        "entry_price": 56.0,
-        "stop_loss": 50.4875,
-        "take_profit": 65.1875,
-        "atr": 3.675,
+        "entry_price": 55.4,
+        "stop_loss": 49.8554,
+        "take_profit": 64.6411,
+        "atr": 3.6964,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -3094,9 +3112,9 @@
       "symbol": "1216.TW",
       "name": "統一",
       "category": "tw_stock",
-      "price": 75.0,
-      "change_pct": -0.92,
-      "volume": 474000,
+      "price": 75.1,
+      "change_pct": -0.79,
+      "volume": 977000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3116,7 +3134,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.51%)"
+          "rationale": "波動度正常(ATR/價格=2.54%)"
         }
       ],
       "risk_levels": null,
@@ -3126,9 +3144,9 @@
       "symbol": "1210.TW",
       "name": "大成",
       "category": "tw_stock",
-      "price": 52.7,
-      "change_pct": 0.0,
-      "volume": 99000,
+      "price": 52.2,
+      "change_pct": -0.95,
+      "volume": 345000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3148,7 +3166,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.73%)"
+          "rationale": "波動度正常(ATR/價格=1.83%)"
         }
       ],
       "risk_levels": null,
@@ -3158,9 +3176,9 @@
       "symbol": "1227.TW",
       "name": "佳格",
       "category": "tw_stock",
-      "price": 29.1,
-      "change_pct": -0.17,
-      "volume": 32000,
+      "price": 28.95,
+      "change_pct": -0.69,
+      "volume": 164000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3180,7 +3198,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.46%)"
+          "rationale": "波動度正常(ATR/價格=1.50%)"
         }
       ],
       "risk_levels": null,
@@ -3192,7 +3210,7 @@
       "category": "tw_stock",
       "price": 220.0,
       "change_pct": -0.45,
-      "volume": 117000,
+      "volume": 272000,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -3212,14 +3230,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.28%)"
+          "rationale": "波動度正常(ATR/價格=2.32%)"
         }
       ],
       "risk_levels": {
         "entry_price": 220.0,
-        "stop_loss": 212.4653,
-        "take_profit": 232.5578,
-        "atr": 5.0231,
+        "stop_loss": 212.3582,
+        "take_profit": 232.7364,
+        "atr": 5.0945,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -3228,9 +3246,9 @@
       "symbol": "2915.TW",
       "name": "潤泰全",
       "category": "tw_stock",
-      "price": 52.3,
-      "change_pct": 0.77,
-      "volume": 28000,
+      "price": 52.4,
+      "change_pct": 0.96,
+      "volume": 71000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3250,7 +3268,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.90%)"
+          "rationale": "波動度正常(ATR/價格=1.89%)"
         }
       ],
       "risk_levels": null,
@@ -3260,9 +3278,9 @@
       "symbol": "1229.TW",
       "name": "聯華",
       "category": "tw_stock",
-      "price": 40.7,
-      "change_pct": 0.12,
-      "volume": 31000,
+      "price": 40.5,
+      "change_pct": -0.37,
+      "volume": 83000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3282,7 +3300,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.38%)"
+          "rationale": "波動度正常(ATR/價格=2.43%)"
         }
       ],
       "risk_levels": null,
@@ -3292,9 +3310,9 @@
       "symbol": "1476.TW",
       "name": "儒鴻",
       "category": "tw_stock",
-      "price": 344.0,
-      "change_pct": -0.86,
-      "volume": 57000,
+      "price": 340.5,
+      "change_pct": -1.87,
+      "volume": 188000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3314,7 +3332,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.20%)"
         }
       ],
       "risk_levels": null,
@@ -3324,9 +3342,9 @@
       "symbol": "9910.TW",
       "name": "豐泰",
       "category": "tw_stock",
-      "price": 69.3,
-      "change_pct": -0.29,
-      "volume": 26000,
+      "price": 69.4,
+      "change_pct": -0.14,
+      "volume": 40000,
       "signal": "buy",
       "confidence": 0.39,
       "opinions": [
@@ -3350,9 +3368,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 69.3,
-        "stop_loss": 66.7071,
-        "take_profit": 73.6214,
+        "entry_price": 69.4,
+        "stop_loss": 66.8071,
+        "take_profit": 73.7214,
         "atr": 1.7286,
         "risk_reward_ratio": 1.67
       },
@@ -3364,7 +3382,7 @@
       "category": "tw_stock",
       "price": 26.85,
       "change_pct": 0.37,
-      "volume": 95000,
+      "volume": 422000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3394,9 +3412,9 @@
       "symbol": "2049.TW",
       "name": "上銀",
       "category": "tw_stock",
-      "price": 371.5,
-      "change_pct": -4.01,
-      "volume": 840000,
+      "price": 369.5,
+      "change_pct": -4.52,
+      "volume": 1891000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3415,8 +3433,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.31,
-          "rationale": "波動度過高(ATR/價格=6.54%),建議降低部位或觀望"
+          "confidence": 0.33,
+          "rationale": "波動度過高(ATR/價格=6.67%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -3426,9 +3444,9 @@
       "symbol": "1477.TW",
       "name": "聚陽",
       "category": "tw_stock",
-      "price": 225.0,
-      "change_pct": 0.45,
-      "volume": 56000,
+      "price": 224.0,
+      "change_pct": 0.0,
+      "volume": 124000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3448,7 +3466,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.41%)"
+          "rationale": "波動度正常(ATR/價格=2.44%)"
         }
       ],
       "risk_levels": null,
@@ -3458,9 +3476,9 @@
       "symbol": "1590.TW",
       "name": "亞德客-KY",
       "category": "tw_stock",
-      "price": 1485.0,
-      "change_pct": -3.88,
-      "volume": 58000,
+      "price": 1480.0,
+      "change_pct": -4.21,
+      "volume": 100000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3479,8 +3497,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.15,
-          "rationale": "波動度過高(ATR/價格=5.76%),建議降低部位或觀望"
+          "confidence": 0.18,
+          "rationale": "波動度過高(ATR/價格=5.88%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -3496,9 +3514,9 @@
       "symbol": "1519.TW",
       "name": "華城",
       "category": "tw_stock",
-      "price": 659.0,
-      "change_pct": 0.92,
-      "volume": 38000,
+      "price": 661.0,
+      "change_pct": 1.23,
+      "volume": 94000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3518,7 +3536,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.28%)"
+          "rationale": "波動度正常(ATR/價格=4.27%)"
         }
       ],
       "risk_levels": null,
@@ -3530,7 +3548,7 @@
       "category": "tw_stock",
       "price": 195.5,
       "change_pct": 1.03,
-      "volume": 36000,
+      "volume": 69000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3560,17 +3578,17 @@
       "symbol": "2006.TW",
       "name": "東和鋼鐵",
       "category": "tw_stock",
-      "price": 87.8,
-      "change_pct": -0.79,
-      "volume": 140000,
+      "price": 87.3,
+      "change_pct": -1.36,
+      "volume": 244000,
       "signal": "sell",
-      "confidence": 0.25,
+      "confidence": 0.24,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.41,
-          "rationale": "rsi:sell(RSI=79.2 進入超買區)"
+          "confidence": 0.4,
+          "rationale": "rsi:sell(RSI=77.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -3582,14 +3600,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.53%)"
+          "rationale": "波動度正常(ATR/價格=3.58%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 87.8,
-        "stop_loss": 92.45,
-        "take_profit": 80.05,
-        "atr": 3.1,
+        "entry_price": 87.3,
+        "stop_loss": 91.9929,
+        "take_profit": 79.4786,
+        "atr": 3.1286,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -3598,9 +3616,9 @@
       "symbol": "2015.TW",
       "name": "豐興",
       "category": "tw_stock",
-      "price": 66.2,
-      "change_pct": 0.61,
-      "volume": 5000,
+      "price": 65.5,
+      "change_pct": -0.46,
+      "volume": 18000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3620,7 +3638,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.17%)"
+          "rationale": "波動度正常(ATR/價格=2.22%)"
         }
       ],
       "risk_levels": null,
@@ -3630,9 +3648,9 @@
       "symbol": "2027.TW",
       "name": "大成鋼",
       "category": "tw_stock",
-      "price": 46.9,
-      "change_pct": 0.64,
-      "volume": 1371000,
+      "price": 47.05,
+      "change_pct": 0.97,
+      "volume": 2193000,
       "signal": "sell",
       "confidence": 0.22,
       "opinions": [
@@ -3640,7 +3658,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.37,
-          "rationale": "rsi:sell(RSI=71.2 進入超買區)"
+          "rationale": "rsi:sell(RSI=71.5 進入超買區)"
         },
         {
           "agent": "macro",
@@ -3652,13 +3670,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.69%)"
+          "rationale": "波動度正常(ATR/價格=3.67%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 46.9,
-        "stop_loss": 49.4929,
-        "take_profit": 42.5786,
+        "entry_price": 47.05,
+        "stop_loss": 49.6429,
+        "take_profit": 42.7286,
         "atr": 1.7286,
         "risk_reward_ratio": 1.67
       },
@@ -3668,9 +3686,9 @@
       "symbol": "9904.TW",
       "name": "寶成",
       "category": "tw_stock",
-      "price": 23.95,
-      "change_pct": 0.21,
-      "volume": 327000,
+      "price": 23.8,
+      "change_pct": -0.42,
+      "volume": 1409000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3690,7 +3708,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.67%)"
+          "rationale": "波動度正常(ATR/價格=1.73%)"
         }
       ],
       "risk_levels": null,
@@ -3702,7 +3720,7 @@
       "category": "tw_stock",
       "price": 101.5,
       "change_pct": 9.85,
-      "volume": 1723000,
+      "volume": 3450000,
       "signal": "sell",
       "confidence": 0.39,
       "opinions": [
@@ -3738,17 +3756,17 @@
       "symbol": "9914.TW",
       "name": "美利達",
       "category": "tw_stock",
-      "price": 85.1,
-      "change_pct": 5.32,
-      "volume": 400000,
+      "price": 86.6,
+      "change_pct": 7.18,
+      "volume": 2300000,
       "signal": "sell",
-      "confidence": 0.31,
+      "confidence": 0.42,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.52,
-          "rationale": "bollinger_band:sell(價格 85.10 觸及上軌 83.14)"
+          "confidence": 0.7,
+          "rationale": "rsi:sell(RSI=70.1 進入超買區); bollinger_band:sell(價格 86.60 觸及上軌 83.65)"
         },
         {
           "agent": "macro",
@@ -3760,14 +3778,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.34%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 85.1,
-        "stop_loss": 89.368,
-        "take_profit": 77.9867,
-        "atr": 2.8453,
+        "entry_price": 86.6,
+        "stop_loss": 91.1465,
+        "take_profit": 79.0224,
+        "atr": 3.031,
         "risk_reward_ratio": 1.67
       },
       "news": []
@@ -3776,9 +3794,9 @@
       "symbol": "9917.TW",
       "name": "中保科",
       "category": "tw_stock",
-      "price": 108.5,
-      "change_pct": 0.46,
-      "volume": 7000,
+      "price": 108.0,
+      "change_pct": 0.0,
+      "volume": 18000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3798,7 +3816,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.38%)"
+          "rationale": "波動度正常(ATR/價格=1.39%)"
         }
       ],
       "risk_levels": null,
@@ -3808,16 +3826,16 @@
       "symbol": "9958.TW",
       "name": "世紀鋼",
       "category": "tw_stock",
-      "price": 114.5,
-      "change_pct": 0.88,
-      "volume": 114000,
+      "price": 115.0,
+      "change_pct": 1.32,
+      "volume": 218000,
       "signal": "buy",
-      "confidence": 0.36,
+      "confidence": 0.35,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.6,
+          "confidence": 0.59,
           "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
@@ -3830,13 +3848,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.27%)"
+          "rationale": "波動度正常(ATR/價格=3.26%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 114.5,
-        "stop_loss": 108.8813,
-        "take_profit": 123.8646,
+        "entry_price": 115.0,
+        "stop_loss": 109.3813,
+        "take_profit": 124.3646,
         "atr": 3.7458,
         "risk_reward_ratio": 1.67
       },
@@ -3846,16 +3864,16 @@
       "symbol": "6176.TW",
       "name": "瑞儀",
       "category": "tw_stock",
-      "price": 83.1,
-      "change_pct": -0.36,
-      "volume": 97000,
+      "price": 82.9,
+      "change_pct": -0.6,
+      "volume": 175000,
       "signal": "sell",
-      "confidence": 0.38,
+      "confidence": 0.37,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.63,
+          "confidence": 0.62,
           "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉))"
         },
         {
@@ -3868,14 +3886,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.89%)"
+          "rationale": "波動度正常(ATR/價格=3.91%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 83.1,
-        "stop_loss": 87.9536,
-        "take_profit": 75.0107,
-        "atr": 3.2357,
+        "entry_price": 82.9,
+        "stop_loss": 87.7643,
+        "take_profit": 74.7929,
+        "atr": 3.2429,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -3892,77 +3910,7 @@
       "category": "tw_stock",
       "price": 44.1,
       "change_pct": -0.45,
-      "volume": 145000,
-      "signal": "hold",
-      "confidence": 0.0,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.87%)"
-        }
-      ],
-      "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "5522.TW",
-      "name": "遠雄",
-      "category": "tw_stock",
-      "price": 65.0,
-      "change_pct": 1.4,
-      "volume": 16000,
-      "signal": "buy",
-      "confidence": 0.29,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.49,
-          "rationale": "rsi:buy(RSI=28.0 進入超賣區)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.14%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 65.0,
-        "stop_loss": 62.9107,
-        "take_profit": 68.4821,
-        "atr": 1.3929,
-        "risk_reward_ratio": 1.67
-      },
-      "news": []
-    },
-    {
-      "symbol": "2603.TW",
-      "name": "長榮",
-      "category": "tw_stock",
-      "price": 210.0,
-      "change_pct": 1.2,
-      "volume": 838000,
+      "volume": 252000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3989,12 +3937,50 @@
       "news": []
     },
     {
-      "symbol": "2609.TW",
-      "name": "陽明",
+      "symbol": "5522.TW",
+      "name": "遠雄",
       "category": "tw_stock",
-      "price": 50.8,
-      "change_pct": 0.59,
-      "volume": 587000,
+      "price": 64.2,
+      "change_pct": 0.16,
+      "volume": 68000,
+      "signal": "buy",
+      "confidence": 0.31,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.52,
+          "rationale": "rsi:buy(RSI=20.3 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.18%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 64.2,
+        "stop_loss": 62.1,
+        "take_profit": 67.7,
+        "atr": 1.4,
+        "risk_reward_ratio": 1.67
+      },
+      "news": []
+    },
+    {
+      "symbol": "2603.TW",
+      "name": "長榮",
+      "category": "tw_stock",
+      "price": 210.5,
+      "change_pct": 1.45,
+      "volume": 1576000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4014,7 +4000,39 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.14%)"
+          "rationale": "波動度正常(ATR/價格=1.93%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": []
+    },
+    {
+      "symbol": "2609.TW",
+      "name": "陽明",
+      "category": "tw_stock",
+      "price": 50.9,
+      "change_pct": 0.79,
+      "volume": 1981000,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.19%)"
         }
       ],
       "risk_levels": null,
@@ -4030,17 +4048,17 @@
       "symbol": "2615.TW",
       "name": "萬海",
       "category": "tw_stock",
-      "price": 86.2,
-      "change_pct": 1.53,
-      "volume": 350000,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 87.7,
+      "change_pct": 3.3,
+      "volume": 2486000,
+      "signal": "buy",
+      "confidence": 0.34,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.57,
+          "rationale": "macd:buy(MACD 柱狀體翻正(黃金交叉))"
         },
         {
           "agent": "macro",
@@ -4052,10 +4070,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.69%)"
+          "rationale": "波動度正常(ATR/價格=2.79%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 87.7,
+        "stop_loss": 84.025,
+        "take_profit": 93.825,
+        "atr": 2.45,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Freight Rates Spike Double Digits as China Scrutinizes Ocean Carriers",
@@ -4068,16 +4092,16 @@
       "symbol": "2618.TW",
       "name": "長榮航",
       "category": "tw_stock",
-      "price": 41.55,
-      "change_pct": -6.42,
-      "volume": 4556000,
+      "price": 42.3,
+      "change_pct": -4.73,
+      "volume": 8656000,
       "signal": "sell",
-      "confidence": 0.36,
+      "confidence": 0.35,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.6,
+          "confidence": 0.59,
           "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉))"
         },
         {
@@ -4090,14 +4114,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.85%)"
+          "rationale": "波動度正常(ATR/價格=3.79%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 41.55,
-        "stop_loss": 43.95,
-        "take_profit": 37.55,
-        "atr": 1.6,
+        "entry_price": 42.3,
+        "stop_loss": 44.7054,
+        "take_profit": 38.2911,
+        "atr": 1.6036,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4117,9 +4141,9 @@
       "symbol": "2610.TW",
       "name": "華航",
       "category": "tw_stock",
-      "price": 20.7,
-      "change_pct": -8.0,
-      "volume": 5688000,
+      "price": 20.65,
+      "change_pct": -8.22,
+      "volume": 20942000,
       "signal": "sell",
       "confidence": 0.34,
       "opinions": [
@@ -4139,14 +4163,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.90%)"
+          "rationale": "波動度正常(ATR/價格=4.05%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 20.7,
-        "stop_loss": 21.9107,
-        "take_profit": 18.6821,
-        "atr": 0.8071,
+        "entry_price": 20.65,
+        "stop_loss": 21.9036,
+        "take_profit": 18.5607,
+        "atr": 0.8357,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4171,9 +4195,9 @@
       "symbol": "2634.TW",
       "name": "漢翔",
       "category": "tw_stock",
-      "price": 61.3,
-      "change_pct": -0.65,
-      "volume": 465000,
+      "price": 61.1,
+      "change_pct": -0.97,
+      "volume": 1705000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4192,8 +4216,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.25,
-          "rationale": "波動度過高(ATR/價格=6.23%),建議降低部位或觀望"
+          "confidence": 0.26,
+          "rationale": "波動度過高(ATR/價格=6.31%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4551,9 +4575,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4382.7002,
-      "change_pct": 0.97,
-      "volume": 8713,
+      "price": 4385.3999,
+      "change_pct": 1.03,
+      "volume": 9260,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4561,7 +4585,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.3 進入超買區); bollinger_band:sell(價格 4382.70 觸及上軌 4326.60)"
+          "rationale": "rsi:sell(RSI=71.4 進入超買區); bollinger_band:sell(價格 4385.40 觸及上軌 4327.45)"
         },
         {
           "agent": "macro",
@@ -4577,9 +4601,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4382.7002,
-        "stop_loss": 4493.593,
-        "take_profit": 4197.8788,
+        "entry_price": 4385.3999,
+        "stop_loss": 4496.2927,
+        "take_profit": 4200.5785,
         "atr": 73.9286,
         "risk_reward_ratio": 1.67
       },
@@ -4605,9 +4629,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 78.88,
-      "change_pct": 0.9,
-      "volume": 13491,
+      "price": 78.89,
+      "change_pct": 0.91,
+      "volume": 13791,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4653,8 +4677,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.251,
-      "change_pct": 0.14,
+      "price": 32.248,
+      "change_pct": 0.13,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4701,7 +4725,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.103,
+      "price": 158.107,
       "change_pct": -0.19,
       "volume": 0,
       "signal": "buy",
@@ -4727,9 +4751,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 158.103,
-        "stop_loss": 155.5181,
-        "take_profit": 162.4112,
+        "entry_price": 158.107,
+        "stop_loss": 155.5221,
+        "take_profit": 162.4152,
         "atr": 1.7233,
         "risk_reward_ratio": 1.67
       },
@@ -4755,9 +4779,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64960.5,
-      "change_pct": 0.09,
-      "volume": 13692720128,
+      "price": 65005.0,
+      "change_pct": 0.15,
+      "volume": 13715172352,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4803,9 +4827,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1913.83,
-      "change_pct": -0.09,
-      "volume": 4940755968,
+      "price": 1916.04,
+      "change_pct": 0.03,
+      "volume": 4993710592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4825,7 +4849,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.65%)"
+          "rationale": "波動度正常(ATR/價格=2.64%)"
         }
       ],
       "risk_levels": null,
