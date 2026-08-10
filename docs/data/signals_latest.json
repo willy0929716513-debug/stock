@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:37:34.188606+00:00",
+  "generated_at": "2026-08-10T21:43:02.064884+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4284,14 +4284,14 @@
           "link": "https://finance.yahoo.com/video/apple-downgraded-jefferies-over-iphone-202918014.html"
         },
         {
+          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
+        },
+        {
           "title": "Apple Stock Downgraded to Sell as Analyst Claims All-Glass iPhone Is Dead",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/apple-stock-sell-downgrade-iphone-glass-2a001a49?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Update: US Equity Indexes Decline as Fading Hopes for Quick Hormuz Reopening Lift Crude Oil, Treasury Yields",
-          "publisher": "MT Newswires",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-fading-210504190.html"
         }
       ]
     },
@@ -4391,9 +4391,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
+          "title": "CoreWeave Investors Face a Growing Problem",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-investors-face-growing-problem-213847404.html"
         }
       ]
     },
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.238,
-      "change_pct": 0.1,
+      "price": 32.235,
+      "change_pct": 0.09,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.222,
-      "change_pct": 0.51,
+      "price": 159.237,
+      "change_pct": 0.52,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64057.0703,
-      "change_pct": -1.21,
-      "volume": 23497787392,
+      "price": 63975.2617,
+      "change_pct": -1.34,
+      "volume": 23458732032,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1875.5,
-      "change_pct": -1.74,
-      "volume": 9264664576,
+      "price": 1874.1899,
+      "change_pct": -1.81,
+      "volume": 9279668224,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
