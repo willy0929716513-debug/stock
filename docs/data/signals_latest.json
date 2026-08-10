@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:42:53.365492+00:00",
+  "generated_at": "2026-08-10T14:48:19.349251+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -249,6 +249,11 @@
       },
       "news": [
         {
+          "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Monday Trading",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144228592.html"
+        },
+        {
           "title": "Asia Pacific Share Sales Overcome Volatility to Shatter Records",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/stocks/articles/asia-pacific-share-sales-overcome-040017919.html"
@@ -257,11 +262,6 @@
           "title": "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-surges-82-6-143800073.html"
-        },
-        {
-          "title": "ASX Q2 Earnings Beat Estimates on AI-Driven LEAP, ATM Growth",
-          "publisher": "Zacks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/asx-q2-earnings-beat-estimates-181200620.html"
         }
       ]
     },
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.5775,
-      "change_pct": -2.16,
-      "volume": 15073404,
+      "price": 306.355,
+      "change_pct": -2.23,
+      "volume": 15447500,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 511.15,
-      "change_pct": 2.23,
-      "volume": 8971391,
+      "price": 509.88,
+      "change_pct": 1.98,
+      "volume": 9389180,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4303,7 +4303,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=85.0 進入超買區)"
+          "rationale": "rsi:sell(RSI=84.9 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4315,13 +4315,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.53%)"
+          "rationale": "波動度正常(ATR/價格=3.54%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 511.15,
-        "stop_loss": 538.2299,
-        "take_profit": 466.0168,
+        "entry_price": 509.88,
+        "stop_loss": 536.9599,
+        "take_profit": 464.7468,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4337,9 +4337,9 @@
           "link": "https://finance.yahoo.com/video/why-google-amazon-rank-top-143256903.html"
         },
         {
-          "title": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33868/meta-shares-gain-as-muse-glimmer-launch-highlights-broader-ai-ambitions"
+          "title": "Synopsys (SNPS) Unleashes Agentic AI Chip Design Tools Backed by Microsoft, AMD",
+          "publisher": "Insider Monkey",
+          "link": "https://finance.yahoo.com/technology/ai/articles/synopsys-snps-unleashes-agentic-ai-143945738.html"
         }
       ]
     },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 220.375,
-      "change_pct": -1.6,
-      "volume": 26957464,
+      "price": 220.97,
+      "change_pct": -1.34,
+      "volume": 28029562,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.51%)"
+          "rationale": "波動度正常(ATR/價格=3.50%)"
         }
       ],
       "risk_levels": null,
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 330.15,
-      "change_pct": 0.48,
-      "volume": 8692624,
+      "price": 331.15,
+      "change_pct": 0.78,
+      "volume": 9028901,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4417,7 +4417,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.34%)"
+          "rationale": "波動度正常(ATR/價格=4.33%)"
         }
       ],
       "risk_levels": null,
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 356.1,
-      "change_pct": 0.51,
-      "volume": 6142098,
+      "price": 355.5739,
+      "change_pct": 0.36,
+      "volume": 6275164,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4465,7 +4465,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.70%)"
+          "rationale": "波動度正常(ATR/價格=3.71%)"
         }
       ],
       "risk_levels": null,
@@ -4481,9 +4481,9 @@
           "link": "https://finance.yahoo.com/video/jpmorgan-p-500-8-000-141600149.html"
         },
         {
-          "title": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
-          "publisher": "InvestorsHub",
-          "link": "https://investorshub.advfn.com/market-news/article/33868/meta-shares-gain-as-muse-glimmer-launch-highlights-broader-ai-ambitions"
+          "title": "Warren Buffett Personally Initiated Berkshire's $30 Billion Alphabet Stake, a Sign He's Still Making Calls Despite Stepping Back as Chairman",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/warren-buffett-personally-initiated-berkshires-30/"
         }
       ]
     },
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 774.47,
-      "change_pct": 0.16,
-      "volume": 8576131,
+      "price": 774.96,
+      "change_pct": 0.22,
+      "volume": 9502929,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 723.945,
+      "price": 723.975,
       "change_pct": 0.13,
-      "volume": 8574215,
+      "volume": 8846703,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4407.5,
-      "change_pct": 1.54,
-      "volume": 74716,
+      "price": 4406.7002,
+      "change_pct": 1.52,
+      "volume": 76358,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4407.50 觸及上軌 4334.55)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.70 觸及上軌 4334.29)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4407.5,
-        "stop_loss": 4519.4643,
-        "take_profit": 4220.8929,
+        "entry_price": 4406.7002,
+        "stop_loss": 4518.6645,
+        "take_profit": 4220.0931,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.41,
-      "change_pct": 2.85,
-      "volume": 110505,
+      "price": 80.54,
+      "change_pct": 3.02,
+      "volume": 112117,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.12%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.11%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.248,
-      "change_pct": 0.13,
+      "price": 32.246,
+      "change_pct": 0.12,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.92,
-      "change_pct": 0.32,
+      "price": 158.881,
+      "change_pct": 0.3,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4765,6 +4765,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Dollar gains, yen weakens as markets eye US CPI",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html"
+        },
+        {
           "title": "Dollar Strengthens Against Yen as Intervention Wears Out",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-may-be-buoyed-by-reduced-fed-rate-hike-prospects-ac0ca68d?siteid=yhoof2&yptr=yahoo"
@@ -4773,11 +4778,6 @@
           "title": "Japan's Growth Minister on Proactive Fiscal Policy, Yen",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/video/japans-growth-minister-proactive-fiscal-110544465.html"
-        },
-        {
-          "title": "Berkshire Earnings Were Good—Not Great. A Real Bright Spot Was This.",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64786.4609,
-      "change_pct": -0.09,
-      "volume": 18002956288,
+      "price": 64731.0312,
+      "change_pct": -0.18,
+      "volume": 18015070208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4823,9 +4823,9 @@
           "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
         },
         {
-          "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
-          "publisher": "decrypt",
-          "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m"
+          "title": "Michael Saylor Reveals Why Strategy Sold Bitcoin Near $60K Despite Its Buy and Hold Strategy",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/michael-saylor-strategy-105m-bitcoin-sale-market-test/"
         }
       ]
     },
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1898.76,
-      "change_pct": -0.52,
-      "volume": 7248222720,
+      "price": 1895.64,
+      "change_pct": -0.68,
+      "volume": 7176621568,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
