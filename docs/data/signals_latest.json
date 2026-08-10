@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:59:38.438084+00:00",
+  "generated_at": "2026-08-10T23:05:06.107561+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4457.0,
-      "change_pct": 2.68,
-      "volume": 1318,
+      "price": 4459.0,
+      "change_pct": 2.73,
+      "volume": 1538,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=73.9 進入超買區); bollinger_band:sell(價格 4457.00 觸及上軌 4351.38)"
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4459.00 觸及上軌 4352.09)"
         },
         {
           "agent": "macro",
@@ -4619,10 +4619,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4457.0,
-        "stop_loss": 4572.8535,
-        "take_profit": 4263.9108,
-        "atr": 77.2357,
+        "entry_price": 4459.0,
+        "stop_loss": 4575.025,
+        "take_profit": 4265.6251,
+        "atr": 77.35,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html"
         },
         {
+          "title": "Barrick Mining Corp (B) (Q2 2026) Earnings Call Highlights: Record Gold Production and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corp-b-q2-230041888.html"
+        },
+        {
           "title": "Is Talamore Mining (TSXV:TALA) Fully Priced After Coffee Gold Progress?",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/talamore-mining-tsxv-tala-fully-221115644.html"
-        },
-        {
-          "title": "Stock Market Today, Aug. 10: Markets Slip as Oil Gains Fuel Inflation Fears",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/10/stock-market-today-aug-10-markets-slip-as-oil-gains-fuel-inflation-fears/"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.11,
-      "change_pct": 5.03,
-      "volume": 996,
+      "price": 82.14,
+      "change_pct": 5.07,
+      "volume": 1018,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
+          "confidence": 0.21,
+          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,17 +4695,17 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.228,
-      "change_pct": 0.07,
+      "price": 32.227,
+      "change_pct": -0.03,
       "volume": 0,
-      "signal": "hold",
-      "confidence": 0.0,
+      "signal": "sell",
+      "confidence": 0.38,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.63,
+          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4717,10 +4717,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=0.56%)"
+          "rationale": "波動度正常(ATR/價格=0.53%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 32.227,
+        "stop_loss": 32.4853,
+        "take_profit": 31.7966,
+        "atr": 0.1722,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "TSMC Stock Jumps 7% as Microsoft Revives AI-Chip Trade",
@@ -4743,8 +4749,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.256,
-      "change_pct": 0.53,
+      "price": 159.251,
+      "change_pct": 0.86,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4765,7 +4771,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.09%)"
+          "rationale": "波動度正常(ATR/價格=1.13%)"
         }
       ],
       "risk_levels": null,
@@ -4791,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63950.1719,
-      "change_pct": -1.38,
-      "volume": 22614398976,
+      "price": 63937.0898,
+      "change_pct": -1.4,
+      "volume": 22705096704,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4813,7 +4819,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.98%)"
+          "rationale": "波動度正常(ATR/價格=1.99%)"
         }
       ],
       "risk_levels": null,
@@ -4829,9 +4835,9 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "Is the Bitcoin Bottom In? Fairlead's Katie Stockton Says These Signals Matter Most",
-          "publisher": "Coinage Coop",
-          "link": "https://www.coinage.media/2026/is-the-bitcoin-bottom-in-fairleads-katie-stockton-says-these-signals-matter-most"
+          "title": "Bad news for the economy just became great news for Bitcoin",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/bad-news-for-the-economy-just-became-great-news-for-bitcoin"
         }
       ]
     },
@@ -4839,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.38,
-      "change_pct": -1.8,
-      "volume": 9010847744,
+      "price": 1872.98,
+      "change_pct": -1.87,
+      "volume": 8963471360,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
