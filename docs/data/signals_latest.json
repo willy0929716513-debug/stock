@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:22:45.074700+00:00",
+  "generated_at": "2026-08-10T11:28:06.517174+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4392.3999,
-      "change_pct": 1.19,
-      "volume": 49068,
+      "price": 4388.6001,
+      "change_pct": 1.1,
+      "volume": 49668,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4392.40 觸及上軌 4329.67)"
+          "rationale": "rsi:sell(RSI=71.5 進入超買區); bollinger_band:sell(價格 4388.60 觸及上軌 4328.46)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4392.3999,
-        "stop_loss": 4504.3642,
-        "take_profit": 4205.7928,
+        "entry_price": 4388.6001,
+        "stop_loss": 4500.5644,
+        "take_profit": 4201.993,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4637,9 +4637,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/dynacor-group-incs-dividend-analysis-111950771.html"
         },
         {
-          "title": "Golden Rapture agrees deal for land south of Canada’s Goliath project",
-          "publisher": "Mining Technology",
-          "link": "https://www.mining-technology.com/news/golden-rapture-land-south-canadas-goliath/"
+          "title": "Earnings Season, Persian Gulf Lull, Lift Wall Street Pre-Bell; Asia, Europe Up",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-season-persian-gulf-lull-111543856.html"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.35,
-      "change_pct": 1.5,
-      "volume": 53885,
+      "price": 79.32,
+      "change_pct": 1.46,
+      "volume": 54235,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4680,14 +4680,14 @@
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html"
         },
         {
+          "title": "Earnings Season, Persian Gulf Lull, Lift Wall Street Pre-Bell; Asia, Europe Up",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-season-persian-gulf-lull-111543856.html"
+        },
+        {
           "title": "Oil edges higher as Iran tempers hopes of swift Hormuz reopening",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/energy/articles/oil-rises-uncertainty-over-reopening-005834869.html"
-        },
-        {
-          "title": "Oil prices steady as Strait of Hormuz talks stall over Iranian demands",
-          "publisher": "Offshore Technology",
-          "link": "https://www.offshore-technology.com/news/oil-prices-strait-of-hormuz-iranian-demands/"
         }
       ]
     },
@@ -4695,7 +4695,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.228,
+      "price": 32.229,
       "change_pct": 0.07,
       "volume": 0,
       "signal": "hold",
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.782,
-      "change_pct": 0.24,
+      "price": 158.778,
+      "change_pct": 0.23,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4776,14 +4776,14 @@
           "link": "https://www.barrons.com/articles/berkshire-hathaway-earnings-stock-buybacks-d5a6ac50?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "Dollar steadies after payrolls drop, inflation data eyed",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html"
-        },
-        {
           "title": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/currencies/articles/japans-executives-call-fx-stability-010441771.html"
+        },
+        {
+          "title": "BOJ's debate on faster hikes bolsters September rate move odds",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/policy/articles/bojs-debate-faster-hikes-bolsters-025746387.html"
         }
       ]
     },
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 65026.6797,
+      "price": 65026.5391,
       "change_pct": 0.28,
-      "volume": 15511373824,
+      "volume": 15504015360,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1918.01,
-      "change_pct": 0.49,
-      "volume": 6243912192,
+      "price": 1917.5,
+      "change_pct": 0.46,
+      "volume": 6251371520,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
