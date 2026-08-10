@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:09:53.254432+00:00",
+  "generated_at": "2026-08-10T15:15:16.320906+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4245,9 +4245,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 306.59,
-      "change_pct": -2.15,
-      "volume": 16875431,
+      "price": 306.39,
+      "change_pct": -2.21,
+      "volume": 17219713,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4293,9 +4293,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 509.1,
-      "change_pct": 1.82,
-      "volume": 10737342,
+      "price": 508.8116,
+      "change_pct": 1.76,
+      "volume": 10913705,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -4319,9 +4319,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 509.1,
-        "stop_loss": 536.1799,
-        "take_profit": 463.9668,
+        "entry_price": 508.8116,
+        "stop_loss": 535.8915,
+        "take_profit": 463.6784,
         "atr": 18.0533,
         "risk_reward_ratio": 1.67
       },
@@ -4347,9 +4347,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 219.4772,
-      "change_pct": -2.0,
-      "volume": 33856039,
+      "price": 219.095,
+      "change_pct": -2.17,
+      "volume": 35377620,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4369,7 +4369,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.55%)"
+          "rationale": "波動度正常(ATR/價格=3.57%)"
         }
       ],
       "risk_levels": null,
@@ -4380,14 +4380,14 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Cathie Wood Ignores AI Panic — Buys More Nvidia, Sells This Gaming Stock Instead",
-          "publisher": "Insider Monkey",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-ignores-ai-panic-145750434.html"
+          "title": "Samsung's HBM4 Push Just Got Much Stronger",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/technology/articles/samsungs-hbm4-push-just-got-151018816.html"
         },
         {
-          "title": "Why Chevron Stock Popped on Monday",
+          "title": "Why Rigetti Stock Fell 22% in July",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/why-chevron-stock-popped-on-monday/"
+          "link": "https://www.fool.com/investing/2026/08/10/why-rigetti-stock-fell-22-in-july/"
         }
       ]
     },
@@ -4395,9 +4395,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 329.43,
-      "change_pct": 0.26,
-      "volume": 10295135,
+      "price": 329.73,
+      "change_pct": 0.35,
+      "volume": 10468162,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4443,9 +4443,9 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 353.85,
-      "change_pct": -0.13,
-      "volume": 7203661,
+      "price": 354.21,
+      "change_pct": -0.03,
+      "volume": 7472030,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4465,7 +4465,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.73%)"
+          "rationale": "波動度正常(ATR/價格=3.72%)"
         }
       ],
       "risk_levels": null,
@@ -4491,9 +4491,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 773.725,
-      "change_pct": 0.06,
-      "volume": 11425216,
+      "price": 773.82,
+      "change_pct": 0.07,
+      "volume": 11766074,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4539,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 722.05,
-      "change_pct": -0.14,
-      "volume": 10407778,
+      "price": 722.085,
+      "change_pct": -0.13,
+      "volume": 10573851,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4405.0,
-      "change_pct": 1.48,
-      "volume": 79397,
+      "price": 4406.8999,
+      "change_pct": 1.53,
+      "volume": 80141,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=72.1 進入超買區); bollinger_band:sell(價格 4405.00 觸及上軌 4333.73)"
+          "rationale": "rsi:sell(RSI=72.2 進入超買區); bollinger_band:sell(價格 4406.90 觸及上軌 4334.36)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4405.0,
-        "stop_loss": 4516.9643,
-        "take_profit": 4218.3929,
+        "entry_price": 4406.8999,
+        "stop_loss": 4518.8642,
+        "take_profit": 4220.2928,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 80.79,
-      "change_pct": 3.34,
-      "volume": 117496,
+      "price": 80.92,
+      "change_pct": 3.5,
+      "volume": 120038,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.22,
-          "rationale": "波動度過高(ATR/價格=6.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4689,8 +4689,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.248,
-      "change_pct": 0.13,
+      "price": 32.244,
+      "change_pct": 0.12,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4737,8 +4737,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.982,
-      "change_pct": 0.36,
+      "price": 158.952,
+      "change_pct": 0.34,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4785,9 +4785,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64601.3516,
-      "change_pct": -0.38,
-      "volume": 18166018048,
+      "price": 64498.0898,
+      "change_pct": -0.53,
+      "volume": 18223767552,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4807,7 +4807,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.88%)"
+          "rationale": "波動度正常(ATR/價格=1.89%)"
         }
       ],
       "risk_levels": null,
@@ -4818,14 +4818,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html"
         },
         {
-          "title": "Stock Market Today: Dow Falls, SpaceX Wavers; Energy Stocks Shine, Oil Rises As Trump Says This (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-us-iran-spacex-stock-spcx/?src=A00220&yptr=yahoo"
-        },
-        {
           "title": "Bitdeer shares edge higher despite Q2 earnings and revenue miss",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33886/bitdeer-shares-edge-higher-despite-q2-earnings-and-revenue-miss"
+        },
+        {
+          "title": "Michael Saylor Reveals Why Strategy Sold Bitcoin Near $60K Despite Its Buy and Hold Strategy",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/michael-saylor-strategy-105m-bitcoin-sale-market-test/"
         }
       ]
     },
@@ -4833,9 +4833,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1888.6,
-      "change_pct": -1.05,
-      "volume": 7447183872,
+      "price": 1874.0,
+      "change_pct": -1.82,
+      "volume": 7479408640,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4855,7 +4855,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.53%)"
+          "rationale": "波動度正常(ATR/價格=2.55%)"
         }
       ],
       "risk_levels": null,
