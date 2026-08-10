@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T21:32:03.674696+00:00",
+  "generated_at": "2026-08-10T21:37:34.188606+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4284,14 +4284,14 @@
           "link": "https://finance.yahoo.com/video/apple-downgraded-jefferies-over-iphone-202918014.html"
         },
         {
+          "title": "Apple Stock Downgraded to Sell as Analyst Claims All-Glass iPhone Is Dead",
+          "publisher": "Barrons.com",
+          "link": "https://www.barrons.com/articles/apple-stock-sell-downgrade-iphone-glass-2a001a49?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Update: US Equity Indexes Decline as Fading Hopes for Quick Hormuz Reopening Lift Crude Oil, Treasury Yields",
           "publisher": "MT Newswires",
           "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-decline-fading-210504190.html"
-        },
-        {
-          "title": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/apple-stock-downgraded-before-iphone-18-launch/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4391,9 +4391,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Nvidia Makes Massive Move to Fund AI Buildout",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-massive-move-fund-212735051.html"
+          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4685,9 +4685,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "U.S. Stocks Fall as Hopes for Strait of Hormuz Reopening Are Dashed Again",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-hopes-for-strait-of-hormuz-reopening-are-dashed-again-03a4915a?siteid=yhoof2&yptr=yahoo"
+          "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
+          "publisher": "Investor's Business Daily",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4695,7 +4695,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.239,
+      "price": 32.238,
       "change_pct": 0.1,
       "volume": 0,
       "signal": "hold",
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.225,
-      "change_pct": 0.52,
+      "price": 159.222,
+      "change_pct": 0.51,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64058.6992,
+      "price": 64057.0703,
       "change_pct": -1.21,
-      "volume": 23557130240,
+      "volume": 23497787392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1875.08,
-      "change_pct": -1.76,
-      "volume": 9278951424,
+      "price": 1875.5,
+      "change_pct": -1.74,
+      "volume": 9264664576,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
