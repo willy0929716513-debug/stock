@@ -62,6 +62,19 @@
     return;
   }
 
+  // 抓最新報價,用來算目前持倉的未實現損益(state.cash 只反映已平倉的損益,
+  // 持倉中的部位在平倉前完全看不出來現在是賺是賠、離停損/停利還有多遠)。
+  let currentPrice = null;
+  if (state.position) {
+    try {
+      const signalsData = await JPO_KBO.loadSignals();
+      const match = (signalsData.signals || []).find((s) => s.symbol === state.position.symbol);
+      currentPrice = match ? match.price : null;
+    } catch {
+      // 抓不到最新報價時,未實現損益區塊直接不顯示,不影響其他資訊
+    }
+  }
+
   const INITIAL_CASH = 10000;
   const history = state.trade_history || [];
   const realizedPnl = history.reduce((sum, t) => sum + (t.pnl || 0), 0);
@@ -76,9 +89,15 @@
 
   if (state.position) {
     const p = state.position;
+    const directionSign = p.direction === "buy" ? 1 : -1;
+    const unrealizedPnl = currentPrice != null ? directionSign * (currentPrice - p.entry_price) * p.qty : null;
     document.getElementById("current-position").innerHTML = `
       <strong>${JPO_KBO.escapeHTML(p.symbol)}</strong> ${JPO_KBO.signalBadge(p.direction)}<br>
       進場價:${JPO_KBO.formatPrice(p.entry_price)} · 股數:${p.qty} · 開倉時間:${JPO_KBO.formatDateTime(p.opened_at)}<br>
+      現價:${currentPrice != null ? JPO_KBO.formatPrice(currentPrice) : "—"}
+      · 未實現損益:<span class="${JPO_KBO.pctClass(unrealizedPnl)}">${unrealizedPnl != null ? JPO_KBO.formatMoney(unrealizedPnl) : "—"}</span><br>
+      停損價:${p.stop_loss != null ? JPO_KBO.formatPrice(p.stop_loss) : "未設定"}
+      · 停利價:${p.take_profit != null ? JPO_KBO.formatPrice(p.take_profit) : "未設定"}<br>
       反轉確認次數:${p.reversal_count} / 2
     `;
   } else {

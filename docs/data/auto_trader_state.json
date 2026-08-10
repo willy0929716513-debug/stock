@@ -6,7 +6,9 @@
     "entry_price": 157.555,
     "qty": 63.0,
     "opened_at": "2026-08-05T13:14:19.068748+00:00",
-    "reversal_count": 0
+    "reversal_count": 0,
+    "stop_loss": 155.7811,
+    "take_profit": 162.6742
   },
   "trade_history": []
 }

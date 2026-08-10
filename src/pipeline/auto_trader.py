@@ -44,6 +44,8 @@ class Position:
     qty: float
     opened_at: str
     reversal_count: int = 0
+    stop_loss: Optional[float] = None
+    take_profit: Optional[float] = None
 
 
 @dataclass
@@ -130,15 +132,39 @@ def _close_position(state: AutoTraderState, exit_price: float, now: datetime, re
     state.position = None
 
 
+def _check_risk_exit(position: Position, price: float) -> Optional[str]:
+    """檢查現價是否觸發持倉的停損/停利價位,回傳平倉原因,沒觸發則回傳 None。
+
+    在這之前,持倉完全沒有停損/停利保護——只有「台股收盤」或「訊號連續反轉
+    兩次」會平倉,如果訊號一直沒反轉,部位會不管虧損多少都一直抱著,實際
+    production 就發生過一筆外匯部位卡了好幾天沒動。停損/停利價位在開倉當下
+    直接沿用 daily_run.py 已經算好的 ATR 風控價位(src/risk/stop_loss.py),
+    不重新計算。
+    """
+    if position.direction == "buy":
+        if position.stop_loss is not None and price <= position.stop_loss:
+            return "觸發停損"
+        if position.take_profit is not None and price >= position.take_profit:
+            return "觸發停利"
+    else:
+        if position.stop_loss is not None and price >= position.stop_loss:
+            return "觸發停損"
+        if position.take_profit is not None and price <= position.take_profit:
+            return "觸發停利"
+    return None
+
+
 def run_step(state: AutoTraderState, signals: list[dict], now: datetime) -> AutoTraderState:
     """依最新訊號更新自動跟單狀態(單一持倉,台股當沖規則)。
 
     決策順序:
     1. 若持倉是台股標的、且已收盤 -> 強制平倉(當沖規則)。非台股標的沒有這條規則。
-    2. 若有持倉且新訊號與持倉方向相反 -> 累計反轉次數,達到門檻才平倉
-    3. 若有持倉且新訊號與持倉方向相同或為 hold -> 重置反轉次數,續抱
-    4. 若無持倉,選信心最高的 buy/sell 訊號開倉——已收盤的台股標的不列入候選,
-       但美股/ETF/商品期貨/外匯/加密貨幣不受收盤時間限制,隨時可以開倉
+    2. 若現價觸發開倉時設定的停損/停利價位 -> 平倉
+    3. 若有持倉且新訊號與持倉方向相反 -> 累計反轉次數,達到門檻才平倉
+    4. 若有持倉且新訊號與持倉方向相同或為 hold -> 重置反轉次數,續抱
+    5. 若無持倉,選信心最高的 buy/sell 訊號開倉(停損/停利價位取自該訊號的
+       風控計算)——已收盤的台股標的不列入候選,但美股/ETF/商品期貨/外匯/
+       加密貨幣不受收盤時間限制,隨時可以開倉
     """
     if state.position is not None:
         current = _find_signal(signals, state.position.symbol)
@@ -150,6 +176,13 @@ def run_step(state: AutoTraderState, signals: list[dict], now: datetime) -> Auto
 
         if current is None:
             return state
+
+        price = current.get("price")
+        if price:
+            risk_exit_reason = _check_risk_exit(state.position, price)
+            if risk_exit_reason:
+                _close_position(state, price, now, risk_exit_reason)
+                return state
 
         is_reversal = current["signal"] != "hold" and current["signal"] != state.position.direction
         if is_reversal:
@@ -167,12 +200,15 @@ def run_step(state: AutoTraderState, signals: list[dict], now: datetime) -> Auto
     price = best["price"]
     qty = state.cash // price if price and price > 0 else 0
     if qty > 0:
+        risk_levels = best.get("risk_levels") or {}
         state.position = Position(
             symbol=best["symbol"],
             direction=best["signal"],
             entry_price=price,
             qty=qty,
             opened_at=now.isoformat(),
+            stop_loss=risk_levels.get("stop_loss"),
+            take_profit=risk_levels.get("take_profit"),
         )
     return state
 
