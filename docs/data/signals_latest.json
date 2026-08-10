@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:43:23.342173+00:00",
+  "generated_at": "2026-08-10T23:48:50.737571+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4454.7002,
-      "change_pct": 2.63,
-      "volume": 3070,
+      "price": 4457.7998,
+      "change_pct": 2.7,
+      "volume": 3237,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.66,
-          "rationale": "rsi:sell(RSI=73.8 進入超買區); bollinger_band:sell(價格 4454.70 觸及上軌 4350.58)"
+          "rationale": "rsi:sell(RSI=74.0 進入超買區); bollinger_band:sell(價格 4457.80 觸及上軌 4351.66)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4454.7002,
-        "stop_loss": 4570.9609,
-        "take_profit": 4260.9324,
+        "entry_price": 4457.7998,
+        "stop_loss": 4574.0605,
+        "take_profit": 4264.032,
         "atr": 77.5071,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.08,
-      "change_pct": 4.99,
-      "volume": 1428,
+      "price": 82.11,
+      "change_pct": 5.03,
+      "volume": 1445,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.265,
-      "change_pct": 0.87,
+      "price": 159.179,
+      "change_pct": 0.82,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63893.9492,
-      "change_pct": -1.47,
-      "volume": 22454212608,
+      "price": 63907.0703,
+      "change_pct": -1.45,
+      "volume": 22459533312,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1870.63,
-      "change_pct": -1.99,
-      "volume": 8809188352,
+      "price": 1871.03,
+      "change_pct": -1.97,
+      "volume": 8796604416,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
