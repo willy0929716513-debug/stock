@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:55:58.150969+00:00",
+  "generated_at": "2026-08-10T11:01:19.901762+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4332,14 +4332,14 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
+          "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-big-tech-earnings-were-the-wow-moment-for-ai-monetization-it-s-all-starting-to-come-together/cZojVIGRJa6"
+        },
+        {
           "title": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
           "publisher": "Bloomberg",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-strategists-raise-p-500-092820794.html"
-        },
-        {
-          "title": "Why Is TSM Stock Rising Premarket?",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-premarket/cZojkOXRJaU"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4397.3999,
-      "change_pct": 1.31,
-      "volume": 47017,
+      "price": 4398.2998,
+      "change_pct": 1.33,
+      "volume": 47225,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.8 進入超買區); bollinger_band:sell(價格 4397.40 觸及上軌 4331.27)"
+          "rationale": "rsi:sell(RSI=71.9 進入超買區); bollinger_band:sell(價格 4398.30 觸及上軌 4331.56)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4397.3999,
-        "stop_loss": 4509.3642,
-        "take_profit": 4210.7928,
+        "entry_price": 4398.2998,
+        "stop_loss": 4510.2641,
+        "take_profit": 4211.6927,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
+          "title": "Golden Rapture agrees deal for land south of Canada’s Goliath project",
+          "publisher": "Mining Technology",
+          "link": "https://www.mining-technology.com/news/golden-rapture-land-south-canadas-goliath/"
+        },
+        {
           "title": "Barrick Mining falls on Q2 earnings miss despite production rise",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-falls-q2-earnings-104749424.html"
-        },
-        {
-          "title": "Vanguard reveals what could be coming for US stocks. Here’s why it’s raising alarm bells for retirees",
-          "publisher": "Moneywise",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/vanguard-reveals-could-coming-us-094500956.html"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.32,
-      "change_pct": 1.46,
-      "volume": 50738,
+      "price": 79.3,
+      "change_pct": 1.43,
+      "volume": 51291,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.221,
-      "change_pct": 0.04,
+      "price": 32.222,
+      "change_pct": 0.05,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.768,
-      "change_pct": 0.23,
+      "price": 158.788,
+      "change_pct": 0.24,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64966.0117,
-      "change_pct": 0.19,
-      "volume": 15410030592,
+      "price": 64947.1914,
+      "change_pct": 0.16,
+      "volume": 15488995328,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4819,19 +4819,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Bitcoin's $82K May Rally Setup Is Back, but One Key Ingredient Is Missing: Analyst",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/bitcoin-price-82k-record-23b-longs-derivatives-liquidation-risk/"
+        },
+        {
           "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
           "publisher": "decrypt",
           "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030"
         },
         {
-          "title": "Bitcoin Miners Demand Ousting of OCEAN Leadership After BIP-110 Fork Disaster",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/bitcoin-miners-demand-ocean-leadership-firing-bip-110/"
-        },
-        {
-          "title": "Why Is The Crypto Market Up Today?",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/why-is-the-crypto-market-up-today/"
+          "title": "Bitcoin BIP-110 Fork Falters as 99.85% of Hashpower Stays on Main Chain",
+          "publisher": "CCN",
+          "link": "https://www.ccn.com/news/crypto/bitcoin-bip-110-fork-hashpower-main-chain/"
         }
       ]
     },
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1916.04,
-      "change_pct": 0.39,
-      "volume": 6212096000,
+      "price": 1914.91,
+      "change_pct": 0.33,
+      "volume": 6207279104,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
