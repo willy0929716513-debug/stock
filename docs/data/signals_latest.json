@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:01:19.901762+00:00",
+  "generated_at": "2026-08-10T11:06:41.303342+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "1 Reason Lowe's May Be a Smarter Buy Than Home Depot Before Aug. 19",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/1-reason-lowes-smarter-buy-home-depot-august-19/"
+          "title": "25-Year-Old Lost $35 Billion of His Investors’ Money. 2 Weeks Later, Silicon Valley Insiders Are Lining Up to Give Him More Cash.",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/10/25-year-old-lost-35-billion-of-his-investors-money-2-weeks-later-silicon-valley-insiders-are-lining-up-to-give-him-more-cash/"
         }
       ]
     },
@@ -4595,7 +4595,7 @@
       "category": "commodity",
       "price": 4398.2998,
       "change_pct": 1.33,
-      "volume": 47225,
+      "volume": 47754,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.3,
-      "change_pct": 1.43,
-      "volume": 51291,
+      "price": 79.51,
+      "change_pct": 1.7,
+      "volume": 52141,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4669,7 +4669,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.06%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.788,
-      "change_pct": 0.24,
+      "price": 158.77,
+      "change_pct": 0.23,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64947.1914,
-      "change_pct": 0.16,
-      "volume": 15488995328,
+      "price": 64971.3516,
+      "change_pct": 0.2,
+      "volume": 15430180864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1914.91,
-      "change_pct": 0.33,
-      "volume": 6207279104,
+      "price": 1915.61,
+      "change_pct": 0.36,
+      "volume": 6210928128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
