@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:17:23.608226+00:00",
+  "generated_at": "2026-08-10T11:22:45.074700+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "TSMC July 2026 revenue jumps 44.7% on AI chip demand",
+          "publisher": "Quartz",
+          "link": "https://qz.com/tsmc-july-revenue-ai-chip-demand-081026"
+        },
+        {
           "title": "Key Republican urges US to stop any advanced chips from reaching sanctioned Chinese firms",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/news/key-republican-urges-us-stop-100512891.html"
@@ -107,11 +112,6 @@
           "title": "Taiwan Semiconductor’s Blockbuster Run Rolls On: July Revenue Surges 45%",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-blockbuster-run-rolls-094304031.html"
-        },
-        {
-          "title": "Why Is TSM Stock Rising Premarket?",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-premarket/cZojkOXRJaU"
         }
       ]
     },
@@ -4278,14 +4278,14 @@
           "link": "https://finance.yahoo.com/video/airbnb-ceo-why-ai-best-100000572.html"
         },
         {
+          "title": "US Treasury, IRS set out initial framework for Saver’s Match rollout",
+          "publisher": "The Accountant",
+          "link": "https://www.theaccountant-online.com/news/us-treasury-irs-set-out-initial-framework-for-savers-match-rollout/"
+        },
+        {
           "title": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
           "publisher": "InvestorsHub",
           "link": "https://investorshub.advfn.com/market-news/article/33818/apple-reportedly-tests-cxmt-memory-chips-as-ai-demand-tightens-global-supply"
-        },
-        {
-          "title": "Why Is TSM Stock Rising Premarket?",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-tsm-stock-rising-premarket/cZojkOXRJaU"
         }
       ]
     },
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html"
         },
         {
-          "title": "Wall Street Says Hold but Hedge Funds Are Circling NSC’s $85 Billion Merger",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/10/wall-street-says-hold-but-hedge-funds-are-circling-nscs-85-billion-merger/"
+          "title": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/why-micron-stock-plummeted-287-in-july-but-is-rebo/"
         }
       ]
     },
@@ -4439,9 +4439,9 @@
           "link": "https://www.barrons.com/articles/tesla-stock-price-retail-traders-f41c836d?siteid=yhoof2&yptr=yahoo"
         },
         {
-          "title": "War Is Helping Chinese EVs Upend the Global Car Market",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/business/autos/war-is-helping-chinese-evs-upend-the-global-car-market-b1b7ea57?siteid=yhoof2&yptr=yahoo"
+          "title": "Paul Graham Says His Wife’s First Tesla FSD Experience Was Like a ‘Religious Revelation’— and AI Chief Ashok Elluswamy Had One Request When He Heard It",
+          "publisher": "Benzinga",
+          "link": "https://finance.yahoo.com/technology/ai/articles/paul-graham-says-wife-first-100112842.html"
         }
       ]
     },
@@ -4593,9 +4593,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4394.2002,
-      "change_pct": 1.23,
-      "volume": 48526,
+      "price": 4392.3999,
+      "change_pct": 1.19,
+      "volume": 49068,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4603,7 +4603,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4394.20 觸及上軌 4330.24)"
+          "rationale": "rsi:sell(RSI=71.7 進入超買區); bollinger_band:sell(價格 4392.40 觸及上軌 4329.67)"
         },
         {
           "agent": "macro",
@@ -4619,9 +4619,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4394.2002,
-        "stop_loss": 4506.1645,
-        "take_profit": 4207.5931,
+        "entry_price": 4392.3999,
+        "stop_loss": 4504.3642,
+        "take_profit": 4205.7928,
         "atr": 74.6428,
         "risk_reward_ratio": 1.67
       },
@@ -4632,14 +4632,14 @@
           "link": "https://finance.yahoo.com/markets/article/golds-breakout-could-force-investors-back-in-chart-of-the-day-113004349.html"
         },
         {
+          "title": "Dynacor Group Inc's Dividend Analysis",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dynacor-group-incs-dividend-analysis-111950771.html"
+        },
+        {
           "title": "Golden Rapture agrees deal for land south of Canada’s Goliath project",
           "publisher": "Mining Technology",
           "link": "https://www.mining-technology.com/news/golden-rapture-land-south-canadas-goliath/"
-        },
-        {
-          "title": "Barrick Mining falls on Q2 earnings miss despite production rise",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-falls-q2-earnings-104749424.html"
         }
       ]
     },
@@ -4647,9 +4647,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 79.42,
-      "change_pct": 1.59,
-      "volume": 53619,
+      "price": 79.35,
+      "change_pct": 1.5,
+      "volume": 53885,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4668,8 +4668,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
+          "confidence": 0.22,
+          "rationale": "波動度過高(ATR/價格=6.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4695,8 +4695,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.236,
-      "change_pct": 0.09,
+      "price": 32.228,
+      "change_pct": 0.07,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4743,7 +4743,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.794,
+      "price": 158.782,
       "change_pct": 0.24,
       "volume": 0,
       "signal": "hold",
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 64987.7812,
-      "change_pct": 0.22,
-      "volume": 15450952704,
+      "price": 65026.6797,
+      "change_pct": 0.28,
+      "volume": 15511373824,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1915.8,
-      "change_pct": 0.37,
-      "volume": 6227020800,
+      "price": 1918.01,
+      "change_pct": 0.49,
+      "volume": 6243912192,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
