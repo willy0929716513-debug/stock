@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:43:35.702343+00:00",
+  "generated_at": "2026-08-11T00:49:02.837000+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4433,9 +4433,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/tesla-in-the-spotlight-as-nfls-49ers-head-coach-says-autopilot-may-have-been-engaged-during-accident-160422251.html"
         },
         {
-          "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-unchanged/cZok3PvRJfL"
+          "title": "Byrna, Lucid, Park-Ohio, JELD-WEN, and Tesla Shares Skyrocket, What You Need To Know",
+          "publisher": "StockStory",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/byrna-lucid-park-ohio-jeld-004522285.html"
         }
       ]
     },
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4472.2002,
-      "change_pct": 3.03,
-      "volume": 7104,
+      "price": 4469.8999,
+      "change_pct": 2.98,
+      "volume": 7298,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4472.20 觸及上軌 4356.78)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4469.90 觸及上軌 4355.96)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4472.2002,
-        "stop_loss": 4589.9502,
-        "take_profit": 4275.9502,
+        "entry_price": 4469.8999,
+        "stop_loss": 4587.6499,
+        "take_profit": 4273.6499,
         "atr": 78.5,
         "risk_reward_ratio": 1.67
       },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.23,
-      "change_pct": 5.18,
-      "volume": 3128,
+      "price": 82.21,
+      "change_pct": 5.15,
+      "volume": 3196,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4681,7 +4681,7 @@
         {
           "title": "Oil steadies near one-week highs as US-Iran peace deal hopes dim",
           "publisher": "Reuters",
-          "link": "https://uk.finance.yahoo.com/news/oil-steadies-near-one-week-003940159.html"
+          "link": "https://finance.yahoo.com/news/oil-steadies-near-one-week-003940159.html"
         }
       ]
     },
@@ -4743,63 +4743,9 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.958,
-      "change_pct": 0.68,
+      "price": 159.069,
+      "change_pct": 0.75,
       "volume": 0,
-      "signal": "buy",
-      "confidence": 0.31,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.13%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 158.958,
-        "stop_loss": 156.2581,
-        "take_profit": 163.4578,
-        "atr": 1.7999,
-        "risk_reward_ratio": 1.67
-      },
-      "news": [
-        {
-          "title": "Trading Day: Strait talking",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/articles/trading-day-strait-talking-210110732.html"
-        },
-        {
-          "title": "Bessent’s Whatever-It-Takes Yen Pledge Masks Limited Firepower",
-          "publisher": "Bloomberg",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/bessent-whatever-takes-yen-pledge-202958898.html"
-        },
-        {
-          "title": "Treasury Yields Rise as Middle East Tensions, Inflation Fears Increase",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/jgbs-edge-lower-amid-potentially-quicker-pace-of-boj-rate-hikes-d17b52c8?siteid=yhoof2&yptr=yahoo"
-        }
-      ]
-    },
-    {
-      "symbol": "BTC-USD",
-      "name": "比特幣",
-      "category": "crypto",
-      "price": 63925.0586,
-      "change_pct": -1.42,
-      "volume": 22274172928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4819,7 +4765,55 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.93%)"
+          "rationale": "波動度正常(ATR/價格=1.13%)"
+        }
+      ],
+      "risk_levels": null,
+      "news": [
+        {
+          "title": "Yen Strengthens Slightly Amid Prospects of Coordinated Intervention",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/currencies/yen-strengthens-slightly-amid-prospects-of-coordinated-intervention-09589883?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "title": "Trading Day: Strait talking",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/articles/trading-day-strait-talking-210110732.html"
+        },
+        {
+          "title": "Bessent’s Whatever-It-Takes Yen Pledge Masks Limited Firepower",
+          "publisher": "Bloomberg",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/bessent-whatever-takes-yen-pledge-202958898.html"
+        }
+      ]
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "比特幣",
+      "category": "crypto",
+      "price": 63935.7891,
+      "change_pct": -1.4,
+      "volume": 22208065536,
+      "signal": "hold",
+      "confidence": 0.0,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=1.92%)"
         }
       ],
       "risk_levels": null,
@@ -4845,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1871.75,
+      "price": 1871.87,
       "change_pct": -1.93,
-      "volume": 8581418496,
+      "volume": 8579471872,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
