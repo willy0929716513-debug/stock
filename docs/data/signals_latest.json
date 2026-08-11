@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:59:57.811765+00:00",
+  "generated_at": "2026-08-11T01:05:25.023261+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -104,14 +104,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/chip-equipment-stocks-rise-after-taiwan-semiconductor-revenue-surges-45-133813616.html"
         },
         {
+          "title": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/tsmc-vs-asml-which-is-the-better-semiconductor-equ/"
+        },
+        {
           "title": "Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/technology/ai/articles/applied-materials-amat-gets-demand-210941837.html"
-        },
-        {
-          "title": "TSMC Sales Jump 45% On Strong AI Chip Demand But Investors Shrug",
-          "publisher": "Investor's Business Daily",
-          "link": "https://www.investors.com/news/technology/tsm-stock-tsmc-july-sales-sox-index/?src=A00220&yptr=yahoo"
         }
       ]
     },
@@ -4278,14 +4278,14 @@
           "link": "https://finance.yahoo.com/video/apple-downgraded-jefferies-over-iphone-202918014.html"
         },
         {
+          "title": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/10/tsmc-vs-asml-which-is-the-better-semiconductor-equ/"
+        },
+        {
           "title": "Dow Jones Futures: Surging Oil Prices Spark Stock Market Losses; SpaceX Rival Rocket Lab Dives On Earnings",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-oil-prices-spacex-rival-rocket-lab/?src=A00220&yptr=yahoo"
-        },
-        {
-          "title": "Microsoft Stock Runs One Of The Market's Biggest Cash-Return Machines",
-          "publisher": "Trefis",
-          "link": "https://www.trefis.com/articles/610719/microsoft-stock-runs-one-of-the-markets-biggest-cash-return-machines/2026-08-10"
         }
       ]
     },
@@ -4385,9 +4385,9 @@
           "link": "https://finance.yahoo.com/video/memory-chip-crunch-could-last-143400576.html"
         },
         {
-          "title": "Is Oklo a Millionaire Maker, or Is the Hype Overdone?",
+          "title": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/10/is-oklo-a-millionaire-maker-or-is-the-hype-o/"
+          "link": "https://www.fool.com/investing/2026/08/10/tsmc-vs-asml-which-is-the-better-semiconductor-equ/"
         }
       ]
     },
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4472.2998,
-      "change_pct": 3.03,
-      "volume": 8799,
+      "price": 4469.5,
+      "change_pct": 2.97,
+      "volume": 8973,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4472.30 觸及上軌 4356.82)"
+          "rationale": "rsi:sell(RSI=74.3 進入超買區); bollinger_band:sell(價格 4469.50 觸及上軌 4355.81)"
         },
         {
           "agent": "macro",
@@ -4613,9 +4613,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4472.2998,
-        "stop_loss": 4590.3819,
-        "take_profit": 4275.4963,
+        "entry_price": 4469.5,
+        "stop_loss": 4587.5821,
+        "take_profit": 4272.6965,
         "atr": 78.7214,
         "risk_reward_ratio": 1.67
       },
@@ -4626,14 +4626,14 @@
           "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html"
         },
         {
+          "title": "Heliostar Metals Ltd (HSTXF) (Q2 2026) Earnings Call Highlights: Record Production and ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/heliostar-metals-ltd-hstxf-q2-010149989.html"
+        },
+        {
           "title": "Barrick Mining Corp (B) (Q2 2026) Earnings Call Highlights: Record Gold Production and ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corp-b-q2-230041888.html"
-        },
-        {
-          "title": "Is Talamore Mining (TSXV:TALA) Fully Priced After Coffee Gold Progress?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/talamore-mining-tsxv-tala-fully-221115644.html"
         }
       ]
     },
@@ -4641,9 +4641,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.32,
-      "change_pct": 5.3,
-      "volume": 3494,
+      "price": 82.28,
+      "change_pct": 5.24,
+      "volume": 4103,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4663,7 +4663,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.21,
-          "rationale": "波動度過高(ATR/價格=6.06%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=6.07%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4679,9 +4679,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "Oil steadies near one-week highs as US-Iran peace deal hopes dim",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/oil-steadies-near-one-week-003940159.html"
+          "title": "California Resources Corp (CRC) (Q2 2026) Earnings Call Highlights: Strategic Midstream ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/energy/articles/california-resources-corp-crc-q2-010148667.html"
         }
       ]
     },
@@ -4689,16 +4689,16 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.22,
-      "change_pct": -0.05,
+      "price": 32.234,
+      "change_pct": -0.0,
       "volume": 0,
       "signal": "sell",
-      "confidence": 0.37,
+      "confidence": 0.38,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.62,
+          "confidence": 0.64,
           "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
@@ -4715,10 +4715,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.22,
-        "stop_loss": 32.4793,
-        "take_profit": 31.7878,
-        "atr": 0.1729,
+        "entry_price": 32.234,
+        "stop_loss": 32.4939,
+        "take_profit": 31.8009,
+        "atr": 0.1732,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4743,8 +4743,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.138,
-      "change_pct": 0.79,
+      "price": 159.13,
+      "change_pct": 0.78,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4791,9 +4791,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63975.2812,
-      "change_pct": -1.34,
-      "volume": 22088566784,
+      "price": 63941.0586,
+      "change_pct": -1.39,
+      "volume": 22185891840,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4839,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1873.8,
-      "change_pct": -1.83,
-      "volume": 8577883648,
+      "price": 1873.23,
+      "change_pct": -1.86,
+      "volume": 8522954752,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4861,7 +4861,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.54%)"
+          "rationale": "波動度正常(ATR/價格=2.55%)"
         }
       ],
       "risk_levels": null,
