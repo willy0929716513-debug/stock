@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:38:07.945868+00:00",
+  "generated_at": "2026-08-11T00:43:35.702343+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4587,9 +4587,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4473.1001,
-      "change_pct": 3.05,
-      "volume": 6628,
+      "price": 4472.2002,
+      "change_pct": 3.03,
+      "volume": 7104,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4597,7 +4597,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.67,
-          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4473.10 觸及上軌 4357.10)"
+          "rationale": "rsi:sell(RSI=74.4 進入超買區); bollinger_band:sell(價格 4472.20 觸及上軌 4356.78)"
         },
         {
           "agent": "macro",
@@ -4609,14 +4609,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.75%)"
+          "rationale": "波動度正常(ATR/價格=1.76%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 4473.1001,
-        "stop_loss": 4590.7001,
-        "take_profit": 4277.1001,
-        "atr": 78.4,
+        "entry_price": 4472.2002,
+        "stop_loss": 4589.9502,
+        "take_profit": 4275.9502,
+        "atr": 78.5,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4643,7 +4643,7 @@
       "category": "commodity",
       "price": 82.23,
       "change_pct": 5.18,
-      "volume": 2773,
+      "volume": 3128,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4679,9 +4679,9 @@
           "link": "https://finance.yahoo.com/markets/article/retail-investors-end-spacex-buying-spree-as-stock-reclaims-ipo-price-alphacheck-144858062.html"
         },
         {
-          "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-unchanged/cZok3PvRJfL"
+          "title": "Oil steadies near one-week highs as US-Iran peace deal hopes dim",
+          "publisher": "Reuters",
+          "link": "https://uk.finance.yahoo.com/news/oil-steadies-near-one-week-003940159.html"
         }
       ]
     },
@@ -4689,16 +4689,16 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.23,
-      "change_pct": -0.02,
+      "price": 32.22,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "sell",
-      "confidence": 0.38,
+      "confidence": 0.37,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.64,
+          "confidence": 0.62,
           "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
@@ -4715,9 +4715,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.23,
-        "stop_loss": 32.4893,
-        "take_profit": 31.7978,
+        "entry_price": 32.22,
+        "stop_loss": 32.4793,
+        "take_profit": 31.7878,
         "atr": 0.1729,
         "risk_reward_ratio": 1.67
       },
@@ -4743,17 +4743,17 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.147,
-      "change_pct": 0.8,
+      "price": 158.958,
+      "change_pct": 0.68,
       "volume": 0,
-      "signal": "hold",
-      "confidence": 0.0,
+      "signal": "buy",
+      "confidence": 0.31,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=29.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4768,7 +4768,13 @@
           "rationale": "波動度正常(ATR/價格=1.13%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 158.958,
+        "stop_loss": 156.2581,
+        "take_profit": 163.4578,
+        "atr": 1.7999,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Trading Day: Strait talking",
@@ -4791,9 +4797,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63889.4219,
-      "change_pct": -1.47,
-      "volume": 22263166976,
+      "price": 63925.0586,
+      "change_pct": -1.42,
+      "volume": 22274172928,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4839,9 +4845,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1871.0,
-      "change_pct": -1.97,
-      "volume": 8634572800,
+      "price": 1871.75,
+      "change_pct": -1.93,
+      "volume": 8581418496,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
