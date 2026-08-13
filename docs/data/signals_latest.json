@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:50:34.711514+00:00",
+  "generated_at": "2026-08-13T15:55:58.407267+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4185,9 +4185,9 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "us_stock",
-      "price": 303.3299,
+      "price": 303.325,
       "change_pct": 0.36,
-      "volume": 16659744,
+      "volume": 16874781,
       "signal": "buy",
       "confidence": 0.25,
       "opinions": [
@@ -4211,9 +4211,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 303.3299,
-        "stop_loss": 290.1315,
-        "take_profit": 325.3272,
+        "entry_price": 303.325,
+        "stop_loss": 290.1266,
+        "take_profit": 325.3223,
         "atr": 8.7989,
         "risk_reward_ratio": 1.67
       },
@@ -4239,9 +4239,9 @@
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "us_stock",
-      "price": 495.3,
-      "change_pct": 0.58,
-      "volume": 8225961,
+      "price": 495.26,
+      "change_pct": 0.57,
+      "volume": 8340008,
       "signal": "sell",
       "confidence": 0.29,
       "opinions": [
@@ -4265,9 +4265,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 495.3,
-        "stop_loss": 521.4053,
-        "take_profit": 451.7911,
+        "entry_price": 495.26,
+        "stop_loss": 521.3654,
+        "take_profit": 451.7511,
         "atr": 17.4036,
         "risk_reward_ratio": 1.67
       },
@@ -4278,14 +4278,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html"
         },
         {
+          "title": "Nebius Surges to $255, Now What if You Didn’t Own It?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/13/nebius-surges-to-255-now-what-if-you-didnt-own-it/"
+        },
+        {
           "title": "\"Big Short\" Steve Eisman says China’s AI models are \"Achilles’ heel\" of AI trade",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/big-short-steve-eisman-says-153333204.html"
-        },
-        {
-          "title": "IREN Rallies 6% as Microsoft Signs Off on Horizon 1, NVIDIA Grants Exemplar Cloud Status",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/13/iren-rallies-6-as-microsoft-signs-off-on-horizon-1-nvidia-grants-exemplar-cloud-status/"
         }
       ]
     },
@@ -4293,9 +4293,9 @@
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "us_stock",
-      "price": 224.675,
-      "change_pct": 0.26,
-      "volume": 46068539,
+      "price": 224.235,
+      "change_pct": 0.06,
+      "volume": 46660720,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4315,7 +4315,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.37%)"
+          "rationale": "波動度正常(ATR/價格=3.38%)"
         }
       ],
       "risk_levels": null,
@@ -4341,9 +4341,9 @@
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "us_stock",
-      "price": 333.4185,
-      "change_pct": 1.8,
-      "volume": 13463932,
+      "price": 333.215,
+      "change_pct": 1.74,
+      "volume": 13629733,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4389,17 +4389,17 @@
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "us_stock",
-      "price": 345.0,
-      "change_pct": 0.42,
-      "volume": 7886747,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 344.9,
+      "change_pct": 0.4,
+      "volume": 8034901,
+      "signal": "sell",
+      "confidence": 0.43,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.72,
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉))"
         },
         {
           "agent": "macro",
@@ -4414,7 +4414,13 @@
           "rationale": "波動度正常(ATR/價格=3.46%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 344.9,
+        "stop_loss": 362.7896,
+        "take_profit": 315.0839,
+        "atr": 11.9264,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Google becomes latest company to raise prices thanks to memory shortage",
@@ -4427,9 +4433,9 @@
           "link": "https://finance.yahoo.com/video/google-pixel-11-isn-t-205900374.html"
         },
         {
-          "title": "\"Big Short\" Steve Eisman says China’s AI models are \"Achilles’ heel\" of AI trade",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/technology/ai/articles/big-short-steve-eisman-says-153333204.html"
+          "title": "Prediction: Alphabet's $200 Billion Bet Will Result in Huge Profit Growth",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/13/prediction-alphabets-200-billion-bet-will-result-i/"
         }
       ]
     },
@@ -4437,9 +4443,9 @@
       "symbol": "SPY",
       "name": "S&P 500 ETF",
       "category": "etf",
-      "price": 775.88,
-      "change_pct": 0.44,
-      "volume": 13455947,
+      "price": 775.655,
+      "change_pct": 0.41,
+      "volume": 13675176,
       "signal": "sell",
       "confidence": 0.29,
       "opinions": [
@@ -4463,13 +4469,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 775.88,
-        "stop_loss": 788.5946,
-        "take_profit": 754.6889,
+        "entry_price": 775.655,
+        "stop_loss": 788.3697,
+        "take_profit": 754.464,
         "atr": 8.4764,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "AppLovin at 52-Week Low: Buy, Sell or Hold?",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/investing/2026/08/13/applovin-at-52-week-low-buy-sell-or-hold/"
+        },
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
           "publisher": "24/7 Wall St.",
@@ -4479,11 +4490,6 @@
           "title": "I Make $150,000 a Year, But It Feels Like I’m Just Middle Class in a World Full of Rich People",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/personal-finance/2025/07/16/i-make-150000-a-year-but-it-feels-like-im-just-middle-class-in-a-world-full-of-rich-people/"
-        },
-        {
-          "title": "U.S. Budget Deficits Just Surged to $432.3 billion in July While Trump Weighs Brand-New Tax Cuts",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/08/13/u-s-budget-deficits-just-surged-to-432-3-billion-in-july-while-trump-weighs-brand-new-tax-cuts/"
         }
       ]
     },
@@ -4491,9 +4497,9 @@
       "symbol": "QQQ",
       "name": "Nasdaq 100 ETF",
       "category": "etf",
-      "price": 730.71,
-      "change_pct": 0.97,
-      "volume": 16906040,
+      "price": 730.2376,
+      "change_pct": 0.9,
+      "volume": 17234666,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4539,9 +4545,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4426.2998,
-      "change_pct": 0.39,
-      "volume": 105948,
+      "price": 4425.7998,
+      "change_pct": 0.38,
+      "volume": 106438,
       "signal": "sell",
       "confidence": 0.26,
       "opinions": [
@@ -4565,9 +4571,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4426.2998,
-        "stop_loss": 4534.8999,
-        "take_profit": 4245.2997,
+        "entry_price": 4425.7998,
+        "stop_loss": 4534.3999,
+        "take_profit": 4244.7997,
         "atr": 72.4001,
         "risk_reward_ratio": 1.67
       },
@@ -4593,9 +4599,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.12,
-      "change_pct": -1.38,
-      "volume": 135996,
+      "price": 82.42,
+      "change_pct": -1.02,
+      "volume": 138584,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4615,7 +4621,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.09,
-          "rationale": "波動度過高(ATR/價格=5.46%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.44%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4641,8 +4647,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.1,
-      "change_pct": -0.34,
+      "price": 32.096,
+      "change_pct": -0.35,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.37,
@@ -4667,9 +4673,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.1,
-        "stop_loss": 31.8294,
-        "take_profit": 32.551,
+        "entry_price": 32.096,
+        "stop_loss": 31.8254,
+        "take_profit": 32.547,
         "atr": 0.1804,
         "risk_reward_ratio": 1.67
       },
@@ -4695,8 +4701,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.324,
-      "change_pct": 0.04,
+      "price": 159.359,
+      "change_pct": 0.06,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4705,7 +4711,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4721,9 +4727,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.324,
-        "stop_loss": 156.6835,
-        "take_profit": 163.7249,
+        "entry_price": 159.359,
+        "stop_loss": 156.7185,
+        "take_profit": 163.7599,
         "atr": 1.7604,
         "risk_reward_ratio": 1.67
       },
@@ -4749,16 +4755,16 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63585.3906,
-      "change_pct": 0.29,
-      "volume": 18082625536,
+      "price": 63554.5508,
+      "change_pct": 0.24,
+      "volume": 17560952832,
       "signal": "sell",
-      "confidence": 0.4,
+      "confidence": 0.39,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.66,
+          "confidence": 0.65,
           "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
@@ -4775,9 +4781,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 63585.3906,
-        "stop_loss": 65349.8489,
-        "take_profit": 60644.6268,
+        "entry_price": 63554.5508,
+        "stop_loss": 65319.0091,
+        "take_profit": 60613.787,
         "atr": 1176.3055,
         "risk_reward_ratio": 1.67
       },
@@ -4803,9 +4809,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1886.64,
-      "change_pct": 0.45,
-      "volume": 6737970176,
+      "price": 1885.7,
+      "change_pct": 0.4,
+      "volume": 6769878528,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4829,9 +4835,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1886.64,
-        "stop_loss": 1955.0319,
-        "take_profit": 1772.6535,
+        "entry_price": 1885.7,
+        "stop_loss": 1954.0918,
+        "take_profit": 1771.7135,
         "atr": 45.5946,
         "risk_reward_ratio": 1.67
       },
