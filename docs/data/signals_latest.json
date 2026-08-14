@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:12:10.385951+00:00",
+  "generated_at": "2026-08-14T09:17:31.687550+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -99,6 +99,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Taiwan projects 2026 economic growth at fastest in four decades on AI demand",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/articles/taiwan-projects-2026-economic-growth-091104037.html"
+        },
+        {
           "title": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/prediction-2-unstoppable-artificial-intelligence-a/"
@@ -107,11 +112,6 @@
           "title": "Analyst Sees Trouble Brewing for Hot Chip Stocks",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/technology/articles/analyst-sees-trouble-brewing-hot-193124128.html"
-        },
-        {
-          "title": "These 3 Tech Stocks Made Double-Digit Dividend Raises This Year",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/13/these-3-tech-stocks-made-double-digit-dividend/"
         }
       ]
     },
@@ -1932,6 +1932,11 @@
       },
       "news": [
         {
+          "title": "New Strong Sell Stocks for August 14th",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-august-14th-080600976.html"
+        },
+        {
           "title": "Chunghwa Telecom (CHT) Q2 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/earnings/call-transcripts/2026/08/12/chunghwa-telecom-cht-q2-2026-earnings-call-transcript/"
@@ -1940,11 +1945,6 @@
           "title": "Chunghwa Telecom Co Ltd (CHT) (Q2 2026) Earnings Call Highlights: Robust Revenue Growth and ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/chunghwa-telecom-co-ltd-cht-150053595.html"
-        },
-        {
-          "title": "Chunghwa Telecom Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/chunghwa-telecom-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -2617,14 +2617,14 @@
       "price": 18.65,
       "change_pct": 0.0,
       "volume": 10592629,
-      "signal": "buy",
-      "confidence": 0.31,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=14.7 進入超賣區)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -2636,16 +2636,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.06%)"
+          "rationale": "波動度正常(ATR/價格=1.61%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 18.65,
-        "stop_loss": 18.0741,
-        "take_profit": 19.6098,
-        "atr": 0.3839,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": []
     },
     {
@@ -4242,6 +4236,11 @@
       },
       "news": [
         {
+          "title": "Taiwan projects 2026 economic growth at fastest in four decades on AI demand",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/articles/taiwan-projects-2026-economic-growth-091104037.html"
+        },
+        {
           "title": "Jim Cramer Discussed Costco Wholesale Corporation (NASDAQ:COST) & Forecast Bumps",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discussed-costco-wholesale-075852345.html"
@@ -4250,11 +4249,6 @@
           "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/the-best-magnificent-seven-stocks-to-buy-in-august/"
-        },
-        {
-          "title": "Trump Wanted Advanced Tech Made in America, Tim Cook Brought Mac Mini Production to Texas: 'Thank You' for the $600 Billion Commitment, Says Howard Lutnick",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/technology/articles/trump-wanted-advanced-tech-made-020749304.html"
         }
       ]
     },
@@ -4349,14 +4343,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
-          "title": "The Last U.S. Nuclear Boom Applied to Build 26 Reactors and Finished 2. NuScale Carries a $4 Billion Market Value on $10.7 Million of Sales.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/the-last-us-nuclear-boom-applied-to-build-26-react/"
+          "title": "Taiwan projects 2026 economic growth at fastest in four decades on AI demand",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/economy/articles/taiwan-projects-2026-economic-growth-091104037.html"
         },
         {
-          "title": "Everyone Thinks Crypto Is Over. Here's Why They're Wrong.",
+          "title": "Here's the 1 Thing Every Dividend Investor Should Know About Building Passive Income That Lasts a Lifetime",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/everything-thinks-crypto-is-over-heres-why-theyre/"
+          "link": "https://www.fool.com/investing/2026/08/14/1-thing-dividend-investors-passive-income-lifetime/"
         }
       ]
     },
@@ -4568,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4404.5,
-      "change_pct": 0.94,
-      "volume": 46428,
+      "price": 4402.5,
+      "change_pct": 0.89,
+      "volume": 46600,
       "signal": "sell",
       "confidence": 0.25,
       "opinions": [
@@ -4578,7 +4572,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.41,
-          "rationale": "rsi:sell(RSI=75.8 進入超買區)"
+          "rationale": "rsi:sell(RSI=75.7 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4594,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4404.5,
-        "stop_loss": 4514.1929,
-        "take_profit": 4221.6785,
+        "entry_price": 4402.5,
+        "stop_loss": 4512.1929,
+        "take_profit": 4219.6785,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4612,9 +4606,9 @@
           "link": "https://finance.yahoo.com/markets/commodities/article/gold-prices-must-overcome-this-next-hurdle-before-another-bullish-run-115154899.html"
         },
         {
-          "title": "Gold heads for weekly loss as investors unwind inflation-fuelled rally",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/gold-heads-weekly-loss-investors-055257076.html"
+          "title": "European Indexes Mixed as Tech Stocks Rise, Miners Fall",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/stocks/asx-loses-bulls-following-stocks-rerate-dbb0aea8?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4622,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.52,
-      "change_pct": 1.56,
-      "volume": 34334,
+      "price": 82.5,
+      "change_pct": 1.54,
+      "volume": 34626,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4660,9 +4654,9 @@
           "link": "https://finance.yahoo.com/markets/article/stocks-rise-on-broad-sector-strength-alphacheck-135545759.html"
         },
         {
-          "title": "The Red Sea just got more dangerous for Saudi oil",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/markets/the-red-sea-just-got-more-dangerous-for-saudi-oil"
+          "title": "Stocks near record highs; benign US inflation eclipses oil rally",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/asian-stocks-set-weekly-gain-023234921.html"
         }
       ]
     },
@@ -4670,8 +4664,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.994,
-      "change_pct": -0.65,
+      "price": 32.003,
+      "change_pct": -0.62,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4680,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.6 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=30.0 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4696,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.994,
-        "stop_loss": 31.7072,
-        "take_profit": 32.472,
+        "entry_price": 32.003,
+        "stop_loss": 31.7162,
+        "take_profit": 32.481,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4724,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.135,
-      "change_pct": -0.12,
+      "price": 159.12,
+      "change_pct": -0.13,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4734,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4750,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.135,
-        "stop_loss": 156.5004,
-        "take_profit": 163.5261,
+        "entry_price": 159.12,
+        "stop_loss": 156.4854,
+        "take_profit": 163.5111,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4763,14 +4757,14 @@
           "link": "https://finance.yahoo.com/news/yens-weekly-loss-puts-more-061643422.html"
         },
         {
+          "title": "Euro Could Rise as it Looks Undervalued Against Dollar",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/currencies/yen-consolidates-may-be-buoyed-by-prospects-of-boj-rate-hike-d2e15aae?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "BOJ eyeing September rate hike, faster pace of tightening, sources say",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/economy/policy/articles/boj-eyeing-september-rate-hike-061747472.html"
-        },
-        {
-          "title": "Morning Bid: Yen stuck in twilight zone",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/morning-bid-yen-stuck-twilight-045308754.html"
         }
       ]
     },
@@ -4778,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62802.7383,
-      "change_pct": -0.95,
-      "volume": 19989405696,
+      "price": 62807.5508,
+      "change_pct": -0.94,
+      "volume": 19951032320,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4826,17 +4820,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.26,
-      "change_pct": -0.52,
-      "volume": 6489744896,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 1873.99,
+      "change_pct": -0.22,
+      "volume": 6480375296,
+      "signal": "sell",
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.66,
+          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4848,10 +4842,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.23%)"
+          "rationale": "波動度正常(ATR/價格=2.42%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 1873.99,
+        "stop_loss": 1942.0025,
+        "take_profit": 1760.6358,
+        "atr": 45.3417,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Why Fidelity added staking rewards to its ethereum ETF",
