@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:09:08.918132+00:00",
+  "generated_at": "2026-08-14T07:14:29.618417+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4562,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4390.8999,
-      "change_pct": 0.63,
-      "volume": 38981,
+      "price": 4391.7002,
+      "change_pct": 0.64,
+      "volume": 39445,
       "signal": "sell",
       "confidence": 0.24,
       "opinions": [
@@ -4572,7 +4572,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.4,
-          "rationale": "rsi:sell(RSI=75.2 進入超買區)"
+          "rationale": "rsi:sell(RSI=75.3 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4390.8999,
-        "stop_loss": 4500.5928,
-        "take_profit": 4208.0784,
+        "entry_price": 4391.7002,
+        "stop_loss": 4501.3931,
+        "take_profit": 4208.8787,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.17,
-      "change_pct": 1.13,
-      "volume": 17883,
+      "price": 82.59,
+      "change_pct": 1.65,
+      "volume": 19316,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4649,14 +4649,14 @@
           "link": "https://finance.yahoo.com/markets/article/stocks-rise-on-broad-sector-strength-alphacheck-135545759.html"
         },
         {
+          "title": "Oil rises after US threatens indefinite blockade of Iran",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-steadies-us-threatens-blockade-013600797.html"
+        },
+        {
           "title": "FTSE 100 Live: Blue-chips set to open higher as soft US inflation cools rate rise bets",
           "publisher": "Proactive",
           "link": "https://www.proactiveinvestors.com/companies/news/1097041/ftse-100-live-blue-chips-set-to-open-higher-as-soft-us-inflation-cools-rate-rise-bets-1097041.html"
-        },
-        {
-          "title": "Asian shares mostly fall and US futures are little changed after US inflation data improves",
-          "publisher": "Associated Press",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-fall-us-055846864.html"
         }
       ]
     },
@@ -4664,8 +4664,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.994,
-      "change_pct": -0.65,
+      "price": 31.991,
+      "change_pct": -0.66,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4674,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.6 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.5 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.994,
-        "stop_loss": 31.7072,
-        "take_profit": 32.472,
+        "entry_price": 31.991,
+        "stop_loss": 31.7042,
+        "take_profit": 32.469,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.242,
-      "change_pct": -0.05,
+      "price": 159.258,
+      "change_pct": -0.04,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.36,
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.242,
-        "stop_loss": 156.6152,
-        "take_profit": 163.62,
+        "entry_price": 159.258,
+        "stop_loss": 156.6312,
+        "take_profit": 163.636,
         "atr": 1.7512,
         "risk_reward_ratio": 1.67
       },
@@ -4772,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62983.5391,
-      "change_pct": -0.66,
-      "volume": 18865750016,
+      "price": 63011.5117,
+      "change_pct": -0.62,
+      "volume": 18916698112,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4820,9 +4820,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1873.26,
+      "price": 1873.34,
       "change_pct": -0.57,
-      "volume": 6396548096,
+      "volume": 6428250112,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
