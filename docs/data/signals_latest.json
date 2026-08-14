@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:31:44.856362+00:00",
+  "generated_at": "2026-08-14T06:37:05.242524+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2617,14 +2617,14 @@
       "price": 18.65,
       "change_pct": 0.0,
       "volume": 10592629,
-      "signal": "buy",
-      "confidence": 0.31,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.51,
-          "rationale": "rsi:buy(RSI=14.7 進入超賣區)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -2636,16 +2636,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.06%)"
+          "rationale": "波動度正常(ATR/價格=1.61%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 18.65,
-        "stop_loss": 18.0741,
-        "take_profit": 19.6098,
-        "atr": 0.3839,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": []
     },
     {
@@ -4456,9 +4450,9 @@
           "link": "https://finance.yahoo.com/technology/article/google-becomes-latest-company-to-raise-prices-thanks-to-memory-shortage-151004099.html"
         },
         {
-          "title": "5 Insightful Analyst Questions From LegalZoom’s Q2 Earnings Call",
-          "publisher": "StockStory",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-legalzoom-055700193.html"
+          "title": "Vornado, Related’s Chelsea Office Hits Special Servicing",
+          "publisher": "CRE Daily",
+          "link": "https://www.credaily.com/briefs/vornado-related-s-chelsea-office-hits-special-servicing/"
         }
       ]
     },
@@ -4568,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4386.3999,
-      "change_pct": 0.52,
-      "volume": 37483,
+      "price": 4387.6001,
+      "change_pct": 0.55,
+      "volume": 37723,
       "signal": "sell",
       "confidence": 0.25,
       "opinions": [
@@ -4594,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4386.3999,
-        "stop_loss": 4496.0928,
-        "take_profit": 4203.5784,
+        "entry_price": 4387.6001,
+        "stop_loss": 4497.293,
+        "take_profit": 4204.7786,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4622,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.05,
-      "change_pct": 0.98,
-      "volume": 14755,
+      "price": 82.13,
+      "change_pct": 1.08,
+      "volume": 15288,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4670,17 +4664,17 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.004,
-      "change_pct": -0.62,
+      "price": 32.001,
+      "change_pct": -0.63,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.37,
+      "confidence": 0.49,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.62,
-          "rationale": "bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "confidence": 0.82,
+          "rationale": "rsi:buy(RSI=29.9 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4696,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.004,
-        "stop_loss": 31.7172,
-        "take_profit": 32.482,
+        "entry_price": 32.001,
+        "stop_loss": 31.7142,
+        "take_profit": 32.479,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4724,7 +4718,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.255,
+      "price": 159.256,
       "change_pct": -0.05,
       "volume": 0,
       "signal": "buy",
@@ -4750,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.255,
-        "stop_loss": 156.6282,
-        "take_profit": 163.633,
+        "entry_price": 159.256,
+        "stop_loss": 156.6292,
+        "take_profit": 163.634,
         "atr": 1.7512,
         "risk_reward_ratio": 1.67
       },
@@ -4778,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63145.4297,
+      "price": 63142.2109,
       "change_pct": -0.41,
-      "volume": 18612228096,
+      "volume": 18569787392,
       "signal": "sell",
       "confidence": 0.37,
       "opinions": [
@@ -4804,10 +4798,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 63145.4297,
-        "stop_loss": 64895.9791,
-        "take_profit": 60227.8474,
-        "atr": 1167.0329,
+        "entry_price": 63142.2109,
+        "stop_loss": 64893.5773,
+        "take_profit": 60223.267,
+        "atr": 1167.5776,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4832,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1876.58,
-      "change_pct": -0.08,
-      "volume": 6313441792,
+      "price": 1876.29,
+      "change_pct": -0.1,
+      "volume": 6262769664,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4858,10 +4852,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1876.58,
-        "stop_loss": 1943.7509,
-        "take_profit": 1764.6283,
-        "atr": 44.7806,
+        "entry_price": 1876.29,
+        "stop_loss": 1943.4919,
+        "take_profit": 1764.287,
+        "atr": 44.8012,
         "risk_reward_ratio": 1.67
       },
       "news": [
