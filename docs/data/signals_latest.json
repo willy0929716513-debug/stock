@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:35:54.286342+00:00",
+  "generated_at": "2026-08-14T07:41:15.716946+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2649,14 +2649,14 @@
       "price": 16.3,
       "change_pct": -0.91,
       "volume": 31409298,
-      "signal": "buy",
-      "confidence": 0.28,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.46,
-          "rationale": "rsi:buy(RSI=20.2 進入超賣區)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -2668,16 +2668,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.07%)"
+          "rationale": "波動度正常(ATR/價格=1.58%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 16.3,
-        "stop_loss": 15.7933,
-        "take_profit": 17.1445,
-        "atr": 0.3378,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": []
     },
     {
@@ -4301,14 +4295,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html"
         },
         {
+          "title": "Is Stronger Career Learning And Capital Returns Altering The Investment Case For Stride (LRN)?",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stronger-career-learning-capital-returns-071352655.html"
+        },
+        {
           "title": "Pershing Square Q2 Earnings Call Highlights",
           "publisher": "MarketBeat",
           "link": "https://www.marketbeat.com/instant-alerts/pershing-square-q2-earnings-call-highlights-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance"
-        },
-        {
-          "title": "Bleeding-Edge AI Meets Cutting-Edge Finance. Is This Peak AI?",
-          "publisher": "Barrons.com",
-          "link": "https://www.barrons.com/articles/ai-compute-futures-contracts-391c267a?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4349,14 +4343,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
-          "title": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
+          "title": "Is Bitcoin Headed for a Breakdown or a Breakout? The Historical Evidence Is Just Too Overwhelming to Ignore.",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/alphabet-and-amazon-are-spending-420-billion-on-in/"
+          "link": "https://www.fool.com/investing/2026/08/14/is-bitcoin-headed-for-a-breakdown-or-a-breakout/"
         },
         {
-          "title": "Bill Ackman Just Disclosed 6 New Positions, and 4 of Them Are Financial Stocks. Here's What He's Betting On.",
+          "title": "Should You Forget Berkshire Hathaway and Buy a Focused Financial Stock Instead?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/bill-ackman-just-disclosed-6-new-positions-and-4-of-them-are-financial-stocks-heres-what-hes-betting-on/"
+          "link": "https://www.fool.com/investing/2026/08/14/should-you-forget-berkshire-hathaway-and-buy-a-foc/"
         }
       ]
     },
@@ -4568,17 +4562,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4391.0,
-      "change_pct": 0.63,
-      "volume": 40522,
+      "price": 4388.2998,
+      "change_pct": 0.57,
+      "volume": 40669,
       "signal": "sell",
-      "confidence": 0.24,
+      "confidence": 0.25,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.4,
-          "rationale": "rsi:sell(RSI=75.2 進入超買區)"
+          "confidence": 0.41,
+          "rationale": "rsi:sell(RSI=75.1 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4594,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4391.0,
-        "stop_loss": 4500.6929,
-        "take_profit": 4208.1785,
+        "entry_price": 4388.2998,
+        "stop_loss": 4497.9927,
+        "take_profit": 4205.4783,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4622,17 +4616,17 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.67,
-      "change_pct": 1.75,
-      "volume": 23244,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 82.83,
+      "change_pct": 1.94,
+      "volume": 23894,
+      "signal": "buy",
+      "confidence": 0.4,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.67,
+          "rationale": "moving_average_cross:buy(5日均線上穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4644,10 +4638,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.96%)"
+          "rationale": "波動度正常(ATR/價格=4.95%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 82.83,
+        "stop_loss": 76.6811,
+        "take_profit": 93.0782,
+        "atr": 4.0993,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Stocks rise on broad sector strength: AlphaCheck",
@@ -4670,8 +4670,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.996,
-      "change_pct": -0.64,
+      "price": 31.987,
+      "change_pct": -0.67,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4680,7 +4680,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.7 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.4 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4696,9 +4696,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.996,
-        "stop_loss": 31.7092,
-        "take_profit": 32.474,
+        "entry_price": 31.987,
+        "stop_loss": 31.7002,
+        "take_profit": 32.465,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4724,8 +4724,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.268,
-      "change_pct": -0.04,
+      "price": 159.255,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.36,
@@ -4750,9 +4750,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.268,
-        "stop_loss": 156.6412,
-        "take_profit": 163.646,
+        "entry_price": 159.255,
+        "stop_loss": 156.6282,
+        "take_profit": 163.633,
         "atr": 1.7512,
         "risk_reward_ratio": 1.67
       },
@@ -4778,9 +4778,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62943.7109,
-      "change_pct": -0.72,
-      "volume": 18795300864,
+      "price": 62935.8008,
+      "change_pct": -0.74,
+      "volume": 18779092992,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4826,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.5,
-      "change_pct": -0.61,
-      "volume": 6436693504,
+      "price": 1873.6,
+      "change_pct": -0.55,
+      "volume": 6382502912,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
