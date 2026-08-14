@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:45:25.077879+00:00",
+  "generated_at": "2026-08-14T08:50:45.922861+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1741,7 +1741,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.57,
-          "rationale": "波動度過高(ATR/價格=7.83%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=7.85%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4343,14 +4343,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
+          "title": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/14/prediction-2-unstoppable-artificial-intelligence-a/"
+        },
+        {
           "title": "Why Under Armour Stock Was Underwater This Week",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/why-under-armour-stock-was-underwater-this-week/"
-        },
-        {
-          "title": "Don't Be Fooled: Despite Lower Odds of a September Fed Rate Hike, One Sinister Inflation Metric Remains Problematic",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/lower-odds-fed-rate-hike-sinister-inflation-metric/"
         }
       ]
     },
@@ -4450,9 +4450,9 @@
           "link": "https://finance.yahoo.com/technology/article/google-becomes-latest-company-to-raise-prices-thanks-to-memory-shortage-151004099.html"
         },
         {
-          "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
+          "title": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/the-best-magnificent-seven-stocks-to-buy-in-august/"
+          "link": "https://www.fool.com/investing/2026/08/14/prediction-2-unstoppable-artificial-intelligence-a/"
         }
       ]
     },
@@ -4562,17 +4562,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4400.8999,
-      "change_pct": 0.85,
-      "volume": 45036,
+      "price": 4404.3999,
+      "change_pct": 0.94,
+      "volume": 45302,
       "signal": "sell",
-      "confidence": 0.24,
+      "confidence": 0.25,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.4,
-          "rationale": "rsi:sell(RSI=75.6 進入超買區)"
+          "confidence": 0.41,
+          "rationale": "rsi:sell(RSI=75.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4400.8999,
-        "stop_loss": 4510.5928,
-        "take_profit": 4218.0784,
+        "entry_price": 4404.3999,
+        "stop_loss": 4514.0928,
+        "take_profit": 4221.5784,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.52,
-      "change_pct": 1.56,
-      "volume": 31209,
+      "price": 82.3,
+      "change_pct": 1.29,
+      "volume": 32337,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,7 +4638,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.97%)"
+          "rationale": "波動度正常(ATR/價格=4.98%)"
         }
       ],
       "risk_levels": null,
@@ -4664,8 +4664,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.994,
-      "change_pct": -0.65,
+      "price": 31.998,
+      "change_pct": -0.63,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4674,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.6 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.8 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.994,
-        "stop_loss": 31.7072,
-        "take_profit": 32.472,
+        "entry_price": 31.998,
+        "stop_loss": 31.7112,
+        "take_profit": 32.476,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.125,
-      "change_pct": -0.13,
+      "price": 159.157,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,22 +4744,22 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.125,
-        "stop_loss": 156.4904,
-        "take_profit": 163.5161,
+        "entry_price": 159.157,
+        "stop_loss": 156.5224,
+        "take_profit": 163.5481,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
       "news": [
         {
+          "title": "Yen's weekly loss puts more intervention on traders' radar",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/news/yens-weekly-loss-puts-more-061643422.html"
+        },
+        {
           "title": "BOJ eyeing September rate hike, faster pace of tightening, sources say",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/economy/policy/articles/boj-eyeing-september-rate-hike-061747472.html"
-        },
-        {
-          "title": "Yen's weekly loss puts more intervention on traders' radar",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/yens-weekly-loss-puts-more-061643422.html"
         },
         {
           "title": "Morning Bid: Yen stuck in twilight zone",
@@ -4772,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62747.8203,
-      "change_pct": -1.03,
-      "volume": 19757268992,
+      "price": 62820.0,
+      "change_pct": -0.92,
+      "volume": 19813214208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4820,9 +4820,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1871.26,
-      "change_pct": -0.68,
-      "volume": 6484130816,
+      "price": 1873.3,
+      "change_pct": -0.57,
+      "volume": 6527241216,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
