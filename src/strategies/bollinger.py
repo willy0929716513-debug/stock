@@ -34,5 +34,8 @@ class BollingerBandStrategy(Strategy):
             return StrategyResult(self.name, "sell", 0.5, f"價格 {price:.2f} 觸及上軌 {upper_now:.2f}")
 
         band_width = upper_now - lower_now
-        position = (price - mid_now) / (band_width / 2) if band_width else 0.0
+        # `if band_width` 不能拿來擋 NaN——NaN 在 Python 是 truthy,`0.0 除以 NaN`
+        # 這種情況不會被這個判斷式擋下來,算出來的 confidence 會是 NaN,寫進
+        # JSON 時直接讓整個 pipeline 執行失敗(json.dumps 的 allow_nan=False)。
+        position = (price - mid_now) / (band_width / 2) if band_width and not pd.isna(band_width) else 0.0
         return StrategyResult(self.name, "hold", round(abs(position) * 0.2, 2), f"價格在通道內,相對位置={position:.2f}")

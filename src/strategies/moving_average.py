@@ -30,7 +30,14 @@ class MovingAverageCrossStrategy(Strategy):
             return StrategyResult(self.name, "sell", 0.6, f"{self.short_window}日均線下穿{self.long_window}日均線")
 
         long_ma_now = long_ma.iloc[-1]
-        trend_strength = min(abs(curr_diff) / long_ma_now, 0.05) / 0.05 * 0.4 if long_ma_now else 0.0
+        # `if long_ma_now` 不能拿來擋 NaN——NaN 在 Python 是 truthy,算出來的
+        # trend_strength 會是 NaN,寫進 JSON 時讓整個 pipeline 執行失敗
+        # (json.dumps 的 allow_nan=False)。
+        trend_strength = (
+            min(abs(curr_diff) / long_ma_now, 0.05) / 0.05 * 0.4
+            if long_ma_now and not pd.isna(long_ma_now) and not pd.isna(curr_diff)
+            else 0.0
+        )
         if curr_diff > 0:
             return StrategyResult(self.name, "hold", round(trend_strength, 2), "短均線在長均線之上,多頭排列但無交叉")
         return StrategyResult(self.name, "hold", round(trend_strength, 2), "短均線在長均線之下,空頭排列但無交叉")

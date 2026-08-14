@@ -67,3 +67,21 @@ def test_bollinger_price_above_upper_band_triggers_sell():
     df = _make_df(prices)
     result = BollingerBandStrategy(window=20).evaluate(df)
     assert result.signal == "sell"
+
+
+def test_bollinger_returns_finite_confidence_when_latest_close_is_nan():
+    # 真實 production 發生過:最新一天的 Close 是 NaN(資料尚未結算完整),
+    # rolling() 算出來的 band_width 也會是 NaN。`if band_width` 擋不住 NaN
+    # (NaN 在 Python 是 truthy),曾經讓 confidence 算出 NaN,寫進 JSON 時
+    # 讓整個 pipeline 執行失敗。
+    df = _make_df([100.0] * 30)
+    df.loc[df.index[-1], "Close"] = float("nan")
+    result = BollingerBandStrategy(window=20).evaluate(df)
+    assert not pd.isna(result.confidence)
+
+
+def test_moving_average_returns_finite_confidence_when_latest_close_is_nan():
+    df = _make_df([100.0] * 30)
+    df.loc[df.index[-1], "Close"] = float("nan")
+    result = MovingAverageCrossStrategy(short_window=5, long_window=20).evaluate(df)
+    assert not pd.isna(result.confidence)

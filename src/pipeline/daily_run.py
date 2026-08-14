@@ -49,6 +49,17 @@ def build_signals() -> dict:
             logger.warning("skipping %s: no history data available", symbol)
             continue
 
+        # fetch_quote() 內部只會清自己那份本地複本的 NaN,這裡的 df 是共用的,
+        # 還是會原封不動傳給下面的策略引擎跟風控計算。歷史資料裡任何一天的
+        # Close 是 NaN(不只是最新一天),都可能讓 ewm()/rolling() 算出來的
+        # 指標值帶 NaN,進而讓 confidence/risk_levels 也是 NaN——這正是實際
+        # production 發生過的真因:daily_run.py 因為 json.dumps(allow_nan=False)
+        # 直接整個執行失敗。這裡先清一次,後面全部共用同一份乾淨的資料。
+        df = df.dropna(subset=["Close"])
+        if df.empty:
+            logger.warning("skipping %s: all Close values are NaN", symbol)
+            continue
+
         quote = fetch_quote(symbol, history=df)
         if quote is None:
             logger.warning("skipping %s: no quote available", symbol)

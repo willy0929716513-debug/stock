@@ -54,6 +54,28 @@ def test_build_signals_skips_symbols_with_no_history(monkeypatch):
     assert output["signals"] == []
 
 
+def test_build_signals_output_is_valid_json_when_close_has_nan_mid_history(monkeypatch):
+    # 真實 production 發生過的真因:某天的 Close 是 NaN,不是最新一天,而是歷史
+    # 中間的一天。strategies 用 ewm()/rolling() 算指標時會把 NaN 一路帶出來,
+    # 讓 confidence/risk_levels 也變 NaN,daily_run.py 用 allow_nan=False 寫檔
+    # 時就直接整個執行失敗(ValueError: Out of range float values ...)。
+    import json
+
+    fake_df = _trending_df(n=60)
+    fake_df.loc[fake_df.index[-1], "Close"] = float("nan")  # 最新一天的資料真實發生過是 NaN
+
+    monkeypatch.setattr(daily_run, "fetch_history_batch", lambda symbols, **kwargs: {s: fake_df for s in symbols})
+    monkeypatch.setattr(daily_run, "fetch_news", lambda symbol, **kwargs: [])
+    monkeypatch.setattr(daily_run, "fetch_all_macro", lambda: [])
+    monkeypatch.setattr(daily_run, "analyze_potential_stocks", lambda news_by_symbol: [])
+    monkeypatch.setattr(daily_run, "is_trading_day", lambda: True)
+
+    output = daily_run.build_signals()
+
+    assert len(output["signals"]) > 0
+    json.dumps(output, ensure_ascii=False, allow_nan=False)  # 不會拋例外就是修好了
+
+
 def test_build_signals_continues_when_potential_stock_analysis_raises(monkeypatch):
     fake_df = _trending_df()
 
