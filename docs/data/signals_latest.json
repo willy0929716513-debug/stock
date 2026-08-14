@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:06:48.701847+00:00",
+  "generated_at": "2026-08-14T09:12:10.385951+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2617,6 +2617,44 @@
       "price": 18.65,
       "change_pct": 0.0,
       "volume": 10592629,
+      "signal": "buy",
+      "confidence": 0.31,
+      "opinions": [
+        {
+          "agent": "technical",
+          "signal": "buy",
+          "confidence": 0.51,
+          "rationale": "rsi:buy(RSI=14.7 進入超賣區)"
+        },
+        {
+          "agent": "macro",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
+        },
+        {
+          "agent": "risk",
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "波動度正常(ATR/價格=2.06%)"
+        }
+      ],
+      "risk_levels": {
+        "entry_price": 18.65,
+        "stop_loss": 18.0741,
+        "take_profit": 19.6098,
+        "atr": 0.3839,
+        "risk_reward_ratio": 1.67
+      },
+      "news": []
+    },
+    {
+      "symbol": "2834.TW",
+      "name": "臺企銀",
+      "category": "tw_stock",
+      "price": 16.3,
+      "change_pct": -0.91,
+      "volume": 31409298,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -2636,48 +2674,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.61%)"
+          "rationale": "波動度正常(ATR/價格=1.58%)"
         }
       ],
       "risk_levels": null,
-      "news": []
-    },
-    {
-      "symbol": "2834.TW",
-      "name": "臺企銀",
-      "category": "tw_stock",
-      "price": 16.3,
-      "change_pct": -0.91,
-      "volume": 31409298,
-      "signal": "buy",
-      "confidence": 0.28,
-      "opinions": [
-        {
-          "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.46,
-          "rationale": "rsi:buy(RSI=20.2 進入超賣區)"
-        },
-        {
-          "agent": "macro",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "無總經資料(FRED_API_KEY 未設定或抓取失敗)"
-        },
-        {
-          "agent": "risk",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.07%)"
-        }
-      ],
-      "risk_levels": {
-        "entry_price": 16.3,
-        "stop_loss": 15.7933,
-        "take_profit": 17.1445,
-        "atr": 0.3378,
-        "risk_reward_ratio": 1.67
-      },
       "news": []
     },
     {
@@ -4349,14 +4349,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
+          "title": "The Last U.S. Nuclear Boom Applied to Build 26 Reactors and Finished 2. NuScale Carries a $4 Billion Market Value on $10.7 Million of Sales.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/14/the-last-us-nuclear-boom-applied-to-build-26-react/"
+        },
+        {
           "title": "Everyone Thinks Crypto Is Over. Here's Why They're Wrong.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/everything-thinks-crypto-is-over-heres-why-theyre/"
-        },
-        {
-          "title": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/prediction-2-unstoppable-artificial-intelligence-a/"
         }
       ]
     },
@@ -4568,9 +4568,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4404.8999,
-      "change_pct": 0.95,
-      "volume": 46255,
+      "price": 4404.5,
+      "change_pct": 0.94,
+      "volume": 46428,
       "signal": "sell",
       "confidence": 0.25,
       "opinions": [
@@ -4594,9 +4594,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4404.8999,
-        "stop_loss": 4514.5928,
-        "take_profit": 4222.0784,
+        "entry_price": 4404.5,
+        "stop_loss": 4514.1929,
+        "take_profit": 4221.6785,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4622,9 +4622,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.56,
-      "change_pct": 1.61,
-      "volume": 33974,
+      "price": 82.52,
+      "change_pct": 1.56,
+      "volume": 34334,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4660,9 +4660,9 @@
           "link": "https://finance.yahoo.com/markets/article/stocks-rise-on-broad-sector-strength-alphacheck-135545759.html"
         },
         {
-          "title": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/energy/articles/oil-steadies-us-threatens-blockade-013600797.html"
+          "title": "The Red Sea just got more dangerous for Saudi oil",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/markets/the-red-sea-just-got-more-dangerous-for-saudi-oil"
         }
       ]
     },
@@ -4670,8 +4670,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.995,
-      "change_pct": -0.64,
+      "price": 31.994,
+      "change_pct": -0.65,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4680,7 +4680,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.7 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.6 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4696,9 +4696,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.995,
-        "stop_loss": 31.7082,
-        "take_profit": 32.473,
+        "entry_price": 31.994,
+        "stop_loss": 31.7072,
+        "take_profit": 32.472,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4724,7 +4724,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.13,
+      "price": 159.135,
       "change_pct": -0.12,
       "volume": 0,
       "signal": "buy",
@@ -4734,7 +4734,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4750,9 +4750,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.13,
-        "stop_loss": 156.4954,
-        "take_profit": 163.5211,
+        "entry_price": 159.135,
+        "stop_loss": 156.5004,
+        "take_profit": 163.5261,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4778,9 +4778,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62812.6914,
-      "change_pct": -0.93,
-      "volume": 19797647360,
+      "price": 62802.7383,
+      "change_pct": -0.95,
+      "volume": 19989405696,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4826,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1874.16,
+      "price": 1874.26,
       "change_pct": -0.52,
-      "volume": 6486283264,
+      "volume": 6489744896,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
