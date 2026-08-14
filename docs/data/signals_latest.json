@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:55:01.191841+00:00",
+  "generated_at": "2026-08-14T10:00:22.259000+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4338,19 +4338,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Nvidia bulls may have a small problem on their hands",
+          "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
+          "link": "https://finance.yahoo.com/markets/article/the-next-ai-winners-may-look-nothing-like-nvidia-or-micron-one-big-investment-idea-095700607.html"
+        },
+        {
+          "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-rival-cerebras-stock-plunges-as-company-swings-to-quarterly-loss-131528695.html"
         },
         {
           "title": "Vanguard Is Bullish on Developed Markets Outside the U.S. -- But How Can You Buy Them? These 2 ETFs Can Help.",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/vanguard-is-bullish-on-developed-markets-outside-t/"
-        },
-        {
-          "title": "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/warren-buffett-abel-drop-bombshell-wall-st-today/"
         }
       ]
     },
@@ -4562,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.2998,
+      "price": 4409.6001,
       "change_pct": 1.05,
-      "volume": 49362,
+      "volume": 49680,
       "signal": "sell",
       "confidence": 0.24,
       "opinions": [
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.2998,
-        "stop_loss": 4518.9927,
-        "take_profit": 4226.4783,
+        "entry_price": 4409.6001,
+        "stop_loss": 4519.293,
+        "take_profit": 4226.7786,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.28,
-      "change_pct": 1.27,
-      "volume": 38902,
+      "price": 82.32,
+      "change_pct": 1.32,
+      "volume": 39320,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4664,8 +4664,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.987,
-      "change_pct": -0.67,
+      "price": 31.996,
+      "change_pct": -0.64,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4674,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.4 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.7 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.987,
-        "stop_loss": 31.7002,
-        "take_profit": 32.465,
+        "entry_price": 31.996,
+        "stop_loss": 31.7092,
+        "take_profit": 32.474,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.122,
-      "change_pct": -0.13,
+      "price": 159.149,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.122,
-        "stop_loss": 156.4873,
-        "take_profit": 163.5131,
+        "entry_price": 159.149,
+        "stop_loss": 156.5144,
+        "take_profit": 163.5401,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4772,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62754.5312,
-      "change_pct": -1.02,
-      "volume": 20052027392,
+      "price": 62718.2109,
+      "change_pct": -1.08,
+      "volume": 20037535744,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4820,9 +4820,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.71,
-      "change_pct": -0.6,
-      "volume": 6475089920,
+      "price": 1870.74,
+      "change_pct": -0.7,
+      "volume": 6441191424,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
