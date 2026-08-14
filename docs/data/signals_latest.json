@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:00:22.259000+00:00",
+  "generated_at": "2026-08-14T10:05:43.731712+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2649,14 +2649,14 @@
       "price": 16.3,
       "change_pct": -0.91,
       "volume": 31409298,
-      "signal": "hold",
-      "confidence": 0.0,
+      "signal": "buy",
+      "confidence": 0.28,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.46,
+          "rationale": "rsi:buy(RSI=20.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -2668,10 +2668,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.58%)"
+          "rationale": "波動度正常(ATR/價格=2.07%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 16.3,
+        "stop_loss": 15.7933,
+        "take_profit": 17.1445,
+        "atr": 0.3378,
+        "risk_reward_ratio": 1.67
+      },
       "news": []
     },
     {
@@ -4290,6 +4296,11 @@
       },
       "news": [
         {
+          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html"
+        },
+        {
           "title": "Why this analyst sees another 30% rip in Microsoft stock",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html"
@@ -4298,11 +4309,6 @@
           "title": "The Best \"Magnificent Seven\" Stocks to Buy in August",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/the-best-magnificent-seven-stocks-to-buy-in-august/"
-        },
-        {
-          "title": "Is Stronger Career Learning And Capital Returns Altering The Investment Case For Stride (LRN)?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stronger-career-learning-capital-returns-071352655.html"
         }
       ]
     },
@@ -4338,19 +4344,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
+          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
           "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/article/the-next-ai-winners-may-look-nothing-like-nvidia-or-micron-one-big-investment-idea-095700607.html"
+          "link": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html"
+        },
+        {
+          "title": "Can Nvidia’s circular financing keep fueling the market rally?",
+          "publisher": "Yahoo Finance Video",
+          "link": "https://finance.yahoo.com/video/nvidia-circular-financing-keep-fueling-140000896.html"
         },
         {
           "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-rival-cerebras-stock-plunges-as-company-swings-to-quarterly-loss-131528695.html"
-        },
-        {
-          "title": "Vanguard Is Bullish on Developed Markets Outside the U.S. -- But How Can You Buy Them? These 2 ETFs Can Help.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/vanguard-is-bullish-on-developed-markets-outside-t/"
         }
       ]
     },
@@ -4494,6 +4500,11 @@
       },
       "news": [
         {
+          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html"
+        },
+        {
           "title": "US Stock Futures Rangebound After S&P 500 Ends At Record Highs As Data Shows Cooling Inflation — WDAY, SNDK, AMD, DELL, HTZ In Focus",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rangebound-after-s-and-p-500-ends-at-record-highs-as-data-shows-cooling-inflation-wday-sndk-amd-dell-htz-in-focus/cZoqpLeRJLz"
@@ -4502,11 +4513,6 @@
           "title": "The 60/40 Portfolio Was Declared Dead. American Balanced Fund, ABALX, Never Got the Memo",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/08/13/the-60-40-portfolio-was-declared-dead-american-balanced-fund-abalx-never-got-the-memo/"
-        },
-        {
-          "title": "Pantheon Drops Surprising Fed Call After July CPI",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/economy/policy/articles/pantheon-drops-surprising-fed-call-192252600.html"
         }
       ]
     },
@@ -4562,9 +4568,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4409.6001,
-      "change_pct": 1.05,
-      "volume": 49680,
+      "price": 4411.3999,
+      "change_pct": 1.1,
+      "volume": 50052,
       "signal": "sell",
       "confidence": 0.24,
       "opinions": [
@@ -4572,7 +4578,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.4,
-          "rationale": "rsi:sell(RSI=75.9 進入超買區)"
+          "rationale": "rsi:sell(RSI=76.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4588,9 +4594,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4409.6001,
-        "stop_loss": 4519.293,
-        "take_profit": 4226.7786,
+        "entry_price": 4411.3999,
+        "stop_loss": 4521.0928,
+        "take_profit": 4228.5784,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4622,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.32,
-      "change_pct": 1.32,
-      "volume": 39320,
+      "price": 82.09,
+      "change_pct": 1.03,
+      "volume": 39993,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,7 +4644,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.98%)"
+          "rationale": "波動度正常(ATR/價格=4.99%)"
         }
       ],
       "risk_levels": null,
@@ -4654,9 +4660,9 @@
           "link": "https://finance.yahoo.com/markets/article/stocks-rise-on-broad-sector-strength-alphacheck-135545759.html"
         },
         {
-          "title": "Stocks near record highs; benign US inflation eclipses oil rally",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/news/asian-stocks-set-weekly-gain-023234921.html"
+          "title": "Oil climbs amid US warning of prolonged Iranian naval blockade",
+          "publisher": "Offshore Technology",
+          "link": "https://www.offshore-technology.com/news/oil-climbs-us-warning-iranian-naval-blockade/"
         }
       ]
     },
@@ -4664,8 +4670,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.996,
-      "change_pct": -0.64,
+      "price": 31.999,
+      "change_pct": -0.63,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4674,7 +4680,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.7 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.8 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4696,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.996,
-        "stop_loss": 31.7092,
-        "take_profit": 32.474,
+        "entry_price": 31.999,
+        "stop_loss": 31.7122,
+        "take_profit": 32.477,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4724,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.149,
-      "change_pct": -0.11,
+      "price": 159.133,
+      "change_pct": -0.12,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4744,9 +4750,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.149,
-        "stop_loss": 156.5144,
-        "take_profit": 163.5401,
+        "entry_price": 159.133,
+        "stop_loss": 156.4984,
+        "take_profit": 163.5241,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4772,9 +4778,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62718.2109,
-      "change_pct": -1.08,
-      "volume": 20037535744,
+      "price": 62766.0117,
+      "change_pct": -1.0,
+      "volume": 20057929728,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4820,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1870.74,
-      "change_pct": -0.7,
-      "volume": 6441191424,
+      "price": 1874.2,
+      "change_pct": -0.52,
+      "volume": 6414678016,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
