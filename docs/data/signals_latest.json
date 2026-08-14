@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:56:06.641205+00:00",
+  "generated_at": "2026-08-14T09:01:27.844233+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1741,7 +1741,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.57,
-          "rationale": "波動度過高(ATR/價格=7.83%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=7.85%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4343,14 +4343,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
+          "title": "Everyone Thinks Crypto Is Over. Here's Why They're Wrong.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/14/everything-thinks-crypto-is-over-heres-why-theyre/"
+        },
+        {
           "title": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/prediction-2-unstoppable-artificial-intelligence-a/"
-        },
-        {
-          "title": "Why Under Armour Stock Was Underwater This Week",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/why-under-armour-stock-was-underwater-this-week/"
         }
       ]
     },
@@ -4562,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4399.2002,
-      "change_pct": 0.82,
-      "volume": 45683,
+      "price": 4400.7002,
+      "change_pct": 0.85,
+      "volume": 45936,
       "signal": "sell",
       "confidence": 0.24,
       "opinions": [
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4399.2002,
-        "stop_loss": 4508.8931,
-        "take_profit": 4216.3787,
+        "entry_price": 4400.7002,
+        "stop_loss": 4510.3931,
+        "take_profit": 4217.8787,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.56,
-      "change_pct": 1.61,
-      "volume": 33400,
+      "price": 82.57,
+      "change_pct": 1.62,
+      "volume": 33741,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,11 +4638,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.97%)"
+          "rationale": "波動度正常(ATR/價格=4.96%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "The US dollar is caught between 2 competing forces",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/currencies/article/the-us-dollar-is-caught-between-2-competing-forces-090000679.html"
+        },
         {
           "title": "Stocks rise on broad sector strength: AlphaCheck",
           "publisher": "Yahoo Finance",
@@ -4652,11 +4657,6 @@
           "title": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/energy/articles/oil-steadies-us-threatens-blockade-013600797.html"
-        },
-        {
-          "title": "Touchstone Exploration shares jump as Q2 earnings rebound and Cascadura output improves",
-          "publisher": "Proactive",
-          "link": "https://www.proactiveinvestors.com/companies/news/1097051/touchstone-exploration-shares-jump-as-q2-earnings-rebound-and-cascadura-output-improves-1097051.html"
         }
       ]
     },
@@ -4664,17 +4664,17 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.986,
-      "change_pct": -0.67,
+      "price": 32.008,
+      "change_pct": -0.6,
       "volume": 0,
       "signal": "buy",
-      "confidence": 0.49,
+      "confidence": 0.37,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.4 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
+          "confidence": 0.62,
+          "rationale": "bollinger_band:buy(價格 32.01 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 31.986,
-        "stop_loss": 31.6992,
-        "take_profit": 32.464,
+        "entry_price": 32.008,
+        "stop_loss": 31.7212,
+        "take_profit": 32.486,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.145,
-      "change_pct": -0.11,
+      "price": 159.169,
+      "change_pct": -0.1,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.3 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.145,
-        "stop_loss": 156.5104,
-        "take_profit": 163.5361,
+        "entry_price": 159.169,
+        "stop_loss": 156.5344,
+        "take_profit": 163.5601,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4772,17 +4772,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62842.6992,
-      "change_pct": -0.88,
-      "volume": 19759378432,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 62861.9297,
+      "change_pct": -0.85,
+      "volume": 19927623680,
+      "signal": "sell",
+      "confidence": 0.36,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.6,
+          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
         },
         {
           "agent": "macro",
@@ -4794,10 +4794,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.70%)"
+          "rationale": "波動度正常(ATR/價格=1.90%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 62861.9297,
+        "stop_loss": 64656.6236,
+        "take_profit": 59870.7732,
+        "atr": 1196.4626,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Wall Street is piling into the riskiest corners of the market: Chart of the Day",
@@ -4820,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1873.8101,
-      "change_pct": -0.54,
-      "volume": 6464972288,
+      "price": 1875.63,
+      "change_pct": -0.44,
+      "volume": 6520386048,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
