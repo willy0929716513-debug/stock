@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:03:48.412038+00:00",
+  "generated_at": "2026-08-14T07:09:08.918132+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4343,14 +4343,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html"
         },
         {
+          "title": "Are Innovative Beverages Enough to Turn McDonald's Around?",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/08/14/are-innovative-beverages-enough-to-turn-mcdonalds/"
+        },
+        {
           "title": "MP Materials vs. The Metals Company: Which Critical-Minerals Stock Is the Smarter Long-Term Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/08/14/mp-materials-vs-the-metals-company-which-critical/"
-        },
-        {
-          "title": "Why Investors Were Cold on Bitdeer Technologies Stock This Week",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/08/14/why-investors-were-cold-on-bitdeer-technologies-st/"
         }
       ]
     },
@@ -4562,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4390.7998,
-      "change_pct": 0.62,
-      "volume": 38904,
+      "price": 4390.8999,
+      "change_pct": 0.63,
+      "volume": 38981,
       "signal": "sell",
       "confidence": 0.24,
       "opinions": [
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4390.7998,
-        "stop_loss": 4500.4927,
-        "take_profit": 4207.9783,
+        "entry_price": 4390.8999,
+        "stop_loss": 4500.5928,
+        "take_profit": 4208.0784,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4606,9 +4606,9 @@
           "link": "https://finance.yahoo.com/markets/commodities/article/gold-prices-must-overcome-this-next-hurdle-before-another-bullish-run-115154899.html"
         },
         {
-          "title": "Pan American Silver Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/pan-american-silver-q2-earnings-call-highlights-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          "title": "London BTC Company targets antimony potential across Nevada exploration portfolio",
+          "publisher": "Proactive",
+          "link": "https://www.proactiveinvestors.com/companies/news/1097046/london-btc-company-targets-antimony-potential-across-nevada-exploration-portfolio-1097046.html"
         }
       ]
     },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.19,
-      "change_pct": 1.16,
-      "volume": 17697,
+      "price": 82.17,
+      "change_pct": 1.13,
+      "volume": 17883,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,7 +4638,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.92%)"
+          "rationale": "波動度正常(ATR/價格=4.93%)"
         }
       ],
       "risk_levels": null,
@@ -4664,8 +4664,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.003,
-      "change_pct": -0.62,
+      "price": 31.994,
+      "change_pct": -0.65,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.49,
@@ -4674,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=30.0 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.6 進入超賣區); bollinger_band:buy(價格 31.99 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.003,
-        "stop_loss": 31.7162,
-        "take_profit": 32.481,
+        "entry_price": 31.994,
+        "stop_loss": 31.7072,
+        "take_profit": 32.472,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.222,
-      "change_pct": -0.07,
+      "price": 159.242,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.36,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.6,
-          "rationale": "rsi:buy(RSI=27.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.222,
-        "stop_loss": 156.5952,
-        "take_profit": 163.6,
+        "entry_price": 159.242,
+        "stop_loss": 156.6152,
+        "take_profit": 163.62,
         "atr": 1.7512,
         "risk_reward_ratio": 1.67
       },
@@ -4772,17 +4772,17 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62954.2305,
-      "change_pct": -0.71,
-      "volume": 18831366144,
-      "signal": "sell",
-      "confidence": 0.37,
+      "price": 62983.5391,
+      "change_pct": -0.66,
+      "volume": 18865750016,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.61,
-          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4794,16 +4794,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.88%)"
+          "rationale": "波動度正常(ATR/價格=1.67%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 62954.2305,
-        "stop_loss": 64728.7702,
-        "take_profit": 59996.6642,
-        "atr": 1183.0265,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Wall Street is piling into the riskiest corners of the market: Chart of the Day",
@@ -4826,17 +4820,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1872.65,
-      "change_pct": -0.29,
-      "volume": 6427274752,
-      "signal": "sell",
-      "confidence": 0.39,
+      "price": 1873.26,
+      "change_pct": -0.57,
+      "volume": 6396548096,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.65,
-          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4848,16 +4842,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.41%)"
+          "rationale": "波動度正常(ATR/價格=2.22%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 1872.65,
-        "stop_loss": 1940.3873,
-        "take_profit": 1759.7546,
-        "atr": 45.1582,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Why Fidelity added staking rewards to its ethereum ETF",
