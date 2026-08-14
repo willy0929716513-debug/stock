@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:17:31.687550+00:00",
+  "generated_at": "2026-08-14T09:22:52.963660+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -981,7 +981,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.13,
-          "rationale": "波動度過高(ATR/價格=5.65%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.63%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4562,9 +4562,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4402.5,
-      "change_pct": 0.89,
-      "volume": 46600,
+      "price": 4404.8999,
+      "change_pct": 0.95,
+      "volume": 46809,
       "signal": "sell",
       "confidence": 0.25,
       "opinions": [
@@ -4572,7 +4572,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.41,
-          "rationale": "rsi:sell(RSI=75.7 進入超買區)"
+          "rationale": "rsi:sell(RSI=75.8 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4402.5,
-        "stop_loss": 4512.1929,
-        "take_profit": 4219.6785,
+        "entry_price": 4404.8999,
+        "stop_loss": 4514.5928,
+        "take_profit": 4222.0784,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.5,
-      "change_pct": 1.54,
-      "volume": 34626,
+      "price": 82.36,
+      "change_pct": 1.37,
+      "volume": 35097,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,7 +4638,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.97%)"
+          "rationale": "波動度正常(ATR/價格=4.98%)"
         }
       ],
       "risk_levels": null,
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.12,
-      "change_pct": -0.13,
+      "price": 159.152,
+      "change_pct": -0.11,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.35,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.59,
-          "rationale": "rsi:buy(RSI=27.1 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.2 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.12,
-        "stop_loss": 156.4854,
-        "take_profit": 163.5111,
+        "entry_price": 159.152,
+        "stop_loss": 156.5173,
+        "take_profit": 163.5431,
         "atr": 1.7564,
         "risk_reward_ratio": 1.67
       },
@@ -4772,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 62807.5508,
-      "change_pct": -0.94,
-      "volume": 19951032320,
+      "price": 62829.2109,
+      "change_pct": -0.9,
+      "volume": 19871637504,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4820,17 +4820,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1873.99,
-      "change_pct": -0.22,
-      "volume": 6480375296,
-      "signal": "sell",
-      "confidence": 0.4,
+      "price": 1874.55,
+      "change_pct": -0.5,
+      "volume": 6455665152,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "sell",
-          "confidence": 0.66,
-          "rationale": "moving_average_cross:sell(5日均線下穿20日均線)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -4842,16 +4842,10 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.42%)"
+          "rationale": "波動度正常(ATR/價格=2.23%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 1873.99,
-        "stop_loss": 1942.0025,
-        "take_profit": 1760.6358,
-        "atr": 45.3417,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Why Fidelity added staking rewards to its ethereum ETF",
