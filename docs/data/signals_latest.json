@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T06:15:42.060043+00:00",
+  "generated_at": "2026-08-14T06:21:02.397534+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -981,7 +981,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.13,
-          "rationale": "波動度過高(ATR/價格=5.65%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.63%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4295,14 +4295,14 @@
           "link": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html"
         },
         {
+          "title": "Pershing Square Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/pershing-square-q2-earnings-call-highlights-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
           "title": "Bleeding-Edge AI Meets Cutting-Edge Finance. Is This Peak AI?",
           "publisher": "Barrons.com",
           "link": "https://www.barrons.com/articles/ai-compute-futures-contracts-391c267a?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "Chevron (CVX) Stock Looks Like A Bargain Below Fair Value",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-stock-looks-bargain-051121295.html"
         }
       ]
     },
@@ -4562,17 +4562,17 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4391.2002,
-      "change_pct": 0.63,
-      "volume": 36563,
+      "price": 4386.1001,
+      "change_pct": 0.52,
+      "volume": 36966,
       "signal": "sell",
-      "confidence": 0.24,
+      "confidence": 0.25,
       "opinions": [
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.4,
-          "rationale": "rsi:sell(RSI=75.2 進入超買區)"
+          "confidence": 0.41,
+          "rationale": "rsi:sell(RSI=75.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -4588,9 +4588,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 4391.2002,
-        "stop_loss": 4500.8931,
-        "take_profit": 4208.3787,
+        "entry_price": 4386.1001,
+        "stop_loss": 4495.793,
+        "take_profit": 4203.2786,
         "atr": 73.1286,
         "risk_reward_ratio": 1.67
       },
@@ -4606,9 +4606,9 @@
           "link": "https://finance.yahoo.com/markets/commodities/article/gold-prices-must-overcome-this-next-hurdle-before-another-bullish-run-115154899.html"
         },
         {
-          "title": "Gold heads for weekly loss as investors unwind inflation-fuelled rally",
-          "publisher": "Reuters",
-          "link": "https://sg.finance.yahoo.com/news/gold-heads-weekly-loss-investors-055257076.html"
+          "title": "Pan American Silver Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "link": "https://www.marketbeat.com/instant-alerts/pan-american-silver-q2-earnings-call-highlights-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4616,9 +4616,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 82.06,
-      "change_pct": 1.0,
-      "volume": 13767,
+      "price": 81.89,
+      "change_pct": 0.79,
+      "volume": 14092,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4638,7 +4638,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.91%)"
+          "rationale": "波動度正常(ATR/價格=4.93%)"
         }
       ],
       "risk_levels": null,
@@ -4664,7 +4664,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.0,
+      "price": 31.998,
       "change_pct": -0.63,
       "volume": 0,
       "signal": "buy",
@@ -4674,7 +4674,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.82,
-          "rationale": "rsi:buy(RSI=29.9 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
+          "rationale": "rsi:buy(RSI=29.8 進入超賣區); bollinger_band:buy(價格 32.00 觸及下軌 32.10)"
         },
         {
           "agent": "macro",
@@ -4690,9 +4690,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 32.0,
-        "stop_loss": 31.7132,
-        "take_profit": 32.478,
+        "entry_price": 31.998,
+        "stop_loss": 31.7112,
+        "take_profit": 32.476,
         "atr": 0.1912,
         "risk_reward_ratio": 1.67
       },
@@ -4718,8 +4718,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 159.207,
-      "change_pct": -0.08,
+      "price": 159.242,
+      "change_pct": -0.05,
       "volume": 0,
       "signal": "buy",
       "confidence": 0.36,
@@ -4728,7 +4728,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.6,
-          "rationale": "rsi:buy(RSI=27.4 進入超賣區)"
+          "rationale": "rsi:buy(RSI=27.5 進入超賣區)"
         },
         {
           "agent": "macro",
@@ -4744,9 +4744,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 159.207,
-        "stop_loss": 156.5802,
-        "take_profit": 163.585,
+        "entry_price": 159.242,
+        "stop_loss": 156.6152,
+        "take_profit": 163.62,
         "atr": 1.7512,
         "risk_reward_ratio": 1.67
       },
@@ -4772,9 +4772,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 63229.1914,
-      "change_pct": -0.27,
-      "volume": 18577061888,
+      "price": 63151.6914,
+      "change_pct": -0.4,
+      "volume": 18488483840,
       "signal": "sell",
       "confidence": 0.37,
       "opinions": [
@@ -4794,14 +4794,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=1.83%)"
+          "rationale": "波動度正常(ATR/價格=1.84%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 63229.1914,
-        "stop_loss": 64969.4932,
-        "take_profit": 60328.6885,
-        "atr": 1160.2012,
+        "entry_price": 63151.6914,
+        "stop_loss": 64898.436,
+        "take_profit": 60240.4505,
+        "atr": 1164.4964,
         "risk_reward_ratio": 1.67
       },
       "news": [
@@ -4826,9 +4826,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 1878.51,
-      "change_pct": 0.02,
-      "volume": 6305332224,
+      "price": 1877.0,
+      "change_pct": -0.06,
+      "volume": 6276908032,
       "signal": "sell",
       "confidence": 0.4,
       "opinions": [
@@ -4852,10 +4852,10 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 1878.51,
-        "stop_loss": 1945.4611,
-        "take_profit": 1766.9249,
-        "atr": 44.634,
+        "entry_price": 1877.0,
+        "stop_loss": 1944.0123,
+        "take_profit": 1765.3129,
+        "atr": 44.6748,
         "risk_reward_ratio": 1.67
       },
       "news": [
