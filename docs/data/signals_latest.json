@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:17:49.328589+00:00",
+  "generated_at": "2026-10-02T08:23:14.017805+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -3779,9 +3779,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4221.6001,
-      "change_pct": 0.46,
-      "volume": 38183,
+      "price": 4218.1001,
+      "change_pct": 0.38,
+      "volume": 39121,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3811,9 +3811,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.41,
-      "change_pct": -3.73,
-      "volume": 45342,
+      "price": 89.62,
+      "change_pct": -3.5,
+      "volume": 48964,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -3843,8 +3843,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 31.861,
-      "change_pct": -0.02,
+      "price": 31.844,
+      "change_pct": -0.08,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -3875,8 +3875,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.525,
-      "change_pct": -0.02,
+      "price": 157.589,
+      "change_pct": 0.02,
       "volume": 0,
       "signal": "sell",
       "confidence": 0.38,
@@ -3884,8 +3884,8 @@
         {
           "agent": "technical",
           "signal": "sell",
-          "confidence": 0.63,
-          "rationale": "rsi:sell(RSI=79.0 進入超買區)"
+          "confidence": 0.64,
+          "rationale": "rsi:sell(RSI=79.5 進入超買區)"
         },
         {
           "agent": "macro",
@@ -3901,9 +3901,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 157.525,
-        "stop_loss": 159.502,
-        "take_profit": 154.23,
+        "entry_price": 157.589,
+        "stop_loss": 159.566,
+        "take_profit": 154.294,
         "atr": 1.318,
         "risk_reward_ratio": 1.67
       },
@@ -3913,9 +3913,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 86308.9766,
-      "change_pct": 1.72,
-      "volume": 38544756736,
+      "price": 86425.5781,
+      "change_pct": 1.85,
+      "volume": 38296027136,
       "signal": "sell",
       "confidence": 0.28,
       "opinions": [
@@ -3923,7 +3923,7 @@
           "agent": "technical",
           "signal": "sell",
           "confidence": 0.46,
-          "rationale": "rsi:sell(RSI=71.2 進入超買區)"
+          "rationale": "rsi:sell(RSI=71.4 進入超買區)"
         },
         {
           "agent": "macro",
@@ -3939,9 +3939,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 86308.9766,
-        "stop_loss": 89642.6286,
-        "take_profit": 80752.8898,
+        "entry_price": 86425.5781,
+        "stop_loss": 89759.2302,
+        "take_profit": 80869.4914,
         "atr": 2222.4347,
         "risk_reward_ratio": 1.67
       },
@@ -3951,17 +3951,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2742.1101,
-      "change_pct": 1.35,
-      "volume": 15229774848,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 2760.8,
+      "change_pct": 2.04,
+      "volume": 15254784000,
+      "signal": "sell",
+      "confidence": 0.27,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "sell",
+          "confidence": 0.45,
+          "rationale": "rsi:sell(RSI=70.0 進入超買區)"
         },
         {
           "agent": "macro",
@@ -3973,10 +3973,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.86%)"
+          "rationale": "波動度正常(ATR/價格=2.90%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 2760.8,
+        "stop_loss": 2880.7884,
+        "take_profit": 2560.8194,
+        "atr": 79.9922,
+        "risk_reward_ratio": 1.67
+      },
       "news": []
     }
   ],
