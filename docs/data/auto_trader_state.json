@@ -1,6 +1,15 @@
 {
   "cash": 10015.687,
-  "position": null,
+  "position": {
+    "symbol": "GOOGL",
+    "direction": "sell",
+    "entry_price": 338.24,
+    "qty": 29.0,
+    "opened_at": "2026-10-02T07:12:52.498082+00:00",
+    "reversal_count": 0,
+    "stop_loss": 352.4182,
+    "take_profit": 314.6096
+  },
   "trade_history": [
     {
       "symbol": "JPY=X",
