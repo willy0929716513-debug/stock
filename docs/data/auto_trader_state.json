@@ -1,14 +1,17 @@
 {
-  "cash": 10000.0,
-  "position": {
-    "symbol": "JPY=X",
-    "direction": "buy",
-    "entry_price": 157.555,
-    "qty": 63.0,
-    "opened_at": "2026-08-05T13:14:19.068748+00:00",
-    "reversal_count": 1,
-    "stop_loss": 155.7811,
-    "take_profit": 162.6742
-  },
-  "trade_history": []
+  "cash": 10015.687,
+  "position": null,
+  "trade_history": [
+    {
+      "symbol": "JPY=X",
+      "direction": "buy",
+      "entry_price": 157.555,
+      "exit_price": 157.804,
+      "qty": 63.0,
+      "pnl": 15.69,
+      "opened_at": "2026-08-05T13:14:19.068748+00:00",
+      "closed_at": "2026-10-02T07:07:28.286348+00:00",
+      "close_reason": "訊號連續2次反轉"
+    }
+  ]
 }
