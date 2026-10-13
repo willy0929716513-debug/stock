@@ -1,15 +1,6 @@
 {
-  "cash": 9595.767,
-  "position": {
-    "symbol": "2382.TW",
-    "direction": "buy",
-    "entry_price": 321.0,
-    "qty": 29.0,
-    "opened_at": "2026-10-13T02:13:41.693044+00:00",
-    "reversal_count": 0,
-    "stop_loss": 311.25,
-    "take_profit": 337.25
-  },
+  "cash": 9668.267,
+  "position": null,
   "trade_history": [
     {
       "symbol": "JPY=X",
@@ -32,6 +23,17 @@
       "opened_at": "2026-10-02T07:12:52.498082+00:00",
       "closed_at": "2026-10-13T02:07:57.796637+00:00",
       "close_reason": "觸發停損"
+    },
+    {
+      "symbol": "2382.TW",
+      "direction": "buy",
+      "entry_price": 321.0,
+      "exit_price": 323.5,
+      "qty": 29.0,
+      "pnl": 72.5,
+      "opened_at": "2026-10-13T02:13:41.693044+00:00",
+      "closed_at": "2026-10-13T05:34:08.096170+00:00",
+      "close_reason": "當沖收盤強制平倉"
     }
   ]
 }
