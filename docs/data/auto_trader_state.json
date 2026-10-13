@@ -1,6 +1,15 @@
 {
   "cash": 9668.267,
-  "position": null,
+  "position": {
+    "symbol": "TWD=X",
+    "direction": "sell",
+    "entry_price": 32.089,
+    "qty": 301.0,
+    "opened_at": "2026-10-13T05:39:51.420293+00:00",
+    "reversal_count": 0,
+    "stop_loss": 32.3311,
+    "take_profit": 31.6855
+  },
   "trade_history": [
     {
       "symbol": "JPY=X",
