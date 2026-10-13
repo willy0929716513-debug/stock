@@ -1,6 +1,15 @@
 {
   "cash": 9595.767,
-  "position": null,
+  "position": {
+    "symbol": "2382.TW",
+    "direction": "buy",
+    "entry_price": 321.0,
+    "qty": 29.0,
+    "opened_at": "2026-10-13T02:13:41.693044+00:00",
+    "reversal_count": 0,
+    "stop_loss": 311.25,
+    "take_profit": 337.25
+  },
   "trade_history": [
     {
       "symbol": "JPY=X",
