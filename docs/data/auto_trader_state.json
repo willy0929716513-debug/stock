@@ -1,15 +1,6 @@
 {
-  "cash": 10015.687,
-  "position": {
-    "symbol": "GOOGL",
-    "direction": "sell",
-    "entry_price": 338.24,
-    "qty": 29.0,
-    "opened_at": "2026-10-02T07:12:52.498082+00:00",
-    "reversal_count": 0,
-    "stop_loss": 352.4182,
-    "take_profit": 314.6096
-  },
+  "cash": 9595.767,
+  "position": null,
   "trade_history": [
     {
       "symbol": "JPY=X",
@@ -21,6 +12,17 @@
       "opened_at": "2026-08-05T13:14:19.068748+00:00",
       "closed_at": "2026-10-02T07:07:28.286348+00:00",
       "close_reason": "訊號連續2次反轉"
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "sell",
+      "entry_price": 338.24,
+      "exit_price": 352.72,
+      "qty": 29.0,
+      "pnl": -419.92,
+      "opened_at": "2026-10-02T07:12:52.498082+00:00",
+      "closed_at": "2026-10-13T02:07:57.796637+00:00",
+      "close_reason": "觸發停損"
     }
   ]
 }
