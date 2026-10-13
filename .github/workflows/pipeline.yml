@@ -7,7 +7,22 @@ name: JPO-KBO Signal Pipeline
 # 分鐘自己檢查一次,直到接近 GitHub 單一 job 6 小時執行上限前主動結束,交給
 # 下一次觸發(用不易被節流的低頻率 cron,例如每小時)接手。concurrency 群組
 # 確保重疊觸發只會排隊等目前這輪跑完,不會重複執行、也不會浪費資源。
+#
+# 2026-10-13 補充(誠實記錄):repo 從 willy0931926721-hub 轉移到
+# willy0929716513-debug 之後,排程(cron)完全停止自己觸發,而且連 Claude
+# 這邊想呼叫 API 手動觸發(workflow_dispatch、rerun)都被 GitHub 擋下來,
+# 回應「403 Resource not accessible by integration」——這個帳號轉移事件
+# 讓 GitHub App 對這個 repo 的 Actions 寫入權限被收回了,不是程式碼能修的,
+# 只能靠使用者自己在網頁上手動點「Run workflow」。為了不要每次都要使用者
+# 手動點,這裡加上 push 觸發(排除只有 docs/data 底下資料檔變動的 commit,
+# 避免跟 pipeline 自己每 5 分鐘的資料 commit 互相觸發、疊加出一堆多餘的
+# 排隊執行):只要有「真的改程式碼」的 commit 推上 main(例如合併一個修復
+# PR),就會自動跑一次,不用再等下一次整點、也不用使用者手動點。
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/data/**"
   schedule:
     - cron: "0 * * * *"  # 每小時觸發一次,純粹當「保底重啟」,實際更新頻率由內部迴圈的 5 分鐘控制
   workflow_dispatch: {}
