@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:47:20.386312+00:00",
+  "generated_at": "2026-11-09T08:52:40.987741+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1280,23 +1280,7 @@
         "atr": 116.7857,
         "risk_reward_ratio": 1.67
       },
-      "news": [
-        {
-          "title": "3 AI Infrastructure Stocks Retail Investors Are Watching As Rate Signals Shift",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-131411642.html"
-        },
-        {
-          "title": "Exploring 3 High Growth Tech Stocks in Asia",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/sectors/technology/articles/exploring-3-high-growth-tech-043833212.html"
-        },
-        {
-          "title": "High Growth Tech Stocks In Asia Featuring Kingdee International Software Group",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/sectors/technology/articles/high-growth-tech-stocks-asia-043809192.html"
-        }
-      ]
+      "news": []
     },
     {
       "symbol": "4938.TW",
@@ -4740,9 +4724,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4106.0,
-      "change_pct": 0.76,
-      "volume": 51369,
+      "price": 4106.7998,
+      "change_pct": 0.78,
+      "volume": 51717,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4772,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.54,
-      "change_pct": -1.42,
-      "volume": 39430,
+      "price": 89.7,
+      "change_pct": -1.24,
+      "volume": 40070,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4794,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.03,
-          "rationale": "波動度過高(ATR/價格=5.14%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.13%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4820,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.81,
-      "change_pct": -0.9,
+      "price": 32.819,
+      "change_pct": -0.88,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4868,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.076,
-      "change_pct": 0.37,
+      "price": 158.113,
+      "change_pct": 0.39,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4916,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74210.9297,
-      "change_pct": -0.5,
-      "volume": 24298539008,
+      "price": 74296.6719,
+      "change_pct": -0.39,
+      "volume": 24379500544,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4938,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.15%)"
+          "rationale": "波動度正常(ATR/價格=3.14%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4964,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2111.6101,
-      "change_pct": -0.44,
-      "volume": 13385761792,
+      "price": 2117.55,
+      "change_pct": -0.16,
+      "volume": 13410432000,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -5002,7 +4986,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.44%)"
+          "rationale": "波動度正常(ATR/價格=4.43%)"
         }
       ],
       "risk_levels": null,
