@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:05:40.241712+00:00",
+  "generated_at": "2026-11-09T07:10:59.472285+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,6 +2350,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The Reorientation of China's Sway Over Commodities",
+          "publisher": "CME Group",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
+        },
+        {
           "title": "Crédit Agricole proposes Banco BPM merger, 20% premium and €1 bln dividend",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cr-dit-agricole-proposes-banco-065549294.html"
@@ -2358,11 +2363,6 @@
           "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
-        },
-        {
-          "title": "3 Australian Growth Stocks With Revenue Growth Over 6%",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-growth-stocks-revenue-060959931.html"
         }
       ]
     },
@@ -2462,6 +2462,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The Reorientation of China's Sway Over Commodities",
+          "publisher": "CME Group",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
+        },
+        {
           "title": "Crédit Agricole proposes Banco BPM merger, 20% premium and €1 bln dividend",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/cr-dit-agricole-proposes-banco-065549294.html"
@@ -2470,11 +2475,6 @@
           "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
-        },
-        {
-          "title": "3 Australian Growth Stocks With Revenue Growth Over 6%",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-growth-stocks-revenue-060959931.html"
         }
       ]
     },
@@ -4564,6 +4564,11 @@
       },
       "news": [
         {
+          "title": "Elon Musk Blasts California’s ‘Extreme Taxes,’ Offers To Axe SpaceX Govt Deals — Analysts See A Political Dip-Buy",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/elon-musk-california-taxes-axe-spacex-govt-deals-analysts-political-dip-buy/cNGrT3TR9e9"
+        },
+        {
           "title": "Ross Gerber Says Tesla's 'Good Old Days' Ended When Elon Musk Started Selling Shares to Buy Twitter",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-says-teslas-good-023005546.html"
@@ -4572,11 +4577,6 @@
           "title": "Here's What a $1,000 Investment in Tesla Stock Could Be Worth in 5 Years",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/08/heres-what-a-1000-investment-in-tesla-stock-could/"
-        },
-        {
-          "title": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-bulls-could-burned-gary-223005762.html"
         }
       ]
     },
@@ -4742,7 +4742,7 @@
       "category": "commodity",
       "price": 4117.2998,
       "change_pct": 1.04,
-      "volume": 40615,
+      "volume": 41056,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4768,6 +4768,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "The Reorientation of China's Sway Over Commodities",
+          "publisher": "CME Group",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
+        },
+        {
           "title": "Washington’s next move could determine America’s fortunes – here’s what to watch",
           "publisher": "The Telegraph",
           "link": "https://uk.finance.yahoo.com/news/washington-next-move-could-determine-063000387.html"
@@ -4776,11 +4781,6 @@
           "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
           "publisher": "99bitcoins",
           "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
-        },
-        {
-          "title": "Small Cap Snapshot: Firefly, Krakatoa, Dalaroo, Beetaloo and more...",
-          "publisher": "Proactive",
-          "link": "https://finance.yahoo.com/video/small-cap-snapshot-firefly-krakatoa-040421718.html"
         }
       ]
     },
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.67,
-      "change_pct": -1.28,
-      "volume": 26322,
+      "price": 89.96,
+      "change_pct": -0.96,
+      "volume": 26755,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,11 +4810,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "The Reorientation of China's Sway Over Commodities",
+          "publisher": "CME Group",
+          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
+        },
         {
           "title": "Strathcona to acquire Greenfire Resources in $2 bln deal",
           "publisher": "Investing.com",
@@ -4824,11 +4829,6 @@
           "title": "5 revealing analyst questions from Texas Pacific Land’s Q3 2026 earnings call",
           "publisher": "StockStory",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-texas-054936316.html"
-        },
-        {
-          "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
-          "publisher": "99bitcoins",
-          "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
         }
       ]
     },
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.789,
-      "change_pct": -0.97,
+      "price": 32.79,
+      "change_pct": -0.96,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.153,
-      "change_pct": 0.42,
+      "price": 158.123,
+      "change_pct": 0.4,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74075.4922,
-      "change_pct": -0.68,
-      "volume": 21649924096,
+      "price": 74022.7031,
+      "change_pct": -0.75,
+      "volume": 21687685120,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2104.78,
-      "change_pct": -0.76,
-      "volume": 11485675520,
+      "price": 2103.3999,
+      "change_pct": -0.83,
+      "volume": 11542704128,
       "signal": "buy",
       "confidence": 0.27,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2104.78 觸及下軌 2107.23)"
+          "rationale": "bollinger_band:buy(價格 2103.40 觸及下軌 2106.86)"
         },
         {
           "agent": "macro",
@@ -5002,14 +5002,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.38%)"
+          "rationale": "波動度正常(ATR/價格=4.40%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2104.78,
-        "stop_loss": 1966.3681,
-        "take_profit": 2335.4666,
-        "atr": 92.2746,
+        "entry_price": 2103.3999,
+        "stop_loss": 1964.5387,
+        "take_profit": 2334.8352,
+        "atr": 92.5741,
         "risk_reward_ratio": 1.67
       },
       "news": [
