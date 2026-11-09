@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:43:08.583895+00:00",
+  "generated_at": "2026-11-09T07:48:27.971677+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,19 +2350,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Unicredit Q3 profit rises more than expected, hikes annual guidance",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unicredit-q3-profit-rises-more-073527593.html"
+        },
+        {
+          "title": "Nifty 50 Is Still Down 4.91% in 2026, So Why Does Citi See 13% Upside?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/citi-nifty-50-target-2027/"
+        },
+        {
           "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
-        },
-        {
-          "title": "UK Stock Market Today: FTSE 100 Futures Slip On Housing Weakness And Data Watch",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-070849118.html"
-        },
-        {
-          "title": "Stella Jones (TSX:SJ) Stock Sees Fair Value Cut As Analysts Trim Targets",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stella-jones-tsx-sj-stock-070755683.html"
         }
       ]
     },
@@ -2462,19 +2462,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Unicredit Q3 profit rises more than expected, hikes annual guidance",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/unicredit-q3-profit-rises-more-073527593.html"
+        },
+        {
+          "title": "Nifty 50 Is Still Down 4.91% in 2026, So Why Does Citi See 13% Upside?",
+          "publisher": "BeInCrypto",
+          "link": "https://beincrypto.com/citi-nifty-50-target-2027/"
+        },
+        {
           "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
-        },
-        {
-          "title": "UK Stock Market Today: FTSE 100 Futures Slip On Housing Weakness And Data Watch",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-070849118.html"
-        },
-        {
-          "title": "Stella Jones (TSX:SJ) Stock Sees Fair Value Cut As Analysts Trim Targets",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stella-jones-tsx-sj-stock-070755683.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4107.3999,
-      "change_pct": 0.8,
-      "volume": 44484,
+      "price": 4102.2998,
+      "change_pct": 0.67,
+      "volume": 45192,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.63,
-      "change_pct": -1.32,
-      "volume": 30054,
+      "price": 89.59,
+      "change_pct": -1.37,
+      "volume": 30702,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.803,
-      "change_pct": -0.93,
+      "price": 32.809,
+      "change_pct": -0.91,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.073,
-      "change_pct": 0.37,
+      "price": 157.973,
+      "change_pct": 0.3,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73958.9922,
-      "change_pct": -0.84,
-      "volume": 22513446912,
+      "price": 73736.9688,
+      "change_pct": -1.14,
+      "volume": 22721595392,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.16%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2091.5801,
-      "change_pct": -1.39,
-      "volume": 12192728064,
+      "price": 2083.4299,
+      "change_pct": -1.77,
+      "volume": 12380381184,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2091.58 觸及下軌 2103.68)"
+          "rationale": "bollinger_band:buy(價格 2083.43 觸及下軌 2101.42)"
         },
         {
           "agent": "macro",
@@ -5002,14 +5002,14 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.48%)"
+          "rationale": "波動度正常(ATR/價格=4.50%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2091.5801,
-        "stop_loss": 1950.9457,
-        "take_profit": 2325.9707,
-        "atr": 93.7563,
+        "entry_price": 2083.4299,
+        "stop_loss": 1942.7452,
+        "take_profit": 2317.9045,
+        "atr": 93.7898,
         "risk_reward_ratio": 1.67
       },
       "news": [
