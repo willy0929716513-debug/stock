@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:33:30.953665+00:00",
+  "generated_at": "2026-11-09T06:38:51.933409+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4515,14 +4515,14 @@
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
+          "title": "Tech stocks recover after midterms rout as Nvidia takes centre stage",
+          "publisher": "Euronews",
+          "link": "https://www.euronews.com/2026/11/09/tech-stocks-recover-after-midterms-rout-as-nvidia-takes-centre-stage"
+        },
+        {
           "title": "Nvidia CEO row: Bernstein sees ‘heavy distraction’ at best, ‘ammunition’ at worst",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-row-bernstein-sees-062039338.html"
-        },
-        {
-          "title": "Nvidia (NVDA) Stock May Be A Bargain Following Data Center Regulation Fears",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-may-bargain-060738189.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4127.3999,
-      "change_pct": 1.29,
-      "volume": 38075,
+      "price": 4126.2998,
+      "change_pct": 1.26,
+      "volume": 38556,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4768,6 +4768,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Washington’s next move could determine America’s fortunes – here’s what to watch",
+          "publisher": "The Telegraph",
+          "link": "https://uk.finance.yahoo.com/news/washington-next-move-could-determine-063000387.html"
+        },
+        {
           "title": "Small Cap Snapshot: Firefly, Krakatoa, Dalaroo, Beetaloo and more...",
           "publisher": "Proactive",
           "link": "https://finance.yahoo.com/video/small-cap-snapshot-firefly-krakatoa-040421718.html"
@@ -4776,11 +4781,6 @@
           "title": "Gold Is Up 4% Since Midterms: Here’s Where Markets Think The Precious Metal Prices Are Headed",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/gold-is-up-4-since-midterms-here-s-where-markets-think-the-precious-metal-prices-are-headed/cNGAH02R9Iy"
-        },
-        {
-          "title": "What Wesdome Gold Mines (WDO) Said on Its Q3 Earnings Call",
-          "publisher": "MarketBeat",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-what-wesdome-gold-mines-wdo-said-on-its-q3-earnings-call-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
         }
       ]
     },
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.79,
-      "change_pct": -1.14,
-      "volume": 24134,
+      "price": 90.0,
+      "change_pct": -0.91,
+      "volume": 24592,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.08%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.795,
-      "change_pct": -0.95,
+      "price": 32.785,
+      "change_pct": -0.98,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,7 +4884,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.226,
+      "price": 158.227,
       "change_pct": 0.46,
       "volume": 0,
       "signal": "hold",
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74182.9922,
-      "change_pct": -2.07,
-      "volume": 20704204800,
+      "price": 74089.3203,
+      "change_pct": -2.19,
+      "volume": 20929855488,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.03%)"
+          "rationale": "波動度正常(ATR/價格=3.04%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2115.2,
-      "change_pct": -5.42,
-      "volume": 10956716032,
+      "price": 2113.8999,
+      "change_pct": -5.47,
+      "volume": 11176861696,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2115.20 觸及下軌 2132.66)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2113.90 觸及下軌 2132.30)"
         },
         {
           "agent": "macro",
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.21%)"
+          "rationale": "波動度正常(ATR/價格=4.22%)"
         }
       ],
       "risk_levels": null,
