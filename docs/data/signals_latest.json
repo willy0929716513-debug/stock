@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:24:54.517151+00:00",
+  "generated_at": "2026-11-09T09:30:22.012907+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4104.8999,
-      "change_pct": 0.74,
-      "volume": 54104,
+      "price": 4103.5,
+      "change_pct": 0.7,
+      "volume": 54328,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.66,
-      "change_pct": -1.29,
-      "volume": 43967,
+      "price": 89.81,
+      "change_pct": -1.12,
+      "volume": 44717,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4809,8 +4809,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.03,
-          "rationale": "波動度過高(ATR/價格=5.13%),建議降低部位或觀望"
+          "confidence": 0.02,
+          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.821,
-      "change_pct": -0.87,
+      "price": 32.817,
+      "change_pct": -0.88,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.98,
-      "change_pct": 0.31,
+      "price": 157.974,
+      "change_pct": 0.3,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74153.5312,
-      "change_pct": -0.58,
-      "volume": 24920846336,
+      "price": 74210.0078,
+      "change_pct": -0.5,
+      "volume": 24875511808,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,17 +4980,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2106.6101,
-      "change_pct": -0.68,
-      "volume": 13820996608,
-      "signal": "buy",
-      "confidence": 0.27,
+      "price": 2108.1599,
+      "change_pct": -0.6,
+      "volume": 13836000256,
+      "signal": "hold",
+      "confidence": 0.0,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "buy",
-          "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2106.61 觸及下軌 2107.71)"
+          "signal": "hold",
+          "confidence": 0.0,
+          "rationale": "各策略皆無明確訊號"
         },
         {
           "agent": "macro",
@@ -5005,13 +5005,7 @@
           "rationale": "波動度正常(ATR/價格=4.45%)"
         }
       ],
-      "risk_levels": {
-        "entry_price": 2106.6101,
-        "stop_loss": 1965.9757,
-        "take_profit": 2341.0008,
-        "atr": 93.7563,
-        "risk_reward_ratio": 1.67
-      },
+      "risk_levels": null,
       "news": [
         {
           "title": "Vitalik Buterin Says Maximizing ETH’s Fee Burn Would Cost Ethereum Its Decentralization",
