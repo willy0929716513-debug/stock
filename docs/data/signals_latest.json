@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:08:47.522792+00:00",
+  "generated_at": "2026-11-09T09:14:10.845647+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4510,19 +4510,19 @@
       },
       "news": [
         {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
-        },
-        {
           "title": "Nvidia's board launches investigation into CEO Jensen Huang's affair with an alleged Chinese spy",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
-          "title": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/"
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+        },
+        {
+          "title": "Nvidia's out-of-hour shares fall as firm probes CEO Jensen Huang",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/technology/articles/south-korea-says-nvidia-issues-022650481.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4102.7998,
-      "change_pct": 0.68,
-      "volume": 52980,
+      "price": 4104.3999,
+      "change_pct": 0.72,
+      "volume": 53395,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.79,
-      "change_pct": -1.14,
-      "volume": 41948,
+      "price": 89.81,
+      "change_pct": -1.12,
+      "volume": 42767,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4809,8 +4809,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.03,
-          "rationale": "波動度過高(ATR/價格=5.13%),建議降低部位或觀望"
+          "confidence": 0.02,
+          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,7 +4836,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.811,
+      "price": 32.81,
       "change_pct": -0.9,
       "volume": 0,
       "signal": "hold",
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.02,
-      "change_pct": 0.33,
+      "price": 158.028,
+      "change_pct": 0.34,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74548.0234,
-      "change_pct": -0.05,
-      "volume": 24710576128,
+      "price": 74357.7969,
+      "change_pct": -0.3,
+      "volume": 24557129728,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.13%)"
+          "rationale": "波動度正常(ATR/價格=3.14%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2122.3899,
-      "change_pct": 0.07,
-      "volume": 13794040832,
+      "price": 2115.8301,
+      "change_pct": -0.24,
+      "volume": 13774584832,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.42%)"
+          "rationale": "波動度正常(ATR/價格=4.43%)"
         }
       ],
       "risk_levels": null,
