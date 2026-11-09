@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:49:33.063958+00:00",
+  "generated_at": "2026-11-09T06:54:54.888435+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4118.8999,
-      "change_pct": 1.08,
-      "volume": 39669,
+      "price": 4120.0,
+      "change_pct": 1.11,
+      "volume": 39954,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4762,7 +4762,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.13%)"
+          "rationale": "波動度正常(ATR/價格=2.12%)"
         }
       ],
       "risk_levels": null,
@@ -4773,14 +4773,14 @@
           "link": "https://uk.finance.yahoo.com/news/washington-next-move-could-determine-063000387.html"
         },
         {
+          "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
+          "publisher": "99bitcoins",
+          "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
+        },
+        {
           "title": "Small Cap Snapshot: Firefly, Krakatoa, Dalaroo, Beetaloo and more...",
           "publisher": "Proactive",
           "link": "https://finance.yahoo.com/video/small-cap-snapshot-firefly-krakatoa-040421718.html"
-        },
-        {
-          "title": "Gold Is Up 4% Since Midterms: Here’s Where Markets Think The Precious Metal Prices Are Headed",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/gold-is-up-4-since-midterms-here-s-where-markets-think-the-precious-metal-prices-are-headed/cNGAH02R9Iy"
         }
       ]
     },
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.77,
-      "change_pct": -1.17,
-      "volume": 25072,
+      "price": 89.59,
+      "change_pct": -1.37,
+      "volume": 25638,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4826,9 +4826,9 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-texas-054936316.html"
         },
         {
-          "title": "China's 5.7% Factory Inflation Could Complicate the Fed Path Before US CPI",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/china-factory-inflation-fed-path-cpi/"
+          "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
+          "publisher": "99bitcoins",
+          "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
         }
       ]
     },
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.801,
-      "change_pct": -0.93,
+      "price": 32.94,
+      "change_pct": -0.51,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.202,
-      "change_pct": 0.45,
+      "price": 158.184,
+      "change_pct": 0.44,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74121.6016,
-      "change_pct": -2.15,
-      "volume": 21300955136,
+      "price": 74250.4219,
+      "change_pct": -1.98,
+      "volume": 21514045440,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,11 +4954,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.04%)"
+          "rationale": "波動度正常(ATR/價格=3.05%)"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
+          "publisher": "99bitcoins",
+          "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
+        },
         {
           "title": "Vitalik Buterin Wants AI to Slow Down, Backs Anti-Data Center Movement",
           "publisher": "BeInCrypto",
@@ -4968,11 +4973,6 @@
           "title": "Scaramucci Sees a 'Second Chance' as Bitcoin Erases Gains Since Trump's November 2024 Election Victory",
           "publisher": "Benzinga",
           "link": "https://finance.yahoo.com/markets/crypto/articles/scaramucci-sees-second-chance-bitcoin-043017255.html"
-        },
-        {
-          "title": "Bitcoin’s 7-Week Bottom Signal Just Broke. Here Is What Happened the Last 2 Cycles",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/bitcoin-50-week-moving-average-break/"
         }
       ]
     },
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2109.6299,
-      "change_pct": -5.66,
-      "volume": 11342836736,
+      "price": 2112.8899,
+      "change_pct": -5.52,
+      "volume": 11340953600,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2109.63 觸及下軌 2131.08)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2112.89 觸及下軌 2132.01)"
         },
         {
           "agent": "macro",
