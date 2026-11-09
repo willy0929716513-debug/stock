@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:13:15.847280+00:00",
+  "generated_at": "2026-11-09T10:18:36.771860+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4564,6 +4564,11 @@
       },
       "news": [
         {
+          "title": "Tesla to wind down Cybertruck production to focus on Cybercab",
+          "publisher": "Just Auto",
+          "link": "https://www.just-auto.com/news/tesla-wind-down-cybertruck-production/"
+        },
+        {
           "title": "SpaceX Stock Fell to Its Lowest Level Since August After the Midterms. Is It Time to Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/09/spacex-stock-fell-to-its-lowest-level-since-august/"
@@ -4572,11 +4577,6 @@
           "title": "TSLA Stock Slips Overnight As Cybertruck Makes Way For Cybercab — Terafab Reportedly Eyes 1M Wafers Monthly",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-cybertruck-makes-way-cybercab-terafab-1m-wafers-monthly/cNGr2CAR9eg"
-        },
-        {
-          "title": "Retail Therapy: Defensive Bets Extend Streak, Trounce SPY, QQQ As EVgo, Helen Of Troy, Magnite Lead Weekly Consumer Gains",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/defensive-bets-extend-streak-trounce-spy-qqq-as-evgo-helen-of-troy-magnite-lead-weekly-consumer-gains/cNGrcOjR9eX"
         }
       ]
     },
@@ -4672,6 +4672,11 @@
       },
       "news": [
         {
+          "title": "Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/stock-market-correction-or-crash-3-charts-for-the-week-ahead/cNGr4EOR9e1"
+        },
+        {
           "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw"
@@ -4680,11 +4685,6 @@
           "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/"
-        },
-        {
-          "title": "Intel Stock Has Gone Nowhere in 8 Years. Why This Time Could Be Different",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/08/intel-stock-has-gone-nowhere-in-8-years-why-this-time-could-be-different/"
         }
       ]
     },
@@ -4720,6 +4720,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/stock-market-correction-or-crash-3-charts-for-the-week-ahead/cNGr4EOR9e1"
+        },
+        {
           "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/"
@@ -4728,11 +4733,6 @@
           "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw"
-        },
-        {
-          "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4107.8999,
+      "price": 4108.1001,
       "change_pct": 0.81,
-      "volume": 56474,
+      "volume": 56804,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4790,7 +4790,7 @@
       "category": "commodity",
       "price": 90.33,
       "change_pct": -0.55,
-      "volume": 50538,
+      "volume": 50957,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4821,14 +4821,14 @@
           "link": "https://finance.yahoo.com/energy/articles/oil-falls-open-trump-says-235002807.html"
         },
         {
+          "title": "Dollar nudges lower as AI, Mideast worries ease",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-holds-onto-payrolls-011608941.html"
+        },
+        {
           "title": "Stocks edge up but Nvidia woes pose a fresh test, oil falls",
           "publisher": "Reuters",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-steady-ai-mideast-014728397.html"
-        },
-        {
-          "title": "3 REIT Stocks Offering Steadier Income As Bond Yields Ease",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/real-estate/articles/3-reit-stocks-offering-steadier-091512245.html"
         }
       ]
     },
@@ -4836,7 +4836,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.818,
+      "price": 32.819,
       "change_pct": -0.88,
       "volume": 0,
       "signal": "hold",
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.999,
-      "change_pct": 0.32,
+      "price": 157.993,
+      "change_pct": 0.31,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74117.6172,
-      "change_pct": -0.63,
-      "volume": 25191251968,
+      "price": 74056.1328,
+      "change_pct": -0.71,
+      "volume": 25166612480,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2100.79,
-      "change_pct": -0.95,
-      "volume": 13965317120,
+      "price": 2099.24,
+      "change_pct": -1.03,
+      "volume": 14221042688,
       "signal": "buy",
       "confidence": 0.27,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2100.79 觸及下軌 2106.17)"
+          "rationale": "bollinger_band:buy(價格 2099.24 觸及下軌 2105.76)"
         },
         {
           "agent": "macro",
@@ -5002,13 +5002,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.46%)"
+          "rationale": "波動度正常(ATR/價格=4.47%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2100.79,
-        "stop_loss": 1960.1556,
-        "take_profit": 2335.1807,
+        "entry_price": 2099.24,
+        "stop_loss": 1958.6056,
+        "take_profit": 2333.6306,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
