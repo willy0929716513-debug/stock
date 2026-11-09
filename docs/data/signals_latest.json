@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:34:42.120835+00:00",
+  "generated_at": "2026-11-09T10:40:03.638647+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4108.0,
-      "change_pct": 0.81,
-      "volume": 57577,
+      "price": 4105.2998,
+      "change_pct": 0.75,
+      "volume": 57790,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4768,6 +4768,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Gold Rises Toward $4,100 as Weaker Dollar Offsets Expectations of December Fed Rate Increase",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/39505/gold-rises-toward-4100-as-weaker-dollar-offsets-expectations-of-december-fed-rate-increase"
+        },
+        {
           "title": "FTSE 100 today: Stocks jump as miners lead; oil falls on Iran hopes",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-jump-085612574.html"
@@ -4776,11 +4781,6 @@
           "title": "Gold Rises Above $4,100 an Ounce, With Focus on U.S. Inflation Data",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-amid-mixed-signals-00565ca1?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "European Indexes Steady to Start Week",
-          "publisher": "The Wall Street Journal",
-          "link": "https://www.wsj.com/finance/stocks/nikkei-rises-1-7-led-by-machinery-financial-stocks-45670eb5?siteid=yhoof2&yptr=yahoo"
         }
       ]
     },
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.92,
-      "change_pct": -1.0,
-      "volume": 53135,
+      "price": 89.95,
+      "change_pct": -0.97,
+      "volume": 54154,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4826,9 +4826,9 @@
           "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-holds-onto-payrolls-011608941.html"
         },
         {
-          "title": "Stocks edge up but Nvidia woes pose a fresh test, oil falls",
-          "publisher": "Reuters",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-steady-ai-mideast-014728397.html"
+          "title": "Oil Prices Decline as Trump Signals Restraint on Iran Despite Shipping Attacks Near Strait of Hormuz",
+          "publisher": "InvestorsHub",
+          "link": "https://investorshub.advfn.com/market-news/article/39503/oil-prices-decline-as-trump-signals-restraint-on-iran-despite-shipping-attacks-near-strait-of-hormuz"
         }
       ]
     },
@@ -4884,7 +4884,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.984,
+      "price": 157.986,
       "change_pct": 0.31,
       "volume": 0,
       "signal": "hold",
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74081.8438,
-      "change_pct": -0.67,
-      "volume": 25123389440,
+      "price": 73998.1719,
+      "change_pct": -0.79,
+      "volume": 25177438208,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2102.53,
-      "change_pct": -0.87,
-      "volume": 14207473664,
+      "price": 2102.78,
+      "change_pct": -0.86,
+      "volume": 14211896320,
       "signal": "buy",
       "confidence": 0.27,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2102.53 觸及下軌 2106.63)"
+          "rationale": "bollinger_band:buy(價格 2102.78 觸及下軌 2106.70)"
         },
         {
           "agent": "macro",
@@ -5006,13 +5006,18 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 2102.53,
-        "stop_loss": 1961.8956,
-        "take_profit": 2336.9207,
+        "entry_price": 2102.78,
+        "stop_loss": 1962.1456,
+        "take_profit": 2337.1707,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
       "news": [
+        {
+          "title": "Bitcoin, Ethereum, XRP Whipsaw On Nvidia Scandal, Iran Tensions: Crypto Sell-Off Sparks $1B Liquidation Wave",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-ethereum-xrp-whipsaw-on-nvidia-scandal-iran-tensions/cNGr4kAR9ej"
+        },
         {
           "title": "Cryptocurrencies slide to two-month lows after US midterms",
           "publisher": "Reuters",
@@ -5022,11 +5027,6 @@
           "title": "Vitalik Buterin Says Maximizing ETH’s Fee Burn Would Cost Ethereum Its Decentralization",
           "publisher": "Unchained",
           "link": "https://unchainedcrypto.com/vitalik-buterin-says-maximizing-eths-fee-burn-would-cost-ethereum-its-decentralization/"
-        },
-        {
-          "title": "Wall Street Keeps Selling Ethereum, but Whales Are Buying In",
-          "publisher": "BeInCrypto",
-          "link": "https://beincrypto.com/ethereum-whales-buy-etf-outflows/"
         }
       ]
     }
