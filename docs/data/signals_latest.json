@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:01:29.710846+00:00",
+  "generated_at": "2026-11-09T06:06:50.547828+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4131.6001,
+      "price": 4131.5,
       "change_pct": 1.39,
-      "volume": 36702,
+      "volume": 36986,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.21,
-      "change_pct": -0.68,
-      "volume": 22306,
+      "price": 90.18,
+      "change_pct": -0.72,
+      "volume": 22562,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.834,
-      "change_pct": -0.83,
+      "price": 32.837,
+      "change_pct": -0.82,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.246,
-      "change_pct": 0.47,
+      "price": 158.252,
+      "change_pct": 0.48,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74364.2188,
-      "change_pct": -1.83,
-      "volume": 20440985600,
+      "price": 74514.6797,
+      "change_pct": -1.63,
+      "volume": 20433772544,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.02%)"
+          "rationale": "波動度正常(ATR/價格=3.01%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2125.98,
-      "change_pct": -4.93,
-      "volume": 10796681216,
+      "price": 2131.04,
+      "change_pct": -4.71,
+      "volume": 10898074624,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2125.98 觸及下軌 2135.65)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2131.04 觸及下軌 2137.01)"
         },
         {
           "agent": "macro",
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.19%)"
+          "rationale": "波動度正常(ATR/價格=4.18%)"
         }
       ],
       "risk_levels": null,
