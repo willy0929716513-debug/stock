@@ -1,6 +1,15 @@
 {
   "cash": 9417.353000000001,
-  "position": null,
+  "position": {
+    "symbol": "NVDA",
+    "direction": "buy",
+    "entry_price": 186.64,
+    "qty": 50.0,
+    "opened_at": "2026-11-09T05:40:03.722257+00:00",
+    "reversal_count": 0,
+    "stop_loss": 174.61,
+    "take_profit": 206.69
+  },
   "trade_history": [
     {
       "symbol": "JPY=X",
