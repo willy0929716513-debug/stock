@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:51:48.281109+00:00",
+  "generated_at": "2026-11-09T09:57:10.067270+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4510,6 +4510,11 @@
       },
       "news": [
         {
+          "title": "Nvidia CEO Jensen Huang just made his already surprisingly cheap stock that much cheaper",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-ceo-jensen-huang-just-made-his-already-surprisingly-cheap-stock-that-much-cheaper-095550447.html"
+        },
+        {
           "title": "Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/jensen-huang-just-handed-wall-street-its-first-45-trillion-ceo-scandal-094803359.html"
@@ -4518,11 +4523,6 @@
           "title": "Nvidia's board launches investigation into CEO Jensen Huang's affair with an alleged Chinese spy",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus",
-          "publisher": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4103.7002,
-      "change_pct": 0.71,
-      "volume": 55536,
+      "price": 4102.2002,
+      "change_pct": 0.67,
+      "volume": 55718,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.44,
-      "change_pct": -0.43,
-      "volume": 48050,
+      "price": 90.47,
+      "change_pct": -0.4,
+      "volume": 48757,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.8,
-      "change_pct": -0.93,
+      "price": 32.808,
+      "change_pct": -0.91,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.0,
-      "change_pct": 0.32,
+      "price": 158.037,
+      "change_pct": 0.34,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74139.2969,
-      "change_pct": -0.6,
-      "volume": 25033730048,
+      "price": 74204.4922,
+      "change_pct": -0.51,
+      "volume": 25197162496,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2105.54,
-      "change_pct": -0.73,
-      "volume": 14055460864,
+      "price": 2107.51,
+      "change_pct": -0.64,
+      "volume": 13942138880,
       "signal": "buy",
       "confidence": 0.27,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2105.54 觸及下軌 2107.43)"
+          "rationale": "bollinger_band:buy(價格 2107.51 觸及下軌 2107.94)"
         },
         {
           "agent": "macro",
@@ -5006,9 +5006,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 2105.54,
-        "stop_loss": 1964.9056,
-        "take_profit": 2339.9307,
+        "entry_price": 2107.51,
+        "stop_loss": 1966.8756,
+        "take_profit": 2341.9007,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
