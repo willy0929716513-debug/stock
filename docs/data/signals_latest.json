@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:19:30.985627+00:00",
+  "generated_at": "2026-11-09T09:24:54.517151+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -116,7 +116,7 @@
           "link": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL"
         },
         {
-          "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
+          "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
           "publisher": "Associated Press",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-bounce-back-recovery-041457339.html"
         },
@@ -4408,6 +4408,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "He Left His Wife Everything in His Will. She Still Couldn’t Get Into His Phone, His Email, or the Brokerage Account That Only Sent Statements There",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/personal-finance/savings-accounts/2026/11/09/he-left-his-wife-everything-in-his-will-she-still-couldnt-get-into-his-phone-his-email-or-the-brokerage-account-that-only-sent-statements-there/"
+        },
+        {
           "title": "China dismisses a spy plot claim involving Nvidia CEO Jensen Huang as smear campaign",
           "publisher": "Associated Press",
           "link": "https://finance.yahoo.com/technology/articles/china-dismisses-spy-plot-claim-082725343.html"
@@ -4416,11 +4421,6 @@
           "title": "Chinese robotics stock surge on Apple robotics research",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/technology/ai/articles/chinese-robotics-stock-surge-apple-061332775.html"
-        },
-        {
-          "title": "Apple Bringing Agent Capabilities To Siri? Report Says Apple’s AI Is Up For A Major Upgrade As CEO Ternus Pushes For Faster Roadmap",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/apple-bringing-agent-capabilities-to-siri-report-says-apple-s-ai-is-up-for-a-major-upgrade-as-ceo-ternus-pushes-for-faster-roadmap/cNGAymiR9e5"
         }
       ]
     },
@@ -4520,9 +4520,9 @@
           "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
         },
         {
-          "title": "Huang allegations, Berkshire earnings, AI regulations - What’s moving markets",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/articles/huang-allegations-berkshire-earnings-ai-091315250.html"
+          "title": "Amazon’s Cloud Business Just Did Something It Hasn’t Done in Nearly Five Years",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/amazon-s-cloud-business-just-did-something-it-hasn-t-done-in-nearly-five-years/"
         }
       ]
     },
@@ -4618,6 +4618,11 @@
       },
       "news": [
         {
+          "title": "He Left His Wife Everything in His Will. She Still Couldn’t Get Into His Phone, His Email, or the Brokerage Account That Only Sent Statements There",
+          "publisher": "24/7 Wall St.",
+          "link": "https://247wallst.com/personal-finance/savings-accounts/2026/11/09/he-left-his-wife-everything-in-his-will-she-still-couldnt-get-into-his-phone-his-email-or-the-brokerage-account-that-only-sent-statements-there/"
+        },
+        {
           "title": "Blackbird confirms CEO succession with Sumit Rai taking the reins",
           "publisher": "Proactive",
           "link": "https://www.proactiveinvestors.com/companies/news/1101409/blackbird-confirms-ceo-succession-with-sumit-rai-taking-the-reins-1101409.html"
@@ -4626,11 +4631,6 @@
           "title": "Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
           "publisher": "Zacks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-cisco-berkshire-hathaway-070000795.html"
-        },
-        {
-          "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/semiconductor-crash-2-ai-chip-stocks-that-could-he/"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4105.6001,
-      "change_pct": 0.75,
-      "volume": 53891,
+      "price": 4104.8999,
+      "change_pct": 0.74,
+      "volume": 54104,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.65,
-      "change_pct": -1.3,
-      "volume": 43437,
+      "price": 89.66,
+      "change_pct": -1.29,
+      "volume": 43967,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.8,
-      "change_pct": -0.93,
+      "price": 32.821,
+      "change_pct": -0.87,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.0,
-      "change_pct": 0.32,
+      "price": 157.98,
+      "change_pct": 0.31,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74324.4297,
-      "change_pct": -0.35,
-      "volume": 23973599232,
+      "price": 74153.5312,
+      "change_pct": -0.58,
+      "volume": 24920846336,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.15%)"
         }
       ],
       "risk_levels": null,
@@ -4980,17 +4980,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2113.5901,
-      "change_pct": -0.35,
-      "volume": 13572866048,
-      "signal": "hold",
-      "confidence": 0.0,
+      "price": 2106.6101,
+      "change_pct": -0.68,
+      "volume": 13820996608,
+      "signal": "buy",
+      "confidence": 0.27,
       "opinions": [
         {
           "agent": "technical",
-          "signal": "hold",
-          "confidence": 0.0,
-          "rationale": "各策略皆無明確訊號"
+          "signal": "buy",
+          "confidence": 0.45,
+          "rationale": "bollinger_band:buy(價格 2106.61 觸及下軌 2107.71)"
         },
         {
           "agent": "macro",
@@ -5002,10 +5002,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.44%)"
+          "rationale": "波動度正常(ATR/價格=4.45%)"
         }
       ],
-      "risk_levels": null,
+      "risk_levels": {
+        "entry_price": 2106.6101,
+        "stop_loss": 1965.9757,
+        "take_profit": 2341.0008,
+        "atr": 93.7563,
+        "risk_reward_ratio": 1.67
+      },
       "news": [
         {
           "title": "Vitalik Buterin Says Maximizing ETH’s Fee Burn Would Cost Ethereum Its Decentralization",
