@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:04:29.065827+00:00",
+  "generated_at": "2026-11-09T08:09:49.733414+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4618,6 +4618,11 @@
       },
       "news": [
         {
+          "title": "Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
+          "publisher": "Zacks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-cisco-berkshire-hathaway-070000795.html"
+        },
+        {
           "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/09/semiconductor-crash-2-ai-chip-stocks-that-could-he/"
@@ -4626,11 +4631,6 @@
           "title": "5 Stocks I am Retiring On",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-am-retiring-004943035.html"
-        },
-        {
-          "title": "Bloom Energy Stock Fell 16% on the Same Day 2 Giant Data Center Deals Named It. Is It a Buy?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/08/bloom-energy-stock-fell-16-on-the-same-day-2-giant-data-center-deals-named-it-is-it-a-buy/"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4095.6001,
-      "change_pct": 0.51,
-      "volume": 47146,
+      "price": 4094.3999,
+      "change_pct": 0.48,
+      "volume": 47574,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.83,
-      "change_pct": -1.1,
-      "volume": 31769,
+      "price": 90.2,
+      "change_pct": -0.69,
+      "volume": 32963,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.10%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,7 +4836,7 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.8,
+      "price": 32.802,
       "change_pct": -0.93,
       "volume": 0,
       "signal": "hold",
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73714.6094,
-      "change_pct": -1.17,
-      "volume": 22923161600,
+      "price": 73768.0469,
+      "change_pct": -1.09,
+      "volume": 23323625472,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.17%)"
+          "rationale": "波動度正常(ATR/價格=3.16%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2089.6201,
-      "change_pct": -1.48,
-      "volume": 12653263872,
+      "price": 2089.8201,
+      "change_pct": -1.47,
+      "volume": 12714203136,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2089.62 觸及下軌 2103.14)"
+          "rationale": "bollinger_band:buy(價格 2089.82 觸及下軌 2103.20)"
         },
         {
           "agent": "macro",
@@ -5006,9 +5006,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 2089.6201,
-        "stop_loss": 1948.9857,
-        "take_profit": 2324.0108,
+        "entry_price": 2089.8201,
+        "stop_loss": 1949.1857,
+        "take_profit": 2324.2107,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
