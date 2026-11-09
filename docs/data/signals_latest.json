@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:15:11.356933+00:00",
+  "generated_at": "2026-11-09T08:20:34.570192+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4515,14 +4515,14 @@
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
-          "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
-          "publisher": "AFP",
-          "link": "https://finance.yahoo.com/technology/articles/tech-firms-claw-back-losses-025428116.html"
+          "title": "Traders open $9.1 million in Nvidia shorts as CEO admits to affair",
+          "publisher": "TheStreet",
+          "link": "https://www.thestreet.com/crypto/markets/traders-open-9-1-million-in-nvidia-shorts-as-ceo-admits-to-affair"
         },
         {
-          "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
+          "title": "Should You Avoid McDonald's Stock, Even Near a 4-Year Low?",
           "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/"
+          "link": "https://www.fool.com/investing/2026/11/09/should-you-avoid-mcdonalds-stock-near-low/"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4099.2998,
-      "change_pct": 0.6,
-      "volume": 48388,
+      "price": 4101.3999,
+      "change_pct": 0.65,
+      "volume": 48821,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4762,7 +4762,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.14%)"
+          "rationale": "波動度正常(ATR/價格=2.13%)"
         }
       ],
       "risk_levels": null,
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.14,
-      "change_pct": -0.76,
-      "volume": 33812,
+      "price": 90.0,
+      "change_pct": -0.91,
+      "volume": 34532,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.11%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.802,
-      "change_pct": -0.93,
+      "price": 32.795,
+      "change_pct": -0.95,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.91,
-      "change_pct": 0.26,
+      "price": 157.938,
+      "change_pct": 0.28,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73789.7969,
-      "change_pct": -1.07,
-      "volume": 23520921600,
+      "price": 74034.6719,
+      "change_pct": -0.74,
+      "volume": 23373586432,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.16%)"
+          "rationale": "波動度正常(ATR/價格=3.15%)"
         }
       ],
       "risk_levels": null,
@@ -4980,17 +4980,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2092.78,
-      "change_pct": -1.33,
-      "volume": 12809940992,
+      "price": 2101.9299,
+      "change_pct": -0.9,
+      "volume": 12747558912,
       "signal": "buy",
-      "confidence": 0.26,
+      "confidence": 0.27,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2092.78 觸及下軌 2104.01)"
+          "confidence": 0.45,
+          "rationale": "bollinger_band:buy(價格 2101.93 觸及下軌 2106.47)"
         },
         {
           "agent": "macro",
@@ -5002,13 +5002,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.48%)"
+          "rationale": "波動度正常(ATR/價格=4.46%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2092.78,
-        "stop_loss": 1952.1456,
-        "take_profit": 2327.1707,
+        "entry_price": 2101.9299,
+        "stop_loss": 1961.2955,
+        "take_profit": 2336.3206,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
