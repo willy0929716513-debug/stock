@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:09:49.733414+00:00",
+  "generated_at": "2026-11-09T08:15:11.356933+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,6 +2350,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "U.S. Treasury Yields Edge Lower as Oil Prices Decline",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Unicredit Q3 profit rises more than expected, hikes annual guidance",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/unicredit-q3-profit-rises-more-073527593.html"
@@ -2358,11 +2363,6 @@
           "title": "Nifty 50 Is Still Down 4.91% in 2026, So Why Does Citi See 13% Upside?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/citi-nifty-50-target-2027/"
-        },
-        {
-          "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
         }
       ]
     },
@@ -2462,6 +2462,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "U.S. Treasury Yields Edge Lower as Oil Prices Decline",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "Unicredit Q3 profit rises more than expected, hikes annual guidance",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/unicredit-q3-profit-rises-more-073527593.html"
@@ -2470,11 +2475,6 @@
           "title": "Nifty 50 Is Still Down 4.91% in 2026, So Why Does Citi See 13% Upside?",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/citi-nifty-50-target-2027/"
-        },
-        {
-          "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4094.3999,
-      "change_pct": 0.48,
-      "volume": 47574,
+      "price": 4099.2998,
+      "change_pct": 0.6,
+      "volume": 48388,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.2,
-      "change_pct": -0.69,
-      "volume": 32963,
+      "price": 90.14,
+      "change_pct": -0.76,
+      "volume": 33812,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4816,6 +4816,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "U.S. Treasury Yields Edge Lower as Oil Prices Decline",
+          "publisher": "The Wall Street Journal",
+          "link": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?siteid=yhoof2&yptr=yahoo"
+        },
+        {
           "title": "APA Corp (APA) (Q3 2026) Earnings Call Highlights: $699 Million Free Cash Flow, Raised Outlook ...",
           "publisher": "GuruFocus.com",
           "link": "https://finance.yahoo.com/energy/articles/apa-corp-apa-q3-2026-070301873.html"
@@ -4824,11 +4829,6 @@
           "title": "The Reorientation of China's Sway Over Commodities",
           "publisher": "CME Group",
           "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
-        },
-        {
-          "title": "Strathcona to acquire Greenfire Resources in $2 bln deal",
-          "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/energy/articles/strathcona-acquire-greenfire-resources-2-061857554.html"
         }
       ]
     },
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.926,
-      "change_pct": 0.27,
+      "price": 157.91,
+      "change_pct": 0.26,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73768.0469,
-      "change_pct": -1.09,
-      "volume": 23323625472,
+      "price": 73789.7969,
+      "change_pct": -1.07,
+      "volume": 23520921600,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2089.8201,
-      "change_pct": -1.47,
-      "volume": 12714203136,
+      "price": 2092.78,
+      "change_pct": -1.33,
+      "volume": 12809940992,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2089.82 觸及下軌 2103.20)"
+          "rationale": "bollinger_band:buy(價格 2092.78 觸及下軌 2104.01)"
         },
         {
           "agent": "macro",
@@ -5002,13 +5002,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.49%)"
+          "rationale": "波動度正常(ATR/價格=4.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2089.8201,
-        "stop_loss": 1949.1857,
-        "take_profit": 2324.2107,
+        "entry_price": 2092.78,
+        "stop_loss": 1952.1456,
+        "take_profit": 2327.1707,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
