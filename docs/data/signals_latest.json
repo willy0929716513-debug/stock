@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:36:38.569958+00:00",
+  "generated_at": "2026-11-09T08:41:58.918700+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -111,6 +111,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL"
+        },
+        {
           "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
           "publisher": "Associated Press",
           "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-bounce-back-recovery-041457339.html"
@@ -119,11 +124,6 @@
           "title": "5 Stocks I am Retiring On",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-am-retiring-004943035.html"
-        },
-        {
-          "title": "This Stock Is a Nearly Guaranteed Winner From the AI Infrastructure Buildout",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/08/this-stock-is-a-nearly-guaranteed-winner-from-the/"
         }
       ]
     },
@@ -4515,14 +4515,14 @@
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
-          "title": "China dismisses a spy plot claim involving Nvidia CEO Jensen Huang as smear campaign",
-          "publisher": "Associated Press",
-          "link": "https://finance.yahoo.com/technology/articles/china-dismisses-spy-plot-claim-082725343.html"
+          "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
+          "publisher": "Stocktwits",
+          "link": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL"
         },
         {
-          "title": "SpaceX Stock Fell to Its Lowest Level Since August After the Midterms. Is It Time to Buy?",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/spacex-stock-fell-to-its-lowest-level-since-august/"
+          "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/technology/articles/tech-firms-claw-back-losses-025428116.html"
         }
       ]
     },
@@ -4672,7 +4672,7 @@
       },
       "news": [
         {
-          "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage ‘",
+          "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw"
         },
@@ -4725,7 +4725,7 @@
           "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/"
         },
         {
-          "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage ‘",
+          "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw"
         },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4103.1001,
-      "change_pct": 0.69,
-      "volume": 50138,
+      "price": 4102.7002,
+      "change_pct": 0.68,
+      "volume": 50831,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.48,
-      "change_pct": -1.49,
-      "volume": 36789,
+      "price": 89.76,
+      "change_pct": -1.18,
+      "volume": 37952,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4809,8 +4809,8 @@
         {
           "agent": "risk",
           "signal": "hold",
-          "confidence": 0.03,
-          "rationale": "波動度過高(ATR/價格=5.14%),建議降低部位或觀望"
+          "confidence": 0.02,
+          "rationale": "波動度過高(ATR/價格=5.12%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.798,
-      "change_pct": -0.94,
+      "price": 32.808,
+      "change_pct": -0.91,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 157.98,
-      "change_pct": 0.31,
+      "price": 158.043,
+      "change_pct": 0.35,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74165.3281,
-      "change_pct": -0.56,
-      "volume": 24274176000,
+      "price": 74196.8672,
+      "change_pct": -0.52,
+      "volume": 24171575296,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2108.22,
-      "change_pct": -0.6,
-      "volume": 13220633600,
+      "price": 2108.8899,
+      "change_pct": -0.57,
+      "volume": 13301362688,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
