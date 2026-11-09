@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:22:50.823139+00:00",
+  "generated_at": "2026-11-09T06:28:10.896113+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,19 +2350,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Wells Fargo (WFC) Dividend Move Keeps Undervalued Narrative In Focus",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-dividend-move-051149316.html"
+          "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
+          "publisher": "StockStory",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
         },
         {
-          "title": "Stantec And 2 Other Canadian Undervalued Stocks To Own",
+          "title": "3 Australian Growth Stocks With Revenue Growth Over 6%",
           "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stantec-2-other-canadian-undervalued-051135968.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-growth-stocks-revenue-060959931.html"
         },
         {
-          "title": "Repco Home Finance Ltd (BOM:535322) (Q2 2027) Earnings Call Highlights: NPA Hits 16-Year Low of ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/repco-home-finance-ltd-bom-050548367.html"
+          "title": "Morgan Stanley (MS) Trims Data Center Loan Exposure As AI Financing Shifts",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-ms-trims-data-060817780.html"
         }
       ]
     },
@@ -2462,19 +2462,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "Wells Fargo (WFC) Dividend Move Keeps Undervalued Narrative In Focus",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-dividend-move-051149316.html"
+          "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
+          "publisher": "StockStory",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
         },
         {
-          "title": "Stantec And 2 Other Canadian Undervalued Stocks To Own",
+          "title": "3 Australian Growth Stocks With Revenue Growth Over 6%",
           "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stantec-2-other-canadian-undervalued-051135968.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-growth-stocks-revenue-060959931.html"
         },
         {
-          "title": "Repco Home Finance Ltd (BOM:535322) (Q2 2027) Earnings Call Highlights: NPA Hits 16-Year Low of ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/repco-home-finance-ltd-bom-050548367.html"
+          "title": "Morgan Stanley (MS) Trims Data Center Loan Exposure As AI Financing Shifts",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-ms-trims-data-060817780.html"
         }
       ]
     },
@@ -4456,6 +4456,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/semiconductor-crash-2-ai-chip-stocks-that-could-he/"
+        },
+        {
           "title": "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case",
           "publisher": "Investor's Business Daily",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-probes-ceo-jensen-huang-espionage/?src=A00220&yptr=yahoo"
@@ -4464,11 +4469,6 @@
           "title": "Microsoft's Oracle move raises new question for investors",
           "publisher": "TheStreet",
           "link": "https://www.thestreet.com/investing/stocks/microsofts-oracle-move-raises-new-question-for-investors"
-        },
-        {
-          "title": "Why Did DKNG, SOUN, ORCL Stocks Plunge To 52-Week Lows Last Week?",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-dkng-soun-orcl-stocks-plunge-to-52-week-lows-last-week/cNGAv0oR9I6"
         }
       ]
     },
@@ -4618,6 +4618,11 @@
       },
       "news": [
         {
+          "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/semiconductor-crash-2-ai-chip-stocks-that-could-he/"
+        },
+        {
           "title": "5 Stocks I am Retiring On",
           "publisher": "Insider Monkey",
           "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-am-retiring-004943035.html"
@@ -4626,11 +4631,6 @@
           "title": "Bloom Energy Stock Fell 16% on the Same Day 2 Giant Data Center Deals Named It. Is It a Buy?",
           "publisher": "Motley Fool",
           "link": "https://www.fool.com/investing/2026/11/08/bloom-energy-stock-fell-16-on-the-same-day-2-giant-data-center-deals-named-it-is-it-a-buy/"
-        },
-        {
-          "title": "Cathie Wood buys $17.2 million of tumbling tech stock",
-          "publisher": "TheStreet",
-          "link": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-17-2-million-of-tumbling-tech-stock-alphabet-googl"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4126.8999,
+      "price": 4127.2002,
       "change_pct": 1.28,
-      "volume": 37647,
+      "volume": 37875,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.25,
-      "change_pct": -0.64,
-      "volume": 23286,
+      "price": 90.12,
+      "change_pct": -0.78,
+      "volume": 23438,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.94,
-      "change_pct": -0.51,
+      "price": 32.95,
+      "change_pct": -0.48,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4858,7 +4858,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=0.81%)"
+          "rationale": "波動度正常(ATR/價格=0.80%)"
         }
       ],
       "risk_levels": null,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.219,
-      "change_pct": 0.46,
+      "price": 158.235,
+      "change_pct": 0.47,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74216.1719,
-      "change_pct": -2.02,
-      "volume": 20485455872,
+      "price": 74269.9688,
+      "change_pct": -1.95,
+      "volume": 20346595328,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2119.3799,
-      "change_pct": -5.23,
-      "volume": 11040512000,
+      "price": 2119.5801,
+      "change_pct": -5.22,
+      "volume": 10953414656,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2119.38 觸及下軌 2133.83)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2119.58 觸及下軌 2133.89)"
         },
         {
           "agent": "macro",
