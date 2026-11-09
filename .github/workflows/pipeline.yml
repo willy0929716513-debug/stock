@@ -29,7 +29,6 @@ on:
 
 permissions:
   contents: write
-  actions: write  # 連續 3 次沒抓到新資料時,需要呼叫 API 停用這個 workflow
 
 concurrency:
   group: jpo-kbo-pipeline
@@ -59,7 +58,6 @@ jobs:
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -e
           git config user.name "github-actions[bot]"
@@ -92,26 +90,29 @@ jobs:
             fi
 
             # 連續多次「沒抓到新資料」(整批抓取失敗,或內容跟上次一模一樣)
-            # 代表系統可能已經悄悄壞掉了,累計次數並在達到門檻時停用排程,
-            # 而不是無限重試下去、卻沒人發現。判斷邏輯見
+            # 代表系統可能已經悄悄壞掉了,計數起來寫進 pipeline_health.json
+            # 給人看,但**不再自動停用這個 workflow**。判斷邏輯見
             # src/pipeline/health_check.py(有獨立的 pytest 回歸測試)。
+            #
+            # 2026-11-09 移除自動停用(誠實記錄,不要用猜的改回去):排程
+            # 本身已經因為 repo 轉移帳號而完全靠不住(cron 不會自己觸發、
+            # Claude 連透過 API 手動觸發/重跑都被擋下來,見上面 2026-10-13
+            # 的註解),自動停用等於又加了第三種「要人工介入才能救回來」的
+            # 失敗模式——使用者每次都要先注意到被停用、再手動去 Actions
+            # 分頁點 Enable,比單純讓它在下次真的被觸發時再試一次更麻煩。
+            # 保留計數只是為了讓人在 pipeline_health.json 看得到異常,不會
+            # 再自己關掉排程。
             NEW_COUNT=$(python -m src.pipeline.health_check "$SIGNAL_COUNT" "$DATA_CHANGED")
             echo "consecutive_no_update=$NEW_COUNT"
+            if [ "$NEW_COUNT" -ge 3 ]; then
+              echo "::warning::連續 $NEW_COUNT 次沒有抓到新資料,但排程不會因此自動停用,請自行檢查 log 找真因"
+            fi
 
             git add docs/data/pipeline_health.json
             if ! git diff --cached --quiet; then
               git commit -m "chore: update pipeline health status [skip ci]"
               git pull --rebase origin "${GITHUB_REF_NAME}"
               git push origin "HEAD:${GITHUB_REF_NAME}"
-            fi
-
-            if [ "$NEW_COUNT" -ge 3 ]; then
-              echo "::warning::連續 $NEW_COUNT 次沒有抓到新資料,停用這個 workflow 的排程。要恢復請到 Actions 分頁手動 Enable workflow,或執行 gh workflow enable pipeline.yml"
-              curl -s -X PUT \
-                -H "Authorization: Bearer ${GH_TOKEN}" \
-                -H "Accept: application/vnd.github+json" \
-                "https://api.github.com/repos/${{ github.repository }}/actions/workflows/pipeline.yml/disable"
-              exit 0
             fi
 
             REMAINING=$(( END_TIME - $(date +%s) ))
