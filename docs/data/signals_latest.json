@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:27:02.086097+00:00",
+  "generated_at": "2026-11-09T07:32:25.914775+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4515,14 +4515,14 @@
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
-          "title": "Why Last Week's Market Sell-Off Was a Good Thing",
-          "publisher": "Motley Fool",
-          "link": "https://www.fool.com/investing/2026/11/09/why-last-weeks-market-sell-off-was-a-good-thing/"
+          "title": "Tech firms claw back some losses after midterms rout, eyes on Nvidia",
+          "publisher": "AFP",
+          "link": "https://finance.yahoo.com/technology/articles/tech-firms-claw-back-losses-025428116.html"
         },
         {
-          "title": "Tech stocks recover after midterms rout as Nvidia takes centre stage",
-          "publisher": "Euronews",
-          "link": "https://www.euronews.com/2026/11/09/tech-stocks-recover-after-midterms-rout-as-nvidia-takes-centre-stage"
+          "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/"
         }
       ]
     },
@@ -4720,6 +4720,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "If You'd Invested $5,000 in QQQ the Day It Launched, Here's What You'd Have Today",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/if-invest-5000-qqq-day-it-launched-how-much-today/"
+        },
+        {
           "title": "Biotech Beats SPY And QQQ In Market Rout — Now Hims Earnings And Summit’s FDA Test Take Center Stage ‘",
           "publisher": "Stocktwits",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-beats-spy-qqq-hims-earnings-summit-fda-test-center-stage/cNGAtt7R9Iw"
@@ -4728,11 +4733,6 @@
           "title": "Wall Street Just Set a Record That Could Signal Trouble for the Stock Market",
           "publisher": "24/7 Wall St.",
           "link": "https://247wallst.com/investing/2026/11/08/wall-street-just-set-a-record-that-could-signal-trouble-for-the-stock-market/"
-        },
-        {
-          "title": "The S&P 500 Just Had Its Worst Week Since the April 2025 Tariff Crash",
-          "publisher": "24/7 Wall St.",
-          "link": "https://247wallst.com/investing/2026/11/07/the-sp-500-just-had-its-worst-week-since-the-april-2025-tariff-crash/"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4110.2998,
-      "change_pct": 0.87,
-      "volume": 42484,
+      "price": 4109.6001,
+      "change_pct": 0.85,
+      "volume": 43125,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.18,
-      "change_pct": -0.72,
-      "volume": 28005,
+      "price": 89.91,
+      "change_pct": -1.01,
+      "volume": 28473,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.09%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.11%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.806,
-      "change_pct": -0.92,
+      "price": 32.797,
+      "change_pct": -0.94,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.061,
-      "change_pct": 0.36,
+      "price": 158.085,
+      "change_pct": 0.37,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73912.3672,
-      "change_pct": -0.9,
-      "volume": 22265184256,
+      "price": 73964.0625,
+      "change_pct": -0.83,
+      "volume": 22129686528,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2088.9099,
-      "change_pct": -1.51,
-      "volume": 11992355840,
+      "price": 2091.1001,
+      "change_pct": -1.41,
+      "volume": 11984146432,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2088.91 觸及下軌 2102.94)"
+          "rationale": "bollinger_band:buy(價格 2091.10 觸及下軌 2103.55)"
         },
         {
           "agent": "macro",
@@ -5002,13 +5002,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.49%)"
+          "rationale": "波動度正常(ATR/價格=4.48%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2088.9099,
-        "stop_loss": 1948.2755,
-        "take_profit": 2323.3006,
+        "entry_price": 2091.1001,
+        "stop_loss": 1950.4657,
+        "take_profit": 2325.4907,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
