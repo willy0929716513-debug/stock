@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:38:51.933409+00:00",
+  "generated_at": "2026-11-09T06:44:12.634448+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4126.2998,
-      "change_pct": 1.26,
-      "volume": 38556,
+      "price": 4119.7998,
+      "change_pct": 1.1,
+      "volume": 39304,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4762,7 +4762,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=2.12%)"
+          "rationale": "波動度正常(ATR/價格=2.13%)"
         }
       ],
       "risk_levels": null,
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.0,
-      "change_pct": -0.91,
-      "volume": 24592,
+      "price": 89.83,
+      "change_pct": -1.1,
+      "volume": 24763,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,7 +4810,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.08%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.09%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
@@ -4884,7 +4884,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.227,
+      "price": 158.22,
       "change_pct": 0.46,
       "volume": 0,
       "signal": "hold",
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74089.3203,
-      "change_pct": -2.19,
-      "volume": 20929855488,
+      "price": 74006.9297,
+      "change_pct": -2.3,
+      "volume": 21174104064,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.04%)"
+          "rationale": "波動度正常(ATR/價格=3.05%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2113.8999,
-      "change_pct": -5.47,
-      "volume": 11176861696,
+      "price": 2104.73,
+      "change_pct": -5.88,
+      "volume": 11202024448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2113.90 觸及下軌 2132.30)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2104.73 觸及下軌 2129.67)"
         },
         {
           "agent": "macro",
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.22%)"
+          "rationale": "波動度正常(ATR/價格=4.27%)"
         }
       ],
       "risk_levels": null,
