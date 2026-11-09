@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:32:25.914775+00:00",
+  "generated_at": "2026-11-09T07:37:47.748489+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4109.6001,
-      "change_pct": 0.85,
-      "volume": 43125,
+      "price": 4108.7998,
+      "change_pct": 0.83,
+      "volume": 43634,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.91,
-      "change_pct": -1.01,
-      "volume": 28473,
+      "price": 89.82,
+      "change_pct": -1.11,
+      "volume": 28769,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.085,
-      "change_pct": 0.37,
+      "price": 158.057,
+      "change_pct": 0.35,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73964.0625,
-      "change_pct": -0.83,
-      "volume": 22129686528,
+      "price": 74020.5938,
+      "change_pct": -0.76,
+      "volume": 22208061440,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2091.1001,
-      "change_pct": -1.41,
-      "volume": 11984146432,
+      "price": 2093.3799,
+      "change_pct": -1.3,
+      "volume": 12062167040,
       "signal": "buy",
       "confidence": 0.26,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.44,
-          "rationale": "bollinger_band:buy(價格 2091.10 觸及下軌 2103.55)"
+          "rationale": "bollinger_band:buy(價格 2093.38 觸及下軌 2104.17)"
         },
         {
           "agent": "macro",
@@ -5006,9 +5006,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 2091.1001,
-        "stop_loss": 1950.4657,
-        "take_profit": 2325.4907,
+        "entry_price": 2093.3799,
+        "stop_loss": 1952.7455,
+        "take_profit": 2327.7705,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
