@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:58:01.193783+00:00",
+  "generated_at": "2026-11-09T09:03:21.702121+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,6 +2350,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/"
+        },
+        {
           "title": "Rezolv Energy obtains $409m for Romania’s Dunarea East wind farm",
           "publisher": "Power Technology",
           "link": "https://www.power-technology.com/news/rezolv-obtains-409m-dunarea-east-wind-farm/"
@@ -2358,11 +2363,6 @@
           "title": "BHP Group And 2 Top Dividend Stocks To Watch",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bhp-group-2-top-dividend-081129853.html"
-        },
-        {
-          "title": "Skyward Specialty Insurance Group (SKWD) Reports Fresh Earnings, Is It Still 14% Below Fair Value?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/skyward-specialty-insurance-group-skwd-080821472.html"
         }
       ]
     },
@@ -2462,6 +2462,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/"
+        },
+        {
           "title": "Rezolv Energy obtains $409m for Romania’s Dunarea East wind farm",
           "publisher": "Power Technology",
           "link": "https://www.power-technology.com/news/rezolv-obtains-409m-dunarea-east-wind-farm/"
@@ -2470,11 +2475,6 @@
           "title": "BHP Group And 2 Top Dividend Stocks To Watch",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bhp-group-2-top-dividend-081129853.html"
-        },
-        {
-          "title": "Skyward Specialty Insurance Group (SKWD) Reports Fresh Earnings, Is It Still 14% Below Fair Value?",
-          "publisher": "Simply Wall St.",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/skyward-specialty-insurance-group-skwd-080821472.html"
         }
       ]
     },
@@ -4515,14 +4515,14 @@
           "link": "https://finance.yahoo.com/markets/article/nvidias-jensen-huang-admits-to-affair-after-allegations-of-romance-with-chinese-spy-report-205122263.html"
         },
         {
+          "title": "Citi Downgraded Adobe Stock to Sell. I'd Buy It Now.",
+          "publisher": "Motley Fool",
+          "link": "https://www.fool.com/investing/2026/11/09/citi-downgraded-adobe-stock-to-sell-i-d-buy-it-now/"
+        },
+        {
           "title": "European equities flatline as markets digest Nvidia board probe",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/markets/stocks/articles/european-equities-flatline-markets-digest-083653253.html"
-        },
-        {
-          "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
-          "publisher": "Stocktwits",
-          "link": "https://stocktwits.com/news-articles/markets/equity/tsmc-sk-hynix-samsung-asian-chip-stocks-rise-even-as-nvidia-ceo-jensen-huang-s-controversy-tests-investor-confidence/cNGrP1CR9eL"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4106.8999,
-      "change_pct": 0.79,
-      "volume": 52124,
+      "price": 4103.6001,
+      "change_pct": 0.7,
+      "volume": 52587,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.64,
-      "change_pct": -1.31,
-      "volume": 40740,
+      "price": 89.63,
+      "change_pct": -1.32,
+      "volume": 41385,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.807,
-      "change_pct": -0.91,
+      "price": 32.814,
+      "change_pct": -0.89,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,7 +4884,7 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.086,
+      "price": 158.088,
       "change_pct": 0.37,
       "volume": 0,
       "signal": "hold",
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74424.6016,
-      "change_pct": -0.21,
-      "volume": 24265508864,
+      "price": 74613.7031,
+      "change_pct": 0.04,
+      "volume": 24634865664,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.14%)"
+          "rationale": "波動度正常(ATR/價格=3.13%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2120.79,
-      "change_pct": -0.01,
-      "volume": 13487592448,
+      "price": 2124.6699,
+      "change_pct": 0.17,
+      "volume": 13652553728,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.42%)"
+          "rationale": "波動度正常(ATR/價格=4.41%)"
         }
       ],
       "risk_levels": null,
