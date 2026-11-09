@@ -116,7 +116,7 @@ tests/                          # pytest 回歸測試
 若 `GEMINI_API_KEY` 未設定或分析失敗,`potential_picks` 會是空陣列,前端會顯示提示文字,
 不會讓整個 pipeline 掛掉。
 
-## 排程架構與自動暫停機制
+## 排程架構
 
 **誠實記錄實際踩到的問題**:一開始 `pipeline.yml` 排程設定 `*/5 * * * *`(每 5 分鐘),後來
 又試過 `*/10`,但稽核真實執行紀錄後發現,GitHub Actions 的排程在公開 repo / 免費方案上對
@@ -137,16 +137,36 @@ tests/                          # pytest 回歸測試
 (`src/pipeline/auto_trader.py`、`docs/assets/paper.js` 的自動模式)才會依照台股交易時間
 (9:00–13:30)決定台股標的能不能進場,美股/ETF/商品期貨/外匯/加密貨幣不受此限制。
 
-另外加上一個獨立的保護機制(`src/pipeline/health_check.py`,有完整 pytest 測試):
+另外有一個獨立的健康監測(`src/pipeline/health_check.py`,有完整 pytest 測試):
 每一輪迴圈之後,判斷「這次算不算真的抓到新資料」——訊號數量是 0(整批抓取失敗)、
 或這次輸出跟上次 commit 完全一樣(可疑,真實市場報價幾乎不可能連續好幾次都毫無變動,
-比較可能是抓取邏輯悄悄回傳了舊/快取資料而不是報錯)。連續 **3 次**符合以上任一種情況
-(也就是最快約 15 分鐘內就能偵測到),就會呼叫 GitHub API **自動停用**這個 workflow,並在
-`docs/data/pipeline_health.json` 留下記錄,避免系統已經壞掉了卻沒人發現、一直空轉。
+比較可能是抓取邏輯悄悄回傳了舊/快取資料而不是報錯)。連續次數記錄在
+`docs/data/pipeline_health.json` 裡,方便排查問題。
 
-**如果排程被自動停用了,要怎麼恢復**:先看 `pipeline_health.json` 跟對應那次 Actions run
-的完整 log 找出真因(不要用猜的),修好之後到 repo 的 **Actions 分頁 → JPO-KBO Signal Pipeline →
-右上角 "..." → Enable workflow** 手動重新啟用,或用 `gh workflow enable pipeline.yml`。
+**2026-11-09 更新(誠實記錄,不要用猜的改回去)**:連續 3 次沒抓到新資料時,原本會
+呼叫 GitHub API **自動停用**這個 workflow。這個設計已經移除,理由是後來發現的另一個
+更嚴重的問題讓它變成反效果——見下方「已知限制」:repo 轉移帳號之後,排程(cron)
+完全停止自己觸發,而且連透過 API 手動觸發/重跑都被 GitHub 擋下來,只剩「使用者自己
+在網頁上點 Run workflow」跟「merge 一個改程式碼的 PR 觸發 push trigger」兩條路能讓它
+動起來。在這種已經很脆弱的觸發環境之上,再加一個「連續 3 次異常就自動停用」,只是
+多了第三種需要人工介入才能救回來的失敗模式——使用者要先注意到被停用了,才能去手動
+重新啟用,比直接讓它在下次真的被觸發時再試一次更麻煩。現在 `consecutive_no_update`
+只會被記錄、在 log 印警告,**不會再自己關掉排程**。
+
+## 排程/帳號轉移相關的已知限制(誠實記錄)
+
+- **2026-10 左右這個 repo 從 `willy0931926721-hub` 轉移到 `willy0929716513-debug`
+  帳號之後,原本每小時一次的 cron 排程完全停止自己觸發**,曾經連續數週、甚至超過
+  一個月沒有任何一次排程觸發。這不是程式邏輯的問題,是 GitHub 平台在帳號轉移後對
+  該 repo 排程的已觀察行為,無法透過改 workflow 的程式碼解決。
+- **同一次帳號轉移,也讓 Claude(這個協作 session)透過 GitHub API 手動觸發
+  (`workflow_dispatch`)或重跑(`rerun_workflow_run`)這個 workflow 的權限被收回**,
+  兩者都會收到 `403 Resource not accessible by integration`——即使用 `gh` CLI 直接呼叫
+  也一樣,因為背後是同一組受限的 token。目前唯一還能動的兩條路:
+  1. 使用者自己到 repo 的 Actions 分頁手動點「Run workflow」(確認有效,8/14、10/2 都
+     這樣恢復過)
+  2. merge 一支會改到程式碼的 PR(`pipeline.yml` 已經加了 `push` 觸發,只要 merge 進
+     main 的 commit 不是只改 `docs/data/**`,就會自動觸發一次新的 run)
 
 ## 已知限制(誠實記錄,不要刪掉)
 
@@ -174,7 +194,7 @@ tests/                          # pytest 回歸測試
 
 ```bash
 pip install -r requirements.txt
-python -m pytest tests/ -v          # 跑回歸測試(53 個測試,不需要網路或 API key)
+python -m pytest tests/ -v          # 跑回歸測試(64 個測試,不需要網路或 API key)
 python -m src.pipeline.daily_run    # 手動跑一次 pipeline(需要網路)
 python -m src.pipeline.auto_trader  # 手動跑一次自動跟單(需要先有 signals_latest.json)
 ```
