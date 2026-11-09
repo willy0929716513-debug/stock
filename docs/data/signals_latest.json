@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:44:12.634448+00:00",
+  "generated_at": "2026-11-09T06:49:33.063958+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4119.7998,
-      "change_pct": 1.1,
-      "volume": 39304,
+      "price": 4118.8999,
+      "change_pct": 1.08,
+      "volume": 39669,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.83,
-      "change_pct": -1.1,
-      "volume": 24763,
+      "price": 89.77,
+      "change_pct": -1.17,
+      "volume": 25072,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.785,
-      "change_pct": -0.98,
+      "price": 32.801,
+      "change_pct": -0.93,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.22,
-      "change_pct": 0.46,
+      "price": 158.202,
+      "change_pct": 0.45,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74006.9297,
-      "change_pct": -2.3,
-      "volume": 21174104064,
+      "price": 74121.6016,
+      "change_pct": -2.15,
+      "volume": 21300955136,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4954,7 +4954,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=3.05%)"
+          "rationale": "波動度正常(ATR/價格=3.04%)"
         }
       ],
       "risk_levels": null,
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2104.73,
-      "change_pct": -5.88,
-      "volume": 11202024448,
+      "price": 2109.6299,
+      "change_pct": -5.66,
+      "volume": 11342836736,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "hold",
           "confidence": 0.04,
-          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2104.73 觸及下軌 2129.67)"
+          "rationale": "macd:sell(MACD 柱狀體翻負(死亡交叉)); bollinger_band:buy(價格 2109.63 觸及下軌 2131.08)"
         },
         {
           "agent": "macro",
@@ -5002,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.27%)"
+          "rationale": "波動度正常(ATR/價格=4.26%)"
         }
       ],
       "risk_levels": null,
