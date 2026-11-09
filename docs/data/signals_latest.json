@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:21:41.021931+00:00",
+  "generated_at": "2026-11-09T07:27:02.086097+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -2350,19 +2350,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "The Reorientation of China's Sway Over Commodities",
-          "publisher": "CME Group",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
-        },
-        {
-          "title": "Crédit Agricole proposes Banco BPM merger, 20% premium and €1 bln dividend",
+          "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
           "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cr-dit-agricole-proposes-banco-065549294.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
         },
         {
-          "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
-          "publisher": "StockStory",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
+          "title": "UK Stock Market Today: FTSE 100 Futures Slip On Housing Weakness And Data Watch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-070849118.html"
+        },
+        {
+          "title": "Stella Jones (TSX:SJ) Stock Sees Fair Value Cut As Analysts Trim Targets",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stella-jones-tsx-sj-stock-070755683.html"
         }
       ]
     },
@@ -2462,19 +2462,19 @@
       "risk_levels": null,
       "news": [
         {
-          "title": "The Reorientation of China's Sway Over Commodities",
-          "publisher": "CME Group",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
-        },
-        {
-          "title": "Crédit Agricole proposes Banco BPM merger, 20% premium and €1 bln dividend",
+          "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
           "publisher": "Investing.com",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/cr-dit-agricole-proposes-banco-065549294.html"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/hannover-beats-q3-profit-forecasts-071950440.html"
         },
         {
-          "title": "LNC Q3 2026 deep dive: sales growth offsets margin pressure, capital return resumes",
-          "publisher": "StockStory",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lnc-q3-2026-deep-dive-062136432.html"
+          "title": "UK Stock Market Today: FTSE 100 Futures Slip On Housing Weakness And Data Watch",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-070849118.html"
+        },
+        {
+          "title": "Stella Jones (TSX:SJ) Stock Sees Fair Value Cut As Analysts Trim Targets",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/stella-jones-tsx-sj-stock-070755683.html"
         }
       ]
     },
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4114.5,
-      "change_pct": 0.97,
-      "volume": 41902,
+      "price": 4110.2998,
+      "change_pct": 0.87,
+      "volume": 42484,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4790,7 +4790,7 @@
       "category": "commodity",
       "price": 90.18,
       "change_pct": -0.72,
-      "volume": 27626,
+      "volume": 28005,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4816,6 +4816,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "APA Corp (APA) (Q3 2026) Earnings Call Highlights: $699 Million Free Cash Flow, Raised Outlook ...",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/energy/articles/apa-corp-apa-q3-2026-070301873.html"
+        },
+        {
           "title": "The Reorientation of China's Sway Over Commodities",
           "publisher": "CME Group",
           "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
@@ -4824,11 +4829,6 @@
           "title": "Strathcona to acquire Greenfire Resources in $2 bln deal",
           "publisher": "Investing.com",
           "link": "https://finance.yahoo.com/energy/articles/strathcona-acquire-greenfire-resources-2-061857554.html"
-        },
-        {
-          "title": "5 revealing analyst questions from Texas Pacific Land’s Q3 2026 earnings call",
-          "publisher": "StockStory",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/5-revealing-analyst-questions-texas-054936316.html"
         }
       ]
     },
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.797,
-      "change_pct": -0.94,
+      "price": 32.806,
+      "change_pct": -0.92,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.057,
-      "change_pct": 0.35,
+      "price": 158.061,
+      "change_pct": 0.36,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 73979.5781,
-      "change_pct": -0.81,
-      "volume": 21965551616,
+      "price": 73912.3672,
+      "change_pct": -0.9,
+      "volume": 22265184256,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4960,6 +4960,11 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Bitcoin slips to $74k as regulatory uncertainty, ETF outflows weigh",
+          "publisher": "Investing.com",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-74k-regulatory-uncertainty-071620566.html"
+        },
+        {
           "title": "Bitcoin Price Stalls as Gold Surges: Is a Major Crypto Catch-Up Rally Coming?",
           "publisher": "99bitcoins",
           "link": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-price-gold-price-rally-catch-up/"
@@ -4968,11 +4973,6 @@
           "title": "Vitalik Buterin Wants AI to Slow Down, Backs Anti-Data Center Movement",
           "publisher": "BeInCrypto",
           "link": "https://beincrypto.com/vitalik-buterin-anti-data-center-movement/"
-        },
-        {
-          "title": "Scaramucci Sees a 'Second Chance' as Bitcoin Erases Gains Since Trump's November 2024 Election Victory",
-          "publisher": "Benzinga",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/scaramucci-sees-second-chance-bitcoin-043017255.html"
         }
       ]
     },
@@ -4980,17 +4980,17 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2096.24,
-      "change_pct": -1.17,
-      "volume": 11820049408,
+      "price": 2088.9099,
+      "change_pct": -1.51,
+      "volume": 11992355840,
       "signal": "buy",
-      "confidence": 0.27,
+      "confidence": 0.26,
       "opinions": [
         {
           "agent": "technical",
           "signal": "buy",
-          "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2096.24 觸及下軌 2104.95)"
+          "confidence": 0.44,
+          "rationale": "bollinger_band:buy(價格 2088.91 觸及下軌 2102.94)"
         },
         {
           "agent": "macro",
@@ -5002,13 +5002,13 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.47%)"
+          "rationale": "波動度正常(ATR/價格=4.49%)"
         }
       ],
       "risk_levels": {
-        "entry_price": 2096.24,
-        "stop_loss": 1955.6056,
-        "take_profit": 2330.6306,
+        "entry_price": 2088.9099,
+        "stop_loss": 1948.2755,
+        "take_profit": 2323.3006,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
