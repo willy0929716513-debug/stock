@@ -1,6 +1,15 @@
 {
   "cash": 9453.353000000001,
-  "position": null,
+  "position": {
+    "symbol": "1227.TW",
+    "direction": "buy",
+    "entry_price": 26.2,
+    "qty": 360.0,
+    "opened_at": "2026-11-09T05:13:18.283164+00:00",
+    "reversal_count": 0,
+    "stop_loss": 25.5304,
+    "take_profit": 27.3161
+  },
   "trade_history": [
     {
       "symbol": "JPY=X",
