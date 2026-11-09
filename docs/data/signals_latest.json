@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:07:52.743829+00:00",
+  "generated_at": "2026-11-09T10:13:15.847280+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -4740,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4105.5,
-      "change_pct": 0.75,
-      "volume": 56255,
+      "price": 4107.8999,
+      "change_pct": 0.81,
+      "volume": 56474,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4788,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 90.26,
-      "change_pct": -0.63,
-      "volume": 50147,
+      "price": 90.33,
+      "change_pct": -0.55,
+      "volume": 50538,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4810,11 +4810,16 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.02,
-          "rationale": "波動度過高(ATR/價格=5.10%),建議降低部位或觀望"
+          "rationale": "波動度過高(ATR/價格=5.09%),建議降低部位或觀望"
         }
       ],
       "risk_levels": null,
       "news": [
+        {
+          "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-falls-open-trump-says-235002807.html"
+        },
         {
           "title": "Stocks edge up but Nvidia woes pose a fresh test, oil falls",
           "publisher": "Reuters",
@@ -4824,11 +4829,6 @@
           "title": "3 REIT Stocks Offering Steadier Income As Bond Yields Ease",
           "publisher": "Simply Wall St.",
           "link": "https://finance.yahoo.com/real-estate/articles/3-reit-stocks-offering-steadier-091512245.html"
-        },
-        {
-          "title": "Iraq Strikes U.S. Deal to Boost Oil Exports Through Hormuz",
-          "publisher": "Oilprice.com",
-          "link": "https://finance.yahoo.com/energy/articles/iraq-strikes-u-deal-boost-091000561.html"
         }
       ]
     },
@@ -4836,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.821,
-      "change_pct": -0.87,
+      "price": 32.818,
+      "change_pct": -0.88,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4884,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.034,
-      "change_pct": 0.34,
+      "price": 157.999,
+      "change_pct": 0.32,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4932,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74105.8516,
-      "change_pct": -0.64,
-      "volume": 25240430592,
+      "price": 74117.6172,
+      "change_pct": -0.63,
+      "volume": 25191251968,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4980,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2101.6599,
-      "change_pct": -0.91,
-      "volume": 13912311808,
+      "price": 2100.79,
+      "change_pct": -0.95,
+      "volume": 13965317120,
       "signal": "buy",
       "confidence": 0.27,
       "opinions": [
@@ -4990,7 +4990,7 @@
           "agent": "technical",
           "signal": "buy",
           "confidence": 0.45,
-          "rationale": "bollinger_band:buy(價格 2101.66 觸及下軌 2106.40)"
+          "rationale": "bollinger_band:buy(價格 2100.79 觸及下軌 2106.17)"
         },
         {
           "agent": "macro",
@@ -5006,9 +5006,9 @@
         }
       ],
       "risk_levels": {
-        "entry_price": 2101.6599,
-        "stop_loss": 1961.0255,
-        "take_profit": 2336.0506,
+        "entry_price": 2100.79,
+        "stop_loss": 1960.1556,
+        "take_profit": 2335.1807,
         "atr": 93.7563,
         "risk_reward_ratio": 1.67
       },
