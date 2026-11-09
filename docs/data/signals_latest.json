@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:52:40.987741+00:00",
+  "generated_at": "2026-11-09T08:58:01.193783+00:00",
   "tw_market_open_today": true,
   "macro": [],
   "signals": [
@@ -1280,7 +1280,23 @@
         "atr": 116.7857,
         "risk_reward_ratio": 1.67
       },
-      "news": []
+      "news": [
+        {
+          "title": "3 AI Infrastructure Stocks Retail Investors Are Watching As Rate Signals Shift",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-131411642.html"
+        },
+        {
+          "title": "Exploring 3 High Growth Tech Stocks in Asia",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/sectors/technology/articles/exploring-3-high-growth-tech-043833212.html"
+        },
+        {
+          "title": "High Growth Tech Stocks In Asia Featuring Kingdee International Software Group",
+          "publisher": "Simply Wall St.",
+          "link": "https://finance.yahoo.com/sectors/technology/articles/high-growth-tech-stocks-asia-043809192.html"
+        }
+      ]
     },
     {
       "symbol": "4938.TW",
@@ -4724,9 +4740,9 @@
       "symbol": "GC=F",
       "name": "黃金期貨",
       "category": "commodity",
-      "price": 4106.7998,
-      "change_pct": 0.78,
-      "volume": 51717,
+      "price": 4106.8999,
+      "change_pct": 0.79,
+      "volume": 52124,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4772,9 +4788,9 @@
       "symbol": "CL=F",
       "name": "原油期貨",
       "category": "commodity",
-      "price": 89.7,
-      "change_pct": -1.24,
-      "volume": 40070,
+      "price": 89.64,
+      "change_pct": -1.31,
+      "volume": 40740,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4800,19 +4816,19 @@
       "risk_levels": null,
       "news": [
         {
+          "title": "Take Five: Tech wreck and roll",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/five-tech-wreck-roll-084209156.html"
+        },
+        {
+          "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
+          "publisher": "Reuters",
+          "link": "https://finance.yahoo.com/energy/articles/oil-falls-open-trump-says-235002807.html"
+        },
+        {
           "title": "U.S. Treasury Yields Edge Lower as Oil Prices Decline",
           "publisher": "The Wall Street Journal",
           "link": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97?siteid=yhoof2&yptr=yahoo"
-        },
-        {
-          "title": "APA Corp (APA) (Q3 2026) Earnings Call Highlights: $699 Million Free Cash Flow, Raised Outlook ...",
-          "publisher": "GuruFocus.com",
-          "link": "https://finance.yahoo.com/energy/articles/apa-corp-apa-q3-2026-070301873.html"
-        },
-        {
-          "title": "The Reorientation of China's Sway Over Commodities",
-          "publisher": "CME Group",
-          "link": "https://finance.yahoo.com/markets/commodities/articles/reorientation-chinas-sway-over-commodities-070000326.html"
         }
       ]
     },
@@ -4820,8 +4836,8 @@
       "symbol": "TWD=X",
       "name": "美元/新台幣",
       "category": "forex",
-      "price": 32.819,
-      "change_pct": -0.88,
+      "price": 32.807,
+      "change_pct": -0.91,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4868,8 +4884,8 @@
       "symbol": "JPY=X",
       "name": "美元/日圓",
       "category": "forex",
-      "price": 158.113,
-      "change_pct": 0.39,
+      "price": 158.086,
+      "change_pct": 0.37,
       "volume": 0,
       "signal": "hold",
       "confidence": 0.0,
@@ -4916,9 +4932,9 @@
       "symbol": "BTC-USD",
       "name": "比特幣",
       "category": "crypto",
-      "price": 74296.6719,
-      "change_pct": -0.39,
-      "volume": 24379500544,
+      "price": 74424.6016,
+      "change_pct": -0.21,
+      "volume": 24265508864,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4964,9 +4980,9 @@
       "symbol": "ETH-USD",
       "name": "以太幣",
       "category": "crypto",
-      "price": 2117.55,
-      "change_pct": -0.16,
-      "volume": 13410432000,
+      "price": 2120.79,
+      "change_pct": -0.01,
+      "volume": 13487592448,
       "signal": "hold",
       "confidence": 0.0,
       "opinions": [
@@ -4986,7 +5002,7 @@
           "agent": "risk",
           "signal": "hold",
           "confidence": 0.0,
-          "rationale": "波動度正常(ATR/價格=4.43%)"
+          "rationale": "波動度正常(ATR/價格=4.42%)"
         }
       ],
       "risk_levels": null,
